@@ -1,0 +1,202 @@
+openapi: '3.0.2'
+info:
+  title: Waardelijst TOP-lijst versie 1.1
+  description: |
+    Beschrijft de thema's in de TOP-lijst versie 1.1
+  version: '2'
+  contact:
+    email: plooi@koop.overheid.nl
+  termsOfService: https://open.overheid.nl/terms
+  license:
+    name: MIT
+    url: https://open.overheid.nl/license
+components:
+  schemas:
+    Top:
+      type: string
+      description: |-
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_0361ffb3` - cultuur en recreatie
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_068da9fb` - inkoop en beheer
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_08d12aef` - onderzoek en wetenschap
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_0fe7c5e7` - jeugdzorg
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_124eaf3a` - wonen
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_1781ce20` - ouderen
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_17a86a17` - woningmarkt
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_195b5b5e` - transport
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_1f37c612` - arbeidsverhoudingen
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_1f781691` - speciaal onderwijs
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_1fe409d0` - staatsrecht
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_218c52ee` - ethiek
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_2408fb5a` - cultureel erfgoed
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_25e30d03` - belasting
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_2835e395` - luchtvaart
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_28ddcea5` - lucht
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_2e9944e7` - migratie
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_319461d7` - openbaar vervoer
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_341c5bef` - zorgverzekeringen
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_389a72e6` - water
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_391585db` - overheidsfinanciën
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_399f194b` - migratie en integratie
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_3afc269f` - ondernemen
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b` - organisatie en bedrijfsvoering
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_4348dad1` - begroting
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_4872b086` - terrorisme
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_4d1c84a7` - dienstensector
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_4e83eca7` - arbeidsomstandigheden
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_4eb912c1` - onderwijsvoorzieningen
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_516ec027` - hoger onderwijs
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_576c2bd7` - internationale betrekkingen
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_61d3e636` - stoffen
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_68609e19` - Europese zaken
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_6b728132` - media
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_6b9627b5` - geneesmiddelen en medische hulpmiddelen
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_70e03904` - evenementen
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_72138db9` - rechtspraak
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_75809540` - horeca
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_76136c82` - gezin en kinderen
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_79010191` - klimaatverandering
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_7a0f87d5` - zorginstellingen
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_7b01f260` - basisonderwijs
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_7ce8a10c` - bodem
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_824ce7ff` - privaatrecht
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_83db27fc` - handel
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_849842ac` - verkeer
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_85a72eb3` - netwerken
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_87d3d66c` - kenniseconomie
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_8940ed07` - ontwikkelingssamenwerking
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_8b081a63` - gezondheidsrisico's
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_980b8db2` - voortgezet onderwijs
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_989e37d9` - landbouw, visserij, voedselkwaliteit
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_98e03e32` - strafrecht
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_9a574af9` - ziekten en behandelingen
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_9af4b880` - ruimtelijke ordening
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_9d1917e9` - werk
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_9f410ab6` - geluid
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_a6a9eddd` - bouwen en verbouwen
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_a6c5e5b8` - recreatie
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_a71dc533` - waterbeheer
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_a94e1fa4` - integratie
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11` - natuur en milieu
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_b46b92e7` - beroepsonderwijs
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_beb01b1c` - bestuursrecht
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_c232ae4a` - onderwijs en wetenschap
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_cfc7d5ab` - ruimte en infrastructuur
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7` - zorg en gezondheid
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_d2b1338a` - rechten en vrijheden
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_d363776f` - economie
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_d3b599f8` - scheepvaart
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_d4890526` - sociale zekerheid
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_d58b78ca` - openbare orde en veiligheid
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_d772bf06` - veiligheid
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_d96f9cd3` - afval
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_daaa67b3` - defensie
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_db2fbedb` - natuur- en landschapsbeheer
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00` - markttoezicht
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_e277e756` - religie
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_e3d35361` - bezwaar en klachten
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_ee06665e` - informatievoorziening en ICT
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_f02ce1b3` - ouderenzorg
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_f28344a5` - koninkrijksrelaties
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_f2c9a613` - overheidspersoneel
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_f37fd49d` - inrichting van de overheid
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_f411e390` - rail- en wegverkeer
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc` - recht
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_f47ad6ca` - internationaal
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_f4f1867a` - energie
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_f6d7f591` - interne organisatie
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_f72b706a` - cultuur
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_fc530104` - arbeidsongeschiktheid en werkloosheid
+        * `https://identifier.overheid.nl/tooi/def/thes/top/c_fcac43e4` - criminaliteit
+      enum:
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_0361ffb3
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_068da9fb
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_08d12aef
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_0fe7c5e7
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_124eaf3a
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_1781ce20
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_17a86a17
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_195b5b5e
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_1f37c612
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_1f781691
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_1fe409d0
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_218c52ee
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_2408fb5a
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_25e30d03
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_2835e395
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_28ddcea5
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_2e9944e7
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_319461d7
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_341c5bef
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_389a72e6
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_391585db
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_399f194b
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_3afc269f
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_4348dad1
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_4872b086
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_4d1c84a7
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_4e83eca7
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_4eb912c1
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_516ec027
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_576c2bd7
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_61d3e636
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_68609e19
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_6b728132
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_6b9627b5
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_70e03904
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_72138db9
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_75809540
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_76136c82
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_79010191
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_7a0f87d5
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_7b01f260
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_7ce8a10c
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_824ce7ff
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_83db27fc
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_849842ac
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_85a72eb3
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_87d3d66c
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_8940ed07
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_8b081a63
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_980b8db2
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_989e37d9
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_98e03e32
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_9a574af9
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_9af4b880
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_9d1917e9
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_9f410ab6
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_a6a9eddd
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_a6c5e5b8
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_a71dc533
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_a94e1fa4
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_b46b92e7
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_beb01b1c
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_c232ae4a
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_cfc7d5ab
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_d2b1338a
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_d363776f
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_d3b599f8
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_d4890526
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_d58b78ca
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_d772bf06
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_d96f9cd3
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_daaa67b3
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_db2fbedb
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_e277e756
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_e3d35361
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_ee06665e
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_f02ce1b3
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_f28344a5
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_f2c9a613
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_f37fd49d
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_f411e390
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_f47ad6ca
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_f4f1867a
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_f6d7f591
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_f72b706a
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_fc530104
+        - https://identifier.overheid.nl/tooi/def/thes/top/c_fcac43e4

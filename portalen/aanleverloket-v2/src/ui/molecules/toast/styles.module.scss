@@ -1,0 +1,24 @@
+.toast
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    & button {
+        background-color: transparent;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+    }
+
+    & h2 {
+        margin: 0
+    }
+
+    & p {
+        margin: 0;
+    }
+}

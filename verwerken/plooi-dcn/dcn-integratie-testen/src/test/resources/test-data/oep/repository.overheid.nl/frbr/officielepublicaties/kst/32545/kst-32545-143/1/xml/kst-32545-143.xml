@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<officiele-publicatie xsi:noNamespaceSchemaLocation="http://technische-documentatie.oep.overheid.nl/repository/schemas/op-consolidated/op-consolidated_2014-05-15/xsd/op-xsd-2014-05-15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata>
+    <meta name="OVERHEIDop.externMetadataRecord" scheme="" content="https://zoek.officielebekendmakingen.nl/kst-32545-143/metadata.xml"/>
+  </metadata>
+  <kamerstuk>
+    <kamerstukkop>
+      <tekstregel inhoud="vergaderjaar">Vergaderjaar 2020-2021</tekstregel>
+      <tekstregel inhoud="kameraanduiding">Tweede Kamer der Staten-Generaal</tekstregel>
+      <tekstregel inhoud="kamernummer">2</tekstregel>
+      <tekstregel inhoud="documenttype">Kamerstukken</tekstregel>
+    </kamerstukkop>
+    <dossier>
+      <dossiernummer>
+        <dossiernr>32 545</dossiernr>
+      </dossiernummer>
+      <titel>Wet- en regelgeving financiële markten</titel>
+    </dossier>
+    <stuk>
+      <stuknr>Nr. <ondernummer kamer="2">143</ondernummer></stuknr>
+      <titel>MOTIE VAN DE LEDEN INGE VAN DIJK EN GRINWIS</titel>
+      <datumtekst>Voorgesteld <datum isodatum="2021-07-06">6 juli 2021</datum></datumtekst>
+      <algemeen>
+        <vrije-tekst>
+          <tekst status="goed">
+            <al>De Kamer,</al>
+            <al>gehoord de beraadslaging,</al>
+            <al>constaterende dat diverse financiële instellingen klanten laten betalen voor hun spaargeld en in sommige gevallen ook afscheid nemen van spaarders;</al>
+            <al>constaterende dat veel financiële instellingen een negatieve spaarrente hanteren vanaf € 100.000;</al>
+            <al>overwegende dat voorkomen dient te worden dat de grens van negatieve spaarrente de kleine spaarder nog verder gaat raken;</al>
+            <al>verzoekt de regering, om een grensspaarsaldo te definiëren waaronder een negatieve spaarrente onwenselijk is en met de banken in gesprek te gaan om afspraken te maken over het borgen van deze ondergrens;</al>
+            <al>verzoekt de regering tevens, om, indien de Minister constateert dat banken niet bereid zijn zich te beperken tot dit grenssaldo, een wetsvoorstel voor te bereiden met een verbod op negatieve spaarrente vanaf de geformuleerde spaarsaldogrens,</al>
+            <al>en gaat over tot de orde van de dag.</al>
+            <al-groep>
+              <al>Inge van Dijk</al>
+              <al>Grinwis</al>
+            </al-groep>
+          </tekst>
+        </vrije-tekst>
+      </algemeen>
+    </stuk>
+  </kamerstuk>
+</officiele-publicatie>

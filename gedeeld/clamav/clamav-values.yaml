@@ -1,0 +1,210 @@
+# Default values for fluentd.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+image:
+  # -- Image repository.
+  repository:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  # -- Image tag.
+  # @default -- `{{ .Chart.AppVersion }}` or `{{ .Chart.AppVersion }}_base`
+  tag: ""
+  # -- Image pull policy.
+  pullPolicy: IfNotPresent
+
+# -- Image pull secrets.
+imagePullSecrets:
+  - name: harbor-puller
+
+# -- Override the name of the chart.
+nameOverride: ""
+# -- Override the fullname of the chart.
+fullnameOverride: ""
+
+serviceAccount:
+  # -- If `true`, create a new service account.
+  create: false
+  # -- Annotations to add to the service account
+  annotations: {}
+  # -- Service account to be used. If not set and serviceAccount.create is true, a name is generated using the full name template.
+  name:SSSSSSSSSSSSS
+
+# -- Number of replicas to create if `autoscalling.enabled` is `false`.
+replicas: 1
+
+# -- Update strategy for the pod.
+updateStrategy: {}
+
+autoscaling:
+  # -- If `true`, create a HPA for the deployment.
+  enabled: false
+  # -- Minimum number of pod replicas.
+  minReplicas: 1
+  # -- Maximum number of pod replicas.
+  maxReplicas: 3
+  # -- Target CPU utilisation for the pod.
+  targetCPUUtilizationPercentage: 60
+  # -- Target memory utilisation for the pod.
+  targetMemoryUtilizationPercentage:
+
+# https://kubernetes.io/docs/tasks/run-application/configure-pdb/
+podDisruptionBudget:
+  # -- If `true`, create a PDB for the deployment.
+  enabled: false
+  # -- (int) Set the PDB minimum available pods.
+  minAvailable:
+  # -- (int) Set the PDB maximum unavailable pods.
+  maxUnavailable:
+
+# -- Labels to add to the pod.
+podLabels:
+  tier: vertrouwd
+  ingress-frontoffice-policy: allow
+  egress-frontoffice-policy: allow
+
+# -- Annotations to add to the pod.
+podAnnotations: {}
+
+# -- Security context for the pod.
+# @default -- see values.yaml
+podSecurityContext:
+  fsGroup: 65534
+  runAsNonRoot: true
+  runAsUser: 100
+  runAsGroup: 101
+
+# -- Security context for the clamav container.
+securityContext: {}
+#   capabilities:
+#     drop:
+#       - ALL
+#   readOnlyRootFilesystem: true
+
+# -- Priority class name to use.
+priorityClassName: ""
+
+# --  The liveness probe.
+# @default -- see values.yaml
+livenessProbe:
+  exec:
+    command:
+      - clamdcheck.sh
+  initialDelaySeconds: 15
+  periodSeconds: 30
+  failureThreshold: 10
+  timeoutSeconds: 1
+
+# -- The readiness probe.
+# @default -- see values.yaml
+readinessProbe:
+  exec:
+    command:
+      - clamdcheck.sh
+  initialDelaySeconds: 15
+  periodSeconds: 30
+  failureThreshold: 10
+  timeoutSeconds: 1
+
+service:
+  # -- Service type.
+  type: ClusterIP
+  # -- Annotations to add to the service.
+  annotations: {}
+  # --  Service port.
+  port: 3310
+
+ingress:
+  # -- If `true`, create an ingress object.
+  enabled: false
+  # --  Ingress annotations.
+  annotations:
+    nginx.ingress.kubernetes.io/proxy-body-size: 1G
+  # -- Ingress class to use.
+  ingressClassName: nginx
+  # -- Ingress hosts.
+  hosts:
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  # -- Ingress TLS configuration
+  tls: wildcard-tls
+
+persistence:
+  # -- If `true`, create a PVC.
+  enabled: true
+  # -- Annotations to add to the PVC.
+  annotations: {}
+  # -- Use an existing PVC to persist data.
+  # existingClaim: existing-pvc
+  # -- Persistence access mode.
+  accessMode: ReadWriteOnce
+  # -- PVC storage class (use `-`` for default).
+  storageClass: standard
+  # -- Size of PVC to create.
+  size: 5Gi
+
+# -- Resource requests and limits for the clamav container.
+resources:
+# We usually recommend not to specify default resources and to leave this as a conscious
+# choice for the user. This also increases chances charts run on environments with little
+# resources, such as Minikube. If you do want to specify resources, uncomment the following
+# lines, adjust them as necessary, and remove the curly braces after 'resources:'.
+  limits:
+    cpu: 1000m
+    memory: 2000Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
+# -- Node labels for pod assignment.
+nodeSelector: {}
+
+# -- Tolerations for pod assignment.
+tolerations: []
+
+# -- Affinity for pod assignment.
+affinity: {}
+
+# -- Environment variables for the clamav container.
+env:
+#   - name: VARIABLE
+#     value: my-value
+
+# -- The clamav database directory
+databaseDirectory: /var/lib/clamav
+
+# -- The `clamd` configuration.
+# @default -- see values.yaml
+config: |-
+  LogTime yes
+  LogSyslog yes
+  Foreground true
+  TCPSocket 3310
+  TCPAddr 0.0.0.0
+  User clamav
+  SelfCheck 600
+  StreamMaxLength 0
+  MaxFileSize 0
+  MaxScanSize 0
+  ReadTimeout 600
+  DatabaseDirectory {{ .Values.databaseDirectory }}
+
+freshclam:
+  # -- If `true`, create a freshclam container.
+  enabled: true
+  # -- Security context for the freshclam container.
+  securityContext: {}
+  # -- Resource requests and limits for the freshclam container.
+  resources:
+    requests:
+      cpu: 1500m
+      memory: 1000Mi
+    limits:
+      cpu: 2500m
+      memory: 2000Mi
+  # -- The `freshclam` configuration.
+  # @default -- see values.yaml
+  config: |-
+    Foreground true
+    DatabaseOwner clamav
+    DatabaseMirror database.clamav.net
+    ReceiveTimeout 300
+    ScriptedUpdates yes
+    DatabaseDirectory {{ .Values.databaseDirectory }}

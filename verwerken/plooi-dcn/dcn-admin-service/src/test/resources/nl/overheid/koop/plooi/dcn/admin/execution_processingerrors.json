@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "executionId": "some-execution-id",
+        "status": null,
+        "fromRoute": "test-route",
+        "exceptionClass": "NullPointerException",
+        "exceptionMessage": "test-message",
+        "exceptionResponse": null,
+        "exceptionStacktrace": "test-stacktrace",
+        "statusCode": null,
+        "statusText": null,
+        "sourceName": "oep",
+        "externalId": null,
+        "internalId": null,
+        "documentLocation": null,
+        "metadataLocation": null,
+        "messageBody": null,
+        "timeCreated": "2022-01-18T11:01:19.204022",
+        "timeUpdated": "2022-01-18T11:01:19.204022",
+        "documentEventId": null
+    }
+]

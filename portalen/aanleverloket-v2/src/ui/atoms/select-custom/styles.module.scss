@@ -1,0 +1,50 @@
+@import "../../colors.scss";
+@import "../../icons.scss";
+
+.select {
+  border: 1px solid $darkBlue;
+  background-color: white;
+  border-radius: 5px;
+
+  select {
+    background: $iconArrowDown;
+    background-repeat: no-repeat;
+    background-position: right 0.5em center;
+    background-size: $iconSize;
+    font-size: 1em;
+    padding: 0 2.25em 0 0.75em;
+    border: none;
+    height: 2.65em;
+    appearance: none;
+    border-radius: 5px;
+    color: $darkGrey;
+    width: 100%;
+    
+    &:focus {
+      outline: 2px solid $focus;
+      outline-offset: 0;
+      z-index: 1;
+    }
+
+    &:active {
+      outline: 2px solid $focus;
+      outline-offset: 0;
+      z-index: 1;
+    }
+
+    &:disabled,
+    &[disabled],
+    &[read-only] {
+      background-color: $lighterGrey;
+      color: $lightGrey;
+
+      &:focus {
+        outline: none;
+      }
+
+      &:active {
+        outline: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<waardelijst name="ministerie_compleet">
+   <metadata>
+      <statement>
+         <key>http://purl.org/dc/terms/identifier</key>
+         <value>https://identifier.overheid.nl/tooi/set/ministerie_compleet/v1.xml</value>
+      </statement>
+      <statement>
+         <key>http://purl.org/pav/derivedFrom</key>
+         <value>https://identifier.overheid.nl/tooi/id/ministerie</value>
+      </statement>
+      <statement>
+         <key>https://identifier.overheid.nl/tooi/def/ont/zichtdatum</key>
+         <value>2020-06-23T00:00:00</value>
+      </statement>
+      <statement>
+         <key>https://identifier.overheid.nl/tooi/def/wl/volgnummer</key>
+         <value>1</value>
+      </statement>
+      <statement>
+         <key>http://purl.org/dc/terms/format</key>
+         <value>http://publications.europa.eu/resource/authority/file-type/XML</value>
+      </statement>
+      <statement>
+         <key>https://identifier.overheid.nl/tooi/def/ont/publicatiedatum</key>
+         <value>2020-06-23T00:00:00</value>
+      </statement>
+      <statement>
+         <key>http://www.w3.org/ns/prov#generatedAtTime</key>
+         <value>2020-06-23T13:47:36.348+02:00</value>
+      </statement>
+      <statement>
+         <key>https://identifier.overheid.nl/tooi/def/ont/verantwoordelijke</key>
+         <value>https://identifier.overheid.nl/tooi/id/ministerie/mnre1034</value>
+      </statement>
+      <statement>
+         <key>http://purl.org/dc/terms/description</key>
+         <value>Beschrijft alle ministeries die voor zover bekend op de zichtdatum bestaan hebben, bestaan of zullen bestaan</value>
+      </statement>
+      <statement>
+         <key>https://identifier.overheid.nl/tooi/def/ont/titel</key>
+         <value>Waardelijst ministeries compleet</value>
+      </statement>
+   </metadata>
+   <waarden>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/mnre1058</code>
+         <omschrijving>ministerie van Justitie en Veiligheid</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Justitie en Veiligheid</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/minjenv</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Justitie en Veiligheid</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1058</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>JenV</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Justitie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Justitie en Veiligheid</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Justitie en Veiligheid</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Justitie en Veiligheid</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1058</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Veiligheid_en_Justitie</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Justitie en Veiligheid</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Justitie en Veiligheid</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/mnre1150</code>
+         <omschrijving>ministerie van Landbouw, Natuur en Voedselkwaliteit</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Landbouw, Natuur en Voedselkwaliteit</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1150</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Landbouw, Natuur en Voedselkwaliteit</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Landbouw, Natuur en Voedselkwaliteit</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Landbouw, Natuur en Voedselkwaliteit</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Landbouw, Natuur en Voedselkwaliteit</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/einddatum</key>
+               <value>2010-10-13</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/ns/prov#invalidatedAtTime</key>
+               <value>2010-10-14T00:00:00</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>LNV</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Landbouw, Natuur en Voedselkwaliteit</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1150</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Landbouw, Natuur en Voedselkwaliteit</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/mnre1109</code>
+         <omschrijving>ministerie van Onderwijs, Cultuur en Wetenschap</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Onderwijs, Cultuur en Wetenschap</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Onderwijs, Cultuur en Wetenschap</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Onderwijs,_Cultuur_en_Wetenschap</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1109</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1109</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Onderwijs, Cultuur en Wetenschap</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>OCW</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Onderwijs, Cultuur en Wetenschap</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Onderwijs, Cultuur en Wetenschap</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Onderwijs, Cultuur en Wetenschap</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Onderwijs, Cultuur en Wetenschap</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/hv_06784634</code>
+         <omschrijving>ministerie van Infrastructuur en Milieu</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1130</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/minienw</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Infrastructuur_en_Milieu</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/ns/prov#invalidatedAtTime</key>
+               <value>2018-01-01T00:00:00</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/einddatum</key>
+               <value>2017-12-31</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Infrastructuur en Milieu</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1130</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Infrastructuur en Milieu</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Infrastructuur en Milieu</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Infrastructuur en Milieu</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Infrastructuur en Milieu</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>IenM</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Infrastructuur en Milieu</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Infrastructuur en Waterstaat</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/mnre0180</code>
+         <omschrijving>ministerie van Volkshuisvesting, Ruimtelijke Ordening en Milieubeheer</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Volkshuisvesting, Ruimtelijke Ordening en Milieubeheer</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Volkshuisvesting, Ruimtelijke Ordening en Milieubeheer</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>VROM</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/ns/prov#invalidatedAtTime</key>
+               <value>2010-10-14T00:00:00</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/einddatum</key>
+               <value>2010-10-13</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Volkshuisvesting, Ruimtelijke Ordening en Milieubeheer</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Volkshuisvesting, Ruimtelijke Ordening en Milieubeheer</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>0180</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre0180</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Volkshuisvesting,_Ruimtelijke_Ordening_en_Milieubeheer</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Volkshuisvesting, Ruimtelijke Ordening en Milieubeheer</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Volkshuisvesting, Ruimtelijke Ordening en Milieubeheer</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Volkshuisvesting, Ruimtelijke Ordening en Milieubeheer</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/hv_04795600</code>
+         <omschrijving>ministerie van Veiligheid en Justitie</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1058</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Veiligheid en Justitie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Veiligheid en Justitie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Veiligheid_en_Justitie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Veiligheid en Justitie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Veiligheid en Justitie</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/ns/prov#invalidatedAtTime</key>
+               <value>2018-01-01T00:00:00</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Veiligheid en Justitie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>VenJ</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Veiligheid en Justitie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/minjenv</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Veiligheid en Justitie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1058</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Justitie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/einddatum</key>
+               <value>2017-12-31</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/mnre1013</code>
+         <omschrijving>ministerie van Buitenlandse Zaken</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1013</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Buitenlandse Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Buitenlandse Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Buitenlandse Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Buitenlandse Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1013</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Buitenlandse_Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Buitenlandse Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Buitenlandse Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Buitenlandse Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>Buza</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/mnre0170</code>
+         <omschrijving>ministerie van Verkeer en Waterstaat</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Verkeer en Waterstaat</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Verkeer_en_Waterstaat</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Verkeer en Waterstaat</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>VW</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre0170</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/ns/prov#invalidatedAtTime</key>
+               <value>2010-10-14T00:00:00</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Verkeer en Waterstaat</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Verkeer en Waterstaat</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Verkeer en Waterstaat</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/einddatum</key>
+               <value>2010-10-13</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>0170</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Verkeer en Waterstaat</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Verkeer en Waterstaat</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/mnre1130</code>
+         <omschrijving>ministerie van Infrastructuur en Waterstaat</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/begindatum</key>
+               <value>2010-10-13</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Infrastructuur en Waterstaat</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Infrastructuur_en_Milieu</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Infrastructuur en Waterstaat</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Infrastructuur en Waterstaat</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Infrastructuur en Waterstaat</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Infrastructuur en Waterstaat</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/ns/prov#generatedAtTime</key>
+               <value>2010-10-14T00:00:00</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Infrastructuur en Waterstaat</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1130</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/minienw</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>IenW</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Infrastructuur en Waterstaat</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1130</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/mnre1018</code>
+         <omschrijving>ministerie van Defensie</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>MinDef</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Defensie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Defensie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1018</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Defensie</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Defensie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Defensie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Defensie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Defensie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1018</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Defensie</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/mnre1040</code>
+         <omschrijving>ministerie van Economische Zaken</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Economische Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Economische Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1040</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Economische Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Economische Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Economische Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/einddatum</key>
+               <value>2010-10-13</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>EZ</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Economische Zaken</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Economische Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1040</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/ns/prov#invalidatedAtTime</key>
+               <value>2010-10-14T00:00:00</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/hv_17252319</code>
+         <omschrijving>ministerie van Economische Zaken, Landbouw en Innovatie</omschrijving>
+         <metadata>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Economische Zaken, Landbouw en Innovatie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Economische Zaken, Landbouw en Innovatie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>ELenI</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/einddatum</key>
+               <value>2012-12-31</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/minezk</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/ns/prov#invalidatedAtTime</key>
+               <value>2013-01-01T00:00:00</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Economische Zaken, Landbouw en Innovatie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Economische_Zaken_Landbouw_en_Innovatie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1045</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Economische Zaken, Landbouw en Innovatie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Economische Zaken, Landbouw en Innovatie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Economische Zaken, Landbouw en Innovatie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1045</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Economische Zaken, Landbouw en Innovatie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Economische_Zaken</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/mnre1045</code>
+         <omschrijving>ministerie van Economische Zaken en Klimaat</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Economische Zaken en Klimaat</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>EZK</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Economische Zaken en Klimaat</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Economische Zaken en Klimaat</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/ns/prov#generatedAtTime</key>
+               <value>2010-10-14T00:00:00</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Economische Zaken en Klimaat</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/minezk</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/begindatum</key>
+               <value>2010-10-13</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1045</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Economische_Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Economische Zaken en Klimaat</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Economische Zaken en Klimaat</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1045</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Economische_Zaken_Landbouw_en_Innovatie</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Economische Zaken en Klimaat</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/mnre1073</code>
+         <omschrijving>ministerie van Sociale Zaken en Werkgelegenheid</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1073</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Sociale Zaken en Werkgelegenheid</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>SZW</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Sociale Zaken en Werkgelegenheid</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Sociale Zaken en Werkgelegenheid</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1073</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Sociale Zaken en Werkgelegenheid</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Sociale Zaken en Werkgelegenheid</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Sociale_Zaken_en_Werkgelegenheid</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Sociale Zaken en Werkgelegenheid</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Sociale Zaken en Werkgelegenheid</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/mnre1153</code>
+         <omschrijving>ministerie van Landbouw, Natuur en Voedselkwaliteit</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Landbouw, Natuur en Voedselkwaliteit</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Landbouw, Natuur en Voedselkwaliteit</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Landbouw, Natuur en Voedselkwaliteit</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1153</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Landbouw, Natuur en Voedselkwaliteit</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Landbouw, Natuur en Voedselkwaliteit</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Landbouw, Natuur en Voedselkwaliteit</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/begindatum</key>
+               <value>2017-10-25</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Landbouw,_Natuur_en_Voedselkwaliteit</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1153</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Landbouw, Natuur en Voedselkwaliteit</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/ns/prov#generatedAtTime</key>
+               <value>2017-10-26T00:00:00</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>LNV</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/hv_05434137</code>
+         <omschrijving>ministerie van Economische Zaken</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1045</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Economische Zaken</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/ns/prov#invalidatedAtTime</key>
+               <value>2018-01-01T00:00:00</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/einddatum</key>
+               <value>2017-12-31</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Economische Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Economische Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/minezk</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Economische Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1045</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Economische Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Economische_Zaken_Landbouw_en_Innovatie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>EZ</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Economische_Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Economische Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Economische Zaken</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/mnre1010</code>
+         <omschrijving>ministerie van Algemene Zaken</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Algemene Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>AZ</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Algemene Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1010</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Algemene Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1010</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Algemene Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Algemene Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Algemene Zaken</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Algemene Zaken</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Algemene_Zaken</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/hv_04793043</code>
+         <omschrijving>ministerie van Justitie</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/einddatum</key>
+               <value>2010-11-30</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1058</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Veiligheid_en_Justitie</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Justitie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Justitie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Justitie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Justitie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/minjenv</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/ns/prov#invalidatedAtTime</key>
+               <value>2010-12-01T00:00:00</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1058</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Justitie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Justitie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Justitie</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>MinJus</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Justitie</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/mnre1025</code>
+         <omschrijving>ministerie van Volksgezondheid, Welzijn en Sport</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Volksgezondheid, Welzijn en Sport</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1025</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Volksgezondheid, Welzijn en Sport</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Volksgezondheid, Welzijn en Sport</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Volksgezondheid, Welzijn en Sport</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Volksgezondheid, Welzijn en Sport</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1025</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Volksgezondheid,_Welzijn_en_Sport</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Volksgezondheid, Welzijn en Sport</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>VWS</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Volksgezondheid, Welzijn en Sport</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/mnre1034</code>
+         <omschrijving>ministerie van Binnenlandse Zaken en Koninkrijksrelaties</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Binnenlandse Zaken en Koninkrijksrelaties</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Binnenlandse_Zaken_en_Koninkrijksrelaties</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>BZK</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Binnenlandse Zaken en Koninkrijksrelaties</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Binnenlandse Zaken en Koninkrijksrelaties</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1034</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Binnenlandse Zaken en Koninkrijksrelaties</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Binnenlandse Zaken en Koninkrijksrelaties</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Binnenlandse Zaken en Koninkrijksrelaties</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1034</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Binnenlandse Zaken en Koninkrijksrelaties</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/ministerie/mnre1090</code>
+         <omschrijving>ministerie van Financiën</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>MinFin</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Financiën</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/ministeriecode</key>
+               <value>1090</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>ministerie van Financiën</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Financiën</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Financiën</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>ministerie van Financiën</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Ministerie_van_Financien</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>ministerie van Financiën</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>mnre1090</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Financiën</value>
+            </statement>
+         </metadata>
+      </waarde>
+   </waarden>
+</waardelijst>

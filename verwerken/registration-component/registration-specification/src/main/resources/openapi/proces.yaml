@@ -1,0 +1,209 @@
+paths:
+  /processen:
+    get:
+      description: |
+        geeft processen per pagina (pagina nummer, size, content), inclusief tellingen.
+        De tellingen kunnen voor efficiency redenen echter weggelaten worden.
+      tags:
+        - proces
+      operationId: getProcessen
+      parameters:
+        - name: ids
+          in: query
+          schema:
+            type: array
+            items:
+              type: string
+        - name: sourceLabel
+          in: query
+          schema:
+            type: string
+        - name: triggerType
+          in: query
+          schema:
+            type: string
+        - name: timeCreated.van
+          in: query
+          schema:
+            type: string
+            format: date-time
+        - name: timeCreated.tot
+          in: query
+          schema:
+            type: string
+            format: date-time
+        - name: alleenFalend
+          description: haal alleen processen op met procesfouten of gefaalde verwerkingen
+          in: query
+          schema:
+            type: boolean
+            default: false
+        - name: zonderTellingen
+          description: laat de tellingen achterwege
+          in: query
+          schema:
+            type: boolean
+            default: false
+        - $ref: 'base.yaml#/components/parameters/pageNumber'
+        - $ref: 'base.yaml#/components/parameters/pageSize'
+      responses:
+        200:
+          $ref: './registratieApi.yaml#/components/responses/found'
+    post:
+      description: |
+        slaat een nieuwe proces op
+      tags:
+        - proces
+      operationId: createProces
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Proces'
+      responses:
+        200:
+          description: proces is opgeslagen
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Proces'
+        400:
+          description: aangeleverd proces is niet geldig
+
+  /processen/{id}:
+    get:
+      description: |
+        geeft proces details en tellingen
+      tags:
+        - proces
+      operationId: getProces
+      parameters:
+        - name: id
+          in: path
+          description: proces identificatie
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: het gevonden proces
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Proces'
+        404:
+          description: proces identificatie is onbekend
+
+  /processen/{id}/verwerkingen:
+    get:
+      description: |
+        geeft verwerkingen voor een proces per pagina (pagina nummer, size, content)
+      tags:
+        - proces
+      operationId: getProcesVerwerkingen
+      parameters:
+        - name: id
+          in: path
+          description: proces identificatie
+          required: true
+          schema:
+            type: string
+        - name: severity
+          in: query
+          description: filter de verwerkingen op een severity
+          schema:
+            $ref: "severity.yaml#/components/schemas/Severity"
+        - $ref: "base.yaml#/components/parameters/pageNumber"
+        - $ref: "base.yaml#/components/parameters/pageSize"
+      responses:
+        200:
+          $ref: './registratieApi.yaml#/components/responses/found'
+        404:
+          description: proces identificatie is onbekend
+    post:
+      description: |
+        slaat een nieuwe verwerking op bij een proces
+      tags:
+        - proces
+      operationId: createVerwerking
+      parameters:
+        - name: id
+          in: path
+          description: proces identificatie
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: nieuwe verwerking met eventuele diagnoses en excepties
+        content:
+          application/json:
+            schema:
+              $ref: 'verwerking.yaml#/components/schemas/Verwerking'
+      responses:
+        200:
+          description: verwerking is opgeslagen
+          content:
+            application/json:
+              schema:
+                $ref: 'verwerking.yaml#/components/schemas/Verwerking'
+        400:
+          description: aangeleverde verwerking is niet geldig
+        404:
+          description: proces identificatie is onbekend
+
+components:
+  schemas:
+
+    Proces:
+      type: object
+      properties:
+        id:
+          description: proces identificatie
+          required: true
+          type: string
+        sourceLabel:
+          description: bron van de documenten in dit proces, wanneer van toepassing
+          type: string
+        triggerType:
+          required: true
+          type: string
+        trigger:
+          required: true
+          type: string
+        timeCreated:
+          type: string
+          format: date-time
+        excepties:
+          type: array
+          items:
+            $ref: 'exceptie.yaml#/components/schemas/Exceptie'
+        procesCounts:
+          $ref: '#/components/schemas/ProcesCounts'
+
+    ProcesCounts:
+      type: object
+      properties:
+        totalCount:
+          type: integer
+          format: int64
+        documentCount:
+          type: integer
+          format: int64
+        okCount:
+          type: integer
+          format: int64
+        infoCount:
+          type: integer
+          format: int64
+        warningCount:
+          type: integer
+          format: int64
+        errorCount:
+          type: integer
+          format: int64
+        exceptionCount:
+          type: integer
+          format: int64
+        procesExceptionCount:
+          type: integer
+          format: int64

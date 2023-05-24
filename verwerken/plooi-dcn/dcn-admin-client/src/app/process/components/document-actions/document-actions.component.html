@@ -1,0 +1,26 @@
+<div class="container" *ngIf="showActions">
+    <strong>Beschikbare acties</strong>
+    <table class="table table--condensed table--striped">
+        <thead>
+        <tr>
+            <th scope="col" class="u-columnwidth-10p">Actie</th>
+            <th scope="col" class="u-columnwidth-50p">Toelichting</th>
+        </tr>
+
+        </thead>
+        <tbody>
+        <tr>
+            <td class=""><a (click)="applyActionOnDocument('unpublish', internalId)" [ngClass]="{'disabled': isDeleted}">trek document in</a></td>
+            <td class="">maak het document onbeschikbaar voor de gebruikers (status published -> unpublished)</td>
+        </tr>
+        <tr>
+            <td class="" (click)="applyActionOnDocument('process', internalId)"><a>verwerk opnieuw</a></td>
+            <td class="">verwerk het document opnieuw in de DCN keten, bijvoorbeeld na aanpassing mapping</td>
+        </tr>
+        <tr>
+            <td class=""><a (click)="applyActionOnDocument('redo', internalId)" [ngClass]="{'disabled': !isDeleted}">publiceer opnieuw</a></td>
+            <td class="">een document dat eerder is ingetrokken alsnog verwerken en indexeren</td>
+        </tr>
+        </tbody>
+    </table>
+</div>

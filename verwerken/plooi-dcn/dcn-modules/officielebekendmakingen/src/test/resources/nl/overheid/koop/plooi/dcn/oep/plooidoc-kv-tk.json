@@ -1,0 +1,67 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/oep-8b3d7d3bb9df556ae725c0467c7edc9f5ed1f848",
+    "weblocatie" : "https://zoek.officielebekendmakingen.nl/kv-tk-2020Z13248.html",
+    "creatiedatum" : "2020-07-02",
+    "geldigheid" : {
+      "begindatum" : "2020-07-02"
+    },
+    "identifiers" : [ "kv-tk-2020Z13248" ],
+    "verantwoordelijke" : {
+      "type" : "overheid:AndereOrganisatie",
+      "id" : "https://identifier.overheid.nl/tooi/id/oorg/oorg10002",
+      "label" : "Tweede Kamer",
+      "bronwaarde" : "Tweede Kamer der Staten-Generaal"
+    },
+    "publisher" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/organisatie_onbekend",
+      "label" : "Onbekend"
+    },
+    "opsteller" : {
+      "type" : "overheid:AndereOrganisatie",
+      "id" : "https://identifier.overheid.nl/tooi/id/oorg/oorg10002",
+      "label" : "Tweede Kamer",
+      "bronwaarde" : "Tweede Kamer der Staten-Generaal"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "titelcollectie" : {
+      "officieleTitel" : "Huisbazen die weigeren loden leidingen te vervangen"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "type" : "overheid:Informatietype",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_03c52ba0",
+        "label" : "Kamervraag zonder antwoord",
+        "bronwaarde" : "Kamervragen zonder antwoord"
+      } ],
+      "themas" : [ {
+        "type" : "plooi:Topthema",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_17a86a17",
+        "label" : "woningmarkt",
+        "bronwaarde" : "Huren en verhuren"
+      } ]
+    },
+    "extraMetadata" : [ {
+      "prefix" : "plooi.displayfield",
+      "velden" : [ {
+        "key" : "vergaderjaar",
+        "values" : [ "2019-2020" ]
+      }, {
+        "key" : "indiener",
+        "values" : [ "H. Nijboer" ]
+      }, {
+        "key" : "documentsubsoort",
+        "values" : [ "Schriftelijke vragen" ]
+      } ]
+    } ]
+  },
+  "plooiIntern" : {
+    "dcnId" : "oep-8b3d7d3bb9df556ae725c0467c7edc9f5ed1f848",
+    "aanbieder" : "officielebekendmakingen.nl",
+    "extId" : [ "dummy" ],
+    "sourceLabel" : "oep"
+  }
+}

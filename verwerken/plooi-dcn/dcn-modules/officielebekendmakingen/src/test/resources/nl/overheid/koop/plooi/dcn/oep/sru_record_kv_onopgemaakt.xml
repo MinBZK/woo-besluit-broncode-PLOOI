@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sru:record xmlns:overheidwetgeving="http://standaarden.overheid.nl/wetgeving/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:cd="http://standaarden.overheid.nl/cup/data" xmlns:sru="http://docs.oasis-open.org/ns/search-ws/sruResponse"
+    xmlns:gzd="http://standaarden.overheid.nl/sru" xmlns:diag="http://docs.oasis-open.org/ns/search-ws/diagnostic" xmlns:facet="http://docs.oasis-open.org/ns/search-ws/facetedResults" xmlns:c="http://standaarden.overheid.nl/collectie/">
+    <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+    <sru:recordPacking>xml</sru:recordPacking>
+    <sru:recordData>
+        <gzd:gzd>
+            <gzd:originalData>
+                <overheidwetgeving:meta>
+                    <overheidwetgeving:owmskern>
+                        <dcterms:identifier>kv-2989900822</dcterms:identifier>
+                        <dcterms:title>Mondelinge vragen van het lid Atsma (CDA) aan de staatssecretaris van Onderwijs, Cultuur en Wetenschappen, dhr. Van der Ploeg, over diens uitlatingen inzake de omroepgidsen. (Ingezonden 28 september 1998)
+                        </dcterms:title>
+                        <dcterms:language>nl</dcterms:language>
+                        <dcterms:type>Kamervragen zonder antwoord</dcterms:type>
+                        <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+                        <dcterms:modified>2014-07-11</dcterms:modified>
+                    </overheidwetgeving:owmskern>
+                    <overheidwetgeving:owmsmantel>
+                        <dcterms:available>1998-09-28</dcterms:available>
+                        <dcterms:date>1998-09-28</dcterms:date>
+                        <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/kv-2989900822.html">1</dcterms:hasVersion>
+                    </overheidwetgeving:owmsmantel>
+                    <overheidwetgeving:tpmeta>
+                        <c:product-area>officielepublicaties</c:product-area>
+                        <c:content-area>officielepublicaties/kv/onopgemaakt</c:content-area>
+                        <overheidwetgeving:datumIndiening>1998-09-28</overheidwetgeving:datumIndiening>
+                        <overheidwetgeving:documentstatus>Opgemaakt</overheidwetgeving:documentstatus>
+                        <overheidwetgeving:indiener>Atsma</overheidwetgeving:indiener>
+                        <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                        <overheidwetgeving:publicatienaam>Kamervragen zonder antwoord</overheidwetgeving:publicatienaam>
+                        <overheidwetgeving:vergaderjaar>1998-1999</overheidwetgeving:vergaderjaar>
+                        <overheidwetgeving:subrubriek scheme="OVERHEIDop.AanhangselTypen">Schriftelijke vragen</overheidwetgeving:subrubriek>
+                        <overheidwetgeving:vraagnummer>2989900822</overheidwetgeving:vraagnummer>
+                    </overheidwetgeving:tpmeta>
+                </overheidwetgeving:meta>
+            </gzd:originalData>
+            <gzd:enrichedData>
+                <gzd:url>https://repository.overheid.nl/frbr/officielepublicaties/kv/onopgemaakt/kv-2989900822/1/xml/kv-2989900822.xml</gzd:url>
+                <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/kv-2989900822.html</gzd:preferredUrl>
+                <gzd:itemUrl manifestation="html">https://repository.overheid.nl/frbr/officielepublicaties/kv/onopgemaakt/kv-2989900822/1/html/kv-2989900822.html</gzd:itemUrl>
+                <gzd:itemUrl manifestation="metadata">https://repository.overheid.nl/frbr/officielepublicaties/kv/onopgemaakt/kv-2989900822/1/metadata/metadata.xml</gzd:itemUrl>
+                <gzd:itemUrl manifestation="metadataowms">https://repository.overheid.nl/frbr/officielepublicaties/kv/onopgemaakt/kv-2989900822/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                <gzd:itemUrl manifestation="xml">https://repository.overheid.nl/frbr/officielepublicaties/kv/onopgemaakt/kv-2989900822/1/xml/kv-2989900822.xml</gzd:itemUrl>
+                <gzd:timestamp>2020-06-05T13:25:09.860025+02:00</gzd:timestamp>
+            </gzd:enrichedData>
+        </gzd:gzd>
+    </sru:recordData>
+    <sru:recordPosition>1</sru:recordPosition>
+</sru:record>

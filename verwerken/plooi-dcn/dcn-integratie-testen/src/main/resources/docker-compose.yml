@@ -1,0 +1,129 @@
+version: '3'
+services:
+  plooi-postgres-cuke:
+    image: postgres:13
+    hostname: plooi-postgres-pgbouncer
+    networks:
+      - backend
+    restart: always
+    ports:
+      - "15432:5432"
+    environment:
+      POSTGRES_DB: dcn_cuke
+      POSTGRES_USERNAME: postgres
+      POSTGRES_PASSWORD:SSSSSSSS
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 1s
+      timeout: 5s
+      retries: 10
+
+  plooi-solr-cuke:
+    image: solr:8.11.1
+    hostname: plooi-solr
+    networks:
+      - backend
+    restart: always
+    ports:
+      - "18983:8983"
+    command: "docker-entrypoint.sh solr-foreground -c"
+
+  solr-config-cuke:
+#SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+    image: plooi-solr-config:latest
+    networks:
+      - backend
+    restart: "no"   #one time batch job for configuring solr
+    depends_on:
+      plooi-solr-cuke:
+        condition: service_started
+    environment:
+      SOLR_COLLECTION: plooi_2
+      SOLR_HOST: plooi-solr:8983
+      ZK_HOST: plooi-solr:9983
+
+  repository-app-cuke:
+    image: repository-service:latest
+#SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+    hostname: repository-service
+    networks:
+      - backend
+    depends_on:
+      plooi-postgres-cuke:
+        condition: service_healthy
+    restart: always
+    ports:
+      - "18010:8010"
+      - "18011:8011"
+      - "18019:8019"
+    environment:
+      REPOS_DB_URL:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+      LOG_LEVEL_KOOP: DEBUG
+      JAVA_TOOL_OPTIONS: "-Dnl.overheid.koop.plooi.model.data.PrettyPrint=true -Ddcn.repository.compress=false -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8019"
+
+  registration-app-cuke:
+    image: registration-service:latest
+    hostname: registration-service
+    networks:
+      - backend
+    depends_on:
+      plooi-postgres-cuke:
+        condition: service_healthy
+    restart: always
+    ports:
+      - "18020:8020"
+      - "18021:8021"
+      - "18029:8029"
+    environment:
+      DCN_DB_URL:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+      LOG_LEVEL_KOOP: DEBUG
+      JAVA_TOOL_OPTIONS: "-Dnl.overheid.koop.plooi.model.data.PrettyPrint=true -Ddcn.repository.compress=false -Ddcn.route.singleprocess=true -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8089"
+
+  dcn-app-cuke:
+    image: plooi-dcn:latest
+    hostname: process-service
+    networks:
+      - backend
+    depends_on:
+      plooi-postgres-cuke:
+        condition: service_healthy
+      plooi-solr-cuke:
+        condition: service_started
+      solr-config-cuke:
+        condition: service_started
+      registration-app-cuke:
+        condition: service_started
+      repository-app-cuke:
+        condition: service_started
+    restart: always
+    ports:
+      - "18080:8080"
+      - "18081:8081"
+      - "18089:8089"
+    environment:
+      DCN_SOLR_URL:SSSSSSSSSSSSSSSSSSSSSSSSSSSS
+      DCN_SOLR_COLLECTION: plooi_2
+      REGISTRATION_SERVICE_URL:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+      REPOSITORY_SERVICE_URL:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+      DCN_DB_URL:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+      DCN_SCHEDULE_YEAR: 2099
+      MOCK_SERVICE: dcn-mockserver:1080
+      LOG_LEVEL_KOOP: DEBUG
+      JAVA_TOOL_OPTIONS: "-Dnl.overheid.koop.plooi.model.data.PrettyPrint=true -Ddcn.repository.compress=false -Ddcn.route.singleprocess=true -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8089"
+    volumes:
+      - ../../test/resources/test-data/ronl-archief:/plooi-dcn/ronl-archief:ro
+
+  mockserver-cuke:
+    image: mockserver/mockserver:5.12.0
+    hostname: dcn-mockserver
+    networks:
+      - backend
+    restart: always
+    ports:
+      - "1080:1080"
+    environment:
+      MOCKSERVER_LOG_LEVEL: WARN
+
+networks:
+  backend:
+    driver: bridge

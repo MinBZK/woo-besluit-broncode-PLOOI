@@ -1,0 +1,193 @@
+$imagePath: '../../public/assets/icons' !default;
+
+$iconSize: 1.2em;
+$iconSizeMedium: 1.8em;
+
+$iconAlertBlue:  url( '#{$imagePath}/icon-alert-blue.svg' ) !default;
+$iconAlertRed:  url( '#{$imagePath}/icon-alert-red.svg' ) !default;
+
+$chevronRight:  url( '#{$imagePath}/icon-chevron-right.svg' ) !default;
+$chevronLeft:  url( '#{$imagePath}/icon-chevron-left.svg' ) !default;
+$chevronLeftBlue:  url( '#{$imagePath}/icon-chevron-left-blue.svg' ) !default;
+$chevronroundRightBlue:  url( '#{$imagePath}/icon-chevronround-right-blue.svg' ) !default;
+$chevronroundRightWhite:  url( '#{$imagePath}/icon-chevronround-right-white.svg' ) !default;
+$iconCross: url( '#{$imagePath}/icon-close.svg' );
+$iconCrossWhite: url( '#{$imagePath}/icon-close-white.svg' );
+$iconCrossroundWhite: url( '#{$imagePath}/icon-cross-white.svg' );
+$iconCrossBlue: url( '#{$imagePath}/icon-cross-blue.svg' );
+$iconCrossRed: url( '#{$imagePath}/icon-cross-red.svg' );
+$iconCrossFilled: url( '#{$imagePath}/icon-cross-filled.svg' );
+$iconFilter: url( '#{$imagePath}/icon-filter.svg' );
+$iconFilterBlue: url( '#{$imagePath}/icon-filter-blue.svg' );
+$iconFilterRotatedWhite: url( '#{$imagePath}/icon-filter-rotated-white.svg' );
+
+$iconNews: url( '#{$imagePath}/icon-news.svg' );
+$datepickerButtonNext: $chevronRight;
+$datepickerButtonPrev: $chevronLeft;
+
+$dartLeftIcon: url( '#{$imagePath}/icon-dart-left.svg' ) !default;
+$dartRightIcon: url( '#{$imagePath}/icon-dart-right.svg' ) !default;
+$dartRightWhiteIcon: url( '#{$imagePath}/icon-dart-right-white.svg' ) !default;
+$dartTopIcon: url( '#{$imagePath}/icon-dart-top.svg' ) !default;
+$dartTopWhiteIcon: url( '#{$imagePath}/icon-dart-top-white.svg' ) !default;
+$dartDownIcon: url( '#{$imagePath}/icon-dart-down.svg' ) !default;
+$dartUpIcon: url( '#{$imagePath}/icon-dart-top.svg' ) !default;
+$dartRightBlueIcon: url( '#{$imagePath}/icon-dart-right-blue.svg' ) !default;
+
+$arrowCTAIcon: url( '#{$imagePath}/icon-cta-right.svg' ) !default;
+$arrowCTAWhiteIcon: url( '#{$imagePath}/icon-cta-right-white.svg' ) !default;
+$arrowCTABackwardsIcon: url( '#{$imagePath}/icon-cta-left.svg' ) !default;
+$iconArrowRight: url('#{$imagePath}/icon-arrow-right.svg') !default;
+$iconArrowUp: url('#{$imagePath}/icon-arrow-up.svg') !default;
+$iconArrowUpBlue: url('#{$imagePath}/icon-arrow-up-blue.svg') !default;
+$iconArrowDown: url('#{$imagePath}/icon-arrow-down.svg') !default;
+
+$nextIcon: url( '#{$imagePath}/icon-next.svg' ) !default;
+
+$doubleLeftIcon: url( '#{$imagePath}/icon-double-left.svg' ) !default;
+$doubleRightIcon: url( '#{$imagePath}/icon-double-right.svg' ) !default;
+
+$iconPlusFilledBlue: url( '#{$imagePath}/icon-plus-filled-blue.svg' ) !default;
+$iconMinFilledBlue: url( '#{$imagePath}/icon-min-filled-blue.svg' ) !default;
+
+$plusIcon: url( '#{$imagePath}/icon-plus.svg' ) !default;
+$plusIconWhite: url( '#{$imagePath}/icon-plus-white.svg' ) !default;
+$plusShapeIcon: url( '#{$imagePath}/icon-plus-shape.svg' ) !default;
+$minusIcon: url( '#{$imagePath}/icon-minus.svg' ) !default;
+$minusShapeIcon: url( '#{$imagePath}/icon-minus-shape.svg' ) !default;
+$copyIcon: url( '#{$imagePath}/icon-copy.svg' ) !default;
+
+$searchIcon: url( '#{$imagePath}/icon-search.svg' ) !default;
+$searchIconBlue: url( '#{$imagePath}/icon-search-blue.svg' ) !default;
+
+$externalLinkIcon: url( '#{$imagePath}/icon-link-external.svg' ) !default;
+$externalLinkv2Icon: url( '#{$imagePath}/icon-link-external-v2.svg' ) !default;
+$externalLinkWhiteIcon: url( '#{$imagePath}/icon-link-external-white-standard.svg' ) !default;
+
+$hamburgerIcon: url( '#{$imagePath}/icon-hamburger.svg' ) !default;
+$hamburgerWhiteIcon: url( '#{$imagePath}/icon-hamburger-white.svg' ) !default;
+
+$explanationIcon: url( '#{$imagePath}/icon-explanation.svg' ) !default;
+$explanationHoverIcon: url( '#{$imagePath}/icon-explanation.svg' ) !default;
+
+$iconProfile: url( '#{$imagePath}/icon-profile.svg' ) !default;
+$iconLogout: url( '#{$imagePath}/icon-logout.svg' ) !default;
+
+$iconTel: url( '#{$imagePath}/icon-tel.svg' ) !default;
+
+$warningIcon: url( '#{$imagePath}/icon-warning.svg' ) !default;
+$successIcon: url( '#{$imagePath}/icon-success.svg' ) !default;
+$infoIcon: url( '#{$imagePath}/icon-info.svg' ) !default;
+$infoIconBlue: url( '#{$imagePath}/icon-info-blue.svg' ) !default;
+$infoIconRed: url( '#{$imagePath}/icon-info-red.svg' ) !default;
+$downloadIcon: url( '#{$imagePath}/icon-download.svg' ) !default;
+$downloadIconWhite: url( '#{$imagePath}/icon-download-white.svg' ) !default;
+$uploadIcon: url( '#{$imagePath}/icon-upload.svg' ) !default;
+$uploadBlueIcon: url( '#{$imagePath}/icon-upload-blue.svg' ) !default;
+$removeIcon: url( '#{$imagePath}/icon-remove.svg' ) !default;
+$removeWhiteIcon: url( '#{$imagePath}/icon-remove-white.svg' ) !default;
+$printIcon: url( '#{$imagePath}/icon-print.svg' ) !default;
+$relationsIcon: url( '#{$imagePath}/icon-relations.svg' ) !default;
+$permalinkIcon: url( '#{$imagePath}/icon-permalink.svg' ) !default;
+$compareIcon: url( '#{$imagePath}/icon-compare.svg' ) !default;
+$iconHouse: url( '#{$imagePath}/icon-home.svg' ) !default;
+$iconDocument: url( '#{$imagePath}/icon-document.svg' ) !default;
+$iconDocumentSimple: url( '#{$imagePath}/icon-document.svg' ) !default;
+$iconDocumentSimpleNew: url( '#{$imagePath}/icon-document-new.svg' ) !default;
+$iconMap: url( '#{$imagePath}/icon-map-blue.svg' ) !default;
+
+$iconMail: url( '#{$imagePath}/icon-mail.svg' ) !default;
+$iconPublicatie: url( '#{$imagePath}/icon-publicatie.svg' ) !default;
+$iconDocument: $iconPublicatie;
+$refreshIcon: url( '#{$imagePath}/icon-refresh.svg' ) !default;
+$refreshDocument: url( '#{$imagePath}/icon-refresh-document.svg' ) !default;
+$refreshDocumentWhite: url( '#{$imagePath}/icon-refresh-document-white.svg' ) !default;
+
+$modalCloser: $iconCross !default;
+$modalCloserHover: url( '#{$imagePath}/icon-close-hover.svg' ) !default;
+
+$iconCheckFilledBlue: url( '#{$imagePath}/icon-check-filled-blue.svg' ) !default;
+$iconCheckFilledRed: url( '#{$imagePath}/icon-check-filled-red.svg' ) !default;
+$iconCheckFilledGreen: url( '#{$imagePath}/icon-check-filled-green.svg' ) !default;
+
+$iconCheck2Blue: url( '#{$imagePath}/icon-check2-blue.svg' ) !default;
+$iconCheck2White: url( '#{$imagePath}/icon-check2-white.svg' ) !default;
+$iconCheck2Green: url( '#{$imagePath}/icon-check2-green.svg' ) !default;
+$iconCheck: url( '#{$imagePath}/icon-check.svg' ) !default;
+$iconCheckWhite: url( '#{$imagePath}/icon-check-white.svg' ) !default;
+$iconCheckboxWhite: url( '#{$imagePath}/icon-checkbox-white.svg' ) !default;
+$loadingIcon: url( '#{$imagePath}/icon-loader.svg' ) !default;
+$loadingIconWhite: url( '#{$imagePath}/icon-loader.svg' ) !default;
+// $loadingIconWhite: url( '#{$imagePath}/icon-loading-white.svg' ) !default;
+
+// theme blocks
+$governanceIcon: url( '#{$imagePath}/theme-icons/governance.svg' ) !default;
+$cultureIcon: url( '#{$imagePath}/theme-icons/culture.svg' ) !default;
+$economyIcon: url( '#{$imagePath}/theme-icons/economy.svg' ) !default;
+$financeIcon: url( '#{$imagePath}/theme-icons/finance.svg' ) !default;
+$housingIcon: url( '#{$imagePath}/theme-icons/housing.svg' ) !default;
+$internationalIcon: url( '#{$imagePath}/theme-icons/international.svg' ) !default;
+$agricultureIcon: url( '#{$imagePath}/theme-icons/agriculture.svg' ) !default;
+$migrationIcon: url( '#{$imagePath}/theme-icons/migration.svg' ) !default;
+$natureIcon: url( '#{$imagePath}/theme-icons/nature.svg' ) !default;
+$educationIcon: url( '#{$imagePath}/theme-icons/education.svg' ) !default;
+$securityIcon: url( '#{$imagePath}/theme-icons/security.svg' ) !default;
+$lawIcon: url( '#{$imagePath}/theme-icons/law.svg' ) !default;
+$infrastructureIcon: url( '#{$imagePath}/theme-icons/infrastructure.svg' ) !default;
+$socialIcon: url( '#{$imagePath}/theme-icons/social.svg' ) !default;
+$trafficIcon: url( '#{$imagePath}/theme-icons/traffic.svg' ) !default;
+$jobsIcon: url( '#{$imagePath}/theme-icons/jobs.svg' ) !default;
+$healthcareIcon: url( '#{$imagePath}/theme-icons/healthcare.svg' ) !default;
+
+$okIcon: url( '#{$imagePath}/icon-ok.svg' );
+$okIconGreen: url( '#{$imagePath}/icon-ok-green.svg' );
+$characteristicIcon: url( '#{$imagePath}/icon-characteristic.svg' );
+$areaIcon: url( '#{$imagePath}/icon-area.svg' );
+$basisIcon: url( '#{$imagePath}/icon-basis.svg' );
+$iconPlay: url( '#{$imagePath}/icon-play.svg' );
+
+$iconFeedBlue: url( '#{$imagePath}/icon-feed-blue.svg' );
+
+$shareWhiteIcon: url( '#{$imagePath}/icon-share-white.svg' );
+$shareIcon: url( '#{$imagePath}/icon-share.svg' );
+$shareBlueIcon: url( '#{$imagePath}/icon-share-blue.svg' );
+
+$markerIcon: url( '#{$imagePath}/icon-marker.svg' ) !default;
+$markerBlueIcon: url( '#{$imagePath}/icon-marker-blue.svg' ) !default;
+
+$iconThumbUp: url( '#{$imagePath}/icon-thumb-up.svg' ) !default;
+$iconThumbDown: url( '#{$imagePath}/icon-thumb-down.svg' ) !default;
+
+$dotsIcon: url( '#{$imagePath}/icon-dots.svg' ) !default;
+$crosshairIcon: url( '#{$imagePath}/icon-crosshair.svg' ) !default;
+
+$editIcon: url( '#{$imagePath}/icon-bewerken.svg' ) !default;
+$editIconBlue: url( '#{$imagePath}/icon-bewerken-blue.svg' ) !default;
+$calendarIcon: url( '#{$imagePath}/icon-calendar.svg' ) !default;
+$calendarIconWhite: url( '#{$imagePath}/icon-calendar-white.svg' ) !default;
+$calendarIconBlue: url( '#{$imagePath}/icon-calendar-blue.svg' ) !default;
+$removeIcon: url( '#{$imagePath}/icon-remove.svg' ) !default;
+$removeBlueIcon: url( '#{$imagePath}/icon-remove-blue.svg' ) !default;
+
+
+$drawIcon: url( '#{$imagePath}/icon-draw.svg' ) !default;
+$mapIcon: url( '#{$imagePath}/icon-map.svg' ) !default;
+
+$iconList: url( '#{$imagePath}/icon-list.svg' ) !default;
+
+
+$icon64family: url( '#{$imagePath}/icon-64-family.svg' ) !default;
+$icon64finance: url( '#{$imagePath}/icon-64-finance.svg' ) !default;
+$icon64living: url( '#{$imagePath}/icon-64-living.svg' ) !default;
+$icon64people: url( '#{$imagePath}/icon-64-people.svg' ) !default;
+$icon64kids: url( '#{$imagePath}/icon-64-kids.svg' ) !default;
+
+$iconFacebook: url( '#{$imagePath}/icon-facebook.svg' ) !default;
+$iconLinkedin: url( '#{$imagePath}/icon-linkedin.svg' ) !default;
+$iconTwitter: url( '#{$imagePath}/icon-twitter.svg' ) !default;
+$iconInstagram: url( '#{$imagePath}/icon-instagram.svg' ) !default;
+$iconWhatsapp: url( '#{$imagePath}/icon-whatsapp.svg' ) !default;
+
+$iconBewerken: url( '#{$imagePath}/Bewerken.svg' ) !default;
+$iconOnzichtbaar: url( '#{$imagePath}/Onizchtbaar.svg' ) !default;
+$iconZichtbaar: url( '#{$imagePath}/Zichtbaar.svg' ) !default;

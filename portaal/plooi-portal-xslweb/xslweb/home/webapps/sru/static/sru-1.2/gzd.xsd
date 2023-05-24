@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Gemeenschappelijke zoekdienst Recordschema (gzd) for SRU.  september 2010.
+
+This schema allows you to include
+1. original data from XML message   
+2. enriched data by the search service
+
+
+An instance could look like this:
+
+<Recordschema>
+<originalData>
+<overheidbm:bekendmakingdocument>
+<overheidbm:meta>
+<owmskern>
+    <dcterms:identifier></dcterms:identifier>
+    <dcterms:title></dcterms:title>
+    <dcterms:type scheme="overheid:Informatietype">regeling</dcterms:type>
+    <dcterms:creator scheme="overheid:Gemeente">'s-Gravenhage</dcterms:creator>
+    ...
+</owmskern>
+<owmsmantel>
+	<dcterms:alternative></dcterms:alternative>
+	<dcterms:description></dcterms:description>
+	...
+</owmsmantel>
+<overheidbm:bekendmakingenmeta>
+        ...
+<overheidbm:bekendmakingenmeta>
+</overheidbm:meta>
+<overheidbm:body>
+    ...
+</overheidbm:body>
+</overheidbm:bekendmakingdocument>
+</originalData>
+<enrichedData>
+    <organisatieType>gemeente</organisatieType>	
+    ...
+</enrichedData>
+</Recordschema>
+
+-->
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xmlns="http://standaarden.overheid.nl/sru"
+    elementFormDefault="qualified" attributeFormDefault="unqualified"
+	targetNamespace="http://standaarden.overheid.nl/sru">
+	
+	<!-- Root element declarations:	-->
+	<xs:element name="gzd" type="gzdDataComplexType"/>	
+	<!-- End root element declarations:	-->
+	
+	<xs:complexType name="gzdDataComplexType">
+		<xs:sequence>
+			<!-- XML Schemas for contentmodels are available at http://standaarden.overheid.nl/contentmodellen/ -->
+		    <xs:element name="originalData" type="freeElementsComplexType"/>
+			<!-- Search service enriched metadata on the basis of the original input -->
+			<xs:element name="enrichedData"  type="freeElementsComplexType" minOccurs="0"/>	
+		</xs:sequence>
+	</xs:complexType>		
+
+	<xs:complexType name="freeElementsComplexType">
+		<xs:sequence>
+			<xs:any maxOccurs="unbounded" namespace="##any" processContents="lax"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

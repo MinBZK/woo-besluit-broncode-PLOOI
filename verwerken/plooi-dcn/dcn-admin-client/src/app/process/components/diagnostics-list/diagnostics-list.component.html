@@ -1,0 +1,31 @@
+<div  *ngIf="!errorMsg && (page.content && page.content.length)">
+        <table class="table table--condensed table--striped">
+        <thead>
+        <tr>
+            <th scope="col" class="u-columnwidth-15p">Code</th>
+            <th scope="col" class="u-columnwidth-15p">Severity</th>
+            <th scope="col" class="u-columnwidth-15p">Source id</th>
+            <th scope="col" class="u-columnwidth-15p">Source label</th>
+            <th scope="col" class="u-columnwidth-15p">Target element name</th>
+            <th scope="col">Message</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let diagnostic of page.content">
+            <td>{{diagnostic.code}}</td>
+            <td>{{diagnostic.severity}}</td>
+            <td>{{diagnostic.sourceId}}</td>
+            <td>{{diagnostic.sourceLabel}}</td>
+            <td>{{diagnostic.target}}</td>
+            <td>{{diagnostic.message}}</td>
+        </tr>
+        </tbody>
+    </table>
+    <dcn-no-result [page]="page"></dcn-no-result>
+    <dcn-custom-pagination [page]="page" *ngIf="page.totalElements > 20"
+                           (nextPageEvent)="getNextPage($event)"
+                           (itemsPerPageEvent)="updateItemsPerPage($event)">
+    </dcn-custom-pagination>
+</div>
+
+<connection-error *ngIf="errorMsg" [message]="errorMsg"></connection-error>

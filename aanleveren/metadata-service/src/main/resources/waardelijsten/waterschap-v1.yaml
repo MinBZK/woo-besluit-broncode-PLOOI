@@ -1,0 +1,84 @@
+openapi: '3.0.2'
+info:
+  title: Waardelijst waterschappen compleet
+  description: |
+    Beschrijft alle waterschappen die voor zover bekend op de zichtdatum bestaan hebben, bestaan of zullen bestaan
+  version: '1'
+  contact:
+    email: plooi@koop.overheid.nl
+  termsOfService: https://open.overheid.nl/terms
+  license:
+    name: MIT
+    url: https://open.overheid.nl/license
+components:
+  schemas:
+    Waterschap:
+      type: string
+      description: |-
+        * `https://identifier.overheid.nl/tooi/id/waterschap/hv_04193490` - Hoogheemraadschap Amstel, Gooi en Vecht
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0151` - waterschap Groot Salland
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0152` - waterschap Rijn en IJssel
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0153` - waterschap Veluwe
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0154` - waterschap Vallei & Eem
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0155` - waterschap Amstel, Gooi en Vecht
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0201` - waterschap Regge en Dinkel
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0202` - waterschap Blija Buitendijks
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0372` - Hoogheemraadschap van Delfland
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0524` - waterschap Zeeuws-Vlaanderen
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0536` - waterschap Zeeuwse Eilanden
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0539` - waterschap De Dommel
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0585` - waterschap Roer en Overmaas
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0616` - Hoogheemraadschap van Rijnland
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0621` - waterschap Rivierenland
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0636` - Hoogheemraadschap De Stichtse Rijnlanden
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0638` - waterschap Peel en Maasvallei
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0646` - waterschap Hunze en Aa's
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0647` - waterschap Noorderzijlvest
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0648` - waterschap Reest en Wieden
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0649` - waterschap Velt en Vecht
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0650` - waterschap Zuiderzeeland
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0651` - Hoogheemraadschap Hollands Noorderkwartier
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0652` - waterschap Brabantse Delta
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0653` - Wetterskip Fryslân
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0654` - waterschap Aa en Maas
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0655` - waterschap Hollandse Delta
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0656` - Hoogheemraadschap van Schieland en de Krimpenerwaard
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0661` - waterschap Scheldestromen
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0662` - waterschap Vallei en Veluwe
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0663` - waterschap Vechtstromen
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0664` - waterschap Drents Overijsselse Delta
+        * `https://identifier.overheid.nl/tooi/id/waterschap/ws0665` - waterschap Limburg
+      enum:
+        - https://identifier.overheid.nl/tooi/id/waterschap/hv_04193490
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0151
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0152
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0153
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0154
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0155
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0201
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0202
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0372
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0524
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0536
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0539
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0585
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0616
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0621
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0636
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0638
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0646
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0647
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0648
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0649
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0650
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0651
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0652
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0653
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0654
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0655
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0656
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0661
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0662
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0663
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0664
+        - https://identifier.overheid.nl/tooi/id/waterschap/ws0665

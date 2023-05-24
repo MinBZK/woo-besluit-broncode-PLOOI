@@ -1,0 +1,11 @@
+image:
+  registry:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+podLabels:
+  tier: vertrouwd
+
+collection: plooi_2
+
+backup:
+  enabled: yes
+  schedule: "0 */4 * * *"

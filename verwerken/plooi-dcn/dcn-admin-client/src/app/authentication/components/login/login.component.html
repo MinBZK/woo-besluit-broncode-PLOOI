@@ -1,0 +1,77 @@
+<div id="content" role="main" class="container">
+<div class="row">
+  </div>
+  <div class="row">
+    <div class="jumbotron">
+      <div class="jumbotron__content jumbotron__content--centered jumbotron__content--centered-s">
+        <div class="jumbotron__heading jumbotron__heading--centered">
+          <h2 class="jumbotron__intro">
+            Aanmelden op DCN Admin
+          </h2>
+        </div>
+        <form class="form" data-decorator="init-form-validation" *ngIf="!isLoggedIn" name="form"
+              (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
+          <fieldset>
+            <legend class="visually-hidden">E-mailadres</legend>
+            <div class="columns">
+              <div class="column">
+                <div class="form__row form__row--medium">
+
+                  <div class="form__row form__row--medium">
+                    <label for="username"  class="form__label form__label--accent">Gebruikersnaam</label>
+                    <input
+                            type="text"
+                            class="input input-text input-text--medium" placeholder="Uw gebruikersnaam"
+                            name="username"
+                            [(ngModel)]="form.username"
+                            required
+                            autofocus="autofocus"
+                            #username="ngModel"/>
+                    <div class="alert alert--warning " role="alert"  *ngIf="username.errors && f.submitted">
+
+                      <div class="alert__inner">
+                        Gebruikersnaam is verplicht!
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="form__row form__row--medium">
+                  <label for="password" class="form__label form__label--accent">Wachtwoord</label>
+                  <input
+                          type="password"
+                          class="input input-text input-text--medium  " placeholder="Uw wachtwoord"
+                          name="password"
+                          [(ngModel)]="form.password"
+                          required
+                          minlength="6"
+                          #password="ngModel"/>
+                  <div class="alert alert--warning " role="alert"  *ngIf="password.errors && f.submitted">
+
+                    <div class="alert__inner" *ngIf="password.errors.required">Wachtwoord is verplicht!</div>
+                    <div class="alert__inner" *ngIf="password.errors.minlength">
+                      Het wachtwoord moet minstens 6 karakters bevatten
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form__rowsubmit">
+              <div class="form__rowsubmit__item">
+                <button class="button button--primary form__button">
+                  Inloggen
+                </button>
+              </div>
+            </div>
+          </fieldset>
+          <div class="form-group">
+            <div class="alert alert--warning " role="alert"  *ngIf="f.submitted && isLoginFailed">
+              Aanmelden is niet gelukt: {{ errorMessage }}
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+<div class="container" *ngIf="!errorMsg && route.children.length == 0">
+    <div class="row columns">
+        <div class="column">
+            <div class="row">
+                <div class="columns">
+                    <div class="column">
+                        <h3>{{getTitle()}}</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="row jumbotron" *ngIf="exceptionList && exceptionList.length">
+                <div class="form__row">
+                    <label class="form__label&#45;&#45;accent form__label&#45;&#45;secondary"
+                           for="select">Filter</label>
+                    <div class="select-custom ">
+                        <select class="select-custom" id="select" #errorFilter
+                                (change)="getErrorList(errorFilter.value)">
+                            <option value="">Selecteer Exception class</option>
+                            <option *ngFor="let exception of exceptionList" [ngValue]=exception>{{exception}}</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <table class="table table--condensed table--striped table--container table__data-overview">
+        <thead>
+        <tr>
+            <th scope="col" class="u-columnwidth-15p">Tijdstip</th>
+            <th scope="col" class="">Foutmelding</th>
+        </tr>
+        </thead>
+        <tbody *ngIf="page.totalElements">
+        <tr *ngFor="let exceptie of page.content">
+            <td data-before="Tijdstip">{{exceptie.timeCreated | date: 'medium'}}</td>
+            <td data-before="Foutmelding">
+                <a (click)="openErrorDetailModel(exceptie.verwerkingId)">{{getErrorMessage(exceptie)}}</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <dcn-no-result [page]="page"></dcn-no-result>
+    <dcn-custom-pagination [page]="page"
+                           (nextPageEvent)="getNextPage($event)"
+                           (itemsPerPageEvent)="updateItemsPerPage($event)">
+    </dcn-custom-pagination>
+    <connection-error *ngIf="errorMsg" [message]="errorMsg"></connection-error>
+</div>
+<router-outlet></router-outlet>

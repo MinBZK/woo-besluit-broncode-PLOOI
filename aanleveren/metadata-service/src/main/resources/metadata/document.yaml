@@ -1,0 +1,403 @@
+openapi: 3.1.0
+info:
+  title: Document
+  version: 0.9.0-beta
+  description: Metadata betreffende het document.
+components:
+  schemas:
+    document:
+      type: object
+      properties:
+        creatiedatum:
+          $ref: '#/components/schemas/creatiedatum'
+        publisher:
+          $ref: '#/components/schemas/publisher'
+        verantwoordelijke:
+          $ref: '#/components/schemas/verantwoordelijke'
+        opsteller:
+          $ref: '#/components/schemas/opsteller'
+        naamOpsteller:
+          $ref: '#/components/schemas/naamOpsteller'
+        identifiers:
+          $ref: '#/components/schemas/identifiers'
+        language:
+          $ref: '#/components/schemas/language'
+        titelcollectie:
+          $ref: '#/components/schemas/titelcollectie'
+        omschrijvingen:
+          $ref: '#/components/schemas/omschrijvingen'
+        classificatiecollectie:
+          $ref: '#/components/schemas/classificatiecollectie'
+        format:
+          $ref: '#/components/schemas/format'
+        onderwerpen:
+          $ref: '#/components/schemas/onderwerpen'
+        aggregatiekenmerk:
+          $ref: '#/components/schemas/aggregatiekenmerk'
+        documenthandelingen:
+          $ref: '#/components/schemas/documenthandelingen'
+        geldigheid:
+          $ref: '#/components/schemas/geldigheid'
+        weblocatie:
+          $ref: '#/components/schemas/weblocatie'
+        extraMetadata:
+          $ref: '#/components/schemas/extraMetadata'
+      required:
+        - publisher
+        - identifiers
+        - language
+        - titelcollectie
+        - classificatiecollectie
+        - documenthandelingen
+
+    creatiedatum:
+      type: string
+      description: |-
+        De datum waarop het document initieel is gemaakt.
+        veld: tooioint:creatiedatum
+
+    publisher:
+      type: object
+      description: |-
+        Overheidsorganisatie die de wettelijke verantwoordelijkheid draagt voor de openbaarmaking van het informatieobject. (REP, publisher)
+        veld: tooiont:publisher
+        bereik: tooiont:Overheidsorganisatie
+      properties:
+        id:
+          oneOf:
+            - $ref: 'classpath:waardelijsten/caribischopenbaarlichaam-v2.yaml#/components/schemas/Caribischopenbaarlichaam'
+            - $ref: 'classpath:waardelijsten/gemeente-v2.yaml#/components/schemas/Gemeente'
+            - $ref: 'classpath:waardelijsten/ministerie-v1.yaml#/components/schemas/Ministerie'
+            - $ref: 'classpath:waardelijsten/oorg-v1.yaml#/components/schemas/Oorg'
+            - $ref: 'classpath:waardelijsten/provincie-v1.yaml#/components/schemas/Provincie'
+            - $ref: 'classpath:waardelijsten/waterschap-v1.yaml#/components/schemas/Waterschap'
+        label:
+          $ref: '#/components/schemas/label'
+      required:
+        - id
+      additionalProperties: false
+
+    verantwoordelijke:
+      type: object
+      description: |-
+        Overheidsorganisatie die de wettelijke verantwoordelijkheid draagt voor de inhoud (strekking) van het informatieobject. (REP, verantwoordelijke)
+        veld: tooiont:verantwoordelijke
+        bereik: tooiont:Overheidsorganisatie
+      properties:
+        id:
+          oneOf:
+            - $ref: 'classpath:waardelijsten/caribischopenbaarlichaam-v2.yaml#/components/schemas/Caribischopenbaarlichaam'
+            - $ref: 'classpath:waardelijsten/gemeente-v2.yaml#/components/schemas/Gemeente'
+            - $ref: 'classpath:waardelijsten/ministerie-v1.yaml#/components/schemas/Ministerie'
+            - $ref: 'classpath:waardelijsten/oorg-v1.yaml#/components/schemas/Oorg'
+            - $ref: 'classpath:waardelijsten/provincie-v1.yaml#/components/schemas/Provincie'
+            - $ref: 'classpath:waardelijsten/waterschap-v1.yaml#/components/schemas/Waterschap'
+        label:
+          $ref: '#/components/schemas/label'
+      required:
+        - id
+      additionalProperties: false
+
+    opsteller:
+      type: object
+      description: |-
+        De organisatie die het document initieel heeft gemaakt. (Is niet persé een overheidsorganisatie, kan bijvoorbeeld ook een adviesbureau zijn.)
+      properties:
+        id:
+          type: string
+          description: |-
+            Een URI waarmee de organisatie wordt aangeduid die het document initieel heeft gemaakt.
+            bereik: xsd:anyURI
+          format: uri
+        label:
+          $ref: '#/components/schemas/label'
+      required:
+        - id
+      additionalProperties: false
+
+    naamOpsteller:
+      type: string
+      description: |-
+        De naam van de opsteller kan vastgelegd worden in plaats van opsteller als de identiteit van de opsteller niet uit te drukken valt in termen van een in een relevant dan wel bruikbaar register gemunte URI.
+      minLength: 1
+
+    identifiers:
+      type: array
+      items:
+        anyOf:
+          - type: string
+            description: |-
+              Een string waarmee het informatieobject binnen het domein van de aanleveraar wordt aangeduid.
+              veld: dcterms:identifier
+              bereik: xsd:string
+            minLength: 3
+          - type: string
+            description: |-
+              Een URI waarmee het informatieobject binnen het domein van de aanleveraar wordt aangeduid.
+              veld: dcterms:identifier
+              bereik: xsd:anyURI
+            format: uri
+      uniqueItems: false
+
+    language:
+      type: object
+      description: |-
+        De taal waarin het informatieobject is gepubliceerd (REP, taal)
+        veld: dcterms:language
+        bereik: tooixtrn:taal
+      properties:
+        id:
+          $ref: 'classpath:waardelijsten/xtrn-v2.yaml#/components/schemas/Xtrn'
+        label:
+          $ref: '#/components/schemas/label'
+      required:
+        - id
+      additionalProperties: false
+
+    titelcollectie:
+      type: object
+      properties:
+        officieleTitel:
+          type: string
+          description: |-
+            De officiële titel van het informatieobject (REP, officiële titel)
+            veld: tooiont:officieleTitel
+            bereik: xsd:string
+        verkorteTitels:
+          type: array
+          items:
+            type: string
+            description: |-
+              De verkorte titel van het informatieobject
+              veld: tooiont:verkorteTitel
+              bereik: xsd:string
+            minLength: 3
+          uniqueItems: true
+        alternatieveTitels:
+          type: array
+          items:
+            type: string
+            description: |-
+              De alternatieve titel van het informatieobject
+              veld: tooiont:alternatieveTitel
+              bereik: xsd:string
+            minLength: 3
+          uniqueItems: true
+      required:
+        - officieleTitel
+      additionalProperties: false
+
+    omschrijvingen:
+      type: array
+      items:
+        type: string
+        description: |-
+          Een tekstuele beschrijving in enkele zinnen van het onderwerp van het informatieobject
+          veld: tooiont:omschrijving
+          bereik: xsd:string
+        minLength: 3
+      uniqueItems: true
+
+    classificatiecollectie:
+      type: object
+      properties:
+        documentsoorten:
+          type: array
+          items:
+            type: object
+            description: |-
+              Het soort document waar het informatieobject toe behoort
+              veld: tooiont:documentsoorten
+              bereik: waardelijst documentsoorten
+            properties:
+              id:
+                $ref: 'classpath:waardelijsten/kern-aanlever-v1.yaml#/components/schemas/Kern'
+              label:
+                $ref: '#/components/schemas/label'
+            required:
+              - id
+            additionalProperties: false
+          uniqueItems: true
+          minItems: 1
+        themas:
+          type: array
+          items:
+            type: object
+            description: |-
+              Het thema waaronder het informatieobject valt (REP, onderwerp)
+              veld: tooiont:thema
+              bereik: TOP-lijst
+            properties:
+              id:
+                $ref: 'classpath:waardelijsten/top-v2.yaml#/components/schemas/Top'
+              label:
+                $ref: '#/components/schemas/label'
+            required:
+              - id
+            additionalProperties: false
+          uniqueItems: true
+          minItems: 1
+      required:
+        - themas
+        - documentsoorten
+      additionalProperties: false
+
+    format:
+      type: object
+      description: |-
+        Het format (bijvoorbeeld PDF, ZIP) waarin het informatieobject zich manifesteert.
+        veld: dcterms:format
+      properties:
+        id:
+          $ref: 'classpath:waardelijsten/filetypes-v1.yaml#/components/schemas/filetype'
+        label:
+          $ref: '#/components/schemas/label'
+      required:
+        - id
+      additionalProperties: false
+
+    onderwerpen:
+      type: array
+      items:
+        type: string
+        description: |-
+          Een tekstuele beschrijving in één of enkele woorden van datgene waar het informatieobject over gaat
+          veld: tooiont:onderwerp
+          bereik: xsd:string
+        minLength: 3
+      uniqueItems: true
+
+    aggregatiekenmerk:
+      type: string
+      description: |-
+        Tekstuele, door aanleverende organisatie aangedragen tekst die een aantal documenten met elkaar gemeen kunnen hebben.
+
+    documenthandelingen:
+      type: array
+      items:
+        type: object
+        description: |-
+          Een handeling in het domein van de verantwoordelijke die een bestaand informatieobject van toestand doet veranderen (bijvoorbeeld: het document is ter inzage gelegd), dan wel een nieuw informatieobject doet ontstaan (bijvoorbeeld: het document is gewijzigd en er ontstaat een nieuwe (geconsolideerde) versie van het document)
+          veld: tooiont:documenthandeling
+          bereik: prov:Activity
+        properties:
+          soortHandeling:
+            type: object
+            description: |-
+              De soort handeling. In het bereik zijn concepten uit het conceptschema tooikern:handelingsoort.
+              veld: tooiont:soortHandeling
+              bereik: waardelijst tooikern:handelingsoort
+            properties:
+              id:
+                $ref: 'classpath:waardelijsten/soortHandeling-v0.yaml#/components/schemas/soortHandeling'
+              label:
+                $ref: '#/components/schemas/label'
+            required:
+              - id
+            additionalProperties: false
+          atTime:
+            type: string
+            description: |-
+              Het tijdstip van handeling
+              veld: prov:atTime
+              bereik: xsd:dateTime
+            format: date-time
+          wasAssociatedWith:
+            type: object
+            description: |-
+              De partij die de handeling heeft uitgevoerd
+              veld: prov:wasAssociatedWith
+              bereik: tooiont:Overheidsorganisatie
+            properties:
+              id:
+                oneOf:
+                  - $ref: '../waardelijsten/caribischopenbaarlichaam-v2.yaml#/components/schemas/Caribischopenbaarlichaam'
+                  - $ref: '../waardelijsten/gemeente-v2.yaml#/components/schemas/Gemeente'
+                  - $ref: '../waardelijsten/ministerie-v1.yaml#/components/schemas/Ministerie'
+                  - $ref: '../waardelijsten/oorg-v1.yaml#/components/schemas/Oorg'
+                  - $ref: '../waardelijsten/provincie-v1.yaml#/components/schemas/Provincie'
+                  - $ref: '../waardelijsten/waterschap-v1.yaml#/components/schemas/Waterschap'
+              label:
+                $ref: '#/components/schemas/label'
+            required:
+              - id
+            additionalProperties: false
+        required:
+          - soortHandeling
+          - atTime
+          - wasAssociatedWith
+        additionalProperties: false
+      uniqueItems: true
+
+    geldigheid:
+      type: object
+      description: |-
+        De periode waarbinnen het document geldig is.
+      properties:
+        begindatum:
+          type: string
+          description: |-
+            Het begintijdstip van de geldigheid van een document 
+            veld: prov:atTime
+            bereik: xsd:dateTime
+          format: date-time
+        einddatum:
+          type: string
+          description: |-
+            Het eindtijdstip van de geldigheid van een document 
+            veld: prov:atTime
+            bereik: xsd:dateTime
+          format: date-time
+      required:
+
+    weblocatie:
+      type: string
+      description: |-
+        Een URI waarmee een alternatieve locatie van het informatieobject binnen de context van de aanleveraar wordt aangeduid.
+        bereik: xsd:anyURI
+      format: uri
+
+    extraMetadata:
+      type: array
+      description: |-
+        Hier wordt ruimte geboden aan organisatie-specifieke metadata, eventueel onder namespaces.
+      items:
+        type: object
+        properties:
+          namespace:
+            type: string
+            description: |-
+              De externe namespace waarbinnen de velden in deze context betekenis hebben
+              bereik: xsd:anyURI
+            format: url
+          velden:
+            type: array
+            items:
+              type: object
+              description: |-
+                Een key-value pair van organisatie-specifieke eigenschap van het document
+              properties:
+                key:
+                  type: string
+                  description: |-
+                    De veldnaam van de organisatie-specifieke eigenschap
+                  minLength: 3
+                values:
+                  nullable: true
+                  description: |-
+                    De waarde van de organisatie-specifieke eigenschappen. Kan van ieder type zijn, inclusief `null`.
+              required:
+                - key
+                - values
+              additionalProperties: false
+            minItems: 1
+            uniqueItems: true
+        required:
+          - velden
+        additionalProperties: false
+
+    label:
+      type: string
+      description: |-
+        Label die optioneel naast het id meegegeven kan worden. Dit veld heeft geen functionele betekenis en dient ter verhoging van het mens-leesbaar maken van de metadata.
+      minLength: 3

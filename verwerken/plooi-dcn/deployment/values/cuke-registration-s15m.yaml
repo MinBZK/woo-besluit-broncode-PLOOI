@@ -1,0 +1,23 @@
+image:
+  registry:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  tag: latest-test
+
+extraJvmArgs: "-Xms128m -Xmx512m"
+
+replicaCount: 1
+
+podLabels:
+  tier: vertrouwd
+  group: cucumber
+  ingress-controller-frontoffice-policy: allow
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 250m
+    memory: 256Mi
+
+ingress:
+  hostname:SSSSSSSSSSSSSSSSSSSSSSSSSSSSS

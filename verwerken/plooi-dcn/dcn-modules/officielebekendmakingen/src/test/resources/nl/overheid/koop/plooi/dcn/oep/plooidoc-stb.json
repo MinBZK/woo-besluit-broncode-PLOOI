@@ -1,0 +1,58 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/oep-8b3d7d3bb9df556ae725c0467c7edc9f5ed1f848",
+    "weblocatie" : "https://zoek.officielebekendmakingen.nl/stb-2021-419.html",
+    "creatiedatum" : "2021-09-03",
+    "geldigheid" : {
+      "begindatum" : "2021-09-03"
+    },
+    "identifiers" : [ "stb-2021-419" ],
+    "verantwoordelijke" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1058",
+      "label" : "ministerie van Justitie en Veiligheid"
+    },
+    "publisher" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/organisatie_onbekend",
+      "label" : "Onbekend"
+    },
+    "opsteller" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1058",
+      "label" : "ministerie van Justitie en Veiligheid"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "titelcollectie" : {
+      "officieleTitel" : "Besluit van 1 september 2021, houdende de vantoepassingverklaring van de Wet tegemoetkoming schade bij rampen op het afstromend water in Limburg ten gevolge van de regenval in juli 2021"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "type" : "overheid:Informatietype",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_61e3099a",
+        "label" : "Staatsblad"
+      } ],
+      "themas" : [ {
+        "type" : "plooi:Topthema",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d772bf06",
+        "label" : "veiligheid",
+        "bronwaarde" : "Rampen"
+      } ]
+    },
+    "extraMetadata" : [ {
+      "prefix" : "plooi.displayfield",
+      "velden" : [ {
+        "key" : "isVervangenDoor",
+        "values" : [ "stb-2021-419-n1" ]
+      } ]
+    } ]
+  },
+  "plooiIntern" : {
+    "dcnId" : "oep-8b3d7d3bb9df556ae725c0467c7edc9f5ed1f848",
+    "aanbieder" : "officielebekendmakingen.nl",
+    "extId" : [ "dummy" ],
+    "sourceLabel" : "oep"
+  }
+}

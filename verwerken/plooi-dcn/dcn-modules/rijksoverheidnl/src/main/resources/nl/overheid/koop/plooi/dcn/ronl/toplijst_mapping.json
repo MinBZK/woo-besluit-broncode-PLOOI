@@ -1,0 +1,6957 @@
+[
+	{
+		"@id": "ignore",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "1e deelbesluit Wob-verzoek aanleg 2e Suezkanaal",
+				"@language": "nl"
+			},
+			{
+				"@value": "1e deelbesluit Wob-verzoek invoering energieprestatiecertificaat gebouwen",
+				"@language": "nl"
+			},
+			{
+				"@value": "2e deelbesluit Wob-verzoek aanleg 2e Suezkanaal",
+				"@language": "nl"
+			},
+			{
+				"@value": "2e deelbesluit Wob-verzoek ICT-incidenten",
+				"@language": "nl"
+			},
+			{
+				"@value": "2e deelbesluit Wob-verzoek invoering energieprestatiecertificaat voor gebouwen",
+				"@language": "nl"
+			},
+			{
+				"@value": "2e deelbesluit Wob-verzoek rapportage ILT over certificaten Verordening bouwproducten",
+				"@language": "nl"
+			},
+			{
+				"@value": "2e vragenronde SRGR Partnerschappen",
+				"@language": "nl"
+			},
+			{
+				"@value": "3D-onderzoek begrotingen gemeenten 2016",
+				"@language": "nl"
+			},
+			{
+				"@value": "3D-onderzoek begrotingen gemeenten en gemeenschappelijke regelingen 2015",
+				"@language": "nl"
+			},
+			{
+				"@value": "40 man Koninklijke marechaussee naar Oekraïne",
+				"@language": "nl"
+			},
+			{
+				"@value": "8 cases: Go with the dataflow! (Annexes, in Dutch)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanbiedingsbrief bij nota van wijziging over Meststoffenwet",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanbiedingsbrief bij rapporten Evaluatie Zorgverzekeringswet en Evaluatie Wet Ovoz",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanbiedingsbrief bij reactie Instituut voor Bouwrecht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanbiedingsbrief bijlage bij brief hoofdlijnenakkoorden hoger onderwijs",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanbiedingsbrief Imtech N.V.",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanbiedingsbrief meicirculaires 2016 gemeentefonds en provinciefonds",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanbiedingsbrief  Memorie van Antwoord verplicht schatkistbankieren decentrale overheden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanbiedingsbrief met verslag Eurogroep 23 januari 2012",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanbiedingsbrief NEVI",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanbiedingsbrief NVvA",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanbiedingsbrief Vereniging Beleidsonderzoek",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aankondiging fonds Addressing Root Causes Fund (ARC Fund 2016-2021)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aankondiging informatiebijeenkomst Voice",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanpak financiële sector",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanpak hooligans",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanpak milieuonderzoek Structuurvisie Ondergrond",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanpassing inkoopvoorwaarden biedt innovatieve ICT-leveranciers meer kansen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanscherping toezicht op levensverzekeraars",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanvraagformulieren Beleidsregels subsidieverstrekking bijzondere transitiekosten Jeugdwet",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanvraagstramien en drempeltoets ARC Fonds",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanvullend besluit Wob-verzoek over de ontvangen facturen van Duke Faunabeheer te Lelystad",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanvulling beantwoording Kamervragen over subsidie waterschap Aa en Maas voor Heineken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Accountantsrapport bij jaarrapportage project vervanging pantservoertuigen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Achtergrondinformatie positieflijst zoogdieren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Actieplan Donner: 16.000 extra studentenkamers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Actieplan LeerKracht van Nederland",
+				"@language": "nl"
+			},
+			{
+				"@value": "Actieplan Sneller en Beter",
+				"@language": "nl"
+			},
+			{
+				"@value": "Actieprogramma Onderwijs en ondernemen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Administrative Agreement Frisian Language and Culture 2013 - 2018",
+				"@language": "nl"
+			},
+			{
+				"@value": "Administrative Rules LEAD",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 108 Risico-analyse sourcing P&O diensten JDV",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 1197 Rapport werking VMS bij BACK-spelers binnen BS",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 121 Vervolgonderzoek pandemie",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 1245 Re-integratie bij het CLAS",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 1313 Belegging taken sturing en beheersing materieelbeheer (vervolgonderzoek)",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 1410 Ongeschreven regels van deregulering",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 1419 Keten fysieke post Defensie",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 1497 Completering personeelsdossiers",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 155 Tijdigheid afhandelen veiligheidsonderzoeken bij de MIVD",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 1602 Doorbelasting en facturatie door RVB-DVD aan Defensie",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 1605 Oorzaken blokkeren facturen in ERP M&F",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 165 Beheer vertrouwensfuncties bij de BS",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 433 Vernietiging sollicitatiegegevens DCWS",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 586 IV facilitaire dienstverlening",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 803 Validering werkplekken en business case DMO op Kromhoutkazerne",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 840 Uitfaseren Legacy Matlog",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 843 MGLC vergunningen en de nieuwe bedrijfsvoering",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 898 Privacy Audit WPG 2014",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 910 Belegging taken sturing en beheersing materieelbeheer",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 92 Werking VMS Defensie",
+				"@language": "nl"
+			},
+			{
+				"@value": "ADR 2015 982 Digitalisering patiendossiers Centraal Militair Hospitaal",
+				"@language": "nl"
+			},
+			{
+				"@value": "Advies CvdM over Concessiebeleidsplan 2016-2020 NPO",
+				"@language": "nl"
+			},
+			{
+				"@value": "Advies nieuwe zorg en zorgberoepen aangeboden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Advies Onderwijsraad over Wetsvoorstel meer ruimte voor nieuwe scholen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Advies Raad voor Cultuur over Concessiebeleidsplan 2016-2020 NPO",
+				"@language": "nl"
+			},
+			{
+				"@value": "Advies wetsvoorstel wijziging aantal onderwijswetten in verband met versterking bestuurskracht van onderwijsinstellingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Advies Zzpers in beeld",
+				"@language": "nl"
+			},
+			{
+				"@value": "Adviesrapport Commissie Elverding (Sneller & Beter)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Afschrift brief over pyrazool in Maaswater",
+				"@language": "nl"
+			},
+			{
+				"@value": "Agentschap van de Generale Thesaurie",
+				"@language": "nl"
+			},
+			{
+				"@value": "AIVD waarschuwt in jaarverslag tegen digitale spionage",
+				"@language": "nl"
+			},
+			{
+				"@value": "Akkoord over inzet Europese subsidie voor promotie groente en fruit",
+				"@language": "nl"
+			},
+			{
+				"@value": "Algemene Rekenkamer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Alleenstaande minderjarige illegalen niet meer gevangen in jeugdinrichting",
+				"@language": "nl"
+			},
+			{
+				"@value": "Answers to questions regarding LEAD",
+				"@language": "nl"
+			},
+			{
+				"@value": "Antennebureau",
+				"@language": "nl"
+			},
+			{
+				"@value": "Antenneregister",
+				"@language": "nl"
+			},
+			{
+				"@value": "Antwoord Justitie op advies commissie-Wientjes over horizonbepalingen in wetgeving",
+				"@language": "nl"
+			},
+			{
+				"@value": "Antwoord op advies Zorgverzekeringswet",
+				"@language": "nl"
+			},
+			{
+				"@value": "Antwoord staatssecretaris EZ op ICT-advies",
+				"@language": "nl"
+			},
+			{
+				"@value": "Antwoorden Kamervragen over de achterstanden bij het NFI",
+				"@language": "nl"
+			},
+			{
+				"@value": "Antwoorden op de schriftelijke vragen van de leden Brinkman en Lucassen (PVV) over de aanpassing van de casinoregels op Sint Maarten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Antwoorden op kamervragen over de uitspraak van het Gerechtshof in Den Haag over de opvang van minderjarige kinderen van vreemdelingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Arbeidsmigratie in vieren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Arbo in bedrijf 2010",
+				"@language": "nl"
+			},
+			{
+				"@value": "Arbobalans 2011",
+				"@language": "nl"
+			},
+			{
+				"@value": "Archief jaarrapporten wapenexportbeleid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Arrest van de Hoge Raad van 25 november 2005, nr. 38377",
+				"@language": "nl"
+			},
+			{
+				"@value": "Artikel Ga op safari",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bankenvisie: solide, integere en concurrerende bankensector",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beantwoording aanvullende vragen over rapporten Auditdienst over verandermanagement en bezuinigingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beantwoording Kamervragen over de hypotheek van de president van De Nederlandsche Bank",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beantwoording Kamervragen over DigiNotar-affaire op basis van WOB-stukken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beantwoording Kamervragen over het bericht 'Laat niet artsen maar rechters oordelen over euthanasieverklaring'",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beantwoording Kamervragen over het verslag Schriftelijk Overleg Landbouw- en Visserijraad 9 juli 2014 (tweede deel)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beantwoording Kamervragen over het vertrek van de belastingdienst uit Emmen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beantwoording Kamervragen over Jaarverslag  en slotwet Ministerie van Binnenlandse Zaken en  Koninkrijksrelaties en van Wonen en Rijksdienst 2013",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beantwoording Kamervragen over verslag Schriftelijk Overleg Landbouw- en Visserijraad",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beantwoording Kamervragen over zorgen over het toekomstige salaris van de directie van DNB",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beantwoording Kamervragen van SP over ING dat adverteerders inzicht wil bieden in klantgedrag",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beantwoording Kamervragen van VVD over het bericht 'ING geeft adverteerder inzicht in klantgedrag'",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beslissing op verzoek art. 3 Wob",
+				"@language": "nl"
+			},
+			{
+				"@value": "Staatsveiligheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "La modernisation de la diplomatie néerlandaise",
+				"@language": "nl"
+			},
+			{
+				"@value": "Modernisierung der niederländischen Diplomatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Modernización de la diplomacia holandesa",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verlofregelingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB – The Only Constant is Change: Evaluation of the Dutch contribution to transition in the Arab region 2009-2013 (Engels)",
+				"@language": "nl"
+			},
+			{
+				"@value": "EU-wide Stress Test 2011 – Results for The Netherlands",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toelichting bij de cijfers ‘Kamerbrief over financiële gegevens sociaal domein 2015 per gemeente’ van 7 november",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluation of Dutch Development Cooperation in the Palestinian Territories 2008-2014 – How to Break the Vicious Cycle",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB Evaluation Newsletter # 15 07 – Key lessons from an evaluation of support for Policy Influencing, Lobbying and Advocacy (PILA)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bedrijfsvoering van het Rijk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Begrotingsanalyse 2007",
+				"@language": "nl"
+			},
+			{
+				"@value": "Begrotingsanalyse 2008",
+				"@language": "nl"
+			},
+			{
+				"@value": "Begrotingsanalyse 2009",
+				"@language": "nl"
+			},
+			{
+				"@value": "Begrotingsanalyse 2010",
+				"@language": "nl"
+			},
+			{
+				"@value": "Begrotingsanalyse 2011",
+				"@language": "nl"
+			},
+			{
+				"@value": "Begrotingsanalyse 2012",
+				"@language": "nl"
+			},
+			{
+				"@value": "Begrotingsanalyse 2014",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bekendmaking besluit voorlopige aanwijzing Hertogin Hedwigepolder",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bekendmaking Consignatie van gelden 2005",
+				"@language": "nl"
+			},
+			{
+				"@value": "BEKENDMAKING ONTEIGENING SNS REAAL EN SNS BANK",
+				"@language": "nl"
+			},
+			{
+				"@value": "Belangrijke stap gezet in verkoopproces REAAL",
+				"@language": "nl"
+			},
+			{
+				"@value": "Belangrijke stappen in verkoop REAAL aan Anbang",
+				"@language": "nl"
+			},
+			{
+				"@value": "Belastingdienst",
+				"@language": "nl"
+			},
+			{
+				"@value": "Belastingplan in teken van lagere lasten op arbeid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beleidsambtenaar, een bijzonder beroep",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beleidsbrief Respect en recht voor ieder mens",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beleidsregels subsidieverstrekking bijzondere transitiekosten Jeugdwet",
+				"@language": "nl"
+			},
+			{
+				"@value": "Benchmark registers: aanvullend onderzoek naar de kwaliteit van dienstverlening",
+				"@language": "nl"
+			},
+			{
+				"@value": "Benelux-Bureau voor de Intellectuele Eigendom",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beoordeling Kwaliteit Strategy&/PWConderzoek naar ECN/NRG",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beschikking Wob-verzoek dienstreizen China, India, Rusland en Brazilië",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beslissing op bezwaar tegen besluit op Wob-verzoek over aanwijzing netbeheerders",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beslissing op bezwaar tegen deelbesluit Wob-verzoek taakopvatting TenderNed",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beslissing op bezwaar tegen deelbesluiten Wob-verzoek taakopvatting TenderNed",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beslissing op WOB-verzoek aan EZ over het Capaciteitsadvies Elektriciteit en Telecom/ICT (CAET)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beslissing op WOB-verzoek aan VenJ over het Capaciteitsadvies Elektriciteit en Telecom/ICT (CAET)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beslissing op WOB-verzoek over elektronische identificatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit 23 juni 2011 tot wijziging Besluit uitsluiting aftrek omzetbelasting 1968",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit bestanddelen munten van 5 en 10 euro",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit BZK op Wob-verzoek over communicatie van de overheid met burgers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit op bezwaar Wob-verzoek inzake  eindresultaten van leerlingen van groep 8 op basisscholen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit op WOB-verzoek over communicatie van het ministerie van IenM met burgers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit op Wob-verzoek over de storageleveranciers van het ministerie van Algemene Zaken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit op Wob-verzoek over eindresultaten van leerlingen van groep 8 op basisscholen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit op Wob-verzoek over informatie over ICT-incidenten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit tot wijziging van de Beleidsregel handhaving Verordening (EG) nr. 261/2004 inzake passagiersrechten luchtvaart",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit tot wijziging van de Wet bopz",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit van 23 mei 2014 tot wijziging van het Luchthavenindelingbesluit Schiphol",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob verzoek gebruik dienstauto's door het ministerie van Veiligheid en Justitie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob verzoek gebruik dienstauto’s door het ministerie van Veiligheid en Justitie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek (derde deel) inzake energieprestatiecertificaat voor gebouwen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit wob-verzoek EK-rapport",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit WOB-verzoek EZ inzake documentatie Marker Wadden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek gebruik diensten datahandelaren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek IAK (BZK)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek IAK (EZ)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek IAK (Financiën)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek IAK (VenJ)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek IAK (VWS)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit WOB-Verzoek IenM inzake documentatie Marker Wadden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek introductie biometrie Deelbesluit 6",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek inzake informatie over de beoordeling van de M5 pestaanpak",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek inzake oneigenlijk gebruik van Wob-verzoeken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek inzake verkeersboetes/bekeuringen dienstwagens IenM",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek inzake verkeersboetes/bekeuringen dienstwagens OCW",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (mogelijke) integriteitsaantastingen BZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (mogelijke) integriteitsaantastingen BZK",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (mogelijke) integriteitsaantastingen Financiën",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (mogelijke) integriteitsaantastingen ministerie AZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (mogelijke) integriteitsaantastingen ministerie BZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (mogelijke) integriteitsaantastingen ministerie BZK",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (mogelijke) integriteitsaantastingen ministerie EZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (mogelijke) integriteitsaantastingen ministerie FIN",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (mogelijke) integriteitsaantastingen ministerie IenM",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (mogelijke) integriteitsaantastingen ministerie OCW",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (mogelijke) integriteitsaantastingen ministerie SZW",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (mogelijke) integriteitsaantastingen ministerie VenJ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (mogelijke) integriteitsaantastingen ministerie VWS",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (mogelijke) integriteitsaantastingen OCW",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (mogelijke) integriteitsaantastingen SZW",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (mogelijke) integriteitsaantastingen VWS",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (vermoedelijke) integriteitsaantastingen AZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (vermoedelijke) integriteitsaantastingen Buitenlandse Zaken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (vermoedelijke) integriteitsaantastingen BZK",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (vermoedelijke) integriteitsaantastingen Defensie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (vermoedelijke) integriteitsaantastingen EZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (vermoedelijke) integriteitsaantastingen Financiën",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (vermoedelijke) integriteitsaantastingen IenM",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (vermoedelijke) integriteitsaantastingen OCW",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (vermoedelijke) integriteitsaantastingen SZW",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (vermoedelijke) integriteitsaantastingen VenJ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meldingen van (vermoedelijke) integriteitsaantastingen VWS",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek NSS 2014 protesten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek onderzoeksvragen windenergie op zee (EZ)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek onderzoeksvragen windenergie op zee (IenM)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek openluchtzwembad de Papiermolen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over alle stukken die hebben geleid tot de rapportage van de Commissie Anti-pestprogrammas",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit WOB-verzoek over communicatie van de overheid met burgers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over de Morpho/Patriot Act",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over de ontvangen facturen van Duke Faunabeheer te Lelystad",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over de Patriot Act",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over een brief aan VEXPAN over kentekenparkeren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over EK-rapport",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over fiscale consequenties integrale tarieven medisch specialisten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over het continuïteitsvraagstuk van TSN Thuiszorg (2e deelbesluit)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over het Vakcollege (deelbesluit 1)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over het Vakcollege (deelbesluit 2)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over het Vakcollege",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over informatie over de beoordeling van de M5 pestaanpak",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over inhuur particuliere beveiligers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over inhuur van particuliere beveiligers van 2013 tot heden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over leeftijdsverificatie bij verkoop van alcohol en tabak (1)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over leeftijdsverificatie bij verkoop van alcohol en tabak (2)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over meldingen van (mogelijke) integriteitsaantastingen VenJ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over meldingen van (vermoedelijke) misstanden IenM",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over publieksonderzoek Rijksoverheid AZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over publieksonderzoek Rijksoverheid BZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over publieksonderzoek Rijksoverheid BZK",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over publieksonderzoek Rijksoverheid Defensie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over publieksonderzoek Rijksoverheid EZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over publieksonderzoek Rijksoverheid IenM",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over publieksonderzoek Rijksoverheid OCW",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over publieksonderzoek Rijksoverheid SZW",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over publieksonderzoek Rijksoverheid VenJ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over reuzenpandas (AZ)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over reuzenpandas (BZ)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over reuzenpandas (EZ)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over samenwerking met Saudi-Arabië bij contra-terrorisme (BZ)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over samenwerking met Saudi-Arabië bij contra-terrorisme (VenJ)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over uitlenen en detacheren van ambtenaren (BZ)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over uitlenen en detacheren van ambtenaren (EZ)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over uitlenen en detacheren van ambtenaren (Financiën)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over uitlenen en detacheren van ambtenaren (VWS)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over vacatureteksten en functieprofielen in de documentaire informatie voorziening (DIV) - VenJ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over vacatureteksten en functieprofielen in de documentaire informatie voorziening (DIV) - VWS",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over verkeersboetes/bekeuringen dienstwagens Financiën",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over verkeersboetes/bekeuringen dienstwagens VenJ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over verkeersovertredingen die zijn gemaakt met dienstauto's van de bewindspersonen BZK",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek over Wva Onderwijs en subsidieregeling Praktijkleren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek Papiermolen Groningen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek reacties op wetsvoorstel Wet verlaging bezoldigingsmaximum WNT",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek taakopvatting TenderNed (deel 1)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek taakopvatting TenderNed (deel 2)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek taakopvatting TenderNed (deel 3)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek uitkeringen aan voormalig ministers en oud-leden van de Tweede Kamer op grond van de Algemene pensioenwet politieke pensioenen (Appa)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek vacatureteksten en functieprofielen functies in de documentaire informatie voorziening (DIV) - BZK",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek vacatureteksten en functieprofielen functies in de documentaire informatie voorziening (DIV) - IenM",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit wob-verzoek van EZ over aanleg windmolenparken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bestuursvoorzitter COA op non-actief",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bewonersparticipatie in aandachtswijken 2012",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bewonerspeilingen aandachtswijken 2009, resultaten per gemeente",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bewonerspeilingen aandachtswijken 2010, resultaten per gemeente",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bewonerspeilingen aandachtswijken 2011, resultaten per gemeente",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bezwaarschrift besluit Wob-verzoek over het bezoek van prinses Maxima te Leiden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bijlage bij Onderzoek uitvoering motie Ten Broeke",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bijlage: advies Raad voor Cultuur",
+				"@language": "nl"
+			},
+			{
+				"@value": "Biodiversiteitsverdrag",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bladerbare versie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bleker: snel maatregelen voor grote grazers Oostvaardersplassen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Boek Beroep: beleidsambtenaar",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bouwbesluit 2012",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bouwteam: 'nieuw elan voor de bouw'",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brief aan de Tweede Kamer over uitspraak Gerechtshof Den Haag inzake opvang uitgeprocedeerde gezinnen met minderjarige kinderen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brief aan de Tweede Kamer over Wopt Rapportage 2010",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brief aan Eerste Kamer over de stelselvernieuwing van de gesubsidieerde rechtsbijstand",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brief aan Eerste Kamer over hypothecaire leningen van DNB",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brief Eerste Kamer over toekomst cohesiebeleid (structuurfondsen), gezamenlijk position paper regering, provincies en gemeenten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brief naar Tweede Kamer over bijdrage Nederland aan uitvoering VN-resolutie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brief over uitvoering motie Spekman en Anker",
+				"@language": "nl"
+			},
+			{
+				"@value": "brief tweede kamer over toekomst cohesiebeleid (structuurfondsen), gezamenlijk position paper regering, provincies en gemeenten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brief Tweede Kamer over voortgang Programma Modernisering Gevangeniswezen.",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brief Tweede Kamer Stelselvernieuwing gesubsidieerde rechtsbijstand",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brief Tweede Kamer: Aanpak criminaliteit tegen bedrijven",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brief Tweede Kamer: Aanscherping bestrijding discriminatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brief Tweede Kamer: Cijfers 2009/2010 zaken van internationale kinderontvoering",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brief Tweede Kamer: Draagmoederschap",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brief Tweede Kamer: ISt rapport themaonderzoek Meerpersoonscelgebruik",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brief Tweede Kamer: Onderzoek draagvlak voor Nationale Politie onder politiemensen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Buitenlandse voorbeelden met lessen voor tol in NL",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bundeling krachten voor meer tijdelijke huisvesting arbeidsmigranten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Burgemeesters",
+				"@language": "nl"
+			},
+			{
+				"@value": "Buurteffecten op kinderen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Cameratoezicht in beweging. Ervaringen met nieuwe vormen van cameratoezicht bij de Nederlandse politie",
+				"@language": "nl"
+			},
+			{
+				"@value": "CAR methodology manual - A method for identifying regulatory burden within a sector",
+				"@language": "nl"
+			},
+			{
+				"@value": "Cijfers over Wonen en Bouwen 2013 (klikbare pdf)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Circulaire aanpassingsregeling Appa-pensioenen 2014",
+				"@language": "nl"
+			},
+			{
+				"@value": "Circulaire BRP en briefadres",
+				"@language": "nl"
+			},
+			{
+				"@value": "Clingendael Energy Programme (CIEP) - Onderzoek Kernenergie. Een internationale beleidsverkenning",
+				"@language": "nl"
+			},
+			{
+				"@value": "Commissie Structuur Nederlandse Banken: Naar een dienstbaar en stabiel bankwezen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Complex onderwerp draagmoederschap vraagt om nadere oriëntatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Corridors voor transport slachtpluimvee Biddinghuizen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Country of Origin Information Report Afghanistan",
+				"@language": "nl"
+			},
+			{
+				"@value": "Country Report on Human Rights and Justice in Rwanda",
+				"@language": "nl"
+			},
+			{
+				"@value": "Criminaliteit onder jongeren tegengaan",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ctivd",
+				"@language": "nl"
+			},
+			{
+				"@value": "Daling criminaliteit tegen het bedrijfsleven",
+				"@language": "nl"
+			},
+			{
+				"@value": "de beleidsnota Varen voor een vitale economie: een veilige en duurzame binnenvaart",
+				"@language": "nl"
+			},
+			{
+				"@value": "De Lerarenagenda 2013-2020",
+				"@language": "nl"
+			},
+			{
+				"@value": "De publieke opinie over kernenergie",
+				"@language": "nl"
+			},
+			{
+				"@value": "De toekomstige arbeidsmarkt voor onderwijspersoneel 2013-2025",
+				"@language": "nl"
+			},
+			{
+				"@value": "Dedicon",
+				"@language": "nl"
+			},
+			{
+				"@value": "Deelbesluit 1 op Wob-verzoek over het conflict tussen medici in het VU medisch centrum",
+				"@language": "nl"
+			},
+			{
+				"@value": "Deelbesluit 2 op Wob-verzoek over het conflict tussen medici in het VU medisch centrum",
+				"@language": "nl"
+			},
+			{
+				"@value": "Deelbesluit bij Wob-verzoek cyberincidenten bij overheidsorganisaties en bedrijven",
+				"@language": "nl"
+			},
+			{
+				"@value": "Democraticchallenge.nl",
+				"@language": "nl"
+			},
+			{
+				"@value": "Derde deelbesluit op Wob-verzoek inzake wetsvoorstel collectieve schadevergoeding (motie Dijksma)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Development cooperation",
+				"@language": "nl"
+			},
+			{
+				"@value": "Diensten en instellingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Dierenwelzijn huisdieren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Dierenwelzijn wilde dieren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Dijsselbloem maant accountants tot verbeteringen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Dit najaar veel hinder op de weg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Diversiteit en inclusie bij de Rijksoverheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Doe democratie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Doggersbank, Klaverbank en Fries Front definitief beschermd natuurgebied",
+				"@language": "nl"
+			},
+			{
+				"@value": "Domeinnamen voor websites",
+				"@language": "nl"
+			},
+			{
+				"@value": "Draagmoederschap en illegale opneming van kinderen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Een lastig gesprek - Advies Commissie Behoorlijk Bestuur",
+				"@language": "nl"
+			},
+			{
+				"@value": "Eerste deelbesluit Wob verzoek over de rapportage van de ILT over certificaten in het kader van de Verordening Bouwproducten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Eerste deelbesluit Wob-verzoek woekerpolissen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Eerste slag Erasmusmunt",
+				"@language": "nl"
+			},
+			{
+				"@value": "Eerste verslag Comit$#233; van Toezicht ILG - 22 juni 2010",
+				"@language": "nl"
+			},
+			{
+				"@value": "Effecten van een masteropleiding op leraren en hun omgeving (nulmeting)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Effecten van een masteropleiding op leraren en hun omgeving",
+				"@language": "nl"
+			},
+			{
+				"@value": "Eindrapportage Spelregels Interbestuurlijke Informatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Eindrapportage subsidie-evaluatie StAB",
+				"@language": "nl"
+			},
+			{
+				"@value": "Eindrapportage toekomststudie StAB",
+				"@language": "nl"
+			},
+			{
+				"@value": "Engelse bijlagen bij Evaluation of the Theme-Based Co-Financing Programme",
+				"@language": "nl"
+			},
+			{
+				"@value": "Engelse vertaling van Kamerbrief over het verwerven van overwegende zeggenschap in een telecommunicatiebedrijf",
+				"@language": "nl"
+			},
+			{
+				"@value": "Erfbelasting. Waardering van serviceflats bij overlijdens in 2012 en 2013",
+				"@language": "nl"
+			},
+			{
+				"@value": "Erratum accountantsrapport bij jaarrapportage project vervanging pantservoertuigen M577 en YPR",
+				"@language": "nl"
+			},
+			{
+				"@value": "Erratum Overall rapportage sociaal domein 2015",
+				"@language": "nl"
+			},
+			{
+				"@value": "Erratum Report LEI 14-128",
+				"@language": "nl"
+			},
+			{
+				"@value": "Erratum Samenvatting Overall rapportage sociaal domein 2015",
+				"@language": "nl"
+			},
+			{
+				"@value": "EU to accelerate sustainable plant protection",
+				"@language": "nl"
+			},
+			{
+				"@value": "EU wil meer duurzame gewasbescherming",
+				"@language": "nl"
+			},
+			{
+				"@value": "EU-verdragen vertaald in 't Frysk",
+				"@language": "nl"
+			},
+			{
+				"@value": "EU-wide Stress Test 2011 - Results for The Netherlands",
+				"@language": "nl"
+			},
+			{
+				"@value": "Europees Octrooiverdrag",
+				"@language": "nl"
+			},
+			{
+				"@value": "Europese Commissie akkoord met staatssteun aan SNS Reaal",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluatie begroting van de Koning",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluatie Interventiewet",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluatie MEP Aanleg Maasvlakte 2 2013",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluatie MEP Natuurcompensatie Voordelta 2013",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluatie Meststoffenwet 2012",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluatie van beleid bij het ministerie van Buitenlandse Zaken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluatie van de Wet normering topinkomens (WNT) - Eindrapport wetsevaluatie WNT 2013-2015",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluatieonderzoeken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluatieprogrammering 2011-2016",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluatieprogrammering bij het ministerie van Buitenlandse Zaken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluatierapport Programma voor de Creatieve Industrie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluation of Dutch Development Cooperation in the Palestinian Territories 2008-2014 - How to Break the Vicious Cycle",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluation of the 'Blue Birds' Circular Migration Pilot in The Netherlands",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluation of the Matra Training Programme for European Cooperation (MTEC)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluation Stability Fund 2004 and 2005- English summary",
+				"@language": "nl"
+			},
+			{
+				"@value": "Excellente scholen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Executive Agency for Health and Consumers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Exportkredietverzekering",
+				"@language": "nl"
+			},
+			{
+				"@value": "Extra geld voor onderzoek en productontwikkeling",
+				"@language": "nl"
+			},
+			{
+				"@value": "Extra training voor weerbaarheid agenten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Factsheet Bedreigd bestuur.  Agressie en geweld tegen politieke ambtsdragers bij gemeenten, provincies en waterschappen.",
+				"@language": "nl"
+			},
+			{
+				"@value": "Financiële informatie en administratie Rijk (Hafir)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Financiën Koninklijk Huis",
+				"@language": "nl"
+			},
+			{
+				"@value": "Footloose migranten in beeld",
+				"@language": "nl"
+			},
+			{
+				"@value": "Frequentiebesluit 2013",
+				"@language": "nl"
+			},
+			{
+				"@value": "“Schultz: binnenvaartsector moet beter gaan samenwerken”",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gaswinning Groningen verlaagd tot 24 miljard kubieke meter",
+				"@language": "nl"
+			},
+			{
+				"@value": "Geschilleninstantie zorgcontracten van start",
+				"@language": "nl"
+			},
+			{
+				"@value": "Geweld onder invloed strenger bestraft",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gewijzigd amendement Wijziging Wet op het voortgezet onderwijs in verband met onderwijskwaliteit, onderwijstijd en vakanties",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gezonde voeding, van begin tot eind, Nota voeding en gezondheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Global challenges dutch solutions (Engelstalig)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Go with the dataflow! Annexes",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gokken in Kaart gebracht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Government.nl - IOB rapport - Mutual interests - mutual benefits",
+				"@language": "nl"
+			},
+			{
+				"@value": "Green Deal aanpak",
+				"@language": "nl"
+			},
+			{
+				"@value": "Grensbedragen voor procedures Aanbestedingswet 2012 onder de Europese drempelwaarde",
+				"@language": "nl"
+			},
+			{
+				"@value": "Groei melkveehouderij wordt grondgebonden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Groen licht voor online onderwijs",
+				"@language": "nl"
+			},
+			{
+				"@value": "Handleiding Artikel 12 Financiële-verhoudingswet 2017",
+				"@language": "nl"
+			},
+			{
+				"@value": "Handreiking Aanpak woonoverlast en verloedering",
+				"@language": "nl"
+			},
+			{
+				"@value": "Handreiking voor betere beveiliging burgemeesters en wethouders",
+				"@language": "nl"
+			},
+			{
+				"@value": "Herziening gewichtenregeling primair onderwijs fase 2: resultaten voor scholen en gemeenten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Herziening gewichtenregeling primair onderwijs fase 3: bijschatting voor niet-ingeschreven leerlingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Het Nederlandse wapenexportbeleid in 2015",
+				"@language": "nl"
+			},
+			{
+				"@value": "Het ongelijkheidsdebat in land en stad",
+				"@language": "nl"
+			},
+			{
+				"@value": "Het rapport van de Evaluatiecommissie Nationalisatie SNS Reaal",
+				"@language": "nl"
+			},
+			{
+				"@value": "Huisvesting asielzoekers met verblijfsvergunning",
+				"@language": "nl"
+			},
+			{
+				"@value": "Huisvesting EU-arbeidsmigranten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Hulp voor gemeenten bij transformatie van leegstaande gebouwen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Human rights policy - Justice and respect for all",
+				"@language": "nl"
+			},
+			{
+				"@value": "I-TEAMS geven impuls aan betere (elektronische) dienstverlening",
+				"@language": "nl"
+			},
+			{
+				"@value": "Importeren zonder invoerrechten: tariefschorsingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "In beeld:  acties actieplan arbeidsmarktdiscriminatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Informatieblad Wetsvoorstel tegemoetkomingen loondomein",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inkomstenbelasting. Vennootschapsbelasting. Geruisloze omzetting; standaardvoorwaarden; toelichting",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inkomstenbelasting, vragen en antwoorden uitgaven voor levensonderhoud van kinderen,  [...] weekenduitgaven voor gehandicapten en scholingsuitgaven",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inloggen op mijn.rvo.nl",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inrichtingsplan Nationale Politie (concept)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inspectie Openbare Orde en Veiligheid (IOOV)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inspectie Openbare Orde en Veiligheid: bestrijding natuurbranden niet op orde",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inspectie SZW",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inspectierapport aansluiting onderwijs en buitenschoolse opvang in de schoolgids",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inspectie Ontwikkelingssamenwerking en Beleidsevaluatie (IOB)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Instelling beheeradviescommissie Oostvaardersplassen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Instellingsbesluit Commissie macrodoelmatigheid mbo",
+				"@language": "nl"
+			},
+			{
+				"@value": "Instellingsbesluit Klankbordgroep LTSa",
+				"@language": "nl"
+			},
+			{
+				"@value": "Interactie tussen Quality of Place & Quality of Life: de concepten kwaliteit van de leefomgeving en kwaliteit van leven verbonden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Intermediairdagen over Belastingplan 2016 voor financieel dienstverleners",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationaal deel Overstromingsrisicobeheerplan Eems",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationaal deel Overstromingsrisicobeheerplan Maas",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationaal deel Overstromingsrisicobeheerplan Rijn",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationaal deel Overstromingsrisicobeheerplan Schelde",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationaal gecoördineerd stroomgebiedbeheerplan Eems",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationaal gecoördineerd stroomgebiedbeheerplan Maas",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationaal gecoördineerd stroomgebiedbeheerplan Rijn",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationaal gecoördineerd stroomgebiedbeheerplan Schelde",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internetconsultatie.nl",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inventarisatie (markt-)doorbraak technologieën voor een energieneutrale omgeving",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inwerkingtredingsbesluit Aanbestedingswet",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inzet, effecten en wensen ten aanzien van de innovatie- en stagebox",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Blank Slate - and after? (In French)",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Evaluation of general budget support to Nicaragua 2005-2008",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Evaluation of the MDG3 Fund - Investing in Equality (2008-2011)",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Gender sense & sensitivity - Policy evaluation on womens rights and gender equality (2007-2014)",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Gender, peace and security - Evaluation of the Netherlands and UN Security Council resolution 1325",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Joint evaluation of conflict prevention and peace building DR Congo",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Mutual interests - mutual benefits: Evaluation of the 2005 debt relief agreement between the Paris Club and Nigeria",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Navigating a sea of interests: Policy evaluation of Dutch foreign human rights policy 2008-2013",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Poverty, policies and perceptions in Tanzania. An evaluation of Dutch aid to two district rural development programmes (summary)",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Premises and promises - A study of the premises underlying the Dutch policy for womens rights and gender equality",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Summary Impact evaluation Water Supply and Sanitation Programmes Shinyanga Region, Tanzania 1990-2006",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Terms of Reference Clean Development Mechanism",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Terms of Reference Evaluation of the implementation of the Paris Declaration",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Terms of Reference for the evaluation of sector support in the water sector",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Terms of Reference Impact evaluation Support to Rural Water Supply and Sanitation in Dhamar and Hodeidah Governorates, Republic of Yemen",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Terms of Reference Impact evaluation Water Supply and Sanitation Programmes Shinyanga Region, Tanzania 1990-2006",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Terms of Reference Joint External Evaluation of the Health Sector in Tanzania: 1999 to 2006",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - The Netherlands- Africa Policy 1998-2006 / Evaluation of bilateral cooperation (summary)",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB - Tsunami Evaluation Coalition: Executive Summary Synthesis Report",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB Evaluatie Nieuwsbrief # 14 10 - Laveren tussen verschillende belangen. Het Nederlandse buitenlands mensenrechtenbeleid 2008-2013",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB Evaluatie Nieuwsbrief # 15 04 ' Met hernieuwde energie ' Beleidsdoorlichting van de Nederlandse bijdrage aan hernieuwbare energie en ontwikkeling",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB Evaluation Newsletter # 15 07 ' Key lessons from an evaluation of support for Policy Influencing, Lobbying and Advocacy (PILA)",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB – Impact study of the Programa de Alivio de Probeza ' PAP Santa Cruz (Bolivia)",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB – In search of focus and effectiveness: Policy review of Dutch support for private sector development 2005-2012 (extensive summary)",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB – Policy Review of Dutch Humanitarian Assistance, 2009-2014",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB – Renewable energy ' Policy review on the Dutch contribution to renewable energy and development (2004-2014) ' Summary report",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB – Terms of Reference Evaluation of the implementation of the Paris Declaration (French)",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB – The Only Constant is Change: Evaluation of the Dutch contribution to transition in the Arab region 2009-2013 (Engels)",
+				"@language": "nl"
+			},
+			{
+				"@value": "IOB Nieuwsbrief 14 02 - NCDO 'nieuwe stijl' draagt bij aan wereldburgerschap",
+				"@language": "nl"
+			},
+			{
+				"@value": "Jaarlijkse toets gedetineerde terroristen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Jaarprogramma Gemeenschappelijke Communicatie 2014",
+				"@language": "nl"
+			},
+			{
+				"@value": "Jaarrapportages Rijk: externe inhuur gedaald",
+				"@language": "nl"
+			},
+			{
+				"@value": "Jaarverslag 2013 Commissie voor de tunnelveiligheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Jaarverslag over toezicht op uitzetten van vreemdelingen naar Tweede Kamer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Java-apen verhuizen naar Stichting AAP",
+				"@language": "nl"
+			},
+			{
+				"@value": "Job opening Medical Doctor Ebola Treatment Centre",
+				"@language": "nl"
+			},
+			{
+				"@value": "Job opening nurse ebola treatment centre",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kabinet blijft zich inzetten voor goede inburgering Turken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kabinet versterkt vertrouwen woningmarkt en verlaagt overdrachtsbelasting",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kabinet zet project grensoverschrijdende samenwerking voort",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kabinet: snel duidelijkheid in asielprocedures",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kabinetsformatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kabinetsreactie op aanbevelingen 'Kosten Koper'",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kabinetsreactie Rapport Inspectie OOV Politieonderwijs, kwaliteit afgestudeerden geborgd?",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kabinetsvisie Nederlandse Bankensector",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kaderregeling subsidies duurzaamheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamer van Koophandel",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief energielabel als hulpmiddel bij energiebesparing in gebouwen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief erratum Midterm review bodemconvenant",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief Gasrotonde",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief huwelijks- en gezinsmigratie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief instellen Panel van Advies",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief met beleidsreactie op ORET-evaluatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief met reactie op de notitie Forensische geneeskunde als dienst t.b.v. gemeente, politie en justitie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief met reactie op het rapport De voorzieningenplanning in het voortgezet onderwijs",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief met rectificatie van brief monitor sociale veiligheid in en rond scholen 2014",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief met verslag van bezoek van mensenrechtenambassadeur aan Saoedi-Arabië (Engels)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over bedrag uitname provinciefonds Regionale Omroep",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over bekostiging van de regionale omroepen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over besteding samenwerkingsmiddelen Caribisch deel van het Koninkrijk en bestuurlijke ontwikkelingen Bonaire",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over de rapportage over de beloningen van bestuurders en commissarissen bij woningcorporaties",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over de stelselvernieuwing gesubsidieerde rechtsbijstand",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over de toekomstvisie van het Koninkrijk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over e-health en zorgverbetering",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over effecten Wet werk en zekerheid n.a.v. CNV-meldpunt",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over het huidige dierziektebestrijdingsbeleid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over onjuist beantwoorde vraag",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over overheveling specialistische geneesmiddelen 2015",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over Reiderwolde",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over toekomst ECN en ontvlechting van energieonderzoek en nucleaire activiteiten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over toepassing Wet normering topinkomens op AFM en DNB",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over Veiligheidsmonitor 2014",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over versterking voedselonderzoek Nederland",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over voortgang hoofdlijnenakkoorden en prestatieafspraken hoger onderwijs en onderzoek",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief over voortgang uitvoering IMVO-convenantenbeleid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief vitrificeren van eicellen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief voortgang implementatie referentiekader taal en rekenen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief voortgang plan van aanpak complexe zorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief voortgangsrapportage Plan van aanpak Dierproeven en alternatieven",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kan ik zorg krijgen die tijdelijk in het basispakket zit?",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kennis Nederlanders over gevaren (mee)roken laag",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kennisgeving Kernenergiewet ANVS, Ministerie van IenM",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kennisgeving van het vastgestelde Rijksinpassingsplan Hertogin Hedwigepolder",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kennisinstituut voor Mobiliteitsbeleid (KiM) - Mobiliteitsbeeld 2014",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kerncijfers Verkeersveiligheid Uitgave 2010",
+				"@language": "nl"
+			},
+			{
+				"@value": "Koningin Beatrix slaat Herdenkingsmunt '100 jaar Muntgebouw'",
+				"@language": "nl"
+			},
+			{
+				"@value": "Koningin Beatrix slaat Herdenkingsmunt ‘100 jaar Muntgebouw’",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kortdurend verblijf in zorginstelling per 2017 in basispakket",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kracht in NL Parade",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kwaliteit en schokbestendigheid Nederlandse bankbalansen op orde",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kwaliteitskeuring hoger onderwijs grondig herzien",
+				"@language": "nl"
+			},
+			{
+				"@value": "La modernisation de la diplomatie n@#233;erlandaise",
+				"@language": "nl"
+			},
+			{
+				"@value": "Landelijke maatregelen vogelgriep",
+				"@language": "nl"
+			},
+			{
+				"@value": "Leers ontvangt advies over discretionaire bevoegdheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Leers: homos die in eigen land vervolgd worden kunnen asiel krijgen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Leers: voorkomen van onnodig stapelen asielprocedures",
+				"@language": "nl"
+			},
+			{
+				"@value": "Leers: Waardering en steun voor Nederlandse aanpak Europees immigratiebeleid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Leidraad bij rapport gedragsbeïnvloeding bij bedrijven",
+				"@language": "nl"
+			},
+			{
+				"@value": "Leidraad stranding levende grote walvisachtigen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Lessen uit de wijkenaanpak; door de ogen van wetenschappers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Letter concerning Defense Cyber Strategy",
+				"@language": "nl"
+			},
+			{
+				"@value": "Letter concerning the Environmental Research into Shale Gas (in German)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Letter to the House of Representatives about the future of the public media system",
+				"@language": "nl"
+			},
+			{
+				"@value": "Lettre dinformation de lIOB 15 01 (Frans)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Lichtdoorlating van stuurhuisruiten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Lintjesregen 2011",
+				"@language": "nl"
+			},
+			{
+				"@value": "lnstellingsbesluit evaluatiecommissie Rijkswet Financieel toezicht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Lsabewoners.nl-agenda lokale democratie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Maatregelen na lekken gemeentelijke websites",
+				"@language": "nl"
+			},
+			{
+				"@value": "Maatschappelijke Opgaven Volksgezondheid en Gezondheidszorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Mansveld dringt aan op snel nieuwe en betrouwbare autotesten in Europa.",
+				"@language": "nl"
+			},
+			{
+				"@value": "Marktscan toldossier",
+				"@language": "nl"
+			},
+			{
+				"@value": "Maten van segregatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Maximum snelheid snelwegen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Mededeling Commissie van advies voor de zaken betreffende de burgerlijke staat en de nationaliteit",
+				"@language": "nl"
+			},
+			{
+				"@value": "Mededeling intrekking aanvraag NPO Nieuwsfragmentenkanaal als permanent kanaal",
+				"@language": "nl"
+			},
+			{
+				"@value": "Medische hulpmiddelen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Meer bescherming voor minderjarige slachtoffers van strafbare dwang",
+				"@language": "nl"
+			},
+			{
+				"@value": "Meer vreemdelingen vrijwillig terug",
+				"@language": "nl"
+			},
+			{
+				"@value": "Meerjarenbegroting 2015-2019 (pdf, 2,3 MB)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Memorie van Toelichting Wet Auteurscontractenrecht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Memorie van toelichting",
+				"@language": "nl"
+			},
+			{
+				"@value": "Mensenrechtenhof toetst gedwongen terugkeer naar Irak weer individueel",
+				"@language": "nl"
+			},
+			{
+				"@value": "MerkbaarheidsScan Maatwerktraject Agrofood",
+				"@language": "nl"
+			},
+			{
+				"@value": "MerkbaarheidsScan Maatwerktraject Logistiek (MAR-L)",
+				"@language": "nl"
+			},
+			{
+				"@value": "MG 2011-04 Circulaire Verkoop corporatiewoningen",
+				"@language": "nl"
+			},
+			{
+				"@value": "MH17 incident",
+				"@language": "nl"
+			},
+			{
+				"@value": "Migratiepatronen in dynamisch perspectief",
+				"@language": "nl"
+			},
+			{
+				"@value": "Millennium development goal 8 - Progress report 2006",
+				"@language": "nl"
+			},
+			{
+				"@value": "Minder agressie tegen werknemers met publieke taak",
+				"@language": "nl"
+			},
+			{
+				"@value": "Minister De Jager onderzoekt beperken risicovol bankieren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Minister Donner: Brede inzet op leefbaarheid steden en dorpen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Minister Leers neemt Griekse Dublinzaken snel ter hand",
+				"@language": "nl"
+			},
+			{
+				"@value": "Minister Opstelten stuurt besluit over herverdeling politiebudget naar Tweede Kamer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Minister Opstelten: vergoedingen politietop in 8 gevallen onterecht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Minister Opstelten: vorming nationale politie op koers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Minister Spies: Vanaf 2020 nieuwbouw energieneutraal",
+				"@language": "nl"
+			},
+			{
+				"@value": "Minister stelt ultimatum aan opsporingsdiensten voor strikte naleving voorschriften bij opvragen telecomgegevens",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ministerie van Onderwijs, Cultuur en Wetenschap (OCW)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Missie in Irak verlengd en schip voor training Libische kustwacht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Modernisierung der niederlÇÏndischen Diplomatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Modernising Dutch diplomacy",
+				"@language": "nl"
+			},
+			{
+				"@value": "ModernizaciÇün de la diplomacia holandesa",
+				"@language": "nl"
+			},
+			{
+				"@value": "Monitor leerwerktrajecten en assistentopleidingen in het vmbo 2014",
+				"@language": "nl"
+			},
+			{
+				"@value": "Monitor leerwerktrajecten en assistentopleidingen in het vmbo: meting 2015",
+				"@language": "nl"
+			},
+			{
+				"@value": "Motieven van mbo-studenten om al dan niet te kiezen voor het hbo voor en na invoering van het studievoorschot",
+				"@language": "nl"
+			},
+			{
+				"@value": "Naar een nationaal energietransitiecentrum - Verkenning van mogelijkheden voor krachtenbundeling",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nader rapport voorstel van wet tot wijziging Mediawet 2008",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nader rapport Wet kenbaarheid energieprestatie gebouwen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nadere vragen aan NPO over Concessiebeleidsplan 2016-2020 en reactie NPO",
+				"@language": "nl"
+			},
+			{
+				"@value": "Najaarsnota 2012: tekort ongewijzigd, lichte daling schuld",
+				"@language": "nl"
+			},
+			{
+				"@value": "Naleving beloningsbeleid banken en verzekeraars behoorlijk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nationaal Coördinator Terrorismebestrijding en Veiligheid (NCTV)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nationaal Cyber Security Centrum (NCSC)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nationaal Rapporteur Mensenhandel",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nationale Cyber Security Strategie: Slagkracht door samenwerking",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nationalisatie SNS REAAL en werking Interventiewet geëvalueerd",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nationalisatie SNS Reaal onvermijdelijk bij gebrek aan bruikbare alternatieve oplossingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Natura 2000",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nederland en Aruba ondertekenen samenwerkingsprotocol",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nederland helpt Italië met kustwachtvliegtuig",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nederland stemt tegen goedkeuring EU-begroting 2010",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nederland zet in op internationale handelsregels bij beschikbaarheid schaarse grondstoffen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nederlandse deelname aan Frontex-operatie INDALO",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nederlandse overheid internationaal vergeleken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nederlandse Spoorwegen bouwt belastingvoordeel via Ierland af",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nederlandse Staat nationaliseert SNS REAAL",
+				"@language": "nl"
+			},
+			{
+				"@value": "Netherlands Foreign Investment Agency (NFIA)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Netherlands radio spectrum policy memorandum 2016",
+				"@language": "nl"
+			},
+			{
+				"@value": "Newsletter 15 07 Key lessons from an evaluation of support for policy influencing lobbying and advocacy pila",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nieuw leven voor verzekeraars",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nieuwe belastingverdragen: impuls vestigingsklimaat",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nieuwe beveiliging van het spoor (ERTMS)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nieuwsbericht Adviescommisie voltooid leven",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nota van wijziging van de Meststoffenwet",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nota van wijziging Wet op het voortgezet onderwijs in verband met onderwijskwaliteit, onderwijstijd en vakanties",
+				"@language": "nl"
+			},
+			{
+				"@value": "NZa: Naar integrale tarieven in de AWBZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "NZa: Visiedocument richting geven aan keuzes",
+				"@language": "nl"
+			},
+			{
+				"@value": "OECD project",
+				"@language": "nl"
+			},
+			{
+				"@value": "Officiële bekendmakingen 10 september 2015",
+				"@language": "nl"
+			},
+			{
+				"@value": "Officiële bekendmakingen Uitvoeringsbeschikking omzetbelasting",
+				"@language": "nl"
+			},
+			{
+				"@value": "Officiele bekendmaking herdenkingsmunt Erasmus",
+				"@language": "nl"
+			},
+			{
+				"@value": "Onafhankelijke vergelijkingssites voor zorgverzekeringen - aanvulling",
+				"@language": "nl"
+			},
+			{
+				"@value": "Onafhankelijke vergelijkingssites voor zorgverzekeringen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Onderwijsraad - Werkprogramma 2013",
+				"@language": "nl"
+			},
+			{
+				"@value": "Onderzoek en beleidsadvies overgangsbepalingen binnenvaart",
+				"@language": "nl"
+			},
+			{
+				"@value": "Onderzoek Inspectie van het Onderwijs: Verdringing stageplaatsen vmbo?",
+				"@language": "nl"
+			},
+			{
+				"@value": "Onderzoek Meerpersoonscelgebruik",
+				"@language": "nl"
+			},
+			{
+				"@value": "Onderzoek naar de toepassing van Erkende Technische Oplossingen in instrumenten voor kwaliteitsborging",
+				"@language": "nl"
+			},
+			{
+				"@value": "Onderzoek naar kenmerken slachtoffers van geweld tegen werknemers met een publieke taak",
+				"@language": "nl"
+			},
+			{
+				"@value": "Onderzoek uitvoering motie Ten Broeke",
+				"@language": "nl"
+			},
+			{
+				"@value": "Onderzoek: Brand Chemie-Pack",
+				"@language": "nl"
+			},
+			{
+				"@value": "Onderzoekscentra bundelen hun krachten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Onderzoeksrapporten naar economische waarde van natuur (TEEB)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ons water in Nederland",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ontwerp-besluit bedragen per eenheid gemeentefonds 2009",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ontwikkeling van ruimtelijke verschillen in Nederland",
+				"@language": "nl"
+			},
+			{
+				"@value": "Op naar meer geletterden in Nederland",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ophokplicht voor commercieel gehouden vogels",
+				"@language": "nl"
+			},
+			{
+				"@value": "Opstelten besluit overeenkomst SIG-Sauer over nieuw politiepistool te beëindigen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Opstelten: aantal politiemensen met mentale klachten met helft omlaag",
+				"@language": "nl"
+			},
+			{
+				"@value": "Organisatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overall rapportage sociaal domein 2015",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overdrachtsbelasting",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overeenkomst overheidswerkgevers en vakcentrales over 5% loonstijging",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overgangsregeling WWIK-gerechtigden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overheid schiet tekort in aanpak seksueel geweld tegen kinderen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overheid.nl - Gedragscode Integriteit Rijk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overheid.nl brief en bijlagen Voortgangsrapportage Wijkenaanpak 2010",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overlast en verloedering ontsleuteld",
+				"@language": "nl"
+			},
+			{
+				"@value": "Pas op de plaats gevraagd van rijksambtenaren in nieuwe cao",
+				"@language": "nl"
+			},
+			{
+				"@value": "Pensioen- en Uitkeringsraad Bijlage Wetstoepassing & Jurisprudentie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Pensioen- en Uitkeringsraad Jaarverslag 2009",
+				"@language": "nl"
+			},
+			{
+				"@value": "Persbericht dsta.nl",
+				"@language": "nl"
+			},
+			{
+				"@value": "Platform Biodiversiteit, Ecosystemen en Economie (Platform BEE)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ploumen feliciteert deelnemers textielconvenant",
+				"@language": "nl"
+			},
+			{
+				"@value": "Policy response to report Poverty, policies and perceptions in Tanzania. An evaluation of Dutch aid to two district rural development programmes",
+				"@language": "nl"
+			},
+			{
+				"@value": "Politieacademie gaat studenten beter examineren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Politiek anno nu",
+				"@language": "nl"
+			},
+			{
+				"@value": "Politieonderwijs, kwaliteit afgestudeerden geborgd? - bijlagen -",
+				"@language": "nl"
+			},
+			{
+				"@value": "Politieonderwijs,kwaliteit afgestudeerden geborgd?",
+				"@language": "nl"
+			},
+			{
+				"@value": "Position paper Wetsvoorstel Voorrang voor duurzaam en congestiemanagement ? 24 juli 2009",
+				"@language": "nl"
+			},
+			{
+				"@value": "Presentation IAD for Eurostat",
+				"@language": "nl"
+			},
+			{
+				"@value": "Presentation IAD for OECD",
+				"@language": "nl"
+			},
+			{
+				"@value": "Prettig contact met de overheid 2",
+				"@language": "nl"
+			},
+			{
+				"@value": "Prezi Beleidsbrief Respect en recht voor ieder mens",
+				"@language": "nl"
+			},
+			{
+				"@value": "Primos 2016 - Prognose van bevolking, huishoudens en woningbehoefte 2016-2050",
+				"@language": "nl"
+			},
+			{
+				"@value": "Prinsjesdag 2010",
+				"@language": "nl"
+			},
+			{
+				"@value": "Private activiteiten publiek bekostigde onderwijsinstellingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Private kwaliteitsborging in het bouwtoezicht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Privégebruik auto van de zaak blijft btw-belast",
+				"@language": "nl"
+			},
+			{
+				"@value": "Programma's leefbaarheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Project Gerichte Benadering Binnenland en Buitenland",
+				"@language": "nl"
+			},
+			{
+				"@value": "Projecten voor vrijwillige terugkeer ex-asielzoekers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Provinciefonds",
+				"@language": "nl"
+			},
+			{
+				"@value": "Publieksversie Trendnota 2011",
+				"@language": "nl"
+			},
+			{
+				"@value": "Q&A verkoopproces REAAL",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport Agressie en geweld. Onderzoek tegen agressie en geweld door externen tegen overheidswerknemers.",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport Bedreigd bestuur. Agressie en geweld tegen politieke ambtsdragers bij gemeenten, provincies en waterschappen.",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport Benchmark registers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport Cameraregistratie op ambulances: Tussenevaluatie van de pilot",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport Commissie Verzekeraars",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport gedragsbeïnvloeding bij bedrijven",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport Nederlands Jeugdinstituut: Jeugdzorg in Europa",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport Oliver Wyman voor Commissie Verzekeraars",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport Onderzoekscommissie COA",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport over zorgvuldigheid operatierobots",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport Pilot cameraregistratie op ambulances: Eindevaluatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport van bevindingen WNT L1",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport van bevindingen WNT Omroep Flevoland",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport van bevindingen WNT Omroep West",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport van bevindingen WNT RTV NH",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport van bevindingen WNT RTV Noord",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport van bevindingen WNT RTV Rijnmond",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport Verkenning van aanvullende maatregelen in het kader van de Programmatische Aanpak Stikstof op de website van het PBL",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport Vooruitzichten bevolking, huishoudens en woningmarkt",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapport Work in Progress - Evaluation of the ORET Programme: Investing in Public Infrastructure in Developing Countries (Engels)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rapporten Auditdienst Rijk (ADR)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Reactie VNG op de brief van de staatssecretaris OCW over de inzet van de bibliobus",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rectificatie accresramingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Regeldrukeffecten Tolwet",
+				"@language": "nl"
+			},
+			{
+				"@value": "Regeling 9 november 2016 vaststelling van een afscherm- en ophokplicht voor gevogelte",
+				"@language": "nl"
+			},
+			{
+				"@value": "Regeling aanwijzing frequentieruimte medegebruik antenne-opstelpunten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Regeling behoefte-onderbouwingsplan",
+				"@language": "nl"
+			},
+			{
+				"@value": "Regeling houdende wijziging van diverse ministeriële regelingen ter aanpassing aan het gewijzigde hoofdstuk 3 van de Telecommunicatiewet en het Frequentiebesluit 2013",
+				"@language": "nl"
+			},
+			{
+				"@value": "Regeling maatregelen laagpathogene vogelgriep Hiaure 2016",
+				"@language": "nl"
+			},
+			{
+				"@value": "Regeling tot vaststelling voor 2011 van de bedragen, bedoeld in de artikelen 2 en 3 van het Besluit bekostiging financieel toezicht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Regeling verdeling op afroep",
+				"@language": "nl"
+			},
+			{
+				"@value": "Regels cameratoezicht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Reisdocumenten voor bijgeschreven kinderen aanvragen vÇüÇür 1 mei 2012",
+				"@language": "nl"
+			},
+			{
+				"@value": "Restauratieregeling 2010 en 2011",
+				"@language": "nl"
+			},
+			{
+				"@value": "Resultaten Evaluatie Experiment Verantwoording en Begroting",
+				"@language": "nl"
+			},
+			{
+				"@value": "Resultaten van Nederlandse banken bij de EU stresstesten 2011",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rijk en gemeente Rotterdam tekenen voor sterke inzet op Rotterdam-Zuid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rijk, provincies en gemeenten maken tussenbalans aanpak krimp op",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rijksbegrotingsvoorschriften website",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rijksdienst voor Identiteitsgegevens (RvIG)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rijksnatuurvisie 2014 Natuurlijk verder",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rijksoverheid en ICT-bedrijfsleven verbeteren samenwerking",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rijksoverheid stimuleert maatschappelijk verantwoord ondernemen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rijksoverheid stimuleert ontwikkeling bio-energie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rijksvastgoedbedrijf",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rosenthal diep geschokt door moord op Pakistaanse minister",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rosenthal: compact mensenrechtenbeleid voor concrete resultaten",
+				"@language": "nl"
+			},
+			{
+				"@value": "RSJ - Persbericht interlandelijke adoptie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ruim 120 miljoen euro extra voor investeringen Rotterdam Zuid",
+				"@language": "nl"
+			},
+			{
+				"@value": "RVO - Referentiewoningen nieuwbouw",
+				"@language": "nl"
+			},
+			{
+				"@value": "Samenvatting concept-inrichtingsplan nationale politie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Samenvatting “Overall rapportage sociaal domein 2015”",
+				"@language": "nl"
+			},
+			{
+				"@value": "Samenvatting Handreiking Ladder voor duurzame verstedelijking",
+				"@language": "nl"
+			},
+			{
+				"@value": "Scenarios energie in de gebouwde omgeving Deel 1: Trends en onzekerheden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Scenarios energie in de gebouwde omgeving Deel 2: Scenarios",
+				"@language": "nl"
+			},
+			{
+				"@value": "Schadefonds Geweldsmisdrijven keert € 10,4 miljoen uit",
+				"@language": "nl"
+			},
+			{
+				"@value": "Schapen en geiten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Schematische weergave proces vergunningverlening Waz",
+				"@language": "nl"
+			},
+			{
+				"@value": "Schijnhuwelijk voorkomen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Schippers presenteert voortgangsrapportage 'Kwaliteit Loont'",
+				"@language": "nl"
+			},
+			{
+				"@value": "Schippers: Op een andere manier naar het basispakket kijken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Senioren op de woningmarkt",
+				"@language": "nl"
+			},
+			{
+				"@value": "Snel internet in buitengebieden bevorderd",
+				"@language": "nl"
+			},
+			{
+				"@value": "Sneller ingrijpen bij kindermishandeling",
+				"@language": "nl"
+			},
+			{
+				"@value": "Sober onderdak voor afgewezen asielzoekers met kinderen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Socrates 2016 - Simulatie van de woningmarkt tot 2025",
+				"@language": "nl"
+			},
+			{
+				"@value": "Soorten straling",
+				"@language": "nl"
+			},
+			{
+				"@value": "Spelregelkaarten Interbestuurlijke Informatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Spies komt gemeenten tegemoet bij nieuwe woningtelling",
+				"@language": "nl"
+			},
+			{
+				"@value": "Sport en gezondheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Staat en ING overeenstemming over verkoop Alt-A portefeuille",
+				"@language": "nl"
+			},
+			{
+				"@value": "Staat van het Bestuur 2010",
+				"@language": "nl"
+			},
+			{
+				"@value": "Staat wil aandelen URENCO verkopen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Staatsblad nr. 295, jaargang 2014",
+				"@language": "nl"
+			},
+			{
+				"@value": "Staatscourant Nr. 20594",
+				"@language": "nl"
+			},
+			{
+				"@value": "Staatssecretaris Teeven neemt kwaliteit werkstraffen onder de loep",
+				"@language": "nl"
+			},
+			{
+				"@value": "Staatssecretaris Weekers treft overgangsmaatregel verlaagd btw-tarief op verbouwingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Staatstoezicht op de Mijnen (SodM)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Strategische Agenda Hoger Onderwijs hoofdstuk 1: De sprong naar de toekomst",
+				"@language": "nl"
+			},
+			{
+				"@value": "Strategische Agenda Hoger Onderwijs hoofdstuk 2: Onderwijs van wereldformaat",
+				"@language": "nl"
+			},
+			{
+				"@value": "Strategische Agenda Hoger Onderwijs hoofdstuk 3: Toegankelijkheid, talentontwikkeling en diversiteit",
+				"@language": "nl"
+			},
+			{
+				"@value": "Strategische Agenda Hoger Onderwijs hoofdstuk 4: Verbinding met de samenleving",
+				"@language": "nl"
+			},
+			{
+				"@value": "Strategische Agenda Hoger Onderwijs hoofdstuk 5: Investeringsagenda",
+				"@language": "nl"
+			},
+			{
+				"@value": "Structuurschema Militaire Terreinen deel 2 en 3",
+				"@language": "nl"
+			},
+			{
+				"@value": "Structuurvisie Deel 4",
+				"@language": "nl"
+			},
+			{
+				"@value": "Subsidie aan stichting stopgezet; geen resultaat terugkeer ex-asielzoekers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Summary Aiding the Peace: A Multi-donor Evaluation of Support to Conflict Prevention and Peacebuilding activities in Southern Sudan 2005-2010",
+				"@language": "nl"
+			},
+			{
+				"@value": "Syntheserapport pompen Markermeerdijken HWBP2",
+				"@language": "nl"
+			},
+			{
+				"@value": "Teeven wijzigt systeem externe vrijheden gevangeniswezen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Teeven: capaciteit justitiële jeugdinrichtingen is op orde",
+				"@language": "nl"
+			},
+			{
+				"@value": "Teeven: langdurig toezicht op zedendelinquenten en tbs-gestelden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Tentenkamp Ter Apel kan niet lang blijven",
+				"@language": "nl"
+			},
+			{
+				"@value": "Terroristen in detentie; een evaluatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Terugblik 2013 (pdf, 12 MB)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Terugkeerbeleid",
+				"@language": "nl"
+			},
+			{
+				"@value": "The Dutch maritime strategy 2015-2025",
+				"@language": "nl"
+			},
+			{
+				"@value": "The Economics of Ecosystems and Biodiversity (TEEB)",
+				"@language": "nl"
+			},
+			{
+				"@value": "The value of knowledge - Strategic Agenda for Higher Education and Research 2015-2025",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toekomstplannen ABN AMRO en ASR",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toekomstplannen ABN AMRO, ASR en SNS REAAL",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toekomstscenarios ECN Duurzaam",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toelatingsprocedure geen horde meer voor kennismigrant",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toelichting ADR rapporten Defensie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toelichting bij de cijfers 'Kamerbrief over financiële gegevens sociaal domein 2015 per gemeente' van 7 november",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toelichting op publicatie Technische maatregelen zeebaars",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toename van aantal verzoeken om schuldsanering",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toespraak minister Donner bij in ontvangst nemen advies Staatscommissie Grondwet",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toespraak minister Spies bij presentatie rapport Bouwteam",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toespraak minister Spies tijdens de ondertekening van de Nationale verklaring huisvesting arbeidsmigranten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toezeggingenbrief Prinsjesdag naar de Eerste Kamer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toezeggingenbrief Prinsjesdag naar Tweede Kamer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Topreferente zorg voor moeilijk te behandelen patiënten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Trendnota Arbeidszaken Overheid 2011",
+				"@language": "nl"
+			},
+			{
+				"@value": "Tweede deelbesluit op Wob-verzoek inzake wetsvoorstel collectieve schadevergoeding (motie Dijksma)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Tweede deelbesluit Wob-verzoek woekerpolissen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Tweede Kamer stemt in met wetsvoorstel doorstroming huurmarkt",
+				"@language": "nl"
+			},
+			{
+				"@value": "Twitter EZK",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitkomst proef met cameras voor ambulances",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitslag Tweede Kamerverkiezing 12 september 2012",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Amsterdam 1 oktober 2008, nr. 07/00839",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Amsterdam 16 december 2008, nr. 07/00752",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Amsterdam 16 september 2008, nr. 07/00860",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Amsterdam 17 september 2008, nr. 04/00391",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Amsterdam 31 oktober 2007, nr. 06/00477",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Amsterdam 8 april 2008, nr. 06/00079",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Amsterdam van 1 april 2009, nr. 07/00837",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Amsterdam van 1 juli 2010, nr. 09/00300",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Amsterdam van 10 juni 2010, nr. 09/00153",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Amsterdam van 26 januari 2010, nr. 08/00004",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Amsterdam van 4 juni 2009, nr. 06/00555",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Amsterdam van 6 april 2009, nr. 08/00151",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Amsterdam van 9 januari 2009, nr. 07/00834",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Amsterdam, nr. 05/00534",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Amsterdam, nr. 07/00163",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Arnhem van 22 december 2009, nr. 09/00144",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Arnhem van 28 januari 2009, nr. 07/00536",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Arnhem van 28 juli 2009, nr. 08/00226",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Arnhem van 3 juni 2009, nr. 07/00309",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Arnhem van 7 juli 2009, nr. 08/00075",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Arnhem, nr. 05/00124",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Arnhem, nr. 06/00451",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Arnhem, nr. 07/00298",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Den Bosch 14 augustus 2008, nr. 07/00309",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Den Bosch 14 augustus 2008, nr. 07/00422",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Den Bosch 22 februari 2008, 06/00278",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Den Bosch van 19 juni 2009, nr. 02/04182",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Den Bosch van 21 november 2008, nr. 07/00201",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Den Bosch van 29 mei 2009, nr. 08/00219",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Den Bosch, nr. 07/00268",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Den Bosch, nr. 08/00322",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Den Haag 26 mei 2009, nr. 07/00458",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Den Haag 29 januari 2008, nr. 07/00436",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Den Haag, nr. 07/00641",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Leeuwarden 15 februari 2008, nr. 270/04",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Leeuwarden 24 september 2008, nr. 01/01138",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Leeuwarden van 12 juni 2009, nr. 08/00120",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Leeuwarden van 18 juni 2010, nr. 09/0074",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Leeuwarden van 24 juli 2009, nr. 08/00055",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Leeuwarden van 3 april 2009, nr. 06/00136",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Leeuwarden van 4 september 2009, nr. 09/00010",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Leeuwarden van 8 december 2009, nr. 08/00202",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof Leeuwarden, nr. 07/00037",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof s-Gravenhage 15 juli 2008, nr. 07/00597",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof s-Gravenhage van 28 juli 2010, nr. 09/00771",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof s-Gravenhage van 28 september 2010, nr. 09/00766",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof s-Hertogenbosch 10 oktober 2008, nr. 07/00257",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof s-Hertogenbosch 3 januari 2008, nr. 07/00003",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hof s-Hertogenbosch van 4 juni 2010, nr. 09/00524",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hoge Raad 12 september 2008, nr. 43401",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hoge Raad 13 juni 2008, nr. 43304",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Hoge Raad 14 mei 2004, nr. 39324",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitspraak Rechtbank Breda 3 juni 2008",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitvoering monitoring en evaluatie Besluit bodemkwaliteit",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitwerking kernenergiescenarios ten behoeve van besluitvorming door het volgende kabinet",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vacaturetekst vicepresident Raad van State in Staatscourant",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vaker regeling op vrijwillige basis bij procedures internationale kinderontvoering",
+				"@language": "nl"
+			},
+			{
+				"@value": "Van Dam: herstructurering en vernieuwing noodzakelijk voor toekomst varkenssector",
+				"@language": "nl"
+			},
+			{
+				"@value": "Van Dam: In 2025 meeste dierproeven vervangen door innovatief onderzoek",
+				"@language": "nl"
+			},
+			{
+				"@value": "Van Dam: omschakeling naar biologisch ondernemen wordt makkelijker",
+				"@language": "nl"
+			},
+			{
+				"@value": "Van Rijn verzacht vermogensinkomensbijtelling voor mensen jonger dan de AOW-leeftijd",
+				"@language": "nl"
+			},
+			{
+				"@value": "Van Rijn wil ouders helpen om drugsgebruik bespreekbaar te maken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Van Rijn: Grote zalen en festivals goed op weg in tegengaan gehoorschade",
+				"@language": "nl"
+			},
+			{
+				"@value": "Van Rijn: Laat mensen zelf bepalen waar ze zorg krijgen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Van Rijn: Strengere regels voor alle e-sigaretten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Veilig werken door hulpverleningsdiensten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Veiligheid in de zorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verantwoord Begroten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verantwoord omgaan met risicos door bestuurders",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verhoging leges voor verkrijgen Nederlandse nationaliteit",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verhoging vrije uitkering eilanden Caribisch Nederland",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verhuurderheffing",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verklaring staatssecretaris Verdaas",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verkoop Alt-A levert Staat € 1,4 miljard op",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verkoop Defensiematerieel (Defensie.nl)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verkoop REAAL",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vermindering voedselverspilling",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verschillen, ongelijkheid en segregatie - literatuurstudie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verzekeraar die klanten met beleggingsverzekering niet activeert riskeert boete",
+				"@language": "nl"
+			},
+			{
+				"@value": "Visie op een schoner wagenpark en duurzamer transport",
+				"@language": "nl"
+			},
+			{
+				"@value": "Voetbalhooligan langer buitenspel",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vogelgriep bij pluimveebedrijf in Friesland",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vogelgriep vastgesteld bij pluimveebedrijf in Biddinghuizen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Volledige bedrag Icesave terug",
+				"@language": "nl"
+			},
+			{
+				"@value": "Voorlopig verslag Vaste Commissie voor Sociale Zaken en Werkgelegenheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Voorrang voor duurzaam",
+				"@language": "nl"
+			},
+			{
+				"@value": "Voorstel onderzoekscommissie ontnemingsschikking met Cees H.",
+				"@language": "nl"
+			},
+			{
+				"@value": "Voortgangsrapportage Actieprogramma Integrale Aanpak Jihadisme",
+				"@language": "nl"
+			},
+			{
+				"@value": "Waarom verkoopt De Nederlandsche Bank (DNB) de vordering op Landsbanki?",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wat hebben geweldplegers gemeen? Een typologie van plegers van geweld tegen de publieke taak en van publiek geweld",
+				"@language": "nl"
+			},
+			{
+				"@value": "Waterbedeffecten in het wijkenbeleid: Nulmeting",
+				"@language": "nl"
+			},
+			{
+				"@value": "Waterbedeffecten van het wijkenbeleid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Waterschappen verbeteren dienstverlening",
+				"@language": "nl"
+			},
+			{
+				"@value": "Website Domeinen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Website industriele eigendom Europese Commissie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Website internationaal ondernemen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Website WIPO",
+				"@language": "nl"
+			},
+			{
+				"@value": "Website WTO (informatie over Nederland)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wegen en infrastructuur beter benutten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Welke landen staan op de lijst van veilige landen van herkomst?",
+				"@language": "nl"
+			},
+			{
+				"@value": "Werelderfgoederen in Nederland",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wet kenbaarheid publiekrechtelijke beperkingen onroerende zaken (Wkpb)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wet tijdelijke tolheffing Blankenburgverbinding en ViA15",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wet tot wijziging van de Telecommunicatiewet ter implementatie van de Nota Frequentiebeleid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wet- en regelgeving overheid.nl",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wetenschappelijk Onderzoek- en Documentatiecentrum (WODC)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wethouders",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wetsevaluatie WNT -  deelonderzoek internationaal vergelijkend onderzoek topinkomensbeleid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wetsevaluatie WNT - deelonderzoek kenbaarheid, communicatie en regeldruk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wetsevaluatie WNT - deelonderzoek niet-beoogde effecten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wetsevaluatie WNT - deelonderzoek normering ontslagvergoedingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wetsevaluatie WNT - deelonderzoek uitvoering, toezicht op naleving en handhaving",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wetsvoorstel Auteurscontractenrecht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wetsvoorstel fosfaatrechten naar Tweede Kamer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wetsvoorstel kostendekkende griffierechten: toegang tot de rechter niet in het geding",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wijziging besluit op Wob-verzoek over netbeheerders",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wijziging van de Aanmeldings- transactie en vervolgingsrichtlijnen van fiscale delicten, douane- en toeslagendelicten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wijziging Wet op het voortgezet onderwijs in verband met onderwijskwaliteit, onderwijstijd en vakanties",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob verzoek betreffende Diginotar Deelbesluit 1",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-besluit met bijlagen wachtgelden bewindslieden en leden Tweede Kamer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-besluit over wachtgelden oud-bewindspersonen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek afluisteren voicemails",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek betreffende Diginotar Deelbesluit 2",
+				"@language": "nl"
+			},
+			{
+				"@value": "WOB-verzoek BRIC-landen AZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek BRIC-landen BZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek BRIC-landen BZK",
+				"@language": "nl"
+			},
+			{
+				"@value": "WOB-verzoek BRIC-landen Def",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek BRIC-landen EL&I",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek BRIC-landen IenM",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek dienstreizen BRIC-landen SZW",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek introductie biometrie Deelbesluit 1",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek introductie biometrie Deelbesluit 2",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek introductie biometrie Deelbesluit 3",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek introductie biometrie Deelbesluit 4",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek introductie biometrie Deelbesluit 5",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek introductie biometrie Deelbesluit 7",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek introductie biometrie Deelbesluit 8",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek inzake het afnemen van diensten van commerciële datahandelaren door het ministerie van Financiën",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek juridisch kader overname Diginotar",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek kosten politieke en ambtelijke top AZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek kosten politieke en ambtelijke top BZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek kosten politieke en ambtelijke top Defensie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek kosten politieke en ambtelijke top EL&I",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek kosten politieke en ambtelijke top Financiën",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek kosten politieke en ambtelijke top IenM",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek kosten politieke en ambtelijke top OCW",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek kosten politieke en ambtelijke top SZW",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek kosten politieke en ambtelijke top VenJ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek kosten politieke en ambtelijke top VWS",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek kroningsrellen in 1980 deelbesluit 2",
+				"@language": "nl"
+			},
+			{
+				"@value": "WOB-verzoek over dwangsommen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek over kroningsrellen 1980 Deelbesluit 1 deel 1",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek over kroningsrellen 1980 Deelbesluit 1 deel 2",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek over wachtgelden voor oud-volksvertegenwoordigers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek over Wet openbaarheid bestuur 1e deelbesluit",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek over Wet openbaarheid bestuur 2e deelbesluit",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek over wijziging van de Wet openbaarheid van bestuur (Wob) ter voorkoming van misbruik - BZK",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek over wijziging van de Wet openbaarheid van bestuur ter voorkoming van misbruik - VenJ",
+				"@language": "nl"
+			},
+			{
+				"@value": "WOB-verzoek storageleveranciers BZK",
+				"@language": "nl"
+			},
+			{
+				"@value": "WOB-verzoek storageleveranciers Defensie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wob-verzoek wachtgelden oud-ministers en oud-leden Tweede Kamer",
+				"@language": "nl"
+			},
+			{
+				"@value": "WoonOnderzoek Nederland - Verhuismodule",
+				"@language": "nl"
+			},
+			{
+				"@value": "Woononderzoek Nederland (WoON)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Woordvoerders van het ministerie van Economische Zaken en Klimaat",
+				"@language": "nl"
+			},
+			{
+				"@value": "World Chambers Network",
+				"@language": "nl"
+			},
+			{
+				"@value": "WTO over anti-dumping",
+				"@language": "nl"
+			},
+			{
+				"@value": "WTO over subsidies",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zakendoen met AZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zakendoen met BZK",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zekerheid vooraf voor opdrachtgevers en zzp-ers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beantwoording kamervragen over het bericht ‘laat niet artsen maar rechters oordelen over euthanasieverklaring’",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beantwoording kamervragen van vvd over het bericht ‘ing geeft adverteerder inzicht in klantgedrag’",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit wob-verzoek over verkeersovertredingen die zijn gemaakt met dienstauto’s van de bewindspersonen bzk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bouwteam: ‘nieuw elan voor de bouw’",
+				"@language": "nl"
+			},
+			{
+				"@value": "Eerste verslag comité van toezicht ilg - 22 juni 2010",
+				"@language": "nl"
+			},
+			{
+				"@value": "EU-verdragen vertaald in ’t frysk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluation of the “blue birds” circular migration pilot in the netherlands",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluation stability fund 2004 and 2005 – english summary",
+				"@language": "nl"
+			},
+			{
+				"@value": "Human rights policy – justice and respect for all",
+				"@language": "nl"
+			},
+			{
+				"@value": "Iob - the netherlands’ africa policy 1998-2006 / evaluation of bilateral cooperation (summary)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Iob evaluatie nieuwsbrief # 15 04 – met hernieuwde energie – beleidsdoorlichting van de nederlandse bijdrage aan hernieuwbare energie en ontwikkeling",
+				"@language": "nl"
+			},
+			{
+				"@value": "Iob nieuwsbrief 14 02 - ncdo ‘nieuwe stijl’ draagt bij aan wereldburgerschap",
+				"@language": "nl"
+			},
+			{
+				"@value": "Iob – impact study of the programa de alivio de probeza – pap santa cruz (bolivia)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Iob – in search of focus and effectiveness: policy review of dutch support for private sector development 2005-2012 (extensive summary)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Iob – renewable energy – policy review on the dutch contribution to renewable energy and development (2004-2014) – summary report",
+				"@language": "nl"
+			},
+			{
+				"@value": "Iob – terms of reference evaluation of the implementation of the paris declaration (french)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kabinetsreactie op aanbevelingen ‘kosten koper’",
+				"@language": "nl"
+			},
+			{
+				"@value": "Programma’s leefbaarheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Reisdocumenten voor bijgeschreven kinderen aanvragen vóór 1 mei 2012",
+				"@language": "nl"
+			},
+			{
+				"@value": "Schippers presenteert voortgangsrapportage ‘kwaliteit loont’",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zekerheid vooraf voor opdrachtgevers en zzp’ers",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_d96f9cd3",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Afval",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_4e83eca7",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Arbeidsomstandigheden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Chroomverf en CARC",
+				"@language": "nl"
+			},
+			{
+				"@value": "Dienstverlening aan huis",
+				"@language": "nl"
+			},
+			{
+				"@value": "Straling",
+				"@language": "nl"
+			},
+			{
+				"@value": "Veilig leren en werken in het onderwijs",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_fc530104",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Arbeidsongeschiktheid en werkloosheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Arbeidsongeschikt na ziekte (WIA)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bijbaan, vakantiewerk en stage door jongeren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bijstand voor zelfstandigen (Bbz)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bijstand",
+				"@language": "nl"
+			},
+			{
+				"@value": "Participatiewet",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitkering meenemen naar buitenland",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitkering oudere werklozen (IOAW, IOW, IOAZ)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vluchtelingen: werk en integratie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wajong",
+				"@language": "nl"
+			},
+			{
+				"@value": "Werkloos worden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Werkloosheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wet tegemoetkomingen loondomein (Wtl)",
+				"@language": "nl"
+			},
+			{
+				"@value": "WW-uitkering",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ziekteverzuim en herstel naar werk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ziektewetuitkering",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zorgtoeslag",
+				"@language": "nl"
+			},
+            {
+                "@value": "Ziektewet-uitkering",
+                "@language": "nl"
+            }
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_1f37c612",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Aanpak schijnconstructies",
+				"@language": "nl"
+			},
+			{
+				"@value": "Adoptieverlof en pleegzorgverlof",
+				"@language": "nl"
+			},
+			{
+				"@value": "Arbeidsovereenkomst en cao",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bijstand",
+				"@language": "nl"
+			},
+			{
+				"@value": "Calamiteitenverlof en kort verzuimverlof",
+				"@language": "nl"
+			},
+			{
+				"@value": "Geboorteverlof (partnerverlof)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gelijke behandeling op het werk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inkomstenbelasting",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kraamverlof (partnerverlof)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Leven lang ontwikkelen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Met pensioen gaan",
+				"@language": "nl"
+			},
+			{
+				"@value": "Minimumloon",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ondernemingsraad",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ontslag",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ouderschapsverlof",
+				"@language": "nl"
+			},
+			{
+				"@value": "Pensioen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vakantiedagen en vakantiegeld",
+				"@language": "nl"
+			},
+			{
+				"@value": "Veranderingen in 2022",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vrijwilligerswerk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vrouwenemancipatie (gendergelijkheid)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Werken met arbeidsbeperking",
+				"@language": "nl"
+			},
+			{
+				"@value": "Werkloos worden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Werktijden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zelfstandigen zonder personeel (zzp)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ziekteverzuim van het werk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zorgverlof",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zwangerschapsverlof en bevallingsverlof",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_7b01f260",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Basisonderwijs",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gemengde scholen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Schooladvies en eindtoets basisschool",
+				"@language": "nl"
+			},
+			{
+				"@value": "Taal en rekenen op school",
+				"@language": "nl"
+			},
+			{
+				"@value": "Taal, rekenen en digitale vaardigheden",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_4348dad1",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Prinsjesdag: Miljoenennota en Rijksbegroting",
+				"@language": "nl"
+			},
+			{
+				"@value": "Prinsjesdag",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verantwoordingsdag",
+				"@language": "nl"
+			},
+			{
+				"@value": "Begroting",
+				"@language": "nl"
+			},
+            {
+                "@value": "Prinsjesdag: Belastingplan 2022",
+                "@language": "nl"
+            },
+			{
+				"@value": "Prinsjesdag: Belastingplan 2023",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_25e30d03",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Belasting",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanpak belastingontwijking en belastingontduiking",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanpak fraude met belastingen en toeslagen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Accijns",
+				"@language": "nl"
+			},
+			{
+				"@value": "Belasting betalen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Belasting op auto en motor",
+				"@language": "nl"
+			},
+			{
+				"@value": "Belastingen voor auto en vervoer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Belastingen voor ondernemers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Belastingplan 2019",
+				"@language": "nl"
+			},
+			{
+				"@value": "Belastingplan 2020",
+				"@language": "nl"
+			},
+			{
+				"@value": "Belastingplan 2021",
+				"@language": "nl"
+			},
+			{
+				"@value": "Belastingverdragen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Btw (omzetbelasting)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Btw voor particulieren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Erfbelasting",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inkomensafhankelijke combinatiekorting",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inkomstenbelasting",
+				"@language": "nl"
+			},
+			{
+				"@value": "Milieubelastingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ontwikkelingen Belastingdienst",
+				"@language": "nl"
+			},
+			{
+				"@value": "Schenkbelasting",
+				"@language": "nl"
+			},
+			{
+				"@value": "Veranderingen in 2020",
+				"@language": "nl"
+			},
+			{
+				"@value": "Veranderingen in 2021",
+				"@language": "nl"
+			},
+			{
+				"@value": "Waardering onroerende zaken (WOZ)",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_b46b92e7",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Beroepsonderwijs",
+				"@language": "nl"
+			},
+			{
+				"@value": "Middelbaar beroepsonderwijs (MBO)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Versterken beroepsonderwijs",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_e3d35361",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Bezwaar en klachten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bezwaar en beroep",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bezwaarschriften bij het ministerie van Volksgezondheid, Welzijn en Sport",
+				"@language": "nl"
+			},
+			{
+				"@value": "Patiëntenrecht en cliëntenrecht",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_7ce8a10c",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Bodem en ondergrond",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gaswinning uit kleine gasvelden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Schaliegas",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bodem",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_a6a9eddd",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Bouwen en verbouwen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Asbest",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bouwproducten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bouwregelgeving",
+				"@language": "nl"
+			},
+			{
+				"@value": "Duurzaam bouwen en verbouwen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Eigen huis bouwen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Energie thuis",
+				"@language": "nl"
+			},
+			{
+				"@value": "Energielabel woningen en gebouwen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Legionella",
+				"@language": "nl"
+			},
+			{
+				"@value": "Onderzoeken over bouwen, wonen en leefomgeving",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_fcac43e4",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Criminaliteit",
+				"@language": "nl"
+			},
+			{
+				"@value": "Cybercrime en cybersecurity",
+				"@language": "nl"
+			},
+			{
+				"@value": "Cybercrime",
+				"@language": "nl"
+			},
+			{
+				"@value": "Huiselijk geweld",
+				"@language": "nl"
+			},
+			{
+				"@value": "Identiteitsfraude",
+				"@language": "nl"
+			},
+			{
+				"@value": "Jeugdcriminaliteit",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kindermishandeling",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kinderpornografie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Mensenhandel en mensensmokkel",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ondermijning",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ouderenmishandeling",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overvallen, straatroof en inbraak",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overvallen, straatroof en woninginbraak",
+				"@language": "nl"
+			},
+			{
+				"@value": "Recidive en veelplegers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Voetbalvandalisme",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_2408fb5a",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Cultureel erfgoed",
+				"@language": "nl"
+			},
+			{
+				"@value": "Erfgoed",
+				"@language": "nl"
+			},
+			{
+				"@value": "Erkende talen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Prinsjesdag: traditie en ceremonie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Tweede Wereldoorlog",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_f72b706a",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Cultuur",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationale culturele samenwerking",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kunst en cultuur",
+				"@language": "nl"
+			},
+			{
+				"@value": "Lezen en bibliotheken",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_daaa67b3",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Defensie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Defensiematerieel",
+				"@language": "nl"
+			},
+			{
+				"@value": "Defensiepersoneel",
+				"@language": "nl"
+			},
+			{
+				"@value": "Defensieterreinen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationale vrede en veiligheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Krijgsmacht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vervanging F-16 (door F-35 Lightning II)",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_4d1c84a7",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Dienstensector",
+				"@language": "nl"
+			},
+			{
+				"@value": "Dienstenrichtlijn",
+				"@language": "nl"
+			},
+			{
+				"@value": "Duurzame zorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Financiële sector",
+				"@language": "nl"
+			},
+			{
+				"@value": "Geldzaken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kredietcrisis",
+				"@language": "nl"
+			},
+			{
+				"@value": "Postbezorging",
+				"@language": "nl"
+			},
+			{
+				"@value": "Telecommunicatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toerisme en recreatie",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_d363776f",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Economie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Veranderingen in 2020",
+				"@language": "nl"
+			},
+            {
+                "@value": "Coronavirus: Sociaal Pakket",
+                "@language": "nl"
+            }
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_f4f1867a",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Energie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Duurzame energie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Energie thuis",
+				"@language": "nl"
+			},
+			{
+				"@value": "Energielabel woningen en gebouwen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gaswinning in Groningen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief ontwerp-instemmingsbesluit gaswinning Groningen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Milieuvriendelijke brandstoffen voor vervoer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nationaal groeifonds",
+				"@language": "nl"
+			},
+			{
+				"@value": "Schaliegas",
+				"@language": "nl"
+			},
+			{
+				"@value": "Slimme meter",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verduurzaming financiële sector",
+				"@language": "nl"
+			},
+            {
+                "@value": "Minder gas uit Rusland",
+                "@language": "nl"
+            }
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_218c52ee",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Ethiek",
+				"@language": "nl"
+			},
+			{
+				"@value": "Abortus",
+				"@language": "nl"
+			},
+			{
+				"@value": "Curatele, bewind en mentorschap",
+				"@language": "nl"
+			},
+			{
+				"@value": "Embryo's",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_68609e19",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Brexit",
+				"@language": "nl"
+			},
+			{
+				"@value": "CETA: handelsverdrag tussen Europese Unie en Canada",
+				"@language": "nl"
+			},
+			{
+				"@value": "Europese subsidies",
+				"@language": "nl"
+			},
+			{
+				"@value": "Europese Unie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Financiën Europese Unie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Handelsverdragen Europese Unie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inloggen bij organisaties in de Europese Unie (eIDAS)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Europa financieel gezond",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ontwikkelingen EMU-saldo 2007",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ontwikkelingen EMU-saldo 2008",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ontwikkelingen EMU-saldo 2009",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ontwikkelingen EMU-saldo 2010",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ontwikkelingen EMU-saldo 2011",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ontwikkelingen EMU-saldo 2012",
+				"@language": "nl"
+			},
+			{
+				"@value": "TTIP: handelsverdrag tussen Europese Unie en Verenigde Staten",
+				"@language": "nl"
+			},
+            {
+                "@value": "Environment",
+                "@language": "nl"
+            },
+            {
+                "@value": "European Union",
+                "@language": "nl"
+            }
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_9f410ab6",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Geluid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Geluidsoverlast",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_6b9627b5",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Geneesmiddelen en medische hulpmiddelen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Medicijnen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Medische hulpmiddelen en technologie",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_76136c82",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Gezin en kinderen",
+				"@language": "nl"
+			},
+			{
+				"@value": "18 jaar worden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aangifte geboorte en naamskeuze kind",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beschermd wonen en maatschappelijke opvang",
+				"@language": "nl"
+			},
+			{
+				"@value": "Draagmoederschap",
+				"@language": "nl"
+			},
+			{
+				"@value": "Erkenning kind",
+				"@language": "nl"
+			},
+			{
+				"@value": "Erven",
+				"@language": "nl"
+			},
+			{
+				"@value": "Geboorteverlof (partnerverlof)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kinderbijslag",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kinderopvang",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kinderopvangtoeslag",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kindgebonden budget",
+				"@language": "nl"
+			},
+			{
+				"@value": "Leefbaarheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ouderlijk gezag en voogdij",
+				"@language": "nl"
+			},
+			{
+				"@value": "Pleegzorg en gezinshuis",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zorgverlof",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_8b081a63",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Gezondheidsrisico's",
+				"@language": "nl"
+			},
+			{
+				"@value": "Alcohol",
+				"@language": "nl"
+			},
+			{
+				"@value": "Asbest",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bevolkingsonderzoek",
+				"@language": "nl"
+			},
+			{
+				"@value": "Chroom-6 en CARC",
+				"@language": "nl"
+			},
+			{
+				"@value": "Chroomverf en CARC",
+				"@language": "nl"
+			},
+			{
+				"@value": "Coronavirus COVID-19",
+				"@language": "nl"
+			},
+			{
+				"@value": "Coronavirus tijdlijn",
+				"@language": "nl"
+			},
+			{
+				"@value": "Coronavirus-apps",
+				"@language": "nl"
+			},
+			{
+				"@value": "Coronavirus: financiële regelingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Drugs",
+				"@language": "nl"
+			},
+			{
+				"@value": "Experiment gesloten coffeeshopketen (wietexperiment)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Geluidsoverlast",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gezondheid en preventie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Legionella",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overgewicht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Roken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Soas en seksualiteit",
+				"@language": "nl"
+			},
+			{
+				"@value": "Straling",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vaccinaties",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vaccinatie tegen het coronavirus",
+				"@language": "nl"
+			},
+			{
+				"@value": "Voeding",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vogelgriep",
+				"@language": "nl"
+			},
+            {
+                "@value": "Coronabewijs",
+                "@language": "nl"
+            },
+            {
+                "@value": "Coronabewijs en coronatoegangsbewijs",
+                "@language": "nl"
+            },
+            {
+                "@value": "CoronaMelder",
+                "@language": "nl"
+            },
+            {
+                "@value": "Gezond en veilig wonen",
+                "@language": "nl"
+            }
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_83db27fc",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Handel",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brexit",
+				"@language": "nl"
+			},
+			{
+				"@value": "CETA: handelsverdrag tussen Europese Unie en Canada",
+				"@language": "nl"
+			},
+			{
+				"@value": "Exportcontrole strategische goederen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Handelsverdragen Europese Unie",
+				"@language": "nl"
+			},
+			{
+				"@value": "TTIP: handelsverdrag tussen Europese Unie en Verenigde Staten",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_516ec027",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Hoger onderwijs",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_ee06665e",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Informatievoorziening en ICT",
+				"@language": "nl"
+			},
+			{
+				"@value": "Archieven",
+				"@language": "nl"
+			},
+			{
+				"@value": "Campagnes",
+				"@language": "nl"
+			},
+			{
+				"@value": "Desinformatie en nepnieuws",
+				"@language": "nl"
+			},
+			{
+				"@value": "Digitale overheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inloggen bij organisaties in de Europese Unie (eIDAS)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overheidscommunicatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Privacy en persoonsgegevens",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wetgeving",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_068da9fb",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Inkoop en beheer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meervoudig onderhandse ICT-aanbestedingen 2010-2014 (AZ)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meervoudig onderhandse ICT-aanbestedingen 2010-2014 (BZ)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meervoudig onderhandse ICT-aanbestedingen 2010-2014 (BZK)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meervoudig onderhandse ICT-aanbestedingen 2010-2014 (EZ)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meervoudig onderhandse ICT-aanbestedingen 2010-2014 (Fin)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meervoudig onderhandse ICT-aanbestedingen 2010-2014 (IenM)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meervoudig onderhandse ICT-aanbestedingen 2010-2014 (OCW)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meervoudig onderhandse ICT-aanbestedingen 2010-2014 (VenJ)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek meervoudig onderhandse ICT-aanbestedingen 2010-2014 (VWS)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Commissariaat Militaire Productie (CMP)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Inkopen door het Rijk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Leegstand kantoren",
+				"@language": "nl"
+			},
+			{
+				"@value": "PIANOo - Expertisecentrum aanbesteden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Publiek-Private Samenwerking (PPS) bij het Rijk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Staatsdeelnemingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Staatssteun",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zakendoen met het Rijk",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_f37fd49d",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Wet open overheid (Woo)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Democratie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Evaluaties van beleid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gemeentelijke herindeling",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gemeenten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Grondwet en Statuut",
+				"@language": "nl"
+			},
+			{
+				"@value": "Koninklijk Huis",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kwaliteit en integriteit overheidsinstanties",
+				"@language": "nl"
+			},
+			{
+				"@value": "Parlement",
+				"@language": "nl"
+			},
+			{
+				"@value": "Politieke ambtsdragers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Provincies",
+				"@language": "nl"
+			},
+			{
+				"@value": "Regeldruk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Regering",
+				"@language": "nl"
+			},
+			{
+				"@value": "Regio Deals",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rijksoverheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Veiligheidsregio's en crisisbeheersing",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verkiezingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Waterschappen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wet openbaarheid van bestuur (Wob)",
+				"@language": "nl"
+			},
+            {
+                "@value": "Gemeenteraadsverkiezingen",
+                "@language": "nl"
+            },
+            {
+                "@value": "Overheidsdienstverlening",
+                "@language": "nl"
+            },
+            {
+                "@value": "inrichting van de overheid",
+                "@language": "nl"
+            }
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_a94e1fa4",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Inburgeren in nederland",
+				"@language": "nl"
+			},
+			{
+				"@value": "Integratie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Buitenlandse werknemers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Burgerschap",
+				"@language": "nl"
+			},
+			{
+				"@value": "Discriminatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Eergerelateerd geweld",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gezichtsbedekkende kleding (in de media 'boerkaverbod')",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vluchtelingen: werk en integratie",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_f47ad6ca",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Internationaal",
+				"@language": "nl"
+			},
+			{
+				"@value": "Exportcontrole strategische goederen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationaal maatschappelijk verantwoord ondernemen (IMVO)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationaal ondernemen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationale sociale zekerheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Reizen met kinderen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Reizen, wonen en werken in het buitenland",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vakantie en reizen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Visum",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_576c2bd7",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Internationale betrekkingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ambassades, consulaten en overige vertegenwoordigingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Associatieakkoord Oekraïne",
+				"@language": "nl"
+			},
+			{
+				"@value": "Belastingverdragen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationale culturele samenwerking",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationale kinderontvoering",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationale organisaties in Nederland",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationale sancties",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationale verdragen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationale vrede en veiligheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Legalisatie van documenten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Mensenhandel en mensensmokkel",
+				"@language": "nl"
+			},
+			{
+				"@value": "Mensenrechten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Neerhalen vlucht MH17",
+				"@language": "nl"
+			},
+			{
+				"@value": "Onderwijs en internationalisering",
+				"@language": "nl"
+			},
+			{
+				"@value": "TTIP: handelsverdrag tussen Europese Unie en Verenigde Staten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitkering meenemen naar buitenland",
+				"@language": "nl"
+			},
+			{
+				"@value": "WTO - Wereldhandelsorganisatie",
+				"@language": "nl"
+			},
+            {
+                "@value": "Afghanistan",
+                "@language": "nl"
+            },
+            {
+                "@value": "Opvang vluchtelingen uit Oekraïne",
+                "@language": "nl"
+            },
+            {
+                "@value": "Oorlog in Oekraïne",
+                "@language": "nl"
+            },
+            {
+                "@value": "Rusland en Oekraïne",
+                "@language": "nl"
+            },
+            {
+                "@value": "Russische inval in Oekraïne",
+                "@language": "nl"
+            },
+            {
+                "@value": "Verdragen",
+                "@language": "nl"
+            },
+            {
+                "@value": "40 man Koninklijke marechaussee naar Oekraïne",
+                "@language": "nl"
+            }
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_0fe7c5e7",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Jeugdzorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Adoptie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationale kinderontvoering",
+				"@language": "nl"
+			},
+			{
+				"@value": "Jeugdbescherming",
+				"@language": "nl"
+			},
+			{
+				"@value": "Jeugdhulp",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_87d3d66c",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Kenniseconomie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Biotechnologie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Circulaire economie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Duurzame economie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Duurzame energie",
+				"@language": "nl"
+			},
+			{
+				"@value": "ICT",
+				"@language": "nl"
+			},
+			{
+				"@value": "Informatie- en communicatietechnologie (ICT)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Intellectueel eigendom",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationaal maatschappelijk verantwoord ondernemen (IMVO)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nanotechnologie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ondernemen en innovatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Publiek-Private Samenwerking (PPS) bij het Rijk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ruimtevaart",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_79010191",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Klimaatakkoord",
+				"@language": "nl"
+			},
+			{
+				"@value": "Klimaatverandering",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_f28344a5",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Koninkrijksrelaties",
+				"@language": "nl"
+			},
+			{
+				"@value": "Caribisch deel van het Koninkrijk",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_989e37d9",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Landbouw, visserij, voedselkwaliteit",
+				"@language": "nl"
+			},
+			{
+				"@value": "Landbouw en tuinbouw",
+				"@language": "nl"
+			},
+			{
+				"@value": "Veehouderij",
+				"@language": "nl"
+			},
+			{
+				"@value": "Visserij",
+				"@language": "nl"
+			},
+            {
+                "@value": "Diergezondheid",
+                "@language": "nl"
+            }
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_28ddcea5",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Lucht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Luchtkwaliteit",
+				"@language": "nl"
+			},
+			{
+				"@value": "Straling",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_2835e395",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Drone",
+				"@language": "nl"
+			},
+			{
+				"@value": "Drones",
+				"@language": "nl"
+			},
+			{
+				"@value": "Luchtvaart",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Markttoezicht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanbesteden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bescherming van consumenten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Certificaten, normen en meetinstrumenten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Corporate governance",
+				"@language": "nl"
+			},
+			{
+				"@value": "Fouten en fraude in de zorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kredietcrisis",
+				"@language": "nl"
+			},
+			{
+				"@value": "Mededinging",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_6b728132",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Media",
+				"@language": "nl"
+			},
+			{
+				"@value": "Media en publieke omroep",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_399f194b",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Migratie en integratie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nederlandse nationaliteit",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nieuw in Nederland",
+				"@language": "nl"
+			},
+			{
+				"@value": "Paspoort en identiteitskaart",
+				"@language": "nl"
+			},
+			{
+				"@value": "Burgerschap",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_2e9944e7",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Asielbeleid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Discriminatie en racisme",
+				"@language": "nl"
+			},
+			{
+				"@value": "Immigratie naar Nederland",
+				"@language": "nl"
+			},
+			{
+				"@value": "Immigratie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Migratie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Remigratie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Terugkeer vreemdelingen",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Natuur en milieu",
+				"@language": "nl"
+			},
+			{
+				"@value": "Duurzaam bouwen en verbouwen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Duurzame economie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gaswinning in Groningen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gezonde en veilige leefomgeving",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gezondheid en preventie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Leefbaarheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Luchtvaart",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verduurzaming financiële sector",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_db2fbedb",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Natuur- en landschapsbeheer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Dierenwelzijn",
+				"@language": "nl"
+			},
+			{
+				"@value": "Dierproeven",
+				"@language": "nl"
+			},
+			{
+				"@value": "Dierziekten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Droogte en hitte",
+				"@language": "nl"
+			},
+			{
+				"@value": "Landbouw en tuinbouw",
+				"@language": "nl"
+			},
+			{
+				"@value": "Natuur en biodiversiteit",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vogelgriep",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_85a72eb3",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Netwerken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aardgasvrije wijken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Antennes",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_3afc269f",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Ondernemen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Belastingen voor ondernemers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bijstand voor zelfstandigen (Bbz)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationaal ondernemen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Koopkracht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ondernemen en innovatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ondernemersplein",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zelfstandigen zonder personeel (zzp)",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_c232ae4a",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Onderwijs en wetenschap",
+				"@language": "nl"
+			},
+			{
+				"@value": "Financiering onderwijs",
+				"@language": "nl"
+			},
+			{
+				"@value": "Leerlingendaling",
+				"@language": "nl"
+			},
+			{
+				"@value": "Leven Lang Leren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Onderwijs en internationalisering",
+				"@language": "nl"
+			},
+			{
+				"@value": "Openheid over kwaliteit onderwijs",
+				"@language": "nl"
+			},
+			{
+				"@value": "Passend onderwijs",
+				"@language": "nl"
+			},
+			{
+				"@value": "Schooltijden en onderwijstijd",
+				"@language": "nl"
+			},
+			{
+				"@value": "Schoolvakanties",
+				"@language": "nl"
+			},
+			{
+				"@value": "Talent op school",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toekomst van het onderwijs",
+				"@language": "nl"
+			},
+			{
+				"@value": "Veilig leren en werken in het onderwijs",
+				"@language": "nl"
+			},
+			{
+				"@value": "Veranderingen in 2020",
+				"@language": "nl"
+			},
+			{
+				"@value": "Voorschoolse en vroegschoolse educatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Voortijdig schoolverlaten (vsv)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vrijheid van onderwijs",
+				"@language": "nl"
+			},
+			{
+				"@value": "Werken in het onderwijs",
+				"@language": "nl"
+			},
+            {
+                "@value": "Laaggeletterdheid",
+                "@language": "nl"
+            }
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_4eb912c1",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Onderwijsvoorzieningen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Studiefinanciering",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_08d12aef",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Onderzoek en wetenschap",
+				"@language": "nl"
+			},
+			{
+				"@value": "Medisch-wetenschappelijk onderzoek",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wetenschap",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_8940ed07",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Ontwikkelingssamenwerking",
+				"@language": "nl"
+			},
+			{
+				"@value": "Financiering ontwikkelingssamenwerking",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamerbrief inzake Ontwikkelingsresultaten in Beeld - Editie 2015",
+				"@language": "nl"
+			},
+			{
+				"@value": "Noodhulp bij rampen en oorlog",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ontwikkelingssamenwerking",
+				"@language": "nl"
+			},
+			{
+				"@value": "Subsidies voor ontwikkelingssamenwerking",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_319461d7",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Openbaar vervoer (ov)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Taxi",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_d58b78ca",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Openbare orde en veiligheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bevoegdheden inlichtingendiensten en veiligheidsdiensten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Geluidsoverlast",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kansspelen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Prostitutie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vuurwerk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zomertijd en wintertijd",
+				"@language": "nl"
+			},
+            {
+                "@value": "Prostitution",
+                "@language": "nl"
+            }
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_1781ce20",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Ouderen",
+				"@language": "nl"
+			},
+			{
+				"@value": "AOW",
+				"@language": "nl"
+			},
+			{
+				"@value": "Uitkering oudere werklozen (IOAW, IOW, IOAZ)",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_f02ce1b3",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Dementie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Eenzaamheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Levenseinde en euthanasie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Mantelzorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ouderenzorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overlijden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Palliatieve zorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Seniorenwoningen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verpleeghuizen en zorginstellingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zorg en ondersteuning thuis",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_391585db",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Overheidsfinanciën",
+				"@language": "nl"
+			},
+			{
+				"@value": "Consignatiekas",
+				"@language": "nl"
+			},
+			{
+				"@value": "Financiën Europese Unie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Financiën gemeenten en provincies",
+				"@language": "nl"
+			},
+			{
+				"@value": "Financiering onderwijs",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overheidsfinanciën",
+				"@language": "nl"
+			},
+			{
+				"@value": "Single information, Single audit (SiSa)",
+				"@language": "nl"
+			},
+            {
+                "@value": "Beantwoording Kamervragen over Jaarverslag en slotwet Ministerie van Binnenlandse Zaken en Koninkrijksrelaties en van Wonen en Rijksdienst 2013",
+                "@language": "nl"
+            }
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_f2c9a613",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Beloningen bestuurders",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek declaraties medewerkers ACM",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek declaraties medewerkers AZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek declaraties medewerkers Belastingdienst",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek declaraties medewerkers BZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek declaraties medewerkers BZK",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek declaraties medewerkers Defensie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek declaraties medewerkers EZ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek declaraties medewerkers Financiën",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek declaraties medewerkers IenM",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek declaraties medewerkers NVWA",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek declaraties medewerkers OCW",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek declaraties medewerkers SZW",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek declaraties medewerkers VenJ",
+				"@language": "nl"
+			},
+			{
+				"@value": "Besluit Wob-verzoek declaraties medewerkers VWS",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overheidspersoneel",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_824ce7ff",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Privaatrecht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bescherming van consumenten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Scheiden of uit elkaar gaan",
+				"@language": "nl"
+			},
+			{
+				"@value": "Trouwen, samenlevingscontract en geregistreerd partnerschap",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_f411e390",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Rail- en wegverkeer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Algemene periodieke keuring (APK)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Auto",
+				"@language": "nl"
+			},
+			{
+				"@value": "Belastingen voor auto en vervoer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bijzondere voertuigen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Brommer (bromfiets)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Fiets",
+				"@language": "nl"
+			},
+			{
+				"@value": "Goederenvervoer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Milieuvriendelijke brandstoffen voor vervoer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Mobiliteit nu en in de toekomst",
+				"@language": "nl"
+			},
+			{
+				"@value": "Motor",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rijbewijs",
+				"@language": "nl"
+			},
+			{
+				"@value": "Spoor",
+				"@language": "nl"
+			},
+			{
+				"@value": "Stint",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verkeersregels",
+				"@language": "nl"
+			},
+			{
+				"@value": "Verkeersveiligheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wegen",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Recht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Wetgeving",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_d2b1338a",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Rechten en vrijheden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Discriminatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Eergerelateerd geweld",
+				"@language": "nl"
+			},
+			{
+				"@value": "Huwelijksdwang",
+				"@language": "nl"
+			},
+			{
+				"@value": "Intellectuele eigendom EU",
+				"@language": "nl"
+			},
+			{
+				"@value": "LHBTI-emancipatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Mensenrechten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Octrooien ofwel patenten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Patiëntenrecht en cliëntenrecht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Privacy en persoonsgegevens",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rechten van mensen met een beperking",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rechten van mensen met een handicap",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rechten van patiënt en privacy",
+				"@language": "nl"
+			},
+			{
+				"@value": "Vrouwenemancipatie (gendergelijkheid)",
+				"@language": "nl"
+			},
+            {
+                "@value": "Inloggen bij organisaties in de Europese Economische Ruimte (eIDAS)",
+                "@language": "nl"
+            },
+			{
+				"@value": "Aanpak seksueel grensoverschrijdend gedrag en seksueel geweld",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_72138db9",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Rechtspraak",
+				"@language": "nl"
+			},
+			{
+				"@value": "Raad voor de rechtspraak",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rechtspraak en geschiloplossing",
+				"@language": "nl"
+			},
+			{
+				"@value": "Recidive en veelplegers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Straffen en maatregelen",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_a6c5e5b8",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Sport en bewegen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toerisme en recreatie",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_cfc7d5ab",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Ruimte en infrastructuur",
+				"@language": "nl"
+			},
+			{
+				"@value": "Omgevingswet",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_9af4b880",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Ruimtelijke ordening",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanpak stikstof",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bevolkingsdaling",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bevolkingskrimp",
+				"@language": "nl"
+			},
+			{
+				"@value": "Leefbaarheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "MIRT-Verkenning N65 Vught - Haaren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Mobiliteit nu en in de toekomst",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ruimtelijke ordening en gebiedsontwikkeling",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_d3b599f8",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Scheepvaart",
+				"@language": "nl"
+			},
+			{
+				"@value": "Scheepvaart en havens",
+				"@language": "nl"
+			},
+			{
+				"@value": "Binnenvaart",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zeevaart en zeehavens",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_d4890526",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Sociale zekerheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Algemene nabestaandenwet (Anw)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Armoede en schulden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Armoedebestrijding",
+				"@language": "nl"
+			},
+			{
+				"@value": "Huurtoeslag",
+				"@language": "nl"
+			},
+			{
+				"@value": "Internationale sociale zekerheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Schulden",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_61d3e636",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Stoffen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanpak stikstof",
+				"@language": "nl"
+			},
+			{
+				"@value": "Bestrijdingsmiddelen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gevaarlijke stoffen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Mest",
+				"@language": "nl"
+			},
+			{
+				"@value": "PFAS",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_98e03e32",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Seksuele misdrijven",
+				"@language": "nl"
+			},
+			{
+				"@value": "Strafrecht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Modernisering Wetboek van Strafvordering",
+				"@language": "nl"
+			},
+			{
+				"@value": "Nieuwe wetboek van strafvordering",
+				"@language": "nl"
+			},
+			{
+				"@value": "Strafrechtketen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Tbs en overige forensische zorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Tbs",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_4872b086",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Terrorisme",
+				"@language": "nl"
+			},
+			{
+				"@value": "Terrorisme en nationale veiligheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Terrorismebestrijding",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_d772bf06",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Veiligheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Alarmnummer 112",
+				"@language": "nl"
+			},
+			{
+				"@value": "Communicatie door hulpdiensten via C2000",
+				"@language": "nl"
+			},
+			{
+				"@value": "Cybercrime en cybersecurity",
+				"@language": "nl"
+			},
+			{
+				"@value": "Geweld tegen werknemers met publieke taak",
+				"@language": "nl"
+			},
+			{
+				"@value": "Identificatieplicht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Jeugdbescherming",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ouderlijk gezag en voogdij",
+				"@language": "nl"
+			},
+			{
+				"@value": "Politie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Slachtofferbeleid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Telecomgegevens voor opsporing",
+				"@language": "nl"
+			},
+			{
+				"@value": "Veiligheidsregio's en crisisbeheersing",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_849842ac",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Verkeer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Geluidsoverlast",
+				"@language": "nl"
+			},
+			{
+				"@value": "Veranderingen in 2020",
+				"@language": "nl"
+			},
+            {
+                "@value": "Voertuigen op de weg",
+                "@language": "nl"
+            }
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_980b8db2",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Eindexamens voortgezet onderwijs",
+				"@language": "nl"
+			},
+			{
+				"@value": "Eindexamens",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gemengde scholen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Leerplicht",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toelating voortgezet onderwijs",
+				"@language": "nl"
+			},
+			{
+				"@value": "Voortgezet algemeen volwassenenonderwijs (vavo)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Voortgezet onderwijs",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_389a72e6",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Deltaprogramma",
+				"@language": "nl"
+			},
+			{
+				"@value": "Drinkwater",
+				"@language": "nl"
+			},
+			{
+				"@value": "Water",
+				"@language": "nl"
+			},
+			{
+				"@value": "Waterschappen",
+				"@language": "nl"
+			},
+            {
+                "@value": "Afhandeling schade wateroverlast Limburg",
+                "@language": "nl"
+            },
+            {
+                "@value": "Afhandeling schade wateroverlast Limburg en Noord-Brabant",
+                "@language": "nl"
+            }
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_a71dc533",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Waterbeheer",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zeevaart en zeehavens",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_9d1917e9",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Werk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Buitenlandse werknemers",
+				"@language": "nl"
+			},
+			{
+				"@value": "Jongeren en werk",
+				"@language": "nl"
+			},
+			{
+				"@value": "Maatschappelijke diensttijd",
+				"@language": "nl"
+			},
+			{
+				"@value": "Veranderingen in 2020",
+				"@language": "nl"
+			},
+			{
+				"@value": "Werken in de zorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Werken in het onderwijs",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_124eaf3a",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Wonen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Beschermd wonen en maatschappelijke opvang",
+				"@language": "nl"
+			},
+			{
+				"@value": "Huurtoeslag",
+				"@language": "nl"
+			},
+			{
+				"@value": "Omgevingswet",
+				"@language": "nl"
+			},
+			{
+				"@value": "Veranderingen in 2020",
+				"@language": "nl"
+			},
+			{
+				"@value": "Waardering onroerende zaken (WOZ)",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_17a86a17",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Huis kopen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Huurprijs en puntentelling",
+				"@language": "nl"
+			},
+			{
+				"@value": "Huurverhoging",
+				"@language": "nl"
+			},
+			{
+				"@value": "Huurverlaging",
+				"@language": "nl"
+			},
+			{
+				"@value": "Huurwoning",
+				"@language": "nl"
+			},
+			{
+				"@value": "Huurwoning zoeken",
+				"@language": "nl"
+			},
+			{
+				"@value": "Koopwoning",
+				"@language": "nl"
+			},
+			{
+				"@value": "Seniorenwoningen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Tijdelijk huren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Woningcorporaties",
+				"@language": "nl"
+			},
+			{
+				"@value": "Woning huren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Woning verhuren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Woningmarkt",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_9a574af9",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Ziekten en behandelingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Antibioticaresistentie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Coronavirus COVID-19",
+				"@language": "nl"
+			},
+			{
+				"@value": "Cosmetische ingrepen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Infectieziekten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Orgaandonatie en weefseldonatie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Soas en seksualiteit",
+				"@language": "nl"
+			},
+			{
+				"@value": "Spermadonoren en eiceldonoren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Voorbehouden handelingen door zorgpersoneel",
+				"@language": "nl"
+			},
+			{
+				"@value": "Voorbehouden handelingen",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Zorg en gezondheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Digitale gegevens in de zorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "E-health (digitale zorg)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Eerstelijnszorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Faillissement MC Slotervaart en MC IJsselmeerziekenhuizen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Fouten en fraude in de zorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Geestelijke gezondheidszorg (GGZ)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Geestelijke gezondheidszorg en psychosociale steun bij noodhulp",
+				"@language": "nl"
+			},
+			{
+				"@value": "Gehandicaptenzorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kwaliteit van de zorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Levensgebeurtenissen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Medisch-wetenschappelijk onderzoek",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rechten van mensen met een beperking",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rechten van patiënt en privacy",
+				"@language": "nl"
+			},
+			{
+				"@value": "Regeldruk in de zorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Veranderingen in 2020",
+				"@language": "nl"
+			},
+			{
+				"@value": "Werken in de zorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zwangerschap en geboorte",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_7a0f87d5",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Zorginstellingen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Duurzame zorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Personeel in de zorg",
+				"@language": "nl"
+			},
+			{
+				"@value": "Prestaties belonen in ziekenhuizen",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_341c5bef",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Zorgverzekeringen",
+				"@language": "nl"
+			},
+			{
+				"@value": "Zorgverzekering",
+				"@language": "nl"
+			},
+            {
+                "@value": "Persoonsgebonden budget (pgb)",
+                "@language": "nl"
+            },
+			{
+				"@value": "ICT in de zorg",
+				"@language": "nl"
+			}
+		]
+	}
+]

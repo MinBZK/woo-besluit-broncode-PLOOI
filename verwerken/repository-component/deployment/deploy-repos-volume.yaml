@@ -1,0 +1,13 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: plooi-repository-pvc
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+#      storage: 10Gi
+      storage: 600Gi
+  storageClassName: nfs
+#  storageClassName: microk8s-hostpath

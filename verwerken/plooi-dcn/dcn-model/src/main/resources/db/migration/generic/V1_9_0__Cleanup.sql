@@ -1,0 +1,11 @@
+DROP TABLE Document;
+DROP TABLE Documents;
+DROP TABLE ProcessingError;
+DROP TABLE ProcessingErrors;
+DROP TABLE Diagnostic;
+DROP TABLE Diagnostics;
+DROP TABLE DocumentEventsOld;
+DROP TABLE DocumentEvents;
+DROP TABLE DocumentState;
+DROP TABLE Executions;
+DROP TABLE Relations;

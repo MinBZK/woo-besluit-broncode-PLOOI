@@ -1,0 +1,84 @@
+{
+  "document": {
+    "creatiedatum": "2022-04-01",
+    "publisher": {
+      "id": "https://identifier.overheid.nl/tooi/id/gemeente/gm0518",
+      "label": "gemeente Den Haag"
+    },
+    "verantwoordelijke": {
+      "id": "https://identifier.overheid.nl/tooi/id/gemeente/gm0518",
+      "label": "gemeente Den Haag"
+    },
+    "opsteller": {
+      "id": "https://www.koopoverheid.nl/",
+      "label": "KOOP"
+    },
+    "naamOpsteller": "Klaas",
+    "identifiers": [
+      "https://documenten.denhaag.nl/documenten/doc-123e4567-e89b-12d3-a456-426614174777"
+    ],
+    "titelcollectie": {
+      "officieleTitel": "Kapvergunning voor Dorpsstraat 16",
+      "verkorteTitels": [
+        "Kapvergunning"
+      ],
+      "alternatieveTitels": [
+        "Vergunning om te kappen"
+      ]
+    },
+    "omschrijvingen": [
+      "Kapvergunning verleend aan bewoners van Dorpsstaat 16"
+    ],
+    "classificatiecollectie": {
+      "documentsoorten": [
+        {
+          "id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_8ec8e5e7",
+          "label": "aanvraag ex art. 4.1 Woo"
+        }
+      ],
+      "themas": [
+        {
+          "id": "https://identifier.overheid.nl/tooi/def/thes/top/c_d96f9cd3",
+          "label": "afval"
+        }
+      ]
+    },
+    "format": {
+      "id": "http://publications.europa.eu/resource/authority/file-type/PDF",
+      "label": "PDF"
+    },
+    "onderwerpen": [
+      "Verlenen van een kapvergunning"
+    ],
+    "aggregatiekenmerk": "Kapvergunningen",
+    "documenthandelingen": [
+      {
+        "soortHandeling": {
+          "id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_e1ec050e",
+          "label": "ondertekening"
+        },
+        "atTime": "2022-08-24T14:15:22Z",
+        "wasAssociatedWith": {
+          "id": "https://identifier.overheid.nl/tooi/id/col/col01",
+          "label": "Overheid"
+        }
+      }
+    ],
+    "geldigheid": {
+      "begindatum": "2022-08-24T14:15:22Z",
+      "einddatum": "2022-09-24T14:15:22Z"
+    },
+    "weblocatie": "https://open.overheid.nl/documenten/396a210e-a9b1-401d-a562-1f579ff1d013",
+    "extraMetadata": [
+      {
+        "namespace": "https://denhaag.nl/concepten",
+        "velden": [
+          {
+            "key": "isVerwerkt",
+            "values": "waarden"
+          }
+        ]
+      }
+    ]
+  }
+}

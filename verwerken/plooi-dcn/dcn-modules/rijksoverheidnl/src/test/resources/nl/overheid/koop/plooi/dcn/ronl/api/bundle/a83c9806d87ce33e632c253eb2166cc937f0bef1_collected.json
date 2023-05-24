@@ -1,0 +1,17 @@
+[ {
+  "id" : "0acb97b8-b3cf-4654-92c2-0fa4199c100c",
+  "gepubliceerd" : false,
+  "label" : "xml",
+  "url" : "https://opendata.rijksoverheid.nl/v1/sources/rijksoverheid/documents/0acb97b8-b3cf-4654-92c2-0fa4199c100c",
+  "mime-type" : "application/xml",
+  "bestandsnaam" : "0acb97b8-b3cf-4654-92c2-0fa4199c100c.xml",
+  "titel" : "Akte van aanstelling 001474"
+}, {
+  "id" : "Supplement akte van aanstelling_001474.pdf",
+  "gepubliceerd" : true,
+  "label" : "pdf",
+  "url" : "https://opendata.rijksoverheid.nl/binaries/rijksoverheid/documenten/publicaties/1985/08/05/akte-van-aanstelling/Supplement+akte+van+aanstelling_001474.pdf",
+  "mime-type" : "application/pdf",
+  "bestandsnaam" : "Supplement akte van aanstelling_001474.pdf",
+  "titel" : "Supplement akte van aanstelling"
+} ]

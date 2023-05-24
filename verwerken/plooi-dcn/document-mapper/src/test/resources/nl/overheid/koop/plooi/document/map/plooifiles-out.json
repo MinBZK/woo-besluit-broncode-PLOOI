@@ -1,0 +1,19 @@
+{
+  "plooiIntern" : {
+    "dcnId" : "tst-0f0264a8c6fdc4de85420e56cade9087a9a99885",
+    "extId" : [ "tst" ],
+    "sourceLabel" : "tst"
+  },
+  "versies" : [ {
+    "nummer" : 1,
+    "oorzaak" : "aanlevering",
+    "bestanden" : [ {
+      "gepubliceerd" : true,
+      "label" : "pdf",
+      "url" : "http://example.com/attachment.pdf",
+      "mime-type" : "application/pdf",
+      "bestandsnaam" : "attachment.pdf",
+      "titel" : "Attached PDF"
+    } ]
+  } ]
+}

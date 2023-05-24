@@ -1,0 +1,70 @@
+@import "../../colors.scss";
+@import "../../borders.scss";
+
+.label {
+    border-radius: $borderRadius;
+    padding: .125em .5em;
+
+    &--default {
+        display: inline-block;
+        font-size: .75rem;
+        font-weight: 400;
+        background: $lightGrey;
+        color: $black;
+        vertical-align: middle;
+    }
+
+    &--blue {
+        background: $darkBlue;
+        color: $white;
+    }
+
+    &--primary {
+        background: $primaryBlue;
+        color: $white;
+    }
+
+    &--orange {
+
+        background: $orange;
+        color: $black;
+    }
+
+    &--success {
+        background: $green;
+        color: $white;
+    }
+
+    &--warning {
+        background: $yellow;
+        color: $black;
+    }
+
+    &--danger {
+        background: $red;
+        color: $white;
+    }
+
+    &--large {
+        font-size: 1em;
+        font-style: italic;
+    }
+
+    &--form {
+        color: $darkBlue;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    &--bold {
+        font-weight: 700;
+    }
+
+    &--underlined {
+        text-decoration: underline;
+    }
+
+    &--italic {
+        font-style: italic;
+    }
+}

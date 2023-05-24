@@ -1,0 +1,109 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "dcn.fullname" . }}
+  labels:
+    app.kubernetes.io/component: dcn
+    {{- include "dcn.labels" . | nindent 4 }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      {{- include "dcn.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      labels:
+        {{- include "dcn.labels" . | nindent 8 }}
+        {{- include "dcn.selectorLabels" . | nindent 8 }}
+        {{- if .Values.podLabels }}
+          {{- include "common.tplvalues.render" (dict "value" .Values.podLabels "context" $) | nindent 8 }}
+        {{- end }}
+        timestamp: "{{ now | unixEpoch }}"
+    spec:
+      imagePullSecrets:
+        - name: harbor-puller
+      containers:
+        - name: {{ .Chart.Name }}
+          image: {{ .Values.image.registry }}plooi-dcn:{{ .Values.image.tag | default .Chart.AppVersion }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          env:
+            - name: OTEL_SERVICE_NAME
+              value: {{ include "dcn.fullname" . }}
+            - name: OTEL_TRACES_EXPORTER
+              value: {{ .Values.opentelemetry.traces.exporter }}
+            - name: OTEL_METRICS_EXPORTER
+              value: {{ .Values.opentelemetry.metrics.exporter }}
+            {{- if .Values.opentelemetry.enabled }}
+            - name: OTEL_EXPORTER_JAEGER_ENDPOINT
+              value: {{ .Values.opentelemetry.exporter.jaeger.endpoint }}
+            {{- end }}
+            - name: DCN_SOLR_URL
+              value: {{ .Values.solr.url }}
+            - name: DCN_SOLR_COLLECTION
+              value: {{ .Values.solr.collection }}
+            - name: REPOSITORY_SERVICE_URL
+              value: http://{{ .Values.repositoryService }}:8010
+            - name: REGISTRATION_SERVICE_URL
+              value: http://{{ .Values.registrationService }}:8020
+            - name: DCN_DB_URL
+            {{- if .Values.database.url }}
+              value: {{ .Values.database.url }}
+            {{- end }}
+            {{- if .Values.database.secret }}
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Values.database.secret }}
+                  key: pgbouncer-jdbc-uri
+            {{- end }}
+            - name: DCN_AANLO_FTP_HOST
+              value: {{ .Values.aanlo.host }}
+            - name: DCN_AANLO_SCHEDULE
+              value: {{ .Values.aanlo.schedule }}
+            {{- if .Values.aanlo.secret }}
+            - name: DCN_AANLO_FTP_USER
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Values.aanlo.secret}}
+                  key: username
+            - name: DCN_AANLO_FTP_PASS
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Values.aanlo.secret }}
+                  key: password
+            {{- end }}
+            - name: MOCK_SERVICE
+              value: {{ .Values.mockserver.url }}
+            {{- if not .Values.scheduleActive }}
+            - name: DCN_SCHEDULE_YEAR
+              value: "2099"
+            {{- end }}
+            - name: LOG_LEVEL_KOOP
+              value: {{ .Values.logLevel }}
+            {{- if .Values.extraJvmArgs }}
+            - name: JAVA_TOOL_OPTIONS
+              value: {{ .Values.extraJvmArgs }}
+            {{- end }}
+          ports:
+            - name: dcn-adm-port
+              containerPort: 8080
+            - name: dcn-actr-port
+              containerPort: 8081
+            {{- if .Values.extraPort.enabled }}
+            - name: dcn-{{ .Values.extraPort.label | default "extra" }}-port
+              containerPort: {{ .Values.extraPort.port | default 8082 }}
+            {{- end }}
+          livenessProbe:
+            httpGet:
+              path: /actuator/health/liveness
+              port: dcn-actr-port
+            initialDelaySeconds: 200
+            timeoutSeconds: 5
+          readinessProbe:
+            httpGet:
+              path: /actuator/health/readiness
+              port: dcn-actr-port
+            initialDelaySeconds: 200
+            timeoutSeconds: 5
+          {{- if .Values.resources }}
+          resources: {{- toYaml .Values.resources | nindent 12 }}
+          {{- end }}

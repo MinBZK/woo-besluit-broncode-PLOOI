@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generatie: versie XSLT 1.1 op 2015-10-30+01:00-->
+<owms-metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:overheidop="http://standaarden.overheid.nl/oep/meta/">
+   <owmskern>
+      <dcterms:identifier>kv-ek-215160000</dcterms:identifier>
+      <dcterms:title>Vragen van de leden Knip (VVD), Beuving (PvdA), Hoekstra (CDA), Engels (D66), Markuszower (PVV), Ruers (SP), Strik (GroenLinks), Bikker (CU), D.J.H. vanDijk (SGP), Nagel (50PLUS), Koffeman (PvdD) en Ten Hoeve (OSF) aan de Minister van Veiligheid en Justitie inzake het meerjarenplan van de Raad voor de Rechtspraak 2015-2020 (ingezonden 25 september 2015).</dcterms:title>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:type scheme="OVERHEIDop.KamervraagTypen">Schriftelijke vragen</dcterms:type>
+      <dcterms:type scheme="OVERHEIDop.Parlementair">Kamervragen zonder Antwoord</dcterms:type>
+      <dcterms:creator scheme="OVERHEID.StatenGeneraal">Eerste Kamer der Staten-Generaal</dcterms:creator>
+      <dcterms.modified>2015-10-01</dcterms.modified>
+   </owmskern>
+   <owmsmantel>
+      <dcterms:available>2015-10-01</dcterms:available>
+      <dcterms:issued>2015-09-25</dcterms:issued>
+   </owmsmantel>
+   <oep>
+      <overheidop:documentStatus>Opgemaakt na onopgemaakt</overheidop:documentStatus>
+      <overheidop:indiener>Knip</overheidop:indiener>
+      <overheidop:indiener>Beuving</overheidop:indiener>
+      <overheidop:indiener>Hoekstra</overheidop:indiener>
+      <overheidop:indiener>Engels</overheidop:indiener>
+      <overheidop:indiener>Markuszower</overheidop:indiener>
+      <overheidop:indiener>Ruers</overheidop:indiener>
+      <overheidop:indiener>Strik</overheidop:indiener>
+      <overheidop:indiener>Bikker</overheidop:indiener>
+      <overheidop:indiener>Dijk, D.J.H. van</overheidop:indiener>
+      <overheidop:indiener>Nagel</overheidop:indiener>
+      <overheidop:indiener>Koffeman</overheidop:indiener>
+      <overheidop:indiener>Ten Hoeve</overheidop:indiener>
+      <overheidop:publicationName>Kamervragen zonder antwoord</overheidop:publicationName>
+      <overheidop:vergaderjaar>2015-2016</overheidop:vergaderjaar>
+      <overheidop:vraagnummer>215160000</overheidop:vraagnummer>
+      <overheidop:datumIndiening>2015-09-25</overheidop:datumIndiening>
+      <overheid:organisationType>staten generaal</overheid:organisationType>
+      <overheid:category scheme="OVERHEID.TaxonomieBeleidsagenda">Recht | Rechtspraak</overheid:category>
+      <overheidop:aanhangsel>ah-ek-20152016-3</overheidop:aanhangsel>
+   </oep>
+</owms-metadata>

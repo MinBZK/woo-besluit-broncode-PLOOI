@@ -1,0 +1,70 @@
+@import "../../colors.scss";
+@import "../../icons.scss";
+
+.checkbox {
+  height: 1.5em;
+  width: 1.5em;
+  margin: 0;
+
+  border: 1px solid $darkBlue;
+  border-radius: 0.25em;
+
+  &__container {
+    height: 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    * {
+      cursor: pointer;
+    }
+
+    &:active,
+    &:focus {
+      outline: 2px solid $focus;
+      outline-offset: 0;
+      z-index: 1;
+    }
+
+    &__hover {
+      &:hover > div {
+        background-color: $lightBlue;
+      }
+    }
+  }
+
+  &__image {
+    height: 1.5em;
+    width: 1.5em;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__label {
+    margin-left: 0.75em;
+  }
+
+  &--disabled {
+    color: $mediumGrey;
+    border-color: $mediumGrey;
+    * {
+      cursor: default;
+    }
+  }
+
+  &--blue {
+    background-color: $darkBlue;
+  }
+
+  &--white {
+    background-color: $white;
+  }
+
+  &--gray {
+    background-color: $mediumGrey;
+  }
+
+  &--bold {
+    font-weight: 700;
+  }
+}

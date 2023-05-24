@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>nl.overheid.koop.plooi.aanleveren</groupId>
+    <artifactId>parent-pom</artifactId>
+    <version>1.0.15-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>KOOP PLOOI Aanleveren Maven Parent POM</name>
+    <url>https://koop.overheid.nl</url>
+    <description>Parent POM project for dependency control for KOOP PLOOI aanleveren team.</description>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- Internal -->
+        <plooi.security>0.0.1-SNAPSHOT</plooi.security>
+        <aanleveren.models>1.0.1-SNAPSHOT</aanleveren.models>
+        <aanleveren.logging>1.0.0-SNAPSHOT</aanleveren.logging>
+
+        <!-- Spring -->
+        <spring.boot.version>2.7.4</spring.boot.version>
+
+        <!-- Third party -->
+        <lombok.version>1.18.24</lombok.version>
+        <networknt.version>1.0.74</networknt.version>
+        <squareup.okhttp.version>2.7.5</squareup.okhttp.version>
+        <h2database.version>2.1.214</h2database.version>
+        <postgresql.version>42.4.2</postgresql.version>
+        <awaitility.version>4.2.0</awaitility.version>
+        <logstash-logback.version>7.0.1</logstash-logback.version>
+        <jackson.version>2.14.1</jackson.version>
+        <springdoc.version>1.6.9</springdoc.version>
+
+        <!-- Plugins -->
+        <maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
+        <jacoco.version>0.8.8</jacoco.version>
+        <maven-release-plugin.version>3.0.0-M6</maven-release-plugin.version>
+        <swagger-codegen-maven-plugin.version>3.0.34</swagger-codegen-maven-plugin.version>
+    </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>koop-plooi-releases</name>
+            <url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>koop-plooi-snapshots</name>
+            <url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- Internal -->
+            <dependency>
+                <groupId>nl.overheid.koop.plooi</groupId>
+                <artifactId>plooi-security</artifactId>
+                <version>${plooi.security}</version>
+            </dependency>
+            <dependency>
+                <groupId>nl.overheid.koop.plooi.aanleveren</groupId>
+                <artifactId>aanleveren-models</artifactId>
+                <version>${aanleveren.models}</version>
+            </dependency>
+            <dependency>
+                <groupId>nl.overheid.koop.plooi.aanleveren</groupId>
+                <artifactId>aanleveren-logging</artifactId>
+                <version>${aanleveren.logging}</version>
+            </dependency>
+
+            <!-- Spring -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- Third party -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.networknt</groupId>
+                <artifactId>json-schema-validator</artifactId>
+                <version>${networknt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.okhttp</groupId>
+                <artifactId>mockwebserver</artifactId>
+                <version>${squareup.okhttp.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.h2database</groupId>
+                <artifactId>h2</artifactId>
+                <version>${h2database.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>${postgresql.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.awaitility</groupId>
+                <artifactId>awaitility</artifactId>
+                <version>${awaitility.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>net.logstash.logback</groupId>
+                <artifactId>logstash-logback-encoder</artifactId>
+                <version>${logstash-logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-jsr310</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.dataformat</groupId>
+                <artifactId>jackson-dataformat-yaml</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-ui</artifactId>
+                <version>${springdoc.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>${maven-release-plugin.version}</version>
+                <configuration>
+                    <tagNameFormat>@{project.version}</tagNameFormat>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven-surefire-plugin.version}</version>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>${jacoco.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <releases>
+                <enabled>false</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+                <checksumPolicy>fail</checksumPolicy>
+            </snapshots>
+            <name>koop-plooi-snapshots</name>
+            <id>nexus</id>
+            <url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>

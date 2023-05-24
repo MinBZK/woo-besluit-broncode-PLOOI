@@ -1,0 +1,31 @@
+{
+  "document" : {
+    "pid" : "https://open.overheid.nl/documenten/kst-32761-184",
+    "creatiedatum" : "2021-05-26",
+    "geldigheid" : {
+      "begindatum" : "2021-05-27"
+    },
+    "opsteller" : {
+      "type" : "OVERHEID.StatenGeneraal",
+      "label" : "Tweede Kamer der Staten-Generaal"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "titelcollectie" : {
+      "officieleTitel" : "Verwerking en bescherming persoonsgegevens; Motie; Motie van het lid Belhaj c.s. over duidelijke kaders voor toekomstige experimenteeromgevingen"
+    },
+    "classificatiecollectie" : { }
+  },
+  "plooiIntern" : {
+    "aanbieder" : "overheid.nl"
+  },
+  "documentrelaties" : [ {
+    "relation" : "plooicb-kst-32761-184",
+    "role" : "https://identifier.overheid.nl/plooi/def/thes/documentrelatie/gerelateerd"
+  } ],
+  "body" : {
+    "tekst" : [ "<h1 class=\"dossiertitel\"><a id=\"d17e46\" name=\"d17e46\"></a> <span class=\"dossiernummer\">32 761</span> Verwerking en bescherming persoonsgegevens</h1> <div class=\"stuk\"><h1 class=\"stuktitel\"><a id=\"d17e51\" name=\"d17e51\"></a> <span class=\"stuknummer\">Nr. 184</span> MOTIE VAN HET LID BELHAJ C.S.</h1> <p class=\"kamerstukdatum\">Voorgesteld<span class=\"datum\">26 mei 2021</span> </p> <div class=\"algemeen\"><p>De Kamer,</p> <p>gehoord de beraadslaging,</p> <p>overwegende dat er bij het Land Information Manoeuvre Centre geen duidelijke grenzen waren tussen experiment en bijstand;</p> <p>overwegende dat het niet duidelijk is onder welke (kern)taken Defensie mag experimenteren;</p> <p>verzoekt de regering, duidelijke kaders op te stellen voor toekomstige experimenteeromgevingen zoals het LIMC, zodat te allen tijde gegarandeerd kan worden dat Defensie niet experimenteert met grondwettelijke taken of andere grondslagen of militair-juridische kaders,</p> <p>en gaat over tot de orde van de dag.</p> <div class=\"alineagroep\"><p>Belhaj</p> <p>Stoffer</p> <p>Boswijk</p> <p>Kuzu</p> </div> </div> </div> " ]
+  }
+}

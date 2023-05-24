@@ -1,0 +1,23 @@
+image:
+  registry: localhost:32000/
+
+extraJvmArgs: "-javaagent:/app/libs/opentelemetry-javaagent-1.13.1.jar"
+
+ingress:
+  ingressClassName: public
+  hostname: lijsten.127.0.0.1.nip.io
+
+metrics:
+  enabled: yes
+  serviceMonitor:
+    enabled: yes
+
+opentelemetry:
+  enabled: yes
+  traces:
+    exporter: jaeger
+  metrics:
+    exporter: none
+  exporter:
+    jaeger:
+      endpoint:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS

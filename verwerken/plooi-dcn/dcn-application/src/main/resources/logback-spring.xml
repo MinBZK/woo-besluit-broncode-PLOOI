@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true">
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!-- <pattern>%d{yyyy-MM-dd} | %d{HH:mm:ss.SSS} | %5p | %logger{40} - %msg%n</pattern> -->
+            <pattern>%d{ISO8601} | %-5.5p %-40.40logger{40} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="STDOUT_JSON" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="net.logstash.logback.encoder.LogstashEncoder" />
+    </appender>
+
+    <!-- General / default log levels -->
+    <logger name="nl.overheid.koop" level="${LOG_LEVEL_KOOP:-INFO}" />
+    <logger name="nl.overheid.koop.plooi.document.map.PlooiTikaMappingInstance" level="INFO" />
+    <logger name="org.hibernate" level="WARN" />
+    <logger name="org.hibernate.cache" level="INFO" />
+    <logger name="org.apache.fontbox" level="OFF" />
+    <logger name="org.apache.pdfbox" level="OFF" />
+    <logger name="org.apache.poi" level="OFF" />
+    <logger name="org.apache.camel.component" level="WARN" />
+    <logger name="org.apache.camel.support" level="WARN" />
+    <logger name="org.apache.camel.support.jsse" level="ERROR" />
+    <logger name="org.apache.http.client.protocol" level="ERROR" />
+
+    <springProfile name="dev">
+        <root level="INFO">
+            <appender-ref ref="STDOUT" />
+        </root>
+        <logger name="nl.overheid.koop" level="TRACE" />
+        <logger name="org.apache.camel.component" level="DEBUG" />
+        <logger name="org.springframework.web" level="DEBUGS" />
+        <!-- Gives a detailed trace that might help debugging Camel expressions (simlpe, ognl, etc):
+        <logger name="org.apache.camel.component.bean" level="TRACE" /> -->
+    </springProfile>
+
+    <springProfile name="k8s">
+        <root level="INFO">
+            <appender-ref ref="STDOUT_JSON" />
+        </root>
+        <!-- Containers should not store log files -->
+    </springProfile>
+
+</configuration>

@@ -1,0 +1,318 @@
+components:
+
+  schemas:
+
+    document:
+      description: Metadata betreffende het document.
+      type: object
+      properties:
+        pid:
+          $ref: '#/components/schemas/pid'
+        weblocatie:
+          $ref: '#/components/schemas/weblocatie'
+        creatiedatum:
+          $ref: '#/components/schemas/creatiedatum'
+        geldigheid:
+          $ref: '#/components/schemas/geldigheid'
+        identifiers:
+          $ref: '#/components/schemas/identifiers'
+        verantwoordelijke:
+          $ref: '#/components/schemas/verantwoordelijke'
+        publisher:
+          $ref: '#/components/schemas/publisher'
+        opsteller:
+          $ref: '#/components/schemas/opsteller'
+        naamOpsteller:
+          $ref: '#/components/schemas/naamOpsteller'
+        language:
+          $ref: '#/components/schemas/language'
+        format:
+          $ref: '#/components/schemas/format'
+        onderwerpen:
+          $ref: '#/components/schemas/onderwerpen'
+        omschrijvingen:
+          $ref: '#/components/schemas/omschrijvingen'
+        titelcollectie:
+          $ref: '#/components/schemas/titelcollectie'
+        classificatiecollectie:
+          $ref: '#/components/schemas/classificatiecollectie'
+        aggregatiekenmerk:
+          $ref: '#/components/schemas/aggregatiekenmerk'
+        isPartOf:
+          $ref: '#/components/schemas/isPartOf'
+        hasParts:
+          $ref: '#/components/schemas/hasParts'
+        documenthandelingen:
+          $ref: '#/components/schemas/documenthandelingen'
+        extraMetadata:
+          $ref: '#/components/schemas/extraMetadata'
+        publicatiebestemming:
+          $ref: '#/components/schemas/publicatiebestemming'
+      required:
+        - publisher
+        - language
+        - format
+        - titelcollectie
+        - classificatiecollectie
+
+    pid:
+      type: string
+      description: |-
+        De door PLOOI toegekende persistente URI die het informatieobject denoteert.
+        veld: tooiont:pid
+        bereik: xsd:anyURI
+      format: url
+
+    weblocatie:
+      type: string
+      format: url
+
+    creatiedatum:
+      type: string
+      description: |-
+        Datum van aanmaak van het document.
+
+    geldigheid:
+      type: object
+      properties:
+        begindatum:
+          type: string
+          format: date
+        einddatum:
+          type: string
+          format: date
+
+    identifiers:
+      type: array
+      items:
+        type: string
+        description: |-
+          Een string, evt in URI formaat, waarmee naar het informatieobject wordt aangeduid.
+          veld: dcterms:identifier
+          bereik: xsd:string
+        minLength: 3
+      uniqueItems: true
+
+    verantwoordelijke:
+      description: |-
+        Overheidsorganisatie die de wettelijke verantwoordelijkheid draagt voor de inhoud (strekking) van het
+        informatieobject. (REP, verantwoordelijke)
+        veld: tooiont:verantwoordelijke
+        bereik: tooiont:Overheidsorganisatie
+        ref: registerOverheidOrganisaties
+      $ref: 'base.yaml#/components/schemas/identifiedResource'
+
+    publisher:
+      description: |-
+        De entiteit die verantwoordelijk is voor het publiceren van het informatieobject,
+        meer in het bijzonder de partij die de plicht heeft tot actieve openbaarmaking ervan.
+      $ref: 'base.yaml#/components/schemas/identifiedResource'
+
+    opsteller:
+      description: |-
+        De organisatie die het document heeft gecreëerd.
+      $ref: 'base.yaml#/components/schemas/identifiedResource'
+
+    naamOpsteller:
+      type: string
+      description: |-
+        De naam van de opsteller kan vastgelegd worden als de identiteit van de opsteller niet uit te drukken
+        valt in termen van een in een relevant dan wel bruikbaar register gemunte URI.
+
+    language:
+      description: |-
+        De taal waarin het informatieobject is gepubliceerd (REP, taal)
+        veld: dcterms:language
+        bereik: tooixtrn:taal
+      $ref: 'base.yaml#/components/schemas/identifiedResource'
+
+    format:
+      description: Het bestandsformaat van het document. Op dit moment wordt alleen PDF en ZIP ondersteund.
+      $ref: 'base.yaml#/components/schemas/identifiedResource'
+
+    onderwerpen:
+      type: array
+      description: Tekstuele beschrijvingen in één of enkele woorden van datgene waar het document over gaat.
+      items:
+        type: string
+
+    omschrijvingen:
+      type: array
+      description: Tekstuele beschrijvingen in enkele zinnen van het onderwerp van het document (samenvattingen)
+      items:
+        type: string
+
+    titelcollectie:
+      type: object
+      properties:
+        officieleTitel:
+          type: string
+          description: |-
+            De officiële titel van het informatieobject (REP, officiële titel)
+            veld: tooiont:officieleTitel
+            bereik: xsd:string
+        verkorteTitels:
+          type: array
+          items:
+            type: string
+            description: |-
+              De verkorte titel van het informatieobject
+              veld: tooiont:verkorteTitel
+              bereik: xsd:string
+            minLength: 3
+        alternatieveTitels:
+          type: array
+          items:
+            type: string
+            description: |-
+              De alternatieve titel van het informatieobject
+              veld: tooiont:alternatieveTitel
+              bereik: xsd:string
+            minLength: 3
+      required:
+        - officieleTitel
+      additionalProperties: false
+
+    classificatiecollectie:
+      type: object
+      properties:
+        documentsoorten:
+          type: array
+          items:
+            description: |-
+              Het soort document waar het informatieobject toe behoort
+              veld: tooiont:documentsoorten
+              bereik: waardelijst documentsoorten
+            $ref: 'base.yaml#/components/schemas/identifiedResource'
+          minItems: 1
+        themas:
+          type: array
+          items:
+            description: |-
+              Het thema waaronder het informatieobject valt (REP, onderwerp)
+              veld: tooiont:thema
+              bereik: TOP-lijst
+            $ref: 'base.yaml#/components/schemas/identifiedResource'
+          minItems: 1
+        onderwerpenRonl:
+          type: array
+          description: |-
+            Specifiek t.b.v. de redactie DPC aangebrachte eigenschap. Waarden komen uit een separate (niet door TOOI beheerde)
+            waardelijst.
+          items:
+            $ref: 'base.yaml#/components/schemas/identifiedResource'
+        trefwoorden:
+          type: array
+          description: |-
+            Termen die kunnen fungeren als criterium voor groeperen van informatieobjecten, of als zoekterm voor
+            indexeren.
+          items:
+            type: string
+      required:
+        - themas
+        - documentsoorten
+      additionalProperties: false
+
+    aggregatiekenmerk:
+      type: string
+      description: |-
+        Kenmerk op basis waarvan verschillende documenten gemarkeerd zijn als horende bij een dossier, zaak of
+        andersoortige aggregatie. Deze aggregatie vindt plaats op gemeenschappelijk kenmerk.
+
+    isPartOf:
+      $ref: 'base.yaml#/components/schemas/identifiedResource'
+
+    hasParts:
+      type: array
+      items:
+        $ref: 'base.yaml#/components/schemas/identifiedResource'
+      uniqueItems: true
+
+    documenthandelingen:
+      type: array
+      items:
+        type: object
+        title: DocumentHandeling
+        description: |-
+          Een handeling die een bestaand informatieobject van toestand doet veranderen (bijvoorbeeld: het document is ter inzage gelegd),
+          dan wel een nieuw informatieobject doet ontstaan (bijvoorbeeld: het document is gewijzigd en er ontstaat een nieuwe
+          (geconsolideerde) versie van het document)
+          veld: tooiont:documenthandeling
+          bereik: prov:Activity
+        properties:
+          soortHandeling:
+            description: |-
+              De soort handeling. In het bereik zijn concepten uit het conceptschema tooikern:handelingsoort.
+              (Deze dient in het kader van de MVP aangemaakt te worden)
+              veld: tooiont:soortHandeling
+              bereik: waardelijst tooikern:handelingsoort
+            $ref: 'base.yaml#/components/schemas/identifiedResource'
+          atTime:
+            type: string
+            description: |-
+              Het tijdstip van handeling (dit is misschien wel erg generiek, we kunnen ook tooiont:tijdstipHandeling
+              definieren
+              --- ter discussie; zie ook prov:startedAtTime en prov:endedAtTime)
+              veld: prov:atTime
+              bereik: xsd:dateTime
+            format: date-time
+          wasAssociatedWith:
+            $ref: 'base.yaml#/components/schemas/identifiedResource'
+        required:
+          - soortHandeling
+          - atTime
+        additionalProperties: false
+      uniqueItems: true
+
+    extraMetadata:
+      type: array
+      description: Hier wordt ruimte geboden aan organisatie-specifieke metadata, eventueel onder namespaces.
+      items:
+        type: object
+        title: ExtraMetadata
+        properties:
+          namespace:
+            type: string
+            description: |-
+              De externe namespace waarbinnen de velden in deze context betekenis hebben bereik: xsd:anyURI
+            format: url
+          prefix:
+            type: string
+            description: |-
+              De prefix om de namespace mee aan te duiden
+              bereik: xsd:string
+          velden:
+            $ref: '#/components/schemas/extraMetadataVelden'
+        required:
+          - velden
+        additionalProperties: false
+
+    extraMetadataVelden:
+      type: array
+      items:
+        type: object
+        title: ExtraMetadataVeld
+        description: Een key-value pair van organisatie-specifieke eigenschap van het document
+        properties:
+          key:
+            type: string
+            description: De veldnaam van de organisatie-specifieke eigenschap
+            minLength: 3
+          values:
+            description: |-
+              De waarde van de organisatie-specifieke eigenschap. Kan van ieder type zijn, inclusief `null`.
+            type: array
+            items:
+              type: string
+        required:
+          - key
+          - value
+        additionalProperties: false
+      minItems: 1
+      uniqueItems: true
+
+    publicatiebestemming:
+      type: array
+      description: Geeft aan waar het document gepubliceerd wordt.
+      items:
+        type: string

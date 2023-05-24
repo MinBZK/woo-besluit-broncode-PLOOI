@@ -1,0 +1,24 @@
+<div class="container" *ngIf="!errorMsg">
+    <h3>{{getTitle()}}</h3>
+    <h4>Veldnaam: {{targetElement}} - Waarde : {{mappingLabel ? mappingLabel :  '<'+ 'afwezig'+ '>'}}</h4>
+    <table class="table table--condensed table--striped table--container table__data-overview table--hover">
+        <thead>
+        <tr>
+            <th scope="col" class="u-columnwidth-15p">Tijdstip</th>
+            <th scope="col" class="">Plooi ID</th>
+        </tr>
+        </thead>
+        <tbody *ngIf="page.totalElements">
+        <tr *ngFor="let document of page.content">
+            <td>{{document.timeCreated | date :'medium'}}</td>
+            <td><a [routerLink]="['/home/document-details']" [queryParams]="{plooiId: document.dcnId,searchType:'plooi'}">{{document.dcnId}}</a></td>
+        </tr>
+        </tbody>
+    </table>
+    <dcn-no-result [page]="page"></dcn-no-result>
+    <dcn-custom-pagination [page]="page"
+                           (nextPageEvent)="getNextPage($event)"
+                           (itemsPerPageEvent)="updateItemsPerPage($event)">
+    </dcn-custom-pagination>
+</div>
+<connection-error *ngIf="errorMsg" [message]="errorMsg"></connection-error>

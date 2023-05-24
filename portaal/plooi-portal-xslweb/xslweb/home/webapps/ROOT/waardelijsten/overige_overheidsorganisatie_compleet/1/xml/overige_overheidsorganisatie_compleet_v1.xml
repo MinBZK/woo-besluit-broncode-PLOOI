@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<waardelijst name="overige_overheidsorganisatie_compleet">
+   <metadata>
+      <statement>
+         <key>http://purl.org/dc/terms/identifier</key>
+         <value>https://identifier.overheid.nl/tooi/set/overige_overheidsorganisatie_compleet/v1.xml</value>
+      </statement>
+      <statement>
+         <key>http://purl.org/pav/derivedFrom</key>
+         <value>https://identifier.overheid.nl/tooi/id/oorg</value>
+      </statement>
+      <statement>
+         <key>http://purl.org/dc/terms/description</key>
+         <value>Beschrijft alle overige overheidsorganisatie die voor zover bekend op de zichtdatum bestaan hebben, bestaan of zullen bestaan</value>
+      </statement>
+      <statement>
+         <key>https://identifier.overheid.nl/tooi/def/ont/zichtdatum</key>
+         <value>2020-06-23T00:00:00</value>
+      </statement>
+      <statement>
+         <key>http://www.w3.org/ns/prov#generatedAtTime</key>
+         <value>2020-06-23T13:55:57.922+02:00</value>
+      </statement>
+      <statement>
+         <key>http://purl.org/dc/terms/format</key>
+         <value>http://publications.europa.eu/resource/authority/file-type/XML</value>
+      </statement>
+      <statement>
+         <key>https://identifier.overheid.nl/tooi/def/wl/volgnummer</key>
+         <value>1</value>
+      </statement>
+      <statement>
+         <key>https://identifier.overheid.nl/tooi/def/ont/verantwoordelijke</key>
+         <value>https://identifier.overheid.nl/tooi/id/ministerie/mnre1034</value>
+      </statement>
+      <statement>
+         <key>https://identifier.overheid.nl/tooi/def/ont/titel</key>
+         <value>Waardelijst overige overheidsorganisatie compleet</value>
+      </statement>
+      <statement>
+         <key>https://identifier.overheid.nl/tooi/def/ont/publicatiedatum</key>
+         <value>2020-06-23T00:00:00</value>
+      </statement>
+   </metadata>
+   <waarden>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/oorg/oorg10000</code>
+         <omschrijving>Verenigde Vergadering</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Verenigde Vergadering</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Verenigde Vergadering</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Verenigde_Vergadering_der_Staten-Generaal</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/thes/kern/c_c5137aec</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>oorg1000</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Verenigde Vergadering der Staten-Generaal</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Verenigde Vergadering der Staten-Generaal</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>Verenigde Vergadering</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/oorg/oorg10003</code>
+         <omschrijving>Rijksdienst voor het Cultureel Erfgoed</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Rijksdienst voor het Cultureel Erfgoed</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Rijksdienst voor het Cultureel Erfgoed</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/thes/kern/c_ef0e428b</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Rijksdienst voor het Cultureel Erfgoed</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/afkorting</key>
+               <value>RCE</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Rijksdienst voor het Cultureel Erfgoed</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Rijksdienst_voor_het_Cultureel_Erfgoed</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>Rijksdienst voor het Cultureel Erfgoed</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>oorg10003</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/oorg/oorg10001</code>
+         <omschrijving>Eerste Kamer</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Eerste Kamer</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Eerste Kamer</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Eerste_Kamer_der_Staten-Generaal</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/thes/kern/c_88fb8563</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>oorg1001</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Eerste Kamer der Staten-Generaal</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Eerste Kamer der Staten-Generaal</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>Eerste Kamer</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/oorg/oorg10002</code>
+         <omschrijving>Tweede Kamer</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Tweede Kamer</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Tweede Kamer</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Tweede_Kamer_der_Staten-Generaal</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/thes/kern/c_d9a4d49b</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>oorg1002</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Tweede Kamer der Staten-Generaal</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Tweede Kamer der Staten-Generaal</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>Tweede Kamer</value>
+            </statement>
+         </metadata>
+      </waarde>
+
+      <!-- Handmatig toegevoegd -->
+
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/so/so0713</code>
+         <omschrijving>omgevingsdienst Midden-Holland</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>omgevingsdienst Midden-Holland</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>omgevingsdienst Midden-Holland</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/odmh</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/thes/kern/c_d9a4d49b</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>so0713</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>omgevingsdienst Midden-Holland</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>omgevingsdienst Midden-Holland</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>omgevingsdienst Midden-Holland</value>
+            </statement>
+         </metadata>
+      </waarde>
+
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/zbo/zbo10000</code>
+         <omschrijving>Sociale Verzekeringsbank</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Sociale Verzekeringsbank</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Sociale Verzekeringsbank</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Sociale_Verzekeringsbank</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/thes/kern/c_d9a4d49b</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>zbo10000</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Sociale Verzekeringsbank</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Sociale Verzekeringsbank</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>Sociale Verzekeringsbank</value>
+            </statement>
+         </metadata>
+      </waarde>
+
+   </waarden>
+</waardelijst>

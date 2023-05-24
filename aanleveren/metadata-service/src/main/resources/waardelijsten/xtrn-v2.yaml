@@ -1,0 +1,73 @@
+openapi: '3.0.2'
+info:
+  title: Talen
+  description: >
+    Talen geselecteerd uit languages-skos-ap-act.rdf (EU VOC AT). Bevat alle officiële talen van de Europese Unie, alsmede Fries,Papiamentu en
+    Papiamento.
+  version: '2'
+  contact:
+    email: plooi@koop.overheid.nl
+  termsOfService: https://open.overheid.nl/terms
+  license:
+    name: MIT
+    url: https://open.overheid.nl/license
+components:
+  schemas:
+    Xtrn:
+      type: string
+      description: |-
+        * `http://publications.europa.eu/resource/authority/language/SLK` - Slowaaks
+        * `https://identifier.overheid.nl/tooi/def/thes/xtrn/PAP-AW` - Papiamento
+        * `http://publications.europa.eu/resource/authority/language/HRV` - Kroatisch
+        * `http://publications.europa.eu/resource/authority/language/HUN` - Hongaars
+        * `http://publications.europa.eu/resource/authority/language/DEU` - Duits
+        * `http://publications.europa.eu/resource/authority/language/SLV` - Sloveens
+        * `http://publications.europa.eu/resource/authority/language/ITA` - Italiaans
+        * `http://publications.europa.eu/resource/authority/language/SPA` - Spaans
+        * `http://publications.europa.eu/resource/authority/language/LAV` - Lets
+        * `http://publications.europa.eu/resource/authority/language/BUL` - Bulgaars
+        * `http://publications.europa.eu/resource/authority/language/RON` - Roemeens
+        * `http://publications.europa.eu/resource/authority/language/MLT` - Maltees
+        * `http://publications.europa.eu/resource/authority/language/ENG` - Engels
+        * `http://publications.europa.eu/resource/authority/language/FIN` - Fins
+        * `http://publications.europa.eu/resource/authority/language/CES` - Tsjechisch
+        * `http://publications.europa.eu/resource/authority/language/GLE` - Iers
+        * `http://publications.europa.eu/resource/authority/language/DAN` - Deens
+        * `http://publications.europa.eu/resource/authority/language/EST` - Estisch
+        * `http://publications.europa.eu/resource/authority/language/ELL` - Grieks
+        * `http://publications.europa.eu/resource/authority/language/LIT` - Litouws
+        * `https://identifier.overheid.nl/tooi/def/thes/xtrn/PAP-CW` - Papiamentu
+        * `http://publications.europa.eu/resource/authority/language/NLD` - Nederlands
+        * `http://publications.europa.eu/resource/authority/language/FRA` - Frans
+        * `http://publications.europa.eu/resource/authority/language/SWE` - Zweeds
+        * `http://publications.europa.eu/resource/authority/language/FRY` - Fries
+        * `http://publications.europa.eu/resource/authority/language/POL` - Pools
+        * `http://publications.europa.eu/resource/authority/language/POR` - Portugees
+      enum:
+        - http://publications.europa.eu/resource/authority/language/SLK
+        - https://identifier.overheid.nl/tooi/def/thes/xtrn/PAP-AW
+        - http://publications.europa.eu/resource/authority/language/HRV
+        - http://publications.europa.eu/resource/authority/language/HUN
+        - http://publications.europa.eu/resource/authority/language/DEU
+        - http://publications.europa.eu/resource/authority/language/SLV
+        - http://publications.europa.eu/resource/authority/language/ITA
+        - http://publications.europa.eu/resource/authority/language/SPA
+        - http://publications.europa.eu/resource/authority/language/LAV
+        - http://publications.europa.eu/resource/authority/language/BUL
+        - http://publications.europa.eu/resource/authority/language/RON
+        - http://publications.europa.eu/resource/authority/language/MLT
+        - http://publications.europa.eu/resource/authority/language/ENG
+        - http://publications.europa.eu/resource/authority/language/FIN
+        - http://publications.europa.eu/resource/authority/language/CES
+        - http://publications.europa.eu/resource/authority/language/GLE
+        - http://publications.europa.eu/resource/authority/language/DAN
+        - http://publications.europa.eu/resource/authority/language/EST
+        - http://publications.europa.eu/resource/authority/language/ELL
+        - http://publications.europa.eu/resource/authority/language/LIT
+        - https://identifier.overheid.nl/tooi/def/thes/xtrn/PAP-CW
+        - http://publications.europa.eu/resource/authority/language/NLD
+        - http://publications.europa.eu/resource/authority/language/FRA
+        - http://publications.europa.eu/resource/authority/language/SWE
+        - http://publications.europa.eu/resource/authority/language/FRY
+        - http://publications.europa.eu/resource/authority/language/POL
+        - http://publications.europa.eu/resource/authority/language/POR

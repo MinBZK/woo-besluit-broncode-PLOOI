@@ -1,0 +1,30 @@
+server:
+  port: 8081
+  ssl:
+    enabled: true
+    key-alias: selfsigned_localhost_sslserver
+    key-password: changeit
+    key-store: "classpath:ssl-server.jks"
+    key-store-provider: SUN
+    key-store-type: JKS
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          public-key-location: "classpath:amp-pre-g1.pub"
+
+    saml2:
+      relyingparty:
+        registration:
+          cam:
+            entity-id: Aanleveren-TST
+            acs:
+              location: https://localhost:8081/login/saml2/sso/cam
+            assertingparty:
+              metadata-uri: "classpath:metadata-cam-adfs-tst.xml"
+            decryption:
+              credentials:
+                - private-key-location:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+                  certificate-location:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS

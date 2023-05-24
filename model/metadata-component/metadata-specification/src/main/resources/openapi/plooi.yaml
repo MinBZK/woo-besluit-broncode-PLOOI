@@ -1,0 +1,211 @@
+openapi: 3.0.3
+info:
+  title: Metadata bij documenten in PLOOI
+  description: |
+    Metadata die de context geven van de documenten die in PLOOI worden geregistreerd
+  version: 0.9
+
+paths: {}
+
+components:
+  schemas:
+
+    plooi:
+      type: object
+      description: |
+        De eigenschappen van en context bij een document.
+      properties:
+        document:
+          $ref: 'document.yaml#/components/schemas/document'
+        plooiIntern:
+          $ref: '#/components/schemas/plooiIntern'
+        documentrelaties:
+          $ref: '#/components/schemas/documentrelaties'
+        body:
+          $ref: '#/components/schemas/body'
+        versies:
+          $ref: '#/components/schemas/versies'
+      required:
+        - document
+      additionalProperties: false
+
+    manifest:
+      type: object
+      description: |
+        De eigenschappen van en context bij een document.
+      properties:
+        plooiIntern:
+          $ref: '#/components/schemas/plooiIntern'
+        versies:
+          $ref: '#/components/schemas/versies'
+      required:
+        - plooiIntern
+        - versies
+
+    plooiIntern:
+      type: object
+      properties:
+        dcnId:
+          type: string
+        aanbieder:
+          type: string
+        extId:
+          type: array
+          items:
+            type: string
+        sourceLabel:
+          type: string
+        publicatiestatus:
+          type: string
+
+    documentrelaties:
+      type: array
+      items:
+        type: object
+        title: relatie
+        properties:
+          relation:
+            type: string
+            description: |
+              Het gerelateerde document
+            format: url
+          role:
+            type: string
+            description: |
+              Het type relate
+            format: url
+          titel:
+            type: string
+            description: |
+              De titel van het gerelateerde document
+      required:
+        - relation
+        - role
+
+    body:
+      type: object
+      properties:
+        tekst:
+          type: array
+          items:
+            type: string
+            format: xml
+
+    versies:
+      type: array
+      description: |
+        Geleverde versies van bestanden behorend bij dit document. Er is altijd minimaal een versie, namelijk
+        de (initiele) aanlevering.
+      items:
+        $ref: '#/components/schemas/versie'
+
+    versie:
+      type: object
+      properties:
+        nummer:
+          type: integer
+          description: |
+            Het versienummer. Deze wordt door PLOOI ingevuld (automatisch incrementeel verhoogd), behalve:
+            - een intrekking heeft geen versienummer;
+            - een herpublicatie krijgt het nummer van de geherpubliceerde versie.
+        oorzaak:
+          type: string
+          description: |
+            De oorzaak (type) van de versie. De eerste versie en alleen de eerste is altijd een aanlevering.
+          enum:
+            - aanlevering
+            - wijziging
+            - intrekking
+            - herpublicatie
+        redenVerwijderingVervanging:
+          type: string
+          description: |
+            De reden voor de levering. Deze dient altijd ingevuld te zijn bij een levering, behalve bij de
+            (initiele) aanlevering.
+        openbaarmakingsdatum:
+          type: string
+          description: |
+            Datum waarop het document door PLOOI is ontvangen van de aanleverende organisatie,
+            zoals gesteld in uit WOO art 3.3 lid 4. Dit veld wordt door PLOOI ingevuld.
+          format: date
+        wijzigingsdatum:
+          type: string
+          description: |
+            De datum van de wijziging. Dit veld wordt door PLOOI ingevuld.
+          format: date
+        mutatiedatumtijd:
+          type: string
+          description: |
+            De volledige datum en tijd van de versie. Dit veld wordt door PLOOI ingevuld.
+          format: date-time
+        blokkades:
+          type: array
+          description: |
+            Blokkades voor deze versie. Zolang deze lijst niet leeg is en de zichtbaarheidsdatumtijd niet
+            verstreken is mag de versie niet gepubliceerd worden.
+          items:
+            type: string
+        zichtbaarheidsdatumtijd:
+          description: |
+            Gewenst publicatie moment voor deze versie. Zie `blokkades`.
+          type: string
+          format: date-time
+        bestanden:
+          type: array
+          description: |
+            Bestanden behorend bij deze versie. Een versie heeft altijd bestanden, behalve als de `oorzaak`
+            `intrekking` is. Bij een aanlevering of wijziging zijn deze bestanden expliciet aangeleverd en
+            bij een herpublicatie zijn ze overgenomen uit een eerdere versie.
+          items:
+            $ref: '#/components/schemas/bestand'
+
+    bestand:
+      type: object
+      required:
+        - label
+      properties:
+        id:
+          description: |
+            De URL waaronder dit bestand te bereiken is.
+          type: string
+        gepubliceerd:
+          description: |
+            Vlag die aangeeft of het bestand in de zoekresultaten getoond wordt.
+          type: boolean
+          default: false
+        label:
+          description: |
+            Discriminator veld dat, binnen de context van de bron, het type bestand aangeeft.
+          type: string
+        url:
+          description: |
+            De oorspronkelijke weblocatie van het bestand. Van deze locatie is het bestand gedownload.
+          type: string
+          format: url
+        mime-type:
+          description: |
+            Het content type van het bestand.
+          type: string
+        bestandsnaam:
+          description: |
+            Het naam waaronder het bestand wordt opgeslagen.
+          type: string
+        titel:
+          description: |
+            De titel of omschrijving van het bestand.
+          type: string
+        mutatiedatumtijd:
+          description: |
+            Het tijdstip waarop het bestand gecreeerd is. Wanneer dit tijdstip niet gevuld is bij ontvangst
+            van het bestand dan wordt het ingevuld met de huidige datum en tijd.
+          type: string
+          format: date-time
+        grootte:
+          description: |
+            De grootte van het bestand in bytes.
+          type: integer
+          format: int64
+        hash:
+          description: |
+            SHA-256 hash van de inhoud van het bestand.
+          type: string

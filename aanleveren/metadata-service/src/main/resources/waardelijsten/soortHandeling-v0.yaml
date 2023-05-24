@@ -1,0 +1,24 @@
+openapi: '3.0.2'
+info:
+  title: Soort handelingen
+  description: >
+    Soorten handelingen die op documenten kunnen worden verricht.
+  version: '0'
+  contact:
+    email: plooi@koop.overheid.nl
+  termsOfService: https://open.overheid.nl/terms
+  license:
+    name: MIT
+    url: https://open.overheid.nl/license
+components:
+  schemas:
+    soortHandeling:
+      type: string
+      description: |-
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_dfcee535` - ontvangst
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_e1ec050e` - ondertekening
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_641ecd76` - vaststelling
+      enum:
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_dfcee535
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_e1ec050e
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_641ecd76

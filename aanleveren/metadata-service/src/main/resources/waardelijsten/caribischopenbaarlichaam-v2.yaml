@@ -1,0 +1,24 @@
+openapi: '3.0.2'
+info:
+  title: Waardelijst Caribische openbare lichamen compleet
+  description: |
+    Beschrijft alle Caribische openbare lichamen die voor zover bekend op de zichtdatum bestaan hebben, bestaan of zullen bestaan
+  version: '2'
+  contact:
+    email: plooi@koop.overheid.nl
+  termsOfService: https://open.overheid.nl/terms
+  license:
+    name: MIT
+    url: https://open.overheid.nl/license
+components:
+  schemas:
+    Caribischopenbaarlichaam:
+      type: string
+      description: |-
+        * `https://identifier.overheid.nl/tooi/id/col/col01` - openbaar lichaam Bonaire
+        * `https://identifier.overheid.nl/tooi/id/col/col02` - openbaar lichaam Sint Eustatius
+        * `https://identifier.overheid.nl/tooi/id/col/col03` - openbaar lichaam Saba
+      enum:
+        - https://identifier.overheid.nl/tooi/id/col/col01
+        - https://identifier.overheid.nl/tooi/id/col/col02
+        - https://identifier.overheid.nl/tooi/id/col/col03

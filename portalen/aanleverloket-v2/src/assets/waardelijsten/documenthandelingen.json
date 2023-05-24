@@ -1,0 +1,40 @@
+[ {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_641ecd76",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "vaststelling"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_dfcee535",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ontvangst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_e1ec050e",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ondertekening"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_d381b512",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Waardelijst voor PLOOI met handelingen die een bestaand document van toestand doen veranderen (bijvoorbeeld: het document is ter inzage gelegd), dan wel een nieuw document doen ontstaan  (bijvoorbeeld: het document is gewijzigd en er ontstaat een nieuwe (geconsolideerde) versie van het document)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_641ecd76"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_dfcee535"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_e1ec050e"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "PLOOI documenthandeling"
+  } ]
+} ]

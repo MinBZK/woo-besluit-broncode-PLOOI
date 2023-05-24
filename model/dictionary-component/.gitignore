@@ -1,0 +1,31 @@
+.DS_Store
+*.log
+
+/tmp/
+**/.temp-*
+**/LOG_DIR_IS_UNDEFINED/
+**/testoutput/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+target/
+
+### Ecipse/STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.pydevproject
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode

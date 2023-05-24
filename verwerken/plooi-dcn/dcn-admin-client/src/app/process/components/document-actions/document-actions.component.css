@@ -1,0 +1,6 @@
+a.disabled {
+    cursor: not-allowed;
+    opacity: .65;
+    text-decoration: none;
+    pointer-events: none;
+}

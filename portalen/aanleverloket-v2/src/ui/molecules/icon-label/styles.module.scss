@@ -1,0 +1,18 @@
+@import "../../colors.scss";
+
+.container {
+  display: flex;
+
+  &--alert {
+    font-style: italic;
+    font-size: 90%;
+
+    label {
+      color: $red !important;
+    }
+  }
+
+  label {
+    padding-left: 0.4em;
+  }
+}

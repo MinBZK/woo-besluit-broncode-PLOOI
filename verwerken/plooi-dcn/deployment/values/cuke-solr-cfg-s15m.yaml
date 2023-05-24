@@ -1,0 +1,6 @@
+image:
+  registry:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+podLabels:
+  tier: vertrouwd
+  group: cucumber
+collection: plooi_2

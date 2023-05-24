@@ -1,0 +1,25 @@
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      probes:
+        enabled: true
+  health:
+    livenessstate:
+      enabled: true
+    readinessstate:
+      enabled: true
+
+documentservice:
+  max-file-size: 2147483648
+  dcn:
+    repository-url: ${REPOSITORY_URL}
+    registration-url: ${REGISTRATION_URL}
+    process-url: ${PROCESS_URL}
+
+plooi:
+  security:
+    plooi-iam-service-url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS

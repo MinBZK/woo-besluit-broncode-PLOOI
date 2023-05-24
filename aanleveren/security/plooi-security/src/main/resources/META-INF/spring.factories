@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+nl.overheid.koop.plooi.plooisecurity.configuration.ProjectConfiguration,\
+nl.overheid.koop.plooi.plooisecurity.configuration.SecurityConfiguration,\
+nl.overheid.koop.plooi.plooisecurity.configuration.LocalSecurityConfiguration,\
+nl.overheid.koop.plooi.plooisecurity.domain.policy.AttributePolicyEnforcement

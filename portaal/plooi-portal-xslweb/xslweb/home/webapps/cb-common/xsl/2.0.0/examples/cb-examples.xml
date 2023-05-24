@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samples xmlns:cl="https://koop.overheid.nl/namespaces/component-library">
+    <cl:result-list>
+        <cl:modifier>result--list--wide</cl:modifier>
+        <cl:context>
+            <cl:items>
+                <cl:item><!-- e,g. search result record -->
+                    <cl:theme>publication</cl:theme>
+                    <cl:title-header>h2</cl:title-header>
+                    <cl:title>Publicatie op open.overheid.nl</cl:title>
+                    <cl:title-icon>true</cl:title-icon>
+                    <cl:label>
+                        <cl:label-type>danger</cl:label-type>
+                        <cl:label-value>
+                            ...
+                        </cl:label-value>
+                    </cl:label>
+                    <cl:label>Nieuw vandaag</cl:label>
+                    <cl:cvdrmetas>
+                      <cl:cvdrmeta>
+                          <cl:label>Geldigheidsperiode</cl:label>
+                          <cl:value>
+                              ...
+                          </cl:value>
+                      </cl:cvdrmeta>
+                    </cl:cvdrmetas>
+                    <cl:buttons>
+                        <cl:button>
+                            <cl:label>...</cl:label>
+                            <cl:link>
+                                ...
+                            </cl:link>
+                            <cl:type>secondary</cl:type>
+                        </cl:button>
+                    </cl:buttons>
+                </cl:item>
+                <cl:item>
+                    <!-- etc -->
+                </cl:item>
+            </cl:items>
+        </cl:context>
+    </cl:result-list>
+</samples>

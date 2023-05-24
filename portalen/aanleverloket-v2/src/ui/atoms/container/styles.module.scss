@@ -1,0 +1,55 @@
+@import "../../breakpoints.scss";
+@import "../../gutters.scss";
+
+.container {
+    max-width: 80em;
+    width: 100%;
+
+    &--alignleft {
+        margin: 0;
+        padding: 0;
+        max-width: 56em;
+    }
+
+    &--flex {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+    }
+
+    &--row {
+        @media (min-width: $breakpointDesktopAdjusted) {
+            flex-direction: row;
+            display: flex;
+
+            > * {
+                flex: 1;             
+            }
+
+            > *:not(:first-child) {
+                margin-left: $gutter;
+            }
+        }
+    }
+
+    &--centered {
+        margin: auto;
+    }
+
+    &--large {
+        padding: 0 2em;
+    }
+
+    &--medium {
+        max-width: 40.75em;
+    }
+
+    &--small {
+        max-width: 30em;
+    }
+
+    &--ab {
+        max-width: 55em;
+    }
+}

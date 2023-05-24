@@ -1,0 +1,29 @@
+image:
+  registry:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  image: plooi-portal-xslweb-prod
+
+replicaCount: 2
+
+podLabels:
+  tier: vertrouwd
+  group: plooi-prod
+  ingress-controller-frontoffice-policy: allow
+
+resources:
+  limits:
+    cpu: 3
+    memory: 6Gi
+  requests:
+    cpu: 1
+    memory: 6Gi
+
+repositoryService: repository-production-service
+searchService: search-production-service
+
+ingress:
+  ingressClassName: nginx
+  tlsEnabled: true
+  mainHostname: open.overheid.nl
+  tlsSecretMainHost:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  pilotHostname:SSSSSSSSSSSSSSSSSSSSSSS
+  tlsSecretPilotHost:SSSSSSSSSSSSSSSSSS

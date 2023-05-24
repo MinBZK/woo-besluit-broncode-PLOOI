@@ -1,0 +1,12 @@
+div.one {
+    border-style: solid;
+    border-color: #f3f3f3;
+    border-radius: 5px;
+    border-width: 7px;
+}
+
+div.gray {
+    background : #f3f3f3;
+    margin: 2px;
+    border-radius: 3px;
+}

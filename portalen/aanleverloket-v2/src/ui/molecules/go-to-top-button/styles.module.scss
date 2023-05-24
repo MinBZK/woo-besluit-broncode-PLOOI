@@ -1,0 +1,9 @@
+@import "../../spacings.scss";
+@import "../../colors.scss";
+
+.container {
+  position: fixed;
+  bottom: 20px;
+  right: 34px;
+  z-index: 99;
+}

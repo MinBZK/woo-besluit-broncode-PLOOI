@@ -1,0 +1,18 @@
+{
+  "plooiIntern" : {
+    "dcnId" : "ronl-43ac600dc20d5cc5c933ae72cd9b8f9227b2702f",
+    "extId" : [ "d1380e0e-ffb6-414e-bbe5-bc6e10e33318" ],
+    "sourceLabel" : "ronl"
+  },
+  "versies" : [ {
+    "nummer" : 1,
+    "oorzaak" : "aanlevering",
+    "bestanden" : [ {
+      "gepubliceerd" : false,
+      "label" : "xml",
+      "mime-type" : "application/xml",
+      "bestandsnaam" : "d1380e0e-ffb6-414e-bbe5-bc6e10e33318.xml",
+      "hash" : "367a22c4e85139391ba5bade6cd8472a25dfa4f0"
+    } ]
+  } ]
+}

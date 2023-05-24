@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>nl.overheid.koop.plooi</groupId>
+        <artifactId>plooi-core-parent</artifactId>
+        <version>2.0.7-SNAPSHOT</version>
+        <relativePath>./parent/pom.xml</relativePath>
+    </parent>
+    <artifactId>plooi-dcn</artifactId>
+    <packaging>pom</packaging>
+    <name>PLOOI DCN</name>
+
+    <modules>
+        <module>parent</module>
+        <module>document-mapper</module>
+        <module>dcn-components</module>
+        <module>dcn-model</module>
+        <module>dcn-repository</module>
+        <module>dcn-solr</module>
+        <module>dcn-routes</module>
+        <module>dcn-modules</module>
+        <module>dcn-admin-service</module>
+        <module>dcn-admin-client</module>
+        <module>process-specification</module>
+        <module>process-service</module>
+        <module>dcn-application</module>
+        <module>dcn-integratie-testen</module>
+        <module>dcn-publish-state</module>
+    </modules>
+
+</project>

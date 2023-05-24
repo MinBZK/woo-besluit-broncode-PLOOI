@@ -1,0 +1,43 @@
+@import "../../colors.scss";
+@import "../../icons.scss";
+
+.chip {
+  padding: 0.4em 2.5em 0.4em 0.5em;
+  border: 1px solid $darkBlue;
+  display: inline-block;
+  border-radius: 5px;
+  font-style: italic;
+  pointer-events: none;
+  background: #fff;
+  font-size: 0.875rem;
+  position: relative;
+  cursor: auto;
+  color: $multiSelectOptionSelectedCrossTextColor;
+  top: -1px;
+
+
+  &:hover {
+    -webkit-box-shadow: 0 0 13px rgb(0 0 0 / 30%);
+    box-shadow: 0 0 13px rgb(0 0 0 / 30%);
+  }
+
+  .chip__button {
+    background: $iconCross;
+    background-color: #fff;
+    background-size: 0.325em;
+    pointer-events: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0;
+    font-size: 1.25rem;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1.5em;
+    bottom: 0;
+    text-indent: -9999em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}

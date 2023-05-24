@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+  xmlns:xslweb="http://www.armatiek.com/xslweb/pipeline" 
+  targetNamespace="http://www.armatiek.com/xslweb/pipeline" 
+  elementFormDefault="qualified">
+  
+  <xs:import namespace="http://www.w3.org/2010/xslt-xquery-serialization" schemaLocation="../w3c/schema-for-serialization-parameters.xsd"/>
+  
+  <xs:element name="pipeline">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="1" maxOccurs="unbounded">
+          
+          <xs:element name="transformer">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="parameter" type="xslweb:parameter-type" minOccurs="0" maxOccurs="unbounded"/>
+              </xs:sequence>
+              <xs:attribute name="name" type="xs:string" use="optional"/>
+              <xs:attribute name="xsl-path" type="xs:string" use="required"/>
+              <xs:attribute name="log" type="xs:boolean" use="optional" default="false"/>
+            </xs:complexType>
+          </xs:element>
+          
+          <xs:element name="query">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="parameter" type="xslweb:parameter-type" minOccurs="0" maxOccurs="unbounded"/>
+              </xs:sequence>
+              <xs:attribute name="name" type="xs:string" use="optional"/>
+              <xs:attribute name="xquery-path" type="xs:string" use="required"/>
+              <xs:attribute name="log" type="xs:boolean" use="optional" default="false"/>
+            </xs:complexType>
+          </xs:element>
+          
+          <xs:element name="transformer-stx">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="parameter" type="xslweb:parameter-type" minOccurs="0" maxOccurs="unbounded"/>
+              </xs:sequence>
+              <xs:attribute name="name" type="xs:string" use="optional"/>
+              <xs:attribute name="stx-path" type="xs:string" use="required"/>
+              <xs:attribute name="log" type="xs:boolean" use="optional" default="false"/>
+            </xs:complexType>
+          </xs:element>
+          
+          <xs:element name="schema-validator">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="schema-paths">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="schema-path" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element minOccurs="0" name="features">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="feature" maxOccurs="unbounded">
+                        <xs:complexType>
+                          <xs:attribute name="name" type="xs:string" use="required"/>
+                          <xs:attribute name="value" type="xs:string" use="required"/>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="properties" minOccurs="0">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="property" maxOccurs="unbounded">
+                        <xs:complexType>
+                          <xs:attribute name="name" type="xs:string" use="required"/>
+                          <xs:attribute name="value" type="xs:string" use="required"/>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+              <xs:attribute name="name" type="xs:string" use="optional"/>
+              <xs:attribute name="xsl-param-name" type="xs:string" use="optional"/>
+              <xs:attribute name="xsl-param-namespace" type="xs:string" use="optional"/>
+              <xs:attribute name="log" type="xs:boolean" use="optional" default="false"/>
+            </xs:complexType>
+          </xs:element>
+          
+          <xs:element name="schematron-validator">
+            <xs:complexType>
+              <xs:attribute name="name" type="xs:string" use="optional"/>
+              <xs:attribute name="schematron-path" type="xs:string" use="required"/>
+              <xs:attribute name="phase" type="xs:string" use="optional"/>
+              <xs:attribute name="xsl-param-name" type="xs:string" use="optional"/>
+              <xs:attribute name="xsl-param-namespace" type="xs:string" use="optional"/>
+              <xs:attribute name="log" type="xs:boolean" use="optional" default="false"/>
+            </xs:complexType>
+          </xs:element>
+          
+          <xs:element name="stylesheet-export-file">
+            <xs:complexType>
+              <xs:attribute name="name" type="xs:string" use="optional"/>
+              <xs:attribute name="xsl-path" type="xs:string" use="required"/>
+              <xs:attribute name="log" type="xs:boolean" use="optional" default="false"/>
+            </xs:complexType>
+          </xs:element>
+          
+        </xs:choice>
+        
+        <xs:choice minOccurs="0">
+          <xs:element name="json-serializer">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element minOccurs="0" name="namespace-declarations">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="namespace-declaration" maxOccurs="unbounded">
+                        <xs:complexType>
+                          <xs:attribute name="namespace-uri" type="xs:string" use="optional"/>
+                          <xs:attribute name="name" type="xs:string" use="required"/>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+              <xs:attribute name="name" type="xs:string" use="optional"/>
+              <xs:attribute name="log" type="xs:boolean" use="optional" default="false"/>
+              <xs:attribute name="auto-array" type="xs:boolean" use="optional" default="false"/>
+              <xs:attribute name="auto-primitive" type="xs:boolean" use="optional" default="false"/>
+              <xs:attribute name="multi-pi" type="xs:boolean" use="optional" default="true"/>
+              <xs:attribute name="namespace-declarations" type="xs:boolean" use="optional" default="true"/>
+              <xs:attribute name="namespace-separator" type="xs:string" use="optional" default=":"/>
+              <xs:attribute name="pretty-print" type="xs:boolean" use="optional" default="false"/>
+              <xs:attribute name="virtual-root-namespace" type="xs:string" use="optional"/>
+              <xs:attribute name="virtual-root-name" type="xs:string" use="optional"/>
+              <xs:attribute name="repairing-namespaces" type="xs:boolean" use="optional" default="false"/>
+            </xs:complexType>
+          </xs:element>
+          
+          <xs:element name="zip-serializer">
+            <xs:complexType>
+              <xs:attribute name="name" type="xs:string" use="optional"/>
+              <xs:attribute name="log" type="xs:boolean" use="optional" default="false"/>
+            </xs:complexType>
+          </xs:element>
+          
+          <xs:element name="resource-serializer">
+            <xs:complexType>
+              <xs:attribute name="name" type="xs:string" use="optional"/>
+              <xs:attribute name="log" type="xs:boolean" use="optional" default="false"/>
+            </xs:complexType>
+          </xs:element>
+          
+          <xs:element name="fop-serializer">
+            <xs:complexType>
+              <xs:attribute name="name" type="xs:string" use="optional"/>
+              <xs:attribute name="log" type="xs:boolean" use="optional" default="false"/>
+            </xs:complexType>
+          </xs:element>
+          
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="cache" type="xs:boolean" use="optional" default="false"/>
+      <xs:attribute name="cache-key" type="xs:string" use="optional"/>
+      <xs:attribute name="cache-time-to-live" type="xs:integer" use="optional" default="60"/>
+      <xs:attribute name="cache-time-to-idle" type="xs:integer" use="optional" default="60"/>
+      <xs:attribute name="cache-scope" use="optional" default="webapp">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="webapp"/>
+            <xs:enumeration value="user"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="cache-headers" type="xs:boolean" use="optional" default="false"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:complexType name="parameter-type">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="uri" type="xs:anyURI"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="type" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="xs:string"/>
+          <xs:enumeration value="xs:boolean"/>
+          <xs:enumeration value="xs:integer"/>
+          <xs:enumeration value="xs:double"/>
+          <xs:enumeration value="xs:float"/>
+          <xs:enumeration value="xs:decimal"/>
+          <xs:enumeration value="xs:integer"/>
+          <xs:enumeration value="xs:dateTime"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  
+</xs:schema>

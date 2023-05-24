@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<webapp
+  xmlns="http://www.armatiek.com/xslweb/webapp"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.armatiek.com/xslweb/webapp ../../config/xsd/xslweb/webapp.xsd">
+
+  <title>PLOOI</title>
+  <description>PLOOI</description>
+  <development-mode>true</development-mode>
+  <max-upload-size>10</max-upload-size>
+
+  <!-- Resources to serve straight away: -->
+  <resources>
+    <resource pattern="/favicon.ico" media-type="image/x-icon" duration="P7DT0H0M0S"/>
+    <resource pattern="/robots.txt" media-type="text/plain" duration="P1DT0H0M0S"/>
+    <resource pattern=".+\.png$" media-type="image/png" duration="P1DT0H0M0S"/>
+    <resource pattern=".+\.gif$" media-type="image/gif" duration="P1DT0H0M0S"/>
+    <resource pattern=".+\.(jpg|jpeg)$" media-type="image/jpg" duration="P1DT0H0M0S"/>
+    <resource pattern=".+\.svg$" media-type="image/svg+xml" duration="P1DT0H0M0S"/>
+    <resource pattern=".+\.ico$" media-type="image/vnd.microsoft.icon" duration="P1DT0H0M0S"/>
+    <resource pattern=".+\.js$" media-type="text/javascript" duration="P1DT0H0M0S"/>
+    <resource pattern=".+\.css$" media-type="text/css" duration="P1DT0H0M0S"/>
+    <resource pattern=".+\.(ttf|woff|eot)$" media-type="application/octet-stream" duration="P1DT0H0M0S"/>
+    <resource pattern=".+\.properties$" media-type="application/l10n" duration="P1DT0H0M0S"/>
+    <resource pattern=".+\.map$" media-type="application/octet-stream" duration="P1DT0H0M0S"/>
+    <resource pattern="/pdfjs/.+viewer\.html$" media-type="text/html" duration="P1DT0H0M0S"/>
+    <resource pattern="/pdfjs/.+\.pdf$" media-type="application/pdf" duration="P1DT0H0M0S"/>
+  </resources>
+
+  <parameters>
+    <parameter name="sru-endpoint" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <!-- <value>http://localhost:8080/xslweb</value> -->
+      <value>http://localhost:8080</value>
+    </parameter>
+    <parameter name="plooi-repos-endpoint" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://localhost:9090/repository</value>
+    </parameter>
+    <parameter name="plooi-repos-path" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>/usr/local/repos/frbr-repos</value>
+    </parameter>
+    <parameter name="repos-endpoint" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>file:/usr/local/xslweb/home/webapps/ROOT</value>
+      <!-- <value>http://localhost:8080</value> -->
+      <!--
+      <value>https://repository-tst.officiele-overheidspublicaties.nl</value>
+      -->
+    </parameter>
+    <parameter name="plooi-frontend-endpoint" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://localhost:8080/</value>
+    </parameter>
+    <parameter name="sru-x-connection" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>plooi</value>
+    </parameter>
+    <parameter name="valuelist-label-type" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>plooi_documentsoorten_portaal</value>
+    </parameter>
+    <parameter name="valuelist-label-thema" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>toplijst_1.1</value>
+    </parameter>
+    <parameter name="valuelist-labels-organisation" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>col_compleet</value>
+      <value>gemeente_compleet</value>
+      <value>ministerie_compleet</value>
+      <value>waterschap_compleet</value>
+      <value>provincie_compleet</value>
+      <value>overige_overheidsorganisatie_compleet</value>
+    </parameter>
+    <parameter name="pdf-viewer" uri="http://www.armatiek.com/xslweb/configuration" type="xs:boolean">
+      <value>true</value>
+    </parameter>
+    <parameter name="debug" uri="http://www.armatiek.com/xslweb/configuration" type="xs:boolean">
+      <value>true</value>
+    </parameter>
+    <parameter name="piwik-code" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <!-- TST: -->
+      <value>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</value>
+    </parameter>
+    <parameter name="cache-buster-qs" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>?v101</value>
+    </parameter>
+  </parameters>
+
+  <jobs>
+    <!--
+    <job>
+      <name>GenerateSitemap</name>
+      <uri>generate-sitemap</uri>
+      <cron>0 0 3 * * ?</cron>
+      <concurrent>false</concurrent>
+    </job>
+    -->
+  </jobs>
+
+</webapp>

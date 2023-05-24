@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema name="plooi" version="1.6">
+
+  <!-- Velden voor alle blocktypes -->
+  <field name="_version_" type="plong" indexed="true" stored="true"/> <!-- Noodzakelijk voor SolrCloud -->
+
+  <field name="_root_" type="string" indexed="true" stored="false"/> <!-- Nodig voor block join support (nested documents): -->
+
+  <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false"/> <!-- Unieke identifier (work-id + "_" + expression-label) -->
+
+  <field name="timestamp" type="pdate" indexed="true" stored="true" default="NOW"/> <!-- Datum/tijd van de indexering -->
+
+  <field name="blocktype" type="string" indexed="true" stored="true" required="false" multiValued="false"/> <!-- "document" of anders -->
+
+  <!-- Repository specifieke velden: -->
+  <field name="repos_name" type="string" indexed="true" stored="true" required="false" multiValued="false"/> <!-- Naam van het document in de repository -->
+  <field name="repos_url" type="string" indexed="true" stored="true" required="false" multiValued="false"/> <!-- Relatieve pad van het document in de repository (bv /PUC_IND_4045186_1/1/xml/PUC_IND_4045186_1_1.xml) -->
+  <field name="repos_modified" type="pdate" indexed="true" stored="true" required="false" multiValued="false"/> <!-- Laatst wijziging van het document in de repository -->
+  <field name="repos_contenttype" type="string" indexed="true" stored="true" required="false" multiValued="false"/> <!-- Contenttype/mimetype van het document -->
+  <field name="repos_length" type="plong" indexed="true" stored="true" required="false" multiValued="false"/> <!-- Grootte van het document in de repository (in bytes) -->
+  <field name="repos_published" type="pdate" indexed="true" stored="true" required="false" multiValued="false"/> <!-- Moment van indexatie na publicatie vanuit redactieomgeving -->
+
+  <!-- OWMS kern: -->
+  <field name="identifier" type="string" indexed="true" stored="true" required="true" multiValued="false"/> <!-- dcterms:identifier -->
+  <field name="title" type="text" indexed="true" stored="true" required="true" multiValued="false"/> <!-- dcterms:title -->
+  <field name="title_stemmed" type="text_stemmed" indexed="true" stored="false" required="false" multiValued="false"/>
+  <field name="title_ngram" type="text_ngram" indexed="true" stored="false" required="false" multiValued="false"/>
+  <field name="title_sort" type="string" indexed="true" stored="false" required="true" multiValued="false"/> <!-- dcterms:title tbv sortering -->
+  <field name="type_id" type="string" indexed="true" stored="true" required="false" multiValued="false" docValues="true"/> <!-- dcterms:type (resourceIdentifier) -->
+  <field name="type" type="string" indexed="true" stored="true" required="true" multiValued="false" docValues="true"/> <!-- dcterms:type (label) -->
+  <field name="type_ci" type="string_ci" indexed="true" stored="true" required="true" multiValued="false"/> <!-- dcterms:type (label) -->
+  <field name="language" type="string" indexed="true" stored="true" required="true" multiValued="true" default="nl" docValues="true"/> <!-- dcterms:language -->
+  <field name="creator_id" type="string" indexed="true" stored="true" required="false" multiValued="true" docValues="true"/> <!-- dcterms:creator (resourceIdentifier) -->
+  <field name="creator" type="string" indexed="true" stored="true" required="false" multiValued="true" docValues="true"/> <!-- dcterms:creator (label) -->
+  <field name="creator_ci" type="string_ci" indexed="true" stored="true" required="false" multiValued="true"/> <!-- dcterms:creator (label) -->
+  <field name="modified" type="pdate" indexed="true" stored="true" required="true" multiValued="false"/> <!-- dcterms:modified -->
+  <!-- dcterms:spatial -->
+  <!-- dcterms:temporal -->
+  <field name="authority_id" type="string" indexed="true" stored="true" required="false" multiValued="true" docValues="true"/> <!-- overheid:authority (resourceIdentifier) -->
+  <field name="authority" type="string" indexed="true" stored="true" required="false" multiValued="true" docValues="true"/> <!-- overheid:authority (label) -->
+  <field name="authority_ci" type="string_ci" indexed="true" stored="true" required="false" multiValued="true"/> <!-- overheid:authority (label) -->
+
+  <!-- OWMS mantel: -->
+  <field name="description" type="text" indexed="true" stored="true" required="false" multiValued="true"/> <!-- dcterms:description -->
+  <field name="description_stemmed" type="text_stemmed" indexed="true" stored="false" required="false" multiValued="true"/>
+  <field name="description_ngram" type="text_ngram" indexed="true" stored="false" required="false" multiValued="true"/>
+  <field name="publisher_id" type="string" indexed="true" stored="true" required="false" multiValued="true" docValues="true"/> <!-- dcterms:publisher (resourceIdentifier) -->
+  <field name="publisher" type="string" indexed="true" stored="true" required="false" multiValued="true" docValues="true"/> <!-- dcterms:publisher (label) -->
+  <field name="publisher_ci" type="string_ci" indexed="true" stored="true" required="false" multiValued="true"/> <!-- dcterms:publisher (label) -->
+  <field name="source_id" type="string" indexed="true" stored="true" required="false" multiValued="true"/> <!-- dcterms:source (resourceIdentifier) -->
+  <field name="source" type="string" indexed="true" stored="true" required="false" multiValued="true"/> <!-- dcterms:source (label) -->
+  <field name="available_start" type="pdate" indexed="true" stored="true" required="false" multiValued="false"/> <!-- dcterms:available/start -->
+  <field name="available_end" type="pdate" indexed="true" stored="true" required="false" multiValued="false"/> <!-- dcterms:available/end -->
+  <field name="issued" type="pdate" indexed="true" stored="true" required="false" multiValued="false"/> <!-- dcterms:issued -->
+  <field name="subject" type="string" indexed="true" stored="true" required="false" multiValued="true" docValues="true"/> <!-- dcterms:subject (label) -->
+  <field name="subject_id" type="string" indexed="true" stored="true" required="false" multiValued="true"/> <!-- dcterms:subject (resourceIdentifier) -->
+  <field name="subject_ci" type="string_ci" indexed="true" stored="true" required="false" multiValued="true"/> <!-- dcterms:subject (label) -->
+  <field name="relation_id" type="string" indexed="true" stored="true" required="false" multiValued="true"/> <!-- dcterms:relation (resourceIdentifier) -->
+  <field name="relation" type="string" indexed="true" stored="true" required="false" multiValued="true"/> <!-- dcterms:relation (label) -->
+  <field name="ispartof_id" type="string" indexed="true" stored="true" required="false" multiValued="true"/> <!-- dcterms:isPartOf (resourceIdentifier) -->
+  <field name="ispartof" type="string" indexed="true" stored="true" required="false" multiValued="true"/> <!-- dcterms:isPartOf (label) -->
+  <field name="haspart_id" type="string" indexed="true" stored="true" required="false" multiValued="true"/> <!-- dcterms:hasPart (resourceIdentifier) -->
+  <field name="haspart" type="string" indexed="true" stored="true" required="false" multiValued="true"/> <!-- dcterms:hasPart (label) -->
+
+  <!-- Plooi specifiek: -->
+  <field name="versie" type="pint" indexed="true" stored="true" required="true" multiValued="false"/> <!-- plooi:versie -->
+  <field name="isbundel" type="boolean" indexed="true" stored="true" required="false" multiValued="false"/> <!-- exists(dcterms:hasPart) -->
+  <field name="workid" type="string" indexed="true" stored="true" required="true" multiValued="false"/> <!-- work label/identifier -->
+  <field name="informatiecategorie_id" type="string" indexed="true" stored="true" required="false" multiValued="false" docValues="true"/> <!-- plooi:informatiecategorie (resourceIdentifier) -->
+  <field name="informatiecategorie" type="string" indexed="true" stored="true" required="false" multiValued="false" docValues="true"/> <!-- plooi:informatiecategorie (label) -->
+  <field name="informatiecategorie_ci" type="string_ci" indexed="true" stored="true" required="false" multiValued="false"/> <!-- plooi:informatiecategorie (label) -->
+  <field name="verantwoordelijke_id" type="string" indexed="true" stored="true" required="false" multiValued="true" docValues="true"/> <!-- plooi:verantwoordelijke (resourceIdentifier) -->
+  <field name="verantwoordelijke" type="string" indexed="true" stored="true" required="false" multiValued="true" docValues="true"/> <!-- plooi:verantwoordelijke (label) -->
+  <field name="verantwoordelijke_ci" type="string_ci" indexed="true" stored="true" required="false" multiValued="true"/> <!-- plooi:verantwoordelijke (label) -->
+  <field name="topthema_id" type="string" indexed="true" stored="true" required="false" multiValued="true" docValues="true"/> <!-- plooi:topThema (resourceIdentifier) -->
+  <field name="topthema" type="string" indexed="true" stored="true" required="false" multiValued="true" docValues="true"/> <!-- plooi:topThema (label) -->
+  <field name="topthema_ci" type="string_ci" indexed="true" stored="true" required="false" multiValued="true"/> <!-- plooi:topThema (label) -->
+  <field name="aanbieder" type="string_ci" indexed="true" stored="true" required="false" multiValued="false"/> <!-- plooi:topThema (label) -->
+  <dynamicField name="extrametadata_*" type="string_ci" indexed="true" stored="true" required="false" multiValued="true"/> <!-- plooi:extraMetadata (label) -->
+
+  <field name="text" type="text" indexed="true" stored="true" termVectors="true" storeOffsetsWithPositions="true" required="false"/>
+  <field name="text_stemmed" type="text_stemmed" indexed="true" stored="true" termVectors="true" storeOffsetsWithPositions="true" required="false"/>
+  <field name="text_ngram" type="text_ngram" indexed="true" stored="true" termVectors="true" storeOffsetsWithPositions="true" required="false"/>
+
+  <field name="metadata" type="text" indexed="true" stored="false" required="false" multiValued="false"/>
+  <field name="metadata_stemmed" type="text_stemmed" indexed="true" stored="false" required="false" multiValued="false"/>
+  <field name="metadata_ngram" type="text_ngram" indexed="true" stored="false" required="false" multiValued="false"/>
+
+  <!-- Technische velden -->
+  <field name="metaxml" type="string_large" indexed="false" stored="true" required="true" multiValued="false"/>
+  <field name="documentenxml" type="string_large" indexed="false" stored="true" required="false" multiValued="false"/>
+
+  <field name="execution_id" type="string" indexed="true" docValues="true" multiValued="false"/>
+  <field name="dcn_id" type="string" indexed="true" docValues="true" multiValued="false"/>
+  <field name="external_id" type="string" indexed="true" docValues="true" multiValued="true"/>
+  <field name="source_label" type="string" indexed="true" docValues="true" multiValued="false"/>
+  <field name="hashes" type="string" indexed="true" docValues="true" multiValued="true"/>
+
+  <field name="groupid" type="string" indexed="true" stored="false" required="true" multiValued="false" docValues="true"/>
+  <field name="npages" type="pint" indexed="false" stored="true" required="false" multiValued="false"/>
+
+  <!-- Velden t.b.v. RONL integratie -->
+  <field name="onderwerpenRonl_id" type="string" indexed="true" stored="false" multiValued="true" docValues="true"/>
+  <field name="publicatiebestemming" type="string" indexed="true" stored="false" multiValued="true" docValues="true"/>
+
+  <!-- Velden t.b.v. search API -->
+  <field name="publicatiestatus" type="string" indexed="true" stored="false" docValues="true"/>
+  <field name="blokkades" type="string" indexed="true" stored="false" multiValued="true" docValues="true"/>
+  <field name="openbaarmakingsdatum" type="pdate" indexed="true" stored="false" docValues="true"/>
+  <field name="zichtbaarheidsdatumtijd" type="pdate" indexed="true" stored="false" docValues="true"/>
+  <field name="plooijson" type="string" indexed="false" stored="false" docValues="true"/>
+
+  <!-- Technische informatie over het geindexeerde bestand -->
+  <field name="mimetype" type="string" indexed="false" stored="false" docValues="true"/>
+  <field name="paginas" type="pint" indexed="false" stored="false" required="false" docValues="true"/>
+  <field name="bestandsgrootte" type="pint" indexed="false" stored="false" required="false" docValues="true"/>
+
+  <uniqueKey>identifier</uniqueKey>
+
+  <copyField source="title" dest="title_stemmed"/>
+  <copyField source="title" dest="title_ngram"/>
+  <copyField source="text" dest="text_stemmed"/>
+  <copyField source="text" dest="text_ngram"/>
+
+  <copyField source="metadata" dest="metadata_stemmed"/>
+  <copyField source="metadata" dest="metadata_ngram"/>
+
+  <copyField source="description" dest="description_stemmed"/>
+  <copyField source="description" dest="description_ngram"/>
+
+  <copyField source="type" dest="type_ci"/>
+  <copyField source="creator" dest="creator_ci"/>
+  <copyField source="authority" dest="authority_ci"/>
+  <copyField source="informatiecategorie" dest="informatiecategorie_ci"/>
+  <copyField source="verantwoordelijke" dest="verantwoordelijke_ci"/>
+  <copyField source="topthema" dest="topthema_ci"/>
+  <copyField source="subject" dest="subject_ci"/>
+
+  <fieldType name="plong" class="solr.LongPointField" docValues="true"/>
+  <fieldType name="string" class="solr.StrField" sortMissingLast="true" docValues="true"/>
+
+  <!-- The format for this date field is of the form 1995-12-31T23:59:59Z, and
+         is a more restricted form of the canonical representation of dateTime
+         http://www.w3.org/TR/xmlschema-2/#dateTime
+         The trailing "Z" designates UTC time and is mandatory.
+         Optional fractional seconds are allowed: 1995-12-31T23:59:59.999Z
+         All other components are mandatory.
+
+         Expressions can also be used to denote calculations that should be
+         performed relative to "NOW" to determine the value, ie...
+
+               NOW/HOUR
+                  ... Round to the start of the current hour
+               NOW-1DAY
+                  ... Exactly 1 day prior to now
+               NOW/DAY+6MONTHS+3DAYS
+                  ... 6 months and 3 days in the future from the start of
+                      the current day
+
+  -->
+  <!-- KD-tree versions of date fields -->
+  <fieldType name="pdate" class="solr.DatePointField" docValues="true"/>
+  <fieldType name="daterange" class="solr.DateRangeField" sortMissingLast="true"/>
+
+  <fieldType name="pint" class="solr.IntPointField" docValues="true"/>
+  <fieldType name="pdouble" class="solr.DoublePointField" docValues="true"/>
+
+  <fieldType name="boolean" class="solr.BoolField" sortMissingLast="true"/>
+
+  <fieldType name="text" class="solr.TextField" positionIncrementGap="100">
+    <analyzer type="index">
+      <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1"
+        generateNumberParts="1" catenateWords="0" catenateNumbers="0" catenateAll="0"
+        splitOnCaseChange="1" splitOnNumerics="1" preserveOriginal="1" types="wdfftypes.txt"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.ASCIIFoldingFilterFactory"/>
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_nl.txt" format="snowball"/>
+    </analyzer>
+    <analyzer type="query">
+      <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1"
+        generateNumberParts="1" catenateWords="0" catenateNumbers="0" catenateAll="0"
+        splitOnCaseChange="1" splitOnNumerics="1" preserveOriginal="1" types="wdfftypes.txt"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.ASCIIFoldingFilterFactory"/>
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_nl.txt" format="snowball"/>
+    </analyzer>
+  </fieldType>
+
+  <fieldType name="text_stemmed" class="solr.TextField" positionIncrementGap="100">
+    <analyzer type="index">
+      <!--
+      <charFilter class="solr.HTMLStripCharFilterFactory"/>
+      -->
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_nl.txt" format="snowball"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="Dutch"/>
+    </analyzer>
+    <analyzer type="query">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_nl.txt" format="snowball"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="Dutch"/>
+    </analyzer>
+  </fieldType>
+
+  <fieldType name="text_ngram" class="solr.TextField" positionIncrementGap="100">
+    <analyzer type="index">
+      <!--
+      <charFilter class="solr.HTMLStripCharFilterFactory"/>
+      -->
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.NGramFilterFactory" minGramSize="4" maxGramSize="15"/>
+    </analyzer>
+    <analyzer type="query">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+    </analyzer>
+  </fieldType>
+
+  <fieldType name="text_suggest" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <!--
+      <charFilter class="solr.HTMLStripCharFilterFactory"/>
+      -->
+      <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="[^a-zA-Z0-9]" replacement=" "/>
+      <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+    </analyzer>
+  </fieldType>
+
+  <fieldType name="string_ci" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.KeywordTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+    </analyzer>
+  </fieldType>
+
+  <fieldType name="string_large" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+    </analyzer>
+  </fieldType>
+
+  <!-- Naar de volgende types wordt verwezen in solrconfig.xml: -->
+
+  <!-- A general text field that has reasonable, generic
+         cross-language defaults: it tokenizes with StandardTokenizer,
+	       removes stop words from case-insensitive "stopwords.txt"
+	       (empty by default), and down cases.  At query time only, it
+	       also applies synonyms.
+	  -->
+  <fieldType name="text_general" class="solr.TextField" positionIncrementGap="100"
+    multiValued="true">
+    <analyzer type="index">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+      <!-- in this example, we will only use synonyms at query time
+        <filter class="solr.SynonymGraphFilterFactory" synonyms="index_synonyms.txt" ignoreCase="true" expand="false"/>
+        <filter class="solr.FlattenGraphFilterFactory"/>
+        -->
+      <filter class="solr.LowerCaseFilterFactory"/>
+    </analyzer>
+    <analyzer type="query">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+      <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true"
+        expand="true"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+    </analyzer>
+  </fieldType>
+
+  <fieldType name="booleans" class="solr.BoolField" sortMissingLast="true" multiValued="true"/>
+  <fieldType name="pdates" class="solr.DatePointField" docValues="true" multiValued="true"/>
+  <fieldType name="plongs" class="solr.LongPointField" docValues="true" multiValued="true"/>
+  <fieldType name="pdoubles" class="solr.DoublePointField" docValues="true" multiValued="true"/>
+
+  <!-- Einde van de types waar solrconfig.xml naar verwijst. -->
+</schema>

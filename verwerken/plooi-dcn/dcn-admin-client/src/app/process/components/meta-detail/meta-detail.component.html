@@ -1,0 +1,54 @@
+<div class="modal is-open" id="modal-1" role="alert" tabindex="0">
+
+    <div class="modal__inner">
+        <div class="modal__content" style="height: 495px;">
+            <form (ngSubmit)="submit()" [formGroup]="form" *ngIf="approveBulkAction">
+                <div class="alert alert&#45;&#45;warning " role="alert">
+                    <div class="alert__inner">
+                        Bevestig actie <strong>{{triggerAction.actionName}}</strong> op de geselecteerde
+                        <strong>{{numberOfDocuments}}</strong> documenten.
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form__label form__label&#45;&#45;accent" for="reason">Reden voor {{triggerAction.actionName}}</label>
+                    <textarea
+                            class="form-control"
+                            formControlName="reason"
+                            id="reason"
+                            maxlength="500"
+                            type="text">
+                    </textarea>
+                    <div *ngIf="f.reason.touched && f.reason.invalid" class="alert alert&#45;&#45;warning">
+                        <div *ngIf="f.reason.errors.required">Reden voor actie is verplicht.</div>
+                    </div>
+                </div>
+                <button class="form__button button button--primary button--large pull-right"
+                        type="submit" [disabled]="f.reason.invalid">{{triggerAction.actionName}}</button>
+            </form>
+            <div *ngIf="!approveBulkAction && showOpnieuwVerwerkingsMessage" class="inline-block">
+                <div class="row--spacer"></div>
+                <div class="alert alert&#45;&#45;warning " role="alert">
+                    <div class="alert__inner">Je gaat de actie <strong>{{triggerAction.actionName}}</strong> uitvoeren op <strong>{{numberOfDocuments}}</strong> documenten.
+                        Dit kan even duren. Weet je het zeker?</div>
+                </div>
+                <div class="container">
+                    <button class="form__button button button--slim pull-right"
+                            type="submit" (click)="updateApproveAction()">Doorgaan</button>
+                    <button class="form__button button button--slim"
+                            (click)="onNoClick()">Annuleren</button>
+                </div>
+
+
+            </div>
+            <div *ngIf="!approveBulkAction && showTrekInMessage" class="inline-block">
+                <div class="row--spacer"></div>
+                <div class="alert alert&#45;&#45;warning " role="alert">
+                    <div class="alert__inner">{{intrekkenWarning}}</div>
+                </div>
+            </div>
+        </div>
+        <button (click)="onNoClick()" class="modal__close" data-handler="close-modal" type="button">
+            <span class="visually-hidden">sluiten</span>
+        </button>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+{
+    "content": [
+        {
+            "id": "some-document-id",
+            "executionId": "some-execution-id",
+            "sourceName": "oep",
+            "externalId": "some-external-id",
+            "internalId": "some-internal-id",
+            "stage": "INGRESS",
+            "severity": "INFO",
+			"timeCreated": [
+				1982,
+				1,
+				24,
+				18,
+				6
+			]
+        }
+    ],
+    "pageable": {
+        "sort": {
+            "sorted": false,
+            "unsorted": true,
+            "empty": true
+        },
+        "offset": 0,
+        "pageNumber": 0,
+        "pageSize": 25,
+        "unpaged": false,
+        "paged": true
+    },
+    "totalElements": 1,
+    "totalPages": 1,
+    "last": true,
+    "number": 0,
+    "size": 25,
+    "sort": {
+        "sorted": false,
+        "unsorted": true,
+        "empty": true
+    },
+    "numberOfElements": 1,
+    "first": true,
+    "empty": false
+}

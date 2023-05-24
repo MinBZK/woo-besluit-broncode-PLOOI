@@ -1,0 +1,50 @@
+<div *ngIf="!errorMsg && route.children.length == 0">
+    <div class="columns">
+        <div class="column">
+            <table class="table--condensed table--striped table--container table__data-overview table--hover">
+                <thead>
+                <tr>
+                    <td colspan="6" class="align-right">
+                        <input id="showOnlyErrors" type="checkbox" (change)="onChange($event)">
+                        <label for="showOnlyErrors">Toon alleen verwerkingen met fouten</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="6">Klik op een regel voor de verwerkingsdetails (execution details)</td>
+                </tr>
+                </thead>
+                <thead>
+                <tr>
+                    <th scope="col" class="u-columnwidth-10p">Bron</th>
+                    <th scope="col" class="u-columnwidth-30p">Datum/Tijd</th>
+                    <th scope="col" class="u-columnwidth-10p">Trigger type</th>
+                    <th scope="col" class="u-columnwidth-20p align-center">Documenten</th>
+                    <th scope="col" class="u-columnwidth-10p align-center">Execution errors</th>
+                    <th scope="col" class="u-columnwidth-10p align-center">Event errors</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let proces of page.content" (click)="toMapping(proces.id)">
+                    <td>{{proces?.sourceLabel}}</td>
+                    <td>{{proces?.timeCreated  | date : 'medium'}}</td>
+                    <td>{{proces?.triggerType}}</td>
+                    <td class="align-center">{{proces?.procesCounts?.documentCount}}</td>
+                    <td *ngIf="proces.procesCounts?.procesExceptionCount > 0" style="background-color: #d52b1e; color: white"
+                        class="align-center">{{proces.procesCounts?.procesExceptionCount}}</td>
+                    <td *ngIf="!proces.procesCounts?.procesExceptionCount" class="align-center">0</td>
+                    <td class="align-center"
+                        *ngIf="proces?.procesCounts?.exceptionCount == 0 && proces?.procesCounts?.errorCount == 0"> {{proces?.procesCounts?.exceptionCount}}
+                        | {{proces?.procesCounts?.errorCount}} </td>
+                    <td *ngIf="proces?.procesCounts?.exceptionCount > 0 || proces?.procesCounts?.errorCount > 0" style="background-color: #d52b1e; color: white"
+                        class="align-center">{{proces?.procesCounts?.exceptionCount}} | {{proces?.procesCounts?.errorCount}}</td>
+                </tr>
+                </tbody>
+            </table>
+            <dcn-custom-pagination [page]="page"
+                                   (nextPageEvent)="getNextPage($event)"
+                                   (itemsPerPageEvent)="updateItemsPerPage($event)">
+            </dcn-custom-pagination>
+        </div>
+    </div>
+</div>
+<connection-error *ngIf="errorMsg" [message]="errorMsg"></connection-error>

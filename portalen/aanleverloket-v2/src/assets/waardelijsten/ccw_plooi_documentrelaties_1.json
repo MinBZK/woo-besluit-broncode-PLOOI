@@ -1,0 +1,69 @@
+[ {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_4d1ea9ba",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept", "http://www.w3.org/ns/dcat#Role" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "is bijlage bij"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_3447778e",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_4d1ea9ba"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "PLOOI documentrelatie KSM"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/set/ccw_plooi_documentrelaties/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "https://identifier.overheid.nl/tooi/def/wl/CollectiegebaseerdeConceptwaardelijst" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Waardelijst met documentrelaties ten behoeve van PLOOI."
+  } ],
+  "http://purl.org/pav/derivedFrom" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/ont"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/wl"
+  }, {
+    "@id" : "http://purl.org/pav"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "eerste versie"
+  } ],
+  "http://www.w3.org/ns/prov#generatedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2023-02-01T11:15:04.893+01:00"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/publicatiedatum" : [ {
+    "@value" : "2023-02-01"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/titel" : [ {
+    "@value" : "PLOOI documentrelaties"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/verantwoordelijke" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1034"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/zichtdatum" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2023-02-01"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/afgeleidVanVersie" : [ {
+    "@value" : ""
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/bronversie" : [ {
+    "@value" : ""
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/collectie" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_3447778e"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/volgnummer" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+} ]

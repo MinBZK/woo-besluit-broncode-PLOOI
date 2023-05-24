@@ -1,0 +1,1622 @@
+{
+  "@graph": [
+    {
+      "@id": "tooi:thes/top/c_0361ffb3",
+      "@type": "skos:Concept",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": {
+        "@language": "en",
+        "@value": "cultuur en recreatie"
+      }
+    },
+    {
+      "@id": "tooi:thes/top/c_068da9fb",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_3eb6243b",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "inkoop en beheer"
+        },
+        {
+          "@language": "en",
+          "@value": "inkoop en beheer"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_08d12aef",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_c232ae4a",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "onderzoek en wetenschap"
+        },
+        {
+          "@language": "en",
+          "@value": "onderzoek en wetenschap"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_0fe7c5e7",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d0463fb7",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "jeugdzorg"
+        },
+        {
+          "@language": "en",
+          "@value": "jeugdzorg"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_124eaf3a",
+      "@type": "skos:Concept",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "wonen"
+        },
+        {
+          "@language": "en",
+          "@value": "wonen"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_1781ce20",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d4890526",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "ouderen"
+        },
+        {
+          "@language": "en",
+          "@value": "ouderen"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_17a86a17",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_124eaf3a",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "woningmarkt"
+        },
+        {
+          "@language": "en",
+          "@value": "woningmarkt"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_195b5b5e",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d363776f",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "transport"
+        },
+        {
+          "@language": "en",
+          "@value": "transport"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_1f37c612",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_9d1917e9",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "arbeidsverhoudingen"
+        },
+        {
+          "@language": "en",
+          "@value": "arbeidsverhoudingen"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_1f781691",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_c232ae4a",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "speciaal onderwijs"
+        },
+        {
+          "@language": "en",
+          "@value": "speciaal onderwijs"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_1fe409d0",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_f4679acc",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "staatsrecht"
+        },
+        {
+          "@language": "en",
+          "@value": "staatsrecht"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_218c52ee",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d0463fb7",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "ethiek"
+        },
+        {
+          "@language": "en",
+          "@value": "ethiek"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_2408fb5a",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_0361ffb3",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "cultureel erfgoed"
+        },
+        {
+          "@language": "en",
+          "@value": "cultureel erfgoed"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_25e30d03",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_391585db",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "belasting"
+        },
+        {
+          "@language": "en",
+          "@value": "belasting"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_2835e395",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_849842ac",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "luchtvaart"
+        },
+        {
+          "@language": "en",
+          "@value": "luchtvaart"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_28ddcea5",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_afa30a11",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "lucht"
+        },
+        {
+          "@language": "en",
+          "@value": "lucht"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_2e9944e7",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_399f194b",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "migratie"
+        },
+        {
+          "@language": "en",
+          "@value": "migratie"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_319461d7",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_849842ac",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "openbaar vervoer"
+        },
+        {
+          "@language": "en",
+          "@value": "openbaar vervoer"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_341c5bef",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d0463fb7",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "zorgverzekeringen"
+        },
+        {
+          "@language": "en",
+          "@value": "zorgverzekeringen"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_389a72e6",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_afa30a11",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "water"
+        },
+        {
+          "@language": "en",
+          "@value": "water"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_391585db",
+      "@type": "skos:Concept",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "overheidsfinanciën"
+        },
+        {
+          "@language": "en",
+          "@value": "overheidsfinanciën"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_399f194b",
+      "@type": "skos:Concept",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "migratie en integratie"
+        },
+        {
+          "@language": "en",
+          "@value": "migratie en integratie"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_3afc269f",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d363776f",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "ondernemen"
+        },
+        {
+          "@language": "en",
+          "@value": "ondernemen"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_3eb6243b",
+      "@type": "skos:Concept",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "organisatie en bedrijfsvoering"
+        },
+        {
+          "@language": "en",
+          "@value": "organisatie en bedrijfsvoering"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_4348dad1",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_391585db",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "begroting"
+        },
+        {
+          "@language": "en",
+          "@value": "begroting"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_4872b086",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d58b78ca",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "terrorisme"
+        },
+        {
+          "@language": "en",
+          "@value": "terrorisme"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_4d1c84a7",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d363776f",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "dienstensector"
+        },
+        {
+          "@language": "en",
+          "@value": "dienstensector"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_4e83eca7",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_9d1917e9",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "arbeidsomstandigheden"
+        },
+        {
+          "@language": "en",
+          "@value": "arbeidsomstandigheden"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_4eb912c1",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_c232ae4a",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "onderwijsvoorzieningen"
+        },
+        {
+          "@language": "en",
+          "@value": "onderwijsvoorzieningen"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_516ec027",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_c232ae4a",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "hoger onderwijs"
+        },
+        {
+          "@language": "en",
+          "@value": "hoger onderwijs"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_576c2bd7",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_f47ad6ca",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "internationale betrekkingen"
+        },
+        {
+          "@language": "en",
+          "@value": "internationale betrekkingen"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_61d3e636",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_afa30a11",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "stoffen"
+        },
+        {
+          "@language": "en",
+          "@value": "stoffen"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_68609e19",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_f47ad6ca",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "Europese zaken"
+        },
+        {
+          "@language": "en",
+          "@value": "Europese zaken"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_6b728132",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_0361ffb3",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "media"
+        },
+        {
+          "@language": "en",
+          "@value": "media"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_6b9627b5",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d0463fb7",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "geneesmiddelen en medische hulpmiddelen"
+        },
+        {
+          "@language": "en",
+          "@value": "geneesmiddelen en medische hulpmiddelen"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_70e03904",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_0361ffb3",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "evenementen"
+        },
+        {
+          "@language": "en",
+          "@value": "evenementen"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_72138db9",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_f4679acc",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "rechtspraak"
+        },
+        {
+          "@language": "en",
+          "@value": "rechtspraak"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_75809540",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_0361ffb3",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "horeca"
+        },
+        {
+          "@language": "en",
+          "@value": "horeca"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_76136c82",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d4890526",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "gezin en kinderen"
+        },
+        {
+          "@language": "en",
+          "@value": "gezin en kinderen"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_79010191",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_afa30a11",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "klimaatverandering"
+        },
+        {
+          "@language": "en",
+          "@value": "klimaatverandering"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_7a0f87d5",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d0463fb7",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "zorginstellingen"
+        },
+        {
+          "@language": "en",
+          "@value": "zorginstellingen"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_7b01f260",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_c232ae4a",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "basisonderwijs"
+        },
+        {
+          "@language": "en",
+          "@value": "basisonderwijs"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_7ce8a10c",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_afa30a11",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "bodem"
+        },
+        {
+          "@language": "en",
+          "@value": "bodem"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_824ce7ff",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_f4679acc",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "privaatrecht"
+        },
+        {
+          "@language": "en",
+          "@value": "privaatrecht"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_83db27fc",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d363776f",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "handel"
+        },
+        {
+          "@language": "en",
+          "@value": "handel"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_849842ac",
+      "@type": "skos:Concept",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "verkeer"
+        },
+        {
+          "@language": "en",
+          "@value": "verkeer"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_85a72eb3",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_cfc7d5ab",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "netwerken"
+        },
+        {
+          "@language": "en",
+          "@value": "netwerken"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_87d3d66c",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d363776f",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "kenniseconomie"
+        },
+        {
+          "@language": "en",
+          "@value": "kenniseconomie"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_8940ed07",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_f47ad6ca",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "ontwikkelingssamenwerking"
+        },
+        {
+          "@language": "en",
+          "@value": "ontwikkelingssamenwerking"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_8b081a63",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d0463fb7",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "gezondheidsrisico's"
+        },
+        {
+          "@language": "en",
+          "@value": "gezondheidsrisico's"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_980b8db2",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_c232ae4a",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "voortgezet onderwijs"
+        },
+        {
+          "@language": "en",
+          "@value": "voortgezet onderwijs"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_989e37d9",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d363776f",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "landbouw, visserij, voedselkwaliteit"
+        },
+        {
+          "@language": "en",
+          "@value": "landbouw, visserij, voedselkwaliteit"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_98e03e32",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_f4679acc",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "strafrecht"
+        },
+        {
+          "@language": "en",
+          "@value": "strafrecht"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_9a574af9",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d0463fb7",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "ziekten en behandelingen"
+        },
+        {
+          "@language": "en",
+          "@value": "ziekten en behandelingen"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_9af4b880",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_cfc7d5ab",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "ruimtelijke ordening"
+        },
+        {
+          "@language": "en",
+          "@value": "ruimtelijke ordening"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_9d1917e9",
+      "@type": "skos:Concept",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "werk"
+        },
+        {
+          "@language": "en",
+          "@value": "werk"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_9f410ab6",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_afa30a11",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "geluid"
+        },
+        {
+          "@language": "en",
+          "@value": "geluid"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_a6a9eddd",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_124eaf3a",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "bouwen en verbouwen"
+        },
+        {
+          "@language": "en",
+          "@value": "bouwen en verbouwen"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_a6c5e5b8",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_0361ffb3",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "recreatie"
+        },
+        {
+          "@language": "en",
+          "@value": "recreatie"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_a71dc533",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_cfc7d5ab",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "waterbeheer"
+        },
+        {
+          "@language": "en",
+          "@value": "waterbeheer"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_a94e1fa4",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_399f194b",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "integratie"
+        },
+        {
+          "@language": "en",
+          "@value": "integratie"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_afa30a11",
+      "@type": "skos:Concept",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "natuur en milieu"
+        },
+        {
+          "@language": "en",
+          "@value": "natuur en milieu"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_b46b92e7",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_c232ae4a",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "beroepsonderwijs"
+        },
+        {
+          "@language": "en",
+          "@value": "beroepsonderwijs"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_beb01b1c",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_f4679acc",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "bestuursrecht"
+        },
+        {
+          "@language": "en",
+          "@value": "bestuursrecht"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_c232ae4a",
+      "@type": "skos:Concept",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "onderwijs en wetenschap"
+        },
+        {
+          "@language": "en",
+          "@value": "onderwijs en wetenschap"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_cfc7d5ab",
+      "@type": "skos:Concept",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "ruimte en infrastructuur"
+        },
+        {
+          "@language": "en",
+          "@value": "ruimte en infrastructuur"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_d0463fb7",
+      "@type": "skos:Concept",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "zorg en gezondheid"
+        },
+        {
+          "@language": "en",
+          "@value": "zorg en gezondheid"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_d2b1338a",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_f4679acc",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "rechten en vrijheden"
+        },
+        {
+          "@language": "en",
+          "@value": "rechten en vrijheden"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_d363776f",
+      "@type": "skos:Concept",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "economie"
+        },
+        {
+          "@language": "en",
+          "@value": "economie"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_d3b599f8",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_849842ac",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "scheepvaart"
+        },
+        {
+          "@language": "en",
+          "@value": "scheepvaart"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_d4890526",
+      "@type": "skos:Concept",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "sociale zekerheid"
+        },
+        {
+          "@language": "en",
+          "@value": "sociale zekerheid"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_d58b78ca",
+      "@type": "skos:Concept",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "openbare orde en veiligheid"
+        },
+        {
+          "@language": "en",
+          "@value": "openbare orde en veiligheid"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_d772bf06",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d58b78ca",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "veiligheid"
+        },
+        {
+          "@language": "en",
+          "@value": "veiligheid"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_d96f9cd3",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_afa30a11",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "afval"
+        },
+        {
+          "@language": "en",
+          "@value": "afval"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_daaa67b3",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_f47ad6ca",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "defensie"
+        },
+        {
+          "@language": "en",
+          "@value": "defensie"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_db2fbedb",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_afa30a11",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "natuur- en landschapsbeheer"
+        },
+        {
+          "@language": "en",
+          "@value": "natuur- en landschapsbeheer"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_dc437d00",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d363776f",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "markttoezicht"
+        },
+        {
+          "@language": "en",
+          "@value": "markttoezicht"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_e277e756",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_0361ffb3",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "religie"
+        },
+        {
+          "@language": "en",
+          "@value": "religie"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_e3d35361",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_f4679acc",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "bezwaar en klachten"
+        },
+        {
+          "@language": "en",
+          "@value": "bezwaar en klachten"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_ee06665e",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_3eb6243b",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "informatievoorziening en ICT"
+        },
+        {
+          "@language": "en",
+          "@value": "informatievoorziening en ICT"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_f02ce1b3",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d0463fb7",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "ouderenzorg"
+        },
+        {
+          "@language": "en",
+          "@value": "ouderenzorg"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_f28344a5",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_3eb6243b",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "koninkrijksrelaties"
+        },
+        {
+          "@language": "en",
+          "@value": "koninkrijksrelaties"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_f2c9a613",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_3eb6243b",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "overheidspersoneel"
+        },
+        {
+          "@language": "en",
+          "@value": "overheidspersoneel"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_f37fd49d",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_3eb6243b",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "inrichting van de overheid"
+        },
+        {
+          "@language": "en",
+          "@value": "inrichting van de overheid"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_f411e390",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_849842ac",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "rail- en wegverkeer"
+        },
+        {
+          "@language": "en",
+          "@value": "rail- en wegverkeer"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_f4679acc",
+      "@type": "skos:Concept",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "recht"
+        },
+        {
+          "@language": "en",
+          "@value": "recht"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_f47ad6ca",
+      "@type": "skos:Concept",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "internationaal"
+        },
+        {
+          "@language": "en",
+          "@value": "internationaal"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_f4f1867a",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d363776f",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "energie"
+        },
+        {
+          "@language": "en",
+          "@value": "energie"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_f6d7f591",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_3eb6243b",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "interne organisatie"
+        },
+        {
+          "@language": "en",
+          "@value": "interne organisatie"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_f72b706a",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_0361ffb3",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "cultuur"
+        },
+        {
+          "@language": "en",
+          "@value": "cultuur"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_fc530104",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d4890526",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "arbeidsongeschiktheid en werkloosheid"
+        },
+        {
+          "@language": "en",
+          "@value": "arbeidsongeschiktheid en werkloosheid"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/c_fcac43e4",
+      "@type": "skos:Concept",
+      "broader": "tooi:thes/top/c_d58b78ca",
+      "inScheme": "tooi:thes/top/toplijst",
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "criminaliteit"
+        },
+        {
+          "@language": "en",
+          "@value": "criminaliteit"
+        }
+      ]
+    },
+    {
+      "@id": "tooi:thes/top/toplijst",
+      "@type": "skos:ConceptScheme",
+      "definition": [
+        {
+          "@language": "nl",
+          "@value": "Thema-indeling voor Officiële Publicaties"
+        },
+        {
+          "@language": "en",
+          "@value": "Thema-indeling voor Officiële Publicaties"
+        }
+      ],
+      "hasTopConcept": [
+        "tooi:thes/top/c_afa30a11",
+        "tooi:thes/top/c_849842ac",
+        "tooi:thes/top/c_9d1917e9",
+        "tooi:thes/top/c_f47ad6ca",
+        "tooi:thes/top/c_3eb6243b",
+        "tooi:thes/top/c_f4679acc",
+        "tooi:thes/top/c_d4890526",
+        "tooi:thes/top/c_0361ffb3",
+        "tooi:thes/top/c_cfc7d5ab",
+        "tooi:thes/top/c_399f194b",
+        "tooi:thes/top/c_d363776f",
+        "tooi:thes/top/c_124eaf3a",
+        "tooi:thes/top/c_391585db",
+        "tooi:thes/top/c_d0463fb7",
+        "tooi:thes/top/c_d58b78ca",
+        "tooi:thes/top/c_c232ae4a"
+      ],
+      "prefLabel": [
+        {
+          "@language": "nl",
+          "@value": "TOP-lijst"
+        },
+        {
+          "@language": "en",
+          "@value": "TOP-lijst"
+        }
+      ]
+    },
+    {
+      "@id": "urn:x-evn-master:koop_waardelijsten",
+      "@type": "owl:Ontology",
+      "defaultLang": "nl",
+      "description": "Waardelijst met themas uit de Thema-indeling voor Officiële Publicaties (TOP-lijst).",
+      "derivedFrom": "tooi:thes/top",
+      "status": "metadata:UnderDevelopmentStatus",
+      "defaultNamespace": "https://identifier.overheid.nl/tooi/def/thes/koopwaardelijsten/",
+      "comment": "https://identifier.overheid.nl/tooi/def/thes/koopwaardelijsten/",
+      "label": "KOOP Waardelijsten",
+      "imports": [
+        "http://www.w3.org/2004/02/skos/core",
+        "http://topbraid.org/skos.shapes",
+        "tooi:ont",
+        "tooi:wl",
+        "http://purl.org/pav"
+      ],
+      "versionInfo": "Eerste versie waardelijst Thema-indeling voor Officiële Publicaties (TOP-lijst) volledig op zichtdatum 15-11-2021.",
+      "prefLabel": "Thema-indeling voor Officiële Publicaties (TOP-lijst)",
+      "generatedAtTime": "2021-11-15T17:47:18.738+01:00",
+      "publicatiedatum": "2021-11-15",
+      "titel": "Thema-indeling voor Officiële Publicaties (TOP-lijst)",
+      "verantwoordelijke": "ministerie:mnre1034",
+      "zichtdatum": "2021-11-15",
+      "afgeleidVanVersie": "",
+      "bronversie": "",
+      "schema": "tooi:thes/top/toplijst",
+      "tooiwl:volgnummer": 1
+    }
+  ],
+  "@context": {
+    "defaultNamespace": {
+      "@id": "http://topbraid.org/swa#defaultNamespace"
+    },
+    "label": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "imports": {
+      "@id": "http://www.w3.org/2002/07/owl#imports",
+      "@type": "@id"
+    },
+    "status": {
+      "@id": "http://topbraid.org/metadata#status",
+      "@type": "@id"
+    },
+    "comment": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "prefLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "versionInfo": {
+      "@id": "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "defaultLang": {
+      "@id": "http://datashapes.org/dash#defaultLang"
+    },
+    "description": {
+      "@id": "http://purl.org/dc/terms/description"
+    },
+    "verantwoordelijke": {
+      "@id": "https://identifier.overheid.nl/tooi/def/ont/verantwoordelijke",
+      "@type": "@id"
+    },
+    "titel": {
+      "@id": "https://identifier.overheid.nl/tooi/def/ont/titel"
+    },
+    "publicatiedatum": {
+      "@id": "https://identifier.overheid.nl/tooi/def/ont/publicatiedatum"
+    },
+    "zichtdatum": {
+      "@id": "https://identifier.overheid.nl/tooi/def/ont/zichtdatum",
+      "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "derivedFrom": {
+      "@id": "http://purl.org/pav/derivedFrom",
+      "@type": "@id"
+    },
+    "bronversie": {
+      "@id": "https://identifier.overheid.nl/tooi/def/wl/bronversie"
+    },
+    "afgeleidVanVersie": {
+      "@id": "https://identifier.overheid.nl/tooi/def/wl/afgeleidVanVersie"
+    },
+    "volgnummer": {
+      "@id": "https://identifier.overheid.nl/tooi/def/wl/volgnummer",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "generatedAtTime": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "schema": {
+      "@id": "https://identifier.overheid.nl/tooi/def/wl/schema",
+      "@type": "@id"
+    },
+    "broader": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broader",
+      "@type": "@id"
+    },
+    "inScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type": "@id"
+    },
+    "definition": {
+      "@id": "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "hasTopConcept": {
+      "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+      "@type": "@id"
+    },
+    "metadata": "http://topbraid.org/metadata#",
+    "tooi": "https://identifier.overheid.nl/tooi/def/",
+    "pav": "http://purl.org/pav/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "tooiwl": "https://identifier.overheid.nl/tooi/def/wl/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "tooiont": "https://identifier.overheid.nl/tooi/def/ont/",
+    "ministerie": "https://identifier.overheid.nl/tooi/id/ministerie/",
+    "teamwork": "http://topbraid.org/teamwork#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dash": "http://datashapes.org/dash#",
+    "prov": "http://www.w3.org/ns/prov#"
+  }
+}

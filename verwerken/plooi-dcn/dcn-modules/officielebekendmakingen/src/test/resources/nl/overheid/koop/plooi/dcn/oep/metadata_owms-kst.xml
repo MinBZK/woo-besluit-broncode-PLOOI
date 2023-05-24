@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!--
+      Generatie: versie XSLT 1.1 op 2021-05-27+02:00-->
+<owms-metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:overheidop="http://standaarden.overheid.nl/oep/meta/">
+   <owmskern>
+      <dcterms:identifier>kst-35842-4</dcterms:identifier>
+      <dcterms:title>Wijziging van het voorstel van wet tot samenvoeging van de gemeenten Boxmeer, Cuijk, Mill en Sint Hubert en Sint Anthonis; Nader rapport; Advies Afdeling advisering Raad van State en Nader rapport</dcterms:title>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:type scheme="OVERHEIDop.KamerstukTypen">Overig</dcterms:type>
+      <dcterms:type scheme="OVERHEIDop.Parlementair">Kamerstuk</dcterms:type>
+      <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+      <dcterms.modified>2021-05-26</dcterms.modified>
+   </owmskern>
+   <owmsmantel>
+      <dcterms:available>2021-05-26</dcterms:available>
+      <dcterms:issued>2021-05-25</dcterms:issued>
+   </owmsmantel>
+   <oep>
+      <overheidop:documentStatus>Opgemaakt na onopgemaakt</overheidop:documentStatus>
+      <overheidop:adviesRvS>W04.21.0129/I</overheidop:adviesRvS>
+      <overheidop:documenttitel>Advies Afdeling advisering Raad van State en Nader rapport</overheidop:documenttitel>
+      <overheidop:dossiernummer>35842</overheidop:dossiernummer>
+      <overheidop:dossiertitel>Wijziging van het voorstel van wet tot samenvoeging van de gemeenten Boxmeer, Cuijk, Mill en Sint Hubert en Sint Anthonis</overheidop:dossiertitel>
+      <overheidop:indiener>Th.C. de Graaf</overheidop:indiener>
+      <overheidop:indiener>K.H. Ollongren</overheidop:indiener>
+      <overheidop:ondernummer>4</overheidop:ondernummer>
+      <overheidop:publicationName>Kamerstuk</overheidop:publicationName>
+      <overheidop:vergaderjaar>2020-2021</overheidop:vergaderjaar>
+      <overheid:organisationType>staten generaal</overheid:organisationType>
+      <overheid:category scheme="OVERHEID.TaxonomieBeleidsagenda">Bestuur | Gemeenten</overheid:category>
+   </oep>
+</owms-metadata>

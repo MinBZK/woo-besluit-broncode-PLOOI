@@ -1,0 +1,27 @@
+@import "../../colors.scss";
+
+.textarea {
+    background: $white;
+    border: 1px solid $mediumGrey;
+    line-height: 1.5;
+    font-family: inherit;
+    padding: .409em .5em;
+    font-size: .875rem;
+    border-radius: .5em;
+
+    &::placeholder {
+        color: $darkGrey;
+        font-style: italic;
+    }
+
+    &:disabled,
+    &[disabled],
+    &[read-only] {
+        background-color: $lighterGrey;
+        color: $mediumGrey;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

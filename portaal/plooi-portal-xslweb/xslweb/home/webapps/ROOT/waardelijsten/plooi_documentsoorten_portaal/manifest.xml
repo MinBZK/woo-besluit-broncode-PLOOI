@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<work xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../_manifest.xsd"
+      label="plooi_documentsoorten_portaal" gegenereerd="2020-06-23T10:28:54.1792513+02:00" _latestItem="1/json/plooi_documentsoorten_portaal_v1.json">
+    <metadata>
+        <DC.identifier>https://identifier.overheid.nl/tooi/set/plooi_documentsoorten_portaal</DC.identifier>
+        <DC.title/>
+    </metadata>
+    <expression label="1">
+        <metadata></metadata>
+        <manifestation label="rdf">
+            <metadata>
+                <hashcode>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+                </hashcode>
+                <size>345117</size>
+            </metadata>
+            <item label="plooi_documentsoorten_portaal_v1.rdf" _deleted="false"/>
+        </manifestation>
+        <manifestation label="ttl">
+            <metadata>
+                <hashcode>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+                </hashcode>
+                <size>110423</size>
+            </metadata>
+            <item label="plooi_documentsoorten_portaal_v1.ttl" _deleted="false"/>
+        </manifestation>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+                </hashcode>
+                <size>12743</size>
+            </metadata>
+            <item label="plooi_documentsoorten_portaal.xml" _deleted="false"/>
+        </manifestation>
+        <manifestation label="json">
+            <metadata>
+                <hashcode>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+                </hashcode>
+                <size>44298</size>
+            </metadata>
+            <item label="plooi_documentsoorten_portaal_v1.json" _deleted="false"/>
+        </manifestation>
+    </expression>
+</work>

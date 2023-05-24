@@ -1,0 +1,49 @@
+@import "../../colors.scss";
+@import "../../borders.scss";
+@import "../../breakpoints.scss";
+
+.input_container {
+  border-radius: $borderRadiusButton;
+  background: $lightBlue;
+  padding: 1em;
+  max-width: calc(100%);
+
+  &__selectedFileContainer {
+    display: block;
+    align-items: center;
+
+    @media (min-width: $breakpointDesktop) {
+      display: flex;
+    }
+
+    >p {
+      margin-right: 1em;
+      word-break: break-all;
+
+      @media (min-width: $breakpointDesktop) {
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  :first-child {
+    & label {
+      margin-right: 4px;
+    }
+  }
+
+  &__inner {
+    display: block;
+    text-align: center;
+
+    outline: 3px dashed #92b0b3;
+    outline-offset: -3px;
+    border-radius: $borderRadius;
+    padding: 0.75em 1em;
+    background-color: $offWhite;
+
+    &--alert {
+      outline: 2px dashed $red;
+    }
+  }
+}

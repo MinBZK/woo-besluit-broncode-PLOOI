@@ -1,0 +1,28 @@
+# Function and image name in deployment manifest
+app: template
+
+# Amount of Pods to be spinned-up
+replicaCount: 1
+
+# Registry from which images will be pulled on deployment
+registry:SSSSSSSSSSSSSSSSSSSS
+
+# Path in the registry from which the image will be pulled
+project: koop-plooi
+
+# Image version
+appVersion: "latest"
+
+# Using Never for local testing purposes
+imagePullPolicy: Always
+
+# Registry credentials; is ignored when imagePullPolicy=Never
+imagePuller: harbor-puller
+
+# Rules for incoming network traffic
+ingress:
+  # DNS
+  url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  tls:
+    # Defines server-certificate
+    secret: wildcard-tls # Using default self-signed certificate by Kubernetes Ingress Controller/Nginx

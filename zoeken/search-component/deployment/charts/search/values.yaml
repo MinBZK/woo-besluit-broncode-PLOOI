@@ -1,0 +1,40 @@
+# Default values for the search service.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+nameOverride: ""
+fullnameOverride: ""
+
+logLevel: INFO
+extraJvmArgs: ""
+
+image:
+  registry: ""
+  pullPolicy: Always
+  # Overrides the image tag whose default is the chart appVersion:
+  tag: latest
+
+podLabels: {}
+
+ingress:
+  ingressClassName: nginx
+  hostname: search.127.0.0.1.nip.io
+
+solr:
+  url:SSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+metrics:
+  enabled: false
+  serviceMonitor:
+    enabled: false
+    namespace: ""
+    interval: ""
+    scrapeTimeout: ""
+
+opentelemetry:
+  enabled: false
+  traces:
+    exporter: none
+  metrics:
+    exporter: none

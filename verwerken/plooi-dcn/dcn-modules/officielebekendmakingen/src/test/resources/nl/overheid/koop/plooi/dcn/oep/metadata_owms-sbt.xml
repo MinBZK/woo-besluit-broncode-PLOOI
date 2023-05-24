@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+      Generatie: versie XSLT 1.1 op 2021-09-09+02:00-->
+<owms-metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:overheidop="http://standaarden.overheid.nl/oep/meta/">
+   <owmskern>
+      <dcterms:identifier>stb-2021-419</dcterms:identifier>
+      <dcterms:title>Besluit van 1 september 2021, houdende de vantoepassingverklaring van de Wet tegemoetkoming schade bij rampen op het afstromend water in Limburg ten gevolge van de regenval in juli 2021</dcterms:title>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:type scheme="OVERHEIDop.Staatsblad">Klein Koninklijk Besluit</dcterms:type>
+      <dcterms:creator scheme="OVERHEID.Ministerie">Ministerie van Justitie en Veiligheid</dcterms:creator>
+      <dcterms.modified>2021-09-03</dcterms.modified>
+   </owmskern>
+   <owmsmantel>
+      <dcterms:available>2021-09-03</dcterms:available>
+      <dcterms:isReplacedBy>stb-2021-419-n1</dcterms:isReplacedBy>
+      <dcterms:issued>2021-09-03</dcterms:issued>
+      <dcterms:publisher>Ministerie van Justitie en Veiligheid</dcterms:publisher>
+      <dcterms:source>Gelet op artikel 3 van de Wet tegemoetkoming schade bij rampen</dcterms:source>
+   </owmsmantel>
+   <oep>
+      <overheidop:behandeldDossier>25159;140b</overheidop:behandeldDossier>
+      <overheidop:publicationIssue>419</overheidop:publicationIssue>
+      <overheidop:publicationName>Staatsblad</overheidop:publicationName>
+      <overheidop:datumOndertekening>2021-09-01</overheidop:datumOndertekening>
+      <overheidop:jaargang>2021</overheidop:jaargang>
+      <overheid:organisationType>ministerie</overheid:organisationType>
+      <overheid:category scheme="OVERHEID.TaxonomieBeleidsagenda">Openbare orde en veiligheid | Rampen</overheid:category>
+   </oep>
+</owms-metadata>

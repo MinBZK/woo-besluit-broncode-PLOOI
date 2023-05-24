@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+      Generatie: versie XSLT 1.1 op 2020-10-02+02:00-->
+<owms-metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:overheidop="http://standaarden.overheid.nl/oep/meta/">
+   <owmskern>
+      <dcterms:identifier>h-ek-20202021-1-1</dcterms:identifier>
+      <dcterms:title>Presentie en opening</dcterms:title>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:type scheme="OVERHEIDop.HandelingTypen">Opening</dcterms:type>
+      <dcterms:type scheme="OVERHEIDop.Parlementair">Handeling</dcterms:type>
+      <dcterms:creator scheme="OVERHEID.StatenGeneraal">Eerste Kamer der Staten-Generaal</dcterms:creator>
+      <dcterms.modified>2020-10-02</dcterms.modified>
+   </owmskern>
+   <owmsmantel>
+      <dcterms:available>2020-10-02</dcterms:available>
+      <dcterms:issued>2020-09-22</dcterms:issued>
+   </owmsmantel>
+   <oep>
+      <overheidop:documentStatus>Opgemaakt</overheidop:documentStatus>
+      <overheidop:handelingenItemNummer>1</overheidop:handelingenItemNummer>
+      <overheidop:publicationIssue>1</overheidop:publicationIssue>
+      <overheidop:publicationName>Handelingen</overheidop:publicationName>
+      <overheidop:vergaderjaar>2020-2021</overheidop:vergaderjaar>
+      <overheidop:datumVergadering>2020-09-22</overheidop:datumVergadering>
+      <overheid:organisationType>staten generaal</overheid:organisationType>
+      <overheid:category scheme="OVERHEID.TaxonomieBeleidsagenda">Bestuur | Parlement</overheid:category>
+   </oep>
+</owms-metadata>

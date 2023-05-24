@@ -1,0 +1,1 @@
+CREATE INDEX documentevents_source ON DocumentEvents (source_name);

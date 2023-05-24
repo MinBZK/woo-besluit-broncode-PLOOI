@@ -1,0 +1,16 @@
+<table class="table table--condensed table--striped">
+    <thead>
+    <tr>
+        <th scope="col" class="u-columnwidth-15p">Tijdstip</th>
+        <th scope="col" class="">Foutmelding</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td data-before="Tijdstip">{{processingError?.timeCreated | date: 'medium'}}</td>
+        <td data-before="Foutmelding">
+            <a (click)="goToErrorDetails()">{{getErrorMessage(processingError)}}</a>
+        </td>
+    </tr>
+    </tbody>
+</table>

@@ -1,0 +1,60 @@
+openapi: 3.0.3
+info:
+  title: DCN Process service
+  description: Plooi DCN verwerking service
+  version: 1.0
+servers:
+  - description: Lokale ontwikkelomgeving
+    url: http://localhost:8080
+  - description: Standaard Platform test omgeving
+    url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  - description: Standaard Platform productie omgeving
+    url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+components:
+
+  schemas:
+
+    verwerking-acties:
+      type: string
+      enum:
+       - verwerking
+       - intrekking
+       - herpublicatie
+       - indexering
+
+paths:
+
+  /verwerken/{actie}/{procesId}:
+    post:
+      operationId: process
+      description: |
+        Voer de gegeven verwerkingsactie uit op de aangeleverde lijst van documenten.
+      tags:
+        - Afgeschermd
+      parameters:
+        - name: actie
+          in: path
+          required: true
+          schema:
+            $ref: '#/components/schemas/verwerking-acties'
+        - name: procesId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: |
+          PLOOI metadata bestand.
+        required: true
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                type: string
+      responses:
+        default:
+          description: |
+            De documenten zijn verwerkt
+          content: {}

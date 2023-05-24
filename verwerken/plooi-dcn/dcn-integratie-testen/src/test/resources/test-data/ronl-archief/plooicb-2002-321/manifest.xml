@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<work xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xsi:noNamespaceSchemaLocation="../_manifest.xsd" label="plooicb-2002-321" gegenereerd="2019-06-11T09:09:31" _latestItem="1/pdf/vn-1441.pdf">
+	<metadata>
+		<dcterms.available>2002-11-08</dcterms.available>
+		<dcterms.creator resourceIdentifier="http://standaarden.overheid.nl/owms/terms/de_Regering">Regering</dcterms.creator>
+		<dcterms.identifier>plooicb-2002-321</dcterms.identifier>
+		<dcterms.issued>2002-11-08</dcterms.issued>
+		<dcterms.language>nl-NL</dcterms.language>
+		<dcterms.publisher resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Ministerie_van_Algemene_Zaken">Ministerie van Algemene Zaken</dcterms.publisher>
+		<dcterms.source>https://archief06.archiefweb.eu/archives/archiefweb/20180422095750/https://www.rijksoverheid.nl/documenten/besluiten/2002/11/08/veiligheidsraadresolutie-1441</dcterms.source>
+		<dcterms.title>Veiligheidsraadresolutie 1441</dcterms.title>
+		<dcterms.type>besluit</dcterms.type>
+		<overheid.authority resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Ministerie_van_Buitenlandse_Zaken">Ministerie van Buitenlandse Zaken</overheid.authority>
+	</metadata>
+	<expression label="1">
+		<metadata/>
+		<manifestation label="pdf">
+			<metadata>
+				<size>58</size>
+				<pages>8</pages>
+			</metadata>
+			<item label="vn-1441.pdf" _deleted="false"/>
+		</manifestation>
+	</expression>
+</work>

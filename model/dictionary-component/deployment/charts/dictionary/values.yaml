@@ -1,0 +1,37 @@
+# Default values for the dictionary service.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 2
+nameOverride: ""
+fullnameOverride: ""
+
+logLevel: INFO
+extraJvmArgs: ""
+
+image:
+  registry: ""
+  pullPolicy: Always
+  # Overrides the image tag whose default is the chart appVersion:
+  tag: latest
+
+podLabels: {}
+
+ingress:
+  ingressClassName: nginx
+  hostname: lijsten.127.0.0.1.nip.io
+
+metrics:
+  enabled: false
+  serviceMonitor:
+    enabled: false
+    namespace: ""
+    interval: ""
+    scrapeTimeout: ""
+
+opentelemetry:
+  enabled: false
+  traces:
+    exporter: none
+  metrics:
+    exporter: none

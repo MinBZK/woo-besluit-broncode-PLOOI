@@ -1,0 +1,25 @@
+paths: {}
+
+components:
+  schemas:
+    Diagnose:
+      type: object
+      properties:
+        code:
+          required: true
+          type: string
+        severity:
+          required: true
+          $ref: 'severity.yaml#/components/schemas/Severity'
+        message:
+          required: true
+          type: string
+        sourceId:
+          type: string
+          default: ""
+        sourceLabel:
+          type: string
+          default: ""
+        target:
+          type: string
+          default: ""

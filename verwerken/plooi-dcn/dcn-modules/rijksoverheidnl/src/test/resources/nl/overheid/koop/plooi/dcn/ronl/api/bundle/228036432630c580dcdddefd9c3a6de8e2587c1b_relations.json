@@ -1,0 +1,9 @@
+[ {
+  "relation" : "https://test.open.overheid.nl/documenten/ronl-684333ccbc1afcdb275529c54261dff4061180ea",
+  "role" : "https://identifier.overheid.nl/plooi/def/thes/documentrelatie/onderdeel",
+  "titel" : "Akte van aanstelling"
+}, {
+  "relation" : "https://test.open.overheid.nl/documenten/ronl-a83c9806d87ce33e632c253eb2166cc937f0bef1",
+  "role" : "https://identifier.overheid.nl/plooi/def/thes/documentrelatie/onderdeel",
+  "titel" : "Supplement akte van aanstelling"
+} ]

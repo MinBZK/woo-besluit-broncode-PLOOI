@@ -1,0 +1,231 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.7</version>
+        <relativePath />
+        <!-- lookup parent from repository -->
+    </parent>
+
+    <groupId>nl.overheid.koop.plooi</groupId>
+    <artifactId>plooi-core-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>2.0.7-SNAPSHOT</version>
+    <name>PLOOI Core Parent Project</name>
+
+    <properties>
+        <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <timestamp>${maven.build.timestamp}</timestamp>
+        <java.version>17</java.version>
+        <openapi-generator-maven-plugin.version>6.2.0</openapi-generator-maven-plugin.version>
+        <!-- https://camel.apache.org/download/ -->
+        <camel.version>3.18.3</camel.version>
+        <registration.version>1.0.0</registration.version>
+        <!--
+             https://spring.io/projects/spring-boot
+             NB Align this version with the version used in the Camel version above (else you'll end up with version conflicts)
+             NB DON'T FORGET TO ALSO UPDATE THE VERSION IN THE PARENT ABOVE!
+         -->
+        <springboot.version>2.7.7</springboot.version>
+        <!-- https://github.com/hawtio/hawtio/releases -->
+        <hawtio-springboot.version>2.15.2</hawtio-springboot.version>
+        <!-- https://github.com/logfellow/logstash-logback-encoder -->
+        <logstash-logback-encoder.version>7.2</logstash-logback-encoder.version>
+        <!-- Etc... -->
+        <solr.version>8.11.2</solr.version>
+        <tika.version>2.4.1</tika.version>
+        <jsoup.version>1.15.1</jsoup.version>
+        <commons-collections4.version>4.4</commons-collections4.version>
+        <!-- testing -->
+        <junit.version>5.8.2</junit.version>
+        <assertj.version>3.17.2</assertj.version>
+        <!-- plugin versions -->
+        <jib-maven-plugin.version>3.2.0</jib-maven-plugin.version>
+        <maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
+        <maven-failsafe-plugin.version>3.0.0-M7</maven-failsafe-plugin.version>
+        <maven-jacoco-plugin.version>0.8.8</maven-jacoco-plugin.version>
+        <versions-maven-plugin.version>2.11.0</versions-maven-plugin.version>
+        <sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>nl.overheid.koop.plooi</groupId>
+                <artifactId>metadata-specification</artifactId>
+                <version>0.11.1</version>
+            </dependency>
+            <dependency>
+                <groupId>nl.overheid.koop.plooi</groupId>
+                <artifactId>repository-client</artifactId>
+                <version>1.0.1</version>
+            </dependency>
+            <dependency>
+                <groupId>nl.overheid.koop.plooi</groupId>
+                <artifactId>dictionary-specification</artifactId>
+                <version>1.0.3</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.camel.springboot</groupId>
+                <artifactId>camel-spring-boot-dependencies</artifactId>
+                <version>${camel.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- various tools -->
+            <dependency>
+                <groupId>io.hawt</groupId>
+                <artifactId>hawtio-springboot</artifactId>
+                <version>${hawtio-springboot.version}</version>
+            </dependency>
+
+            <!-- logging -->
+            <dependency>
+                <groupId>net.logstash.logback</groupId>
+                <artifactId>logstash-logback-encoder</artifactId>
+                <version>${logstash-logback-encoder.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+
+            <!-- testing -->
+            <dependency>
+                <groupId>nl.overheid.koop.plooi</groupId>
+                <artifactId>test-utils</artifactId>
+                <version>1.0.0</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.junit</groupId>
+                <artifactId>junit-bom</artifactId>
+                <version>${junit.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>com.google.cloud.tools</groupId>
+                    <artifactId>jib-maven-plugin</artifactId>
+                    <version>${jib-maven-plugin.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.jacoco</groupId>
+                    <artifactId>jacoco-maven-plugin</artifactId>
+                    <version>${maven-jacoco-plugin.version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <parameters>true</parameters>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <argLine>${argLine} -Dfile.encoding=UTF-8</argLine>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>default-prepare-agent</id>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                        <phase>initialize</phase>
+                    </execution>
+                    <execution>
+                        <id>default-report</id>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                        <phase>verify</phase>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <distributionManagement>
+        <repository>
+            <id>koop-plooi-releases</id>
+            <url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+        </repository>
+        <snapshotRepository>
+            <id>koop-plooi-snapshots</id>
+            <url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>koop-plooi-releases</id>
+            <url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>koop-plooi-snapshots</id>
+            <url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+</project>

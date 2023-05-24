@@ -1,0 +1,22 @@
+{
+  "content": [
+    {
+      "internalId": "id-1234",
+      "externalId": "extId1"
+    }
+  ],
+  "pageable": "INSTANCE",
+  "totalElements": 1,
+  "totalPages": 1,
+  "last": true,
+  "sort": {
+    "sorted": false,
+    "unsorted": true,
+    "empty": true
+  },
+  "number": 0,
+  "numberOfElements": 1,
+  "first": true,
+  "size": 1,
+  "empty": false
+}

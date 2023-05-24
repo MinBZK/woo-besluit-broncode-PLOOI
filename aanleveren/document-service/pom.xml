@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>nl.overheid.koop.plooi.aanleveren</groupId>
+        <artifactId>parent-pom</artifactId>
+        <version>1.0.15-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>document-service</artifactId>
+    <version>0.0.5-SNAPSHOT</version>
+    <name>document-service-project</name>
+    <description>Document service for the API</description>
+    <url>https://koop.overheid.nl/</url>
+    <packaging>jar</packaging>
+
+    <properties>
+        <sonar.projectKey>document-service</sonar.projectKey>
+        <sonar.qualitygate.wait>true</sonar.qualitygate.wait>
+    </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>koop-plooi-releases</name>
+            <url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>koop-plooi-snapshots</name>
+            <url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <dependencies>
+        <!-- Internal -->
+        <dependency>
+            <groupId>nl.overheid.koop.plooi</groupId>
+            <artifactId>plooi-security</artifactId>
+            <version>0.0.2-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>nl.overheid.koop.plooi.aanleveren</groupId>
+            <artifactId>aanleveren-models</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>nl.overheid.koop.plooi.aanleveren</groupId>
+            <artifactId>aanleveren-logging</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>nl.overheid.koop.plooi</groupId>
+            <artifactId>registration-client</artifactId>
+            <version>1.0.2-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>nl.overheid.koop.plooi</groupId>
+            <artifactId>repository-client</artifactId>
+            <version>1.0.2-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>nl.overheid.koop.plooi</groupId>
+            <artifactId>metadata-specification</artifactId>
+            <version>0.11.1-SNAPSHOT</version>
+        </dependency>
+
+        <!-- Spring -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
+        <!-- Third party -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp</groupId>
+            <artifactId>mockwebserver</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-yaml</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <releases>
+                <enabled>false</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+                <checksumPolicy>fail</checksumPolicy>
+            </snapshots>
+            <name>koop-plooi-snapshots</name>
+            <id>nexus</id>
+            <url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+
+</project>

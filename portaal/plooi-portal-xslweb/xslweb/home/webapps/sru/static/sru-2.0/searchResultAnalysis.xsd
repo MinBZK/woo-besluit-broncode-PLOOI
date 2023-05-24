@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Search Web Services searchRetrieve Version 1.0
+    OASIS Standard
+    30 January 2013
+    Source: http://docs.oasis-open.org/search-ws/searchRetrieve/v1.0/os/schemas/
+    Copyright (c) OASIS Open 2013.  All Rights Reserved.
+-->
+
+<!--  
+Editor: Ray Denenberg, Library of Congress.  rden@loc.gov 
+***** 
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+  xmlns="http://docs.oasis-open.org/ns/search-ws/searchResultAnalysis" 
+  targetNamespace="http://docs.oasis-open.org/ns/search-ws/searchResultAnalysis"
+  elementFormDefault="qualified"
+ attributeFormDefault="unqualified">
+	<!-- Root Declaration -->
+	<xs:element name="searchResultAnalysis" type="searchResultAnalysisDefinition"/>
+	<!-- End Root Declaration -->
+	<!--  -->
+	<!--searchResultAnalysisDefinition-->
+	<xs:complexType name="searchResultAnalysisDefinition">
+		<xs:choice>
+			<xs:element ref="datasource" maxOccurs="unbounded"/>
+			<xs:element ref="subqueryResult" maxOccurs="unbounded"/>
+		</xs:choice>
+	</xs:complexType>
+	<!-- datasourceDefinition -->
+	<xs:complexType name="datasourceDefinition">
+		<xs:sequence>
+			<xs:element ref="datasourceDisplayLabel" minOccurs="0"/>
+			<xs:element ref="datasourceDescription" minOccurs="0"/>
+			<xs:element ref="baseURL" minOccurs="0"/>
+			<xs:element ref="subqueryResults"/>
+		</xs:sequence>
+		<xs:attribute name="full" type="fullDefinition"/>
+	</xs:complexType>
+	<!--  -->
+	<!--subqueryResultsDefinition -->
+	<xs:complexType name="subqueryResultsDefinition">
+		<xs:sequence>
+			<xs:element ref="subqueryResult" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- subqueryResultDefinition  -->
+	<xs:complexType name="subqueryResultDefinition">
+		<xs:sequence>
+			<xs:element ref="subqueryDisplayLabel" minOccurs="0"/>
+			<xs:element ref="subquery"/>
+			<xs:element ref="count"/>
+			<xs:element ref="requestUrl" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="full" type="fullDefinition"/>
+	</xs:complexType>
+	<!--  -->
+	<xs:simpleType name="fullDefinition">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="true"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--  Element Declarations -->
+	<!--  -->
+	<xs:element name="baseURL" type="xs:string"/>
+	<xs:element name="count" type="xs:integer"/>
+	<xs:element name="datasource" type="datasourceDefinition"/>
+	<xs:element name="datasourceDescription" type="xs:string"/>
+	<xs:element name="datasourceDisplayLabel" type="xs:string"/>
+	<xs:element name="requestUrl" type="xs:anyURI"/>
+	<xs:element name="subquery" type="xs:string"/>
+	<xs:element name="subqueryDisplayLabel" type="xs:string"/>
+	<xs:element name="subqueryResult" type="subqueryResultDefinition"/>
+	<xs:element name="subqueryResults" type="subqueryResultsDefinition"/>
+	<!--  -->
+</xs:schema>

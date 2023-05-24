@@ -1,0 +1,49 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/ronl-da6e58c6e8ea4fea47cedfaaec0368567464976b",
+    "creatiedatum" : "2022-02-01T09:46:00.000Z",
+    "geldigheid" : {
+      "begindatum" : "2022-02-02"
+    },
+    "verantwoordelijke" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1090",
+      "label" : "ministerie van Financiën"
+    },
+    "publisher" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/organisatie_onbekend",
+      "label" : "Onbekend"
+    },
+    "opsteller" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1010",
+      "label" : "ministerie van Algemene Zaken"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "omschrijvingen" : [ "Besluit op een verzoek om informatie over het aantal fiscale strafbeschikkingen dat in de afgelopen 5 jaar is opgelegd op grond van artikel 194 van het Douanewetboek van de Unie, artikel 11:5 van de Algemene douaneregeling en artikel 10:11 van de Algemene douanewet. Het verzoek is gedaan op basis van de Wet openbaarheid van bestuur (Wob)." ],
+    "titelcollectie" : {
+      "officieleTitel" : "Besluit op Wob-verzoek over toepassing artikel 11.5 van de Algemene douaneregeling (Adr)"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "type" : "overheid:Informatietype",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_4f50ca9c",
+        "label" : "beslissing op Wob-/Woo-verzoek",
+        "bronwaarde" : "wob-verzoek"
+      } ],
+      "themas" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/id/thema_onbekend",
+        "label" : "Onbekend"
+      } ]
+    }
+  },
+  "plooiIntern" : {
+    "dcnId" : "ronl-da6e58c6e8ea4fea47cedfaaec0368567464976b",
+    "aanbieder" : "Rijksoverheid.nl",
+    "extId" : [ "b47815af-2b19-4268-a961-58b9591f4477" ],
+    "sourceLabel" : "ronl"
+  }
+}

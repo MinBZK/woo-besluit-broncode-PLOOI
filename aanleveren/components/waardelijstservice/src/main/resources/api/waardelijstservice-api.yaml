@@ -1,0 +1,57 @@
+openapi: 3.0.3
+
+info:
+  title: Waardelijstservice
+  description: Beschrijving van de API van de waardelijstservice.
+  version: 1.0.0
+
+paths:
+  /waardelijsten:
+    parameters:
+      - in: query
+        name: soort
+        description: De soort waardelijst welke moet worden geraadpleegd.
+        required: true
+        schema:
+          type: string
+          enum:
+            - gemeenten
+            - caribische_openbare_lichamen
+            - ministeries
+            - overige_overheidsorganisaties
+            - provincies
+            - waterschappen
+            - documentsoorten
+            - filetypes
+            - talen
+            - documenthandelingen
+            - toplijst
+        example: gemeenten
+    get:
+      description: Geef de aangegeven waardelijst.
+      operationId: getWaardelijst
+      responses:
+        200:
+          description: De waardelijst die wordt opgevraagd.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Waarde'
+        default:
+          description: Er is een fout opgetreden.
+
+components:
+  schemas:
+    Waarde:
+      type: object
+      properties:
+        identifier:
+          description: De identifier van een waarde uit de waardelijst.
+          type: string
+          example: https://identifier.overheid.nl/tooi/id/gemeente/gm0003
+        waarde:
+          description: Een label die de waarde uit de waardelijst beschrijft.
+          type: string
+          example: gemeente Appingedam

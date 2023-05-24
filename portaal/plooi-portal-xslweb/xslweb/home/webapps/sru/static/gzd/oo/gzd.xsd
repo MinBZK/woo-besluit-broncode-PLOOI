@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Gemeenschappelijke zoekdienst Recordschema (gzd) for SRU.  september 2010.
+
+This schema allows you to include
+1. original data from XML message   
+2. enriched data by the search service
+
+
+An instance could look like this:
+
+<Recordschema>
+<originalData>
+<overheidbm:bekendmakingdocument>
+<overheidbm:meta>
+<owmskern>
+    <dcterms:identifier></dcterms:identifier>
+    <dcterms:title></dcterms:title>
+    <dcterms:type scheme="overheid:Informatietype">regeling</dcterms:type>
+    <dcterms:creator scheme="overheid:Gemeente">'s-Gravenhage</dcterms:creator>
+    ...
+</owmskern>
+<owmsmantel>
+	<dcterms:alternative></dcterms:alternative>
+	<dcterms:description></dcterms:description>
+	...
+</owmsmantel>
+<overheidbm:bekendmakingenmeta>
+        ...
+<overheidbm:bekendmakingenmeta>
+</overheidbm:meta>
+<overheidbm:body>
+    ...
+</overheidbm:body>
+</overheidbm:bekendmakingdocument>
+</originalData>
+<enrichedData>
+    <organisatieType>gemeente</organisatieType>	
+    ...
+</enrichedData>
+</Recordschema>
+
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://standaarden.overheid.nl/sru" elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="http://standaarden.overheid.nl/sru">
+
+  <!-- Root element declarations:	-->
+  <xs:element name="gzd" type="gzdDataComplexType"/>
+  <!-- End root element declarations:	-->
+
+  <xs:complexType name="gzdDataComplexType">
+    <xs:sequence>
+      <!-- XML Schemas for contentmodels are available at http://standaarden.overheid.nl/contentmodellen/ -->
+      <xs:element name="originalData">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="record">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="identifier" type="xs:string"/>
+                  <xs:element name="organisatieType">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value="adviescollege"/>
+                        <xs:enumeration value="caribischnederland"/>
+                        <xs:enumeration value="hogecollegevanstaat"/>
+                        <xs:enumeration value="ministerie"/>
+                        <xs:enumeration value="organisatie"/>
+                        <xs:enumeration value="politieendbrandweer"/>
+                        <xs:enumeration value="provincie"/>
+                        <xs:enumeration value="rechterlijkemacht"/>
+                        <xs:enumeration value="statengeneraal"/>
+                        <xs:enumeration value="waterschap"/>
+                        <xs:enumeration value="gemeente"/>
+                        <xs:enumeration value="gemeenschappelijkeregeling"/>
+                        <xs:enumeration value="zelfstandigbestuursorgaan"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="naam" type="xs:string" minOccurs="0"/>
+                  <xs:element minOccurs="0" name="subnaam" type="xs:string"/>
+                  <xs:element minOccurs="0" name="afkorting" type="xs:string"/>
+                  <xs:element minOccurs="0" name="titel" type="xs:string"/>
+                  <xs:element minOccurs="0" name="citeertitel" type="xs:string"/>
+                  <xs:element minOccurs="0" name="beschrijving" type="xs:string"/>
+                  <xs:element minOccurs="0" name="omvatPlaatsen">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element maxOccurs="unbounded" name="plaats" type="xs:string"/>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="url" type="xs:anyURI"/>
+                  <xs:element name="topOrganisatie" type="organisatieRefType"> </xs:element>
+                  <xs:element minOccurs="0" name="organisatorischeInbedding">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element maxOccurs="unbounded" name="onderdeelVan" type="organisatieRefType"/>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="bezoekAdres" type="adresType" minOccurs="0"/>
+                  <xs:element name="postAdres" type="adresType" minOccurs="0"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <!-- Search service enriched metadata on the basis of the original input -->
+      <xs:element name="enrichedData" type="freeElementsComplexType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="freeElementsComplexType">
+    <xs:sequence>
+      <xs:any maxOccurs="unbounded" namespace="##any" processContents="lax"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="adresType">
+    <xs:sequence>
+      <xs:element ref="straat" minOccurs="0"/>
+      <xs:element ref="huisnummer" minOccurs="0"/>
+      <xs:element name="toevoeging" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="250"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element ref="huisletter" minOccurs="0"/>
+      <xs:element ref="postbus" minOccurs="0"/>
+      <xs:element ref="postcode" minOccurs="0"/>
+      <xs:element ref="plaats" minOccurs="0"/>
+      <xs:element ref="regio" minOccurs="0"/>
+      <xs:element ref="land" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="organisatieRefType">
+    <xs:sequence>
+      <xs:element ref="identifier"/>
+      <xs:element ref="naam" minOccurs="0"/>
+      <xs:element ref="url"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="plaatsType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="1024"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="postcode">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="50"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="postbus">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="50"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="huisnummer">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="50"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="straat">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:minLength value="1"/>
+        <xs:maxLength value="250"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="plaats">
+    <xs:simpleType>
+      <xs:restriction base="plaatsType">
+        <xs:minLength value="1"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="huisletter">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="250"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="regio">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="250"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="land">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="250"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="identifier" type="xs:string"/>
+
+  <xs:element name="url" type="xs:anyURI"/>
+
+  <xs:element name="naam">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:minLength value="1"/>
+        <xs:maxLength value="1024"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+</xs:schema>

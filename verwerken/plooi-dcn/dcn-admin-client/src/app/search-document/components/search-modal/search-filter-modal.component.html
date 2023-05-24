@@ -1,0 +1,29 @@
+<div id="modal-98761" class="modal modal--fixedpane is-open" role="alert" tabindex="0">
+    <div class="modal__inner" *ngIf="!data.error">
+        <div class="modal__content" style="height: 600px;">
+            <h2>{{data.title}}</h2>
+
+            <ul class="list--unstyled">
+                <li class=" js-filterresults__result" *ngFor="let item of data.items">
+                    <div class="input-checkbox">
+                        <input class="checkbox__input" type="checkbox" id="{{item.name}}" name="name"
+                               data-value="lnv"
+                               value="" (change)="checkValue($event)" [checked]="item.selected"/>
+                        <label class="checkbox__label" for="{{item.name}}">
+                            {{item.name | titlecase}} ( {{(item.count)}} )
+                        </label>
+                    </div>
+                </li>
+            </ul>
+
+
+            <div class="modal__buttonpane">
+                <button type="button" data-handler="close-modal" class="button button--primary"
+                        (click)="applySelection()">Bevestig selectie
+                </button>
+            </div>
+            <button type="button" data-handler="close-modal" class="modal__close" (click)="close()">Sluit modaal
+            </button>
+        </div>
+    </div>
+</div>

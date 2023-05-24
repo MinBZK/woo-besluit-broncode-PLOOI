@@ -1,0 +1,21 @@
+# Default values for plooi-solr-config.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+nameOverride: ""
+fullnameOverride: ""
+
+image:
+  registry: ""
+  pullPolicy: Always
+  # Overrides the image tag whose default is the chart appVersion:
+  tag: latest
+
+podLabels: {}
+
+backup:
+  enabled: no                                                           # disables the backup-job
+
+zookeeper: plooi-solr-zookeeper:2181/solr
+solr: plooi-solr:8983
+collection: plooi

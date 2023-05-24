@@ -1,0 +1,68 @@
+@import "../../colors.scss";
+@import "../../icons.scss";
+@import "../../borders.scss";
+@import "../../breakpoints.scss";
+
+.toaster {
+    position: fixed;
+    // width: 400px;
+    // max-width: 60%;
+    padding: 1em 1em 1em 3.5em;
+    // border-radius: $borderRadiusButton;
+
+    background-color: #eee;
+    z-index: 1000;
+
+    // margin: auto;
+    left: 0;
+    right: 0;
+    // top: 10px;
+
+    animation-duration: .5s;
+    animation-name: slideInTop;
+    color: $darkBlue;
+
+    &--info {
+        // border-bottom: 12px solid $lightBlue;
+        // border-color: $darkBlue;
+        // color: $darkBlue;
+        background: $infoIconBlue;
+        background-color: $lightBlue;
+        background-repeat: no-repeat;
+        background-position: left 1em center;
+        background-size: $iconSizeMedium;
+    }
+
+    &--success {
+        // border-bottom: 12px solid $darkGreen;
+        // color: $darkGreen;
+        background: $iconCheckFilledGreen;
+        background-color: $lightGreen;
+        background-repeat: no-repeat;
+        background-position: left 1em center;
+        background-size: $iconSizeMedium;
+    }
+
+    &--error {
+        // color: $red;
+        // border-bottom: 12px solid $red;
+        background: $iconAlertRed;
+        background-color: $lightRed;
+        background-repeat: no-repeat;
+        background-position: left 1em center;
+        background-size: $iconSizeMedium;
+    }
+}
+
+
+@keyframes slideInTop {
+    from {
+        top: -50px;
+        // opacity: 0;
+    }
+
+    to {
+        top: 0px;
+        // opacity: 1;
+    }
+}

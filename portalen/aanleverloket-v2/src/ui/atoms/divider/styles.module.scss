@@ -1,0 +1,17 @@
+@import "../../colors.scss";
+
+.divider {
+  width: 1px;
+  background-color: $darkBlue;
+  height: 100%;
+
+  &--primary
+  {
+    background-color: $buttonBorderColor;
+  }
+
+  &--verticaal{
+    width: 100%;
+    height: 1px;
+  }
+}

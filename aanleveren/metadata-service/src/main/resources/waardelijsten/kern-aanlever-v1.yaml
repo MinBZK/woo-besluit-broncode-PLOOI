@@ -1,0 +1,170 @@
+openapi: '3.0.2'
+info:
+  title: Waardelijst Documentsoorten t.b.v. aanlevering-Plooi
+  description: |
+    Beschrijft de Documentsoorten t.b.v. aanlevering-Plooi
+  version: '1'
+  contact:
+    email: plooi@koop.overheid.nl
+  termsOfService: https://open.overheid.nl/terms
+  license:
+    name: MIT
+    url: https://open.overheid.nl/license
+components:
+  schemas:
+    Kern:
+      type: string
+      description: |-
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_002fc258` - vergunning
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_06a67c95` - bezwaarschrift
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_0e425c23` - adviesvoorstel
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_10eb451d` - beleidsdocument
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_1986dbe5` - parlementair document
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_1c7656ac` - beschikking tot handhaving
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_26fb182e` - ander besluit van algemene strekking
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_2ab17960` - erkenningsbeschikking
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_2aedadff` - toespraak
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_2c0438f4` - instemmingsbeschikking
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_30e8b503` - concessie
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_3300f29a` - rapport
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_386e74cb` - convenant
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_38ba44de` - evaluatierapport
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_3d782f30` - jaarverslag
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_3eb5572a` - circulaire
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_42e406dd` - vergaderverslag
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_45be34e9` - beschikking tot opleggen boete
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_4efe1293` - inspectierapport
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_566a4430` - beschikking tot opleggen last onder dwangsom
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_5824891d` - subsidieaanvraag
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_5b1055aa` - plan
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_6f49bf34` - onderzoeksrapport
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_7051a61f` - adviesdocument
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_75007d14` - communicatie-uiting
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_7652d853` - brief
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_7ab92a02` - document van burger
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_7eba29ad` - persbericht
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_7f9dffa7` - vergaderstuk
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_8b92eab4` - ambtsbericht
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_8ec8e5e7` - aanvraag ex art. 4.1 Woo
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_8f6ef24c` - in wet benoemd type verzoek
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_9376c730` - beleidsnota
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_93b0d113` - beschikking
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_97f44ea5` - brochure
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_99d3e284` - verantwoordingsrapport
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_9ecc0007` - organisatiegegevens
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_a17ef403` - Handelingen
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_a1dae55d` - termijnagenda
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_a40458df` - adviesaanvraag
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_a55b7649` - beschikking tot opleggen last onder bestuursdwang
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_a6f44748` - jaarplan
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_ab9e91fe` - in specifieke wet genoemd besluit
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_acb44d77` - benoemingsbeschikking
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_aebfec50` - subsidiebeschikking
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_b399a15e` - aanvraag
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_bcaddc61` - beslissing op verzoek art. 4.1 Woo
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_c1956ef0` - aanwijzingsbeschikking
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_c2f56984` - nieuwsbericht
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_cccba364` - voortgangsrapport
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_d4a4792f` - besluitenlijst
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_d506b718` - advies
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_d943ca24` - ontheffingsaanvraag
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_dad2a6ed` - vergunningaanvraag
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_dd451365` - Wob-verzoek
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_de27ae7a` - ingekomen stuk
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_df2cb56e` - zienswijze
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_dfa0ff1f` - begroting
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_e0865e4d` - beslissing op verzoek art. 3 Wob
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_ef935990` - klacht
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_f7dc55d9` - ontheffingsbeschikking
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_f90465b3` - agenda
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_fbaa7e4b` - beleidsregel
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/conceptScheme_d6397666` - publiekrechtelijke handeling
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/conceptScheme_d9fd2dd1` - overheidsinformatie
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_05456b84` - regelgeving
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_0748250c` - documentsoorten Plooi-aanlevering
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_07d7bba3` - <adviesdocument>
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_500d99e1` - <rapport>
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_5b52c7c5` - <beschikking tot handhaving>
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_676504b0` - <vergaderstuk>
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_7a84c572` - <beschikking>
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_a46bfe51` - <beleidsdocument>
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_b32febba` - <communicatie-uiting>
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_e5dd8c45` - <document van burger>
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_056a75e1` - kamerstuk
+      enum:
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_002fc258
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_06a67c95
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_0e425c23
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_10eb451d
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_1986dbe5
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_1c7656ac
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_26fb182e
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_2ab17960
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_2aedadff
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_2c0438f4
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_30e8b503
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_3300f29a
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_386e74cb
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_38ba44de
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_3d782f30
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_3eb5572a
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_42e406dd
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_45be34e9
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_4efe1293
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_566a4430
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_5824891d
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_5b1055aa
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_6f49bf34
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_7051a61f
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_75007d14
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_7652d853
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_7ab92a02
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_7eba29ad
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_7f9dffa7
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_8b92eab4
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_8ec8e5e7
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_8f6ef24c
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_9376c730
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_93b0d113
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_97f44ea5
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_99d3e284
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_9ecc0007
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_a17ef403
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_a1dae55d
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_a40458df
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_a55b7649
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_a6f44748
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_ab9e91fe
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_acb44d77
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_aebfec50
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_b399a15e
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_bcaddc61
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_c1956ef0
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_c2f56984
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_cccba364
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_d4a4792f
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_d506b718
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_d943ca24
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_dad2a6ed
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_dd451365
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_de27ae7a
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_df2cb56e
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_dfa0ff1f
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_e0865e4d
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_ef935990
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_f7dc55d9
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_f90465b3
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_fbaa7e4b
+        - https://identifier.overheid.nl/tooi/def/thes/kern/conceptScheme_d6397666
+        - https://identifier.overheid.nl/tooi/def/thes/kern/conceptScheme_d9fd2dd1
+        - https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_05456b84
+        - https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_0748250c
+        - https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_07d7bba3
+        - https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_500d99e1
+        - https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_5b52c7c5
+        - https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_676504b0
+        - https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_7a84c572
+        - https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_a46bfe51
+        - https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_b32febba
+        - https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_e5dd8c45
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_056a75e1

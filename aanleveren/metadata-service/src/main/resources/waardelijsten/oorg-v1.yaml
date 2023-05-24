@@ -1,0 +1,26 @@
+openapi: '3.0.2'
+info:
+  title: Waardelijst overige overheidsorganisatie compleet
+  description: |
+    Beschrijft alle overige overheidsorganisatie die voor zover bekend op de zichtdatum bestaan hebben, bestaan of zullen bestaan
+  version: '1'
+  contact:
+    email: plooi@koop.overheid.nl
+  termsOfService: https://open.overheid.nl/terms
+  license:
+    name: MIT
+    url: https://open.overheid.nl/license
+components:
+  schemas:
+    Oorg:
+      type: string
+      description: |-
+        * `https://identifier.overheid.nl/tooi/id/oorg/oorg10000` - Verenigde Vergadering
+        * `https://identifier.overheid.nl/tooi/id/oorg/oorg10001` - Eerste Kamer
+        * `https://identifier.overheid.nl/tooi/id/oorg/oorg10002` - Tweede Kamer
+        * `https://identifier.overheid.nl/tooi/id/oorg/oorg10003` - Rijksdienst voor het Cultureel Erfgoed
+      enum:
+        - https://identifier.overheid.nl/tooi/id/oorg/oorg10000
+        - https://identifier.overheid.nl/tooi/id/oorg/oorg10001
+        - https://identifier.overheid.nl/tooi/id/oorg/oorg10002
+        - https://identifier.overheid.nl/tooi/id/oorg/oorg10003

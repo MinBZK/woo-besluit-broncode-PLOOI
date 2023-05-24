@@ -1,0 +1,20 @@
+{
+  "plooiIntern" : {
+    "dcnId" : "ronl-f858940f049f3175619fec68bf1c4509a1a16ef6",
+    "extId" : [ "40f4b17f-9f23-4fa0-a2ad-cb758fe454c3" ],
+    "sourceLabel" : "ronl"
+  },
+  "versies" : [ {
+    "nummer" : 1,
+    "oorzaak" : "aanlevering",
+    "bestanden" : [ {
+      "gepubliceerd" : false,
+      "label" : "xml",
+      "url" : "https://opendata.rijksoverheid.nl/v1/sources/rijksoverheid/documents/40f4b17f-9f23-4fa0-a2ad-cb758fe454c3",
+      "mime-type" : "application/xml",
+      "bestandsnaam" : "40f4b17f-9f23-4fa0-a2ad-cb758fe454c3.xml",
+      "titel" : "Aanvraagformulieren tariefschorsing of -contingent",
+      "hash" : "c96eec4f59332b3e2e6895dc0dc9f56024469356"
+    } ]
+  } ]
+}

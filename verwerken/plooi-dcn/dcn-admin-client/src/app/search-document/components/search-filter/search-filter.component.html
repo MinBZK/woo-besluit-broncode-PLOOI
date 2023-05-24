@@ -1,0 +1,223 @@
+<script src="search-filter.component.ts"></script>
+<div class="container row jumbotron " id="content" role="main">
+    <div class="row row--spacer u-margin-top-24">
+        <form (ngSubmit)="onSubmit()" [formGroup]="searchForm" class="form" novalidate>
+            <div class="form__row ">
+                <fieldset>
+                    <legend>Zoek document(en)</legend>
+                    <div class="form__row">
+                        <div class="form__element radiogroup inline-group" id="radio-group">
+                            <input (click)="onChange()" class="radio__input" formControlName="searchType" id="plooi"
+                                   name="searchType"
+                                   type="radio" value="plooi"/>
+                            <label class="radio__label" for="plooi">Plooi_ID</label>
+                            <input (click)="onChange()" class="radio__input" formControlName="searchType"
+                                   id="externalId"
+                                   name="searchType" type="radio" value="externalId"/>
+                            <label class="radio__label" for="externalId">External_ID</label>
+                            <input (click)="onChange()" class="radio__input" formControlName="searchType" id="index"
+                                   name="searchType"
+                                   type="radio" value="index"/>
+                            <label class="radio__label" for="index">Index</label>
+                            <input (click)="onChange()" class="radio__input" formControlName="searchType"
+                                   id="geavanceerd"
+                                   name="searchType" type="radio" value="geavanceerd"/>
+                            <label class="radio__label" for="geavanceerd">Geavanceerd</label>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            <div *ngIf="this.searchForm.get('searchType').value == 'plooi'">
+                <div class="form__row">
+                    <fieldset>
+                        <label class="form__label--accent form__label--secondary" for="input-text-1">Plooi ID</label>
+                        <div class="form__row form__row--slim">
+                            <input aria-invalid="false"
+                                   class="input-text"
+                                   formControlName="plooiId"
+                                   id="input-text-1"
+                                   (focusout)="extractPlooiId()"
+                                   name="1"
+                                   placeholder="Bijv: ronl-d9d80f3d0fb042bf7fd2eea4708b937f"
+                                   required="required"
+                                   type="text"/>
+                        </div>
+                    </fieldset>
+                    <div class="alert alert&#45;&#45;warning " role="alert" *ngIf="errorMessage">
+                        <div class="alert__inner">{{this.errorMessage}}</div>
+                    </div>
+                </div>
+                <div class="form__row">
+                    <p>
+                        Geef in dit veld de interne identifier die door plooi aan dit document is toegekend, te vinden
+                        in de URL.
+                    </p>
+                </div>
+            </div>
+            <div *ngIf="this.searchForm.get('searchType').value == 'externalId'">
+                <div class="form__row">
+                    <label class="form__label&#45;&#45;accent form__label&#45;&#45;secondary"
+                           for="select">Bron</label>
+                    <div class="select-custom ">
+                        <select class="select-custom" formControlName="bron" id="select">
+                            <option value="">Selecteer bron</option>
+                            <option *ngFor="let bron of bronList" [ngValue]=bron>{{bron | titlecase }}</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form__row form__row--slim">
+                    <label class="form__label&#45;&#45;accent form__label&#45;&#45;secondary"
+                           for="input-text-2">Bron ID</label>
+                    <input aria-invalid="false"
+                           class="input input-text" formControlName="externalId"
+                           id="input-text-2"
+                           name="1"
+                           placeholder="bron_ID, voorbeeld: kv-tk-2021Z11394"
+                           required="required"
+                           type="text"/>
+                </div>
+                <div class="alert alert&#45;&#45;warning " role="alert" *ngIf="errorMessage">
+                    <div class="alert__inner">{{this.errorMessage}}</div>
+                </div>
+                <div class="form__row form__row--slim">
+                    <p>
+                        Geef in het tweede veld de identifier die de leverancier aan het document heeft gegeven en
+                        waarmee deze in plooi is te vinden.
+                    </p>
+                </div>
+            </div>
+            <div *ngIf="this.searchForm.get('searchType').value == 'index'"
+                 class="form__row form__row&#45;&#45;medium columns columns&#45;&#45;dominant">
+                <div class="column">
+                    <fieldset>
+                        <div class="form__row&#45;&#45;slim">
+                            <label class="form__label&#45;&#45;accent form__label&#45;&#45;secondary"
+                                   for="input-text-4">Titel</label>
+                            <input aria-invalid="false"
+                                   class="input input-text" formControlName="title"
+                                   id="input-text-4"
+                                   name="4"
+                                   placeholder="title"
+                                   type="text"/>
+                        </div>
+                        <div class="form__row form__row&#45;&#45;slim">
+                            <label class="form__label&#45;&#45;accent form__label&#45;&#45;secondary"
+                                   for="data-from">Startdatum</label>
+                            <div class="datepicker">
+                                <input class="datepicker__input "
+                                       value="14-02-2020" data-date="14-02-2020"
+                                       [max]="getCurrentDate()"
+                                       data-config="{ &quot;dateFormat&quot; : &quot;dd-mm-yy&quot;, &quot;yearrange&quot;: &quot;c-50:c+5&quot; }"
+                                       data-decorator="init-datepicker"
+                                       data-decorator-initialized="true" data-placeholder="Bijv: 06-10-1960"
+                                       formControlName="fromDate"
+                                       id="data-from"
+                                       (change)="applyValidation()"
+                                       name="nameplaceholder" type="date">
+                                <input class="datepicker__hiddenfield" name="date-input--3" type="hidden"
+                                       value="19-04-2020">
+                            </div>
+                        </div>
+                        <div class="form__row form__row&#45;&#45;slim">
+                            <label class="form__label&#45;&#45;accent form__label&#45;&#45;secondary"
+                                   for="data-to">Einddatum</label>
+                            <div class="datepicker">
+                                <input class="datepicker__input "
+                                       data-config="{ &quot;dateFormat&quot; : &quot;dd-mm-yy&quot;, &quot;yearrange&quot;: &quot;c-50:c+5&quot; }"
+                                       data-date="19-04-2020" data-decorator="init-datepicker"
+                                       [max]="getCurrentDate()"
+                                       data-decorator-initialized="true"
+                                       formControlName="toDate"
+                                       id="data-to"
+                                       (change)="applyValidation()"
+                                       name="nameplaceholder" type="date"
+                                       value="2021-11-19">
+                                <input class="datepicker__hiddenfield" name="date-input--3" type="hidden"
+                                       value="19-04-2020">
+                            </div>
+                        </div>
+                        <div *ngIf="validationError.isError" class="alert alert--warning " role="alert">
+                            <div class="alert__inner">{{ validationError.errorMessage }}</div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="column">
+                    <div class="form__row form__row--slim">
+                        <div class="subselection " data-decorator="init-form-subselection"
+                             data-config='{ "type": "span", "hiddenValueField": true }'>
+
+                            <label class="form__label&#45;&#45;accent form__label&#45;&#45;secondary"
+                                   for="data-to">Organisatie</label>
+                            <div *ngFor="let org of selectedOrgs" aria-live="polite" class="subselection__summary ">
+                            <span class="subselection__summaryitem" data-linkedid="option-1777778">
+                                {{org.name | titlecase}}<a id="{{org.name}}" class="subselection__summaryitem__remove"
+                                                      (click)="removeSelectedOrganization($event)">
+                      <span class="visually-hidden">Verwijder filter: </span>
+                            </a></span>
+                            </div>
+                            <div class="subselection " data-decorator="init-form-subselection">
+                                <button (click)="openOrganizationsModal()" class="subselection__trigger is-empty"
+                                        data-handler="open-modal"
+                                        type="button">
+                                    Selecteer organisatie(s)
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__row form__row--slim">
+                        <label class="form__label&#45;&#45;accent form__label&#45;&#45;secondary"
+                               for="data-to">Documentsoort</label>
+                        <div *ngFor="let type of selectedTypes" aria-live="polite" class="subselection__summary ">
+                            <span class="subselection__summaryitem" data-linkedid="option-1777778">
+                                {{type.name | titlecase}}<a id="{{type.name}}" class="subselection__summaryitem__remove"
+                                                       (click)="removeTypeSelection($event)">
+                      <span class="visually-hidden">Verwijder filter: </span></a></span>
+                        </div>
+                        <div class="subselection " data-decorator="init-form-subselection">
+                            <button (click)="openDocumentTypesModal()" class="subselection__trigger is-empty"
+                                    data-handler="open-modal"
+                                    type="button">
+                                Selecteer documentsoort(en)
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="this.searchForm.get('searchType').value == 'geavanceerd'">
+                <div class="form__row">
+                    <fieldset>
+                        <label class="form__label--accent form__label--medium" for="input-text-3">Query</label>
+                        <div class="form__row">
+                            <input aria-invalid="false"
+                                   class="input input-text" formControlName="query"
+                                   id="input-text-3"
+                                   name="3"
+                                   placeholder="bijvoorbeeld: title:abc"
+                                   required="required"
+                                   type="text"/>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="form__row form__row--slim">
+                    <p>
+                        Geef in bovenstaand veld een Solr query om documenten op te zoeken.
+                    </p>
+                </div>
+            </div>
+            <div class="form__row form__rowsubmit">
+
+                <div class="form__rowsubmit__item">
+                    <button [disabled]="searchForm.invalid" class="button icon-bg icon--searchBlue button--slim">
+                        Zoeken
+                    </button>
+                </div>
+                <div class="form__rowsubmit__item">
+                    <button (click)="clearSearch()" [disabled]="!searchForm.dirty && selectedOrgs.length == 0 && selectedTypes.length == 0"
+                            class="button icon-bg icon--bin button--slim">
+                        Leegmaken
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+image:
+  registry:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+scheduleActive: yes
+extraJvmArgs: "-Xms2g -Xmx6g -javaagent:/app/libs/opentelemetry-javaagent-1.13.1.jar -Dotel.instrumentation.apache-camel.experimental-span-attributes=true"
+
+podLabels:
+  tier: vertrouwd
+  group: plooi-prod
+  pgo-cluster-policy: allow
+  ingress-controller-frontoffice-policy: allow
+  egress-frontoffice-policy: allow
+
+resources:
+  limits:
+    cpu: 4
+    memory: 8Gi
+  requests:
+    cpu: 2
+    memory: 8Gi
+
+repositoryService: repository-production-service
+registrationService: registration-production-service
+
+database:
+  secret: plooi-postgres-pguser-dcn
+
+aanlo:
+  host: ftp.koop.overheid.nl
+  secret:SSSSSSSSSS
+  schedule: 0+0/5+*+?+*+*+*
+
+ingress:
+  ingressClassName: nginx
+  hostname:SSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+metrics:
+  enabled: true
+  serviceMonitor:
+    enabled: true
+    namespace: "koop-plooi-prd"
+    interval: "10s"
+
+opentelemetry:
+  enabled: yes
+  traces:
+    exporter: jaeger
+  metrics:
+    exporter: none
+  exporter:
+    jaeger:
+      endpoint:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS

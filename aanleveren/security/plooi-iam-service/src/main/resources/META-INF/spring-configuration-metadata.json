@@ -1,0 +1,20 @@
+{
+  "properties": [
+    {
+      "name": "plooi-iam-service.key-store",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "plooi-iam-service.key-password",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "plooi-iam-service.ca-key-location",
+      "type": "java.security.interfaces.RSAPublicKey"
+    },
+    {
+      "name": "plooi-iam-service.allowed-redirect-uris",
+      "type": "java.util.List"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.7</version>
+        <relativePath /> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>nl.overheid.koop.plooi</groupId>
+    <artifactId>dictionary-service</artifactId>
+    <version>1.0.4-SNAPSHOT</version>
+    <name>PLOOI Shared TOOI dictionaries service</name>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <docker.registry.org></docker.registry.org>
+        <docker.registry.hub></docker.registry.hub>
+        <docker.tag.version>latest</docker.tag.version>
+        <docker.tag.extra>latest</docker.tag.extra>
+        <!--
+             https://spring.io/projects/spring-boot
+             NB DON'T FORGET TO ALSO UPDATE THE VERSION IN THE PARENT ABOVE!
+             Also sync the Spring and Jackson versions to dictionary-specification:
+         -->
+        <springboot.version>2.7.7</springboot.version>
+        <!-- https://github.com/hawtio/hawtio/releases -->
+        <hawtio-springboot.version>2.16.3</hawtio-springboot.version>
+        <!-- https://github.com/logfellow/logstash-logback-encoder -->
+        <logstash-logback-encoder.version>7.2</logstash-logback-encoder.version>
+
+        <!-- openapi-generator version synced from dictionary-specification -->
+        <openapi-generator-maven-plugin.version>6.2.0</openapi-generator-maven-plugin.version>
+
+        <!-- plugin versions -->
+        <!-- https://github.com/GoogleContainerTools/jib/tree/master/jib-maven-plugin -->
+        <jib-maven-plugin.version>3.3.1</jib-maven-plugin.version>
+        <maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
+        <maven-failsafe-plugin.version>3.0.0-M7</maven-failsafe-plugin.version>
+        <maven-jacoco-plugin.version>0.8.8</maven-jacoco-plugin.version>
+    </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>koop-plooi-releases</id>
+            <url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+        </repository>
+        <snapshotRepository>
+            <id>koop-plooi-snapshots</id>
+            <url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>koop-plooi-releases</id>
+            <url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>koop-plooi-snapshots</id>
+            <url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>nl.overheid.koop.plooi</groupId>
+            <artifactId>dictionary-specification</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>nl.overheid.koop.plooi</groupId>
+            <artifactId>swagger-ui-support</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <!-- Spring Boot -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>io.hawt</groupId>
+            <artifactId>hawtio-springboot</artifactId>
+            <version>${hawtio-springboot.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.opentelemetry.javaagent</groupId>
+            <artifactId>opentelemetry-javaagent</artifactId>
+            <version>1.13.1</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- logging -->
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>${logstash-logback-encoder.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-remote-resources-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>process</goal>
+                        </goals>
+                        <configuration>
+                            <resourceBundles>
+                                <resourceBundle>nl.overheid.koop.plooi:dictionary-specification:${project.version}</resourceBundle>
+                            </resourceBundles>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.openapitools</groupId>
+                <artifactId>openapi-generator-maven-plugin</artifactId>
+                <version>${openapi-generator-maven-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <inputSpec>${project.build.directory}/maven-shared-archive-resources/openapi/dictionary.yaml</inputSpec>
+                            <generatorName>spring</generatorName>
+                            <output>${project.build.directory}/generated-sources/</output>
+                            <generateModels>false</generateModels>
+                            <generateSupportingFiles>true</generateSupportingFiles>
+                            <supportingFilesToGenerate>ApiUtil.java</supportingFilesToGenerate>
+                            <modelPackage>nl.overheid.koop.plooi.model.dictionary.model</modelPackage>
+                            <apiPackage>nl.overheid.koop.plooi.model.dictionary.service</apiPackage>
+                            <configOptions>
+                                <delegatePattern>true</delegatePattern>
+                                <java11>true</java11>
+                                <dateLibrary>java8</dateLibrary>
+                                <openApiNullable>false</openApiNullable>
+                                <documentationProvider>none</documentationProvider>
+                                <annotationLibrary>none</annotationLibrary>
+                            </configOptions>
+                            <configHelp>false</configHelp>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>build-info</goal>
+                        </goals>
+                        <configuration>
+                            <excludes>
+                                <exclude>
+                                    <groupId>org.springframework.boot</groupId>
+                                    <artifactId>spring-boot-configuration-processor</artifactId>
+                                </exclude>
+                            </excludes>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>${jib-maven-plugin.version}</version>
+                <configuration>
+                    <skip>false</skip>
+                    <from>
+                        <image>${docker.registry.hub}eclipse-temurin:17-alpine</image>
+                    </from>
+                    <to>
+                        <image>${docker.registry.org}${project.artifactId}:${docker.tag.version}</image>
+                        <tags>
+                            <tag>${docker.tag.extra}</tag>
+                        </tags>
+                    </to>
+                    <container>
+                        <jvmFlags>
+                            <jvmFlag>-server</jvmFlag>
+                            <jvmFlag>-Dspring.profiles.active=default</jvmFlag>
+                        </jvmFlags>
+                    </container>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <activatedProperties>dev</activatedProperties>
+            </properties>
+        </profile>
+    </profiles>
+
+</project>

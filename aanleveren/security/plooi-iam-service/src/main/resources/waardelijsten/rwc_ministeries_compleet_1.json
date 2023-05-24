@@ -1,0 +1,1935 @@
+[
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/hv_04793043",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/HistorischeVersie",
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Justitie"
+      }
+    ],
+    "http://www.w3.org/ns/prov#invalidatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2010-12-01T00:00:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#specializationOf": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1058"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "MinJus"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/einddatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2010-11-30"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1058"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Justitie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Justitie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "justitie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1058"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Justitie"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Veiligheid_en_Justitie"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/minjenv"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Justitie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Justitie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "justitie"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/hv_04795600",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/HistorischeVersie",
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Veiligheid en Justitie"
+      }
+    ],
+    "http://www.w3.org/ns/prov#invalidatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2018-01-01T00:00:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#specializationOf": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1058"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "VenJ"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/einddatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2017-12-31"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1058"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Veiligheid en Justitie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Veiligheid en Justitie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "veiligheid en justitie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1058"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Justitie"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Veiligheid_en_Justitie"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/minjenv"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Veiligheid en Justitie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Veiligheid en Justitie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "veiligheid en justitie"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/hv_05434137",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/HistorischeVersie",
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Economische Zaken"
+      }
+    ],
+    "http://www.w3.org/ns/prov#invalidatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2018-01-01T00:00:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#specializationOf": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1045"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "EZ"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/einddatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2017-12-31"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1045"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Economische Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Economische Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "economische zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1045"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Economische_Zaken"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Economische_Zaken_Landbouw_en_Innovatie"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/minezk"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Economische Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Economische Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "economische zaken"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/hv_06784634",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/HistorischeVersie",
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Infrastructuur en Milieu"
+      }
+    ],
+    "http://www.w3.org/ns/prov#invalidatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2018-01-01T00:00:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#specializationOf": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1130"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "IenM"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/einddatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2017-12-31"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1130"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Infrastructuur en Milieu"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Infrastructuur en Milieu"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "infrastructuur en milieu"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1130"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Infrastructuur_en_Milieu"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/minienw"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Infrastructuur en Waterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Infrastructuur en Milieu"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "infrastructuur en milieu"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/hv_17252319",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/HistorischeVersie",
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Economische Zaken, Landbouw en Innovatie"
+      }
+    ],
+    "http://www.w3.org/ns/prov#invalidatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2013-01-01T00:00:00"
+      }
+    ],
+    "http://www.w3.org/ns/prov#specializationOf": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1045"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "ELenI"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/einddatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2012-12-31"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1045"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Economische Zaken, Landbouw en Innovatie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Economische Zaken, Landbouw en Innovatie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "economische zaken, landbouw en innovatie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1045"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Economische_Zaken"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Economische_Zaken_Landbouw_en_Innovatie"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/minezk"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Economische Zaken, Landbouw en Innovatie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Economische Zaken, Landbouw en Innovatie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "economische zaken, landbouw en innovatie"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre0170",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Verkeer en Waterstaat"
+      }
+    ],
+    "http://www.w3.org/ns/prov#invalidatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2010-10-14T00:00:00"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "VW"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/einddatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2010-10-13"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "0170"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Verkeer en Waterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Verkeer en Waterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "verkeer en waterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre0170"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Verkeer_en_Waterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Verkeer en Waterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Verkeer en Waterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "verkeer en waterstaat"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre0180",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Volkshuisvesting, Ruimtelijke Ordening en Milieubeheer"
+      }
+    ],
+    "http://www.w3.org/ns/prov#invalidatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2010-10-14T00:00:00"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "VROM"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/einddatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2010-10-13"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "0180"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Volkshuisvesting, Ruimtelijke Ordening en Milieubeheer"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Volkshuisvesting, Ruimtelijke Ordening en Milieubeheer"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "volkshuisvesting, ruimtelijke ordening en milieubeheer"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre0180"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Volkshuisvesting,_Ruimtelijke_Ordening_en_Milieubeheer"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Volkshuisvesting, Ruimtelijke Ordening en Milieubeheer"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Volkshuisvesting, Ruimtelijke Ordening en Milieubeheer"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "volkshuisvesting, ruimtelijke ordening en milieubeheer"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1010",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Algemene Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "AZ"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1010"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Algemene Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Algemene Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "algemene zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1010"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Algemene_Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Algemene Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Algemene Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "algemene zaken"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1013",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Buitenlandse Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "BZ"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/begindatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1798-03-12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1013"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Buitenlandse Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Buitenlandse Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "buitenlandse zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1013"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Buitenlandse_Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Buitenlandse Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Buitenlandse Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "buitenlandse zaken"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1018",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Defensie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "Def"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1018"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Defensie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Defensie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "defensie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1018"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Defensie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Defensie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Defensie"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "defensie"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1025",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Volksgezondheid, Welzijn en Sport"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "VWS"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1025"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Volksgezondheid, Welzijn en Sport"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Volksgezondheid, Welzijn en Sport"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "volksgezondheid, welzijn en sport"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1025"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Volksgezondheid,_Welzijn_en_Sport"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Volksgezondheid, Welzijn en Sport"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Volksgezondheid, Welzijn en Sport"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "volksgezondheid, welzijn en sport"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1034",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Binnenlandse Zaken en Koninkrijksrelaties"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "BZK"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1034"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Binnenlandse Zaken en Koninkrijksrelaties"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Binnenlandse Zaken en Koninkrijksrelaties"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "binnenlandse zaken en koninkrijksrelaties"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1034"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Binnenlandse_Zaken_en_Koninkrijksrelaties"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Binnenlandse Zaken en Koninkrijksrelaties"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Binnenlandse Zaken en Koninkrijksrelaties"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "binnenlandse zaken en koninkrijksrelaties"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1040",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Economische Zaken"
+      }
+    ],
+    "http://www.w3.org/ns/prov#invalidatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2010-10-14T00:00:00"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "EZ"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/einddatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2010-10-13"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1040"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Economische Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Economische Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "economische zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1040"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Economische Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Economische Zaken"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "economische zaken"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1045",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Economische Zaken en Klimaat"
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2010-10-14T00:00:00"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "EZK"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/begindatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2010-10-14"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1045"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Economische Zaken en Klimaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Economische Zaken en Klimaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "economische zaken en klimaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1045"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Economische_Zaken"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Economische_Zaken_Landbouw_en_Innovatie"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/minezk"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Economische Zaken en Klimaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Economische Zaken en Klimaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "economische zaken en klimaat"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1058",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Justitie en Veiligheid"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "JenV"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1058"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Justitie en Veiligheid"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Justitie en Veiligheid"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "justitie en veiligheid"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1058"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Justitie"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Veiligheid_en_Justitie"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/minjenv"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Justitie en Veiligheid"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Justitie en Veiligheid"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "justitie en veiligheid"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1073",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Sociale Zaken en Werkgelegenheid"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "SZW"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1073"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Sociale Zaken en Werkgelegenheid"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Sociale Zaken en Werkgelegenheid"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "sociale zaken en werkgelegenheid"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1073"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Sociale_Zaken_en_Werkgelegenheid"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Sociale Zaken en Werkgelegenheid"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Sociale Zaken en Werkgelegenheid"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "sociale zaken en werkgelegenheid"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1090",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Financiën"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "Fin"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1090"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Financiën"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Financiën"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "financiën"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1090"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Financien"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Financiën"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Financiën"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "financiën"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1109",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Onderwijs, Cultuur en Wetenschap"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "OCW"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1109"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Onderwijs, Cultuur en Wetenschap"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Onderwijs, Cultuur en Wetenschap"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "onderwijs, cultuur en wetenschap"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1109"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Onderwijs,_Cultuur_en_Wetenschap"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Onderwijs, Cultuur en Wetenschap"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Onderwijs, Cultuur en Wetenschap"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "onderwijs, cultuur en wetenschap"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1130",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Infrastructuur en Waterstaat"
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2010-10-14T00:00:00"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "IenW"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/begindatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2010-10-14"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1130"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Infrastructuur en Waterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Infrastructuur en Waterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "infrastructuur en waterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1130"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Infrastructuur_en_Milieu"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/minienw"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Infrastructuur en Waterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Infrastructuur en Waterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "infrastructuur en waterstaat"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1150",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Landbouw, Natuur en Voedselkwaliteit"
+      }
+    ],
+    "http://www.w3.org/ns/prov#invalidatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2010-10-14T00:00:00"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "LNV"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/einddatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2010-10-13"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1150"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Landbouw, Natuur en Voedselkwaliteit"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Landbouw, Natuur en Voedselkwaliteit"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "landbouw, natuur en voedselkwaliteit"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1150"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Landbouw, Natuur en Voedselkwaliteit"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Landbouw, Natuur en Voedselkwaliteit"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "landbouw, natuur en voedselkwaliteit"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1153",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Ministerie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ministerie van Landbouw, Natuur en Voedselkwaliteit"
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2017-10-26T00:00:00"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "LNV"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/begindatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2017-10-26"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/ministeriecode": [
+      {
+        "@value": "1153"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Landbouw, Natuur en Voedselkwaliteit"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "ministerie van Landbouw, Natuur en Voedselkwaliteit"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "landbouw, natuur en voedselkwaliteit"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "mnre1153"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_97fd6a12"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Landbouw,_Natuur_en_Voedselkwaliteit"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Landbouw, Natuur en Voedselkwaliteit"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "ministerie van Landbouw, Natuur en Voedselkwaliteit"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "landbouw, natuur en voedselkwaliteit"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/wzg_00821007",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Toestandswijziging"
+    ],
+    "http://www.w3.org/ns/prov#invalidated": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/hv_04793043"
+      }
+    ],
+    "http://www.w3.org/ns/prov#used": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1058"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/heeftGrondslag": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://zoek.officielebekendmakingen.nl/stcrt-2010-16523.html"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/tijdstipWijziging": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2010-12-01T00:00:00"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/wzg_00926444",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Samenvoeging"
+    ],
+    "http://www.w3.org/ns/prov#generated": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1130"
+      }
+    ],
+    "http://www.w3.org/ns/prov#invalidated": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre0170"
+      },
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre0180"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/heeftGrondslag": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://zoek.officielebekendmakingen.nl/stcrt-2010-16525.html"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/tijdstipWijziging": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2010-10-14T00:00:00"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/wzg_01378363",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Afsplitsing"
+    ],
+    "http://www.w3.org/ns/prov#generated": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1153"
+      }
+    ],
+    "http://www.w3.org/ns/prov#used": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1045"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/heeftGrondslag": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://zoek.officielebekendmakingen.nl/stcrt-2017-62723.html"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/tijdstipWijziging": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2017-10-26T00:00:00"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/wzg_05229330",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Toestandswijziging"
+    ],
+    "http://www.w3.org/ns/prov#invalidated": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/hv_04795600"
+      }
+    ],
+    "http://www.w3.org/ns/prov#used": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1058"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/heeftGrondslag": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://zoek.officielebekendmakingen.nl/stcrt-2017-62719.html"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/tijdstipWijziging": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2018-01-01T00:00:00"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/wzg_06434036",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Samenvoeging"
+    ],
+    "http://www.w3.org/ns/prov#generated": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1045"
+      }
+    ],
+    "http://www.w3.org/ns/prov#invalidated": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1040"
+      },
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1150"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/heeftGrondslag": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://zoek.officielebekendmakingen.nl/stcrt-2010-16584.html"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/tijdstipWijziging": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2010-10-14T00:00:00"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/wzg_08160830",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Toestandswijziging"
+    ],
+    "http://www.w3.org/ns/prov#invalidated": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/hv_06784634"
+      }
+    ],
+    "http://www.w3.org/ns/prov#used": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1130"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/heeftGrondslag": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://zoek.officielebekendmakingen.nl/stcrt-2017-62720.html"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/tijdstipWijziging": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2018-01-01T00:00:00"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/wzg_17545147",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Toestandswijziging"
+    ],
+    "http://www.w3.org/ns/prov#invalidated": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/hv_05434137"
+      }
+    ],
+    "http://www.w3.org/ns/prov#used": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1045"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/heeftGrondslag": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://zoek.officielebekendmakingen.nl/stcrt-2017-62722.html"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/tijdstipWijziging": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2018-01-01T00:00:00"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/ministerie/wzg_80272410",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Toestandswijziging"
+    ],
+    "http://www.w3.org/ns/prov#invalidated": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/hv_17252319"
+      }
+    ],
+    "http://www.w3.org/ns/prov#used": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1045"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/heeftGrondslag": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://zoek.officielebekendmakingen.nl/stcrt-2012-23040.html"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/tijdstipWijziging": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2013-01-01T00:00:00"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/set/rwc_ministeries_compleet/1",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Ontology",
+      "https://identifier.overheid.nl/tooi/def/wl/RegisterwaardelijstCompleet"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Waardelijst met alle ministeries die voor zover bekend op de zichtdatum bestaan hebben, bestaan of zullen bestaan."
+      }
+    ],
+    "http://purl.org/pav/derivedFrom": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#imports": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern"
+      },
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/ont"
+      },
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/wl"
+      },
+      {
+        "@id": "http://www.w3.org/ns/prov"
+      },
+      {
+        "@id": "http://purl.org/pav"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "Eerste versie waardelijst Register ministeries compleet op zichtdatum 15-11-2021."
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2021-11-15T17:19:37.205+01:00"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/publicatiedatum": [
+      {
+        "@value": "2021-11-15"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/titel": [
+      {
+        "@value": "Register ministeries compleet"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/verantwoordelijke": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1034"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/zichtdatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-11-15"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/wl/volgnummer": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ]
+  }
+]

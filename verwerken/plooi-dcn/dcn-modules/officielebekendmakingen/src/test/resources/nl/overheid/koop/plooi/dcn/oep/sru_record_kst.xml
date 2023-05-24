@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sru:searchRetrieveResponse xmlns:overheidwetgeving="http://standaarden.overheid.nl/wetgeving/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:cd="http://standaarden.overheid.nl/cup/data" xmlns:sru="http://docs.oasis-open.org/ns/search-ws/sruResponse" xmlns:gzd="http://standaarden.overheid.nl/sru" xmlns:diag="http://docs.oasis-open.org/ns/search-ws/diagnostic" xmlns:facet="http://docs.oasis-open.org/ns/search-ws/facetedResults" xmlns:c="http://standaarden.overheid.nl/collectie/">
+    <sru:version>2.0</sru:version>
+    <sru:numberOfRecords>1</sru:numberOfRecords>
+    <sru:records>
+        <sru:record>
+            <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+            <sru:recordPacking>xml</sru:recordPacking>
+            <sru:recordData>
+                <gzd:gzd>
+                    <gzd:originalData>
+                        <overheidwetgeving:meta>
+                            <overheidwetgeving:owmskern>
+                                <dcterms:identifier>kst-35842-4</dcterms:identifier>
+                                <dcterms:title>Wijziging van het voorstel van wet tot samenvoeging van de gemeenten Boxmeer, Cuijk, Mill en Sint Hubert en Sint Anthonis; Nader rapport; Advies Afdeling advisering Raad van State en Nader rapport</dcterms:title>
+                                <dcterms:language>nl</dcterms:language>
+                                <dcterms:type scheme="OVERHEIDop.Parlementair">Kamerstuk</dcterms:type>
+                                <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+                                <dcterms:modified>2021-05-27</dcterms:modified>
+                            </overheidwetgeving:owmskern>
+                            <overheidwetgeving:owmsmantel>
+                                <dcterms:available>2021-05-26</dcterms:available>
+                                <dcterms:date>2021-05-25</dcterms:date>
+                                <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/kst-35842-4.html">1</dcterms:hasVersion>
+                                <dcterms:issued>2021-05-25</dcterms:issued>
+                                <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Bestuur | Gemeenten</dcterms:subject>
+                            </overheidwetgeving:owmsmantel>
+                            <overheidwetgeving:tpmeta>
+                                <c:product-area>officielepublicaties</c:product-area>
+                                <c:content-area>officielepublicaties/kst/35842</c:content-area>
+                                <overheidwetgeving:adviesRvs>W04.21.0129/I</overheidwetgeving:adviesRvs>
+                                <overheidwetgeving:documentstatus>Opgemaakt na onopgemaakt</overheidwetgeving:documentstatus>
+                                <overheidwetgeving:documenttitel>Advies Afdeling advisering Raad van State en Nader rapport</overheidwetgeving:documenttitel>
+                                <overheidwetgeving:dossiertitel>Wijziging van het voorstel van wet tot samenvoeging van de gemeenten Boxmeer, Cuijk, Mill en Sint Hubert en Sint Anthonis</overheidwetgeving:dossiertitel>
+                                <overheidwetgeving:indiener>Th.C. de Graaf</overheidwetgeving:indiener>
+                                <overheidwetgeving:indiener>K.H. Ollongren</overheidwetgeving:indiener>
+                                <overheidwetgeving:ondernummer>4</overheidwetgeving:ondernummer>
+                                <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                                <overheidwetgeving:publicatienaam>Kamerstuk</overheidwetgeving:publicatienaam>
+                                <overheidwetgeving:vergaderjaar>2020-2021</overheidwetgeving:vergaderjaar>
+                                <overheidwetgeving:dossiernummer>35842</overheidwetgeving:dossiernummer>
+                                <overheidwetgeving:subrubriek scheme="OVERHEIDop.KamerstukTypen">Overig</overheidwetgeving:subrubriek>
+                                <cd:datumTijdstipWijzigingWork>2021-05-27T13:08:55.5655901+02:00</cd:datumTijdstipWijzigingWork>
+                                <cd:datumTijdstipWijzigingExpression>2021-05-27T13:08:55.5655901+02:00</cd:datumTijdstipWijzigingExpression>
+                            </overheidwetgeving:tpmeta>
+                        </overheidwetgeving:meta>
+                    </gzd:originalData>
+                    <gzd:enrichedData>
+                        <gzd:url>https://repository.overheid.nl/frbr/officielepublicaties/kst/35842/kst-35842-4/1/xml/kst-35842-4.xml</gzd:url>
+                        <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/kst-35842-4.html</gzd:preferredUrl>
+                        <gzd:itemUrl manifestation="html">https://repository.overheid.nl/frbr/officielepublicaties/kst/35842/kst-35842-4/1/html/kst-35842-4.html</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadata">https://repository.overheid.nl/frbr/officielepublicaties/kst/35842/kst-35842-4/1/metadata/metadata.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadataowms">https://repository.overheid.nl/frbr/officielepublicaties/kst/35842/kst-35842-4/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="odt">https://repository.overheid.nl/frbr/officielepublicaties/kst/35842/kst-35842-4/1/odt/kst-35842-4.odt</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="pdf">https://repository.overheid.nl/frbr/officielepublicaties/kst/35842/kst-35842-4/1/pdf/kst-35842-4.pdf</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="xml">https://repository.overheid.nl/frbr/officielepublicaties/kst/35842/kst-35842-4/1/xml/kst-35842-4.xml</gzd:itemUrl>
+                        <gzd:timestamp>2021-05-27T13:08:59.215342+02:00</gzd:timestamp>
+                    </gzd:enrichedData>
+                </gzd:gzd>
+            </sru:recordData>
+            <sru:recordPosition>1</sru:recordPosition>
+        </sru:record>
+    </sru:records>
+    <sru:echoedSearchRetrieveRequest>
+        <sru:query>dt.identifier==kst-35842-4</sru:query>
+        <sru:startRecord>1</sru:startRecord>
+        <sru:maximumRecords>10</sru:maximumRecords>
+        <sru:recordXMLEscaping>xml</sru:recordXMLEscaping>
+        <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+    </sru:echoedSearchRetrieveRequest>
+    <sru:resultCountPrecision>info:srw/vocabulary/resultCountPrecision/1/estimate</sru:resultCountPrecision>
+</sru:searchRetrieveResponse>

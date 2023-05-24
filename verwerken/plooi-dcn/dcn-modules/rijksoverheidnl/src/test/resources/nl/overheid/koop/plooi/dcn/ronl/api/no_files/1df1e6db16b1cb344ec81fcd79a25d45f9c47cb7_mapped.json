@@ -1,0 +1,52 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/ronl-1df1e6db16b1cb344ec81fcd79a25d45f9c47cb7",
+    "creatiedatum" : "2017-11-17T16:03:00.000Z",
+    "geldigheid" : {
+      "begindatum" : "2017-11-17"
+    },
+    "verantwoordelijke" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1010",
+      "label" : "ministerie van Algemene Zaken"
+    },
+    "publisher" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/organisatie_onbekend",
+      "label" : "Onbekend"
+    },
+    "opsteller" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1010",
+      "label" : "ministerie van Algemene Zaken"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "omschrijvingen" : [ "Letterlijke tekst van de persconferentie van viceminister-president De Jonge na afloop van de ministerraad op 17 november 2017." ],
+    "titelcollectie" : {
+      "officieleTitel" : "Letterlijke tekst persconferentie na ministerraad 17 november 2017"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "type" : "overheid:Informatietype",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_7eba29ad",
+        "label" : "persbericht",
+        "bronwaarde" : "mediatekst"
+      } ],
+      "themas" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/id/thema_onbekend",
+        "label" : "Onbekend"
+      } ]
+    }
+  },
+  "plooiIntern" : {
+    "dcnId" : "ronl-1df1e6db16b1cb344ec81fcd79a25d45f9c47cb7",
+    "aanbieder" : "Rijksoverheid.nl",
+    "extId" : [ "02dbce21-c2a6-4310-9ed5-aab7b27467ac" ],
+    "sourceLabel" : "ronl"
+  },
+  "body" : {
+    "tekst" : [ "<h2>Inleidende verklaring viceminister-president De Jonge:</h2>", "<div><p>Goedemiddag. Minister-president Rutte is op dit moment in Göteborg voor een Europese Sociale Top. En dat is de reden dat ik vandaag in zijn afwezigheid de ministerraad heb voorgezeten. En dat is dus ook de reden dat ik hier vanmiddag voor u sta. Dat was mijn eerste keer, overigens. Een bijzonder moment. En dit is ook mijn eerste keer en een even bijzonder moment, natuurlijk. Dat begrijpt u.</p>\n<p>Laat ik beginnen met terug te blikken op de deze week gepubliceerde CBS-cijfers. Want uit die cijfers over het derde kwartaal blijkt dat de Nederlandse economie gestaag blijft groeien. Die groei, die leidt tot meer banen. Tot een afnemende werkloosheid. Een grotere daling van het aantal WW-uitkeringen. Min achttien procent in één jaar. En verder blijkt dat de arbeidsmarkt geleidelijk aan wat krapper wordt en we zien daardoor een toename van het aantal vaste contracten. En dat is goed nieuws. Voor heel veel mensen goed nieuws. En economische groei, die heeft pas echt betekenis natuurlijk als mensen daar ook wat van merken. En juist ook in dat opzicht zijn dit bemoedigende signalen.</p>\n<p>En dat mensen zelf moeten merken dat het beter gaat, zelf moeten ervaren dat het beter gaat, is een belangrijke drijfveer voor dit kabinet. En daar zijn in het regeerakkoord meerdere maatregelen voor genomen, ook op mijn terrein. Op het terrein van de zorg. Ik zie dat veel mensen onzeker zijn of ze de zorg en de ondersteuning die zij nodig hebben eigenlijk nog wel kunnen betalen. Dat die wel beschikbaar blijft, betaalbaar blijft. En als kabinet nemen we daarom ook gerichte maatregelen om de stapeling van eigen bijdragen in de zorg te verminderen. En in een brief die vandaag naar de Tweede Kamer gaat, hebben we die maatregelen op een rij gezet. Wat mensen daar in 2018 en in 2019 van gaan merken. We zetten namelijk al in 2018 de eerste stappen, door het verplicht eigen risico in de zorgverzekeringswet te bevriezen en door de eigen bijdrage voor de langdurige zorg te verlagen voor mensen die blijvend intensieve zorg nodig hebben aan huis of zelf in een verpleeghuis wonen terwijl hun partner nog thuis woont. En dat is een belangrijke maatregel. Die treft 30.000 mensen die erop vooruitgaan. Dat zijn vooral mensen met een middeninkomen, die er per maand 30 tot 150 euro minder zorgkosten aan gaan betalen.</p>\n<p>In 2019 gaan we verder met de uitvoering van overige voornemens ten aanzien van de eigen betalingen uit het regeerakkoord op dit terrein, en daardoor – en dat is belangrijk – blijven de zorg en ondersteuning betaalbaar voor mensen die te maken hebben met verschillende soorten eigen betalingen in de zorg. Dan een ander onderwerp dat aan de orde is geweest vandaag. Dat zijn de investeringen in Defensie. Het kabinet heeft vandaag de eerste stap gezet met de extra intensiveringen die in het regeerakkoord zijn opgenomen. En we maken nu 400 miljoen vrij voor de komende begroting van Defensie. En met dat geld kunnen we knelpunten zoals die ervaren worden bij Defensie aanpakken. En dat is ook hard nodig. Daarmee wordt de operationele inzetbaarheid van de krijgsmacht versterkt. Minister Bijleveld heeft daar zojuist al een aantal van uw collega’s te woord gestaan bij het naar buiten lopen van de ministerraad.</p>\n\n<h2>Afschaffing referendumwet</h2>\n\n<p>BORGMAN (RADIO 1)<br />\nMeneer De Jonge, deze week was in de Tweede Kamer het debat over de begroting Binnenlandse Zaken. Daarbij kwam aan de orde de afschaffing van de referendumwet. Is het voor het kabinet wenselijk dat een referendum wordt gehouden over de afschaffing van die wet?</p>\n<p>DE JONGE<br />\nCollega Ollongren heeft in dat debat aangegeven dat zij werkt aan een voorstel voor die intrekkingswet. Ze heeft ook aangegeven dat dit element daar, of de intrekking an sich referendabel zou moeten zijn, dat die onderdeel wordt van dat voorstel, omdat zij eraan hecht om dat te bespreken met de collega’s in het kabinet. En die bespreking heeft nog niet plaatsgevonden, dus ik wil op die bespreking ook maar even niet vooruitlopen.</p>\n<p>BORGMAN<br />\n...\n</p></div>" ]
+  }
+}

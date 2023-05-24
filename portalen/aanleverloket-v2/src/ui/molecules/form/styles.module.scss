@@ -1,0 +1,12 @@
+.form {   
+    &__button_container {   
+        padding-top: 1em;        
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        &__spacer {
+            flex: 1;
+        }
+    }
+}

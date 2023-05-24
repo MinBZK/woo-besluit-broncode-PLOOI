@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>KOOP.kaartmodule</id>
+    <!-- 
+    Let op! De versienummer die getoond wordt in de web applicatie, is de versie nummer die staat vermeld in het package.json bestand.
+    Pas die dus aan als er een nieuwe versie getoond moet worden. Onderstaande versie nummer wordt gebruikt bij het deployen van je nuget package.
+    -->
+    <version>2.4.1</version>
+    <title>Kaartmodule</title>
+    <authors>Kennis- en Exploitatiecentrum voor Officiële Overheidspublicaties</authors>
+    <owners>Kennis- en Exploitatiecentrum voor Officiële Overheidspublicaties</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Module voor het tonen en genereren van geo-informatie.</description>
+    <releaseNotes>
+      - 2.4.1 Fix in Geobrowse query versus normale aanroep
+      - 2.4.0 Uitbreiden modus geobrowse met volledig zelf in te stellen CQL query aanroep
+      - 2.3.1 Bestuurlijke grenzen laag vervangen door Bestuurlijke Gebieden
+      - 2.3.0 Optimalisatie complexe geo / terugmelding
+      - 2.2.0 nieuwe styling locaties, bugfixes
+      - 2.1.0 Readonly locaties, validatie lijnen/vlakken
+      - 2.0.0 Geobrowse mode / SRU endpoint
+      - 1.14.0 CompLib 1.9.48 / UX updates / location button configureerbaar
+      - 1.13.2 zoom / webpack 5 / piwik
+      - 1.13.1 nuget fixes
+      - 1.13.0 zoeksuggesties waterschappen / publicatie id
+      - 1.12.0 Screen real estate / V1 demo / nieuwe BRT kaart
+      - 1.11.0 WKT demo / Zoom buttons disabled wanneer max of min zoom is bereikt
+      - 1.10.0 Numbered locations in popup / ctrl_zoom / CSP ready / pointlayer over polygonlayer
+      - 1.9.0 sneller gio laden / betere overgang naar BGT / complexe geo demo
+      - 1.8.0 genereer locatietitel als die niet is meegegeven / webpack 4
+      - 1.7.1 fix titles length
+      - 1.7.0 bugfixes/ toegevoegde ext_ref_id / on_location_click
+      - 1.6.0 Nieuwe nuget package / release 60.2
+      - 1.5.5 Fix state
+      - 1.5.4 fix hoogte bug / remount bug
+      - 1.5.3 geen max hoogte
+      - 1.5.2 default 9:16 ratio, alleen bij geen gedefinieerde hoogte
+      - 1.5.1 fix relatieve css paden
+      - 1.5.0 Optimalisaties bekendmakingswet in het kader van MijnOverheid
+      - 1.4.0 Toevoegen punt- en lijnsymbolisatie
+      - 1.3.1 Toevoegen symbolisatie / normwaarden
+      - 1.3.0 Versie 3 van de kadastrale kaart vervangen met versie 4
+      - 1.2.4 Bij het matchen op GML data (nodes) wordt de namespace (prefix genegeerd). bv geo:featureMember -> featureMember, zal nu ook matchen
+      - 1.2.3 Text aanpassing "Buiten bereik". Code voor versie bepaling adhv de branche is uitgezet
+      - 1.2.2 Versie uit de package.json file halen
+      - 1.2.1 Package versie gezet op 1.1.1
+      - 1.2.0 Geldigheidsgebied regels voor RD coordinaten bij invoeren punt consistent doorgevoerd
+      - 1.1.2 Nieuwe nuget package
+      - 1.1.1 Nieuwe nuget package
+      - 1.1.0 Nieuwe versie nummering, gelijk trekken tussen package en product
+      - 1.0.1.0 Ondersteuning van IE11 t.b.v. overheid
+      - 1.0.0.1 Technische fix: paden naar media bestanden in Nuget package zijn anders dan in build, aangepast in index.css
+      - 1.0 Initiële versie van component
+    </releaseNotes>
+    <summary>Module voor het tonen en genereren van geo-informatie.</summary>
+    <tags>KOOP kaartmodule geo gio</tags>
+  </metadata>
+  <files>
+    <file src="media\**" target="kaartmodule\media"/>
+    <file src="css\index.css" target="kaartmodule\css"/>
+    <file src="js\index.js" target="kaartmodule\js"/>
+  </files>
+</package>

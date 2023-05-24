@@ -1,0 +1,18 @@
+[
+{
+  "@id" : "https://identifier.overheid.nl/tooi/id/so/so0713",
+  "@type" : [ "https://identifier.overheid.nl/tooi/def/ont/Samenwerkingsorgaan" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "omgevingsdienst Midden-Holland"
+  } ]
+},{
+  "@id" : "https://identifier.overheid.nl/tooi/id/zbo/zbo10000",
+  "@type" : [ "https://identifier.overheid.nl/tooi/def/ont/Overheidsorganisatie" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sociale Verzekeringsbank"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel": [ {
+    "@value": "SVB"
+  } ]
+}
+]

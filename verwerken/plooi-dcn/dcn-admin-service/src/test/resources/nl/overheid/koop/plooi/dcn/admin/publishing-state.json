@@ -1,0 +1,30 @@
+{
+  "content": [
+    {
+      "dcnId": "1",
+      "indexed": "INPROGRESS",
+      "timeCreated": null,
+      "timeUpdated": null
+    },
+    {
+      "dcnId": "2",
+      "indexed": "INPROGRESS",
+      "timeCreated": null,
+      "timeUpdated": null
+    }
+  ],
+  "pageable": "INSTANCE",
+  "last": true,
+  "totalPages": 1,
+  "totalElements": 2,
+  "size": 2,
+  "number": 0,
+  "sort": {
+    "empty": true,
+    "unsorted": true,
+    "sorted": false
+  },
+  "first": true,
+  "numberOfElements": 2,
+  "empty": false
+}

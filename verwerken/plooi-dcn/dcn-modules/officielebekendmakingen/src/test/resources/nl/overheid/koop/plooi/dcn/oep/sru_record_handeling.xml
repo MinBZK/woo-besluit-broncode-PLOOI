@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sru:record xmlns:overheidwetgeving="http://standaarden.overheid.nl/wetgeving/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:cd="http://standaarden.overheid.nl/cup/data" xmlns:sru="http://docs.oasis-open.org/ns/search-ws/sruResponse"
+    xmlns:gzd="http://standaarden.overheid.nl/sru" xmlns:diag="http://docs.oasis-open.org/ns/search-ws/diagnostic" xmlns:facet="http://docs.oasis-open.org/ns/search-ws/facetedResults" xmlns:c="http://standaarden.overheid.nl/collectie/">
+    <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+    <sru:recordPacking>xml</sru:recordPacking>
+    <sru:recordData>
+        <gzd:gzd>
+            <gzd:originalData>
+                <overheidwetgeving:meta>
+                    <overheidwetgeving:owmskern>
+                        <dcterms:identifier>h-ek-20202021-1-1</dcterms:identifier>
+                        <dcterms:title>Presentie en opening</dcterms:title>
+                        <dcterms:language>nl</dcterms:language>
+                        <dcterms:type scheme="OVERHEIDop.Parlementair">Handeling</dcterms:type>
+                        <dcterms:creator scheme="OVERHEID.StatenGeneraal">Eerste Kamer der Staten-Generaal</dcterms:creator>
+                        <dcterms:modified>2020-10-02</dcterms:modified>
+                    </overheidwetgeving:owmskern>
+                    <overheidwetgeving:owmsmantel>
+                        <dcterms:available>2020-10-02</dcterms:available>
+                        <dcterms:date>2020-09-22</dcterms:date>
+                        <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/h-ek-20202021-1-1.html">1</dcterms:hasVersion>
+                        <dcterms:issued>2020-09-22</dcterms:issued>
+                        <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Bestuur | Parlement</dcterms:subject>
+                    </overheidwetgeving:owmsmantel>
+                    <overheidwetgeving:tpmeta>
+                        <c:product-area>officielepublicaties</c:product-area>
+                        <c:content-area>officielepublicaties/h-ek/20202021</c:content-area>
+                        <overheidwetgeving:datumVergadering>2020-09-22</overheidwetgeving:datumVergadering>
+                        <overheidwetgeving:documentstatus>Opgemaakt</overheidwetgeving:documentstatus>
+                        <overheidwetgeving:handelingenitemnummer>1</overheidwetgeving:handelingenitemnummer>
+                        <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                        <overheidwetgeving:publicatienummer>1</overheidwetgeving:publicatienummer>
+                        <overheidwetgeving:publicatienaam>Handelingen</overheidwetgeving:publicatienaam>
+                        <overheidwetgeving:vergaderjaar>2020-2021</overheidwetgeving:vergaderjaar>
+                        <overheidwetgeving:subrubriek scheme="OVERHEIDop.HandelingTypen">Opening</overheidwetgeving:subrubriek>
+                        <cd:datumTijdstipWijzigingWork>2021-04-07T14:09:01.888711+02:00</cd:datumTijdstipWijzigingWork>
+                        <cd:datumTijdstipWijzigingExpression>2021-04-07T14:09:01.888711+02:00</cd:datumTijdstipWijzigingExpression>
+                    </overheidwetgeving:tpmeta>
+                </overheidwetgeving:meta>
+            </gzd:originalData>
+            <gzd:enrichedData>
+                <gzd:url>https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20202021/h-ek-20202021-1-1/1/xml/h-ek-20202021-1-1.xml</gzd:url>
+                <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/h-ek-20202021-1-1.html</gzd:preferredUrl>
+                <gzd:itemUrl manifestation="html">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20202021/h-ek-20202021-1-1/1/html/h-ek-20202021-1-1.html</gzd:itemUrl>
+                <gzd:itemUrl manifestation="metadata">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20202021/h-ek-20202021-1-1/1/metadata/metadata.xml</gzd:itemUrl>
+                <gzd:itemUrl manifestation="metadataowms">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20202021/h-ek-20202021-1-1/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                <gzd:itemUrl manifestation="odt">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20202021/h-ek-20202021-1-1/1/odt/h-ek-20202021-1-1.odt</gzd:itemUrl>
+                <gzd:itemUrl manifestation="pdf">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20202021/h-ek-20202021-1-1/1/pdf/h-ek-20202021-1-1.pdf</gzd:itemUrl>
+                <gzd:itemUrl manifestation="xml">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20202021/h-ek-20202021-1-1/1/xml/h-ek-20202021-1-1.xml</gzd:itemUrl>
+                <gzd:timestamp>2021-04-07T14:09:03.212182+02:00</gzd:timestamp>
+            </gzd:enrichedData>
+        </gzd:gzd>
+    </sru:recordData>
+    <sru:recordPosition>1</sru:recordPosition>
+</sru:record>

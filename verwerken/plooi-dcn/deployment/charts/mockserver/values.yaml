@@ -1,0 +1,18 @@
+# Default values for mockserver.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+nameOverride: ""
+fullnameOverride: ""
+
+image:
+  registry: ""
+  pullPolicy: Always
+  # Overrides the image tag whose default is the chart appVersion:
+  tag: latest
+
+podLabels: {}
+
+ingress:
+  ingressClassName: nginx
+  hostname: mockserver.127.0.0.1.nip.io

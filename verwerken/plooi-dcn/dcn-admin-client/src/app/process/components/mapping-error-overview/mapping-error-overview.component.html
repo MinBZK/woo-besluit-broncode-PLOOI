@@ -1,0 +1,32 @@
+<div class="container" *ngIf="!errorMsg && route.children.length == 0">
+    <h3>{{getTitle()}}</h3>
+    <table class="table table--condensed table--striped table--container table__data-overview" >
+        <thead>
+        <tr>
+            <th scope="col">Veldnaam (PLOOI)</th>
+            <th scope="col">Waarde (bron)</th>
+            <th scope="col" class="align-center">Aantal</th>
+            <th scope="col" class="align-center u-columnwidth-15p">Verwerken</th>
+        </tr>
+
+        </thead>
+        <tbody *ngIf=" page.totalElements">
+        <tr *ngFor="let mapping of page.content">
+            <td>{{mapping.targetElementName}}</td>
+            <td><a [routerLink]="['./documents/',
+                    mapping.sourceLabel? mapping.sourceLabel: 'empty',
+                    mapping.targetElementName? mapping.targetElementName: 'empty']"
+                   >{{mapping.sourceLabel ? mapping.sourceLabel : '&lt;leeg&gt;'}}</a></td>
+            <td class="align-center">{{mapping.count}}</td>
+            <td class="align-center"><button class="button button--slim" (click)="redoMappingError(mapping)">Verwerk opnieuw</button></td>
+        </tr>
+        </tbody>
+    </table>
+    <dcn-no-result [page]="page"></dcn-no-result>
+    <dcn-custom-pagination [page]="page"
+                           (nextPageEvent)="getNextPage($event)"
+                           (itemsPerPageEvent)="updateItemsPerPage($event)">
+    </dcn-custom-pagination>
+</div>
+<connection-error *ngIf="errorMsg" [message]="errorMsg"></connection-error>
+<router-outlet></router-outlet>

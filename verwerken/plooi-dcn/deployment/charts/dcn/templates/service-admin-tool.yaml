@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "dcn.fullname" . }}-admin-service
+  labels:
+    {{- include "dcn.labels" . | nindent 4 }}
+spec:
+  type: ClusterIP
+  ports:
+    - name: dcn-adm-port
+      port: 8080
+      targetPort: 8080
+      protocol: TCP
+  selector:
+    {{- include "dcn.selectorLabels" . | nindent 4 }}

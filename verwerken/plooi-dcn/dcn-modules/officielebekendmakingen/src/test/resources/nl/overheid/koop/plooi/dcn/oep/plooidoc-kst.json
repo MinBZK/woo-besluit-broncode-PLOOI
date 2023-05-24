@@ -1,0 +1,71 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/oep-8b3d7d3bb9df556ae725c0467c7edc9f5ed1f848",
+    "weblocatie" : "https://zoek.officielebekendmakingen.nl/kst-35842-4.html",
+    "creatiedatum" : "2021-05-25",
+    "geldigheid" : {
+      "begindatum" : "2021-05-26"
+    },
+    "identifiers" : [ "kst-35842-4" ],
+    "verantwoordelijke" : {
+      "type" : "overheid:AndereOrganisatie",
+      "id" : "https://identifier.overheid.nl/tooi/id/oorg/oorg10002",
+      "label" : "Tweede Kamer",
+      "bronwaarde" : "Tweede Kamer der Staten-Generaal"
+    },
+    "publisher" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/organisatie_onbekend",
+      "label" : "Onbekend"
+    },
+    "opsteller" : {
+      "type" : "overheid:AndereOrganisatie",
+      "id" : "https://identifier.overheid.nl/tooi/id/oorg/oorg10002",
+      "label" : "Tweede Kamer",
+      "bronwaarde" : "Tweede Kamer der Staten-Generaal"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "omschrijvingen" : [ "Wijziging van het voorstel van wet tot samenvoeging van de gemeenten Boxmeer, Cuijk, Mill en Sint Hubert en Sint Anthonis; Nader rapport; Advies Afdeling advisering Raad van State en Nader rapport" ],
+    "titelcollectie" : {
+      "officieleTitel" : "35842, nr. 4 - Wijziging van het voorstel van wet tot samenvoeging van de gemeenten Boxmeer, Cuijk, Mill en Sint Hubert en Sint Anthonis"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "type" : "overheid:Informatietype",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_056a75e1",
+        "label" : "Kamerstuk"
+      } ],
+      "themas" : [ {
+        "type" : "plooi:Topthema",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b",
+        "label" : "organisatie en bedrijfsvoering",
+        "bronwaarde" : "Gemeenten"
+      } ]
+    },
+    "aggregatiekenmerk" : "35842",
+    "extraMetadata" : [ {
+      "prefix" : "plooi.displayfield",
+      "velden" : [ {
+        "key" : "vergaderjaar",
+        "values" : [ "2020-2021" ]
+      }, {
+        "key" : "indiener",
+        "values" : [ "Th.C. de Graaf" ]
+      }, {
+        "key" : "indiener",
+        "values" : [ "K.H. Ollongren" ]
+      }, {
+        "key" : "documentsubsoort",
+        "values" : [ "Overig" ]
+      } ]
+    } ]
+  },
+  "plooiIntern" : {
+    "dcnId" : "oep-8b3d7d3bb9df556ae725c0467c7edc9f5ed1f848",
+    "aanbieder" : "officielebekendmakingen.nl",
+    "extId" : [ "dummy" ],
+    "sourceLabel" : "oep"
+  }
+}

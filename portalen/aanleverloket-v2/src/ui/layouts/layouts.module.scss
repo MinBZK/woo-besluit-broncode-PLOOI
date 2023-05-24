@@ -1,0 +1,83 @@
+@import "../fonts.scss";
+@import "../colors.scss";
+
+.layouts {
+  &__page {
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    min-width: 300px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+    & footer {
+      margin-top: 16px;
+    }
+
+    &__overflow_hidden{
+      overflow: hidden;
+    }
+
+    &__body {
+      flex: 1;
+      padding: 0 1em;
+
+      &__overflow_auto{
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    &__sidebar {
+      display: flex;
+      max-width: 400px;
+    }
+
+    &__small {
+      max-width: 850px;
+      width: 100%;
+    }
+
+    &__padding{
+      padding-bottom: 20px;
+    }
+  }
+
+  &__default {
+    &__body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__centered {
+    &__body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // justify-content: center;
+    }
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  line-height: 1.5;
+  font-size: 1.125em;
+  -webkit-font-smoothing: antialiased;
+  color: $darkBlue;
+}
+
+* {
+  font-family: $FONT_FAMILY_REGULAR;
+}

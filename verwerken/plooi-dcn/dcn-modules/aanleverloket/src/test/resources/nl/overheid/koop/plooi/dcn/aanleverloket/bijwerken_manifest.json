@@ -1,0 +1,9 @@
+[ {
+  "gepubliceerd" : true,
+  "label" : "pdf",
+  "bestandsnaam" : "document-1.pdf"
+}, {
+  "gepubliceerd" : false,
+  "label" : "xml",
+  "bestandsnaam" : "plooicb-2021-33.xml"
+} ]

@@ -1,0 +1,40 @@
+<div class="container">
+    <table class="table--condensed" *ngIf="processingError">
+        <tr>
+            <th>Tijdstip creatie</th>
+            <td data-before="Tijdstip creatie">{{processingError.timeCreated | date : 'medium'}}</td>
+        </tr>
+        <tr *ngIf="verwerkingId">
+            <th>Verwerking ID</th>
+            <td data-before="Verwerking ID"  (click)="clickOnDocument(verwerkingId)"><a>{{verwerkingId}}</a></td>
+        </tr>
+        <tr>
+            <th>From Route</th>
+            <td data-before="From Route">{{processingError.fromRoute}}</td>
+        </tr>
+        <tr *ngIf="processingError.statusText">
+            <th>Status text</th>
+            <td data-before="Status text">{{processingError.statusText}}</td>
+        </tr>
+        <tr *ngIf="processingError.statusCode">
+            <th>Status code</th>
+            <td data-before="Status code">{{processingError.statusCode}}</td>
+        </tr>
+        <tr>
+            <th>Exception Class</th>
+            <td data-before="Exception Class">{{processingError.exceptionClass}}</td>
+        </tr>
+        <tr>
+            <th>Exception Message</th>
+            <td style="word-break: break-all;" data-before="Exception Message">{{processingError.exceptionMessage}}</td>
+        </tr>
+        <tr>
+            <th>Exception Stacktrace</th>
+            <td data-before="Exception Message">{{processingError.exceptionStacktrace}}</td>
+        </tr>
+        <tr>
+            <th>Message Body</th>
+            <td data-before="Message Body">{{processingError.messageBody}}</td>
+        </tr>
+    </table>
+</div>

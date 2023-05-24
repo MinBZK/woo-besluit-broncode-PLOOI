@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ include "dictionary.fullname" . }}-service-ingress
+  labels:
+    {{- include "dictionary.labels" . | nindent 4 }}
+spec:
+  ingressClassName: {{ .Values.ingress.ingressClassName }}
+  rules:
+    - host: {{ include "dictionary.fullname" . }}-service.{{ .Values.ingress.hostname }}
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ include "dictionary.fullname" . }}-service
+                port:
+                  number: 8030

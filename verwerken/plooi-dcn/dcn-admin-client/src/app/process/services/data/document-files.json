@@ -1,0 +1,13 @@
+{
+  "internalId": "12345",
+  "fileMetaList": [
+    {
+      "fileName": "fileName1",
+      "label": "xml"
+    },
+    {
+      "fileName": "fileName2",
+      "label": "json"
+    }
+  ]
+}

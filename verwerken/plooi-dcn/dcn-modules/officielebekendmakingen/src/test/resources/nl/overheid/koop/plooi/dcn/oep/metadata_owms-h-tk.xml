@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+      Generatie: versie XSLT 1.1 op 2021-08-31+02:00-->
+<owms-metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:overheidop="http://standaarden.overheid.nl/oep/meta/">
+   <owmskern>
+      <dcterms:identifier>h-tk-20202021-87-3</dcterms:identifier>
+      <dcterms:title>Behandeling van het wetsvoorstel Wijziging van de begrotingsstaat van het Ministerie van Volksgezondheid, Welzijn en Sport (XVI) voor het jaar 2021 (Vierde incidentele suppletoire begroting inzake Coronamaatregelen) (35763); en een ander wetsvoorstel.</dcterms:title>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:type scheme="OVERHEIDop.HandelingTypen">Hamerstukken</dcterms:type>
+      <dcterms:type scheme="OVERHEIDop.Parlementair">Handeling</dcterms:type>
+      <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+      <dcterms.modified>2021-08-31</dcterms.modified>
+   </owmskern>
+   <owmsmantel>
+      <dcterms:available>2021-08-31</dcterms:available>
+      <dcterms:issued>2021-06-10</dcterms:issued>
+   </owmsmantel>
+   <oep>
+      <overheidop:documentStatus>Opgemaakt</overheidop:documentStatus>
+      <overheidop:behandeldDossier>35763</overheidop:behandeldDossier>
+      <overheidop:behandeldDossier>35836</overheidop:behandeldDossier>
+      <overheidop:handelingenItemNummer>3</overheidop:handelingenItemNummer>
+      <overheidop:publicationIssue>87</overheidop:publicationIssue>
+      <overheidop:publicationName>Handelingen</overheidop:publicationName>
+      <overheidop:vergaderjaar>2020-2021</overheidop:vergaderjaar>
+      <overheidop:datumVergadering>2021-06-10</overheidop:datumVergadering>
+      <overheid:organisationType>staten generaal</overheid:organisationType>
+      <overheid:category scheme="OVERHEID.TaxonomieBeleidsagenda">Bestuur | Parlement</overheid:category>
+   </oep>
+</owms-metadata>

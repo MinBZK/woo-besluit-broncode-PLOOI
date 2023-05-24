@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Search Web Services searchRetrieve Version 1.0
+    OASIS Standard
+    30 January 2013
+    Source: http://docs.oasis-open.org/search-ws/searchRetrieve/v1.0/os/schemas/
+    Copyright (c) OASIS Open 2013.  All Rights Reserved.
+-->
+
+<!--  
+Editor:  M. J. Dovey. m.dovey@jisc.ac.uk
+***** 
+-->
+
+<wsdl:definitions 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+	xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" 
+	xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" 
+	xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" 
+	xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" 
+	xmlns:sruRequest="http://docs.oasis-open.org/ns/search-ws/sruRequest" 
+	xmlns:diag="http://docs.oasis-open.org/ns/search-ws/diagnostic" 
+	xmlns:facet="http://docs.oasis-open.org/ns/search-ws/facetedResults" 
+	xmlns:scan="http://docs.oasis-open.org/ns/search-ws/scan" 
+	xmlns:sra="http://docs.oasis-open.org/ns/search-ws/searchResultAnalysis" 
+	xmlns:sruResponse="http://docs.oasis-open.org/ns/search-ws/sruResponse" 
+	xmlns:xcql="http://docs.oasis-open.org/ns/search-ws/xcql" 
+	xmlns:sru-soap="http://docs.oasis-open.org/ns/search-ws/soap" 
+	targetNamespace="http://docs.oasis-open.org/ns/search-ws/soap">
+	
+	<wsdl:import namespace="http://docs.oasis-open.org/ns/search-ws/sruResponse" location="http://docs.oasis-open.org/search-ws/ searchRetrieve/v1.0/csd01/schemas/sruResponse.xsd"/>
+	<wsdl:import namespace="http://docs.oasis-open.org/ns/search-ws/sruRequest" location="http://docs.oasis-open.org/search-ws/ searchRetrieve/v1.0/csd01/schemas/sruRequest.xsd"/>
+	
+	<wsdl:types>
+		<xs:schema targetNamespace="http://new.webservice.namespace" elementFormDefault="qualified"/>
+	</wsdl:types>
+	
+	<wsdl:message name="searchRetrieveResponse">
+		<wsdl:part name="searchRetrieveResponse" type="sruResponse:searchRetrieveResponseDefinition"/>
+	</wsdl:message>	
+	<wsdl:message name="searchRetrieveRequest">
+		<wsdl:part name="searchRetrieveRequest" type="sruRequest:searchRetrieveRequestType"/>
+	</wsdl:message>
+	
+	<wsdl:portType name="SearchRetrievePortType">
+		<wsdl:operation name="SearchRetrieve">
+			<wsdl:input message="sru-soap:searchRetrieveRequest"/>
+			<wsdl:output message="sru-soap:searchRetrieveResponse"/>
+		</wsdl:operation>
+	</wsdl:portType>
+
+	<wsdl:binding name="SearchRetrieveSoapBinding" type="sru-soap:SearchRetrievePortType">
+		<soap12:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="SearchRetrieve">
+			<soap12:operation soapAction="urn:#SearchRetrieve" soapActionRequired="true" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+</wsdl:definitions>

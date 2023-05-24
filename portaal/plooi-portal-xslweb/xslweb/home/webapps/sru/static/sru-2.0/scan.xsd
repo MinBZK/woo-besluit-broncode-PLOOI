@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Search Web Services searchRetrieve Version 1.0
+    OASIS Standard
+    30 January 2013
+    Source: http://docs.oasis-open.org/search-ws/searchRetrieve/v1.0/os/schemas/
+    Copyright (c) OASIS Open 2013.  All Rights Reserved.
+-->
+
+<!--  
+Editor: Ray Denenberg, Library of Congress.  rden@loc.gov 
+***** 
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns="http://docs.oasis-open.org/ns/search-ws/scan"
+targetNamespace="http://docs.oasis-open.org/ns/search-ws/scan"
+xmlns:xcql="http://docs.oasis-open.org/ns/search-ws/xcql" 
+xmlns:diag="http://docs.oasis-open.org/ns/search-ws/diagnostic" 
+elementFormDefault="qualified" 
+attributeFormDefault="unqualified">
+	<!-- 
+imports
+-->
+	<xs:import namespace="http://docs.oasis-open.org/ns/search-ws/xcql" 
+schemaLocation="xcql.xsd"/>
+<!-- -->
+  <xs:import namespace="http://docs.oasis-open.org/ns/search-ws/diagnostic" 
+ schemaLocation="diagnostic.xsd"/>
+	<!-- 
+****************************************************************************************
+Root element declaration: ScanResponse 
+-->
+	<xs:element name="scanResponse" type="scanResponseDefinition"/>
+	<!-- 
+*******************************************************************************************
+
+    scanResponseDefinintion  
+                                        -->
+	<xs:complexType name="scanResponseDefinition">
+		<xs:sequence>
+			<xs:element ref="terms" minOccurs="0"/>
+			<xs:element ref="echoedScanRequest" minOccurs="0"/>
+			<xs:element ref="diagnostics" minOccurs="0"/>
+			<xs:element ref="extraResponseData" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- 
+******************************************************************************************
+Auxiliary definitions
+******************************************************************************************
+-->
+	<!-- 
+diagnosticsDefinintion  
+   -->
+	<xs:complexType name="diagnosticsDefinition">
+		<xs:sequence>
+			<xs:element ref="diag:diagnostic" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- 
+echoedScanRequestDefinition
+    -->
+	<xs:complexType name="echoedScanRequestDefinition">
+		<xs:sequence>
+			<xs:element ref="scanClause"/>
+			<xs:element ref="xScanClause" minOccurs="0"/>
+			<xs:element ref="responsePosition" minOccurs="0"/>
+			<xs:element ref="maximumTerms" minOccurs="0"/>
+			<xs:element ref="httpAccept" minOccurs="0"/>
+			<xs:element ref="stylesheet" minOccurs="0"/>
+			<xs:element ref="extraRequestData" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- 
+extraResponseDataDefinition
+                                        -->
+	<xs:complexType name="extraDataDefinition">
+		<xs:sequence>
+			<xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- 
+termDefinintion  
+                                        -->
+	<xs:complexType name="termDefinition">
+		<xs:sequence>
+			<xs:element ref="value"/>
+			<xs:element ref="numberOfRecords" minOccurs="0"/>
+			<xs:element ref="displayTerm" minOccurs="0"/>
+			<xs:element ref="whereInList" minOccurs="0"/>
+			<xs:element ref="requestURL" minOccurs="0"/>
+			<xs:element ref="extraTermData" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- 
+termsDefinintion  
+                                        -->
+	<xs:complexType name="termsDefinition">
+		<xs:sequence>
+			<xs:element ref="term" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- 
+whereInListDefinintion  
+ -->
+	<xs:simpleType name="whereInListDefinition">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="first"/>
+			<xs:enumeration value="last"/>
+			<xs:enumeration value="only"/>
+			<xs:enumeration value="inner"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- 
+********************************************************************************************************
+Element Declarations 
+-->
+	<xs:element name="diagnostics" type="diagnosticsDefinition"/>
+	<xs:element name="displayTerm" type="xs:string"/>
+	<xs:element name="extraResponseData" type="extraDataDefinition"/>
+	<xs:element name="echoedScanRequest" type="echoedScanRequestDefinition"/>
+	<xs:element name="extraRequestData" type="extraDataDefinition"/>
+	<xs:element name="extraTermData" type="extraDataDefinition"/>
+	<xs:element name="httpAccept" type="xs:string"/>
+	<xs:element name="maximumTerms" type="xs:positiveInteger"/>
+	<xs:element name="numberOfRecords" type="xs:nonNegativeInteger"/>
+	<xs:element name="responsePosition" type="xs:nonNegativeInteger"/>
+	<xs:element name="requestURL" type="xs:anyURI"/>
+	<xs:element name="scanClause" type="xs:string"/>
+	<xs:element name="stylesheet" type="xs:anyURI"/>
+	<xs:element name="terms" type="termsDefinition"/>
+	<xs:element name="term" type="termDefinition"/>
+	<xs:element name="value" type="xs:string"/>
+	<xs:element name="whereInList" type="whereInListDefinition"/>
+	<xs:element name="xScanClause" type="xcql:searchClauseDefinition"/>
+<!-- -->	
+	
+</xs:schema>

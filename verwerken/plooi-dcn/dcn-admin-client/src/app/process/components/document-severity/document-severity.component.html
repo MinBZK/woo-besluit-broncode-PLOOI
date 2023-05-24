@@ -1,0 +1,39 @@
+<h4>Klik op een severity om per event de gerelateerde Diagnostics en/of Processing errors te zien (beschikbaar als severity <> OK)</h4>
+<table class="table table--condensed">
+    <thead>
+    <tr>
+        <th scope="col">Tijdstip</th>
+        <th scope="col">Bron</th>
+        <th scope="col">External ID</th>
+        <th scope="col">Internal ID</th>
+        <th scope="col">Stage</th>
+        <th scope="col">Severity</th>
+    </tr>
+    </thead>
+    <tbody *ngFor="let item of page.content">
+    <tr>
+        <td>{{item?.timeCreated | date : 'medium'}}</td>
+        <td>{{item.sourceLabel}}</td>
+        <td>{{item?.extIds}}</td>
+        <td><a [routerLink]="['/home/document-details']" [queryParams]="{plooiId: item.dcnId,searchType:'plooi'}">{{item?.dcnId}}</a></td>
+        <td>{{item?.stage}}</td>
+        <td class="align-center"  *ngIf="item?.severity != 'OK'" [style]="getSeverityColor(item?.severity)"><a [style]="getSeverityFontColor(item?.severity)" (click)="getException(item)">{{item?.severity}}</a></td>
+        <td class="align-center"  *ngIf="item?.severity === 'OK'">{{item?.severity}}</td>
+    </tr>
+    <tr *ngIf="item?.severity === 'EXCEPTION'"  [id]="item?.id" style="display: none">
+        <td colspan="6">
+            <dcn-processing-error-row [id]="item?.id" [documentEventId]="item.verwerkingId"></dcn-processing-error-row>
+        </td>
+    </tr>
+    <tr *ngIf="item?.severity != 'EXCEPTION' || item?.severity != 'OK'" [id]="item?.id" style="display: none">
+        <td colspan="6">
+            <dcn-diagnostics-list [id]="item?.id" [showPaging]="false"></dcn-diagnostics-list>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<dcn-custom-pagination [page]="page"
+                       (nextPageEvent)="getNextPage($event)"
+                       (itemsPerPageEvent)="updateItemsPerPage($event)">
+</dcn-custom-pagination>
+<dcn-no-result [page]="page"></dcn-no-result>

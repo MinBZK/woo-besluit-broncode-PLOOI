@@ -1,0 +1,62 @@
+openapi: 3.0.3
+info:
+  title: Repository service
+  description: Plooi repository service
+  version: 1.0
+servers:
+  - description: Lokale ontwikkelomgeving
+    url: http://localhost:8010
+  - description: Standaard Platform test omgeving
+    url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  - description: Standaard Platform productie omgeving
+    url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+components:
+
+  schemas:
+
+    manifest:
+      $ref: 'plooi.yaml#/components/schemas/manifest'
+    versie:
+      $ref: 'plooi.yaml#/components/schemas/versie'
+    plooi:
+      $ref: 'plooi.yaml#/components/schemas/plooi'
+
+    interne-labels:
+      type: string
+      enum:
+       - _versie
+       - _blokkades
+       - _relaties
+       - _manifest
+       - _plooi
+       - _owms
+       - _text
+
+paths:
+
+  /aanleveren/{sourceLabel}/{*extId}:
+    $ref: 'aanleveren.yaml#/paths/aanleveren_sourceLabel_extId'
+
+  /publicatie/{id}:
+    $ref: 'publicatie.yaml#/paths/publicatie_id'
+  /publicatie/{id}/{label}:
+    $ref: 'publicatie.yaml#/paths/publicatie_id_label'
+  /publicatie/{id}/_relaties/{stage}:
+    $ref: 'publicatie.yaml#/paths/publicatie_id_relaties_stage'
+  /publicatie/{id}/{versieNummer}/{label}:
+    $ref: 'publicatie.yaml#/paths/publicatie_id_versieNummer_label'
+
+  /documenten/{id}:
+    $ref: 'documenten.yaml#/paths/documenten_id'
+  /documenten/{id}/{label}:
+    $ref: 'documenten.yaml#/paths/documenten_id_label'
+  /repository/{id}/{versieNummer}/{label}/{bestandsnaam}:
+    $ref: 'documenten.yaml#/paths/repository_id_versieNummer_label_bestandsnaam'
+
+  /archief/export:
+    $ref: 'archief.yaml#/paths/archief_export'
+  /archief/import:
+    $ref: 'archief.yaml#/paths/archief_import'
+  /archief/verwerken/{actie}/{procesId}:
+    $ref: 'archief.yaml#/paths/archief_verwerken'

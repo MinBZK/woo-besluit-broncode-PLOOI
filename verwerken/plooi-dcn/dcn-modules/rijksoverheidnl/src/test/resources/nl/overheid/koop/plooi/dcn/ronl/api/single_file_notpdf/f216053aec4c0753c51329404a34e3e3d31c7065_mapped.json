@@ -1,0 +1,51 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/ronl-f216053aec4c0753c51329404a34e3e3d31c7065",
+    "creatiedatum" : "1985-12-31T10:06:00.000Z",
+    "geldigheid" : {
+      "begindatum" : "2014-10-30"
+    },
+    "verantwoordelijke" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1018",
+      "label" : "ministerie van Defensie"
+    },
+    "publisher" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/organisatie_onbekend",
+      "label" : "Onbekend"
+    },
+    "opsteller" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1010",
+      "label" : "ministerie van Algemene Zaken"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "titelcollectie" : {
+      "officieleTitel" : "Documenten uit 1985 over CARC en chroom-6"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/id/documentsoort_onbekend",
+        "label" : "Onbekend"
+      } ],
+      "themas" : [ {
+        "type" : "plooi:Topthema",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_8b081a63",
+        "label" : "gezondheidsrisico's",
+        "bronwaarde" : "Chroom-6 en CARC"
+      } ]
+    }
+  },
+  "plooiIntern" : {
+    "dcnId" : "ronl-f216053aec4c0753c51329404a34e3e3d31c7065",
+    "aanbieder" : "Rijksoverheid.nl",
+    "extId" : [ "3cd2285c-b7bc-46e7-9fcf-9bf3c9a3c20d" ],
+    "sourceLabel" : "ronl"
+  },
+  "body" : {
+    "tekst" : [ "<div><p>Dit zip-bestand bevat de volgende documenten:</p>\n\n<ul>\n <li>DA Pamphlet 205_1 Energy Conservation Guidelines CH Warehouses</li>\n <li>rapport Nationale MAC Commissie grenswaarde Chroom en Chroomverbindingen 1985</li>\n</ul></div>", "<h2>Documenten uit andere jaren</h2>", "<div><p>Kijk voor een pdf-bestand met een lijst van alle documenten over CARC en chroom-6 in het <a href=\"https://www.rijksoverheid.nl/documenten/publicaties/2014/10/29/overzichtsdocument-publicaties-over-carc-en-chroom-6\">overzichtsdocument publicaties</a>. De documenten zelf vindt u via <a href=\"https://www.rijksoverheid.nl/onderwerpen/chroomverf/documenten-chroom-6-en-carc\">de pagina&#39;s met documenten per jaartal</a>.</p></div>" ]
+  }
+}

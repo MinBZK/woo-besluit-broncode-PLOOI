@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sru:record xmlns:overheidwetgeving="http://standaarden.overheid.nl/wetgeving/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:cd="http://standaarden.overheid.nl/cup/data" xmlns:sru="http://docs.oasis-open.org/ns/search-ws/sruResponse"
+    xmlns:gzd="http://standaarden.overheid.nl/sru" xmlns:diag="http://docs.oasis-open.org/ns/search-ws/diagnostic" xmlns:facet="http://docs.oasis-open.org/ns/search-ws/facetedResults" xmlns:c="http://standaarden.overheid.nl/collectie/">
+    <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+    <sru:recordPacking>xml</sru:recordPacking>
+    <sru:recordData>
+        <gzd:gzd>
+            <gzd:originalData>
+                <overheidwetgeving:meta>
+                    <overheidwetgeving:owmskern>
+                        <dcterms:identifier>blg-936562</dcterms:identifier>
+                        <dcterms:title>Eindnotitie verkenning haalbaarheid epidemiologisch onderzoek chroom 6 Defensie (samenvattende conclusies)</dcterms:title>
+                        <dcterms:language>nl</dcterms:language>
+                        <dcterms:type scheme="OVERHEIDop.Parlementair">Bijlage</dcterms:type>
+                        <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+                        <dcterms:modified>2020-06-17</dcterms:modified>
+                    </overheidwetgeving:owmskern>
+                    <overheidwetgeving:owmsmantel>
+                        <dcterms:available>2020-06-16</dcterms:available>
+                        <dcterms:date>2020-06-16</dcterms:date>
+                        <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/blg-936562.html">1</dcterms:hasVersion>
+                    </overheidwetgeving:owmsmantel>
+                    <overheidwetgeving:tpmeta>
+                        <c:product-area>officielepublicaties</c:product-area>
+                        <c:content-area>officielepublicaties/blg/onopgemaakt</c:content-area>
+                        <overheidwetgeving:documentstatus>Onopgemaakt</overheidwetgeving:documentstatus>
+                        <overheidwetgeving:hoofddocument>kst-35300-X-63</overheidwetgeving:hoofddocument>
+                        <overheidwetgeving:ondernummer>63</overheidwetgeving:ondernummer>
+                        <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                        <overheidwetgeving:publicatienaam>Kamerstuk</overheidwetgeving:publicatienaam>
+                        <overheidwetgeving:vergaderjaar>2019-2020</overheidwetgeving:vergaderjaar>
+                        <overheidwetgeving:dossiernummer>35300-X</overheidwetgeving:dossiernummer>
+                    </overheidwetgeving:tpmeta>
+                </overheidwetgeving:meta>
+            </gzd:originalData>
+            <gzd:enrichedData>
+                <gzd:url>https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-936562/1/pdf/blg-936562.pdf</gzd:url>
+                <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/blg-936562.html</gzd:preferredUrl>
+                <gzd:itemUrl manifestation="metadata">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-936562/1/metadata/metadata.xml</gzd:itemUrl>
+                <gzd:itemUrl manifestation="metadataowms">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-936562/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                <gzd:itemUrl manifestation="pdf">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-936562/1/pdf/blg-936562.pdf</gzd:itemUrl>
+                <gzd:timestamp>2020-07-12T22:02:56.849694+02:00</gzd:timestamp>
+            </gzd:enrichedData>
+        </gzd:gzd>
+    </sru:recordData>
+    <sru:recordPosition>1</sru:recordPosition>
+</sru:record>

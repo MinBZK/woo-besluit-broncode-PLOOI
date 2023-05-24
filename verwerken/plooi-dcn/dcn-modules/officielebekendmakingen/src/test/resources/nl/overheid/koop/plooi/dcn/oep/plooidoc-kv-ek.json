@@ -1,0 +1,99 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/oep-8b3d7d3bb9df556ae725c0467c7edc9f5ed1f848",
+    "weblocatie" : "https://zoek.officielebekendmakingen.nl/kv-ek-215160000.html",
+    "creatiedatum" : "2015-09-25",
+    "geldigheid" : {
+      "begindatum" : "2015-10-01"
+    },
+    "identifiers" : [ "kv-ek-215160000" ],
+    "verantwoordelijke" : {
+      "type" : "overheid:AndereOrganisatie",
+      "id" : "https://identifier.overheid.nl/tooi/id/oorg/oorg10001",
+      "label" : "Eerste Kamer",
+      "bronwaarde" : "Eerste Kamer der Staten-Generaal"
+    },
+    "publisher" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/organisatie_onbekend",
+      "label" : "Onbekend"
+    },
+    "opsteller" : {
+      "type" : "overheid:AndereOrganisatie",
+      "id" : "https://identifier.overheid.nl/tooi/id/oorg/oorg10001",
+      "label" : "Eerste Kamer",
+      "bronwaarde" : "Eerste Kamer der Staten-Generaal"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "titelcollectie" : {
+      "officieleTitel" : "Vragen van de leden Knip (VVD), Beuving (PvdA), Hoekstra (CDA), Engels (D66), Markuszower (PVV), Ruers (SP), Strik (GroenLinks), Bikker (CU), D.J.H. vanDijk (SGP), Nagel (50PLUS), Koffeman (PvdD) en Ten Hoeve (OSF) aan de Minister van Veiligheid en Justitie inzake het meerjarenplan van de Raad voor de Rechtspraak 2015-2020 (ingezonden 25 september 2015)."
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "type" : "overheid:Informatietype",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_03c52ba0",
+        "label" : "Kamervraag zonder antwoord",
+        "bronwaarde" : "Kamervragen zonder antwoord"
+      } ],
+      "themas" : [ {
+        "type" : "plooi:Topthema",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_72138db9",
+        "label" : "rechtspraak"
+      } ]
+    },
+    "extraMetadata" : [ {
+      "prefix" : "plooi.displayfield",
+      "velden" : [ {
+        "key" : "vergaderjaar",
+        "values" : [ "2015-2016" ]
+      }, {
+        "key" : "indiener",
+        "values" : [ "Knip" ]
+      }, {
+        "key" : "indiener",
+        "values" : [ "Beuving" ]
+      }, {
+        "key" : "indiener",
+        "values" : [ "Hoekstra" ]
+      }, {
+        "key" : "indiener",
+        "values" : [ "Engels" ]
+      }, {
+        "key" : "indiener",
+        "values" : [ "Markuszower" ]
+      }, {
+        "key" : "indiener",
+        "values" : [ "Ruers" ]
+      }, {
+        "key" : "indiener",
+        "values" : [ "Strik" ]
+      }, {
+        "key" : "indiener",
+        "values" : [ "Bikker" ]
+      }, {
+        "key" : "indiener",
+        "values" : [ "Dijk, D.J.H. van" ]
+      }, {
+        "key" : "indiener",
+        "values" : [ "Nagel" ]
+      }, {
+        "key" : "indiener",
+        "values" : [ "Koffeman" ]
+      }, {
+        "key" : "indiener",
+        "values" : [ "Ten Hoeve" ]
+      }, {
+        "key" : "documentsubsoort",
+        "values" : [ "Schriftelijke vragen" ]
+      } ]
+    } ]
+  },
+  "plooiIntern" : {
+    "dcnId" : "oep-8b3d7d3bb9df556ae725c0467c7edc9f5ed1f848",
+    "aanbieder" : "officielebekendmakingen.nl",
+    "extId" : [ "dummy" ],
+    "sourceLabel" : "oep"
+  }
+}

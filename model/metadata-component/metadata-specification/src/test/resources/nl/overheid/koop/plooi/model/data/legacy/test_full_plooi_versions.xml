@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plooi:plooi xmlns:plooi="http://standaarden.overheid.nl/plooi/terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/">
+    <plooi:meta>
+        <plooi:owmskern>
+            <dcterms:identifier>121a4567-e29b-12d3-a716-446655440000_2</dcterms:identifier>
+            <dcterms:title>'s Gravenhage Kapvergunning Hooigracht onder nummer 20219495, d.d. 20210719</dcterms:title>
+            <dcterms:language>Nederlands</dcterms:language>
+            <dcterms:type resourceIdentifier="https://identifier.overheid.nl/tooi/def/thes/kern/c_002fc258">vergunning</dcterms:type>
+            <dcterms:creator resourceIdentifier="https://home.kpmg/nl/nl/home/sectoren/publieke-sector.html">KPMG afdeling kapvergunningen</dcterms:creator>
+            <overheid:authority resourceIdentifier="https://identifier.overheid.nl/tooi/id/gemeente/gm0518">gemeente Den Haag</overheid:authority>
+        </plooi:owmskern>
+        <plooi:owmsmantel>
+            <dcterms:publisher resourceIdentifier="https://identifier.overheid.nl/tooi/id/gemeente/gm0518">gemeente Den Haag</dcterms:publisher>
+            <dcterms:subject>Onderwerp</dcterms:subject>
+            <dcterms:description>omschrijving</dcterms:description>
+            <dcterms:alternative>20210719 - Kapvergunning Hooigracht Den Haag</dcterms:alternative>
+            <dcterms:alternative>Een hele mooie titel over deze illustere vergunning om monumentale bomen aan de Hooigracht te kappen</dcterms:alternative>
+            <dcterms:alternative>Of zo iets</dcterms:alternative>
+        </plooi:owmsmantel>
+        <plooi:othermeta>
+            <plooi:bronmeta>
+                <dcterms:identifier>7144356cd7ceaccd751e</dcterms:identifier>
+                <plooi:source-label>plooi-api</plooi:source-label>
+            </plooi:bronmeta>
+        </plooi:othermeta>
+        <plooi:plooiipm>
+            <plooi:versie>2</plooi:versie>
+            <dcterms:identifier>plooi-api-72 ... 0d86</dcterms:identifier>
+            <plooi:informatiecategorie resourceIdentifier="https://identifier.overheid.nl/tooi/def/thes/kern/c_002fc258">vergunning</plooi:informatiecategorie>
+            <plooi:verantwoordelijke resourceIdentifier="https://identifier.overheid.nl/tooi/id/gemeente/gm0518">gemeente Den Haag</plooi:verantwoordelijke>
+            <plooi:topthema resourceIdentifier="https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11">natuur en milieu</plooi:topthema>
+            <plooi:extrametadata name="prefix.key">1</plooi:extrametadata>
+            <plooi:extrametadata name="prefix.key">2</plooi:extrametadata>
+        </plooi:plooiipm>
+    </plooi:meta>
+    <plooi:body>
+        <plooi:documenten>
+            <plooi:document published="true">
+                <plooi:manifestatie-label>document</plooi:manifestatie-label>
+                <plooi:bestandsnaam>document_nieuw.pdf</plooi:bestandsnaam>
+                <plooi:hash>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</plooi:hash>
+            </plooi:document>
+            <plooi:document published="false">
+                <plooi:manifestatie-label>metadata</plooi:manifestatie-label>
+                <plooi:bestandsnaam>meta.json</plooi:bestandsnaam>
+                <plooi:hash>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</plooi:hash>
+            </plooi:document>
+        </plooi:documenten>
+    </plooi:body>
+</plooi:plooi>

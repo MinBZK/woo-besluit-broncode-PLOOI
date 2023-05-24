@@ -1,0 +1,9 @@
+<div class="breadcrumb">
+    <p>U bent hier:</p>
+    <ol>
+        <li *ngFor="let menu of menuItems let i = index; let last = last;">
+            <p *ngIf="last">{{menu.label}}</p>
+            <a *ngIf="!last" routerLink="{{menu.url}}">{{menu.label}} </a>
+        </li>
+    </ol>
+</div>

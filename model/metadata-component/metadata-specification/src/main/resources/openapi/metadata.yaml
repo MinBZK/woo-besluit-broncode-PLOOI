@@ -1,0 +1,22 @@
+openapi: 3.0.3
+info:
+  title: Metadata bij documenten in PLOOI
+  description: |
+    Metadata die de context geven van de documenten die in PLOOI worden geregistreerd
+  version: 0.9
+
+components:
+  schemas:
+    metadata:
+      type: object
+      description: |
+        De eigenschappen van en context bij een document.
+        Een document is volgens de Woo: een door een orgaan, persoon of college als bedoeld in artikel 2.2, eerste lid,
+        opgemaakt of ontvangen schriftelijk stuk of ander geheel van vastgelegde gegevens dat naar zijn aard verband houdt
+        met de publieke taak van dat orgaan, die persoon of dat college
+      properties:
+        document:
+          $ref: 'document.yaml#/components/schemas/document'
+      required:
+        - document
+      additionalProperties: false

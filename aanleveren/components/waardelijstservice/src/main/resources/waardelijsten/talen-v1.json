@@ -1,0 +1,666 @@
+[ {
+  "@id" : "http://publications.europa.eu/resource/authority/language/BUL",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "bg"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "bul"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "bul"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Bulgaars"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/CES",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "ces"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "cs"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "cze"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Tsjechisch"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/DAN",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "da"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "dan"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "dan"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Deens"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/DEU",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "de"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "deu"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "ger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Duits"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/ELL",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "el"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "ell"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "gre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Grieks"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/ENG",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "en"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "eng"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "eng"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Engels"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/EST",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "est"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "est"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "et"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Estisch"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/FIN",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "fi"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "fin"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "fin"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Fins"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/FRA",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "fr"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "fra"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "fre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Frans"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/FRY",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "fry"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "fry"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "fy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Fries"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/GLE",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "ga"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "gle"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "gle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Iers"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/HRV",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "hr"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "hrv"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "hrv"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Kroatisch"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/HUN",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "hu"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "hun"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "hun"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Hongaars"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/ITA",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "it"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "ita"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "ita"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Italiaans"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/LAV",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "lav"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "lav"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "lv"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Lets"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/LIT",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "lit"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "lit"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "lt"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Litouws"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/MLT",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "mlt"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "mlt"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "mt"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Maltees"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/NLD",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "dut"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "nl"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "nld"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Nederlands"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/POL",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "pl"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "pol"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "pol"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Pools"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/POR",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "por"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "por"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "pt"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Portugees"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/RON",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "ro"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "ron"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "rum"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Roemeens"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/SLK",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "sk"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "slk"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "slo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Slowaaks"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/SLV",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "sl"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "slv"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "slv"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Sloveens"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/SPA",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "es"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "spa"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "spa"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Spaans"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/language/SWE",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_1",
+    "@value" : "sv"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_2B",
+    "@value" : "swe"
+  }, {
+    "@type" : "http://publications.europa.eu/ontology/euvoc#ISO_639_3",
+    "@value" : "swe"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Zweeds"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/PAP-AW",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "pap-AW"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Papiamento"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/PAP-CW",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "pap-CW"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Papiamentu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "taal"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/set/scw_talen/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "https://identifier.overheid.nl/tooi/def/wl/SchemagebaseerdeConceptwaardelijst" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Waardelijst met een selectie van officiële talen van de Europese Unie uit de EU Vocabulary Authority table voor talen (languages-skos-ap-act.rdf), aangevuld met Fries, Papiamentu en Papiamento."
+  } ],
+  "http://purl.org/pav/derivedFrom" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/ont"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/wl"
+  }, {
+    "@id" : "http://purl.org/pav"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "Eerste versie waardelijst Talen op zichtdatum 15-11-2021."
+  } ],
+  "http://www.w3.org/ns/prov#generatedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2021-11-15T17:48:28.125+01:00"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/publicatiedatum" : [ {
+    "@value" : "2021-11-15"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/titel" : [ {
+    "@value" : "Talen"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/verantwoordelijke" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1034"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/zichtdatum" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-11-15"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/afgeleidVanVersie" : [ {
+    "@value" : ""
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/bronversie" : [ {
+    "@value" : ""
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/schema" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/taal"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/volgnummer" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+} ]

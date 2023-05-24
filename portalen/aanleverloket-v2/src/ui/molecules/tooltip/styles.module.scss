@@ -1,0 +1,52 @@
+@import "../../colors.scss";
+@import "../../breakpoints.scss";
+
+.content {
+    border: 1px solid $tooltipContainerBorderColor;
+    font-size: 1rem;
+    font-weight: normal;
+    background-color: $white;
+    padding: 1em 1em 1em;
+    position: absolute;
+    left: 1px;
+    right: 1em;
+    top: 1.4rem;
+    bottom: auto;
+    outline: none;
+    color: $black;
+    z-index: 100;
+    border-radius: 5px;
+    line-height: 1.325em;
+    max-width: 20em;
+    min-width: 18em;
+
+    &::before {
+        background-color: inherit;
+        border: 1px solid $tooltipContainerBorderColor;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-radius: 2px;
+        content: ' ';
+        height: .5em;
+        width: .5em;
+        position: absolute;
+        top: 0;
+        left: 1.05em;
+        transform: rotate(45deg);
+        transform-origin: 100% 0;
+
+        @media (max-width: $breakpointDesktop) {
+            left: 5px;
+            width: .5em;
+        }
+    }
+
+    @media (min-width: $breakpointDesktop) {
+        position: absolute;
+        top: 1.5em;
+        left: -.75em;
+        max-width: 20em;
+        min-width: 18em;
+    }
+
+}

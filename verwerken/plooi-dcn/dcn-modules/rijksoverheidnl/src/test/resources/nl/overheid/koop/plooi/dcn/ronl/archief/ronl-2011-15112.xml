@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<work xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/"
+    xsi:noNamespaceSchemaLocation="../_manifest.xsd" label="plooicb-2011-15112" gegenereerd="2019-06-13T10:53:32" _latestItem="1/pdf/kamerbrief-gebruiksnorm-brouwgerst.pdf">
+    <metadata>
+        <dcterms.available>2011-06-21</dcterms.available>
+        <dcterms.creator resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Ministerie_van_Economische_Zaken_Landbouw_en_Innovatie">Ministerie van Economische Zaken, Landbouw en Innovatie</dcterms.creator>
+        <dcterms.identifier>plooicb-2011-15112</dcterms.identifier>
+        <dcterms.issued>2011-06-21</dcterms.issued>
+        <dcterms.language>nl-NL</dcterms.language>
+        <dcterms.publisher resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Ministerie_van_Algemene_Zaken">Ministerie van Algemene Zaken</dcterms.publisher>
+        <dcterms.source>https://archief06.archiefweb.eu/archives/archiefweb/20180422095750/https://www.rijksoverheid.nl/documenten/kamerstukken/2011/06/21/kamerbrief-gebruiksnorm-brouwgerst</dcterms.source>
+        <dcterms.subject>Landbouw en tuinbouw</dcterms.subject>
+        <dcterms.subject>Mest</dcterms.subject>
+        <dcterms.title>Kamerbrief gebruiksnorm brouwgerst</dcterms.title>
+        <dcterms.type>kamerstuk</dcterms.type>
+        <overheid.authority resourceIdentifier="http://standaarden.overheid.nl/owms/terms/minezk">Ministerie van Economische Zaken en Klimaat</overheid.authority>
+    </metadata>
+    <expression label="1">
+        <metadata />
+        <manifestation label="pdf">
+            <metadata>
+                <size>43</size>
+                <pages>2</pages>
+            </metadata>
+            <item label="kamerbrief-gebruiksnorm-brouwgerst.pdf" _deleted="false" />
+        </manifestation>
+    </expression>
+</work>

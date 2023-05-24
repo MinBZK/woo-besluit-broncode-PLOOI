@@ -1,0 +1,100 @@
+{
+  "document" : {
+    "pid" : "https://open.overheid.nl/documenten/121a4567-e29b-12d3-a716-446655440000",
+    "creatiedatum" : "december 2021",
+    "identifiers" : [ "https://documenten.denhaag.nl/documenten/doc-123e4567-e89b-12d3-a456-426614174777" ],
+    "verantwoordelijke" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/gemeente/gm0518",
+      "label" : "gemeente Den Haag"
+    },
+    "publisher" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/gemeente/gm0518",
+      "label" : "gemeente Den Haag"
+    },
+    "opsteller" : {
+      "id" : "https://home.kpmg/nl/nl/home/sectoren/publieke-sector.html",
+      "label" : "KPMG afdeling kapvergunningen"
+    },
+    "naamOpsteller" : "Cafe De Put",
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "format" : {
+      "id" : "http://publications.europa.eu/resource/authority/file-type/AZW",
+      "label" : "Amazon Kindle eBook"
+    },
+    "onderwerpen" : [ "Onderwerp" ],
+    "omschrijvingen" : [ "omschrijving" ],
+    "titelcollectie" : {
+      "officieleTitel" : "'s Gravenhage Kapvergunning Hooigracht onder nummer 20219495, d.d. 20210719",
+      "verkorteTitels" : [ "Kapvergunning Hooigracht 2021", "Hallo mijn Titel", "Ook een titel 3" ],
+      "alternatieveTitels" : [ "20210719 - Kapvergunning Hooigracht Den Haag", "Een hele mooie titel over deze illustere vergunning om monumentale bomen aan de Hooigracht te kappen", "Of zo iets" ]
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_002fc258",
+        "label" : "vergunning"
+      } ],
+      "themas" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11",
+        "label" : "natuur en milieu"
+      } ],
+      "trefwoorden" : [ "trefwoorden" ]
+    },
+    "aggregatiekenmerk" : "aggregatiekenmerk",
+    "isPartOf" : {
+      "id" : "https://open.overheid.nl/documenten/ronl-abc",
+      "label" : "Bundle document"
+    },
+    "hasParts" : [ {
+      "id" : "https://open.overheid.nl/documenten/ronl-123",
+      "label" : "Part een"
+    }, {
+      "id" : "https://open.overheid.nl/documenten/ronl-456",
+      "label" : "Par twee"
+    } ],
+    "documenthandelingen" : [ {
+      "soortHandeling" : {
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_e1ec050e",
+        "label" : "ondertekening"
+      },
+      "atTime" : "2021-07-07T00:00:00Z"
+    } ],
+    "extraMetadata" : [ {
+      "namespace" : "namespace",
+      "prefix" : "prefix",
+      "velden" : [ {
+        "key" : "key",
+        "values" : [ "1" ]
+      } ]
+    } ]
+  },
+  "plooiIntern" : {
+    "dcnId" : "plooi-api-72 ... 0d86",
+    "extId" : [ "7144356cd7ceaccd751e" ],
+    "sourceLabel" : "plooi-api"
+  },
+  "documentrelaties" : [ {
+    "relation" : "https://open.overheid.nl/documenten/2e8bfbd3-1ee9-49fe-a184-928240e03c53",
+    "role" : "https://identifier.overheid.nl/plooi/def/thes/documentrelatie/isPartOf"
+  } ],
+  "versies" : [ {
+    "nummer" : 1,
+    "oorzaak" : "aanlevering",
+    "bestanden" : [ {
+      "gepubliceerd" : true,
+      "url" : "https://...",
+      "mime-type" : "application/pdf",
+      "bestandsnaam" : "kapvergunning.pdf",
+      "hash" : "SSSSSSSSSSS"
+    }, {
+      "gepubliceerd" : false,
+      "label" : "api-1",
+      "url" : "https://...",
+      "mime-type" : "application/json",
+      "bestandsnaam" : "kapvergunning.json",
+      "hash" : "SSSSSSSSSSSSS"
+    } ]
+  } ]
+}

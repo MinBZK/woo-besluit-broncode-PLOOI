@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <id>e16712e7-b88c-4b3e-899e-f5ab4e26b2dc</id>
+    <type>beleidsnota</type>
+    <typeid>c54d5d1f-468b-4c0c-8a31-d8174781756c</typeid>
+    <subtype></subtype>
+    <canonical>https://www.rijksoverheid.nl/documenten/beleidsnotas/2022/04/01/beslisnota-s-bij-amvb-studiesucces-mbo</canonical>
+    <dataurl>http://__MOCK_SERVICE__/opendata.rijksoverheid.nl/v1/sources/rijksoverheid/documents/e16712e7-b88c-4b3e-899e-f5ab4e26b2dc</dataurl>
+    <title>Beslisnota Ondertekening voorhangbrieven AMvB studiesucces mbo</title>
+    <files>
+        <file>
+            <fileurl>http://__MOCK_SERVICE__/opendata.rijksoverheid.nl/binaries/rijksoverheid/documenten/beleidsnotas/2022/04/01/beslisnota-s-bij-amvb-studiesucces-mbo/beslisnota-s-bij-amvb-studiesucces-mbo.pdf</fileurl>
+            <mimetype>application/pdf</mimetype>
+            <filesize>240295</filesize>
+            <filename>beslisnota-s-bij-amvb-studiesucces-mbo.pdf</filename>
+            <filetitle></filetitle>
+            <numberofpages>7</numberofpages>
+        </file>
+    </files>
+    <introduction>
+        <![CDATA[<p>In een beslisnota staat achtergrondinformatie die bewindspersonen gebruiken bij de besluitvorming over een Kamerstuk.</p>]]>
+    </introduction>
+    <content />
+    <additionalcontent>
+        <![CDATA[]]>
+    </additionalcontent>
+    <authorities>
+        <department>Ministerie van Onderwijs, Cultuur en Wetenschap</department>
+    </authorities>
+    <creators>
+        <department>Ministerie van Onderwijs, Cultuur en Wetenschap</department>
+    </creators>
+    <subjects>
+        <subject>Middelbaar beroepsonderwijs (mbo)</subject>
+    </subjects>
+    <subjectids>
+        <id>5b3c173c-23fc-4667-a891-b5bb66f7937c</id>
+    </subjectids>
+    <themes>
+        <theme>Onderwijs</theme>
+    </themes>
+    <organisationalunits>
+        <department>Ministerie van Onderwijs, Cultuur en Wetenschap</department>
+    </organisationalunits>
+    <organisationalunitids>
+        <id>ce96797a-d675-4248-90e3-e6176f2a6240</id>
+    </organisationalunitids>
+    <lastmodified>2022-04-04T07:50:35.660Z</lastmodified>
+    <issued>2022-03-31T23:00:00.000Z</issued>
+    <available>2022-04-01T16:41:00.000Z</available>
+    <frontenddate>2022-04-01T00:00:00.000Z</frontenddate>
+    <initialdate>2022-04-01T16:50:13.699+02:00</initialdate>
+    <license>CC0 1.0 Universal</license>
+    <rightsholders>
+        <department>Ministerie van Algemene Zaken</department>
+    </rightsholders>
+    <languages>
+        <language>nl-NL</language>
+    </languages>
+    <locations>
+        <location>Nederland</location>
+    </locations>
+</document>

@@ -1,0 +1,34 @@
+{{- if .Values.ingress.pilotHostname }}
+{{- $fullName := include "portal.fullname" . -}}
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ $fullName }}-redirect-ingress
+  labels:
+    {{- include "portal.labels" . | nindent 4 }}
+  annotations:
+    nginx.ingress.kubernetes.io/app-root: ''
+    nginx.ingress.kubernetes.io/rewrite-target: https://{{ .Values.ingress.prodHostname }}/$1
+    {{- if .Values.ingress.whiteList }}
+    nginx.ingress.kubernetes.io/whitelist-source-range: {{ .Values.ingress.whiteList }}
+    {{- end }}
+spec:
+  ingressClassName: {{ .Values.ingress.ingressClassName }}
+  {{- if .Values.ingress.tlsEnabled }}
+  tls:
+  - hosts:
+    - {{ .Values.ingress.pilotHostname }}
+    secretName: {{ .Values.ingress.tlsSecretPilotHost }}
+  {{- end }}
+  rules:
+    - host: {{ .Values.ingress.pilotHostname }}
+      http:
+        paths:
+        - path: /(.*)
+          pathType: Prefix
+          backend:
+            service:
+              name: http-svc
+              port:
+                number: 80
+{{- end }}

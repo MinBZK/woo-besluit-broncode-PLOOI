@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <id>b47815af-2b19-4268-a961-58b9591f4477</id>
+    <type>wob-verzoek</type>
+    <typeid>b9b84da6-4964-4783-a232-9e3cac108a18</typeid>
+    <subtype></subtype>
+    <canonical>https://www.rijksoverheid.nl/documenten/wob-verzoeken/2022/02/01/besluit-op-wob-verzoek-over-toepassing-artikel-11.5-algemene-douaneregeling</canonical>
+    <dataurl>https://opendata.rijksoverheid.nl/v1/sources/rijksoverheid/documents/b47815af-2b19-4268-a961-58b9591f4477</dataurl>
+    <title>Besluit op Wob-verzoek over toepassing artikel 11.5 van de Algemene douaneregeling (Adr)</title>
+    <files>
+        <file>
+            <fileurl>https://opendata.rijksoverheid.nl/binaries/rijksoverheid/documenten/wob-verzoeken/2022/02/01/besluit-op-wob-verzoek-over-toepassing-artikel-11.5-algemene-douaneregeling/wob-besluit-inzake-de-toepassing-van-artikel-11.5-adr.pdf</fileurl>
+            <mimetype>application/pdf</mimetype>
+            <filesize>209012</filesize>
+            <filename>wob-besluit-inzake-de-toepassing-van-artikel-11.5-adr.pdf</filename>
+            <filetitle></filetitle>
+            <numberofpages>4</numberofpages>
+        </file>
+        <file>
+            <fileurl>https://opendata.rijksoverheid.nl/binaries/rijksoverheid/documenten/wob-verzoeken/2022/02/01/besluit-op-wob-verzoek-over-toepassing-artikel-11.5-algemene-douaneregeling/bijlage+wob-besluit-inzake-de-toepassing-van-artikel-11.5-adr.pdf</fileurl>
+            <mimetype>application/pdf</mimetype>
+            <filesize>6589716</filesize>
+            <filename>bijlage wob-besluit-inzake-de-toepassing-van-artikel-11.5-adr.pdf</filename>
+            <filetitle>Openbaar gemaakte documenten</filetitle>
+            <numberofpages>32</numberofpages>
+        </file>
+    </files>
+    <introduction><![CDATA[<p>Besluit op een verzoek om informatie over het aantal fiscale strafbeschikkingen dat in de afgelopen 5 jaar is opgelegd op grond van artikel 194 van het Douanewetboek van de Unie, artikel 11:5 van de Algemene douaneregeling en artikel 10:11 van de Algemene douanewet. Het verzoek is gedaan op basis van de Wet openbaarheid van bestuur (Wob).</p>]]></introduction>
+    <content />
+    <additionalcontent><![CDATA[]]>
+    </additionalcontent>
+    <authorities>
+        <department>Ministerie van Financiën</department>
+    </authorities>
+    <creators>
+        <department>Ministerie van Algemene Zaken</department>
+    </creators>
+    <subjects />
+    <subjectids />
+    <themes />
+    <organisationalunits>
+        <department>Ministerie van Financiën</department>
+    </organisationalunits>
+    <organisationalunitids>
+        <id>be35d9b9-d6bd-438c-b349-d244f377c379</id>
+    </organisationalunitids>
+    <lastmodified>2022-02-02T09:55:06.992Z</lastmodified>
+    <issued>2022-02-01T09:46:00.000Z</issued>
+    <available>2022-02-02T09:50:00.000Z</available>
+    <frontenddate>2022-02-01T09:46:00.000Z</frontenddate>
+    <initialdate>2022-02-02T10:56:31.222+01:00</initialdate>
+    <license>CC0 1.0 Universal</license>
+    <rightsholders>
+        <department>Ministerie van Algemene Zaken</department>
+    </rightsholders>
+    <languages>
+        <language>nl-NL</language>
+    </languages>
+    <locations>
+        <location>Nederland</location>
+    </locations>
+</document>

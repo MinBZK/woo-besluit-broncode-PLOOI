@@ -1,0 +1,60 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/oep-8b3d7d3bb9df556ae725c0467c7edc9f5ed1f848",
+    "weblocatie" : "https://zoek.officielebekendmakingen.nl/nds-wwi0800141-b1.html",
+    "geldigheid" : {
+      "begindatum" : "2008-06-24"
+    },
+    "identifiers" : [ "nds-wwi0800141-b1" ],
+    "verantwoordelijke" : {
+      "type" : "overheid:AndereOrganisatie",
+      "id" : "https://identifier.overheid.nl/tooi/id/oorg/oorg10002",
+      "label" : "Tweede Kamer",
+      "bronwaarde" : "Tweede Kamer der Staten-Generaal"
+    },
+    "publisher" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/organisatie_onbekend",
+      "label" : "Onbekend"
+    },
+    "opsteller" : {
+      "type" : "overheid:AndereOrganisatie",
+      "id" : "https://identifier.overheid.nl/tooi/id/oorg/oorg10002",
+      "label" : "Tweede Kamer",
+      "bronwaarde" : "Tweede Kamer der Staten-Generaal"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "titelcollectie" : {
+      "officieleTitel" : "Heffing ten behoeve van bijzondere projectsteun"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "type" : "overheid:Informatietype",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_f1652921",
+        "label" : "niet-dossierstuk"
+      } ],
+      "themas" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/id/thema_onbekend",
+        "label" : "Onbekend"
+      } ]
+    },
+    "extraMetadata" : [ {
+      "prefix" : "plooi.displayfield",
+      "velden" : [ {
+        "key" : "vergaderjaar",
+        "values" : [ "2007-2008" ]
+      }, {
+        "key" : "documentsubsoort",
+        "values" : [ "Bijlage" ]
+      } ]
+    } ]
+  },
+  "plooiIntern" : {
+    "dcnId" : "oep-8b3d7d3bb9df556ae725c0467c7edc9f5ed1f848",
+    "aanbieder" : "officielebekendmakingen.nl",
+    "extId" : [ "dummy" ],
+    "sourceLabel" : "oep"
+  }
+}

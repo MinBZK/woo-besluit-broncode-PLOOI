@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+      Generatie: versie XSLT 1.1 op 2020-09-03+02:00-->
+<owms-metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:overheidop="http://standaarden.overheid.nl/oep/meta/">
+   <owmskern>
+      <dcterms:identifier>kv-tk-2020Z13248</dcterms:identifier>
+      <dcterms:title>Huisbazen die weigeren loden leidingen te vervangen</dcterms:title>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:type scheme="OVERHEIDop.KamervraagTypen">Schriftelijke vragen</dcterms:type>
+      <dcterms:type scheme="OVERHEIDop.Parlementair">Kamervragen zonder Antwoord</dcterms:type>
+      <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+      <dcterms.modified>2020-07-02</dcterms.modified>
+   </owmskern>
+   <owmsmantel>
+      <dcterms:available>2020-07-02</dcterms:available>
+      <dcterms:issued>2020-07-02</dcterms:issued>
+   </owmsmantel>
+   <oep>
+      <overheidop:documentStatus>Opgemaakt na onopgemaakt</overheidop:documentStatus>
+      <overheidop:indiener>H. Nijboer</overheidop:indiener>
+      <overheidop:publicationName>Kamervragen zonder antwoord</overheidop:publicationName>
+      <overheidop:vergaderjaar>2019-2020</overheidop:vergaderjaar>
+      <overheidop:vraagnummer>2020Z13248</overheidop:vraagnummer>
+      <overheidop:datumIndiening>2020-07-02</overheidop:datumIndiening>
+      <overheid:organisationType>staten generaal</overheid:organisationType>
+      <overheid:category scheme="OVERHEID.TaxonomieBeleidsagenda">Huisvesting | Huren en verhuren</overheid:category>
+      <overheidop:aanhangsel>ah-tk-20192020-3799</overheidop:aanhangsel>
+   </oep>
+</owms-metadata>

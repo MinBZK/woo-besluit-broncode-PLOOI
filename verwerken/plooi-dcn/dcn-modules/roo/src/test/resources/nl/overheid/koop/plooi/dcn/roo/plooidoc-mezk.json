@@ -1,0 +1,56 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/roo-c39652728fcc00e89bb9095ba4a194f6597e433c",
+    "weblocatie" : "https://almanak.overheid.nl/10621/Economische_Zaken_en_Klimaat",
+    "creatiedatum" : "2010-10-14",
+    "verantwoordelijke" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1045",
+      "label" : "Economische Zaken en Klimaat"
+    },
+    "publisher" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1045",
+      "label" : "Economische Zaken en Klimaat"
+    },
+    "opsteller" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1045",
+      "label" : "Economische Zaken en Klimaat"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "omschrijvingen" : [ "Het ministerie van Economische Zaken en Klimaat (EZK) staat voor een duurzaam, ondernemend Nederland. We zetten ons in voor een uitstekend ondernemersklimaat en een sterke internationale concurrentiepositie. Door de juiste randvoorwaarden te creëren en door ondernemers de ruimte te geven om te vernieuwen en te groeien. Door samenwerking te stimuleren tussen onderzoekers en ondernemers. Zo bouwen we onze topposities in energie, industrie en diensten verder uit en investeren we in een krachtig en duurzaam Nederland." ],
+    "titelcollectie" : {
+      "officieleTitel" : "Economische Zaken en Klimaat - Organisatiegegevens"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_9ecc0007",
+        "label" : "Organisatiegegevens"
+      } ],
+      "themas" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f37fd49d",
+        "label" : "Organisatie en bedrijfsvoering"
+      } ]
+    },
+    "extraMetadata" : [ {
+      "prefix" : "plooi.displayfield",
+      "velden" : [ {
+        "key" : "identificatienummer",
+        "values" : [ "https://identifier.overheid.nl/tooi/id/ministerie/mnre1045" ]
+      }, {
+        "key" : "bezoekadres",
+        "values" : [ "Bezuidenhoutseweg 73, 2594 AC Den Haag" ]
+      }, {
+        "key" : "postadres",
+        "values" : [ "Postbus 20401, 2500 EK Den Haag" ]
+      } ]
+    } ]
+  },
+  "plooiIntern" : {
+    "dcnId" : "roo-c39652728fcc00e89bb9095ba4a194f6597e433c",
+    "aanbieder" : "Register van Overheidsorganisaties",
+    "extId" : [ "dummy" ],
+    "sourceLabel" : "roo"
+  }
+}

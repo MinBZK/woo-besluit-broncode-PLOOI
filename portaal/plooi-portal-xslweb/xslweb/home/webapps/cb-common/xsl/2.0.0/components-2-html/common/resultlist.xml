@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result-list>
+  <title>resultlist</title>
+  <label>Resultlist</label>
+  <context>
+    <items>
+      <item>
+        <title>Afdeling 1.2.1. Algemene bepaling voor het sluiten van schriftelijke overeenkomsten onder bezwarende titel voor het verrichten van werken, leveringen of dienstent</title>
+        <title-header>h2</title-header>
+        <downloads>
+          <download>
+            <type>pdf</type>
+            <size>22kb</size>
+          </download>
+          <download>
+            <type>xml</type>
+            <size>832kb</size>
+          </download>  
+        </downloads>
+        <text>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, obcaecati! Aperiam quasi debitis exercitationem ducimus! Eligendi, iusto, ut! Tempore ab sit eveniet fugit officia minus incidunt atque facilis saepe at!</text>
+        <metadatas>
+          <metadata>
+            <value>wetten</value>
+          </metadata>
+          <metadata>
+            <value>regelgeving</value>
+          </metadata>
+          <metadata>
+            <value>beleid</value>
+          </metadata>  
+        </metadatas>
+      </item>
+      <item>
+        <title>Afdeling 1.2.3. Algemene bepaling voor het sluiten van schriftelijke overeenkomsten onder bezwarende titel voor het verrichten van werken, leveringen of dienstent</title>
+        <downloads>
+          <download>
+            <type>pdf</type>
+            <size>22kb</size>
+          </download>
+          <download>
+            <type>xml</type>
+            <size>832kb</size>
+          </download>  
+        </downloads>
+        <text>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, obcaecati! Aperiam quasi debitis exercitationem ducimus! Eligendi, iusto, ut! Tempore ab sit eveniet fugit officia minus incidunt atque facilis saepe at!</text>
+        <metadatas>
+          <metadata>
+            <value>wetten</value>
+          </metadata>
+          <metadata>
+            <value>regelgeving</value>
+          </metadata>
+          <metadata>
+            <value>beleid</value>
+          </metadata>  
+        </metadatas>
+      </item>  
+    </items>
+  </context>
+  <variants>
+    <name>data</name>
+    <context>
+      <modifier>result--list__data</modifier>
+      <items>
+        <item>
+          <theme>housing</theme>
+          <theme-name>Huisvesting</theme-name>
+          <title>Locatie stembureaus Delfzijl 2017</title>
+          <text>Gegevens van alle stemlokalen binnen de gemeente Delfzijl voor verkiezingen. Locatie in X en Y in RD-Amersfoort, nummer, naam van het gebouw,...</text>
+          <owner>Delfzijl</owner>
+          <downloads>
+            <download>
+              <type>csv</type>
+            </download>  
+          </downloads>
+          <metadatas>
+            <metadata>
+              <value>Delfzijl</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>stembureau</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>stemmen</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>verkiezing</value>
+              <link />
+              <last>true</last>
+            </metadata>  
+          </metadatas>
+        </item>
+        <item>
+          <theme>healthcare</theme>
+          <theme-name>Zorg</theme-name>
+          <title>Leefbaarometer 2.0 = meting 2016</title>
+          <text>Gegevens van alle stemlokalen binnen de gemeente Delfzijl voor verkiezingen. Locatie in X en Y in RD-Amersfoort, nummer, naam van het gebouw,...</text>
+          <owner>Delfzijl</owner>
+          <downloads>
+            <download>
+              <type>csv</type>
+            </download>
+            <downloads>
+              <type>pdf</type>
+            </downloads>
+            <downloads>
+              <type>shape</type>
+            </downloads>  
+          </downloads>
+          <metadatas>
+            <metadata>
+              <value>Delfzijl</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>stembureau</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>stemmen</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>verkiezing</value>
+              <link />
+              <last>true</last>
+            </metadata>  
+          </metadatas>
+        </item>
+        <item>
+          <theme>jobs</theme>
+          <theme-name>Werk</theme-name>
+          <title>Locatie stembureaus Delfzijl 2017</title>
+          <text>Gegevens van alle stemlokalen binnen de gemeente Delfzijl voor verkiezingen. Locatie in X en Y in RD-Amersfoort, nummer, naam van het gebouw,...</text>
+          <owner>Delfzijl</owner>
+          <downloads>
+            <download>
+              <type>csv</type>
+            </download>  
+          </downloads>
+          <metadatas>
+            <metadata>
+              <value>Delfzijl</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>stembureau</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>stemmen</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>verkiezing</value>
+              <link />
+              <last>true</last>
+            </metadata>  
+          </metadatas>
+        </item>
+        <item>
+          <theme>traffic</theme>
+          <theme-name>Verkeer</theme-name>
+          <title>Leefbaarometer 2.0 = meting 2016</title>
+          <text>Gegevens van alle stemlokalen binnen de gemeente Delfzijl voor verkiezingen. Locatie in X en Y in RD-Amersfoort, nummer, naam van het gebouw,...</text>
+          <owner>Delfzijl</owner>
+          <downloads>
+            <downloads>
+              <type>csv</type>
+            </downloads>
+            <downloads>
+              <type>pdf</type>
+            </downloads>
+            <downloads>
+              <type>shape</type>
+            </downloads>  
+          </downloads>
+          <metadatas>
+            <metadata>
+              <value>Delfzijl</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>stembureau</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>stemmen</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>verkiezing</value>
+              <link />
+              <last>true</last>
+            </metadata>  
+          </metadatas>
+        </item>
+        <item>
+          <theme>migration</theme>
+          <theme-name>Migratie</theme-name>
+          <title>Locatie stembureaus Delfzijl 2017</title>
+          <text>Gegevens van alle stemlokalen binnen de gemeente Delfzijl voor verkiezingen. Locatie in X en Y in RD-Amersfoort, nummer, naam van het gebouw,...</text>
+          <owner>Delfzijl</owner>
+          <downloads>
+            <download>
+              <type>csv</type>
+            </download>  
+          </downloads>
+          <metadatas>
+            <metadata>
+              <value>Delfzijl</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>stembureau</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>stemmen</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>verkiezing</value>
+              <link />
+              <last>true</last>
+            </metadata>  
+          </metadatas>
+        </item>
+        <item>
+          <theme>agriculture</theme>
+          <theme-name>Landbouw</theme-name>
+          <title>Leefbaarometer 2.0 = meting 2016</title>
+          <text>Gegevens van alle stemlokalen binnen de gemeente Delfzijl voor verkiezingen. Locatie in X en Y in RD-Amersfoort, nummer, naam van het gebouw,...</text>
+          <owner>Delfzijl</owner>
+          <downloads>
+            <download>
+              <type>csv</type>
+            </download>
+            <download>
+              <type>pdf</type>
+            </download>
+            <download>
+              <type>shape</type>
+            </download>  
+          </downloads>
+          <metadatas>
+            <metadata>
+              <value>Delfzijl</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>stembureau</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>stemmen</value>
+              <link />
+            </metadata>
+            <metadata>
+              <value>verkiezing</value>
+              <link />
+              <last>true</last>
+            </metadata>  
+          </metadatas>
+        </item>  
+      </items>
+    </context>
+  </variants>
+</result-list>

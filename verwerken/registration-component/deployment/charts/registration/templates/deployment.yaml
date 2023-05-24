@@ -1,0 +1,78 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "registration.fullname" . }}
+  labels:
+    app.kubernetes.io/component: registration
+    {{- include "registration.labels" . | nindent 4 }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      {{- include "registration.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      labels:
+        {{- include "registration.labels" . | nindent 8 }}
+        {{- include "registration.selectorLabels" . | nindent 8 }}
+        {{- if .Values.podLabels }}
+          {{- include "common.tplvalues.render" (dict "value" .Values.podLabels "context" $) | nindent 8 }}
+        {{- end }}
+        timestamp: "{{ now | unixEpoch }}"
+    spec:
+      imagePullSecrets:
+        - name: harbor-puller
+      containers:
+        - name: {{ .Chart.Name }}
+          image: {{ .Values.image.registry }}registration-service:{{ .Values.image.tag | default .Chart.AppVersion }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          env:
+            - name: OTEL_SERVICE_NAME
+              value: {{ include "registration.fullname" . }}
+            - name: OTEL_TRACES_EXPORTER
+              value: {{ .Values.opentelemetry.traces.exporter }}
+            - name: OTEL_METRICS_EXPORTER
+              value: {{ .Values.opentelemetry.metrics.exporter }}
+            {{- if .Values.opentelemetry.enabled }}
+            - name: OTEL_EXPORTER_JAEGER_ENDPOINT
+              value: {{ .Values.opentelemetry.exporter.jaeger.endpoint }}
+            {{- end }}
+            - name: LOG_LEVEL_KOOP
+              value: {{ .Values.logLevel }}
+            {{- if .Values.extraJvmArgs }}
+            - name: JAVA_TOOL_OPTIONS
+              value: {{ .Values.extraJvmArgs }}
+            {{- end }}
+            - name: DCN_DB_URL
+            {{- if .Values.database.url }}
+              value: {{ .Values.database.url }}
+            {{- end }}
+            {{- if .Values.database.secret }}
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Values.database.secret }}
+                  key: pgbouncer-jdbc-uri
+            {{- end }}
+            - name: PROCESS_URL
+              value: {{ .Values.process.url }}
+          ports:
+            - name: srvc-port
+              containerPort: 8080
+            - name: actr-port
+              containerPort: 8081
+#          livenessProbe:
+#            httpGet:
+#              path: /actuator/health/liveness
+#              port: actr-port
+#          readinessProbe:
+#            httpGet:
+#              path: /actuator/health/readiness
+#              port: actr-port
+#          startupProbe:
+#            httpGet:
+#              path: /actuator/health/readiness
+#              port: actr-port
+#            failureThreshold: 20
+          {{- if .Values.resources }}
+          resources: {{- toYaml .Values.resources | nindent 12 }}
+          {{- end }}

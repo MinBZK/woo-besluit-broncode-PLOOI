@@ -1,0 +1,32 @@
+.icon {
+
+  &--small
+  {
+    width: 12px;
+  }
+  
+  &--medium
+  {
+    width: 18px;
+  }
+
+  &--large
+  {
+    width: 30px;
+  }
+
+  &--xlarge
+  {
+    width: 64px;
+  }
+
+  &--xxLarge
+  {
+    width: 100px;
+  }
+
+  &--inputfieldSize
+  {
+    width: 18px;
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document>
+    <nested-content>
+        <h2 xmlns="http://www.w3.org/1999/xhtml">
+            Title
+            <a href="#">with link</a>
+        </h2>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>
+                paragraph
+            </p>
+            <p>
+                <b>tekst</b>
+            </p>
+        </div>
+    </nested-content>
+</document>

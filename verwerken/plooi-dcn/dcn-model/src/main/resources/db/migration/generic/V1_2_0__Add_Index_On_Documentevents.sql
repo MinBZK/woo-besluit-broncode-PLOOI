@@ -1,0 +1,1 @@
+CREATE INDEX documentevents_execution_id ON documentevents (execution_id);

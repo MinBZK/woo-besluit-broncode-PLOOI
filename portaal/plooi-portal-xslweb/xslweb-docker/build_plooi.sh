@@ -1,0 +1,4 @@
+#!/bin/bash
+export REPOS_DIR=..
+./build_docker.sh plooi-portal-xslweb $1 ROOT sru cb-common
+#SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS

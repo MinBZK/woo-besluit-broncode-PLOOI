@@ -1,0 +1,54 @@
+{
+  "document" : {
+    "weblocatie" : "https://www.rijksoverheid.nl/documenten/publicaties/2017/11/08/toolkit-modellen",
+    "creatiedatum" : "2017-11-08",
+    "verantwoordelijke" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1034",
+      "label" : "ministerie van Binnenlandse Zaken en Koninkrijksrelaties"
+    },
+    "opsteller" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1034",
+      "label" : "ministerie van Binnenlandse Zaken en Koninkrijksrelaties"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "omschrijvingen" : [ "Op deze pagina vindt u de relevante modellen uit de Kiesregeling." ],
+    "titelcollectie" : {
+      "officieleTitel" : "Toolkit Modellen"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/id/documentsoort_onbekend",
+        "label" : "Onbekend"
+      } ],
+      "themas" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/id/thema_onbekend",
+        "label" : "Onbekend"
+      } ]
+    }
+  },
+  "plooiIntern" : {
+    "dcnId" : "ronl-7e9487c7e2d80c9fb669c6e48b6e439fb1ac722c",
+    "aanbieder" : "Rijksoverheid.nl",
+    "extId" : [ "c8ea20ba-a30d-4bd7-88a1-ca186da9903c" ],
+    "sourceLabel" : "ronl"
+  },
+  "body" : {
+    "tekst" : [ "<div>Registratie aanduiding</div> <div>...</div> " ]
+  },
+  "versies" : [ {
+    "nummer" : 1,
+    "oorzaak" : "aanlevering",
+    "bestanden" : [ {
+      "gepubliceerd" : false,
+      "label" : "xml",
+      "url" : "https://opendata.rijksoverheid.nl/v1/sources/rijksoverheid/documents/c8ea20ba-a30d-4bd7-88a1-ca186da9903c",
+      "bestandsnaam" : "c8ea20ba-a30d-4bd7-88a1-ca186da9903c.xml",
+      "titel" : "Toolkit Modellen",
+      "hash" : "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+    } ]
+  } ]
+}

@@ -1,0 +1,544 @@
+[
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/oorg/oorg10000",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Overheidsorganisatie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Verenigde Vergadering"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Verenigde Vergadering der Staten-Generaal"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "overheidsorganisatie Verenigde Vergadering der Staten-Generaal"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "verenigde vergadering der staten-generaal"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "oorg10000"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_c5137aec"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Verenigde_Vergadering_der_Staten-Generaal"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Verenigde Vergadering"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "overheidsorganisatie Verenigde Vergadering"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "verenigde vergadering"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/oorg/oorg10001",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Overheidsorganisatie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Eerste Kamer"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "EK"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Eerste Kamer der Staten-Generaal"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "overheidsorganisatie Eerste Kamer der Staten-Generaal"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "eerste kamer der staten-generaal"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "oorg10001"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_88fb8563"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Eerste_Kamer_der_Staten-Generaal"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Eerste Kamer"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "overheidsorganisatie Eerste Kamer"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "eerste kamer"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/oorg/oorg10002",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Overheidsorganisatie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Tweede Kamer"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "TK"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Tweede Kamer der Staten-Generaal"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "overheidsorganisatie Tweede Kamer der Staten-Generaal"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "tweede kamer der staten-generaal"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "oorg10002"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_d9a4d49b"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Tweede_Kamer_der_Staten-Generaal"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Tweede Kamer"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "overheidsorganisatie Tweede Kamer"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "tweede kamer"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/oorg/oorg10003",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Overheidsorganisatie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Rijksdienst voor het Cultureel Erfgoed"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "RCE"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Rijksdienst voor het Cultureel Erfgoed"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "overheidsorganisatie Rijksdienst voor het Cultureel Erfgoed"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "rijksdienst voor het cultureel erfgoed"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "oorg10003"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_ef0e428b"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Rijksdienst_voor_het_Cultureel_Erfgoed"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Rijksdienst voor het Cultureel Erfgoed"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "overheidsorganisatie Rijksdienst voor het Cultureel Erfgoed"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "rijksdienst voor het cultureel erfgoed"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/oorg/oorg10004",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Overheidsorganisatie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Rijkswaterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "RWS"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Rijkswaterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "overheidsorganisatie Rijkswaterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "rijkswaterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "oorg10004"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_ef0e428b"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Rijkswaterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Rijkswaterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "overheidsorganisatie Rijkswaterstaat"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "rijkswaterstaat"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/oorg/oorg10005",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Overheidsorganisatie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Rijksdienst voor Ondernemend Nederland"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "RVO"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Rijksdienst voor Ondernemend Nederland"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "overheidsorganisatie Rijksdienst voor Ondernemend Nederland"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "rijksdienst voor ondernemend nederland"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "oorg10005"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_ef0e428b"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/RVO"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Rijksdienst voor Ondernemend Nederland"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "overheidsorganisatie Rijksdienst voor Ondernemend Nederland"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "rijksdienst voor ondernemend nederland"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/oorg/oorg10006",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Overheidsorganisatie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Inspectie Leefomgeving en Transport"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/afkorting": [
+      {
+        "@value": "ILT"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Inspectie Leefomgeving en Transport"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "overheidsorganisatie Inspectie Leefomgeving en Transport"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "inspectie leefomgeving en transport"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "oorg10006"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_cb42e80a"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Inspectie_Leefomgeving_en_Transport"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Inspectie Leefomgeving en Transport"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "overheidsorganisatie Inspectie Leefomgeving en Transport"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "inspectie leefomgeving en transport"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/oorg/oorg10007",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Overheidsorganisatie"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ProRail"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "ProRail"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "prorail"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "oorg10007"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_a006e4d0"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "ProRail"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "prorail"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/set/rwc_overige_overheidsorganisaties_compleet/3",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Ontology",
+      "https://identifier.overheid.nl/tooi/def/wl/RegisterwaardelijstCompleet"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Waardelijst met alle overige overheidsorganisaties die voor zover bekend op de zichtdatum bestaan hebben, bestaan of zullen bestaan."
+      }
+    ],
+    "http://purl.org/pav/derivedFrom": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/oorg"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#imports": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern"
+      },
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/ont"
+      },
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/wl"
+      },
+      {
+        "@id": "http://www.w3.org/ns/prov"
+      },
+      {
+        "@id": "http://purl.org/pav"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "- sorteernamen naar lowercase - uitbreiding met 5 organisaties tvb DSO"
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2022-11-07T12:09:00.756+01:00"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/publicatiedatum": [
+      {
+        "@value": "2022-11-07"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/titel": [
+      {
+        "@value": "Register overige overheidsorganisaties compleet"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/verantwoordelijke": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1034"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/zichtdatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-11-07"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/wl/volgnummer": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "3"
+      }
+    ]
+  }
+]

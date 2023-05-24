@@ -1,0 +1,4 @@
+image:
+  registry: localhost:32000/
+
+collection: plooi_2

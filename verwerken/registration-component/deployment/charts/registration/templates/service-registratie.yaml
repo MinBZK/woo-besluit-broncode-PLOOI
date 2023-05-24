@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "registration.fullname" . }}-service
+  labels:
+    {{- include "registration.labels" . | nindent 4 }}
+spec:
+  type: ClusterIP
+  ports:
+    - name: srvc-port
+      port: 8020
+      targetPort: 8020
+      protocol: TCP
+  selector:
+    {{- include "registration.selectorLabels" . | nindent 4 }}

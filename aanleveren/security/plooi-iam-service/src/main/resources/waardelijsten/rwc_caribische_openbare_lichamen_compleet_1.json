@@ -1,0 +1,365 @@
+[
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/col/col01",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/CaribischOpenbaarLichaam"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "openbaar lichaam Bonaire"
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2010-10-10T00:00:00"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/begindatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2010-10-10"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/colcode": [
+      {
+        "@value": "01"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Bonaire"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "openbaar lichaam Bonaire"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "bonaire"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "col01"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_b4470cdd"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Bonaire"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Bonaire"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "openbaar lichaam Bonaire"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "bonaire"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/col/col02",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/CaribischOpenbaarLichaam"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "openbaar lichaam Sint Eustatius"
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2010-10-10T00:00:00"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/begindatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2010-10-10"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/colcode": [
+      {
+        "@value": "02"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Sint Eustatius"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "openbaar lichaam Sint Eustatius"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "sint eustatius"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "col02"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_b4470cdd"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Sint_Eustatius"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Sint Eustatius"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "openbaar lichaam Sint Eustatius"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "sint eustatius"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/col/col03",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/CaribischOpenbaarLichaam"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "openbaar lichaam Saba"
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2010-10-10T00:00:00"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/begindatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2010-10-10"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/colcode": [
+      {
+        "@value": "03"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort": [
+      {
+        "@value": "Saba"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort": [
+      {
+        "@value": "openbaar lichaam Saba"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer": [
+      {
+        "@value": "saba"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiecode": [
+      {
+        "@value": "col03"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_b4470cdd"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/owmsId": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://standaarden.overheid.nl/owms/terms/Saba"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort": [
+      {
+        "@value": "Saba"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort": [
+      {
+        "@value": "openbaar lichaam Saba"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer": [
+      {
+        "@value": "saba"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/col/wzg_02319361",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Oprichting"
+    ],
+    "http://www.w3.org/ns/prov#generated": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/col/col01"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/heeftGrondslag": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://zoek.officielebekendmakingen.nl/stb-2010-345.html"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/tijdstipWijziging": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2010-10-10T00:00:00"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/col/wzg_05817223",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Oprichting"
+    ],
+    "http://www.w3.org/ns/prov#generated": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/col/col02"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/heeftGrondslag": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://zoek.officielebekendmakingen.nl/stb-2010-345.html"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/tijdstipWijziging": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2010-10-10T00:00:00"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/id/col/wzg_09142654",
+    "@type": [
+      "https://identifier.overheid.nl/tooi/def/ont/Oprichting"
+    ],
+    "http://www.w3.org/ns/prov#generated": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/col/col03"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/heeftGrondslag": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://zoek.officielebekendmakingen.nl/stb-2010-345.html"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/tijdstipWijziging": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2010-10-10T00:00:00"
+      }
+    ]
+  },
+  {
+    "@id": "https://identifier.overheid.nl/tooi/set/rwc_caribische_openbare_lichamen_compleet/1",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Ontology",
+      "https://identifier.overheid.nl/tooi/def/wl/RegisterwaardelijstCompleet"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Waardelijst met Caribische openbare lichamen die voor zover bekend op de zichtdatum bestaan hebben, bestaan of zullen bestaan."
+      }
+    ],
+    "http://purl.org/pav/derivedFrom": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/col"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#imports": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/thes/kern"
+      },
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/ont"
+      },
+      {
+        "@id": "https://identifier.overheid.nl/tooi/def/wl"
+      },
+      {
+        "@id": "http://www.w3.org/ns/prov"
+      },
+      {
+        "@id": "http://purl.org/pav"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "Eerste versie waardelijst Register Caribische openbare lichamen compleet op zichtdatum 15-11-2021."
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2021-11-15T17:18:33.356+01:00"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/publicatiedatum": [
+      {
+        "@value": "2021-11-15"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/titel": [
+      {
+        "@value": "Register Caribische openbare lichamen compleet"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/verantwoordelijke": [
+      {
+        "@id": "https://identifier.overheid.nl/tooi/id/ministerie/mnre1034"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/ont/zichtdatum": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-11-15"
+      }
+    ],
+    "https://identifier.overheid.nl/tooi/def/wl/volgnummer": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ]
+  }
+]

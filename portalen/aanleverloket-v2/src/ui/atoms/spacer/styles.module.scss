@@ -1,0 +1,29 @@
+$space: 4;
+
+.spacer {
+    width: 100%;
+
+    &__1 {
+        height: #{1*$space}px;
+    }
+
+    &__2 {
+        height: #{2*$space}px;
+    }
+
+    &__4 {
+        height: #{4*$space}px;
+    }
+
+    &__8 {
+        height: #{8*$space}px;
+    }
+    
+    &__16 {
+        height: #{16*$space}px;
+    }
+
+    &__58px {
+        height: 58px;
+    }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+      Generatie: versie XSLT 1.1 op 2021-07-22+02:00-->
+<owms-metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:overheidop="http://standaarden.overheid.nl/oep/meta/">
+   <owmskern>
+      <dcterms:identifier>ah-tk-20202021-3235</dcterms:identifier>
+      <dcterms:title>Antwoord op vragen van de leden Van Weyenberg, Romke de Jong en Kat over de Tozo</dcterms:title>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:type scheme="OVERHEIDop.AanhangselTypen">Antwoord</dcterms:type>
+      <dcterms:type scheme="OVERHEIDop.Parlementair">Aanhangsel van de Handelingen</dcterms:type>
+      <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+      <dcterms.modified>2021-06-21</dcterms.modified>
+   </owmskern>
+   <owmsmantel>
+      <dcterms:available>2021-06-21</dcterms:available>
+      <dcterms:issued>2021-06-21</dcterms:issued>
+   </owmsmantel>
+   <oep>
+      <overheidop:documentStatus>Opgemaakt na onopgemaakt</overheidop:documentStatus>
+      <overheidop:aanhangselNummer>3235</overheidop:aanhangselNummer>
+      <overheidop:indiener>S.P.R.A. van Weyenberg</overheidop:indiener>
+      <overheidop:indiener>R.H. (Romke) de Jong</overheidop:indiener>
+      <overheidop:indiener>H. Kat</overheidop:indiener>
+      <overheidop:ontvanger>W. Koolmees</overheidop:ontvanger>
+      <overheidop:publicationName>Kamervragen (Aanhangsel)</overheidop:publicationName>
+      <overheidop:vergaderjaar>2020-2021</overheidop:vergaderjaar>
+      <overheidop:vraagnummer>2021Z09739</overheidop:vraagnummer>
+      <overheidop:datumOntvangst>2021-06-21</overheidop:datumOntvangst>
+      <overheid:organisationType>staten generaal</overheid:organisationType>
+      <overheid:category scheme="OVERHEID.TaxonomieBeleidsagenda">Economie | Ondernemen</overheid:category>
+      <overheid:category scheme="OVERHEID.TaxonomieBeleidsagenda">Sociale zekerheid | Organisatie en beleid</overheid:category>
+   </oep>
+</owms-metadata>

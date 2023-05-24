@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "portal.fullname" . }}-service
+  labels:
+    {{- include "portal.labels" . | nindent 4 }}
+spec:
+  type: ClusterIP
+  ports:
+    - name: plooi-portal
+      port: 8080
+      targetPort: 8080
+      protocol: TCP
+  selector:
+    {{- include "portal.selectorLabels" . | nindent 4 }}

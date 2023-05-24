@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plooi:plooi xmlns:plooi="http://standaarden.overheid.nl/plooi/terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/">
+    <plooi:meta>
+        <plooi:owmskern>
+            <dcterms:identifier>test-dcnid_1</dcterms:identifier>
+            <dcterms:title>Dummy title</dcterms:title>
+            <dcterms:type resourceIdentifier="http://dummy" scheme="http://dummy">DocumentSoort</dcterms:type>
+            <dcterms:creator resourceIdentifier="http://dummy" scheme="http://dummy">Opsteller</dcterms:creator>
+            <overheid:authority resourceIdentifier="http://dummy" scheme="http://dummy">Verantwoordelijke</overheid:authority>
+        </plooi:owmskern>
+        <plooi:owmsmantel>
+            <dcterms:publisher resourceIdentifier="http://dummy" scheme="http://dummy">Publisher</dcterms:publisher>
+            <dcterms:source resourceIdentifier="http://www.example.com">http://www.example.com</dcterms:source>
+            <dcterms:available>
+                <start>1970-07-01</start>
+                <end>2025-01-01</end>
+            </dcterms:available>
+            <dcterms:issued>2021-08-01</dcterms:issued>
+        </plooi:owmsmantel>
+        <plooi:othermeta>
+            <plooi:bronmeta>
+                <dcterms:identifier>test</dcterms:identifier>
+                <plooi:source-label>test</plooi:source-label>
+                <plooi:creator>Opsteller</plooi:creator>
+                <plooi:type>DocumentSoort</plooi:type>
+                <plooi:publisher>Publisher</plooi:publisher>
+                <plooi:authority>Verantwoordelijke</plooi:authority>
+                <plooi:subject>Thema</plooi:subject>
+            </plooi:bronmeta>
+        </plooi:othermeta>
+        <plooi:plooiipm>
+            <plooi:versie>1</plooi:versie>
+            <dcterms:identifier>test-dcnid</dcterms:identifier>
+            <plooi:informatiecategorie resourceIdentifier="http://dummy" scheme="http://dummy">DocumentSoort</plooi:informatiecategorie>
+            <plooi:verantwoordelijke resourceIdentifier="http://dummy" scheme="http://dummy">Verantwoordelijke</plooi:verantwoordelijke>
+            <plooi:topthema resourceIdentifier="http://dummy" scheme="http://dummy">Thema</plooi:topthema>
+            <plooi:aanbieder>Dummy</plooi:aanbieder>
+        </plooi:plooiipm>
+    </plooi:meta>
+    <plooi:body>
+        <plooi:documenten>
+            <plooi:document published="false">
+                <plooi:manifestatie-label>pdf</plooi:manifestatie-label>
+                <plooi:bestandsnaam>bestand.pdf</plooi:bestandsnaam>
+            </plooi:document>
+        </plooi:documenten>
+    </plooi:body>
+</plooi:plooi>

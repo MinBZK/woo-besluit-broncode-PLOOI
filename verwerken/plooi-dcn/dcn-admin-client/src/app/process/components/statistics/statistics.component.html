@@ -1,0 +1,43 @@
+<div *ngIf="!errorMsg && route.children.length == 0">
+    <div class="columns">
+        <div class="column">
+            <table class="table table--condensed table--container table__data-overview">
+                <thead>
+                <tr>
+                    <th scope="col" class="u-columnwidth-50p">
+                        <a (click)="sortByBron()" role="button" [ngClass]="currentClass()" aria-pressed="true">Bron</a>
+                    </th>
+                    <th scope="col" class="u-columnwidth-10p align-center">Verwerkingsfouten</th>
+                    <th scope="col" class="u-columnwidth-10p align-center">Mappingwaarschuwingen</th>
+                    <th scope="col" class="u-columnwidth-10p align-center">Mappingfouten</th>
+                    <th scope="col" class="u-columnwidth-10p align-center">Totaal</th>
+                </tr>
+
+                </thead>
+                <tbody *ngIf="errors?.length > 0">
+                <tr *ngFor="let err of errors">
+                    <td>{{err.sourceName}}</td>
+                    <td class="align-center"><a [routerLink]="['./errors',err.sourceName?err.sourceName:'']"
+                                                class="">{{err.processingErrorCount}}</a></td>
+                    <td class="align-center"><a [routerLink]="['./mapping',err.sourceName, 'WARNING']"
+                                                class="">{{err.mappingWarningCount}}</a></td>
+                    <td class="align-center"><a [routerLink]="['./mapping',err.sourceName, 'ERROR']"
+                                                class="">{{err.mappingErrorCount}}</a></td>
+                    <td class="align-center">{{err.mappingErrorCount + err.processingErrorCount + err.mappingWarningCount}}</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr *ngIf="errors?.length > 0">
+                    <td><strong>Totaal</strong></td>
+                    <td class="align-center"><strong>{{totalErrors}}</strong></td>
+                    <td class="align-center"><strong>{{totalWarnings}}</strong></td>
+                    <td class="align-center"><strong>{{totalMappings}}</strong></td>
+                    <td class="align-center"><strong>{{totalMappings + totalErrors + totalWarnings}}</strong></td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>
+<connection-error *ngIf="errorMsg" [message]="errorMsg"></connection-error>
+

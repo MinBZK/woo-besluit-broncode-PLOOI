@@ -1,0 +1,95 @@
+<div class="container" *ngIf="!errorMsg && route.children.length == 0">
+
+    <h3>{{title}}</h3>
+
+    <strong *ngIf="executionSummary && executionSummary?.sourceLabel !== ''">De volgende executie is
+        gevonden.</strong>
+    <strong *ngIf="executionSummary && executionSummary?.sourceLabel == ''">Deze executie is handmatig
+        opgevraagd met de volgende reden: {{executionSummary?.trigger}}</strong>
+
+    <strong *ngIf="!executionSummary">Geen executie is gevonden.</strong>
+    <table class="table table--condensed table--striped">
+        <thead>
+        <tr>
+            <th scope="col">Tijdstip</th>
+            <th scope="col">Execution ID</th>
+            <th scope="col">Bron</th>
+            <th scope="col">Trigger type</th>
+            <th scope="col">Documenten</th>
+            <th scope="col">Processing errors</th>
+        </tr>
+        </thead>
+        <tbody *ngIf="executionSummary">
+        <tr>
+            <td>{{executionSummary.timeCreated | date : 'medium'}}</td>
+            <td>{{executionSummary.id}}</td>
+            <td>{{executionSummary.sourceLabel}}</td>
+            <td>{{executionSummary.triggerType}}</td>
+            <td class="align-center">{{executionSummary?.procesCounts?.documentCount}}</td>
+            <td *ngIf=" executionSummary?.excepties == null || executionSummary?.excepties.length == 0" class="align-center">0</td>
+            <td *ngIf="executionSummary?.excepties?.length > 0"  style="background-color: #d52b1e; color: white;" class="align-center">{{executionSummary?.excepties?.length}}</td>
+        </tr>
+        </tbody>
+    </table>
+    <br>
+    <table *ngIf="executionSummary?.excepties?.length > 0" class="table table--condensed table--striped">
+        <thead>
+        <tr>
+            <th scope="col" class="u-columnwidth-15p">Tijdstip</th>
+            <th scope="col" class="">Foutmelding</th>
+        </tr>
+        </thead>
+        <tbody *ngFor="let item of executionSummary?.excepties">
+        <tr>
+            <td data-before="Tijdstip">{{item.timeCreated | date: 'medium'}}</td>
+            <td data-before="Foutmelding">
+                <a (click)="goToErrorDetails(item)">{{getErrorMessage(item)}}</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="row--spacer"></div>
+    <h3>Document Events</h3>
+
+    <table class="table table--condensed table--striped">
+        <thead>
+        <tr>
+            <th scope="col" class="u-columnwidth-10p">Document events</th>
+            <th scope="col" class="u-columnwidth-10p align-center">EXCEPTION</th>
+            <th scope="col" class="u-columnwidth-10p align-center">ERROR</th>
+            <th scope="col" class="u-columnwidth-10p align-center">WARNING</th>
+            <th scope="col" class="u-columnwidth-10p align-center">INFO</th>
+            <th scope="col" class="u-columnwidth-10p align-center">OK</th>
+        </tr>
+        </thead>
+        <tbody *ngIf="executionSummary?.procesCounts">
+        <tr>
+            <td class="align-center"><a
+                    (click)="getDocumentEventWithsSeverity()">{{executionSummary.procesCounts.totalCount}}</a>
+            </td>
+            <td *ngIf="executionSummary.procesCounts.exceptionCount > 0" style="background-color: #d52b1e;" class="align-center"><a
+                    style="color: white"
+                    (click)="getDocumentEventWithsSeverity('EXCEPTION')">{{executionSummary.procesCounts.exceptionCount}}</a></td>
+            <td *ngIf="!executionSummary.procesCounts.exceptionCount" class="align-center">0</td>
+
+            <td *ngIf="executionSummary.procesCounts.errorCount > 0" style="background-color: #d52b1e;" class="align-center">
+                <a style="color: white" (click)="getDocumentEventWithsSeverity('ERROR')">{{executionSummary.procesCounts.errorCount}}</a>
+            </td>
+            <td *ngIf="!executionSummary.procesCounts.errorCount" class="align-center">0</td>
+            <td *ngIf="executionSummary.procesCounts.warningCount > 0" style="background-color: #e17000;" class="align-center"><a
+                    style="color: white" (click)="getDocumentEventWithsSeverity('WARNING')">{{executionSummary.procesCounts.warningCount}}</a>
+            </td>
+            <td *ngIf="!executionSummary.procesCounts.warningCount" class="align-center">0</td>
+            <td *ngIf="!executionSummary.procesCounts.infoCount" class="align-center">0</td>
+            <td *ngIf="executionSummary.procesCounts.infoCount" class="align-center"><a
+                    (click)="getDocumentEventWithsSeverity('INFO')">{{executionSummary.procesCounts?.infoCount}}</a></td>
+            <td *ngIf="!executionSummary.procesCounts.okCount" class="align-center">0</td>
+            <td *ngIf="executionSummary.procesCounts.okCount" class="align-center"><a
+                    (click)="getDocumentEventWithsSeverity('OK')">{{executionSummary.procesCounts?.okCount}}</a></td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="row--spacer"></div>
+    <dcn-document-severity [executionId]="executionId" [errors]="errors"></dcn-document-severity>
+</div>
+<connection-error *ngIf="errorMsg" [message]="errorMsg"></connection-error>

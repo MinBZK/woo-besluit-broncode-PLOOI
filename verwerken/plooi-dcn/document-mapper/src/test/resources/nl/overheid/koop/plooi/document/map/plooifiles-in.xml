@@ -1,0 +1,18 @@
+<plooi:documenten xmlns:plooi="http://standaarden.overheid.nl/plooi/terms/">
+    <plooi:document>
+        <id>1</id>
+        <timestamp>1998-08-31T09:30:00.000Z</timestamp>
+        <plooi:titel>Parent metadata</plooi:titel>
+        <plooi:manifestatie-label>xml</plooi:manifestatie-label>
+        <plooi:bestandsnaam>parent.xml</plooi:bestandsnaam>
+        <plooi:type>application/xml</plooi:type>
+        <plooi:ref>http://example.com/parent.xml</plooi:ref>
+    </plooi:document>
+    <plooi:document>
+        <id>2</id>
+        <plooi:titel>Attached PDF</plooi:titel>
+        <plooi:manifestatie-label>child</plooi:manifestatie-label>
+        <plooi:type>application/pdf</plooi:type>
+        <plooi:ref>http://example.com/attachment.pdf</plooi:ref>
+    </plooi:document>
+</plooi:documenten>

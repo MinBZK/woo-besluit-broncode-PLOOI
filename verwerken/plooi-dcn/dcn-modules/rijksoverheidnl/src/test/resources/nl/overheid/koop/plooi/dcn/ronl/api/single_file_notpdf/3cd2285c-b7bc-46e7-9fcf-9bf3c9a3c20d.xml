@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <id>3cd2285c-b7bc-46e7-9fcf-9bf3c9a3c20d</id>
+    <type>publicatie</type>
+    <typeid>39e80bd4-91fc-4ba0-95be-48c47f3602da</typeid>
+    <subtype></subtype>
+    <canonical>https://www.rijksoverheid.nl/documenten/publicaties/2014/10/29/documenten-uit-1985-over-carc-en-chroom-6</canonical>
+    <dataurl>https://opendata.rijksoverheid.nl/v1/sources/rijksoverheid/documents/3cd2285c-b7bc-46e7-9fcf-9bf3c9a3c20d</dataurl>
+    <title>Documenten uit 1985 over CARC en chroom-6</title>
+    <files>
+        <file>
+            <fileurl>https://opendata.rijksoverheid.nl/binaries/rijksoverheid/documenten/publicaties/2014/10/29/documenten-uit-1985-over-carc-en-chroom-6/1985.zip</fileurl>
+            <mimetype>application/x-zip-compressed</mimetype>
+            <filesize>2385486</filesize>
+            <filename>1985.zip</filename>
+            <filetitle></filetitle>
+            <numberofpages>0</numberofpages>
+        </file>
+    </files>
+    <introduction><![CDATA[]]>
+    </introduction>
+    <content>
+        <contentblock>
+            <paragraphtitle><![CDATA[]]>
+            </paragraphtitle>
+            <paragraph><![CDATA[<p>Dit zip-bestand bevat de volgende documenten:</p>
+
+<ul>
+ <li>DA Pamphlet 205_1 Energy Conservation Guidelines CH Warehouses</li>
+ <li>rapport Nationale MAC Commissie grenswaarde Chroom en Chroomverbindingen 1985</li>
+</ul>]]></paragraph>
+        </contentblock>
+        <contentblock>
+            <paragraphtitle><![CDATA[Documenten uit andere jaren]]></paragraphtitle>
+            <paragraph><![CDATA[<p>Kijk voor een pdf-bestand met een lijst van alle documenten over CARC en chroom-6 in het <a href="https://www.rijksoverheid.nl/documenten/publicaties/2014/10/29/overzichtsdocument-publicaties-over-carc-en-chroom-6">overzichtsdocument publicaties</a>. De documenten zelf vindt u via <a href="https://www.rijksoverheid.nl/onderwerpen/chroomverf/documenten-chroom-6-en-carc">de pagina&#39;s met documenten per jaartal</a>.</p>]]></paragraph>
+        </contentblock>
+    </content>
+    <additionalcontent><![CDATA[]]>
+    </additionalcontent>
+    <authorities>
+        <department>Ministerie van Defensie</department>
+    </authorities>
+    <creators>
+        <department>Ministerie van Algemene Zaken</department>
+    </creators>
+    <subjects>
+        <subject>Chroom-6 en CARC</subject>
+    </subjects>
+    <subjectids>
+        <id>639c803b-1878-485f-be47-e5a78b5d0a39</id>
+    </subjectids>
+    <themes>
+        <theme>Familie, zorg en gezondheid</theme>
+    </themes>
+    <organisationalunits>
+        <department>Ministerie van Defensie</department>
+    </organisationalunits>
+    <organisationalunitids>
+        <id>dccd9d3c-daba-4bd9-be55-17f7e1b5e171</id>
+    </organisationalunitids>
+    <lastmodified>2018-10-03T07:48:47.576Z</lastmodified>
+    <issued>1985-12-31T10:06:00.000Z</issued>
+    <available>2014-10-30T18:00:00.000Z</available>
+    <frontenddate>1985-12-31T10:06:00.000Z</frontenddate>
+    <initialdate>1985-12-31T11:06:00.000+01:00</initialdate>
+    <license>CC0 1.0 Universal</license>
+    <rightsholders>
+        <department>Ministerie van Algemene Zaken</department>
+    </rightsholders>
+    <languages>
+        <language>nl-NL</language>
+    </languages>
+    <locations>
+        <location>Nederland</location>
+    </locations>
+</document>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns="http://docs.oasis-open.org/ns/search-ws/sru-facetedResults" targetNamespace="http://docs.oasis-open.org/ns/search-ws/sru-facetedResults">
+	<!-- Root Declaration -->
+	<xs:element name="facetedResults" type="facetedResultsDefinition"/>
+	<!-- End Root Declaration -->
+	<!--  -->
+	<!--facetedResultsDefinition-->
+	<xs:complexType name="facetedResultsDefinition">
+		<xs:choice>
+			<xs:element ref="datasource" maxOccurs="unbounded"/>
+			<xs:element ref="facet" maxOccurs="unbounded"/>
+		</xs:choice>
+	</xs:complexType>
+	<!-- datasourceDefinition -->
+	<xs:complexType name="datasourceDefinition">
+		<xs:sequence>
+			<xs:element ref="datasourceDisplayLabel" minOccurs="0"/>
+			<xs:element ref="datasourceDescription" minOccurs="0"/>
+			<xs:element ref="baseURL" minOccurs="0"/>
+			<xs:element ref="facets"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--  -->
+	<!-- facetsDefinition -->
+	<xs:complexType name="facetsDefinition">
+		<xs:sequence>
+			<xs:element ref="facet" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- facetDefinition  -->
+	<xs:complexType name="facetDefinition">
+		<xs:sequence>
+			<xs:element ref="facetDisplayLabel" minOccurs="0"/>
+			<xs:element ref="facetDescription" minOccurs="0"/>
+			<xs:element ref="index" minOccurs="0"/>
+			<xs:element ref="relation" minOccurs="0"/>
+			<xs:element ref="terms"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--  termsDefinition-->
+	<xs:complexType name="termsDefinition">
+		<xs:sequence>
+			<xs:element ref="term" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--  termDefinition-->
+	<xs:complexType name="termDefinition">
+		<xs:sequence>
+			<xs:element ref="actualTerm"/>
+			<xs:element ref="query" minOccurs="0"/>
+			<xs:element ref="requestUrl" minOccurs="0"/>
+			<xs:element ref="count"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--  -->
+	<!--  -->
+	<!--  Element Declarations -->
+	<!--  -->
+	<xs:element name="actualTerm" type="xs:string"/>
+	<xs:element name="baseURL" type="xs:string"/>
+	<xs:element name="count" type="xs:integer"/>
+	<xs:element name="datasource" type="datasourceDefinition"/>
+	<xs:element name="datasourceDescription" type="xs:string"/>
+	<xs:element name="datasourceDisplayLabel" type="xs:string"/>
+	<xs:element name="facet" type="facetDefinition"/>
+	<xs:element name="facetBaseURL" type="xs:string"/>
+	<xs:element name="facetDisplayLabel" type="xs:string"/>
+	<xs:element name="facetDescription" type="xs:string"/>
+	<xs:element name="facets" type="facetsDefinition"/>
+	<xs:element name="index" type="xs:string"/>
+	<xs:element name="term" type="termDefinition"/>
+	<xs:element name="terms" type="termsDefinition"/>
+	<xs:element name="query" type="xs:string"/>
+	<xs:element name="relation" type="xs:string"/>
+	<xs:element name="requestUrl" type="xs:anyURI"/>
+	<!--  -->
+</xs:schema>

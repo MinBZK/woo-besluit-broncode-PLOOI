@@ -1,0 +1,91 @@
+[ {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_641ecd76",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "vaststelling"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_dfcee535",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ontvangst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_e1ec050e",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ondertekening"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_d381b512",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Waardelijst voor PLOOI met handelingen die een bestaand document van toestand doen veranderen (bijvoorbeeld: het document is ter inzage gelegd), dan wel een nieuw document doen ontstaan  (bijvoorbeeld: het document is gewijzigd en er ontstaat een nieuwe (geconsolideerde) versie van het document)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_641ecd76"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_dfcee535"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_e1ec050e"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "PLOOI documenthandeling"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/set/ccw_plooi_documenthandelingen/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "https://identifier.overheid.nl/tooi/def/wl/CollectiegebaseerdeConceptwaardelijst" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Waardelijst voor PLOOI met handelingen die een bestaand document van toestand doen veranderen (bijvoorbeeld: het document is ter inzage gelegd), dan wel een nieuw document doen ontstaan (bijvoorbeeld: het document is gewijzigd en er ontstaat een nieuwe (geconsolideerde) versie van het document)."
+  } ],
+  "http://purl.org/pav/derivedFrom" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/ont"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/wl"
+  }, {
+    "@id" : "http://purl.org/pav"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "Eerste versie collectiegebaseerde conceptwaardelijst PLOOI documenthandelingen op zichtdatum 15-11-2021."
+  } ],
+  "http://www.w3.org/ns/prov#generatedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2021-11-15T18:02:48.266+01:00"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/publicatiedatum" : [ {
+    "@value" : "2021-11-15"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/titel" : [ {
+    "@value" : "PLOOI documenthandelingen"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/verantwoordelijke" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1034"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/zichtdatum" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-11-15"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/afgeleidVanVersie" : [ {
+    "@value" : ""
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/bronversie" : [ {
+    "@value" : ""
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/collectie" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_d381b512"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/volgnummer" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+} ]

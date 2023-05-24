@@ -1,0 +1,2248 @@
+[ {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/ATOM",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "The Atom Feed or Atom Syndication Format is an XML language used for web feeds. Web feeds allow software programs to check for updates published on a website."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "ATOM"
+  }, {
+    "@value" : "application/atom+xml"
+  }, {
+    "@value" : "atom"
+  }, {
+    "@value" : "xml"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Atom Feed"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/AZW",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "AZW Kindle File Format is a proprietary e-book file format created by Amazon.com that can be downloaded and read on devices like smartphones, tablets, computers or e-readers that have Amazon's Kindle application."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "AZW"
+  }, {
+    "@value" : "application/vnd.amazon.ebook"
+  }, {
+    "@value" : "azw"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Amazon Kindle eBook"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/BMP",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "The bitmap image (BMP) or device independent bitmap (DIB) is a raster graphics image file format used to store bitmap digital images, independently of the display device."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "BMP"
+  }, {
+    "@value" : "bm"
+  }, {
+    "@value" : "bmp"
+  }, {
+    "@value" : "dib"
+  }, {
+    "@value" : "image/x-ms-bmp"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Bitmap Image File"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/BWF",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "BWF – Broadcast Wave Format – is an extension of the Microsoft WAV audio format and is the recording format of most file-based non-linear digital recorders used for motion picture, radio and television production. The purpose of this file format is the addition of metadata to facilitate the seamless exchange of sound data between different computer platforms and applications."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "BWF"
+  }, {
+    "@value" : "audio/vnd.wave"
+  }, {
+    "@value" : "bwf"
+  }, {
+    "@value" : "wav"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "BWF"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/CSS",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "CSS – Cascading Style Sheets – is a style sheet language used for describing the presentation of a document written in a markup language."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "CSS"
+  }, {
+    "@value" : "css"
+  }, {
+    "@value" : "text/css"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CSS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "CSV – comma-separated values – files store tabular data (numbers and text) in plain text. Each line of the file is a data record. Each record consists of one or more fields, separated by commas."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "CSV"
+  }, {
+    "@value" : "csv"
+  }, {
+    "@value" : "text/csv"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CSV"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/DBF",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "DBF – dBase database file – is supported by a number of database products. dBase was one of the first database management systems for microcomputers."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "DBF"
+  }, {
+    "@value" : "application/x-dbase"
+  }, {
+    "@value" : "dbf"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DBF"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/DOC",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "DOC is a proprietary binary Word document format used by Microsoft Word word processor."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "DOC"
+  }, {
+    "@value" : "application/msword"
+  }, {
+    "@value" : "doc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Word DOC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/DOCX",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "DOCX is an Office Open XML international standard for Office documents. It is used by Microsoft Word and by a growing number of applications from other vendors in word processing programs."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "DOCX"
+  }, {
+    "@value" : "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  }, {
+    "@value" : "docx"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Word DOCX"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/DTD_SGML",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "SGML – Standard Generalized Markup Language – is a standard for defining generalized markup languages for documents. DTD – document type definition – is a set of markup declarations that define a document type for an SGML-family markup language (SGML, XML, HTML). It defines the legal building blocks of an XML document, the document structure with a list of legal elements and attributes."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "DTD_SGML"
+  }, {
+    "@value" : "application/sgml"
+  }, {
+    "@value" : "dtd"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SGML DTD"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/DTD_XML",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "XML – Extensible Markup Language – is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. DTD – document type definition – is a set of markup declarations that define a document type for an SGML-family markup language (SGML, XML, HTML). It defines the legal building blocks of an XML document, the document structure with a list of legal elements and attributes. XML uses a subset of SGML DTD."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "DTD_XML"
+  }, {
+    "@value" : "application/xml-dtd"
+  }, {
+    "@value" : "dtd"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "XML DTD"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/E00",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "E00 is an ArcInfo interchange file format. ArcInfo is a full-featured geographic information system produced by Esri."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "E00"
+  }, {
+    "@value" : "application/x-e00"
+  }, {
+    "@value" : "e00"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "E00"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/ECW",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "ECW – Enhanced Compressed Wavelet – is the media type which shall be used for a proprietary wavelet compression image format optimized for aerial and satellite imagery."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "ECW"
+  }, {
+    "@value" : "application/x-ecw"
+  }, {
+    "@value" : "ecw"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ECW"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/EPS",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "EPS – Encapsulated PostScript – files are more-or-less self-contained, reasonably predictable PostScript documents that describe an image or drawing and can be placed within another PostScript document."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "EPS"
+  }, {
+    "@value" : "application/postscript"
+  }, {
+    "@value" : "eps"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Encapsulated Postscript"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/EPUB",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "EPUB – electronic publication – is an e-book file format that can be downloaded and read on devices like smartphones, tablets, computers or e-readers. It is a technical standard published by the International Digital Publishing Forum (IDPF)."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "EPUB"
+  }, {
+    "@value" : "application/epub+zip"
+  }, {
+    "@value" : "epub"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "EPUB"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/FMX2",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Formex describes the format for the exchange of data between the Publication Office and its contractors. In particular, it defines the logical markup for documents which are published in the different series of the Offical Journal of the European Union. Formex 2 was a previous version of Formex actually used."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "FMX2"
+  }, {
+    "@value" : "text/sgml"
+  }, {
+    "@value" : "xml"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Formex 2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/FMX3",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Formex describes the format for the exchange of data between the Publication Office and its contractors. In particular, it defines the logical markup for documents which are published in the different series of the Offical Journal of the European Union. Formex 3 was a previous version of Formex actually used."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "FMX3"
+  }, {
+    "@value" : "text/sgml"
+  }, {
+    "@value" : "xml"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Formex 3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/FMX4",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Formex describes the format for the exchange of data between the Publication Office and its contractors. In particular, it defines the logical markup for documents which are published in the different series of the Offical Journal of the European Union. Formex V4 is based on the international standard XML."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "FMX4"
+  }, {
+    "@value" : "application/xml"
+  }, {
+    "@value" : "xml"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Formex 4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/GDB",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "GDB is an Esri's file-based geodatabase format, stored as folders in a file system. It shall be used for Esri file geodatabases. The file is a zip archive that contains the gdb directory."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "GDB"
+  }, {
+    "@value" : "application/x-filegdb"
+  }, {
+    "@value" : "gdb"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Esri File Geodatabase"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/GIF",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "GIF – Graphics Interchange Format – is a bitmap image format that was developed by a team at the bulletin board service (BBS) provider CompuServe."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "GIF"
+  }, {
+    "@value" : "gif"
+  }, {
+    "@value" : "image/gif"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "GIF"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/GML",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "GML – Geography Markup Language – is the XML grammar defined by the Open Geospatial Consortium (OGC) to express geographical features. GML serves as a modeling language for geographic systems as well as an open interchange format for geographic transactions on the Internet."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "GML"
+  }, {
+    "@value" : "application/gml+xml"
+  }, {
+    "@value" : "gml .xml"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "GML"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/GZIP",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "GZIP – GNU zip – is a file format and a software application used for file compression and decompression."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "GZIP"
+  }, {
+    "@value" : "application/gzip"
+  }, {
+    "@value" : "application/x-gzip"
+  }, {
+    "@value" : "gz"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "GNU zip"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/HDF",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "HDF is a set of file formats (HDF4, HDF5) designed to store and organize large amounts of numerical data."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "HDF"
+  }, {
+    "@value" : "application/x-hdf"
+  }, {
+    "@value" : "h4"
+  }, {
+    "@value" : "h5"
+  }, {
+    "@value" : "hdf"
+  }, {
+    "@value" : "hdf4"
+  }, {
+    "@value" : "hdf5"
+  }, {
+    "@value" : "he2"
+  }, {
+    "@value" : "he5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "HDF"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/HTML",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "HTML is the standard markup language used to create web pages and its elements form the building blocks of all websites."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "HTML"
+  }, {
+    "@value" : "htm"
+  }, {
+    "@value" : "html"
+  }, {
+    "@value" : "text/html"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "HTML"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/INDD",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "INDD is a file format for a page layout file used by Adobe InDesign. InDesign is a desktop publishing software application."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "INDD"
+  }, {
+    "@value" : "application/x-indesign"
+  }, {
+    "@value" : "indd"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "INDD"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/JPEG",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "JPEG – Joint Photographic Experts Group – is a commonly used method of lossy compression for digital images, particularly for those images produced by digital photography. The degree of compression can be adjusted, allowing a selectable tradeoff between storage size and image quality."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "JPEG"
+  }, {
+    "@value" : "image/jpeg"
+  }, {
+    "@value" : "jpeg"
+  }, {
+    "@value" : "jpg"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "JPEG"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/JSON",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "JSON is an open-standard file format that uses human-readable text to transmit data objects consisting of attribute–value pairs and array data types (or any other serializable value). It is a very common data format used for asynchronous browser/server communication."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "JSON"
+  }, {
+    "@value" : "application/json"
+  }, {
+    "@value" : "json"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "JSON"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "JSON-LD is a JSON-based format to serialize Linked Data. It is primarily intended to be a way to use Linked Data in Web-based programming environments, to build interoperable Web services, and to store Linked Data in JSON-based storage engines."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "JSON_LD"
+  }, {
+    "@value" : "application/ld+json"
+  }, {
+    "@value" : "jsonld"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "JSON-LD"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/KML",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "KML – Keyhole Markup Language – is an XML notation for expressing geographic annotation and visualization within Internet-based, two-dimensional maps and three-dimensional Earth browsers. KML was developed for use with Google Earth and became an international standard."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "KML"
+  }, {
+    "@value" : "application/vnd.google-earth.kml+xml"
+  }, {
+    "@value" : "kml"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "KML"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/KMZ",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A KMZ file consists of a main KML file and zero or more supporting files that are packaged using a Zip utility into one unit, called an archive. The KMZ file can then be stored and emailed as a single entity. A NetworkLink can fetch a KMZ file from a web server. When the KMZ file is unzipped, the main .kml file and its supporting files are separated into their original formats and directory structure, with their original filenames and extensions. In addition to being an archive format, the Zip format is also compressed, so an archive can include only a single large KML file. Depending on the content of the KML file, this process typically results in 10:1 compression. Your 10 Kbyte KML file can be served with a 1 Kbyte KMZ file."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "KMZ"
+  }, {
+    "@value" : "application/vnd.google-earth.kmz"
+  }, {
+    "@value" : "kmz"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "KMZ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/MAP_PRVW",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Esri's ArcGIS is a geographic information system (GIS) for working with maps and geographic information. Map previews are normal raster background maps."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "MAP_PRVW"
+  }, {
+    "@value" : "arcgis_map_preview"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ArcGIS Map Preview"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/MAP_SRVC",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Esri's ArcGIS is a geographic information system (GIS) for working with maps and geographic information. Map services offer access to map and layer content."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "MAP_SRVC"
+  }, {
+    "@value" : "arcgis_map_service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ArcGIS Map Service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/MDB",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "MDB – Microsoft Database – is a proprietary file format used by 2003 and earlier versions of Microsoft Access. Microsoft Access is a database management system."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "MDB"
+  }, {
+    "@value" : "application/vnd.ms-access"
+  }, {
+    "@value" : "application/x-msaccess"
+  }, {
+    "@value" : "mdb"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MDB"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/METS",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "METS – Metadata Encoding and Transmission Standard – is a metadata standard for encoding descriptive, administrative and structural metadata regarding objects within a digital library, expressed using the XML schema language."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "METS"
+  }, {
+    "@value" : "application/xml"
+  }, {
+    "@value" : "xml"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "METS XML"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/METS_ZIP",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "METS package is a zip file containing METS XML files."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "METS_ZIP"
+  }, {
+    "@value" : "application/zip"
+  }, {
+    "@value" : "zip"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "METS package"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/MOBI",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Mobipocket eBook is a proprietary e-book file format of Mobipocket SA company that can be used by mobile phones, personal digital assistants (PDA) and desktop operating systems."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "MOBI"
+  }, {
+    "@value" : "application/x-mobipocket-ebook"
+  }, {
+    "@value" : "mobi"
+  }, {
+    "@value" : "prc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Mobipocket eBook"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/MOP",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "MOP is a chemical file format used by MOPAC. MOPAC is a popular computer program used in computational chemistry. It is designed to implement semi-empirical quantum chemistry algorithms."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "MOP"
+  }, {
+    "@value" : "chemical/x-mopac-input"
+  }, {
+    "@value" : "mop"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MOP"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/MPEG2",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "MPEG-2 – Moving Picture Experts Group – is a standard for the generic coding of moving pictures and associated audio information. It describes a combination of lossy video compression and lossy audio data compression methods, which permit storage and transmission of movies using currently available storage media and transmission bandwidth."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "MPEG2"
+  }, {
+    "@value" : "audio/mpeg"
+  }, {
+    "@value" : "m2v"
+  }, {
+    "@value" : "mp2"
+  }, {
+    "@value" : "mp3"
+  }, {
+    "@value" : "mpeg"
+  }, {
+    "@value" : "mpg"
+  }, {
+    "@value" : "video/mpeg"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MPEG-2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/MPEG4",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "MPEG-4 – Moving Picture Experts Group – is a method of defining compression of audio and visual (AV) digital data. It was designated a standard for a group of audio and video coding formats and related technology."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "MPEG4"
+  }, {
+    "@value" : "application/mp4"
+  }, {
+    "@value" : "audio/mp4"
+  }, {
+    "@value" : "mp4"
+  }, {
+    "@value" : "mpeg"
+  }, {
+    "@value" : "mpg"
+  }, {
+    "@value" : "video/mp4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MPEG-4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/MXD",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "MXD – Map Exchange Document – is a file format in which the maps created from ArcGIS software can be stored."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "MXD"
+  }, {
+    "@value" : "application/x-mxd"
+  }, {
+    "@value" : "mxd"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MXD"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/ODF",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "ODF – Open Document Format for Office Applications, also known as OpenDocument – is an XML-based file format for spreadsheets, charts, presentations and word processing documents. It was developed with the aim of providing an open, XML-based file format specification for office applications."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "ODF"
+  }, {
+    "@value" : "application/octet-stream"
+  }, {
+    "@value" : "application/vnd.oasis.opendocument.formula"
+  }, {
+    "@value" : "odf"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ODF"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/ODP",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "ODP is an OpenDocument file format for presentations. OpenDocument was developed with the aim of providing an open, XML-based file format specification for office applications."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "ODP"
+  }, {
+    "@value" : "application/vnd.oasis.opendocument.presentation"
+  }, {
+    "@value" : "fodp"
+  }, {
+    "@value" : "odp"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ODP"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/ODS",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "ODS is an OpenDocument file format for spreadsheets. OpenDocument was developed with the aim of providing an open, XML-based file format specification for office applications."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "ODS"
+  }, {
+    "@value" : "application/vnd.oasis.opendocument.spreadsheet"
+  }, {
+    "@value" : "ods"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ODS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/ODT",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "ODT is the word processing file format of OpenDocument, an open standard for electronic documents."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "ODT"
+  }, {
+    "@value" : "application/vnd.oasis.opendocument.text"
+  }, {
+    "@value" : "odt"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ODT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/OWL",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "OWL – Web Ontology Language – is a family of knowledge representation languages for authoring ontologies."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "OWL"
+  }, {
+    "@value" : "application/owl+xml"
+  }, {
+    "@value" : "owl"
+  }, {
+    "@value" : "owx"
+  }, {
+    "@value" : "rdf"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "OWL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/PDF",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "PDF – Portable Document Format – is a file format developed to present documents, including text formatting and images, in a manner independent of application software, hardware and operating systems. Based on the PostScript language, each PDF file encapsulates a complete description of a fixed-layout flat document, including the text, fonts, vector graphics, raster images and other information needed to display it. PDF was standardized as an open format and does not require any royalties for its implementation."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "PDF"
+  }, {
+    "@value" : "application/pdf"
+  }, {
+    "@value" : "pdf"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PDF"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/PDFA1A",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "PDF/A-1 is the Part 1 of the PDF standard and specifies two levels of conformance for PDF files. PDF/A-1a – Level A (accessible) conformance was intended to increase the accessibility of conforming files for physically impaired users by allowing assistive software, such as screen readers, to more precisely extract and interpret a file's contents."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "PDFA1A"
+  }, {
+    "@value" : "application/pdf"
+  }, {
+    "@value" : "pdf"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PDF/A-1a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/PDFA1B",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "PDF/A-1 is the Part 1 of the PDF standard and specifies two levels of conformance for PDF files. Level B (basic) conformance requires only that standards necessary for the reliable reproduction of a document's visual appearance be followed."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "PDFA1B"
+  }, {
+    "@value" : "application/pdf"
+  }, {
+    "@value" : "pdf"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PDF/A-1b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/PDFX",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "PDF/X is a subset of the PDF standard. The purpose of PDF/X is to facilitate graphics exchange, and it therefore has a series of printing related requirements which do not apply to standard PDF files."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "PDFX"
+  }, {
+    "@value" : "application/pdf"
+  }, {
+    "@value" : "pdf"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PDF/X"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/PNG",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "PNG – Portable Network Graphics – is a raster graphics file format that supports lossless data compression. PNG was created as an improved, non-patented replacement for Graphics Interchange Format (GIF), and is the most widely used lossless image compression format on the Internet."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "PNG"
+  }, {
+    "@value" : "image/png"
+  }, {
+    "@value" : "png"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PNG"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/PPS",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "PPS – PowerPoint 97–2003 binary slide show – is a binary filaname extension of Microsoft PowerPoint presentation program. PowerPoint was originally designed to provide visuals for group presentations within business organizations, but has come to be very widely used in many other communication situations, both in business and beyond."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "PPS"
+  }, {
+    "@value" : "application/vnd.ms-powerpoint"
+  }, {
+    "@value" : "pps"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PowerPoint Slide Show"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/PPSX",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "PPSX – PowerPoint 2007 XML slide show – is an XML filename extension of Microsoft PowerPoint presentation program. PowerPoint was originally designed to provide visuals for group presentations within business organizations, but has come to be very widely used in many other communication situations, both in business and beyond."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "PPSX"
+  }, {
+    "@value" : "application/vnd.openxmlformats-officedocument.presentationml.slideshow"
+  }, {
+    "@value" : "ppsx"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PowerPoint PPSX"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/PPT",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "PPT is a binary media type of Microsoft PowerPoint presentation program. PowerPoint was originally designed to provide visuals for group presentations within business organizations, but has come to be very widely used in many other communication situations, both in business and beyond."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "PPT"
+  }, {
+    "@value" : "application/vnd.ms-powerpoint"
+  }, {
+    "@value" : "ppt"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PowerPoint PPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/PPTX",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "PPTX – PowerPoint 2007 XML presentation – is an XML filename extension of Office Open XML version of Microsoft PowerPoint presentation program. PowerPoint was originally designed to provide visuals for group presentations within business organizations, but has come to be very widely used in many other communication situations, both in business and beyond."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "PPTX"
+  }, {
+    "@value" : "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  }, {
+    "@value" : "pptx"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PowerPoint PPTX"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/PS",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "PS – PostScript – is a page description language in the electronic publishing and desktop publishing business. It is a dynamically typed, concatenative programming language."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "PS"
+  }, {
+    "@value" : "application/postscript"
+  }, {
+    "@value" : "ps"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/PSD",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "PSD – Photoshop Document – stores an image with support for most imaging options available in Adobe Photoshop. Photoshop is a raster graphics editor."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "PSD"
+  }, {
+    "@value" : "application/x-photoshop"
+  }, {
+    "@value" : "psd"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PSD"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/RAR",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "RAR is a proprietary archive file format that supports data compression, error recovery and file spanning."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "RAR"
+  }, {
+    "@value" : "application/vnd.rar"
+  }, {
+    "@value" : "r00"
+  }, {
+    "@value" : "r01"
+  }, {
+    "@value" : "rar"
+  }, {
+    "@value" : "rev"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "RAR"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/RDFA",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "RDFa is a technique that provides a set of markup attributes to augment the visual information on the Web with machine-readable hints."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "RDFA"
+  }, {
+    "@value" : "application/rdfa"
+  }, {
+    "@value" : "rdfa"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "RDFa"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/RDF_N_QUADS",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "N-Quads is a line-based, plain text format for encoding an RDF dataset. N-quads statements are a sequence of RDF terms representing the subject, predicate, object and graph label of an RDF Triple and the graph it is part of in a dataset."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "RDF_N_QUADS"
+  }, {
+    "@value" : "application/n-quads"
+  }, {
+    "@value" : "nq"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "RDF N-Quads"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "RDF N-Tirples is a line-based, plain text format for encoding an RDF graph; a concrete syntax for RDF, an easy to parse line-based subset of Turtle."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "RDF_N_TRIPLES"
+  }, {
+    "@value" : "application/n-triples"
+  }, {
+    "@value" : "nt"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "RDF N-Triples"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/RDF_TRIG",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "TriG allows an RDF dataset to be completely written in a compact and natural text form, with abbreviations for common usage patterns and datatypes. TriG is an extension of the Turtle format."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "RDF_TRIG"
+  }, {
+    "@value" : "application/trig"
+  }, {
+    "@value" : "trig"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "RDF TriG"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/RDF_TRIX",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "TriX (Triples in XML) is a serialization format for RDF (Resource Description Framework) graphs. It is an XML format for serializing Named Graphs and RDF Datasets which offers a compact and readable alternative to the XML-based RDF/XML syntax."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "RDF_TRIX"
+  }, {
+    "@value" : "application/xml"
+  }, {
+    "@value" : "trix"
+  }, {
+    "@value" : "xml"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "RDF TriX"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Turtle – Terse RDF Triple Language – is a format for expressing data in the Resource Description Framework (RDF) data model with a syntax similar to SPARQL. RDF, in turn, represents information using ‘triples’, each of which consists of a subject, a predicate and an object. Each of those items is expressed as a Web URI."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "RDF_TURTLE"
+  }, {
+    "@value" : "text/turtle"
+  }, {
+    "@value" : "ttl"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "RDF Turtle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/RDF_XML",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "RDF XML is a syntax, defined by the W3C, to express (i.e. serialize) an RDF graph as an XML document."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "RDF_XML"
+  }, {
+    "@value" : "application/rdf+xml"
+  }, {
+    "@value" : "rdf"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "RDF XML"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/RSS",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "RSS – Rich Site Summary; originally RDF Site Summary; often called Really Simple Syndication – is a type of web feed which allows users to access updates to online content in a standardized, computer-readable format. These feeds can, for example, allow a user to keep track of many different websites in a single news aggregator. Websites usually use RSS feeds to publish frequently updated information, such as blog entries, news headlines, audio, video. An RSS document (called ‘feed’, ‘web feed’ or ‘channel’) includes full or summarized text and metadata."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "RSS"
+  }, {
+    "@value" : "application/rss+xml"
+  }, {
+    "@value" : "rss"
+  }, {
+    "@value" : "xml"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "RSS feed"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/RTF",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "RTF – Rich Text Format – is a proprietary document file format developed for cross-platform document interchange with Microsoft products."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "RTF"
+  }, {
+    "@value" : "rtf"
+  }, {
+    "@value" : "text/rtf"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "RTF"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/SCHEMA_XML",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An XML schema is a description of a type of XML document, typically expressed in terms of constraints on the structure and content of documents of that type, above and beyond the basic syntactical constraints imposed by XML itself."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "SCHEMA_XML"
+  }, {
+    "@value" : "application/xml"
+  }, {
+    "@value" : "xsd"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "XML schema"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/SGML",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "SGML – Standard Generalized Markup Language – is a standard for defining generalized markup languages for documents. Generalized markup is based on two postulates: markup should be declarative and rigorous."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "SGML"
+  }, {
+    "@value" : "sgm"
+  }, {
+    "@value" : "sgml"
+  }, {
+    "@value" : "text/sgml"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SGML"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/SHP",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "SHP – shapefile format – is a popular geospatial vector data format for geographic information system (GIS) software. Esri shapefile is a zip archive that contains at least the shp, shx and dbf files."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "SHP"
+  }, {
+    "@value" : "application/x-shapefile"
+  }, {
+    "@value" : "dbf"
+  }, {
+    "@value" : "shp"
+  }, {
+    "@value" : "shx"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Esri Shape"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/SKOS_XML",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "SKOS – Simple Knowledge Organization System – is a W3C recommendation designed for representation of thesauri, classification schemes, taxonomies, subject-heading systems or any other type of structured controlled vocabulary. XML – Extensible Markup Language – is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "SKOS_XML"
+  }, {
+    "@value" : "application/rdf+xml"
+  }, {
+    "@value" : "rdf"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SKOS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/SPARQLQ",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "SPARQL – a recursive acronym for SPARQL Protocol and RDF Query Language – is an RDF query language, that is, a semantic query language for databases, able to retrieve and manipulate data stored in Resource Description Framework (RDF) format. It is recognised as one of the key technologies of the semantic web."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "SPARQLQ"
+  }, {
+    "@value" : "application/sparql-query"
+  }, {
+    "@value" : "rq"
+  }, {
+    "@value" : "sparqlq"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SPARQL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/SPARQLQRES",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Results of a SPARQL query. SPARQL – SPARQL Protocol and RDF Query Language – is an RDF query language, that is, a semantic query language for databases, able to retrieve and manipulate data stored in Resource Description Framework (RDF) format."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "SPARQLQRES"
+  }, {
+    "@value" : "application/sparql-results+xml"
+  }, {
+    "@value" : "sparqlqr"
+  }, {
+    "@value" : "srx"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SPARQL results"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/SVG",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Open standard for two-dimensional vector graphics."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "SVG"
+  }, {
+    "@value" : "image/svg+xml"
+  }, {
+    "@value" : "svg"
+  }, {
+    "@value" : "svgz"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SVG"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/TAR",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "TAR – tape archive – is a computer software utility for collecting many files into one archive file for distribution or backup purposes."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "TAR"
+  }, {
+    "@value" : "application/x-tar"
+  }, {
+    "@value" : "tar"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "TAR"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/TAR_XZ",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "TAR – tape archive – is a computer software utility for collecting many files into one archive file, often referred to as a tarball, for distribution or backup purposes. XZ is a lossless compression program and file format."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "TAR_XZ"
+  }, {
+    "@value" : "application/x-compressed"
+  }, {
+    "@value" : "tar.xz"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "TAR XZ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/TIFF",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "TIFF – Tagged Image File Format – is a computer file format for storing raster graphics images, popular among graphic artists, the publishing industry and photographers. TIFF is widely supported by scanning, faxing, word processing, optical character recognition, image manipulation, desktop publishing and page-layout applications. The format was created by Aldus Corporation for use in desktop publishing."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "TIFF"
+  }, {
+    "@value" : "image/tiff"
+  }, {
+    "@value" : "tif"
+  }, {
+    "@value" : "tiff"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "TIFF"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/TSV",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "TSV – tab-separated values – files are a simple text format for storing data in a tabular structure, e.g. database table or spreadsheet data, and a way of exchanging information between databases. Each record in the table is one line of the text file. Each field value of a record is separated from the next by a tab character."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "TSV"
+  }, {
+    "@value" : "tab"
+  }, {
+    "@value" : "text/tab-separated-values"
+  }, {
+    "@value" : "tsv"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "TSV"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/TXT",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Plain text is the data (e.g. file contents) that represent only characters of readable material but not its graphical representation nor other objects. It may also include a limited number of characters that control simple arrangement of text, such as line breaks or tabulation characters. Plain text is different from formatted text, where style information is included, and from ‘binary files’ in which some portions must be interpreted as binary objects (encoded integers, real numbers, images, etc.)."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "TXT"
+  }, {
+    "@value" : "text/plain"
+  }, {
+    "@value" : "txt"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Plain text"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/WFS_SRVC",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "The Open Geospatial Consortium Web Feature Service (WFS) Interface Standard provides an interface allowing requests for geospatial features across the web using platform-independent mechanisms and is independent of the underlying data store."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "WFS_SRVC"
+  }, {
+    "@value" : "application/gml+xml"
+  }, {
+    "@value" : "text/xml"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "WFS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/WMS_SRVC",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A Web Map Service (WMS) is a standard protocol developed by the Open Geospatial Consortium (OGC) for serving georeferenced map images over the Internet. These images are typically produced by a map server from data provided by a geographic information system (GIS) database."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "WMS_SRVC"
+  }, {
+    "@value" : "application/vnd.ogc.wms_xml"
+  }, {
+    "@value" : "text/xml"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "WMS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/XHTML",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "XHTML is a family of current and future document types and modules that reproduce, subset and extend HTML 4. XHTML family document types are XML based."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "XHTML"
+  }, {
+    "@value" : "application/xhtml+xml"
+  }, {
+    "@value" : "htm"
+  }, {
+    "@value" : "html"
+  }, {
+    "@value" : "xht"
+  }, {
+    "@value" : "xhtml"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "XHTML"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/XLS",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "XLS is a proprietary binary file format used for Microsoft Excel spreadsheet which features calculation, graphing tools, pivot tables and a macro programming language."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "XLS"
+  }, {
+    "@value" : "application/vnd.ms-excel"
+  }, {
+    "@value" : "xls"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Excel XLS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "XLSX is the default file format for Excel 2007 and later workbook used for Microsoft Excel spreadsheet which features calculation, graphing tools, pivot tables and a macro programming language. XLSX is in reality a ZIP compressed archive with a directory structure of XML text documents."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "XLSX"
+  }, {
+    "@value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  }, {
+    "@value" : "xlsx"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Excel XLSX"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/XML",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "XML – Extensible Markup Language – is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The design goals of XML emphasize simplicity, generality and usability across the Internet."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "XML"
+  }, {
+    "@value" : "application/xml"
+  }, {
+    "@value" : "xml"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "XML"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/XSLFO",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "XSL-FO – XSL Formatting Objects – is a markup language for XML document formatting that is most often used to generate PDF files. XSL-FO is part of XSL (Extensible Stylesheet Language), a set of W3C technologies designed for the transformation and formatting of XML data."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "XSLFO"
+  }, {
+    "@value" : "application/xml"
+  }, {
+    "@value" : "fo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "XSL-FO"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/XSLT",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "XSLT – Extensible Stylesheet Language Transformations – is a language for transforming XML documents into other XML documents or other formats such as HTML for web pages, plain text or XSL Formatting Objects, which may subsequently be converted to other formats, such as PDF, PostScript and PNG."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "XSLT"
+  }, {
+    "@value" : "application/xslt+xml"
+  }, {
+    "@value" : "xsl"
+  }, {
+    "@value" : "xslt"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "XSLT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/file-type/ZIP",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "ZIP is an archive file format that supports lossless data compression. A ZIP file may contain one or more files or directories that may have been compressed."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "ZIP"
+  }, {
+    "@value" : "application/zip"
+  }, {
+    "@value" : "zip"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ZIP"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/NetCDF",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "NetCDF"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "NetCDF"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "file-type"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/set/scw_filetypes/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "https://identifier.overheid.nl/tooi/def/wl/SchemagebaseerdeConceptwaardelijst" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Waardelijst met een selectie van filetypes uit de EU Vocabulary Authority table voor filetypes (filetypes-skos-ap-act.rdf). Deze selectie wordt bepaald door de bestandsformaten die relevant zijn voor de publicatievoorzieningen van overheid.nl."
+  } ],
+  "http://purl.org/pav/derivedFrom" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/ont"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/wl"
+  }, {
+    "@id" : "http://purl.org/pav"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "Eerste versie waardelijst Filetypes op zichtdatum 15-11-2021."
+  } ],
+  "http://www.w3.org/ns/prov#generatedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2021-11-15T17:51:40.426+01:00"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/publicatiedatum" : [ {
+    "@value" : "2021-11-15"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/titel" : [ {
+    "@value" : "Filetypes"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/verantwoordelijke" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1034"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/zichtdatum" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-11-15"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/afgeleidVanVersie" : [ {
+    "@value" : ""
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/bronversie" : [ {
+    "@value" : ""
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/schema" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/xtrn/file-type"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/volgnummer" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+} ]

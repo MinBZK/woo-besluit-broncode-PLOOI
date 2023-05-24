@@ -1,0 +1,27 @@
+version: '3'
+services:
+  plooi-solr-cuke:
+    image: solr:8.11.1
+    hostname: plooi-solr
+    networks:
+      - backend
+    restart: always
+    ports:
+      - "18983:8983"
+    command: "docker-entrypoint.sh solr-foreground -c"
+
+  solr-config-cuke:
+    image:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+    networks:
+      - backend
+    restart: "no"   #one time batch job for configuring solr
+    depends_on:
+      plooi-solr-cuke:
+        condition: service_started
+    environment:
+      SOLR_HOST: plooi-solr:8983
+      ZK_HOST: plooi-solr:9983
+
+networks:
+  backend:
+    driver: bridge

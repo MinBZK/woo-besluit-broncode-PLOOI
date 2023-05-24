@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "dictionary.fullname" . }}
+  labels:
+    app.kubernetes.io/component: dictionary
+    {{- include "dictionary.labels" . | nindent 4 }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      {{- include "dictionary.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      labels:
+        {{- include "dictionary.labels" . | nindent 8 }}
+        {{- include "dictionary.selectorLabels" . | nindent 8 }}
+        {{- if .Values.podLabels }}
+          {{- include "common.tplvalues.render" (dict "value" .Values.podLabels "context" $) | nindent 8 }}
+        {{- end }}
+        timestamp: "{{ now | unixEpoch }}"
+    spec:
+      imagePullSecrets:
+        - name: harbor-puller
+      containers:
+        - name: {{ .Chart.Name }}
+          image: {{ .Values.image.registry }}dictionary-service:{{ .Values.image.tag | default .Chart.AppVersion }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          env:
+            - name: OTEL_SERVICE_NAME
+              value: {{ include "dictionary.fullname" . }}
+            - name: OTEL_TRACES_EXPORTER
+              value: {{ .Values.opentelemetry.traces.exporter }}
+            - name: OTEL_METRICS_EXPORTER
+              value: {{ .Values.opentelemetry.metrics.exporter }}
+            {{- if .Values.opentelemetry.enabled }}
+            - name: OTEL_EXPORTER_JAEGER_ENDPOINT
+              value: {{ .Values.opentelemetry.exporter.jaeger.endpoint }}
+            {{- end }}
+            - name: LOG_LEVEL_KOOP
+              value: {{ .Values.logLevel }}
+            {{- if .Values.extraJvmArgs }}
+            - name: JAVA_TOOL_OPTIONS
+              value: {{ .Values.extraJvmArgs }}
+            {{- end }}
+          ports:
+            - name: srvc-port
+              containerPort: 8030
+            - name: actr-port
+              containerPort: 8031
+          {{- if .Values.resources }}
+          resources: {{- toYaml .Values.resources | nindent 12 }}
+          {{- end }}

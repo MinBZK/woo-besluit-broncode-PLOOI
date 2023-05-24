@@ -1,0 +1,1259 @@
+[ {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_0361ffb3",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "cultuur en recreatie"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_068da9fb",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "inkoop en beheer"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_08d12aef",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_c232ae4a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "onderzoek en wetenschap"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_0fe7c5e7",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "jeugdzorg"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_124eaf3a",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "wonen"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_1781ce20",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d4890526"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ouderen"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_17a86a17",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_124eaf3a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "woningmarkt"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_195b5b5e",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d363776f"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "transport"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_1f37c612",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_9d1917e9"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "arbeidsverhoudingen"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_1f781691",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_c232ae4a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "speciaal onderwijs"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_1fe409d0",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "staatsrecht"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_218c52ee",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ethiek"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_2408fb5a",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_0361ffb3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "cultureel erfgoed"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_25e30d03",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_391585db"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "belasting"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_2835e395",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_849842ac"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "luchtvaart"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_28ddcea5",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "lucht"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_2e9944e7",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_399f194b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "migratie"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_319461d7",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_849842ac"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "openbaar vervoer"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_341c5bef",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "zorgverzekeringen"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_389a72e6",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "water"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_391585db",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "overheidsfinanciën"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_399f194b",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "migratie en integratie"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_3afc269f",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d363776f"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ondernemen"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "organisatie en bedrijfsvoering"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_4348dad1",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_391585db"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "begroting"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_4872b086",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d58b78ca"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "terrorisme"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_4d1c84a7",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d363776f"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "dienstensector"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_4e83eca7",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_9d1917e9"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "arbeidsomstandigheden"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_4eb912c1",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_c232ae4a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "onderwijsvoorzieningen"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_516ec027",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_c232ae4a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "hoger onderwijs"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_576c2bd7",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f47ad6ca"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "internationale betrekkingen"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_61d3e636",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "stoffen"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_68609e19",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f47ad6ca"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Europese zaken"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_6b728132",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_0361ffb3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "media"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_6b9627b5",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "geneesmiddelen en medische hulpmiddelen"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_70e03904",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_0361ffb3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "evenementen"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_72138db9",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "rechtspraak"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_75809540",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_0361ffb3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "horeca"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_76136c82",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d4890526"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "gezin en kinderen"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_79010191",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "klimaatverandering"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_7a0f87d5",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "zorginstellingen"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_7b01f260",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_c232ae4a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "basisonderwijs"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_7ce8a10c",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "bodem"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_824ce7ff",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "privaatrecht"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_83db27fc",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d363776f"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "handel"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_849842ac",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "verkeer"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_85a72eb3",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_cfc7d5ab"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "netwerken"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_87d3d66c",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d363776f"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "kenniseconomie"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_8940ed07",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f47ad6ca"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ontwikkelingssamenwerking"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_8b081a63",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "gezondheidsrisico's"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_980b8db2",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_c232ae4a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "voortgezet onderwijs"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_989e37d9",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d363776f"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "landbouw, visserij, voedselkwaliteit"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_98e03e32",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "strafrecht"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_9a574af9",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ziekten en behandelingen"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_9af4b880",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_cfc7d5ab"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ruimtelijke ordening"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_9d1917e9",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "werk"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_9f410ab6",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "geluid"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_a6a9eddd",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_124eaf3a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "bouwen en verbouwen"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_a6c5e5b8",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_0361ffb3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "recreatie"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_a71dc533",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_cfc7d5ab"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "waterbeheer"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_a94e1fa4",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_399f194b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "integratie"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "natuur en milieu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_b46b92e7",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_c232ae4a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "beroepsonderwijs"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_beb01b1c",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "bestuursrecht"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_c232ae4a",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "onderwijs en wetenschap"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_cfc7d5ab",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ruimte en infrastructuur"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "zorg en gezondheid"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d2b1338a",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "rechten en vrijheden"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d363776f",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "economie"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d3b599f8",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_849842ac"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "scheepvaart"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d4890526",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "sociale zekerheid"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d58b78ca",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "openbare orde en veiligheid"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d772bf06",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d58b78ca"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "veiligheid"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d96f9cd3",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "afval"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_daaa67b3",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f47ad6ca"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "defensie"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_db2fbedb",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "natuur- en landschapsbeheer"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d363776f"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "markttoezicht"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_e277e756",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_0361ffb3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "religie"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_e3d35361",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "bezwaar en klachten"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_ee06665e",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "informatievoorziening en ICT"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f02ce1b3",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ouderenzorg"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f28344a5",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "koninkrijksrelaties"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f2c9a613",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "overheidspersoneel"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f37fd49d",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "inrichting van de overheid"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f411e390",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_849842ac"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "rail- en wegverkeer"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "recht"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f47ad6ca",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "internationaal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f4f1867a",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d363776f"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "energie"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f6d7f591",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "interne organisatie"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f72b706a",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_0361ffb3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "cultuur"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_fc530104",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d4890526"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "arbeidsongeschiktheid en werkloosheid"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_fcac43e4",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_d58b78ca"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "criminaliteit"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Thema-indeling voor Officiële Publicaties"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "TOP-lijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/set/scw_toplijst/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "https://identifier.overheid.nl/tooi/def/wl/SchemagebaseerdeConceptwaardelijst" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Waardelijst met themas uit de Thema-indeling voor Officiële Publicaties (TOP-lijst)."
+  } ],
+  "http://purl.org/pav/derivedFrom" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/ont"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/wl"
+  }, {
+    "@id" : "http://purl.org/pav"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "Eerste versie waardelijst Thema-indeling voor Officiële Publicaties (TOP-lijst) volledig op zichtdatum 15-11-2021."
+  } ],
+  "http://www.w3.org/ns/prov#generatedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2021-11-15T17:47:18.694+01:00"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/publicatiedatum" : [ {
+    "@value" : "2021-11-15"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/titel" : [ {
+    "@value" : "Thema-indeling voor Officiële Publicaties (TOP-lijst)"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/verantwoordelijke" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1034"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/zichtdatum" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-11-15"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/afgeleidVanVersie" : [ {
+    "@value" : ""
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/bronversie" : [ {
+    "@value" : ""
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/schema" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/top/toplijst"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/volgnummer" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+} ]

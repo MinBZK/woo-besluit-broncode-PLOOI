@@ -1,0 +1,83 @@
+@import "../../colors.scss";
+@import "../../transitions.scss";
+@import "../../icons.scss";
+
+.link {
+
+    &:focus {
+        z-index: 1;
+        box-shadow: 0 0 0 2px $focus !important;
+        outline: 1px solid $focusSecondary;
+        outline-offset: 2px;
+    }
+
+    z-index: 0;
+    color: $darkBlue;
+    text-decoration: underline;
+    transition: color $fastEaseInOut,
+    outline-offset $fastEaseInOut;
+    word-break: break-word;
+
+    &:empty {
+        visibility: hidden;
+        position: absolute;
+        height: 20px;
+    }
+
+    &:hover {
+        text-decoration: underline;
+        color: $primaryBlue;
+        outline: none;
+    }
+
+    &:active {
+        color: $mediumBlue;
+    }
+
+    &__selected{
+        outline: none;
+        background-color: $mediumBlue;
+        color: $darkBlue !important;
+    }
+
+    &.cta {
+        // text-decoration: none;
+        padding: 0 2em 0 0;
+        font-size: 1.125rem;
+
+        background: {
+            repeat: no-repeat;
+            image: $arrowCTAIcon;
+            position: right 1px top em(4);
+            size: 1em;
+        }
+
+        &--left {
+            padding: 0 0 0 2em;
+            background-position: left 3px;
+        }
+
+        &--external {
+            background: {
+                repeat: no-repeat;
+                image: $externalLinkv2Icon;
+                position: right 3px top 1px;
+                size: 1em;
+            }
+        }
+    }
+
+    &.cta__backwards {
+        text-decoration: none;
+        padding: 0 0 0 2em;
+        font-size: 1.25rem;
+        font-weight: 700;
+
+        background: {
+            repeat: no-repeat;
+            image: $arrowCTABackwardsIcon;
+            position: left 3px;
+            size: 1em;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/tst-efbd9082bb899e139febb7512198c92d7ad17af4",
+    "creatiedatum" : "2021-02-08",
+    "geldigheid" : {
+      "begindatum" : "2021-02-16"
+    },
+    "verantwoordelijke" : {
+      "label" : "Ministerie van Feesten en Partijen"
+    },
+    "opsteller" : {
+      "label" : "Ministerie van Feesten en Partijen"
+    },
+    "language" : {
+      "label" : "nl"
+    },
+    "omschrijvingen" : [ "Beschrijving bij een document met allerhande metadata enzo. enzo enzo" ],
+    "titelcollectie" : {
+      "officieleTitel" : "Loket - Diverse metadata!"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "label" : "Beleidsdocument"
+      } ],
+      "themas" : [ {
+        "label" : "cultuur"
+      }, {
+        "label" : "Europese zaken"
+      } ]
+    },
+    "extraMetadata" : [ {
+      "prefix" : "plooi.displayfield",
+      "velden" : [ {
+        "key" : "betrokkenOrganisatie",
+        "values" : [ "Organisatie nummertje twee" ]
+      }, {
+        "key" : "beschikkingNummer",
+        "values" : [ "12345" ]
+      }, {
+        "key" : "beschikkingNummer",
+        "values" : [ "64897" ]
+      }, {
+        "key" : "datumBeschikking",
+        "values" : [ "9 februari 2021" ]
+      } ]
+    } ]
+  },
+  "plooiIntern" : {
+    "dcnId" : "tst-efbd9082bb899e139febb7512198c92d7ad17af4",
+    "aanbieder" : "aanleverloket",
+    "extId" : [ "bijwerken_plooicb-2021-33.xml" ],
+    "sourceLabel" : "tst"
+  }
+}

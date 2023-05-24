@@ -1,0 +1,25 @@
+<header>
+  <div class="header__start">
+  <div class="topbar">
+    <div class="container">
+      <nav aria-label="Domein navigatie" class="topbar__nav">
+        <ul>
+          <li>
+            <a class="is-active">DCN admin</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__meta pull-right">
+        <span class="icon icon--profile">{{username | titlecase}}</span>
+        <a ole="button" (click)="logout()" class="button button--logout button--slim">Uitloggen</a>
+      </div>
+    </div>
+  </div>
+  <div class="row row--page-opener">
+    <div class="container">
+      <dcn-breadcrumb></dcn-breadcrumb>
+    </div>
+  </div>
+</div>
+</header>
+

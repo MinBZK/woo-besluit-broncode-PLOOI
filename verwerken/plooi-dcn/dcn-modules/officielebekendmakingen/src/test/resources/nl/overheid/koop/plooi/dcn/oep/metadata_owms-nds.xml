@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generatie: versie XSLT 1.1 op 2015-01-13+01:00-->
+<owms-metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:overheidop="http://standaarden.overheid.nl/oep/meta/">
+   <owmskern>
+      <dcterms:identifier>nds-tk-2015D00006</dcterms:identifier>
+      <dcterms:title>Reactie inzake Brandbrief over de massale uitsluiting van ZZP'ers in de zorg per 1 januari 2015</dcterms:title>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:type scheme="OVERHEIDop.Parlementair">Niet-dossierstuk</dcterms:type>
+      <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+      <dcterms.modified>2015-01-13</dcterms.modified>
+   </owmskern>
+   <owmsmantel>
+      <dcterms:available>2015-01-13</dcterms:available>
+      <dcterms:issued>2015-01-05</dcterms:issued>
+   </owmsmantel>
+   <oep>
+      <overheidop:documentStatus>Opgemaakt na onopgemaakt</overheidop:documentStatus>
+      <overheidop:publicationIssue>2015D00006</overheidop:publicationIssue>
+      <overheidop:publicationName>Niet-dossierstuk</overheidop:publicationName>
+      <overheidop:vergaderjaar>2014-2015</overheidop:vergaderjaar>
+      <overheid:organisationType>staten generaal</overheid:organisationType>
+      <overheid:category scheme="OVERHEID.TaxonomieBeleidsagenda">Zorg en gezondheid | Organisatie en beleid</overheid:category>
+   </oep>
+</owms-metadata>

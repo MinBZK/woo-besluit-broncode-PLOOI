@@ -1,0 +1,45 @@
+{{- if and .Values.persistence.enabled .Values.persistence.backup }}
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: {{ include "repository.fullname" . }}-backup
+spec:
+  schedule: {{ .Values.persistence.backupSchedule | quote }}
+  successfulJobsHistoryLimit: 1
+  failedJobsHistoryLimit: 1
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            {{- include "repository.labels" . | nindent 12 }}
+            {{- include "repository.selectorLabels" . | nindent 12 }}
+            {{- if .Values.podLabels }}
+              {{- include "common.tplvalues.render" (dict "value" .Values.podLabels "context" $) | nindent 12 }}
+            {{- end }}
+        spec:
+          restartPolicy: Never
+          imagePullSecrets:
+            - name: harbor-puller
+          {{- if .Values.persistence.enabled }}
+          volumes:
+            - name: {{ include "repository.fullname" . }}-backup-volume
+              persistentVolumeClaim:
+                claimName: {{ .Values.persistence.existingBackupClaim }}
+          {{- end }}
+          containers:
+          - name: {{ include "repository.fullname" . }}-backup
+            image: {{ .Values.image.registry }}plooi-toolbox-java:latest
+            imagePullPolicy: {{ .Values.image.pullPolicy }}
+            command: [ "/bin/sh", "-c" ]
+            args: [ "curl http://{{ include "repository.fullname" . }}-service:8010/archief/export?location=file:/plooi-backup/repository_full.zip" ]
+            resources:
+              requests:
+                cpu: 100m
+                memory: 0.5Gi
+            {{- if .Values.persistence.enabled }}
+            volumeMounts:
+              - mountPath: "/plooi-backup"
+                name: {{ include "repository.fullname" . }}-backup-volume
+            {{- end }}
+{{- end }}

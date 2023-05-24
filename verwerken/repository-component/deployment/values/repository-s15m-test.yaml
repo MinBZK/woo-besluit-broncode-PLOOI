@@ -1,0 +1,49 @@
+image:
+  registry:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+extraJvmArgs: "-Xms128m -Xmx512m -javaagent:/app/libs/opentelemetry-javaagent-1.13.1.jar"
+
+podLabels:
+  tier: vertrouwd
+  group: plooi-test
+  pgo-cluster-policy: allow
+  ingress-controller-frontoffice-policy: allow
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 250m
+    memory: 256Mi
+
+persistence:
+  enabled: true
+  backup: false
+
+database:
+  secret: plooi-postgres-pguser-dcn
+
+process:
+  url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+ingress:
+  ingressClassName: nginx
+  hostname:SSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+metrics:
+  enabled: true
+  serviceMonitor:
+    enabled: true
+    namespace: "koop-plooi-tst"
+    interval: "10s"
+
+opentelemetry:
+  enabled: true
+  traces:
+    exporter: jaeger
+  metrics:
+    exporter: none
+  exporter:
+    jaeger:
+      endpoint:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS

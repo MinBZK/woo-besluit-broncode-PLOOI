@@ -1,0 +1,27 @@
+{
+  "content": [
+    {
+      "code": "REQUIRED",
+      "severity": "ERROR",
+      "sourceLabel": "sourceLabel1",
+      "target": "targetElementName1",
+      "message": "Missing required field targetElementName1",
+      "documentEventId": null,
+      "source": "exec1"
+    }
+  ],
+  "pageable": "INSTANCE",
+  "totalPages": 1,
+  "last": true,
+  "totalElements": 1,
+  "numberOfElements": 1,
+  "first": true,
+  "sort": {
+    "sorted": false,
+    "unsorted": true,
+    "empty": true
+  },
+  "size": 1,
+  "number": 0,
+  "empty": false
+}

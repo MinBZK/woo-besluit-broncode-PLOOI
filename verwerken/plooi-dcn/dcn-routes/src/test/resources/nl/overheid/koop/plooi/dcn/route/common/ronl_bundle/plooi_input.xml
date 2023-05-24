@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plooi:plooi xmlns:plooi="http://standaarden.overheid.nl/plooi/terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <plooi:meta>
+        <plooi:owmskern>
+            <dcterms:identifier>ronl-f858940f049f3175619fec68bf1c4509a1a16ef6_1</dcterms:identifier>
+        </plooi:owmskern>
+        <plooi:owmsmantel>
+            <dcterms:hasPart resourceIdentifier="ronl-15e3f4362e399ffd85ced2d748eb02d881989838_1">ronl-15e3f4362e399ffd85ced2d748eb02d881989838_1</dcterms:hasPart>
+            <dcterms:hasPart resourceIdentifier="ronl-bdd6523b8bf29bd1ad3e2906d07968f2ac572439_1">ronl-bdd6523b8bf29bd1ad3e2906d07968f2ac572439_1</dcterms:hasPart>
+            <dcterms:hasPart resourceIdentifier="ronl-a7fa50c446693f6c25bd04396632f181592ed08a_1">ronl-a7fa50c446693f6c25bd04396632f181592ed08a_1</dcterms:hasPart>
+        </plooi:owmsmantel>
+        <plooi:othermeta>
+            <plooi:bronmeta>
+                <plooi:source-label>ronl</plooi:source-label>
+                <dcterms:identifier>40f4b17f-9f23-4fa0-a2ad-cb758fe454c3</dcterms:identifier>
+            </plooi:bronmeta>
+        </plooi:othermeta>
+        <plooi:plooiipm>
+            <dcterms:identifier>ronl-f858940f049f3175619fec68bf1c4509a1a16ef6_1</dcterms:identifier>
+        </plooi:plooiipm>
+    </plooi:meta>
+    <plooi:body>
+        <plooi:documenten>
+            <plooi:document published="false">
+                <plooi:url>https://opendata.rijksoverheid.nl/v1/sources/rijksoverheid/documents/40f4b17f-9f23-4fa0-a2ad-cb758fe454c3</plooi:url>
+                <plooi:titel>Aanvraagformulieren tariefschorsing of -contingent</plooi:titel>
+                <plooi:manifestatie-label>xml</plooi:manifestatie-label>
+                <plooi:bestandsnaam>40f4b17f-9f23-4fa0-a2ad-cb758fe454c3.xml</plooi:bestandsnaam>
+                <plooi:hash>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</plooi:hash>
+            </plooi:document>
+            <plooi:document published="true">
+                <plooi:url>https://opendata.rijksoverheid.nl/binaries/rijksoverheid/documenten/formulieren/2006/11/13/aanvraagformulier/formulier-aanvraag-tariefschorsing-of-contingent-deel-1-2.odt</plooi:url>
+                <plooi:titel>Aanvraag tariefschorsing of contingent (deel 1 en 2)</plooi:titel>
+                <plooi:manifestatie-label>odt</plooi:manifestatie-label>
+                <plooi:bestandsnaam>formulier-aanvraag-tariefschorsing-of-contingent-deel-1-2.odt</plooi:bestandsnaam>
+                <plooi:ref>ronl-15e3f4362e399ffd85ced2d748eb02d881989838_1</plooi:ref>
+            </plooi:document>
+            <plooi:document published="true">
+                <plooi:url>https://opendata.rijksoverheid.nl/binaries/rijksoverheid/documenten/formulieren/2006/11/13/aanvraagformulier/formulier-aanvraag-tariefschorsing-of-contingent-deel-3.odt</plooi:url>
+                <plooi:titel>Aanvraag tariefschorsing of contingent (deel 3)</plooi:titel>
+                <plooi:manifestatie-label>odt</plooi:manifestatie-label>
+                <plooi:bestandsnaam>formulier-aanvraag-tariefschorsing-of-contingent-deel-3.odt</plooi:bestandsnaam>
+                <plooi:ref>ronl-bdd6523b8bf29bd1ad3e2906d07968f2ac572439_1</plooi:ref>
+            </plooi:document>
+            <plooi:document published="true">
+                <plooi:url>https://opendata.rijksoverheid.nl/binaries/rijksoverheid/documenten/formulieren/2006/11/13/aanvraagformulier/formulier-non-exclusiviteitsverklaring.odt</plooi:url>
+                <plooi:titel>Non-exclusiviteitsverklaring</plooi:titel>
+                <plooi:manifestatie-label>odt</plooi:manifestatie-label>
+                <plooi:bestandsnaam>formulier-non-exclusiviteitsverklaring.odt</plooi:bestandsnaam>
+                <plooi:ref>ronl-a7fa50c446693f6c25bd04396632f181592ed08a_1</plooi:ref>
+            </plooi:document>
+        </plooi:documenten>
+    </plooi:body>
+</plooi:plooi>

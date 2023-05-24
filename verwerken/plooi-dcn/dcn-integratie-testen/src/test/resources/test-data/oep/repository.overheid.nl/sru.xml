@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sru:searchRetrieveResponse xmlns:overheidwetgeving="http://standaarden.overheid.nl/wetgeving/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:cd="http://standaarden.overheid.nl/cup/data" xmlns:sru="http://docs.oasis-open.org/ns/search-ws/sruResponse" xmlns:gzd="http://standaarden.overheid.nl/sru" xmlns:diag="http://docs.oasis-open.org/ns/search-ws/diagnostic" xmlns:facet="http://docs.oasis-open.org/ns/search-ws/facetedResults" xmlns:c="http://standaarden.overheid.nl/collectie/">
+    <sru:version>2.0</sru:version>
+    <sru:numberOfRecords>3</sru:numberOfRecords>
+    <sru:records>
+        <sru:record>
+            <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+            <sru:recordPacking>xml</sru:recordPacking>
+            <sru:recordData>
+                <gzd:gzd>
+                    <gzd:originalData>
+                        <overheidwetgeving:meta>
+                            <overheidwetgeving:owmskern>
+                                <dcterms:identifier>kst-32545-143</dcterms:identifier>
+                                <dcterms:title>Wet- en regelgeving financiële markten; Motie; Motie van de leden Inge van Dijk en Grinwis over het definiëren van een grensspaarsaldo voor negatieve spaarrente</dcterms:title>
+                                <dcterms:language>nl</dcterms:language>
+                                <dcterms:type scheme="OVERHEIDop.Parlementair">Kamerstuk</dcterms:type>
+                                <dcterms:creator scheme="OVERHEID.StatenGeneraal">overige</dcterms:creator>
+                                <dcterms:modified>2021-07-09</dcterms:modified>
+                            </overheidwetgeving:owmskern>
+                            <overheidwetgeving:owmsmantel>
+                                <dcterms:available>2021-07-07</dcterms:available>
+                                <dcterms:date>2021-07-06</dcterms:date>
+                                <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/kst-32545-143.html">1</dcterms:hasVersion>
+                                <dcterms:issued>2021-07-06</dcterms:issued>
+                                <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Economie | Overige economische sectoren</dcterms:subject>
+                                <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Financiën | Financieel toezicht</dcterms:subject>
+                            </overheidwetgeving:owmsmantel>
+                            <overheidwetgeving:tpmeta>
+                                <c:product-area>officielepublicaties</c:product-area>
+                                <c:content-area>officielepublicaties/kst/32545</c:content-area>
+                                <overheidwetgeving:documentstatus>Opgemaakt na onopgemaakt</overheidwetgeving:documentstatus>
+                                <overheidwetgeving:documenttitel>Motie van de leden Inge van Dijk en Grinwis over het definiëren van een grensspaarsaldo voor negatieve spaarrente</overheidwetgeving:documenttitel>
+                                <overheidwetgeving:dossiertitel>Wet- en regelgeving financiële markten</overheidwetgeving:dossiertitel>
+                                <overheidwetgeving:indiener>I. (Inge) van Dijk</overheidwetgeving:indiener>
+                                <overheidwetgeving:indiener>P.A. Grinwis</overheidwetgeving:indiener>
+                                <overheidwetgeving:ondernummer>143</overheidwetgeving:ondernummer>
+                                <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                                <overheidwetgeving:publicatienaam>Kamerstuk</overheidwetgeving:publicatienaam>
+                                <overheidwetgeving:vergaderjaar>2020-2021</overheidwetgeving:vergaderjaar>
+                                <overheidwetgeving:dossiernummer>32545</overheidwetgeving:dossiernummer>
+                                <overheidwetgeving:subrubriek scheme="OVERHEIDop.KamerstukTypen">Motie</overheidwetgeving:subrubriek>
+                                <cd:datumTijdstipWijzigingWork>2021-07-09T11:23:39.5363908+02:00</cd:datumTijdstipWijzigingWork>
+                                <cd:datumTijdstipWijzigingExpression>2021-07-09T11:23:39.5363908+02:00</cd:datumTijdstipWijzigingExpression>
+                            </overheidwetgeving:tpmeta>
+                        </overheidwetgeving:meta>
+                    </gzd:originalData>
+                    <gzd:enrichedData>
+                        <gzd:url>http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/kst/32545/kst-32545-143/1/xml/kst-32545-143.xml</gzd:url>
+                        <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/kst-32545-143.html</gzd:preferredUrl>
+                        <gzd:itemUrl manifestation="html">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/kst/32545/kst-32545-143/1/html/kst-32545-143.html</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadata">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/kst/32545/kst-32545-143/1/metadata/metadata.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadataowms">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/kst/32545/kst-32545-143/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="odt">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/kst/32545/kst-32545-143/1/odt/kst-32545-143.odt</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="pdf">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/kst/32545/kst-32545-143/1/pdf/kst-32545-143.pdf</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="xml">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/kst/32545/kst-32545-143/1/xml/kst-32545-143.xml</gzd:itemUrl>
+                        <gzd:timestamp>2021-07-09T11:25:30.574791+02:00</gzd:timestamp>
+                    </gzd:enrichedData>
+                </gzd:gzd>
+            </sru:recordData>
+            <sru:recordPosition>1</sru:recordPosition>
+        </sru:record>
+        <sru:record>
+            <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+            <sru:recordPacking>xml</sru:recordPacking>
+            <sru:recordData>
+                <gzd:gzd>
+                    <gzd:originalData>
+                        <overheidwetgeving:meta>
+                            <overheidwetgeving:owmskern>
+                                <dcterms:identifier>ah-tk-20202021-3235</dcterms:identifier>
+                                <dcterms:title>Antwoord op vragen van de leden Van Weyenberg, Romke de Jong en Kat over de Tozo</dcterms:title>
+                                <dcterms:language>nl</dcterms:language>
+                                <dcterms:type scheme="OVERHEIDop.Parlementair">Aanhangsel van de Handelingen</dcterms:type>
+                                <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+                                <dcterms:modified>2021-07-22</dcterms:modified>
+                            </overheidwetgeving:owmskern>
+                            <overheidwetgeving:owmsmantel>
+                                <dcterms:available>2021-06-21</dcterms:available>
+                                <dcterms:date>2021-06-21</dcterms:date>
+                                <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/ah-tk-20202021-3235.html">1</dcterms:hasVersion>
+                                <dcterms:issued>2021-06-21</dcterms:issued>
+                                <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Economie | Ondernemen</dcterms:subject>
+                                <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Sociale zekerheid | Organisatie en beleid</dcterms:subject>
+                            </overheidwetgeving:owmsmantel>
+                            <overheidwetgeving:tpmeta>
+                                <c:product-area>officielepublicaties</c:product-area>
+                                <c:content-area>officielepublicaties/ah-tk/20202021</c:content-area>
+                                <overheidwetgeving:aanhangselnummer>3235</overheidwetgeving:aanhangselnummer>
+                                <overheidwetgeving:datumOntvangst>2021-06-21</overheidwetgeving:datumOntvangst>
+                                <overheidwetgeving:documentstatus>Opgemaakt na onopgemaakt</overheidwetgeving:documentstatus>
+                                <overheidwetgeving:indiener>S.P.R.A. van Weyenberg</overheidwetgeving:indiener>
+                                <overheidwetgeving:indiener>R.H. (Romke) de Jong</overheidwetgeving:indiener>
+                                <overheidwetgeving:indiener>H. Kat</overheidwetgeving:indiener>
+                                <overheidwetgeving:ontvanger>W. Koolmees</overheidwetgeving:ontvanger>
+                                <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                                <overheidwetgeving:publicatienaam>Kamervragen (Aanhangsel)</overheidwetgeving:publicatienaam>
+                                <overheidwetgeving:vergaderjaar>2020-2021</overheidwetgeving:vergaderjaar>
+                                <overheidwetgeving:vraagnummer>2021Z09739</overheidwetgeving:vraagnummer>
+                                <overheidwetgeving:subrubriek scheme="OVERHEIDop.AanhangselTypen">Antwoord</overheidwetgeving:subrubriek>
+                                <cd:datumTijdstipWijzigingWork>2021-07-22T13:03:34.3574627+02:00</cd:datumTijdstipWijzigingWork>
+                                <cd:datumTijdstipWijzigingExpression>2021-07-22T13:03:34.3574627+02:00</cd:datumTijdstipWijzigingExpression>
+                            </overheidwetgeving:tpmeta>
+                        </overheidwetgeving:meta>
+                    </gzd:originalData>
+                    <gzd:enrichedData>
+                        <gzd:url>http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/ah-tk/20202021/ah-tk-20202021-3235/1/xml/ah-tk-20202021-3235.xml</gzd:url>
+                        <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/ah-tk-20202021-3235.html</gzd:preferredUrl>
+                        <gzd:itemUrl manifestation="html">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/ah-tk/20202021/ah-tk-20202021-3235/1/html/ah-tk-20202021-3235.html</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadata">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/ah-tk/20202021/ah-tk-20202021-3235/1/metadata/metadata.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadataowms">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/ah-tk/20202021/ah-tk-20202021-3235/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="odt">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/ah-tk/20202021/ah-tk-20202021-3235/1/odt/ah-tk-20202021-3235.odt</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="pdf">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/ah-tk/20202021/ah-tk-20202021-3235/1/pdf/ah-tk-20202021-3235.pdf</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="xml">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/ah-tk/20202021/ah-tk-20202021-3235/1/xml/ah-tk-20202021-3235.xml</gzd:itemUrl>
+                        <gzd:timestamp>2021-07-22T13:04:47.7162+02:00</gzd:timestamp>
+                    </gzd:enrichedData>
+                </gzd:gzd>
+            </sru:recordData>
+            <sru:recordPosition>2</sru:recordPosition>
+        </sru:record>
+        <sru:record>
+            <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+            <sru:recordPacking>xml</sru:recordPacking>
+            <sru:recordData>
+                <gzd:gzd>
+                    <gzd:originalData>
+                        <overheidwetgeving:meta>
+                            <overheidwetgeving:owmskern>
+                                <dcterms:identifier>blg-1007826</dcterms:identifier>
+                                <dcterms:title>Beslisnota inzake aangenomen moties en reactie op vier zienswijzen 7e Actieprogramma Nitraatrichtlijn</dcterms:title>
+                                <dcterms:language>nl</dcterms:language>
+                                <dcterms:type scheme="OVERHEIDop.Parlementair">Bijlage</dcterms:type>
+                                <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+                                <dcterms:modified>2022-01-04</dcterms:modified>
+                            </overheidwetgeving:owmskern>
+                            <overheidwetgeving:owmsmantel>
+                                <dcterms:available>2021-12-03</dcterms:available>
+                                <dcterms:date>2021-12-03</dcterms:date>
+                                <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/blg-1007826.html">1</dcterms:hasVersion>
+                            </overheidwetgeving:owmsmantel>
+                            <overheidwetgeving:tpmeta>
+                                <c:product-area>officielepublicaties</c:product-area>
+                                <c:content-area>officielepublicaties/blg/onopgemaakt</c:content-area>
+                                <overheidwetgeving:documentstatus>Onopgemaakt</overheidwetgeving:documentstatus>
+                                <overheidwetgeving:hoofddocument>kst-33037-430</overheidwetgeving:hoofddocument>
+                                <overheidwetgeving:ondernummer>430</overheidwetgeving:ondernummer>
+                                <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                                <overheidwetgeving:publicatienaam>Kamerstuk</overheidwetgeving:publicatienaam>
+                                <overheidwetgeving:vergaderjaar>2021-2022</overheidwetgeving:vergaderjaar>
+                                <overheidwetgeving:dossiernummer>33037</overheidwetgeving:dossiernummer>
+                                <cd:datumTijdstipWijzigingWork>2022-01-04T08:29:06.5320071+01:00</cd:datumTijdstipWijzigingWork>
+                                <cd:datumTijdstipWijzigingExpression>2022-01-04T08:29:06.5320071+01:00</cd:datumTijdstipWijzigingExpression>
+                            </overheidwetgeving:tpmeta>
+                        </overheidwetgeving:meta>
+                    </gzd:originalData>
+                    <gzd:enrichedData>
+                        <gzd:url>http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-1007826/1/pdf/blg-1007826.pdf</gzd:url>
+                        <gzd:preferredUrl>http://__MOCK_SERVICE__/zoek.officielebekendmakingen.nl/blg-1007826.html</gzd:preferredUrl>
+                        <gzd:itemUrl manifestation="metadata">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-1007826/1/metadata/metadata.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadataowms">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-1007826/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="pdf">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-1007826/1/pdf/blg-1007826.pdf</gzd:itemUrl>
+                        <gzd:timestamp>2022-01-04T08:29:15.682897+01:00</gzd:timestamp>
+                    </gzd:enrichedData>
+                </gzd:gzd>
+            </sru:recordData>
+            <sru:recordPosition>3</sru:recordPosition>
+        </sru:record>
+        <sru:record>
+            <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+            <sru:recordPacking>xml</sru:recordPacking>
+            <sru:recordData>
+                <gzd:gzd>
+                    <gzd:originalData>
+                        <overheidwetgeving:meta>
+                            <overheidwetgeving:owmskern>
+                                <dcterms:identifier>blg-1025203</dcterms:identifier>
+                                <dcterms:title>Keuzeproces zorgverzekering</dcterms:title>
+                                <dcterms:language>nl</dcterms:language>
+                                <dcterms:type scheme="OVERHEIDop.Parlementair">Bijlage</dcterms:type>
+                                <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+                                <dcterms:modified>2022-04-19</dcterms:modified>
+                            </overheidwetgeving:owmskern>
+                            <overheidwetgeving:owmsmantel>
+                                <dcterms:available>2022-04-07</dcterms:available>
+                                <dcterms:date>2022-04-07</dcterms:date>
+                                <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/blg-1025203.html">1</dcterms:hasVersion>
+                            </overheidwetgeving:owmsmantel>
+                            <overheidwetgeving:tpmeta>
+                                <c:product-area>officielepublicaties</c:product-area>
+                                <c:content-area>officielepublicaties/blg/onopgemaakt</c:content-area>
+                                <overheidwetgeving:documentstatus>Onopgemaakt</overheidwetgeving:documentstatus>
+                                <overheidwetgeving:hoofddocument>kst-29689-1142</overheidwetgeving:hoofddocument>
+                                <overheidwetgeving:ondernummer>1142</overheidwetgeving:ondernummer>
+                                <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                                <overheidwetgeving:publicatienaam>Kamerstuk</overheidwetgeving:publicatienaam>
+                                <overheidwetgeving:vergaderjaar>2021-2022</overheidwetgeving:vergaderjaar>
+                                <overheidwetgeving:dossiernummer>29689</overheidwetgeving:dossiernummer>
+                                <cd:datumTijdstipWijzigingWork>2022-04-19T14:35:59.8321418+02:00</cd:datumTijdstipWijzigingWork>
+                                <cd:datumTijdstipWijzigingExpression>2022-04-19T14:35:59.8321418+02:00</cd:datumTijdstipWijzigingExpression>
+                            </overheidwetgeving:tpmeta>
+                        </overheidwetgeving:meta>
+                    </gzd:originalData>
+                    <gzd:enrichedData>
+                        <gzd:url>http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-1025203/1/pdf/blg-1025203.pdf</gzd:url>
+                        <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/blg-1025203.html</gzd:preferredUrl>
+                        <gzd:itemUrl manifestation="metadata">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-1025203/1/metadata/metadata.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadataowms">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-1025203/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="pdf">httbroken://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-1025203/1/pdf/blg-1025203.pdf</gzd:itemUrl>
+                        <gzd:timestamp>2022-04-19T14:36:06.486315+02:00</gzd:timestamp>
+                    </gzd:enrichedData>
+                </gzd:gzd>
+            </sru:recordData>
+            <sru:recordPosition>1</sru:recordPosition>
+        </sru:record>
+        <sru:record>
+            <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+            <sru:recordPacking>xml</sru:recordPacking>
+            <sru:recordData>
+                <gzd:gzd>
+                    <gzd:originalData>
+                        <overheidwetgeving:meta>
+                            <overheidwetgeving:owmskern>
+                                <dcterms:identifier>kst-32545-144</dcterms:identifier>
+                                <dcterms:title>Wet- en regelgeving financiële markten; Motie; Motie van de leden Inge van Dijk en Grinwis over het definiëren van een grensspaarsaldo voor negatieve spaarrente</dcterms:title>
+                                <dcterms:language>nl</dcterms:language>
+                                <dcterms:type scheme="OVERHEIDop.Parlementair">Kamerstuk</dcterms:type>
+                                <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+                                <dcterms:modified>2021-07-09</dcterms:modified>
+                            </overheidwetgeving:owmskern>
+                            <overheidwetgeving:owmsmantel>
+                                <dcterms:available>2021-07-07</dcterms:available>
+                                <dcterms:date>2021-07-06</dcterms:date>
+                                <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/kst-32545-143.html">1</dcterms:hasVersion>
+                                <dcterms:issued>2021-07-06</dcterms:issued>
+                                <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Economie | Overige economische sectoren</dcterms:subject>
+                                <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Financiën | Financieel toezicht</dcterms:subject>
+                            </overheidwetgeving:owmsmantel>
+                            <overheidwetgeving:tpmeta>
+                                <c:product-area>officielepublicaties</c:product-area>
+                                <c:content-area>officielepublicaties/kst/32545</c:content-area>
+                                <overheidwetgeving:documentstatus>Opgemaakt na onopgemaakt</overheidwetgeving:documentstatus>
+                                <overheidwetgeving:documenttitel>Motie van de leden Inge van Dijk en Grinwis over het definiëren van een grensspaarsaldo voor negatieve spaarrente</overheidwetgeving:documenttitel>
+                                <overheidwetgeving:dossiertitel>Wet- en regelgeving financiële markten</overheidwetgeving:dossiertitel>
+                                <overheidwetgeving:indiener>I. (Inge) van Dijk</overheidwetgeving:indiener>
+                                <overheidwetgeving:indiener>P.A. Grinwis</overheidwetgeving:indiener>
+                                <overheidwetgeving:ondernummer>143</overheidwetgeving:ondernummer>
+                                <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                                <overheidwetgeving:publicatienaam>Kamerstuk</overheidwetgeving:publicatienaam>
+                                <overheidwetgeving:vergaderjaar>2020-2021</overheidwetgeving:vergaderjaar>
+                                <overheidwetgeving:dossiernummer>32545</overheidwetgeving:dossiernummer>
+                                <overheidwetgeving:subrubriek scheme="OVERHEIDop.KamerstukTypen">Motie</overheidwetgeving:subrubriek>
+                                <cd:datumTijdstipWijzigingWork>2021-07-09T11:23:39.5363908+02:00</cd:datumTijdstipWijzigingWork>
+                                <cd:datumTijdstipWijzigingExpression>2021-07-09T11:23:39.5363908+02:00</cd:datumTijdstipWijzigingExpression>
+                            </overheidwetgeving:tpmeta>
+                        </overheidwetgeving:meta>
+                    </gzd:originalData>
+                    <gzd:enrichedData>
+                        <gzd:url>http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/kst/32545/kst-32545-143/1/xml/kst-32545-143.xml</gzd:url>
+                        <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/kst-32545-143.html</gzd:preferredUrl>
+                        <gzd:itemUrl manifestation="html">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/kst/32545/kst-32545-143/1/html/kst-32545-143.html</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadata">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/kst/32545/kst-32545-143/1/metadata/metadata.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadataowms">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/kst/32545/kst-32545-143/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="odt">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/kst/32545/kst-32545-143/1/odt/kst-32545-143.odt</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="pdf">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/kst/32545/kst-32545-143/1/pdf/kst-32545-143.pdf</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="xml">http://__MOCK_SERVICE__/repository.overheid.nl/frbr/officielepublicaties/kst/32545/kst-32545-143/1/xml/kst-32545-143.xml</gzd:itemUrl>
+                        <gzd:timestamp>2021-07-09T11:25:30.574791+02:00</gzd:timestamp>
+                    </gzd:enrichedData>
+                </gzd:gzd>
+            </sru:recordData>
+            <sru:recordPosition>1</sru:recordPosition>
+        </sru:record>
+    </sru:records>
+    <sru:echoedSearchRetrieveRequest>
+        <sru:query>c.product-area==\"officielepublicaties\"and ( w.organisatietype==\"staten generaal\" and ( w.documentstatus==\"Opgemaakt\" or w.documentstatus==\"Opgemaakt na onopgemaakt\" or dt.type==\"Bijlage\" ) ) or ( w.publicatienaam==\"Staatsblad\" ) and dt.date&gt;=\"2021-07-01\" and dt.modified&gt; \"2021-02-16\"</sru:query>
+        <sru:startRecord>1</sru:startRecord>
+        <sru:maximumRecords>10</sru:maximumRecords>
+        <sru:recordXMLEscaping>xml</sru:recordXMLEscaping>
+        <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+    </sru:echoedSearchRetrieveRequest>
+    <sru:resultCountPrecision>info:srw/vocabulary/resultCountPrecision/1/estimate</sru:resultCountPrecision>
+</sru:searchRetrieveResponse>

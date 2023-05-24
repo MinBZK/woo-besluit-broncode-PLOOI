@@ -1,0 +1,29 @@
+<originalData>
+    <record>
+        <identifier>39606</identifier>
+        <organisatieType>Gemeente</organisatieType>
+        <naam>Gemeente Valkenburg aan de Geul</naam>
+        <afkorting>Valkenburg aan de Geul</afkorting>
+        <url>https://almanak.overheid.nl/39606/Gemeente_Valkenburg_aan_de_Geul</url>
+        <resourceIdentifier>https://identifier.overheid.nl/tooi/id/gemeente/gm0994</resourceIdentifier>
+        <datumMutatie>2022-03-15</datumMutatie>
+        <ictuCode>00994</ictuCode>
+        <topOrganisatie>
+            <identifier>39606</identifier>
+            <naam>Gemeente Valkenburg aan de Geul</naam>
+            <url>https://almanak.overheid.nl/39606/Gemeente_Valkenburg_aan_de_Geul</url>
+        </topOrganisatie>
+        <bezoekAdres>
+            <straat>Geneindestraat</straat>
+            <huisnummer>4</huisnummer>
+            <postcode>6301 HC</postcode>
+            <plaats>VALKENBURG LB</plaats>
+            <centroide/>
+        </bezoekAdres>
+        <postAdres>
+            <postbus>Postbus 998</postbus>
+            <postcode>6300 AZ</postcode>
+            <plaats>VALKENBURG LB</plaats>
+        </postAdres>
+    </record>
+</originalData>

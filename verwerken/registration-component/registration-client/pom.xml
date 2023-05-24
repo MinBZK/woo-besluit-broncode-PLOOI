@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<artifactId>registration-component</artifactId>
+		<groupId>nl.overheid.koop.plooi</groupId>
+		<version>1.0.2-SNAPSHOT</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>registration-client</artifactId>
+
+	<properties>
+		<metadata-specification.version>0.9.4</metadata-specification.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>nl.overheid.koop.plooi</groupId>
+			<artifactId>registration-specification</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>nl.overheid.koop.plooi</groupId>
+			<artifactId>metadata-specification</artifactId>
+			<version>${metadata-specification.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>jakarta.json</groupId>
+			<artifactId>jakarta.json-api</artifactId>
+			<version>1.1.6</version>
+		</dependency>
+	</dependencies>
+
+</project>

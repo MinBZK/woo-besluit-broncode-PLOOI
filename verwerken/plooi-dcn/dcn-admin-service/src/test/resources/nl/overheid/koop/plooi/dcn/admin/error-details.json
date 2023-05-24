@@ -1,0 +1,13 @@
+{
+  "id": null,
+  "fromRoute": "/http/test",
+  "exceptionClass": "null pointer",
+  "exceptionMessage": "file not found",
+  "exceptionResponse": null,
+  "exceptionStacktrace": null,
+  "statusCode": null,
+  "statusText": null,
+  "messageBody": null,
+  "timeCreated": null,
+  "documentEventId": "documentEventId"
+}

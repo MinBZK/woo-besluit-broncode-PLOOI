@@ -1,0 +1,16 @@
+@import "../../icons.scss";
+
+.container{
+    background: $iconArrowDown;
+    background-repeat: no-repeat;
+    background-position: left 0em center;
+    background-size: $iconSize;
+    padding-left: 30px;
+
+    &--unfolded{
+        background: $iconArrowUpBlue;
+        background-repeat: no-repeat;
+        background-position: left 0em center;
+        background-size: $iconSize;
+    }
+}

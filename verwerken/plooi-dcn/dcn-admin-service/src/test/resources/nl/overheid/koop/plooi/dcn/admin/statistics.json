@@ -1,0 +1,14 @@
+[
+  {
+    "sourceName": "oep",
+    "processingErrorCount": 1,
+    "mappingErrorCount": 2,
+    "mappingWarningCount": 3
+  },
+  {
+    "sourceName": "ronl",
+    "processingErrorCount": 3,
+    "mappingErrorCount": 0,
+    "mappingWarningCount": 7
+  }
+]

@@ -1,0 +1,56 @@
+<div class="container" *ngIf="!errorMsg && route.children.length == 0">
+    <div>
+        <h4 class="jumbotron__intro" >
+            Er zijn {{page.totalElements}} documenten gevonden. Klik op een documentregel voor de document details.
+        </h4>
+        <table class="table table--condensed table--striped table--container table__data-overview table--hover">
+            <thead>
+            <tr>
+                <th scope="col" class="u-columnwidth-15p">Tijdstip publicatie</th>
+                <th scope="col" class="u-columnwidth-30p">DCN Identifier</th>
+                <th scope="col" class="u-columnwidth-20p">Organisatie</th>
+                <th scope="col" class="u-columnwidth-10p">Documentsoort</th>
+                <th scope="col" class="u-columnwidth-30p">Titel</th>
+            </tr>
+            </thead>
+            <tbody *ngIf="page.totalElements">
+            <tr *ngFor="let document of page.content" (click)=documentDetails(document)>
+                <td>{{document.available_start | date : 'medium'}}</td>
+                <td>{{document.dcn_id}}</td>
+                <td>{{document.creator && document.creator.length? (document.creator.join(' - ') | titlecase): ""}}</td>
+                <td>{{document.type && document.type.length? (document.type | titlecase): ""}}</td>
+                <td>{{document.title}}</td>
+            </tr>
+            </tbody>
+        </table>
+        <dcn-no-result [page]="page"></dcn-no-result>
+        <dcn-custom-pagination [page]="page"
+                               (nextPageEvent)="getNextPage($event)"
+                               (itemsPerPageEvent)="updateItemsPerPage($event)">
+        </dcn-custom-pagination>
+        <div class="u-margin-bottom-40" *ngIf="page && page.content && page.content.length" id="bulk-action">
+            <strong>Beschikbare acties</strong>
+            <table class="table table--condensed table--striped" >
+                <thead>
+                <tr>
+                    <th scope="col" class="u-columnwidth-10p">Actie</th>
+                    <th scope="col" class="u-columnwidth-50p">Toelichting</th>
+                </tr>
+
+                </thead>
+                <tbody>
+                <tr>
+                    <td class=""><a (click)="applyBulkDocumentAction(DELETE)">trek document in</a></td>
+                    <td class="">maak het document onbeschikbaar voor de gebruikers (status published -> unpublished)</td>
+                </tr>
+                <tr>
+                    <td class="" (click)="applyBulkDocumentAction(REPROCESS)"><a>verwerk opnieuw</a></td>
+                    <td class="">verwerk het document opnieuw in de DCN keten, bijvoorbeeld na aanpassing mapping</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<connection-error *ngIf="errorMsg" [message]="errorMsg"></connection-error>
+<router-outlet></router-outlet>

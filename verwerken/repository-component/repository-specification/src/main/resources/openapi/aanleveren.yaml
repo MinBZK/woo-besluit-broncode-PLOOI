@@ -1,0 +1,99 @@
+paths:
+
+  aanleveren_sourceLabel_extId:
+    get:
+      operationId: getDocument
+      description: |
+        Operatie voor het opvragen van een document aan de hand van het sourceLabel en de externe identifier(s).
+        Deze redirect naar de publicatie.yaml#getLabels operatie.
+      tags:
+        - Afgeschermd
+      parameters:
+        - name: sourceLabel
+          description: |
+            Identificatie van de aanleverende bron.
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: extId
+          description: |
+            Identificatie van het geleverde document in de context van de aanleverende bron. Deze kan uit meerdere
+            delen bestaan, waarbij de set van identificaties uniek moet zijn binnen de bron.
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        default:
+          content:
+            application/json:
+              schema:
+                type: string
+    post:
+      operationId: postVersion
+      description: |
+        Operatie voor het opslaan van een document aan de hand van het sourceLabel en de externe identifier(s).
+        Een document wordt gevormd door een of meerdere invoerbestanden, die elk geidentificeerd worden door een
+        "label" attribuut. Deze bestanden kunnen initieel in een (multipart) request aangeleverd worden, of ze kunnen
+        via meerdere requests aangeleverd worden. Bij wijzigingen (volgende aanleveringen) resulteert elke aanroep
+        van deze operatie in een nieuwe versie.
+      tags:
+        - Afgeschermd
+      parameters:
+        - name: sourceLabel
+          description: |
+            Identificatie van de aanleverende bron.
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: extId
+          description: |
+            Identificatie van het geleverde document in de context van de aanleverende bron. Deze kan uit meerdere
+            delen bestaan, waarbij de set van identificaties uniek moet zijn binnen de bron.
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: |
+          Multi parts, waarbij het eerste part altijd versie metadata bevat en volgende parts de geleverde bestanden.
+          De versie metadata heeft geen verplichte velden en mag dus altijd leeg zijn, echter:
+          - Als er geen `oorzaak` ingevuld is, dan is de levering een `aanlevering` (als het document nog niet bestaat
+            in de repository) of `wijziging`.
+          - Een vervolg levering mag als `oorzaak` `aanlevering` hebben. Echter dan moet de laatste versie ook een
+            `aanlevering` zijn en mag er nog geen verwerkte PLOOI metadata opgeslagen zijn in de repository.
+            Op deze manier kan een aanlevering in delen plaatsvinden. Als voor een al bestaand label opnieuw een
+            bestand aangeleverd wordt, dan wordt de oude overschreven. Oude versies worden hierbij dus niet bewaard
+            (in tegenstelling tot wijzigingen).
+          - Bij aanleveringen en wijzigingen zijn een of meer parts verplicht. Deze mogen expliciet als `bestanden` in
+            de versie metadata opgenomen worden (eventueel inclusief bestand metadata), maar dat hoeft niet.
+            Bij intrekkingen en herpublicaties mogen geen parts geleverd worden.
+          - Bij een herpublicatie kan een `nummer` meegegeven worden. Als het document niet ingetrokken is dan is dit
+            ook verplicht. Als het document wel ingetrokken is dan worden bij afwezigheid van het versienummer de meest
+            recente bestanden geherpubliceerd.
+          - Alle versies, behalve een aanlevering, worden geacht een `redenVerwijderingVervanging` te hebben. Dit wordt
+            echter niet gevalideerd.
+          - De attributen `openbaarmakingsdatum`, `wijzigingsdatum` en `mutatiedatumtijd` worden bij ontvangst ingevuld
+            en worden genegeerd in de geleverde versie metadata.
+        content:
+          multipart/form-data:
+            schema:
+              type: array
+              items:
+                type: string
+                format: binary
+      responses:
+        default:
+          description: Het aangepast manifest
+          content:
+            application/json:
+              schema:
+                $ref: 'plooi.yaml#/components/schemas/plooi'
+        400:
+          description: De aangeleverde gegevens zjin niet geldig
+        404:
+          description: De te wijzigen document bestaat niet
+        500:
+          description: Er is een interne fout opgetreden

@@ -1,0 +1,55 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/ronl-archief-0eefeed1eed89be33ada6d355491da6345fec636",
+    "creatiedatum" : "2011-06-21",
+    "geldigheid" : {
+      "begindatum" : "2011-06-21"
+    },
+    "verantwoordelijke" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1045",
+      "label" : "ministerie van Economische Zaken en Klimaat"
+    },
+    "publisher" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1010",
+      "label" : "ministerie van Algemene Zaken"
+    },
+    "opsteller" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/hv_17252319",
+      "label" : "ministerie van Economische Zaken, Landbouw en Innovatie"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "titelcollectie" : {
+      "officieleTitel" : "Kamerbrief gebruiksnorm brouwgerst"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "type" : "overheid:Informatietype",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_056a75e1",
+        "label" : "Kamerstuk"
+      } ],
+      "themas" : [ {
+        "type" : "plooi:Topthema",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_db2fbedb",
+        "label" : "natuur- en landschapsbeheer",
+        "bronwaarde" : "Landbouw en tuinbouw"
+      }, {
+        "type" : "plooi:Topthema",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_61d3e636",
+        "label" : "stoffen",
+        "bronwaarde" : "Mest"
+      } ]
+    }
+  },
+  "plooiIntern" : {
+    "dcnId" : "ronl-archief-0eefeed1eed89be33ada6d355491da6345fec636",
+    "aanbieder" : "Rijksoverheid.nl",
+    "extId" : [ "plooicb-2011-15112" ],
+    "sourceLabel" : "ronl-archief"
+  }
+}

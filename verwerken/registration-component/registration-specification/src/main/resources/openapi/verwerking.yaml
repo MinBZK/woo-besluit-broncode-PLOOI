@@ -1,0 +1,143 @@
+paths:
+
+  /verwerkingen/{id}:
+    get:
+      description: |
+        Geeft verwerking details, inclusief eventuele diagnoses en exceptie.
+      tags:
+        - verwerking
+      operationId: getVerwerking
+      parameters:
+        - name: id
+          in: path
+          description: verwerking identificatie
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: de gevonden verwerking
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Verwerking'
+        404:
+          description: verwerking identificatie is onbekend
+
+  /verwerkingen:
+    get:
+      description: |
+        Geeft verwerking voor een specifieke dcnId, per pagina (pagina nummer, size, content).
+      tags:
+        - verwerking
+      operationId: getVerwerkingen
+      parameters:
+        - name: dcnId
+          in: query
+          required: true
+          schema:
+            type: string
+        - $ref: "base.yaml#/components/parameters/pageNumber"
+        - $ref: "base.yaml#/components/parameters/pageSize"
+      responses:
+        200:
+          $ref: './registratieApi.yaml#/components/responses/found'
+
+  /verwerkingen/status:
+    description: |
+      Geeft laatste verwerking status terug voor specifieke dcnId.
+    get:
+      tags:
+        - verwerking
+      operationId: getVerwerkingStatus
+      parameters:
+        - name: dcnId
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VerwerkingStatus'
+
+  /verwerkingen/bron/{bron}:
+    get:
+      description: geeft een lijst van dcnId's per bron.
+      tags:
+        - verwerking
+      operationId: getDcnIdsByBron
+      deprecated: true
+      parameters:
+        - name: bron
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+
+components:
+  schemas:
+
+    Verwerking:
+      type: object
+      properties:
+        id:
+          type: string
+        procesId:
+          type: string
+        dcnId:
+          type: string
+        sourceLabel:
+          type: string
+        extIds:
+          type: array
+          items:
+            type: string
+        stage:
+          required: true
+          type: string
+        severity:
+          $ref: 'severity.yaml#/components/schemas/Severity'
+        timeCreated:
+          type: string
+          format: date-time
+        diagnoses:
+          type: array
+          items:
+            $ref: 'diagnose.yaml#/components/schemas/Diagnose'
+        exceptie:
+          $ref: 'exceptie.yaml#/components/schemas/Exceptie'
+
+    VerwerkingStatus:
+      type: object
+      properties:
+        dcnId:
+          type: string
+        sourceLabel:
+          type: string
+        extId:
+          type: string
+        lastSeverity:
+          type: string
+        lastStage:
+          type: string
+        lastProcesId:
+          type: string
+        timeCreated:
+          type: string
+          format: date-time
+        timeUpdated:
+          type: string
+          format: date-time

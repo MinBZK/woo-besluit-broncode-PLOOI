@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sru:searchRetrieveResponse xmlns:overheidwetgeving="http://standaarden.overheid.nl/wetgeving/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:cd="http://standaarden.overheid.nl/cup/data"
+    xmlns:sru="http://docs.oasis-open.org/ns/search-ws/sruResponse" xmlns:gzd="http://standaarden.overheid.nl/sru" xmlns:diag="http://docs.oasis-open.org/ns/search-ws/diagnostic" xmlns:facet="http://docs.oasis-open.org/ns/search-ws/facetedResults"
+    xmlns:c="http://standaarden.overheid.nl/collectie/">
+    <sru:version>2.0</sru:version>
+    <sru:numberOfRecords>76</sru:numberOfRecords>
+    <sru:records>
+        <sru:record>
+            <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+            <sru:recordPacking>xml</sru:recordPacking>
+            <sru:recordData>
+                <gzd:gzd>
+                    <gzd:originalData>
+                        <overheidwetgeving:meta>
+                            <overheidwetgeving:owmskern>
+                                <dcterms:identifier>blg-998035</dcterms:identifier>
+                                <dcterms:title>Reacties stakeholders op rapporten van Stec Groep en Brink</dcterms:title>
+                                <dcterms:language>nl</dcterms:language>
+                                <dcterms:type scheme="OVERHEIDop.Parlementair">Bijlage</dcterms:type>
+                                <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+                                <dcterms:modified>2021-10-13</dcterms:modified>
+                            </overheidwetgeving:owmskern>
+                            <overheidwetgeving:owmsmantel>
+                                <dcterms:available>2021-09-28</dcterms:available>
+                                <dcterms:date>2021-09-28</dcterms:date>
+                                <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/blg-998035.html">1</dcterms:hasVersion>
+                            </overheidwetgeving:owmsmantel>
+                            <overheidwetgeving:tpmeta>
+                                <c:product-area>officielepublicaties</c:product-area>
+                                <c:content-area>officielepublicaties/blg/onopgemaakt</c:content-area>
+                                <overheidwetgeving:documentstatus>Onopgemaakt</overheidwetgeving:documentstatus>
+                                <overheidwetgeving:hoofddocument>kst-27926-347</overheidwetgeving:hoofddocument>
+                                <overheidwetgeving:ondernummer>347</overheidwetgeving:ondernummer>
+                                <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                                <overheidwetgeving:publicatienaam>Kamerstuk</overheidwetgeving:publicatienaam>
+                                <overheidwetgeving:vergaderjaar>2021-2022</overheidwetgeving:vergaderjaar>
+                                <overheidwetgeving:dossiernummer>27926</overheidwetgeving:dossiernummer>
+                                <cd:datumTijdstipWijzigingWork>2021-10-13T14:34:49.3152212+02:00</cd:datumTijdstipWijzigingWork>
+                                <cd:datumTijdstipWijzigingExpression>2021-10-13T14:34:49.3152212+02:00</cd:datumTijdstipWijzigingExpression>
+                            </overheidwetgeving:tpmeta>
+                        </overheidwetgeving:meta>
+                    </gzd:originalData>
+                    <gzd:enrichedData>
+                        <gzd:url>https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-998035/1/pdf/blg-998035.pdf</gzd:url>
+                        <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/blg-998035.html</gzd:preferredUrl>
+                        <gzd:itemUrl manifestation="metadata">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-998035/1/metadata/metadata.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadataowms">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-998035/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="pdf">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-998035/1/pdf/blg-998035.pdf</gzd:itemUrl>
+                        <gzd:timestamp>2021-10-13T14:35:42.552155+02:00</gzd:timestamp>
+                    </gzd:enrichedData>
+                </gzd:gzd>
+            </sru:recordData>
+            <sru:recordPosition>1</sru:recordPosition>
+        </sru:record>
+        <sru:record>
+            <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+            <sru:recordPacking>xml</sru:recordPacking>
+            <sru:recordData>
+                <gzd:gzd>
+                    <gzd:originalData>
+                        <overheidwetgeving:meta>
+                            <overheidwetgeving:owmskern>
+                                <dcterms:identifier>h-ek-20212022-2-7</dcterms:identifier>
+                                <dcterms:title>Stemming Initiatiefwetsvoorstel-Snels/Sneller Wet open overheid</dcterms:title>
+                                <dcterms:language>nl</dcterms:language>
+                                <dcterms:type scheme="OVERHEIDop.Parlementair">Handeling</dcterms:type>
+                                <dcterms:creator scheme="OVERHEID.StatenGeneraal">Eerste Kamer der Staten-Generaal</dcterms:creator>
+                                <dcterms:modified>2021-10-13</dcterms:modified>
+                            </overheidwetgeving:owmskern>
+                            <overheidwetgeving:owmsmantel>
+                                <dcterms:available>2021-10-13</dcterms:available>
+                                <dcterms:date>2021-10-05</dcterms:date>
+                                <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/h-ek-20212022-2-7.html">1</dcterms:hasVersion>
+                                <dcterms:issued>2021-10-05</dcterms:issued>
+                                <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Bestuur | Parlement</dcterms:subject>
+                            </overheidwetgeving:owmsmantel>
+                            <overheidwetgeving:tpmeta>
+                                <c:product-area>officielepublicaties</c:product-area>
+                                <c:content-area>officielepublicaties/h-ek/20212022</c:content-area>
+                                <overheidwetgeving:behandeldDossier>33328</overheidwetgeving:behandeldDossier>
+                                <overheidwetgeving:datumVergadering>2021-10-05</overheidwetgeving:datumVergadering>
+                                <overheidwetgeving:documentstatus>Opgemaakt</overheidwetgeving:documentstatus>
+                                <overheidwetgeving:handelingenitemnummer>7</overheidwetgeving:handelingenitemnummer>
+                                <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                                <overheidwetgeving:publicatienummer>2</overheidwetgeving:publicatienummer>
+                                <overheidwetgeving:publicatienaam>Handelingen</overheidwetgeving:publicatienaam>
+                                <overheidwetgeving:vergaderjaar>2021-2022</overheidwetgeving:vergaderjaar>
+                                <overheidwetgeving:subrubriek scheme="OVERHEIDop.HandelingTypen">Stemmingen</overheidwetgeving:subrubriek>
+                                <cd:datumTijdstipWijzigingWork>2021-10-13T17:48:10.6061492+02:00</cd:datumTijdstipWijzigingWork>
+                                <cd:datumTijdstipWijzigingExpression>2021-10-13T17:48:10.6061492+02:00</cd:datumTijdstipWijzigingExpression>
+                            </overheidwetgeving:tpmeta>
+                        </overheidwetgeving:meta>
+                    </gzd:originalData>
+                    <gzd:enrichedData>
+                        <gzd:url>https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20212022/h-ek-20212022-2-7/1/xml/h-ek-20212022-2-7.xml</gzd:url>
+                        <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/h-ek-20212022-2-7.html</gzd:preferredUrl>
+                        <gzd:itemUrl manifestation="html">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20212022/h-ek-20212022-2-7/1/html/h-ek-20212022-2-7.html</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadata">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20212022/h-ek-20212022-2-7/1/metadata/metadata.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadataowms">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20212022/h-ek-20212022-2-7/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="odt">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20212022/h-ek-20212022-2-7/1/odt/h-ek-20212022-2-7.odt</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="pdf">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20212022/h-ek-20212022-2-7/1/pdf/h-ek-20212022-2-7.pdf</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="xml">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20212022/h-ek-20212022-2-7/1/xml/h-ek-20212022-2-7.xml</gzd:itemUrl>
+                        <gzd:timestamp>2021-10-13T17:48:17.108124+02:00</gzd:timestamp>
+                    </gzd:enrichedData>
+                </gzd:gzd>
+            </sru:recordData>
+            <sru:recordPosition>2</sru:recordPosition>
+        </sru:record>
+        <sru:record>
+            <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+            <sru:recordPacking>xml</sru:recordPacking>
+            <sru:recordData>
+                <gzd:gzd>
+                    <gzd:originalData>
+                        <overheidwetgeving:meta>
+                            <overheidwetgeving:owmskern>
+                                <dcterms:identifier>h-tk-20202021-101-5</dcterms:identifier>
+                                <dcterms:title>Stemming motie Meest recente situatie in Afghanistan</dcterms:title>
+                                <dcterms:language>nl</dcterms:language>
+                                <dcterms:type scheme="OVERHEIDop.Parlementair">Handeling</dcterms:type>
+                                <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+                                <dcterms:modified>2021-10-13</dcterms:modified>
+                            </overheidwetgeving:owmskern>
+                            <overheidwetgeving:owmsmantel>
+                                <dcterms:available>2021-10-13</dcterms:available>
+                                <dcterms:date>2021-08-18</dcterms:date>
+                                <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/h-tk-20202021-101-5.html">1</dcterms:hasVersion>
+                                <dcterms:issued>2021-08-18</dcterms:issued>
+                                <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Bestuur | Parlement</dcterms:subject>
+                                <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Internationaal | Defensie</dcterms:subject>
+                                <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Internationaal | Militaire missies</dcterms:subject>
+                            </overheidwetgeving:owmsmantel>
+                            <overheidwetgeving:tpmeta>
+                                <c:product-area>officielepublicaties</c:product-area>
+                                <c:content-area>officielepublicaties/h-tk/20202021</c:content-area>
+                                <overheidwetgeving:behandeldDossier>27925;788</overheidwetgeving:behandeldDossier>
+                                <overheidwetgeving:datumVergadering>2021-08-18</overheidwetgeving:datumVergadering>
+                                <overheidwetgeving:documentstatus>Opgemaakt</overheidwetgeving:documentstatus>
+                                <overheidwetgeving:handelingenitemnummer>5</overheidwetgeving:handelingenitemnummer>
+                                <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                                <overheidwetgeving:publicatienummer>101</overheidwetgeving:publicatienummer>
+                                <overheidwetgeving:publicatienaam>Handelingen</overheidwetgeving:publicatienaam>
+                                <overheidwetgeving:vergaderjaar>2020-2021</overheidwetgeving:vergaderjaar>
+                                <overheidwetgeving:subrubriek scheme="OVERHEIDop.HandelingTypen">Stemmingen</overheidwetgeving:subrubriek>
+                                <cd:datumTijdstipWijzigingWork>2021-10-13T17:01:47.7103113+02:00</cd:datumTijdstipWijzigingWork>
+                                <cd:datumTijdstipWijzigingExpression>2021-10-13T17:01:47.7103113+02:00</cd:datumTijdstipWijzigingExpression>
+                            </overheidwetgeving:tpmeta>
+                        </overheidwetgeving:meta>
+                    </gzd:originalData>
+                    <gzd:enrichedData>
+                        <gzd:url>https://repository.overheid.nl/frbr/officielepublicaties/h-tk/20202021/h-tk-20202021-101-5/1/xml/h-tk-20202021-101-5.xml</gzd:url>
+                        <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/h-tk-20202021-101-5.html</gzd:preferredUrl>
+                        <gzd:itemUrl manifestation="html">https://repository.overheid.nl/frbr/officielepublicaties/h-tk/20202021/h-tk-20202021-101-5/1/html/h-tk-20202021-101-5.html</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadata">https://repository.overheid.nl/frbr/officielepublicaties/h-tk/20202021/h-tk-20202021-101-5/1/metadata/metadata.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadataowms">https://repository.overheid.nl/frbr/officielepublicaties/h-tk/20202021/h-tk-20202021-101-5/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="odt">https://repository.overheid.nl/frbr/officielepublicaties/h-tk/20202021/h-tk-20202021-101-5/1/odt/h-tk-20202021-101-5.odt</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="pdf">https://repository.overheid.nl/frbr/officielepublicaties/h-tk/20202021/h-tk-20202021-101-5/1/pdf/h-tk-20202021-101-5.pdf</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="xml">https://repository.overheid.nl/frbr/officielepublicaties/h-tk/20202021/h-tk-20202021-101-5/1/xml/h-tk-20202021-101-5.xml</gzd:itemUrl>
+                        <gzd:timestamp>2021-10-13T17:01:58.686716+02:00</gzd:timestamp>
+                    </gzd:enrichedData>
+                </gzd:gzd>
+            </sru:recordData>
+            <sru:recordPosition>3</sru:recordPosition>
+        </sru:record>
+        <sru:record>
+            <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+            <sru:recordPacking>xml</sru:recordPacking>
+            <sru:recordData>
+                <gzd:gzd>
+                    <gzd:originalData>
+                        <overheidwetgeving:meta>
+                            <overheidwetgeving:owmskern>
+                                <dcterms:identifier>blg-1000226</dcterms:identifier>
+                                <dcterms:title>GU Inzet van biobrandstoffen uit voedsel en voedergewassen Eindrapport</dcterms:title>
+                                <dcterms:language>nl</dcterms:language>
+                                <dcterms:type scheme="OVERHEIDop.Parlementair">Bijlage</dcterms:type>
+                                <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+                                <dcterms:modified>2021-10-13</dcterms:modified>
+                            </overheidwetgeving:owmskern>
+                            <overheidwetgeving:owmsmantel>
+                                <dcterms:available>2021-10-13</dcterms:available>
+                                <dcterms:date>2021-10-13</dcterms:date>
+                                <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/blg-1000226.html">1</dcterms:hasVersion>
+                            </overheidwetgeving:owmsmantel>
+                            <overheidwetgeving:tpmeta>
+                                <c:product-area>officielepublicaties</c:product-area>
+                                <c:content-area>officielepublicaties/blg/onopgemaakt</c:content-area>
+                                <overheidwetgeving:documentstatus>Onopgemaakt</overheidwetgeving:documentstatus>
+                                <overheidwetgeving:ondernummer>864</overheidwetgeving:ondernummer>
+                                <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                                <overheidwetgeving:publicatienaam>Kamerstuk</overheidwetgeving:publicatienaam>
+                                <overheidwetgeving:vergaderjaar>2021-2022</overheidwetgeving:vergaderjaar>
+                                <overheidwetgeving:dossiernummer>32813</overheidwetgeving:dossiernummer>
+                                <cd:datumTijdstipWijzigingWork>2021-10-13T16:41:41.5956076+02:00</cd:datumTijdstipWijzigingWork>
+                                <cd:datumTijdstipWijzigingExpression>2021-10-13T16:41:41.5956076+02:00</cd:datumTijdstipWijzigingExpression>
+                            </overheidwetgeving:tpmeta>
+                        </overheidwetgeving:meta>
+                    </gzd:originalData>
+                    <gzd:enrichedData>
+                        <gzd:url>https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-1000226/1/pdf/blg-1000226.pdf</gzd:url>
+                        <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/blg-1000226.html</gzd:preferredUrl>
+                        <gzd:itemUrl manifestation="metadata">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-1000226/1/metadata/metadata.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadataowms">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-1000226/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="pdf">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-1000226/1/pdf/blg-1000226.pdf</gzd:itemUrl>
+                        <gzd:timestamp>2021-10-13T16:41:47.75463+02:00</gzd:timestamp>
+                    </gzd:enrichedData>
+                </gzd:gzd>
+            </sru:recordData>
+            <sru:recordPosition>4</sru:recordPosition>
+        </sru:record>
+        <sru:record>
+            <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+            <sru:recordPacking>xml</sru:recordPacking>
+            <sru:recordData>
+                <gzd:gzd>
+                    <gzd:originalData>
+                        <overheidwetgeving:meta>
+                            <overheidwetgeving:owmskern>
+                                <dcterms:identifier>blg-998029</dcterms:identifier>
+                                <dcterms:title>Overzicht 'Wie wonen in de middenhuur?'</dcterms:title>
+                                <dcterms:language>nl</dcterms:language>
+                                <dcterms:type scheme="OVERHEIDop.Parlementair">Bijlage</dcterms:type>
+                                <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+                                <dcterms:modified>2021-10-13</dcterms:modified>
+                            </overheidwetgeving:owmskern>
+                            <overheidwetgeving:owmsmantel>
+                                <dcterms:available>2021-09-28</dcterms:available>
+                                <dcterms:date>2021-09-28</dcterms:date>
+                                <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/blg-998029.html">1</dcterms:hasVersion>
+                            </overheidwetgeving:owmsmantel>
+                            <overheidwetgeving:tpmeta>
+                                <c:product-area>officielepublicaties</c:product-area>
+                                <c:content-area>officielepublicaties/blg/onopgemaakt</c:content-area>
+                                <overheidwetgeving:documentstatus>Onopgemaakt</overheidwetgeving:documentstatus>
+                                <overheidwetgeving:hoofddocument>kst-27926-347</overheidwetgeving:hoofddocument>
+                                <overheidwetgeving:ondernummer>347</overheidwetgeving:ondernummer>
+                                <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                                <overheidwetgeving:publicatienaam>Kamerstuk</overheidwetgeving:publicatienaam>
+                                <overheidwetgeving:vergaderjaar>2021-2022</overheidwetgeving:vergaderjaar>
+                                <overheidwetgeving:dossiernummer>27926</overheidwetgeving:dossiernummer>
+                                <cd:datumTijdstipWijzigingWork>2021-10-13T14:35:00.5521571+02:00</cd:datumTijdstipWijzigingWork>
+                                <cd:datumTijdstipWijzigingExpression>2021-10-13T14:35:00.5521571+02:00</cd:datumTijdstipWijzigingExpression>
+                            </overheidwetgeving:tpmeta>
+                        </overheidwetgeving:meta>
+                    </gzd:originalData>
+                    <gzd:enrichedData>
+                        <gzd:url>https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-998029/1/pdf/blg-998029.pdf</gzd:url>
+                        <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/blg-998029.html</gzd:preferredUrl>
+                        <gzd:itemUrl manifestation="metadata">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-998029/1/metadata/metadata.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadataowms">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-998029/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="pdf">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-998029/1/pdf/blg-998029.pdf</gzd:itemUrl>
+                        <gzd:timestamp>2021-10-13T14:35:07.135599+02:00</gzd:timestamp>
+                    </gzd:enrichedData>
+                </gzd:gzd>
+            </sru:recordData>
+            <sru:recordPosition>5</sru:recordPosition>
+        </sru:record>
+        <sru:record>
+            <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+            <sru:recordPacking>xml</sru:recordPacking>
+            <sru:recordData>
+                <gzd:gzd>
+                    <gzd:originalData>
+                        <overheidwetgeving:meta>
+                            <overheidwetgeving:owmskern>
+                                <dcterms:identifier>kst-22112-3185</dcterms:identifier>
+                                <dcterms:title>Nieuwe Commissievoorstellen en initiatieven van de lidstaten van de Europese Unie; Brief regering; Fiche: Herziening Richtlijn hernieuwbare energie</dcterms:title>
+                                <dcterms:language>nl</dcterms:language>
+                                <dcterms:type scheme="OVERHEIDop.Parlementair">Kamerstuk</dcterms:type>
+                                <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+                                <dcterms:modified>2021-10-13</dcterms:modified>
+                            </overheidwetgeving:owmskern>
+                            <overheidwetgeving:owmsmantel>
+                                <dcterms:available>2021-09-27</dcterms:available>
+                                <dcterms:date>2021-09-17</dcterms:date>
+                                <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/kst-22112-3185.html">1</dcterms:hasVersion>
+                                <dcterms:issued>2021-09-17</dcterms:issued>
+                                <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Internationaal | Europese zaken</dcterms:subject>
+                            </overheidwetgeving:owmsmantel>
+                            <overheidwetgeving:tpmeta>
+                                <c:product-area>officielepublicaties</c:product-area>
+                                <c:content-area>officielepublicaties/kst/22112</c:content-area>
+                                <overheidwetgeving:documentstatus>Opgemaakt na onopgemaakt</overheidwetgeving:documentstatus>
+                                <overheidwetgeving:documenttitel>Fiche: Herziening Richtlijn hernieuwbare energie</overheidwetgeving:documenttitel>
+                                <overheidwetgeving:dossiertitel>Nieuwe Commissievoorstellen en initiatieven van de lidstaten van de Europese Unie</overheidwetgeving:dossiertitel>
+                                <overheidwetgeving:indiener>Th.J.A.M. de Bruijn</overheidwetgeving:indiener>
+                                <overheidwetgeving:ondernummer>3185</overheidwetgeving:ondernummer>
+                                <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                                <overheidwetgeving:publicatienaam>Kamerstuk</overheidwetgeving:publicatienaam>
+                                <overheidwetgeving:vergaderjaar>2020-2021</overheidwetgeving:vergaderjaar>
+                                <overheidwetgeving:dossiernummer>22112</overheidwetgeving:dossiernummer>
+                                <overheidwetgeving:subrubriek scheme="OVERHEIDop.KamerstukTypen">Brief</overheidwetgeving:subrubriek>
+                                <cd:datumTijdstipWijzigingWork>2021-10-13T14:29:20.5575228+02:00</cd:datumTijdstipWijzigingWork>
+                                <cd:datumTijdstipWijzigingExpression>2021-10-13T14:29:20.5575228+02:00</cd:datumTijdstipWijzigingExpression>
+                            </overheidwetgeving:tpmeta>
+                        </overheidwetgeving:meta>
+                    </gzd:originalData>
+                    <gzd:enrichedData>
+                        <gzd:url>https://repository.overheid.nl/frbr/officielepublicaties/kst/22112/kst-22112-3185/1/xml/kst-22112-3185.xml</gzd:url>
+                        <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/kst-22112-3185.html</gzd:preferredUrl>
+                        <gzd:itemUrl manifestation="html">https://repository.overheid.nl/frbr/officielepublicaties/kst/22112/kst-22112-3185/1/html/kst-22112-3185.html</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadata">https://repository.overheid.nl/frbr/officielepublicaties/kst/22112/kst-22112-3185/1/metadata/metadata.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadataowms">https://repository.overheid.nl/frbr/officielepublicaties/kst/22112/kst-22112-3185/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="odt">https://repository.overheid.nl/frbr/officielepublicaties/kst/22112/kst-22112-3185/1/odt/kst-22112-3185.odt</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="pdf">https://repository.overheid.nl/frbr/officielepublicaties/kst/22112/kst-22112-3185/1/pdf/kst-22112-3185.pdf</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="xml">https://repository.overheid.nl/frbr/officielepublicaties/kst/22112/kst-22112-3185/1/xml/kst-22112-3185.xml</gzd:itemUrl>
+                        <gzd:timestamp>2021-10-13T14:30:16.366356+02:00</gzd:timestamp>
+                    </gzd:enrichedData>
+                </gzd:gzd>
+            </sru:recordData>
+            <sru:recordPosition>6</sru:recordPosition>
+        </sru:record>
+        <sru:record>
+            <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+            <sru:recordPacking>xml</sru:recordPacking>
+            <sru:recordData>
+                <gzd:gzd>
+                    <gzd:originalData>
+                        <overheidwetgeving:meta>
+                            <overheidwetgeving:owmskern>
+                                <dcterms:identifier>blg-999984</dcterms:identifier>
+                                <dcterms:title>Advies RSJ</dcterms:title>
+                                <dcterms:language>nl</dcterms:language>
+                                <dcterms:type scheme="OVERHEIDop.Parlementair">Bijlage</dcterms:type>
+                                <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+                                <dcterms:modified>2021-10-13</dcterms:modified>
+                            </overheidwetgeving:owmskern>
+                            <overheidwetgeving:owmsmantel>
+                                <dcterms:available>2021-10-12</dcterms:available>
+                                <dcterms:date>2021-10-12</dcterms:date>
+                                <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/blg-999984.html">1</dcterms:hasVersion>
+                            </overheidwetgeving:owmsmantel>
+                            <overheidwetgeving:tpmeta>
+                                <c:product-area>officielepublicaties</c:product-area>
+                                <c:content-area>officielepublicaties/blg/onopgemaakt</c:content-area>
+                                <overheidwetgeving:documentstatus>Onopgemaakt</overheidwetgeving:documentstatus>
+                                <overheidwetgeving:hoofddocument>kst-35936-3</overheidwetgeving:hoofddocument>
+                                <overheidwetgeving:ondernummer>3</overheidwetgeving:ondernummer>
+                                <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                                <overheidwetgeving:publicatienaam>Kamerstuk</overheidwetgeving:publicatienaam>
+                                <overheidwetgeving:vergaderjaar>2021-2022</overheidwetgeving:vergaderjaar>
+                                <overheidwetgeving:dossiernummer>35936</overheidwetgeving:dossiernummer>
+                                <cd:datumTijdstipWijzigingWork>2021-10-13T14:34:59.3489065+02:00</cd:datumTijdstipWijzigingWork>
+                                <cd:datumTijdstipWijzigingExpression>2021-10-13T14:34:59.3489065+02:00</cd:datumTijdstipWijzigingExpression>
+                            </overheidwetgeving:tpmeta>
+                        </overheidwetgeving:meta>
+                    </gzd:originalData>
+                    <gzd:enrichedData>
+                        <gzd:url>https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-999984/1/pdf/blg-999984.pdf</gzd:url>
+                        <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/blg-999984.html</gzd:preferredUrl>
+                        <gzd:itemUrl manifestation="metadata">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-999984/1/metadata/metadata.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadataowms">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-999984/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="pdf">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-999984/1/pdf/blg-999984.pdf</gzd:itemUrl>
+                        <gzd:timestamp>2021-10-13T14:35:12.55408+02:00</gzd:timestamp>
+                    </gzd:enrichedData>
+                </gzd:gzd>
+            </sru:recordData>
+            <sru:recordPosition>7</sru:recordPosition>
+        </sru:record>
+        <sru:record>
+            <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+            <sru:recordPacking>xml</sru:recordPacking>
+            <sru:recordData>
+                <gzd:gzd>
+                    <gzd:originalData>
+                        <overheidwetgeving:meta>
+                            <overheidwetgeving:owmskern>
+                                <dcterms:identifier>blg-1000150</dcterms:identifier>
+                                <dcterms:title>Subsidieregeling Stichting COELO</dcterms:title>
+                                <dcterms:language>nl</dcterms:language>
+                                <dcterms:type scheme="OVERHEIDop.Parlementair">Bijlage</dcterms:type>
+                                <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+                                <dcterms:modified>2021-10-13</dcterms:modified>
+                            </overheidwetgeving:owmskern>
+                            <overheidwetgeving:owmsmantel>
+                                <dcterms:available>2021-10-13</dcterms:available>
+                                <dcterms:date>2021-10-13</dcterms:date>
+                                <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/blg-1000150.html">1</dcterms:hasVersion>
+                            </overheidwetgeving:owmsmantel>
+                            <overheidwetgeving:tpmeta>
+                                <c:product-area>officielepublicaties</c:product-area>
+                                <c:content-area>officielepublicaties/blg/onopgemaakt</c:content-area>
+                                <overheidwetgeving:documentstatus>Onopgemaakt</overheidwetgeving:documentstatus>
+                                <overheidwetgeving:ondernummer>6</overheidwetgeving:ondernummer>
+                                <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                                <overheidwetgeving:publicatienaam>Kamerstuk</overheidwetgeving:publicatienaam>
+                                <overheidwetgeving:vergaderjaar>2021-2022</overheidwetgeving:vergaderjaar>
+                                <overheidwetgeving:dossiernummer>35925-VII</overheidwetgeving:dossiernummer>
+                                <cd:datumTijdstipWijzigingWork>2021-10-13T14:29:30.1990725+02:00</cd:datumTijdstipWijzigingWork>
+                                <cd:datumTijdstipWijzigingExpression>2021-10-13T14:29:30.1990725+02:00</cd:datumTijdstipWijzigingExpression>
+                            </overheidwetgeving:tpmeta>
+                        </overheidwetgeving:meta>
+                    </gzd:originalData>
+                    <gzd:enrichedData>
+                        <gzd:url>https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-1000150/1/pdf/blg-1000150.pdf</gzd:url>
+                        <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/blg-1000150.html</gzd:preferredUrl>
+                        <gzd:itemUrl manifestation="metadata">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-1000150/1/metadata/metadata.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadataowms">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-1000150/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="pdf">https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-1000150/1/pdf/blg-1000150.pdf</gzd:itemUrl>
+                        <gzd:timestamp>2021-10-13T14:31:05.413867+02:00</gzd:timestamp>
+                    </gzd:enrichedData>
+                </gzd:gzd>
+            </sru:recordData>
+            <sru:recordPosition>8</sru:recordPosition>
+        </sru:record>
+        <sru:record>
+            <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+            <sru:recordPacking>xml</sru:recordPacking>
+            <sru:recordData>
+                <gzd:gzd>
+                    <gzd:originalData>
+                        <overheidwetgeving:meta>
+                            <overheidwetgeving:owmskern>
+                                <dcterms:identifier>h-tk-20202021-100-4</dcterms:identifier>
+                                <dcterms:title>Stemming motie Ontwikkelingen rondom het coronavirus d.d. 24 juni 2021</dcterms:title>
+                                <dcterms:language>nl</dcterms:language>
+                                <dcterms:type scheme="OVERHEIDop.Parlementair">Handeling</dcterms:type>
+                                <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+                                <dcterms:modified>2021-10-13</dcterms:modified>
+                            </overheidwetgeving:owmskern>
+                            <overheidwetgeving:owmsmantel>
+                                <dcterms:available>2021-10-13</dcterms:available>
+                                <dcterms:date>2021-07-14</dcterms:date>
+                                <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/h-tk-20202021-100-4.html">1</dcterms:hasVersion>
+                                <dcterms:issued>2021-07-14</dcterms:issued>
+                                <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Bestuur | Parlement</dcterms:subject>
+                                <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Zorg en gezondheid | Organisatie en beleid</dcterms:subject>
+                                <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Zorg en gezondheid | Gezondheidsrisico's</dcterms:subject>
+                            </overheidwetgeving:owmsmantel>
+                            <overheidwetgeving:tpmeta>
+                                <c:product-area>officielepublicaties</c:product-area>
+                                <c:content-area>officielepublicaties/h-tk/20202021</c:content-area>
+                                <overheidwetgeving:behandeldDossier>25295;1302</overheidwetgeving:behandeldDossier>
+                                <overheidwetgeving:behandeldDossier>25295;1382</overheidwetgeving:behandeldDossier>
+                                <overheidwetgeving:datumVergadering>2021-07-14</overheidwetgeving:datumVergadering>
+                                <overheidwetgeving:documentstatus>Opgemaakt</overheidwetgeving:documentstatus>
+                                <overheidwetgeving:handelingenitemnummer>4</overheidwetgeving:handelingenitemnummer>
+                                <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                                <overheidwetgeving:publicatienummer>100</overheidwetgeving:publicatienummer>
+                                <overheidwetgeving:publicatienaam>Handelingen</overheidwetgeving:publicatienaam>
+                                <overheidwetgeving:vergaderjaar>2020-2021</overheidwetgeving:vergaderjaar>
+                                <overheidwetgeving:subrubriek scheme="OVERHEIDop.HandelingTypen">Stemmingen</overheidwetgeving:subrubriek>
+                                <cd:datumTijdstipWijzigingWork>2021-10-13T15:02:50.4158327+02:00</cd:datumTijdstipWijzigingWork>
+                                <cd:datumTijdstipWijzigingExpression>2021-10-13T15:02:50.4158327+02:00</cd:datumTijdstipWijzigingExpression>
+                            </overheidwetgeving:tpmeta>
+                        </overheidwetgeving:meta>
+                    </gzd:originalData>
+                    <gzd:enrichedData>
+                        <gzd:url>https://repository.overheid.nl/frbr/officielepublicaties/h-tk/20202021/h-tk-20202021-100-4/1/xml/h-tk-20202021-100-4.xml</gzd:url>
+                        <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/h-tk-20202021-100-4.html</gzd:preferredUrl>
+                        <gzd:itemUrl manifestation="html">https://repository.overheid.nl/frbr/officielepublicaties/h-tk/20202021/h-tk-20202021-100-4/1/html/h-tk-20202021-100-4.html</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadata">https://repository.overheid.nl/frbr/officielepublicaties/h-tk/20202021/h-tk-20202021-100-4/1/metadata/metadata.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadataowms">https://repository.overheid.nl/frbr/officielepublicaties/h-tk/20202021/h-tk-20202021-100-4/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="odt">https://repository.overheid.nl/frbr/officielepublicaties/h-tk/20202021/h-tk-20202021-100-4/1/odt/h-tk-20202021-100-4.odt</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="pdf">https://repository.overheid.nl/frbr/officielepublicaties/h-tk/20202021/h-tk-20202021-100-4/1/pdf/h-tk-20202021-100-4.pdf</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="xml">https://repository.overheid.nl/frbr/officielepublicaties/h-tk/20202021/h-tk-20202021-100-4/1/xml/h-tk-20202021-100-4.xml</gzd:itemUrl>
+                        <gzd:timestamp>2021-10-13T15:02:53.661261+02:00</gzd:timestamp>
+                    </gzd:enrichedData>
+                </gzd:gzd>
+            </sru:recordData>
+            <sru:recordPosition>9</sru:recordPosition>
+        </sru:record>
+        <sru:record>
+            <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+            <sru:recordPacking>xml</sru:recordPacking>
+            <sru:recordData>
+                <gzd:gzd>
+                    <gzd:originalData>
+                        <overheidwetgeving:meta>
+                            <overheidwetgeving:owmskern>
+                                <dcterms:identifier>h-ek-20212022-2-1</dcterms:identifier>
+                                <dcterms:title>Presentie en opening</dcterms:title>
+                                <dcterms:language>nl</dcterms:language>
+                                <dcterms:type scheme="OVERHEIDop.Parlementair">Handeling</dcterms:type>
+                                <dcterms:creator scheme="OVERHEID.StatenGeneraal">Eerste Kamer der Staten-Generaal</dcterms:creator>
+                                <dcterms:modified>2021-10-13</dcterms:modified>
+                            </overheidwetgeving:owmskern>
+                            <overheidwetgeving:owmsmantel>
+                                <dcterms:available>2021-10-13</dcterms:available>
+                                <dcterms:date>2021-10-05</dcterms:date>
+                                <dcterms:hasVersion resourceIdentifier="https://zoek.officielebekendmakingen.nl/h-ek-20212022-2-1.html">1</dcterms:hasVersion>
+                                <dcterms:issued>2021-10-05</dcterms:issued>
+                                <dcterms:subject scheme="OVERHEID.TaxonomieBeleidsagenda">Bestuur | Parlement</dcterms:subject>
+                            </overheidwetgeving:owmsmantel>
+                            <overheidwetgeving:tpmeta>
+                                <c:product-area>officielepublicaties</c:product-area>
+                                <c:content-area>officielepublicaties/h-ek/20212022</c:content-area>
+                                <overheidwetgeving:datumVergadering>2021-10-05</overheidwetgeving:datumVergadering>
+                                <overheidwetgeving:documentstatus>Opgemaakt</overheidwetgeving:documentstatus>
+                                <overheidwetgeving:handelingenitemnummer>1</overheidwetgeving:handelingenitemnummer>
+                                <overheidwetgeving:organisatietype scheme="OVERHEID.Organisatietype">staten generaal</overheidwetgeving:organisatietype>
+                                <overheidwetgeving:publicatienummer>2</overheidwetgeving:publicatienummer>
+                                <overheidwetgeving:publicatienaam>Handelingen</overheidwetgeving:publicatienaam>
+                                <overheidwetgeving:vergaderjaar>2021-2022</overheidwetgeving:vergaderjaar>
+                                <overheidwetgeving:subrubriek scheme="OVERHEIDop.HandelingTypen">Opening</overheidwetgeving:subrubriek>
+                                <cd:datumTijdstipWijzigingWork>2021-10-13T17:48:08.8872364+02:00</cd:datumTijdstipWijzigingWork>
+                                <cd:datumTijdstipWijzigingExpression>2021-10-13T17:48:08.8872364+02:00</cd:datumTijdstipWijzigingExpression>
+                            </overheidwetgeving:tpmeta>
+                        </overheidwetgeving:meta>
+                    </gzd:originalData>
+                    <gzd:enrichedData>
+                        <gzd:url>https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20212022/h-ek-20212022-2-1/1/xml/h-ek-20212022-2-1.xml</gzd:url>
+                        <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/h-ek-20212022-2-1.html</gzd:preferredUrl>
+                        <gzd:itemUrl manifestation="html">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20212022/h-ek-20212022-2-1/1/html/h-ek-20212022-2-1.html</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadata">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20212022/h-ek-20212022-2-1/1/metadata/metadata.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="metadataowms">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20212022/h-ek-20212022-2-1/1/metadataowms/metadata_owms.xml</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="odt">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20212022/h-ek-20212022-2-1/1/odt/h-ek-20212022-2-1.odt</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="pdf">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20212022/h-ek-20212022-2-1/1/pdf/h-ek-20212022-2-1.pdf</gzd:itemUrl>
+                        <gzd:itemUrl manifestation="xml">https://repository.overheid.nl/frbr/officielepublicaties/h-ek/20212022/h-ek-20212022-2-1/1/xml/h-ek-20212022-2-1.xml</gzd:itemUrl>
+                        <gzd:timestamp>2021-10-13T17:48:12.859143+02:00</gzd:timestamp>
+                    </gzd:enrichedData>
+                </gzd:gzd>
+            </sru:recordData>
+            <sru:recordPosition>3</sru:recordPosition>
+        </sru:record>
+    </sru:records>
+    <sru:nextRecordPosition>11</sru:nextRecordPosition>
+    <sru:echoedSearchRetrieveRequest>
+        <sru:query>w.organisatietype=="staten generaal" and c.product-area=="officielepublicaties" and ( w.documentstatus=="Opgemaakt" or w.documentstatus=="Opgemaakt na onopgemaakt" or dt.type=="Bijlage" ) and dt.modified=="2021-10-13"</sru:query>
+        <sru:startRecord>1</sru:startRecord>
+        <sru:maximumRecords>10</sru:maximumRecords>
+        <sru:recordXMLEscaping>xml</sru:recordXMLEscaping>
+        <sru:recordSchema>http://standaarden.overheid.nl/sru/</sru:recordSchema>
+    </sru:echoedSearchRetrieveRequest>
+    <sru:resultCountPrecision>info:srw/vocabulary/resultCountPrecision/1/estimate</sru:resultCountPrecision>
+</sru:searchRetrieveResponse>

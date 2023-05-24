@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Search Web Services searchRetrieve Version 1.0
+    OASIS Standard
+    30 January 2013
+    Source: http://docs.oasis-open.org/search-ws/searchRetrieve/v1.0/os/schemas/
+    Copyright (c) OASIS Open 2013.  All Rights Reserved.
+-->
+
+<!--  
+Editor: Ray Denenberg, Library of Congress.  rden@loc.gov 
+***** 
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+xmlns="http://docs.oasis-open.org/ns/search-ws/xcql"
+targetNamespace="http://docs.oasis-open.org/ns/search-ws/xcql"
+elementFormDefault="qualified" 
+attributeFormDefault="unqualified">
+	<!-- 
+root element -->
+	<xs:element name="xcql" type="xcqlDefinition"/>
+	<!-- 
+	****** Major Definitions 
+-->
+	<!--
+ xcqlDefinition-->
+	<xs:complexType name="xcqlDefinition">
+		<xs:sequence>
+			<xs:element ref="prefixes" minOccurs="0"/>
+			<xs:element ref="triple"/>
+			<xs:element ref="sortKeys" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- 
+prefixesDefinition-->
+	<xs:complexType name="prefixesDefinition">
+		<xs:sequence>
+			<xs:element ref="prefix" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--
+ prefixDefinition-->
+	<xs:complexType name="prefixDefinition">
+		<xs:sequence>
+			<xs:element ref="name"/>
+			<xs:element ref="identifier"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--
+ tripleDefinition-->
+	<xs:complexType name="tripleDefinition">
+		<xs:choice>
+			<xs:element ref="searchClause"/>
+			<xs:sequence>
+				<xs:element ref="Boolean"/>
+				<xs:element ref="leftOperand"/>
+				<xs:element ref="rightOperand"/>
+			</xs:sequence>
+		</xs:choice>
+	</xs:complexType>
+	<!--  
+sortKeysDefinition -->
+	<xs:complexType name="sortKeysDefinition">
+		<xs:sequence>
+			<xs:element ref="key" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- 
+	****** Subordinate  Definitions
+ -->
+	<!--
+ BooleanPlusModifier-->
+	<xs:complexType name="BooleanPlusModifier">
+		<xs:sequence>
+			<xs:element name="value" type="BooleanValue"/>
+			<xs:element ref="modifiers" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--
+ BooleanValue-->
+	<xs:simpleType name="BooleanValue">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="and"/>
+			<xs:enumeration value="or"/>
+			<xs:enumeration value="not"/>
+			<xs:enumeration value="prox"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- 
+ keyDefinition -->
+	<xs:complexType name="keyDefinition">
+		<xs:sequence>
+			<xs:element ref="index"/>
+			<xs:element ref="modifiers"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- 
+ modifierDefinition -->
+	<xs:complexType name="modifierDefinition">
+		<xs:sequence>
+			<xs:element ref="type"/>
+			<xs:sequence minOccurs="0">
+				<xs:element ref="comparison"/>
+				<xs:element ref="value"/>
+			</xs:sequence>
+		</xs:sequence>
+	</xs:complexType>
+	<!--
+  modifiersDefinition -->
+	<xs:complexType name="modifiersDefinition">
+		<xs:sequence>
+			<xs:element ref="modifier" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- 
+operandDefinition-->
+	<xs:complexType name="operandDefinition">
+		<xs:choice>
+			<xs:element ref="searchClause"/>
+			<xs:element ref="triple"/>
+		</xs:choice>
+	</xs:complexType>
+	<!-- 
+searchClauseDefinition-->
+	<xs:complexType name="searchClauseDefinition">
+		<xs:choice>
+			<xs:element ref="term"/>
+			<xs:sequence>
+				<xs:element ref="index"/>
+				<xs:element ref="relation"/>
+				<xs:element ref="term"/>
+			</xs:sequence>
+		</xs:choice>
+	</xs:complexType>
+	<!--
+  valuePlusModifier -->
+	<xs:complexType name="valuePlusModifier">
+		<xs:sequence>
+			<xs:element ref="value"/>
+			<xs:element ref="modifiers" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- 
+*******element declarations 
+-->
+	<xs:element name="Boolean" type="BooleanPlusModifier"/>
+	<xs:element name="comparison" type="xs:string"/>
+	<xs:element name="identifier" type="xs:anyURI"/>
+	<xs:element name="index" type="xs:string"/>
+	<xs:element name="key" type="keyDefinition"/>
+	<xs:element name="leftOperand" type="operandDefinition"/>
+	<xs:element name="modifier" type="modifierDefinition"/>
+	<xs:element name="modifiers" type="modifiersDefinition"/>
+	<xs:element name="name" type="xs:string"/>
+	<xs:element name="prefix" type="prefixDefinition"/>
+	<xs:element name="prefixes" type="prefixesDefinition"/>
+	<xs:element name="relation" type="valuePlusModifier"/>
+	<xs:element name="rightOperand" type="operandDefinition"/>
+	<xs:element name="searchClause" type="searchClauseDefinition"/>
+	<xs:element name="sortKeys" type="sortKeysDefinition"/>
+	<xs:element name="term" type="xs:string"/>
+	<xs:element name="type" type="xs:string"/>
+	<xs:element name="triple" type="tripleDefinition"/>
+	<xs:element name="value" type="xs:string"/>
+	<!-- -->
+</xs:schema>

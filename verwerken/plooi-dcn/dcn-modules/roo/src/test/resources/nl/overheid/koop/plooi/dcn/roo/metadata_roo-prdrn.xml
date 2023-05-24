@@ -1,0 +1,29 @@
+<originalData>
+    <record>
+        <identifier>14557</identifier>
+        <organisatieType>Provincie</organisatieType>
+        <naam>Provincie Drenthe</naam>
+        <afkorting>DR</afkorting>
+        <url>https://almanak.overheid.nl/14557/Provincie_Drenthe</url>
+        <resourceIdentifier>https://identifier.overheid.nl/tooi/id/provincie/pv22</resourceIdentifier>
+        <datumMutatie>2022-02-04</datumMutatie>
+        <ictuCode>04203</ictuCode>
+        <topOrganisatie>
+            <identifier>14557</identifier>
+            <naam>Provincie Drenthe</naam>
+            <url>https://almanak.overheid.nl/14557/Provincie_Drenthe</url>
+        </topOrganisatie>
+        <bezoekAdres>
+            <straat>Westerbrink</straat>
+            <huisnummer>1</huisnummer>
+            <postcode>9405 BJ</postcode>
+            <plaats>Assen</plaats>
+            <centroide/>
+        </bezoekAdres>
+        <postAdres>
+            <postbus>Postbus 122</postbus>
+            <postcode>9400 AC</postcode>
+            <plaats>Assen</plaats>
+        </postAdres>
+    </record>
+</originalData>

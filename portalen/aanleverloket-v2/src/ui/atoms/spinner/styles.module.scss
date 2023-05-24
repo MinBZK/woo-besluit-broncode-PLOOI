@@ -1,0 +1,61 @@
+@import "../../colors.scss";
+
+.spinner {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+
+
+    & div {
+        box-sizing: border-box;
+        display: block;
+        position: absolute;
+
+        margin: 4px;
+        border-radius: 50%;
+        animation: rotate 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    }
+    
+    &__small {
+        width: 32px;
+        height: 32px;
+    }
+
+    &__large {
+        width: 60px;
+        height: 60px;
+    }
+
+    &__primary {
+        border: 4px solid $darkBlue;
+        border-color: $darkBlue transparent transparent transparent;
+    }
+
+    &__white {
+        border: 4px solid $white;
+        border-color:$white transparent transparent transparent;
+    }
+
+    & div:nth-child(1) {
+        animation-delay: -0.45s;
+    }
+
+    & div:nth-child(2) {
+        animation-delay: -0.3s;
+    }
+
+    & div:nth-child(3) {
+        animation-delay: -0.15s;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

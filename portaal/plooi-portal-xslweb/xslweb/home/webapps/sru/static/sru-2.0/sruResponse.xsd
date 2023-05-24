@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Search Web Services searchRetrieve Version 1.0
+    OASIS Standard
+    30 January 2013
+    Source: http://docs.oasis-open.org/search-ws/searchRetrieve/v1.0/os/schemas/
+    Copyright (c) OASIS Open 2013.  All Rights Reserved.
+-->
+
+<!--  
+Editor: Ray Denenberg, Library of Congress.  rden@loc.gov 
+***** 
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://docs.oasis-open.org/ns/search-ws/sruResponse" targetNamespace="http://docs.oasis-open.org/ns/search-ws/sruResponse" xmlns:diag="http://docs.oasis-open.org/ns/search-ws/diagnostic" xmlns:facet="http://docs.oasis-open.org/ns/search-ws/facetedResults" xmlns:sra="http://docs.oasis-open.org/ns/search-ws/searchResultAnalysis" xmlns:xcql="http://docs.oasis-open.org/ns/search-ws/xcql" xmlns:scan="http://docs.oasis-open.org/ns/search-ws/scan" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+
+  <!-- 
+imports -->
+  <xs:import namespace="http://docs.oasis-open.org/ns/search-ws/diagnostic" schemaLocation="diagnostic.xsd"/>
+  <!-- -->
+  <xs:import namespace="http://docs.oasis-open.org/ns/search-ws/facetedResults" schemaLocation="facetedResults.xsd"/>
+  <!-- -->
+  <xs:import namespace="http://docs.oasis-open.org/ns/search-ws/searchResultAnalysis" schemaLocation="searchResultAnalysis.xsd"/>
+  <!-- -->
+  <xs:import namespace="http://docs.oasis-open.org/ns/search-ws/xcql" schemaLocation="xcql.xsd"/>
+  <!-- -->
+  <xs:import namespace="http://docs.oasis-open.org/ns/search-ws/scan" schemaLocation="scan.xsd"/>
+
+  <!--  
+***************************************************************************************************************
+*                                                                                                                                         * 
+*                                       Root element declarations                                                            *
+*      Root is  <searchRetrieveResponse>,  <explainResponse> , or <scanResponse>               *
+*                                                                                                                                         * 
+*************************************************************************************************************** 
+-->
+  <xs:element name="searchRetrieveResponse" type="searchRetrieveResponseDefinition"/>
+  <xs:element name="explainResponse" type="explainResponseDefinition"/>
+  <xs:element name="scanResponse" type="scan:scanResponseDefinition"/>
+  <!--  
+********************************************************************************** 
+*                    searchRetrieveResponseDefinition                               *
+********************************************************************************** 
+-->
+  <xs:complexType name="searchRetrieveResponseDefinition">
+    <xs:sequence>
+      <xs:element ref="version" minOccurs="0"/>
+      <!-- ******
+                      version is for use in version 1.2 or earlier. It is removed in version 2.0.
+                  ******-->
+      <xs:element ref="numberOfRecords" minOccurs="0"/>
+      <xs:element ref="resultSetId" minOccurs="0"/>
+      <xs:element ref="resultSetIdleTime" minOccurs="0"/>
+      <!-- ******
+                      resultSetIdleTime is for use in version 1.2 or earlier. It is removed in version 2.0.
+                  ******-->
+      <xs:element ref="records" minOccurs="0"/>
+      <xs:element ref="nextRecordPosition" minOccurs="0"/>
+      <xs:element ref="echoedSearchRetrieveRequest" minOccurs="0"/>
+      <xs:element ref="diagnostics" minOccurs="0"/>
+      <xs:element ref="extraResponseData" minOccurs="0" maxOccurs="unbounded"/>
+      <!-- **** 
+the following are new in version 2. They may not be used in version 1.2 or earlier.
+                 -->
+      <xs:any minOccurs="0" maxOccurs="unbounded" namespace="##other" processContents="lax"/>
+      <xs:element ref="resultSetTTL" minOccurs="0"/>
+      <!-- ******
+                      resultSetTTL replaces resultSetIdleTime in version 2.0.
+                  ******-->
+      <xs:element ref="resultCountPrecision" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="facetedResults" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="searchResultAnalysis" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--  
+********************************************************************************** 
+*                              explainResponseDefinition                                 *
+********************************************************************************** 
+-->
+  <xs:complexType name="explainResponseDefinition">
+    <xs:sequence>
+      <xs:element ref="version" minOccurs="0"/>
+      <xs:element ref="record"/>
+      <xs:element ref="echoedExplainRequest" minOccurs="0"/>
+      <xs:element ref="diagnostics" minOccurs="0"/>
+      <xs:element ref="extraResponseData" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--  
+********************************************************************************** 
+*                    Auxiliary Type Definitions (in alphabetical order)           *
+********************************************************************************** 
+-->
+  <!--  
+diagnosticsDefinition
+-->
+  <xs:complexType name="diagnosticsDefinition">
+    <xs:sequence>
+      <xs:element ref="diag:diagnostic" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--  
+echoedExplainRequestDefinition
+-->
+  <xs:complexType name="echoedExplainRequestDefinition">
+    <xs:sequence>
+      <xs:element ref="version" minOccurs="0"/>
+      <xs:element ref="recordXMLEscaping" minOccurs="0"/>
+      <xs:element ref="recordPacking" minOccurs="0"/>
+      <xs:element ref="stylesheet" minOccurs="0"/>
+      <xs:element ref="extraRequestData" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--  
+echoedSearchRetrieveRequestDefinition
+-->
+  <xs:complexType name="echoedSearchRetrieveRequestDefinition">
+    <xs:sequence>
+      <xs:element ref="version" minOccurs="0"/>
+      <xs:element ref="queryType" minOccurs="0"/>
+      <xs:element ref="query" minOccurs="0"/>
+      <xs:element ref="xQuery" minOccurs="0" maxOccurs="unbounded"/>
+      <!-- "query" is a string representation, and xQuery is a structured (e.g. XML) representation, of the query -->
+      <xs:element ref="startRecord" minOccurs="0"/>
+      <xs:element ref="maximumRecords" minOccurs="0"/>
+      <xs:element ref="recordXMLEscaping" minOccurs="0"/>
+      <xs:element ref="recordPacking" minOccurs="0"/>
+      <xs:element ref="recordSchema" minOccurs="0"/>
+      <xs:element ref="facetParameters" minOccurs="0"/>
+      <!-- one or more strings of form "[facetParameter]=value"  where [facetParameter] is one of the facet parameters-->
+      <xs:element ref="resultSetTTL" minOccurs="0"/>
+      <xs:element ref="sortKeys" minOccurs="0"/>
+      <xs:element ref="xSortKeys" minOccurs="0" maxOccurs="unbounded"/>
+      <!--"sortKeys" is a string representation, and xsortKeys is a structured (e.g. XML) representation, of the sort keys-->
+      <xs:element ref="stylesheet" minOccurs="0"/>
+      <xs:element ref="renderedBy" minOccurs="0"/>
+      <xs:element ref="extraRequestParameter" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="httpAccept" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="responseType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--  
+extensionDefinition-->
+  <xs:complexType name="extensionDefinition">
+    <xs:sequence>
+      <xs:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--  
+recordDefinition-->
+  <xs:complexType name="recordDefinition">
+    <xs:sequence>
+      <xs:element ref="recordSchema"/>
+      <xs:element ref="recordPacking" minOccurs="0"/>
+      <!-- 
+        recordPacking has different meaning when used for versions 1.2 or earlier than for 2.0 or later.
+             -->
+      <xs:element ref="recordXMLEscaping" minOccurs="0"/>
+      <!--
+				recordXMLEscaping  valid only for 2.0 or later. 
+  -->
+      <xs:element ref="recordData"/>
+      <xs:element ref="recordPosition" minOccurs="0"/>
+      <xs:element ref="extraRecordData" minOccurs="0"/>
+      <xs:any minOccurs="0" maxOccurs="unbounded" namespace="##other" processContents="lax"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--  
+recordXMLEscapingDefinition-->
+  <xs:simpleType name="recordXMLEscapingDefinition">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="string"/>
+      <xs:enumeration value="xml"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--  
+recordsDefinition-->
+  <xs:complexType name="recordsDefinition">
+    <xs:sequence>
+      <xs:element ref="record" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--  renderedByDefinition-->
+  <xs:simpleType name="renderedByDefinition">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="client"/>
+      <xs:enumeration value="server"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--  
+sortKeyDefinition-->
+  <xs:complexType name="sortKeyDefinition">
+    <xs:sequence>
+      <xs:element ref="path"/>
+      <xs:element ref="schema" minOccurs="0"/>
+      <xs:element ref="ascending" minOccurs="0"/>
+      <xs:element ref="caseSensitive" minOccurs="0"/>
+      <xs:element ref="missingValue" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--  
+stringOrXmlFragmentDefinition-->
+  <xs:complexType name="stringOrXmlFragmentDefinition" mixed="true">
+    <xs:sequence>
+      <xs:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--  
+xSortKeysDefinition-->
+  <xs:complexType name="xSortKeysDefinition">
+    <xs:sequence>
+      <xs:element ref="sortKey" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--  
+versionDefinition-->
+  <xs:simpleType name="versionDefinition">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="1.0"/>
+      <xs:enumeration value="1.1"/>
+      <xs:enumeration value="1.2"/>
+      <xs:enumeration value="2.0"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--
+****************element declarations-->
+  <xs:element name="ascending" type="xs:boolean"/>
+  <xs:element name="caseSensitive" type="xs:boolean"/>
+  <xs:element name="diagnostics" type="diagnosticsDefinition"/>
+  <xs:element name="displayTerm" type="xs:string"/>
+  <xs:element name="echoedExplainRequest" type="echoedExplainRequestDefinition"/>
+  <xs:element name="echoedSearchRetrieveRequest" type="echoedSearchRetrieveRequestDefinition"/>
+  <xs:element name="extraRecordData" type="extensionDefinition"/>
+  <xs:element name="extraRequestData" type="extensionDefinition"/>
+  <xs:element name="extraRequestParameter" type="xs:string"/>
+  <xs:element name="extraResponseData" type="extensionDefinition"/>
+  <xs:element name="facetedResults" type="facet:facetedResultsDefinition"/>
+  <xs:element name="facetParameters" type="xs:string"/>
+  <xs:element name="httpAccept" type="xs:string"/>
+  <xs:element name="maximumRecords" type="xs:nonNegativeInteger"/>
+  <xs:element name="missingValue" type="xs:string"/>
+  <xs:element name="nextRecordPosition" type="xs:positiveInteger"/>
+  <xs:element name="numberOfRecords" type="xs:nonNegativeInteger"/>
+  <xs:element name="path" type="xs:string"/>
+  <xs:element name="queryType" type="xs:string"/>
+  <xs:element name="query" type="xs:string"/>
+  <xs:element name="record" type="recordDefinition"/>
+  <xs:element name="recordData" type="stringOrXmlFragmentDefinition"/>
+  <xs:element name="recordXMLEscaping" type="recordXMLEscapingDefinition"/>
+  <xs:element name="recordPacking" type="xs:string"/>
+  <!-- values of recordPacking limited to 'xml', 'string' for 1.2 or earlier, unrestricted for 2.0 or later -->
+  <xs:element name="recordPosition" type="xs:positiveInteger"/>
+  <xs:element name="records" type="recordsDefinition"/>
+  <xs:element name="recordSchema" type="xs:string"/>
+  <xs:element name="renderedBy" type="renderedByDefinition"/>
+  <xs:element name="responsePosition" type="xs:nonNegativeInteger"/>
+  <xs:element name="responseType" type="xs:string"/>
+  <xs:element name="resultCountPrecision" type="xs:string"/>
+  <xs:element name="resultSetId" type="xs:string"/>
+  <xs:element name="resultSetIdleTime" type="xs:positiveInteger"/>
+  <xs:element name="resultSetTTL" type="xs:nonNegativeInteger"/>
+  <xs:element name="schema" type="xs:string"/>
+  <xs:element name="searchResultAnalysis" type="sra:searchResultAnalysisDefinition"/>
+  <xs:element name="sortKey" type="sortKeyDefinition"/>
+  <xs:element name="sortKeys" type="xs:string"/>
+  <xs:element name="startRecord" type="xs:positiveInteger" default="1"/>
+  <xs:element name="stylesheet" type="xs:anyURI"/>
+  <xs:element name="value" type="xs:string"/>
+  <xs:element name="version" type="versionDefinition"/>
+  <xs:element name="xQuery" type="xcql:xcqlDefinition"/>
+  <xs:element name="xSortKeys" type="xSortKeysDefinition"/>
+  <!-- -->
+</xs:schema>

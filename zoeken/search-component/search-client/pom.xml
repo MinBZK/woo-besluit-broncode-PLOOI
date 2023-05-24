@@ -1,0 +1,95 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>nl.overheid.koop.plooi</groupId>
+		<artifactId>search-component-parent</artifactId>
+		<version>1.0.1-SNAPSHOT</version>
+	</parent>
+    <artifactId>search-client</artifactId>
+	<name>PLOOI Search service client</name>
+
+	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		
+        <!-- openapi-generator and metadata-specification versions synced with repository-service -->
+        <metadata-specification.version>0.11.0</metadata-specification.version>
+        <!-- openapi-generator version synced from repository-specification -->
+        <openapi-generator-maven-plugin.version>6.2.0</openapi-generator-maven-plugin.version>
+        <jib-maven-plugin.version>3.3.1</jib-maven-plugin.version>
+	</properties>
+	
+	<dependencies>
+        <dependency>
+            <groupId>nl.overheid.koop.plooi</groupId>
+            <artifactId>search-specification</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+	</dependencies>
+	
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-remote-resources-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>process</goal>
+                        </goals>
+                        <configuration>
+                            <resourceBundles>
+                                <resourceBundle>nl.overheid.koop.plooi:metadata-specification:${metadata-specification.version}</resourceBundle>
+                                <resourceBundle>nl.overheid.koop.plooi:search-specification:${project.version}</resourceBundle>
+                            </resourceBundles>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.openapitools</groupId>
+                <artifactId>openapi-generator-maven-plugin</artifactId>
+                <version>${openapi-generator-maven-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <inputSpec>${project.build.directory}/maven-shared-archive-resources/openapi/zoek-api.yaml</inputSpec>
+                            <generatorName>spring</generatorName>
+                            <output>${project.build.directory}/generated-sources/</output>
+                            <generateModels>true</generateModels>
+                            <generateApis>false</generateApis>
+                            <generateSupportingFiles>false</generateSupportingFiles>
+                            <modelPackage>nl.overheid.koop.plooi.search.model</modelPackage>
+                            <configOptions>
+                            	<interfaceOnly>true</interfaceOnly>
+                                <java11>true</java11>
+                                <dateLibrary>java8</dateLibrary>
+                                <openApiNullable>false</openApiNullable>
+                                <documentationProvider>none</documentationProvider>
+                                <annotationLibrary>none</annotationLibrary>
+                            </configOptions>
+                            <configHelp>false</configHelp>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>${jib-maven-plugin.version}</version>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

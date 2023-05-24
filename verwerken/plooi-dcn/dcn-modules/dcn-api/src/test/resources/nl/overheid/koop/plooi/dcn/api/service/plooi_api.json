@@ -1,0 +1,68 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/plooi-api-5afce6ec-a4ed-4c62-a6d5-168a59247678",
+    "creatiedatum" : "2021-11-08",
+    "identifiers" : [ "https://documenten.denhaag.nl/documenten/doc-123e4567-e89b-12d3-a456-426614174777" ],
+    "verantwoordelijke" : {
+      "type" : "overheid:Gemeente",
+      "id" : "https://identifier.overheid.nl/tooi/id/gemeente/gm0518",
+      "label" : "gemeente Den Haag"
+    },
+    "publisher" : {
+      "type" : "overheid:Gemeente",
+      "id" : "https://identifier.overheid.nl/tooi/id/gemeente/gm0518",
+      "label" : "gemeente Den Haag"
+    },
+    "naamOpsteller" : "Gemeente Den Haag",
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "format" : {
+      "id" : "http://publications.europa.eu/resource/authority/file-type/AZW",
+      "label" : "Amazon Kindle eBook"
+    },
+    "onderwerpen" : [ "Onderwerp" ],
+    "omschrijvingen" : [ "omschrijving" ],
+    "titelcollectie" : {
+      "officieleTitel" : "'s Gravenhage Kapvergunning Hooigracht onder nummer 20219495, d.d. 20210719",
+      "verkorteTitels" : [ "Kapvergunning Hooigracht 2021", "Hallo mijn Titel", "Ook een titel 3" ],
+      "alternatieveTitels" : [ "20210719 - Kapvergunning Hooigracht Den Haag", "Een hele mooie titel over deze illustere vergunning om monumentale bomen aan de Hooigracht te kappen", "Of zo iets" ]
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "type" : "overheid:Informatietype",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_002fc258",
+        "label" : "vergunning"
+      } ],
+      "themas" : [ {
+        "type" : "plooi:Topthema",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11",
+        "label" : "natuur en milieu"
+      } ],
+      "trefwoorden" : [ "trefwoorden" ]
+    },
+    "aggregatiekenmerk" : "aggregatiekenmerk",
+    "documenthandelingen" : [ {
+      "soortHandeling" : {
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_e1ec050e",
+        "label" : "ondertekening"
+      },
+      "atTime" : "2022-08-24T14:15:22Z"
+    } ],
+    "extraMetadata" : [ {
+      "namespace" : "namespace",
+      "prefix" : "prefix",
+      "velden" : [ {
+        "key" : "key",
+        "values" : [ "1" ]
+      } ]
+    } ]
+  },
+  "plooiIntern" : {
+    "dcnId" : "plooi-api-5afce6ec-a4ed-4c62-a6d5-168a59247678",
+    "aanbieder" : "Aanleverloket",
+    "extId" : [ "5afce6ec-a4ed-4c62-a6d5-168a59247678" ],
+    "sourceLabel" : "plooi-api"
+  }
+}

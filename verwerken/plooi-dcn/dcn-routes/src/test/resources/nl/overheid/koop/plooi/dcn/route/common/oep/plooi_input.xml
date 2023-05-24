@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plooi:plooi xmlns:plooi="http://standaarden.overheid.nl/plooi/terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <plooi:meta>
+        <plooi:owmskern>
+            <dcterms:identifier>oep-dbfa855782641bb694520a92b5ea90345244e67e_1</dcterms:identifier>
+        </plooi:owmskern>
+        <plooi:othermeta>
+            <plooi:bronmeta>
+                <plooi:source-label>oep</plooi:source-label>
+                <dcterms:identifier>kv-tk-2022Z18908</dcterms:identifier>
+            </plooi:bronmeta>
+        </plooi:othermeta>
+        <plooi:plooiipm>
+            <dcterms:identifier>oep-dbfa855782641bb694520a92b5ea90345244e67e_1</dcterms:identifier>
+        </plooi:plooiipm>
+    </plooi:meta>
+    <plooi:body>
+        <plooi:documenten>
+            <plooi:document published="false">
+                <plooi:url>https://repository.overheid.nl/frbr/officielepublicaties/kv-tk/2022/kv-tk-2022Z18908/1/metadataowms/metadata_owms.xml</plooi:url>
+                <plooi:manifestatie-label>metadataowms</plooi:manifestatie-label>
+                <plooi:bestandsnaam>metadata_owms.xml</plooi:bestandsnaam>
+                <plooi:hash>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</plooi:hash>
+            </plooi:document>
+            <plooi:document published="false">
+                <plooi:url>https://repository.overheid.nl/frbr/officielepublicaties/kv-tk/2022/kv-tk-2022Z18908/1/xml/kv-tk-2022Z18908.xml</plooi:url>
+                <plooi:manifestatie-label>xml</plooi:manifestatie-label>
+                <plooi:bestandsnaam>kv-tk-2022Z18908.xml</plooi:bestandsnaam>
+                <plooi:hash>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</plooi:hash>
+            </plooi:document>
+            <plooi:document published="false">
+                <plooi:url>https://repository.overheid.nl/frbr/officielepublicaties/kv-tk/2022/kv-tk-2022Z18908/1/html/kv-tk-2022Z18908.html</plooi:url>
+                <plooi:manifestatie-label>html</plooi:manifestatie-label>
+                <plooi:bestandsnaam>kv-tk-2022Z18908.html</plooi:bestandsnaam>
+                <plooi:hash>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</plooi:hash>
+            </plooi:document>
+            <plooi:document published="true">
+                <plooi:url>https://repository.overheid.nl/frbr/officielepublicaties/kv-tk/2022/kv-tk-2022Z18908/1/pdf/kv-tk-2022Z18908.pdf</plooi:url>
+                <plooi:manifestatie-label>pdf</plooi:manifestatie-label>
+                <plooi:bestandsnaam>kv-tk-2022Z18908.pdf</plooi:bestandsnaam>
+                <plooi:hash>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</plooi:hash>
+            </plooi:document>
+        </plooi:documenten>
+    </plooi:body>
+</plooi:plooi>

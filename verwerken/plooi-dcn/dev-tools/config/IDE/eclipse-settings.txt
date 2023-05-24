@@ -1,0 +1,16 @@
+After importing java-formatter.xml, a few manual changes need to be made;
+
+* We need to agree on import statement ordering. I think IntelliJ just does them in alphabetical order, which is fine by me.
+  Let's however prevent .* import statements.
+* Static import are not done, but are allowed in JUnit tests for asserts, Mockito, etc.
+* All editors should assume UTF-8, use spaces instead of tabs, have a 160 char line length and ident by 4.
+* In Preferences - Java - Editor - Save Actions, check 'Format source code' (all lines), 'Organize imports' and additional actions.
+  For the latter, configure the following;
+   + Add 'this' qualifier to unqualified field accesses
+   + Convert control statement bodies to block
+   + Combine nested 'if' statement in 'else' block to 'else if'
+   - Add missing '@Override' annotations
+   - Add missing '@Override' annotations to implementations of interface methods
+   - Add missing '@Deprecated' annotations
+   - Remove unnecessary casts
+   + Remove trailing white spaces on all lines

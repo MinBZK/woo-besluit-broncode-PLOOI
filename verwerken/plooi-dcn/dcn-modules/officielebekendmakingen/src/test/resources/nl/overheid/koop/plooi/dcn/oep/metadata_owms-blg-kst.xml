@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+      Generatie: versie XSLT 1.1 op 2020-06-17+02:00-->
+<owms-metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:overheidop="http://standaarden.overheid.nl/oep/meta/">
+   <owmskern>
+      <dcterms:identifier>blg-936562</dcterms:identifier>
+      <dcterms:title>Eindnotitie verkenning haalbaarheid epidemiologisch onderzoek chroom 6 Defensie (samenvattende conclusies)</dcterms:title>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:type scheme="OVERHEIDop.Parlementair">Bijlage</dcterms:type>
+      <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+      <dcterms.modified>2020-06-16</dcterms.modified>
+   </owmskern>
+   <owmsmantel>
+      <dcterms:available>2020-06-16</dcterms:available>
+   </owmsmantel>
+   <oep>
+      <overheidop:documentStatus>Onopgemaakt</overheidop:documentStatus>
+      <overheidop:dossiernummer>35300-X</overheidop:dossiernummer>
+      <overheidop:ondernummer>63</overheidop:ondernummer>
+      <overheidop:publicationName>Kamerstuk</overheidop:publicationName>
+      <overheidop:vergaderjaar>2019-2020</overheidop:vergaderjaar>
+      <overheid:organisationType>staten generaal</overheid:organisationType>
+      <overheidop:hoofddocument>kst-35300-X-63</overheidop:hoofddocument>
+   </oep>
+</owms-metadata>

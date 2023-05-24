@@ -1,0 +1,136 @@
+@import "../../colors.scss";
+@import "../../borders.scss";
+@import "../../spacings.scss";
+@import "../../icons.scss";
+
+.button {
+  appearance: none;
+  background-color: $buttonBackgroundColor;
+  border-radius: $borderRadiusButton;
+  border: 1px solid $buttonBorderColor;
+  display: inline-block;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1;
+  // margin: 0 0.5em 0.5em 0;
+  max-width: 100%;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-shadow: none;
+  user-select: none;
+  vertical-align: middle;
+  word-break: break-word;
+  font-size: 1rem;
+  cursor: pointer;
+  overflow: hidden;
+
+  margin: 0;
+  border-color: $darkBlue;
+  color: $darkBlue;
+
+  &--unstyled {
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    &:hover {
+      -moz-box-shadow: none !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+      background-color: transparent !important;
+    }
+  }
+
+  &::-moz-focus-inner {
+    border: none;
+    padding: 0;
+  }
+
+  &:focus {
+    outline: 2px solid $focus;
+    outline-offset: 0;
+    z-index: 1;
+  }
+
+  &:hover {
+    outline: none;
+    // background-color: $lighterGrey;
+    // color: $black;
+    box-shadow: 0 0 0.75em rgba(21, 66, 115, 0.4);
+    background-color: white;
+    color: $darkBlue;
+  }
+
+  &:active {
+    transition: none;
+    background-color: $buttonBackgroundActiveColor;
+    box-shadow: 0 0 0.5em rgba(21, 66, 115, 0.2);
+  }
+
+  &:disabled,
+  &[aria-disabled="true"] {
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: $lightGrey;
+    color: $mediumGrey;
+
+    * {
+      background-color: $lightGrey;
+    }
+  }
+
+  &--primary {
+    background-color: $buttonPrimaryBackgroundColor;
+    color: $white;
+    border: 1px solid transparent;
+
+    &:hover {
+      box-shadow: 0 0 0.75em rgba(21, 66, 115, 0.4);
+      // background-color: white;
+      // color: $darkBlue;
+      background-color: $darkerBlue;
+      color: white;
+    }
+
+    &:active {
+      box-shadow: 0 0 0.5em rgba(21, 66, 115, 0.2);
+    }
+  }
+
+  &--orange {
+    background-color: #e17000;
+    color: #e17000;
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    &:hover {
+      box-shadow: 0 0 0.75em rgba(115, 59, 21, 0.4);
+      background-color: #e17000;
+      color: white;
+    }
+
+    &:active {
+      box-shadow: 0 0 0.5em rgba(115, 59, 21, 0.4);
+    }
+
+  }
+
+  &--blue {
+    background-color: $lightBlue;
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    &:hover {
+      box-shadow: 0 0 0.75em $lightBlue;
+      background-color: $mediumBlue;
+    }
+
+    &:active {
+      box-shadow: 0 0 0.5em $primaryBlue;
+    }
+
+  }
+}

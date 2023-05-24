@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<webapp
+  xmlns="http://www.armatiek.com/xslweb/webapp"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.armatiek.com/xslweb/webapp ../../config/xsd/xslweb/webapp.xsd">
+
+  <title>SRU interface zoekservice</title>
+  <description>SRU interface zoekservice</description>
+  <development-mode>true</development-mode>
+
+  <!-- Resources to serve straight away: -->
+  <resources>
+    <resource pattern="/robots.txt" media-type="text/plain"/>
+    <resource pattern=".+\.xsd$" media-type="text/xml"/>
+  </resources>
+
+  <!-- Stylesheet parameters: -->
+  <parameters>
+
+    <!-- Global parameters: -->
+    <parameter name="sru-uri" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://zoekservice-tst.overheid.nl/sru/Search</value>
+    </parameter>
+    <parameter name="sru-beta-uri" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>https://beta-zoekservice-lb-tst.overheid.nl</value>
+    </parameter>
+
+    <!-- Parameters Plooi/Open: -->
+    <parameter name="plooi-solr-uri" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</value>
+    </parameter>
+    <parameter name="plooi-base-repos-url" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://localhost:9090/repository</value>
+    </parameter>
+    <parameter name="plooi-base-frontend-url" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://localhost:9090/</value>
+    </parameter>
+    <parameter name="plooi-max-records" uri="http://www.armatiek.com/xslweb/configuration" type="xs:integer">
+      <value>200000</value>
+    </parameter>
+
+  </parameters>
+
+</webapp>

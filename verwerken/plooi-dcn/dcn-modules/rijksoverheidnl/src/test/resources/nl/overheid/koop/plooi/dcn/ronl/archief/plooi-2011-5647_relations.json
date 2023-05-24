@@ -1,0 +1,11 @@
+{
+  "documentrelaties" : [ {
+    "relation" : "ronl-archief-86a23c3bb4bf9e90e5b35a309906d6c4f7478854",
+    "role" : "https://identifier.overheid.nl/plooi/def/thes/documentrelatie/bijlage",
+    "titel" : "plooicb-2011-5648"
+  }, {
+    "relation" : "ronl-archief-787f40d430d1b01df3c39ef0c0f441f75bbf0acc",
+    "role" : "https://identifier.overheid.nl/plooi/def/thes/documentrelatie/bijlage",
+    "titel" : "plooicb-2011-5649"
+  } ]
+}

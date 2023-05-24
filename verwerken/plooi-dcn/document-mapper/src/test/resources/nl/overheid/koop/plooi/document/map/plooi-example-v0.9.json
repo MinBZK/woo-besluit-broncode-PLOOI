@@ -1,0 +1,72 @@
+{
+  "document": {
+    "modified": "2021-05-26",
+    "testdates": [
+    	"2021-05-01",
+    	"2021-05-02",
+    	"2021-05-03"
+	],
+    "identifiers": [
+      "https://documenten.denhaag.nl/documenten/doc-123e4567-e89b-12d3-a456-426614174777"
+    ],
+    "language": {
+      "id": "http://publications.europa.eu/resource/authority/language/NLD",
+      "label": "Nederlands"
+    },
+    "titelcollectie": {
+      "officieleTitel": "'s Gravenhage Kapvergunning Hooigracht onder nummer 20219495, d.d. 20210719",
+      "verkorteTitels": [
+        "Kapvergunning Hooigracht 2021"
+      ],
+      "alternatieveTitels": [
+        "20210719 - Kapvergunning Hooigracht Den Haag",
+        "Een hele mooie titel over deze illustere vergunning om monumentale bomen aan de Hooigracht te kappen",
+        "Of zo iets"
+      ]
+    },
+    "verantwoordelijke": {
+      "id": "https://identifier.overheid.nl/tooi/id/gemeente/gm0518",
+      "label": "gemeente Den Haag"
+    },
+    "opsteller": {
+      "id": "https://identifier.overheid.nl/tooi/id/gemeente/gm0518",
+      "label": "gemeente Den Haag"
+    },
+    "publisher": {
+      "id": "https://identifier.overheid.nl/tooi/id/gemeente/gm0518",
+      "label": "gemeente Den Haag"
+    },
+    "classificatiecollectie": {
+      "documentsoort": {
+        "id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_002fc258",
+        "label": "vergunning"
+      },
+      "themas": [{
+        "id": "https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11",
+        "label": "natuur en milieu"
+      },
+      {
+        "id": "https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b",
+        "label": "organisatie en bedrijfsvoering"
+      }],
+      "trefwoorden": [ "raak", "goal", "hit" ]
+    },
+    "aggregatiekenmerk" : "een dossier ofzo",
+    "metadata": [{
+        "key": "meta1",
+        "value": "natuur en milieu"
+      },
+      {
+        "key": "meta2",
+        "value": "organisatie en bedrijfsvoering"
+      }],
+    "overigeContexten": [{
+      "namespace": "https://denhaag.nl/concepten",
+      "prefix": "gm0518",
+      "velden": [{
+        "key": "isVerwerkt",
+        "value": true
+      }]
+    }]
+  }
+}

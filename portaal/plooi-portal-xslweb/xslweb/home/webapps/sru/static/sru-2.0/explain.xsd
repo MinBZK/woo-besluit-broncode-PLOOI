@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Search Web Services searchRetrieve Version 1.0
+    OASIS Standard
+    30 January 2013
+    Source: http://docs.oasis-open.org/search-ws/searchRetrieve/v1.0/os/schemas/
+    Copyright (c) OASIS Open 2013.  All Rights Reserved.
+-->
+
+<!--  
+Editor: Janifer Gatenby (OCLC)
+***** 
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://explain.z3950.org/dtd/2.0/" targetNamespace="http://explain.z3950.org/dtd/2.0/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!--
+******************************************************************************
+******************************************************************************
+
+                Definition of root element <explain>  
+
+******************************************************************************
+******************************************************************************
+-->
+	<xs:element name="explain">
+		<!-- 
+The explain record consists of the following elements, in order
+ <serverInfo>   (mandatory)
+ <databaseInfo>, <metaInfo>, <IndexInfo>  (all optional, non repeatable)
+ <recordInfo> or <schemaInfo>  (at most one)
+ <configInfo>  (optional)
+plus attributes: "authoritative" and "id" (both optional)
+-->
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="serverInfo">
+					<xs:annotation>
+						<xs:documentation>basic details required to start a network connection to the described server</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="databaseInfo" minOccurs="0"/>
+				<xs:element ref="metaInfo" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>information concerning this explain document</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="indexInfo" minOccurs="0"/>
+				<xs:element name="searchInfo">
+					<xs:annotation>
+						<xs:documentation>information on building a search, including sample queries, information on query types supported, how to requests facet counts and sorting </xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="queryExample" minOccurs="0" maxOccurs="99">
+								<xs:annotation>
+									<xs:documentation>one or more complete sample queries that will be accepted by the server</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="queryType" minOccurs="0" maxOccurs="99">
+								<xs:annotation>
+									<xs:documentation>repeatable structure indicating support for query types other than CQL. </xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="queryTypeName">
+											<xs:annotation>
+												<xs:documentation>eye readable name of the query type such as CQL, searchTerms,  or other server defined query type</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="URI">
+											<xs:annotation>
+												<xs:documentation>URI identifying query type's definition</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="URL" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>URL for a locaion where the query type's definition may be found</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="supportLevel" minOccurs="0"/>
+										<xs:element name="queryTemplate" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>template that can be used as a guide to creating a query.  Not required for CQL and searchTerms </xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="otherInformation" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>additional information on the query type</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="facets" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>indication of the level of support for facets, which provide analysis of search results giving counts and facilitate selection within a result set</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence maxOccurs="99">
+										<xs:element name="facet">
+											<xs:annotation>
+												<xs:documentation>repeatable structure for each facet type supported and delivered by a server</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="facetType">
+														<xs:annotation>
+															<xs:documentation>name of a facet</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="facetDescription" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>additional information on a facet</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="limit" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>indicates whether or not the server will accept a request to limit the facet count for a particular facet</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="limitDefault">
+																	<xs:annotation>
+																		<xs:documentation>limit on facet counts imposed by the server  </xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="otherLimit" type="xs:boolean">
+																	<xs:annotation>
+																		<xs:documentation>an indication that a server will accept limits other than its own default</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="start">
+														<xs:annotation>
+															<xs:documentation>an offset into the list of counts to allow paging</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="startDefault">
+																	<xs:annotation>
+																		<xs:documentation>the offset applied by the server if no instruction is given in the query</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="otherStart" type="xs:boolean">
+																	<xs:annotation>
+																		<xs:documentation>an indication that a server will accept offsets other than its own default</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="sort" type="sortType" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>indicates that a server will supply the facets in a sorted order on request</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="sortKeys" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>indicates that a server will supply results in a sorted order on request</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence maxOccurs="99">
+										<xs:element name="sortKey">
+											<xs:annotation>
+												<xs:documentation>repeatable sequence for each sort key supported by a server</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="sortKeyName">
+														<xs:annotation>
+															<xs:documentation>name of sort key to be used in queries</xs:documentation>
+														</xs:annotation>
+														<xs:complexType/>
+													</xs:element>
+													<xs:element name="sortOrder" type="sortOrderType" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>indicates that a server supports results sorting in ascending or descending sequence or both and indicates its default behavior</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="caseSensitivity" type="caseSensitivityType" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>indicates that a server supports case sensitive or case insensitive facet sorting or both and indicates its default behavior</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="missingValue" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>indicates the default applied by the server if the data being sorted lacks the necessary data element</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="default" type="trueOrFalse"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="inputEncoding" minOccurs="0" maxOccurs="99">
+								<xs:annotation>
+									<xs:documentation>indicates the character encoding conventions accepted by the server for Unicode characters beyond U+007F that are not valid in a URI.</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:choice minOccurs="0">
+					<xs:element ref="recordInfo">
+						<xs:annotation>
+							<xs:documentation>indicates the types of records used by a server to deliver results </xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element ref="schemaInfo">
+						<xs:annotation>
+							<xs:documentation>indicates the defined schemas used by a server to deliver or to sort results </xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:choice>
+				<xs:element name="stylesheet" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>information on the support of stylesheets by a server</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="echoInResponse" type="xs:boolean">
+								<xs:annotation>
+									<xs:documentation>indication that the server will supply a stylesheet reference in the response for the client to do the rendering upon request</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="serverRendering" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>indication that the server will apply a stylesheet to a result set prior to sending</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence maxOccurs="99">
+										<xs:annotation>
+											<xs:documentation>sequence of URLs pointing to the stylesheets supported for server rendering</xs:documentation>
+										</xs:annotation>
+										<xs:element name="stylesheetName"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="extensions" minOccurs="0" maxOccurs="99">
+					<xs:annotation>
+						<xs:documentation>list of URIs of extensions supported which are returned in extraRecordData and extraResponseData only if requested in extraSearchData</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="configInfo" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>includes server defaults, fixed settings and supported elements</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="responseFormats" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>list of response formats supported, e.g. sru+xml, rss+xml, atom+xml (httpAccept parameter in request) </xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence maxOccurs="99">
+							<xs:element name="responseFormat">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="nameString">
+											<xs:annotation>
+												<xs:documentation>name identifier used in a request to indicate the response format</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="URI">
+											<xs:annotation>
+												<xs:documentation>URI identifying response format's definition</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="URL" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>URL for a locaion where the response format's definition may be found</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="mediaType" minOccurs="0" maxOccurs="99">
+											<xs:annotation>
+												<xs:documentation>media types for which this response format is valid</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="diagnosticSets" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>indicates support for diagnostic sets other than SRU</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence maxOccurs="99">
+							<xs:element name="diagnosticSet">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="setName">
+											<xs:annotation>
+												<xs:documentation>name of diagnostic set</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="URI">
+											<xs:annotation>
+												<xs:documentation>URI identifying diagnostic set's definition</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="URL" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>URL for a locaion where the diagnostic set's definition may be found</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="authoritative" type="trueOrFalse" default="false">
+				<xs:annotation>
+					<xs:documentation>an indication that the owner of the database has also made the explain document and thus this is the definitve description.  </xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="id" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>an indication of the person or institution that created this document</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<!--
+*****End definition of root element <explain>  ****
+
+******************************************************************************
+******************************************************************************
+
+Following are definitions for the top-level elements cited above:
+serverInfo,  databaseInfo, metaInfo, IndexInfo, recordInfo, schemaInfo, configInfo
+
+******************************************************************************
+******************************************************************************
+-->
+	<!--
+************ serverInfo
+-->
+	<xs:element name="serverInfo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="host">
+					<xs:annotation>
+						<xs:documentation>address of the server which provides the service, usually a name which will resolve to a correct IP address</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="port">
+					<xs:annotation>
+						<xs:documentation>number of the port used for connection to the service</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="database">
+					<xs:annotation>
+						<xs:documentation>name of the database accessed by the service described</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="authentication" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>authentication details that are required to access this server</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="protocol" type="xs:string" default="SRU">
+				<xs:annotation>
+					<xs:documentation>name of the protocol used to access the server at this URL endpoint</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="version" type="xs:string" default="2">
+				<xs:annotation>
+					<xs:documentation>indication of the latest version of the protocol supported for accessing the server</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="transport" type="xs:string" default="http">
+				<xs:annotation>
+					<xs:documentation>name of the protocol used to access the database</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="wsdl" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>URL to a WSDL file which describes the server</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<!--
+************ databaseInfo
+-->
+	<xs:element name="databaseInfo">
+		<xs:annotation>
+			<xs:documentation>description of the database that is accessed by the server</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="title" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>name of the database</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="description" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>free text information about the database including but not limited to coverage, strengths, size, quality and recency</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:choice minOccurs="0" maxOccurs="unbounded">
+					<xs:element ref="author">
+						<xs:annotation>
+							<xs:documentation>name of a person or organization credited with the creation of the database</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element ref="contact">
+						<xs:annotation>
+							<xs:documentation>name and address of a person to contact for information on the database</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element ref="extent">
+						<xs:annotation>
+							<xs:documentation>indicates completeness of the database</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element ref="history">
+						<xs:annotation>
+							<xs:documentation>information on the origin, development and evolution of this database</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element ref="langUsage">
+						<xs:annotation>
+							<xs:documentation>indication of the languages covered in the database</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element ref="restrictions">
+						<xs:annotation>
+							<xs:documentation>indication of limitations that may affect access to the database or reuse of its records</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element ref="subjects">
+						<xs:annotation>
+							<xs:documentation>list of terms from a controlled vocabulary indicating the topical coverage of the database</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element ref="links">
+						<xs:annotation>
+							<xs:documentation>URL links to alternative accesses to this database</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element ref="implementation">
+						<xs:annotation>
+							<xs:documentation>information on the software and other technical components used by this database</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:choice>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<!--
+************ metaInfo
+-->
+	<xs:element name="metaInfo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="dateModified">
+					<xs:annotation>
+						<xs:documentation>date and time on which this explain document was last created or modified </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="aggregatedFrom" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>URL linking to another server, indicating that the explain document was not created on this server but harvested</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="dateAggregated" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>date and time on which this explain document was harvested</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<!--
+************ indexInfo
+-->
+	<xs:element name="indexInfo">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element ref="set">
+					<xs:annotation>
+						<xs:documentation>recognized scheme of pre-defined indexes</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="index">
+					<xs:annotation>
+						<xs:documentation>an index or access point that can be used in queries of data in a database</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="sortKeyword"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<!--
+************ recordInfo
+-->
+	<xs:element name="recordInfo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="recordSyntax" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>indicates the record structure supported by a server</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="recordXMLEscaping" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>indicates whether 'string' or 'xml' or both is or are supported</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="delivers" maxOccurs="99">
+								<xs:annotation>
+									<xs:documentation>list of escapes supported.  String and XML are reserved definitions</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="recordPacking" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>indicates whether 'packed' or 'unpacked' or both is or are supported</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="delivers" maxOccurs="99">
+								<xs:annotation>
+									<xs:documentation>list of packing supported.  Packed is a reserved definition</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<!--
+************ schemaInfo
+-->
+	<xs:element name="schemaInfo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="schema" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>information on the schemas employed for sorting and presenting data from the database</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<!--
+************ configInfo
+-->
+	<xs:element name="configInfo">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="default">
+					<xs:annotation>
+						<xs:documentation>indicates that if an element is not given in a search, the server will apply this default value</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="setting">
+					<xs:annotation>
+						<xs:documentation>indicates that only one setting for an element is possible</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="supports">
+					<xs:annotation>
+						<xs:documentation>indicates that the server supports an element</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<!-- 
+******************************************************************************
+******************************************************************************
+             
+Subordinate definitions. Alphabetically.
+
+******************************************************************************
+******************************************************************************
+-->
+	<!--
+************ attrDefinition
+-->
+	<xs:complexType name="attrDefinition">
+		<xs:simpleContent>
+			<xs:extension base="stringPlusTypeRequired">
+				<xs:attribute name="set" type="xs:string" default="1.2.840.10003.3.1"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<!--
+************ authenticationDefinition
+-->
+	<xs:complexType name="authenticationDefinition">
+		<xs:choice>
+			<xs:element ref="open">
+				<xs:annotation>
+					<xs:documentation>publically available token which can be used for access</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:sequence>
+				<xs:annotation>
+					<xs:documentation>publically available authentication elements which can be used for access</xs:documentation>
+				</xs:annotation>
+				<xs:element ref="user" minOccurs="0"/>
+				<xs:element ref="group" minOccurs="0"/>
+				<xs:element ref="password" minOccurs="0"/>
+			</xs:sequence>
+		</xs:choice>
+		<xs:attribute name="required" type="trueOrFalse" default="true">
+			<xs:annotation>
+				<xs:documentation>an indication that authentication is required for access to the database by this method</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<!--
+************ databaseDefinition
+-->
+	<xs:complexType name="databaseDefinition">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="numRecs" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>indication of the number of records in the database</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="lastUpdate" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>date and time in format ISO 8601 (YYYYMMDDHHMMSS) of the latest addition or modification in the database</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<!--
+************ elementSetDefinition
+-->
+	<xs:complexType name="elementSetDefinition">
+		<xs:sequence>
+			<xs:element ref="title" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+	</xs:complexType>
+	<!--
+************ implementationDefinition
+-->
+	<xs:complexType name="implementationDefinition">
+		<xs:sequence>
+			<xs:element ref="title" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="identifier" type="xs:string"/>
+		<xs:attribute name="version" type="xs:string"/>
+	</xs:complexType>
+	<!--
+************ indexDefinition
+-->
+	<xs:complexType name="indexDefinition">
+		<xs:sequence>
+			<xs:element ref="title" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>index name supported by the server</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="map" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>indication of equivalent alternative names for the index within other sets</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="configInfo" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>includes server defaults, fixed settings and indication of support for the index</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string">
+			<xs:annotation>
+				<xs:documentation>identifier of the index other than its title</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="search" type="trueOrFalse">
+			<xs:annotation>
+				<xs:documentation>indicates that this index is used by the server in search</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="scan" type="trueOrFalse">
+			<xs:annotation>
+				<xs:documentation>indicates that this index is used by the server in scan</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="sort" type="trueOrFalse">
+			<xs:annotation>
+				<xs:documentation>indicates that this index is used by the server in sort</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<!--
+************ linksDefinition
+-->
+	<xs:complexType name="linksDefinition">
+		<xs:sequence>
+			<xs:element ref="link" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--
+************ mapDefinition
+-->
+	<xs:complexType name="mapDefinition">
+		<xs:choice>
+			<xs:sequence>
+				<xs:element ref="attr" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:element ref="name"/>
+		</xs:choice>
+		<xs:attribute name="primary" type="trueOrFalse" default="false"/>
+	</xs:complexType>
+	<!--
+************ recordSyntaxDefinition
+-->
+	<xs:complexType name="recordSyntaxDefinition">
+		<xs:sequence>
+			<xs:element ref="elementSet" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>indicates the content schemas for a record structure supported by a server</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string"/>
+		<xs:attribute name="identifier" type="xs:string"/>
+	</xs:complexType>
+	<!--
+************ schemaDefinition
+-->
+	<xs:complexType name="schemaDefinition">
+		<xs:sequence>
+			<xs:element ref="title" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>name of the schema with an indication of language</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="identifier" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>identifier of this schema </xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="name" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>name of this schema</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="location" type="xs:string">
+			<xs:annotation>
+				<xs:documentation>URL linking to a copy of this schema</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="sort" type="trueOrFalse" default="false">
+			<xs:annotation>
+				<xs:documentation>indicates that this schema may be used for sorting</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="retrieve" type="trueOrFalse" default="true">
+			<xs:annotation>
+				<xs:documentation>indicates that records may be retrieved from the database using this schema</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<!--
+************ setDefinition
+-->
+	<xs:complexType name="setDefinition">
+		<xs:sequence>
+			<xs:element ref="title" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>name of index scheme with an indication of language</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>name of a recognized scheme of pre-defined indexes or a URI</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="identifier" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>identifier in the form of a URI pointing to a definition of the index scheme</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<!--
+************ subjectsDefinition
+-->
+	<xs:complexType name="subjectsDefinition">
+		<xs:sequence>
+			<xs:element ref="subject" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--
+******************************************************************************
+******************************************************************************
+             
+              Auxiliary definitions 
+
+******************************************************************************
+******************************************************************************
+-->
+	<!--
+stringPlusType
+-->
+	<xs:complexType name="stringPlusType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="type" type="xs:string"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<!--
+stringPlusTypeRequired
+-->
+	<xs:complexType name="stringPlusTypeRequired">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="type" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<!--
+stringPlusSet
+-->
+	<xs:complexType name="stringPlusSet">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="set" type="xs:string"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<!--
+stringPlusPrimaryPlusLang
+-->
+	<xs:complexType name="stringPlusPrimaryPlusLang">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="primary" type="trueOrFalse">
+					<xs:annotation>
+						<xs:documentation>indicates the default text that should be provided if language is not specified</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="lang" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>2 letter code from RFC 1766 indicating the language of the text</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<!--
+stringPlusCodesPlusPrimaryPlusLang
+-->
+	<xs:complexType name="stringPlusCodesPlusPrimaryPlusLang">
+		<xs:simpleContent>
+			<xs:extension base="stringPlusPrimaryPlusLang">
+				<xs:attribute name="codes" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>string of one or more 2 letter codes from RFC1766 indicating the languages covered in the database</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<!--
+*****trueOrFalse
+-->
+	<xs:simpleType name="trueOrFalse">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="true"/>
+			<xs:enumeration value="false"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- 
+******************************************************************************
+******************************************************************************
+
+Element declarations. Alphabetically.
+
+******************************************************************************
+******************************************************************************
+-->
+	<xs:element name="aggregatedFrom" type="xs:string"/>
+	<xs:element name="attr" type="attrDefinition"/>
+	<xs:element name="authentication" type="authenticationDefinition"/>
+	<xs:element name="author" type="stringPlusPrimaryPlusLang"/>
+	<xs:element name="contact" type="stringPlusPrimaryPlusLang"/>
+	<xs:element name="database" type="databaseDefinition"/>
+	<xs:element name="dateAggregated" type="xs:string"/>
+	<xs:element name="dateModified" type="xs:string"/>
+	<xs:element name="default" type="stringPlusTypeRequired"/>
+	<xs:element name="description" type="stringPlusPrimaryPlusLang"/>
+	<xs:element name="elementSet" type="elementSetDefinition"/>
+	<xs:element name="extent" type="stringPlusPrimaryPlusLang"/>
+	<xs:element name="group" type="xs:string"/>
+	<xs:element name="history" type="stringPlusPrimaryPlusLang"/>
+	<xs:element name="host" type="xs:string"/>
+	<xs:element name="implementation" type="implementationDefinition"/>
+	<xs:element name="index" type="indexDefinition"/>
+	<xs:element name="langUsage" type="stringPlusCodesPlusPrimaryPlusLang"/>
+	<xs:element name="link" type="stringPlusType"/>
+	<xs:element name="links" type="linksDefinition"/>
+	<xs:element name="map" type="mapDefinition"/>
+	<xs:element name="name" type="stringPlusSet"/>
+	<xs:element name="open" type="xs:string"/>
+	<xs:element name="password" type="xs:string"/>
+	<xs:element name="port" type="xs:string"/>
+	<xs:element name="recordSyntax" type="recordSyntaxDefinition"/>
+	<xs:element name="restrictions" type="stringPlusPrimaryPlusLang"/>
+	<xs:element name="schema" type="schemaDefinition"/>
+	<xs:element name="set" type="setDefinition"/>
+	<xs:element name="setting" type="stringPlusTypeRequired"/>
+	<xs:element name="sortKeyword" type="xs:string"/>
+	<xs:element name="subject" type="xs:string"/>
+	<xs:element name="subjects" type="subjectsDefinition"/>
+	<xs:element name="supports" type="stringPlusTypeRequired"/>
+	<xs:element name="title" type="stringPlusPrimaryPlusLang"/>
+	<xs:element name="user" type="xs:string"/>
+	<xs:complexType name="sortType">
+		<xs:sequence>
+			<xs:element ref="sortBy" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>indicates that a server supports sorting of facets alphabetically or by record count or both and indicates its default behavior</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="sortOrder" type="sortOrderType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>indicates that a server supports results sorting in ascending or descending sequence or both and indicates its default behavior</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="caseSensitivity" type="caseSensitivityType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>indicates that a server supports case sensitive or case insensitive facet sorting or both and indicates its default behavior</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="sortBy" type="sortByType"/>
+	<xs:complexType name="caseSensitivityType">
+		<xs:sequence>
+			<xs:element name="caseSensitive">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:boolean">
+							<xs:attribute name="default" type="trueOrFalse"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="caseInsensitive">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:boolean">
+							<xs:attribute name="default" type="trueOrFalse"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="sortByType">
+		<xs:sequence>
+			<xs:element name="recordCount">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:boolean">
+							<xs:attribute name="default" type="trueOrFalse"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="alphanumeric">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:boolean">
+							<xs:attribute name="default" type="trueOrFalse"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="sortOrderType">
+		<xs:sequence>
+			<xs:element name="ascending">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:boolean">
+							<xs:attribute name="default" type="trueOrFalse"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="descending">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:boolean">
+							<xs:attribute name="default" type="trueOrFalse"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

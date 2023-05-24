@@ -1,0 +1,53 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/oep-8b3d7d3bb9df556ae725c0467c7edc9f5ed1f848",
+    "weblocatie" : "https://zoek.officielebekendmakingen.nl/stcrt-2021-100.html",
+    "geldigheid" : {
+      "begindatum" : "2021-01-07"
+    },
+    "identifiers" : [ "stcrt-2021-100" ],
+    "verantwoordelijke" : {
+      "type" : "overheid:Gemeente",
+      "id" : "https://identifier.overheid.nl/tooi/id/gemeente/gm0392",
+      "label" : "gemeente Haarlem",
+      "bronwaarde" : "Haarlem"
+    },
+    "publisher" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/organisatie_onbekend",
+      "label" : "Onbekend"
+    },
+    "opsteller" : {
+      "type" : "overheid:Gemeente",
+      "id" : "https://identifier.overheid.nl/tooi/id/gemeente/gm0392",
+      "label" : "gemeente Haarlem",
+      "bronwaarde" : "Haarlem"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "titelcollectie" : {
+      "officieleTitel" : "Verkeersbesluit gereserveerde parkeerplaats voor opladen elektrische voertuigen Waldeck Pyrmontstraat",
+      "alternatieveTitels" : [ "Gemeente Haarlem - Verkeersbesluit gereserveerde parkeerplaats voor opladen elektrische voertuigen - Waldeck Pyrmontstraat" ]
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "type" : "overheid:Informatietype",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_0670bae1",
+        "label" : "Staatscourant"
+      } ],
+      "themas" : [ {
+        "type" : "plooi:Topthema",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_cfc7d5ab",
+        "label" : "ruimte en infrastructuur",
+        "bronwaarde" : "Organisatie en beleid"
+      } ]
+    }
+  },
+  "plooiIntern" : {
+    "dcnId" : "oep-8b3d7d3bb9df556ae725c0467c7edc9f5ed1f848",
+    "aanbieder" : "officielebekendmakingen.nl",
+    "extId" : [ "dummy" ],
+    "sourceLabel" : "oep"
+  }
+}

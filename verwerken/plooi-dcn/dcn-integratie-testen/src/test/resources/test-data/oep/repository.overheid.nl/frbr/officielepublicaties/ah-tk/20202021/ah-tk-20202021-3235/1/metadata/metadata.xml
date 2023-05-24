@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata_gegevens>
+<metadata name="OVERHEIDop.documentStatus" scheme="" content="Opgemaakt na onopgemaakt"/>
+<metadata name="DC.title" scheme="" content="Antwoord op vragen van de leden Van Weyenberg, Romke de Jong en Kat over de Tozo"/>
+<metadata name="OVERHEIDop.aanhangselNummer" scheme="" content="3235"/>
+<metadata name="OVERHEIDop.doctype" scheme="" content="Officiële Publicaties, versie 1.1"/>
+<metadata name="OVERHEIDop.indiener" scheme="" content="S.P.R.A. van Weyenberg"/>
+<metadata name="OVERHEIDop.indiener" scheme="" content="R.H. (Romke) de Jong"/>
+<metadata name="OVERHEIDop.indiener" scheme="" content="H. Kat"/>
+<metadata name="OVERHEIDop.ontvanger" scheme="" content="W. Koolmees"/>
+<metadata name="OVERHEIDop.publicationName" scheme="" content="Kamervragen (Aanhangsel)"/>
+<metadata name="OVERHEIDop.vergaderjaar" scheme="" content="2020-2021"/>
+<metadata name="OVERHEIDop.vraagnummer" scheme="" content="2021Z09739"/>
+<metadata name="DCTERMS.language" scheme="DCTERMS.RFC4646" content="nl"/>
+<metadata name="DCTERMS.available" scheme="DCTERMS.W3CDTF" content="2021-06-21"/>
+<metadata name="DCTERMS.issued" scheme="DCTERMS.W3CDTF" content="2021-06-21"/>
+<metadata name="OVERHEIDop.datumOntvangst" scheme="DCTERMS.W3CDTF" content="2021-06-21"/>
+<metadata name="DC.type" scheme="OVERHEID.Informatietype" content="officiële publicatie"/>
+<metadata name="OVERHEID.organisationType" scheme="OVERHEID.Organisatietype" content="staten generaal"/>
+<metadata name="DC.creator" scheme="OVERHEID.StatenGeneraal" content="Tweede Kamer der Staten-Generaal"/>
+<metadata name="OVERHEID.category" scheme="OVERHEID.TaxonomieBeleidsagenda" content="Economie | Ondernemen"/>
+<metadata name="OVERHEID.category" scheme="OVERHEID.TaxonomieBeleidsagenda" content="Sociale zekerheid | Organisatie en beleid"/>
+<metadata name="DC.type" scheme="OVERHEIDop.AanhangselTypen" content="Antwoord"/>
+<metadata name="DC.type" scheme="OVERHEIDop.Parlementair" content="Aanhangsel van de Handelingen"/>
+<metadata name="DC.identifier" scheme="OVERHEIDop.ParlID" content="ah-tk-20202021-3235"/>
+</metadata_gegevens>

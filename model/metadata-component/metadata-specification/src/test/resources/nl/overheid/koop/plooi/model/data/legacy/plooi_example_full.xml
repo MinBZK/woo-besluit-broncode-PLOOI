@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plooi:plooi xmlns:plooi="http://standaarden.overheid.nl/plooi/terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/">
+    <plooi:meta>
+        <plooi:owmskern>
+            <dcterms:identifier>test-8f03c902-1bb1-11ec-9621-0242ac130002_1</dcterms:identifier>
+            <dcterms:title>Bijlage 1 Organisatie- en mandaatbesluit DG Belastingdienst</dcterms:title>
+            <dcterms:language>Nederlands</dcterms:language>
+            <dcterms:type resourceIdentifier="https://identifier.overheid.nl/tooi/def/thes/kern/c_465163c9">besluit</dcterms:type>
+            <dcterms:creator resourceIdentifier="https://identifier.overheid.nl/tooi/id/ministerie/mnre1090" scheme="overheid:Ministerie">ministerie van Financiën</dcterms:creator>
+            <overheid:authority resourceIdentifier="https://identifier.overheid.nl/tooi/id/ministerie/mnre1090" scheme="overheid:Ministerie">ministerie van Financiën</overheid:authority>
+        </plooi:owmskern>
+        <plooi:owmsmantel>
+            <dcterms:publisher resourceIdentifier="https://identifier.overheid.nl/tooi/id/ministerie/mnre1010" scheme="overheid:Ministerie">ministerie van Algemene Zaken</dcterms:publisher>
+            <dcterms:source resourceIdentifier="../pdf/Bijlage+1+bij+Organisatie-+en+Mandaatbesluit+Directoraat-Generaal+Belastingdienst.pdf">../pdf/Bijlage+1+bij+Organisatie-+en+Mandaatbesluit+Directoraat-Generaal+Belastingdienst.pdf</dcterms:source>
+            <dcterms:available>
+                <start>1970-07-01</start>
+                <end>2025-01-01</end>
+            </dcterms:available>
+            <dcterms:issued>2016-12-13</dcterms:issued>
+            <dcterms:subject>onderwerp een</dcterms:subject>
+            <dcterms:subject>onderwerp twee</dcterms:subject>
+            <dcterms:description>Document omschrijving</dcterms:description>
+            <dcterms:relation resourceIdentifier="plooicb-2010-12269">plooicb-2010-12269</dcterms:relation>
+        </plooi:owmsmantel>
+        <plooi:othermeta>
+            <plooi:bronmeta>
+                <dcterms:identifier>xyz-2010-1_1</dcterms:identifier>
+                <plooi:source-label>test</plooi:source-label>
+            </plooi:bronmeta>
+        </plooi:othermeta>
+        <plooi:plooiipm>
+            <plooi:versie>1</plooi:versie>
+            <dcterms:identifier>test-bc070d297305d6b68048ac7722820f95_1</dcterms:identifier>
+            <plooi:informatiecategorie resourceIdentifier="https://identifier.overheid.nl/tooi/def/thes/kern/c_465163c9">besluit</plooi:informatiecategorie>
+            <plooi:verantwoordelijke resourceIdentifier="https://identifier.overheid.nl/tooi/id/ministerie/mnre1090" scheme="overheid:Ministerie">ministerie van Financiën</plooi:verantwoordelijke>
+            <plooi:topthema resourceIdentifier="https://identifier.overheid.nl/dummy/thema1">Thema 1</plooi:topthema>
+            <plooi:topthema resourceIdentifier="https://identifier.overheid.nl/dummy/thema2">Thema 2</plooi:topthema>
+            <plooi:aanbieder>Rijksoverheid.nl</plooi:aanbieder>
+            <plooi:extrametadata name="plooi.displayfield.one">One</plooi:extrametadata>
+            <plooi:extrametadata name="plooi.displayfield.two">Two</plooi:extrametadata>
+        </plooi:plooiipm>
+    </plooi:meta>
+    <plooi:body>
+        <plooi:tekst xmlns="http://www.w3.org/1999/xhtml">Tekst</plooi:tekst>
+        <plooi:documenten>
+            <plooi:document published="true">
+                <plooi:titel>Titel 1</plooi:titel>
+                <plooi:manifestatie-label>PDF doc</plooi:manifestatie-label>
+                <plooi:bestandsnaam>6. RE  Questions_Redacted.pdf</plooi:bestandsnaam>
+                <plooi:timestamp>2007-12-03T10:15:30Z</plooi:timestamp>
+            </plooi:document>
+            <plooi:document published="false">
+                <plooi:manifestatie-label>XML doc</plooi:manifestatie-label>
+                <plooi:bestandsnaam>Document.xml</plooi:bestandsnaam>
+                <plooi:hash>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</plooi:hash>
+            </plooi:document>
+        </plooi:documenten>
+    </plooi:body>
+</plooi:plooi>

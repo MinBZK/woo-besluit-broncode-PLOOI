@@ -1,0 +1,1 @@
+export type Controllers = 'metadata' | 'documenten' | '_zoek';

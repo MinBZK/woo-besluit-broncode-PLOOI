@@ -1,0 +1,339 @@
+[
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_1f37c612",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Arbeidsvoorwaarden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Levensloop",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ontslag",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_d363776f",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Bouwnijverheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Industrie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overige economische sectoren",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_824ce7ff",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Burgerlijk recht",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_f28344a5",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "De Nederlandse Antillen en Aruba",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_989e37d9",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Dieren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Planten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Voedselkwaliteit",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_2e9944e7",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Emigratie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Tijdelijk verblijf",
+				"@language": "nl"
+			},
+			{
+				"@value": "Immigratie",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Financieel toezicht",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_f47ad6ca",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Fiscaal",
+				"@language": "nl"
+			},
+			{
+				"@value": "Reizen",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Gemeenten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Koninklijk Huis",
+				"@language": "nl"
+			},
+			{
+				"@value": "Parlement",
+				"@language": "nl"
+			},
+			{
+				"@value": "Provincies",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rijksoverheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Waterschappen",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_17a86a17",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Huren en verhuren",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kopen en verkopen",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_87d3d66c",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "ICT",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_391585db",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Inkomensbeleid",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_576c2bd7",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Internationale samenwerking",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_0fe7c5e7",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Jongeren",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_f72b706a",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Kunst",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_daaa67b3",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Militaire missies",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_76136c82",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Nabestaanden",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_399f194b",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Nederlanderschap",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_cfc7d5ab",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Organisatie en beleid",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_c232ae4a",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Overige vormen van onderwijs",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_d772bf06",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Politie, brandweer en hulpdiensten",
+				"@language": "nl"
+			},
+			{
+				"@value": "Rampen",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_319461d7",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Spoor",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_a6c5e5b8",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Sport",
+				"@language": "nl"
+			},
+			{
+				"@value": "Toerisme",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_d58b78ca",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Staatsveiligheid",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_341c5bef",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Verzekeringen",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_8b081a63",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Voeding",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_a71dc533",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Waterkeringen en waterbeheer",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_f411e390",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Weg",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_fc530104",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Werkgelegenheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Werkloosheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ziekte en arbeidsongeschiktheid",
+				"@language": "nl"
+			}
+		]
+	}
+]

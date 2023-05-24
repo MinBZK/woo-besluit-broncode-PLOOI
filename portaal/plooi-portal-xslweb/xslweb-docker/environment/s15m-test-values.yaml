@@ -1,0 +1,24 @@
+
+image:
+  registry:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  image: plooi-portal-xslweb-test
+
+podLabels:
+  tier: vertrouwd
+  group: plooi-test
+  ingress-controller-frontoffice-policy: allow
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 2Gi
+  requests:
+    cpu: 250m
+    memory: 512Mi
+
+repositoryService: repository-main-service
+searchService: search-main-service
+
+ingress:
+  ingressClassName: nginx
+  mainHostname:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS

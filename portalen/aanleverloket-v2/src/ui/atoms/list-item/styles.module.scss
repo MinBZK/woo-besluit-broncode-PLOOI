@@ -1,0 +1,31 @@
+@import "../../icons.scss";
+
+.list_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &__linked {
+        padding-left: 1em;
+        clear: both;
+
+        background: {
+            position: 0 .5em;
+            repeat: no-repeat;
+            image: $dartRightBlueIcon;
+            size: 6px 9px;
+        }
+
+        a {
+            background-position: right 50%;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__bold{
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,23 @@
+ul.list--subselection ul.list--subselection { 
+  padding-left:1em 
+}
+
+.facet-box {
+  overflow-y: scroll; 
+  max-height: 15em; 
+  border: 1px solid #ccc; 
+  padding: 0.4em;
+}
+
+#searchresult-searchform2 {
+  overflow: hidden;
+}
+
+#btn-load-all-pages {
+  /* float: right; */
+}
+
+.js-filterresults__resultmother fieldset {
+    margin-bottom: .5em;
+    margin-top: -.5em;
+}

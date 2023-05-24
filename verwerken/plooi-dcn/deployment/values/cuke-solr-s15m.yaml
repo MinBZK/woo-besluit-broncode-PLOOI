@@ -1,0 +1,57 @@
+global:
+  imageRegistry:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  imagePullSecrets:
+    - harbor-puller
+image:
+  tag: "9.1.0"
+resources:
+  limits:
+    memory: 4096Mi
+    cpu: 250m
+  requests:
+    memory: 1024Mi
+    cpu: 250m
+javaMem: "-Xmx1g"
+livenessProbe:
+  enabled: no
+readinessProbe:
+  enabled: no
+auth:
+  enabled: no
+replicaCount: 1
+collectionReplicas: 1
+coreNames: []
+collection: ""
+ingress:
+  enabled: yes
+  ingressClassName: nginx
+podLabels:
+  ingress-controller-frontoffice-policy: allow
+  tier: vertrouwd
+  group: cucumber
+serviceAccount:
+  create: no
+  name: sp-nonroot
+
+persistence:
+  enabled: no
+
+metrics:
+  enabled: no
+
+zookeeper:
+  replicaCount: 1
+  podLabels:
+    tier: vertrouwd
+    group: cucumber
+  persistence:
+    enabled: no
+  serviceAccount:
+    create: no
+    name: sp-nonroot
+  resources:
+    limits:
+      memory: 256Mi
+      cpu: 250m
+  metrics:
+    enabled: no

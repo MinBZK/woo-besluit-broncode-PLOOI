@@ -1,0 +1,19 @@
+<xpo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" versie="1" id="e5c21cec-4d6a-4768-8687-0b8089f9901b" subid="plooicb-2021-4" userid="SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS">
+  <toevoegenwork documentsoort="plooi-contentbeheer" publiceren_na="2021-01-21T13:22:00.408568Z" publiceren_voor="2021-01-22T13:22:00.408568Z" prioriteit="Normaal" embargo="false">
+    <verschijningsvormen>
+      <verschijningsvorm protocol="SMB" adres="\\file-proces\Proces_Trunk\Plooi-Contentbeheer\pdf\plooicb-2021-4.pdf" bestandstype="pdf" verschijningsvormtype="pdf">
+        <metadata key="dcterms.available" doel="Work">2021-01-21</metadata>
+        <metadata key="dcterms.creator" doel="Work">Ministerie van Feesten en Partijen</metadata>
+        <metadata key="dcterms.description" doel="Work">Bacon ipsum dolor amet turducken hamburger cupim tenderloin tongue, pork belly sausage salami pig. Frankfurter strip steak cupim t-bone capicola fatback. Tri-tip cupim pancetta, fatback kevin ham ribeye meatloaf prosciutto chicken bacon jerky jowl. Bresaola burgdoggen kielbasa porchetta hamburger bacon pork loin.</metadata>
+        <metadata key="dcterms.identifier" doel="Work">plooicb-2021-4</metadata>
+        <metadata key="dcterms.title" doel="Work">Níëuw &amp; plooidocument MinBZK!</metadata>
+        <metadata key="dcterms.type" doel="Work">Advies</metadata>
+        <metadata key="dcterms.subject" doel="Work">Europese zaken</metadata>
+        <metadata key="dcterms.language" doel="Work">nl</metadata>
+      </verschijningsvorm>
+    </verschijningsvormen>
+    <stuurgegeven key="InternId" identity="true">plooicb-2021-4</stuurgegeven>
+    <stuurgegeven key="ExpressionLabel" identity="true">1</stuurgegeven>
+    <stuurgegeven key="Collectie" identity="true"></stuurgegeven>
+  </toevoegenwork>
+</xpo>

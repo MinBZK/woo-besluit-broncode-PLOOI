@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "repository.fullname" . }}-service
+  labels:
+    {{- include "repository.labels" . | nindent 4 }}
+spec:
+  type: ClusterIP
+  ports:
+    - name: srvc-port
+      port: 8010
+      targetPort: 8010
+      protocol: TCP
+  selector:
+    {{- include "repository.selectorLabels" . | nindent 4 }}

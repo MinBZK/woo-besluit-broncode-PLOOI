@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <id>0acb97b8-b3cf-4654-92c2-0fa4199c100c</id>
+    <type>publicatie</type>
+    <typeid>39e80bd4-91fc-4ba0-95be-48c47f3602da</typeid>
+    <subtype></subtype>
+    <canonical>http://__MOCK_SERVICE__/www.rijksoverheid.nl/documenten/publicaties/1985/08/05/akte-van-aanstelling</canonical>
+    <dataurl>http://__MOCK_SERVICE__/opendata.rijksoverheid.nl/v1/sources/rijksoverheid/documents/0acb97b8-b3cf-4654-92c2-0fa4199c100c</dataurl>
+    <title>Akte van aanstelling 001474</title>
+    <files>
+        <file>
+            <fileurl>http://__MOCK_SERVICE__/opendata.rijksoverheid.nl/binaries/rijksoverheid/documenten/publicaties/1985/08/05/akte-van-aanstelling/Akte+van+aanstelling_001474.pdf
+            </fileurl>
+            <mimetype>application/pdf</mimetype>
+            <filesize>662793</filesize>
+            <filename>Akte van aanstelling_001474.pdf</filename>
+            <filetitle>Akte van aanstelling</filetitle>
+            <numberofpages>0</numberofpages>
+        </file>
+        <file>
+            <fileurl>http://__MOCK_SERVICE__/opendata.rijksoverheid.nl/binaries/rijksoverheid/documenten/publicaties/1985/08/05/akte-van-aanstelling/Supplement+akte+van+aanstelling_001474.pdf
+            </fileurl>
+            <mimetype>application/pdf</mimetype>
+            <filesize>404653</filesize>
+            <filename>Supplement akte van aanstelling_001474.pdf</filename>
+            <filetitle>Supplement akte van aanstelling</filetitle>
+            <numberofpages>0</numberofpages>
+        </file>
+    </files>
+    <introduction></introduction>
+    <content/>
+    <additionalcontent></additionalcontent>
+    <authorities>
+        <department>Ministerie van Defensie</department>
+    </authorities>
+    <creators>
+        <department>Ministerie van Algemene Zaken</department>
+    </creators>
+    <subjects>
+        <subject>arbeidsverhoudingen</subject>
+    </subjects>
+    <subjectids>
+        <id>Subject above added for test purposes</id>
+    </subjectids>
+    <themes/>
+    <organisationalunits>
+        <department>Ministerie van Defensie</department>
+    </organisationalunits>
+    <organisationalunitids>
+        <id>dccd9d3c-daba-4bd9-be55-17f7e1b5e171</id>
+    </organisationalunitids>
+    <lastmodified>2020-12-16T12:19:20.245Z</lastmodified>
+    <issued>1985-08-05T09:52:00.000Z</issued>
+    <available>2019-12-17T10:53:00.000Z</available>
+    <frontenddate>1985-08-05T09:52:00.000Z</frontenddate>
+    <initialdate>1985-08-05T11:52:00.000+02:00</initialdate>
+    <license>CC0 1.0 Universal</license>
+    <rightsholders>
+        <department>Ministerie van Algemene Zaken</department>
+    </rightsholders>
+    <languages>
+        <language>nl-NL</language>
+    </languages>
+    <locations>
+        <location>Nederland</location>
+    </locations>
+</document>

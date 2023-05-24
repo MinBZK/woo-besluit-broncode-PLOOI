@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plooi:plooi xmlns:plooi="http://standaarden.overheid.nl/plooi/terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/">
+    <plooi:meta>
+        <plooi:owmskern>
+            <dcterms:identifier>oep-9f17b506fd03cafa9e242bfdb1071d9bb3e2fbf2_1</dcterms:identifier>
+            <dcterms:title>36202, nr. 56 - Wijziging van enkele belastingwetten en enige andere wetten (Belastingplan 2023)</dcterms:title>
+            <dcterms:language>Nederlands</dcterms:language>
+            <dcterms:type resourceIdentifier="https://identifier.overheid.nl/tooi/def/thes/kern/c_056a75e1" scheme="overheid:Informatietype">Kamerstuk</dcterms:type>
+            <dcterms:creator resourceIdentifier="https://identifier.overheid.nl/tooi/id/oorg/oorg10002" scheme="overheid:AndereOrganisatie">Tweede Kamer</dcterms:creator>
+            <overheid:authority resourceIdentifier="https://identifier.overheid.nl/tooi/id/oorg/oorg10002" scheme="overheid:AndereOrganisatie">Tweede Kamer</overheid:authority>
+        </plooi:owmskern>
+        <plooi:owmsmantel>
+            <dcterms:publisher resourceIdentifier="https://identifier.overheid.nl/tooi/id/organisatie_onbekend">Onbekend</dcterms:publisher>
+            <dcterms:source resourceIdentifier="https://zoek.officielebekendmakingen.nl/kst-36202-56.html">https://zoek.officielebekendmakingen.nl/kst-36202-56.html</dcterms:source>
+            <dcterms:issued>2022-11-08</dcterms:issued>
+            <dcterms:description>Wijziging van enkele belastingwetten en enige andere wetten (Belastingplan 2023); Amendement; Gewijzigd amendement van het lid Tony van Dijck ter vervanging van nr. 12 over de BTW op voedingsmiddelen op 0%</dcterms:description>
+        </plooi:owmsmantel>
+        <plooi:othermeta>
+            <plooi:bronmeta>
+                <dcterms:identifier>kst-36202-56</dcterms:identifier>
+                <plooi:source-label>oep</plooi:source-label>
+                <plooi:creator>Tweede Kamer der Staten-Generaal</plooi:creator>
+                <plooi:authority>Tweede Kamer der Staten-Generaal</plooi:authority>
+            </plooi:bronmeta>
+        </plooi:othermeta>
+        <plooi:plooiipm>
+            <plooi:versie>1</plooi:versie>
+            <dcterms:identifier>oep-9f17b506fd03cafa9e242bfdb1071d9bb3e2fbf2</dcterms:identifier>
+            <plooi:informatiecategorie resourceIdentifier="https://identifier.overheid.nl/tooi/def/thes/kern/c_056a75e1" scheme="overheid:Informatietype">Kamerstuk</plooi:informatiecategorie>
+            <plooi:verantwoordelijke resourceIdentifier="https://identifier.overheid.nl/tooi/id/oorg/oorg10002" scheme="overheid:AndereOrganisatie">Tweede Kamer</plooi:verantwoordelijke>
+            <plooi:topthema resourceIdentifier="https://identifier.overheid.nl/tooi/def/thes/top/c_25e30d03" scheme="plooi:Topthema">belasting</plooi:topthema>
+            <plooi:aanbieder>officielebekendmakingen.nl</plooi:aanbieder>
+            <plooi:extrametadata name="plooi.displayfield.vergaderjaar">2022-2023</plooi:extrametadata>
+            <plooi:extrametadata name="plooi.displayfield.indiener">A.P.C. (Tony) van Dijck</plooi:extrametadata>
+            <plooi:extrametadata name="plooi.displayfield.documentsubsoort">Amendement</plooi:extrametadata>
+        </plooi:plooiipm>
+    </plooi:meta>
+    <plooi:body>
+        <plooi:documenten>
+            <plooi:document published="false">
+                <plooi:manifestatie-label>metadataowms</plooi:manifestatie-label>
+                <plooi:url>https://repository.overheid.nl/frbr/officielepublicaties/kst/36202/kst-36202-56/1/metadataowms/metadata_owms.xml</plooi:url>
+                <plooi:bestandsnaam>metadata_owms.xml</plooi:bestandsnaam>
+                <plooi:hash>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</plooi:hash>
+            </plooi:document>
+            <plooi:document published="false">
+                <plooi:manifestatie-label>xml</plooi:manifestatie-label>
+                <plooi:url>https://repository.overheid.nl/frbr/officielepublicaties/kst/36202/kst-36202-56/1/xml/kst-36202-56.xml</plooi:url>
+                <plooi:bestandsnaam>kst-36202-56.xml</plooi:bestandsnaam>
+                <plooi:hash>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</plooi:hash>
+            </plooi:document>
+            <plooi:document published="false">
+                <plooi:manifestatie-label>html</plooi:manifestatie-label>
+                <plooi:url>https://repository.overheid.nl/frbr/officielepublicaties/kst/36202/kst-36202-56/1/html/kst-36202-56.html</plooi:url>
+                <plooi:bestandsnaam>kst-36202-56.html</plooi:bestandsnaam>
+                <plooi:hash>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</plooi:hash>
+            </plooi:document>
+            <plooi:document published="true">
+                <plooi:manifestatie-label>pdf</plooi:manifestatie-label>
+                <plooi:url>https://repository.overheid.nl/frbr/officielepublicaties/kst/36202/kst-36202-56/1/pdf/kst-36202-56.pdf</plooi:url>
+                <plooi:bestandsnaam>kst-36202-56.pdf</plooi:bestandsnaam>
+                <plooi:hash>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</plooi:hash>
+            </plooi:document>
+            <plooi:document published="false">
+                <plooi:manifestatie-label>solr</plooi:manifestatie-label>
+                <plooi:bestandsnaam>solr.json</plooi:bestandsnaam>
+                <plooi:hash>fafac0eefc8af61d3b32e33896f302adcb03bf9d</plooi:hash>
+            </plooi:document>
+        </plooi:documenten>
+    </plooi:body>
+</plooi:plooi>

@@ -1,0 +1,66 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/oep-8b3d7d3bb9df556ae725c0467c7edc9f5ed1f848",
+    "weblocatie" : "https://zoek.officielebekendmakingen.nl/h-tk-20202021-87-3.html",
+    "creatiedatum" : "2021-06-10",
+    "geldigheid" : {
+      "begindatum" : "2021-08-31"
+    },
+    "identifiers" : [ "h-tk-20202021-87-3" ],
+    "verantwoordelijke" : {
+      "type" : "overheid:AndereOrganisatie",
+      "id" : "https://identifier.overheid.nl/tooi/id/oorg/oorg10002",
+      "label" : "Tweede Kamer",
+      "bronwaarde" : "Tweede Kamer der Staten-Generaal"
+    },
+    "publisher" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/organisatie_onbekend",
+      "label" : "Onbekend"
+    },
+    "opsteller" : {
+      "type" : "overheid:AndereOrganisatie",
+      "id" : "https://identifier.overheid.nl/tooi/id/oorg/oorg10002",
+      "label" : "Tweede Kamer",
+      "bronwaarde" : "Tweede Kamer der Staten-Generaal"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "titelcollectie" : {
+      "officieleTitel" : "Behandeling van het wetsvoorstel Wijziging van de begrotingsstaat van het Ministerie van Volksgezondheid, Welzijn en Sport (XVI) voor het jaar 2021 (Vierde incidentele suppletoire begroting inzake Coronamaatregelen) (35763); en een ander wetsvoorstel."
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "type" : "overheid:Informatietype",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_a17ef403",
+        "label" : "Handelingen"
+      } ],
+      "themas" : [ {
+        "type" : "plooi:Topthema",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b",
+        "label" : "organisatie en bedrijfsvoering",
+        "bronwaarde" : "Parlement"
+      } ]
+    },
+    "extraMetadata" : [ {
+      "prefix" : "plooi.displayfield",
+      "velden" : [ {
+        "key" : "vergaderdatum",
+        "values" : [ "2021-06-10" ]
+      }, {
+        "key" : "vergaderjaar",
+        "values" : [ "2020-2021" ]
+      }, {
+        "key" : "documentsubsoort",
+        "values" : [ "Hamerstukken" ]
+      } ]
+    } ]
+  },
+  "plooiIntern" : {
+    "dcnId" : "oep-8b3d7d3bb9df556ae725c0467c7edc9f5ed1f848",
+    "aanbieder" : "officielebekendmakingen.nl",
+    "extId" : [ "dummy" ],
+    "sourceLabel" : "oep"
+  }
+}

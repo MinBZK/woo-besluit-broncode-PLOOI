@@ -1,0 +1,8 @@
+<xpo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" versie="1" id="e5c21cec-4d6a-4768-8687-0b8089f9901b" subid="plooicb-2021-4" userid="SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS">
+  <verwijderenwork documentsoort="plooi-contentbeheer" publiceren_na="2021-02-09T11:11:44.9434577Z" publiceren_voor="2021-02-10T11:11:44.9434577Z" prioriteit="Normaal" embargo="false">
+    <verschijningsvormen />
+    <stuurgegeven key="InternId" identity="true">plooicb-2021-4</stuurgegeven>
+    <stuurgegeven key="ExpressionLabel" identity="true">1</stuurgegeven>
+    <stuurgegeven key="Collectie" identity="true"></stuurgegeven>
+  </verwijderenwork>
+</xpo>

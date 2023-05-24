@@ -1,0 +1,5 @@
+apiVersion: v2
+name: mockserver
+description: Kubernetes Helm chart for the mock server (https://www.mock-server.com/)
+type: application
+version: 1.0.0

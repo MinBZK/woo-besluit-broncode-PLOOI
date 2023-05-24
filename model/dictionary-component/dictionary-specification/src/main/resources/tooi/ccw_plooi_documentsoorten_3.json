@@ -1,0 +1,959 @@
+[
+{
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_1cf18f83",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "aanvraag ex art. 3 Wob"
+  }, {
+    "@language" : "nl",
+    "@value" : "aanvraag ex art. 4.1 Woo"
+  }, {
+    "@language" : "nl",
+    "@value" : "Wob-verzoek"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_4f50ca9c",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Beslissing op verzoek art. 3 Wob"
+  }, {
+    "@language" : "nl",
+    "@value" : "Beslissing op verzoek art. 4.1 Woo"
+  } ]
+},
+{
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_3300f29a",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Volgens opdracht of krachtens functie uitgebracht schriftelijk verslag over een gebeurtenis of een beschrijving van een toestand."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "rapport"
+  } ]
+},
+
+
+ {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_002fc258",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Officiële toestemming van de overheid om een bepaalde activiteit uit te voeren, al dan niet onder bepaalde voorwaarden. "
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "vergunning"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_03c52ba0",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Kamervraag zonder antwoord"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_056a75e1",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Kamerstuk"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_0670bae1",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Stcrt"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Staatscourant"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_06a67c95",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "bezwaarschrift"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_0e425c23",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "adviesvoorstel"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_12cd7b9b",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Bgr"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Blad gemeenschappelijke regeling"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_1cf18f83",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Wob-/Woo-verzoek"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_2977c34f",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "beslisnota"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_2ab17960",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Beschikking waarbij wordt vastgesteld dat een persoon of instelling aan bepaalde eisen voldoet."
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "jci1.3:c:BWBR0005730&hoofdstuk=5&paragraaf=5.5&aanwijzing=5.17&lid=4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "erkenningsbeschikking"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_2aedadff",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "toespraak"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_2c0438f4",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "instemmingsbeschikking"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_30e8b503",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Een concessie is een bij beschikking verleende vergunning van de overheid die anderen uitsluit."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "concessie"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_386e74cb",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "beleidsovereenkomst"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "convenant"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_38ba44de",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "evaluatierapport"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_3d782f30",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "jaarverslag"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_3eb5572a",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "rondschrijven"
+  }, {
+    "@language" : "nl",
+    "@value" : "rondzendbrief"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Een brief die aan verschillende personen of instellingen wordt rondgestuurd. Kan zowel toelichtend als regelgevend van karakter zijn."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "circulaire"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_42e406dd",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "vergaderverslag"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_45be34e9",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "administratieve boete"
+  }, {
+    "@language" : "nl",
+    "@value" : "bestuurlijke boete"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "beschikking tot opleggen boete"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_465163c9",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "publiekrechtelijke rechtshandeling"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Een besluit is in de Nederlandse wetgeving een schriftelijke beslissing van een bestuursorgaan, inhoudende een publiekrechtelijke rechtshandeling."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "besluit"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_4efe1293",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "inspectierapport"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_4f50ca9c",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "beslissing op Wob-/Woo-verzoek"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_566a4430",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "beschikking tot opleggen last onder dwangsom"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_5824891d",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "subsidieaanvraag"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_5b1055aa",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "plan"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_61e3099a",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Stb"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Staatsblad"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_6d494ab6",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Kamervraag met antwoord"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_6f49bf34",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "onderzoeksrapport"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_7652d853",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "brief"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_7eba29ad",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "persbericht"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_81cc2eb5",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Gmb"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Gemeenteblad"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_852da199",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "AB"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Afkondigingsblad"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_8b92eab4",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Een rapport van de minister van Buitenlandse Zaken aan de minister voor Vreemdelingenzaken en Integratie, met informatie over de situatie in een land van herkomst van asielzoekers of over één individuele asielaanvraag, dat wordt gebruikt als informatiebron bij de beoordeling van asielverzoeken."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ambtsbericht"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_9376c730",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "memo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "beleidsnota"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_97f44ea5",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "brochure"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_99d3e284",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "verantwoordingsrapport"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_9ecc0007",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Gegevens over hoe doelstellingen, werkwijze en interne structuur van een organisatie."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "organisatiegegevens"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_a17ef403",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Handelingen"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_a1dae55d",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Overzicht van aanstaande en/of openstaande onderwerpen die moeten worden besproken en/of uitgevoerd binnen een bepaalde termijn."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "termijnagenda"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_a40458df",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "adviesaanvraag"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_a55b7649",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "beschikking tot opleggen last onder bestuursdwang"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_a6f44748",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "jaarplan"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_acb44d77",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "benoemingsbeschikking"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_aebfec50",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "subsidiebeschikking"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_b3179555",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Trb"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Tractatenblad"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_bdc265d5",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Prb"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Provinciaal blad"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_c1956ef0",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "aanwijzingsbeschikking"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_c2f56984",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "nieuwsbericht"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_c97b118a",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Wsb"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Waterschapsblad"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_cccba364",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "voortgangsrapport"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_d2a6707c",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ministeriële regeling"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_d4a4792f",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Een document dat de op een vergadering genomen besluit (kort) samenvat. Soms fysiek onderdeel van het vergaderverslag."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "besluitenlijst"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_d506b718",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "advies"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_d943ca24",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ontheffingsaanvraag"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_dad2a6ed",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "vergunningaanvraag"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_de27ae7a",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Een vergaderstuk afkomstig van een actor die niet tot het vergaderende gremium behoort, maar dat op diens verzoek, of op eigen initiatief van het vergaderende gremium op de vergaderagenda is geplaatst, over het algemeen alleen ter informatie."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ingekomen stuk"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_df2cb56e",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Reactie die een belanghebbende aan het bevoegd gezag kan sturen als reactie op een ontwerp-besluit."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "zienswijze"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_dfa0ff1f",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "begroting"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_ef935990",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "klaagschrift"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "klacht"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_f1652921",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "niet-dossierstuk"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_f7dc55d9",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ontheffingsbesluit"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Beschikking waarbij in een individueel geval een uitzondering op een wettelijk verbod of gebod wordt gemaakt."
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "jci1.3:c:BWBR0005730&hoofdstuk=5&paragraaf=5.5&aanwijzing=5.17&lid=2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "ontheffingsbeschikking"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_f90465b3",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Een vergaderstuk dat een opsomming bevat van de op een vergadering te bespreken zaken, vaak met vermelding van stukken, tijdsplanning en deelnemers. "
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "agenda"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_fbaa7e4b",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "nl",
+    "@value" : "Een bij besluit vastgestelde algemene regel, niet zijnde een algemeen verbindend voorschrift, omtrent de afweging van belangen, de vaststelling van feiten of de uitleg van wettelijke voorschriften bij het gebruik van een bevoegdheid van een bestuursorgaan (art 1:3 lid 4 Awb)."
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "jci1.3:c:BWBR0005537&hoofdstuk=1&titeldeel=1.1&artikel=1:3&lid=4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "beleidsregel"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_0488ebea",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_38ba44de"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_4efe1293"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_6f49bf34"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_8b92eab4"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_99d3e284"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_cccba364"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "rapport"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/expandeert" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_3300f29a"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_0c722aae",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_2aedadff"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_3eb5572a"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_7652d853"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_7eba29ad"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_97f44ea5"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_9ecc0007"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_c2f56984"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "communicatie-uiting"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/expandeert" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_75007d14"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_1448ec0f",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_42e406dd"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_d4a4792f"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_de27ae7a"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_f90465b3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "vergaderstuk"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/expandeert" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_7f9dffa7"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_149a3964",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_1cf18f83"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_4f50ca9c"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Woo-procedure"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_1672ca89",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_0e425c23"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_a40458df"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_d506b718"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "adviesdocument"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/expandeert" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_7051a61f"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_1e96f394",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_465163c9"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_5b1055aa"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_d2a6707c"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_fbaa7e4b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "regelgeving en formele besluitvorming"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_570b2619",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_0c722aae"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_1448ec0f"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_149a3964"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_1672ca89"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_1e96f394"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_722842d2"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_83cb2845"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_a4ec93a9"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_c27612fd"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_f49814b2"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_386e74cb"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "PLOOI documentsoort"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_722842d2",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_2977c34f"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_3d782f30"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_9376c730"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_a1dae55d"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_a6f44748"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_dfa0ff1f"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_0488ebea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "beleidsdocument"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/expandeert" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_10eb451d"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_83cb2845",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_06a67c95"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_5824891d"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_d943ca24"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_dad2a6ed"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_df2cb56e"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_ef935990"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "document van burger"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/expandeert" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_7ab92a02"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_a3307697",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_03c52ba0"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_6d494ab6"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Kamervraag"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/expandeert" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_dc6ba2eb"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_a4ec93a9",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_002fc258"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_2ab17960"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_2c0438f4"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_30e8b503"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_4f50ca9c"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_acb44d77"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_aebfec50"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_c1956ef0"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_f7dc55d9"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_ac6749c5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "beschikking"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/expandeert" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_93b0d113"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_ac6749c5",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_45be34e9"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_566a4430"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_a55b7649"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "beschikking tot handhaving"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/expandeert" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_1c7656ac"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_c27612fd",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_056a75e1"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_a17ef403"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_f1652921"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_a3307697"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "parlementair document"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/expandeert" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_1986dbe5"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_f49814b2",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Collection" ],
+  "http://www.w3.org/2004/02/skos/core#member" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_0670bae1"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_12cd7b9b"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_61e3099a"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_81cc2eb5"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_852da199"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_b3179555"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_bdc265d5"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_c97b118a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "publicatieblad"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/set/ccw_plooi_documentsoorten/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "https://identifier.overheid.nl/tooi/def/wl/CollectiegebaseerdeConceptwaardelijst" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Waardelijst met documentsoorten ten behoeve van PLOOI."
+  } ],
+  "http://purl.org/pav/derivedFrom" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/ont"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/wl"
+  }, {
+    "@id" : "http://purl.org/pav"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "Correctie label vergaderstuk"
+  } ],
+  "http://www.w3.org/ns/prov#generatedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2022-05-16T18:54:09.550+02:00"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/publicatiedatum" : [ {
+    "@value" : "2022-05-16"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/titel" : [ {
+    "@value" : "PLOOI documentsoorten"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/verantwoordelijke" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1034"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/zichtdatum" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2022-05-16"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/afgeleidVanVersie" : [ {
+    "@value" : ""
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/bronversie" : [ {
+    "@value" : ""
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/collectie" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_570b2619"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/volgnummer" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ]
+} ]

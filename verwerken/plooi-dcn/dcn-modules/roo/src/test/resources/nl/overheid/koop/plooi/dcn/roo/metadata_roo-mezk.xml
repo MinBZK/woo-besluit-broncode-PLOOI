@@ -1,0 +1,31 @@
+<originalData>
+    <record>
+        <identifier>10621</identifier>
+        <organisatieType>Ministerie</organisatieType>
+        <naam>Economische Zaken en Klimaat</naam>
+        <afkorting>EZK</afkorting>
+        <beschrijving>Het ministerie van Economische Zaken en Klimaat (EZK) staat voor een duurzaam, ondernemend Nederland. We zetten ons in voor een uitstekend ondernemersklimaat en een sterke internationale concurrentiepositie. Door de juiste randvoorwaarden te creëren en door ondernemers de ruimte te geven om te vernieuwen en te groeien. Door samenwerking te stimuleren tussen onderzoekers en ondernemers. Zo bouwen we onze topposities in energie, industrie en diensten verder uit en investeren we in een krachtig en duurzaam Nederland.</beschrijving>
+        <url>https://almanak.overheid.nl/10621/Economische_Zaken_en_Klimaat</url>
+        <resourceIdentifier>https://identifier.overheid.nl/tooi/id/ministerie/mnre1045</resourceIdentifier>
+        <startDatum>2010-10-14</startDatum>
+        <datumMutatie>2022-01-16</datumMutatie>
+        <ictuCode>04017</ictuCode>
+        <topOrganisatie>
+            <identifier>10621</identifier>
+            <naam>Economische Zaken en Klimaat</naam>
+            <url>https://almanak.overheid.nl/10621/Economische_Zaken_en_Klimaat</url>
+        </topOrganisatie>
+        <bezoekAdres>
+            <straat>Bezuidenhoutseweg</straat>
+            <huisnummer>73</huisnummer>
+            <postcode>2594 AC</postcode>
+            <plaats>Den Haag</plaats>
+            <centroide/>
+        </bezoekAdres>
+        <postAdres>
+            <postbus>Postbus 20401</postbus>
+            <postcode>2500 EK</postcode>
+            <plaats>Den Haag</plaats>
+        </postAdres>
+    </record>
+</originalData>

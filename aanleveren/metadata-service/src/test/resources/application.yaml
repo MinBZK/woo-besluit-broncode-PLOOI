@@ -1,0 +1,24 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:h2:mem:postgres
+    username: sa
+    password: sa
+  jpa:
+    generate-ddl: true
+    defer-datasource-initialization: true
+
+metadataservice:
+  location-url: http://localhost:8080/overheid/openbaarmaken/api/v0/documenten/
+  pid-endpoint: http://localhost:8080/overheid/openbaarmaken/api/v0/documenten/
+  dcn:
+    dcn-host: http://localhost:8181
+    repository-url: http://localhost:8082
+    registration-url: http://localhost:8020
+
+plooi:
+  security:
+    enabled: false
+    plooi-iam-service-url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plooi:plooi xmlns:plooi="http://standaarden.overheid.nl/plooi/terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <plooi:meta>
+        <plooi:owmskern>
+            <dcterms:identifier>ronl-93c98efc83b267a3853f69bafd40977ad6cfa9fe_1</dcterms:identifier>
+        </plooi:owmskern>
+        <plooi:othermeta>
+            <plooi:bronmeta>
+                <plooi:source-label>ronl</plooi:source-label>
+                <dcterms:identifier>b91b0786-a5cf-47f2-91f1-bce8708eed0c</dcterms:identifier>
+            </plooi:bronmeta>
+        </plooi:othermeta>
+        <plooi:plooiipm>
+            <dcterms:identifier>ronl-93c98efc83b267a3853f69bafd40977ad6cfa9fe_1</dcterms:identifier>
+        </plooi:plooiipm>
+    </plooi:meta>
+    <plooi:body>
+        <plooi:documenten>
+            <plooi:document published="false">
+                <plooi:url>https://opendata.rijksoverheid.nl/v1/sources/rijksoverheid/documents/b91b0786-a5cf-47f2-91f1-bce8708eed0c</plooi:url>
+                <plooi:titel>Besluit Wob-verzoeken over een houthandelaar</plooi:titel>
+                <plooi:manifestatie-label>xml</plooi:manifestatie-label>
+                <plooi:bestandsnaam>b91b0786-a5cf-47f2-91f1-bce8708eed0c.xml</plooi:bestandsnaam>
+                <plooi:hash>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</plooi:hash>
+            </plooi:document>
+        </plooi:documenten>
+    </plooi:body>
+</plooi:plooi>

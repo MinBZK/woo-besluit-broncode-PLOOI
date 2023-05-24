@@ -1,0 +1,37 @@
+[
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_d506b718",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "adviesaanvraag",
+				"@language": "nl"
+			},
+			{
+				"@value": "adviesdocument",
+				"@language": "nl"
+			},
+			{
+				"@value": "adviesvoorstel",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_d2a6707c",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "regeling",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_fbaa7e4b",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "richtlijn",
+				"@language": "nl"
+			}
+		]
+	}
+]

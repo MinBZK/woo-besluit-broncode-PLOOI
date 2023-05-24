@@ -1,0 +1,41 @@
+{
+  "plooiIntern" : {
+    "dcnId" : "plooi-api-910d6f0dc5582679e01355d4b27fb762e499087b_1",
+    "extId" : [ "9495beca-ff69-4005-bb29-111111111111" ],
+    "sourceLabel" : "plooi-api"
+  },
+  "versies" : [ {
+    "nummer" : 1,
+    "oorzaak" : "aanlevering",
+    "openbaarmakingsdatum" : "2022-02-16",
+    "mutatiedatumtijd" : "2022-08-24T14:15:22Z",
+    "bestanden" : [ {
+      "gepubliceerd" : false,
+      "label" : "metadata",
+      "bestandsnaam" : "meta.json",
+      "hash" : "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+    }, {
+      "gepubliceerd" : true,
+      "label" : "document",
+      "bestandsnaam" : "document.pdf",
+      "hash" : "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+    } ]
+  }, {
+    "oorzaak" : "intrekking",
+    "redenVerwijderingVervanging" : "PDF bevat persoonsgegevens",
+    "wijzigingsdatum" : "2022-08-25",
+    "mutatiedatumtijd" : "2022-08-25T08:23:02Z"
+  }, {
+    "nummer" : 2,
+    "oorzaak" : "wijziging",
+    "redenVerwijderingVervanging" : "Gecorrigeerde PDF",
+    "wijzigingsdatum" : "2022-08-25",
+    "mutatiedatumtijd" : "2022-08-25T10:45:53Z",
+    "bestanden" : [ {
+      "gepubliceerd" : true,
+      "label" : "document",
+      "bestandsnaam" : "document_nieuw.pdf",
+      "hash" : "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+    } ]
+  } ]
+}

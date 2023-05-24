@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true">
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!-- <pattern>%d{yyyy-MM-dd} | %d{HH:mm:ss.SSS} | %5p | %logger{40} - %msg%n</pattern> -->
+            <pattern>%d{ISO8601} | %-5.5p %-40.40logger{40} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    
+    <springProfile name="integration">
+        <root level="INFO">
+            <appender-ref ref="STDOUT"/>
+        </root>
+        <!-- Containers should not store log files -->
+        <logger name="nl.overheid.koop" level="INFO"/>
+        <logger name="org.apache.fontbox" level="OFF"/>
+        <logger name="org.apache.pdfbox" level="OFF"/>
+        <logger name="org.apache.poi" level="OFF"/>
+        <logger name="org.apache.camel.component" level="WARN"/>
+        <logger name="org.apache.camel.support" level="WARN"/>
+        <logger name="org.apache.camel.support.jsse" level="ERROR"/>
+        <logger name="org.apache.http.client.protocol" level="ERROR"/>
+    </springProfile>
+
+</configuration>

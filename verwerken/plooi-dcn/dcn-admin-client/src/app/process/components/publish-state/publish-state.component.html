@@ -1,0 +1,41 @@
+<div *ngIf="!errorMsg">
+    <div class="columns">
+        <div class="column" *ngIf="page?.content?.length">
+            <table class="table--condensed table--striped table--container table__data-overview table--hover" >
+                <thead>
+                <tr>
+                    <td colspan="6">Documenten met indexatie-issues</td>
+                </tr>
+                <tr>
+                    <td colspan="6">Klik op een regel voor de document details</td>
+                </tr>
+                </thead>
+                <thead>
+                <tr>
+                    <th scope="col" class="u-columnwidth-40p">Dcn Id</th>
+                    <th scope="col" class="u-columnwidth-15p">Indexed</th>
+                    <th scope="col" class="u-columnwidth-25p">Datum/Tijd</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let publishState of page.content" (click)="toDocumentDetails(publishState.dcnId)">
+                    <td>{{(publishState.dcnId.length> 6)? (publishState.dcnId | slice:0:30)+'..':(publishState.dcnId) }}</td>
+                    <td>{{publishState.indexed}}</td>
+                    <td>{{publishState.timeUpdated | date : 'medium' }}</td>
+                </tr>
+                </tbody>
+            </table>
+            <dcn-no-result [page]="page"></dcn-no-result>
+            <dcn-custom-pagination [page]="page"
+                                   (nextPageEvent)="getNextPage($event)"
+                                   (itemsPerPageEvent)="updateItemsPerPage($event)">
+            </dcn-custom-pagination>
+        </div>
+        <div class="columns" *ngIf="page?.content?.length == 0">
+            <div class="column">
+                <p>Indexering up-to-date</p>
+            </div>
+        </div>
+    </div>
+</div>
+<connection-error *ngIf="errorMsg" [message]="errorMsg"></connection-error>

@@ -1,0 +1,126 @@
+openapi: 3.0.3
+info:
+  title: Dictionary service
+  description: PLOOI dictionary service
+  version: 1.0
+servers:
+  - description: Lokale ontwikkelomgeving
+    url: http://localhost:8030/
+  - description: Standaard Platform test omgeving
+    url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  - description: Standaard Platform productie omgeving
+    url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+components:
+
+  schemas:
+
+    lijsten:
+      type: array
+      items:
+        type: string
+        xml:
+          name: 'scheme'
+    lijst:
+      type: array
+      items:
+        xml:
+          name: 'waarde'
+        $ref: '#/components/schemas/label'
+    label:
+      type: object
+      properties:
+        uri:
+          type: string
+          format: url
+        label:
+          type: string
+
+paths:
+
+  /lijsten:
+    get:
+      operationId: getDictionaries
+      description: |
+        Operatie voor het opvragen van de lijst der lijsten.
+      responses:
+        default:
+          description: |
+            Lijst van dictionaries
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/lijsten'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/lijsten'
+  /lijsten/{scheme}:
+    get:
+      operationId: getDictionary
+      description: |
+        Operatie voor het opvragen van een specifieke lijst.
+      parameters:
+        - name: scheme
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        default:
+          description: |
+            Concepten in dictionary {scheme}, als een array van key/value pairs.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/lijst'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/lijst'
+  /lijsten/{scheme}/tooi:
+    get:
+      operationId: getTooi
+      description: |
+        Operatie voor het opvragen van het oorspronkelijke json bestand met de TOOI waardelijst.
+      parameters:
+        - name: scheme
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        default:
+          description: |
+            Oorspronkelijke TOOI json voor dictionary {scheme}
+          content:
+            application/json:
+              schema:
+                type: string
+                format: binary
+  /lijsten/{scheme}/{*url}:
+    get:
+      operationId: getLabel
+      description: |
+        Operatie voor het opvragen van een specifiek concept in een bepaalde lijst.
+      parameters:
+        - name: scheme
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: '*url'
+          in: path
+          required: true
+          schema:
+            type: string
+            format: url
+      responses:
+        default:
+          description: |
+            Concept met URL {url}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/label'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/label'

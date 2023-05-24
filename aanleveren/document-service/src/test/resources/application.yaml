@@ -1,0 +1,23 @@
+spring:
+  jpa:
+    generate-ddl: 'true'
+    defer-datasource-initialization: 'true'
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: none
+  main:
+    allow-bean-definition-overriding: 'true'
+  datasource:
+    password: sa
+    username: sa
+    url: jdbc:h2:mem:db
+
+documentservice:
+  deliver-url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  metadata-service-url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  max-file-size: 2147483648
+
+plooi:
+  security:
+    enabled: false
+    plooi-iam-service-url: test.url

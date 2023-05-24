@@ -1,0 +1,96 @@
+openapi: '3.0.2'
+info:
+  title: Waardelijst Documentsoorten t.b.v. Plooi-portaal
+  description: |
+    Beschrijft de Documentsoorten t.b.v. Plooi-portaal
+  version: '1'
+  contact:
+    email: plooi@koop.overheid.nl
+  termsOfService: https://open.overheid.nl/terms
+  license:
+    name: MIT
+    url: https://open.overheid.nl/license
+components:
+  schemas:
+    Kern:
+      type: string
+      description: |-
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_002fc258` - vergunning
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_10eb451d` - beleidsdocument
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_1986dbe5` - parlementair document
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_26fb182e` - ander besluit van algemene strekking
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_2aedadff` - toespraak
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_3300f29a` - rapport
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_386e74cb` - convenant
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_3d782f30` - jaarverslag
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_3eb5572a` - circulaire
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_42e406dd` - vergaderverslag
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_465163c9` - besluit
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_545240d8` - nationale regelgeving
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_68c541a4` - vergaderdocument
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_7051a61f` - adviesdocument
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_75007d14` - communicatie-uiting
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_7652d853` - brief
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_7eba29ad` - persbericht
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_7f9dffa7` - vergaderstuk
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_8b92eab4` - ambtsbericht
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_8f6ef24c` - in wet benoemd type verzoek
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_9376c730` - beleidsnota
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_93b0d113` - beschikking
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_97f44ea5` - brochure
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_a17ef403` - Handelingen
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_a6f44748` - jaarplan
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_d2a6707c` - ministeriële regeling
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_d506b718` - advies
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_dd451365` - Wob-verzoek
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_de27ae7a` - ingekomen stuk
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_dfa0ff1f` - begroting
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_f90465b3` - agenda
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/c_fbaa7e4b` - beleidsregel
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/conceptScheme_d6397666` - publiekrechtelijke handeling
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/conceptScheme_d9fd2dd1` - overheidsinformatie
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_3b881f06` - <vergaderstuk|
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_475dff96` - documentsoorten Plooi-portaal
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_b55bc3bc` - communicatie
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_c8beadf5` - formele besluitvorming
+        * `https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_d6fb6e4a` - beleidsinformatie
+      enum:
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_002fc258
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_10eb451d
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_1986dbe5
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_26fb182e
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_2aedadff
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_3300f29a
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_386e74cb
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_3d782f30
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_3eb5572a
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_42e406dd
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_465163c9
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_545240d8
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_68c541a4
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_7051a61f
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_75007d14
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_7652d853
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_7eba29ad
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_7f9dffa7
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_8b92eab4
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_8f6ef24c
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_9376c730
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_93b0d113
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_97f44ea5
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_a17ef403
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_a6f44748
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_d2a6707c
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_d506b718
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_dd451365
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_de27ae7a
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_dfa0ff1f
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_f90465b3
+        - https://identifier.overheid.nl/tooi/def/thes/kern/c_fbaa7e4b
+        - https://identifier.overheid.nl/tooi/def/thes/kern/conceptScheme_d6397666
+        - https://identifier.overheid.nl/tooi/def/thes/kern/conceptScheme_d9fd2dd1
+        - https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_3b881f06
+        - https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_475dff96
+        - https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_b55bc3bc
+        - https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_c8beadf5
+        - https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_d6fb6e4a

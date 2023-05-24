@@ -1,0 +1,23 @@
+{
+  "content": [
+    {
+      "targetElementName": "creator",
+      "sourceLabel": "Belasting",
+      "count": 5
+    }
+  ],
+  "pageable": "INSTANCE",
+  "totalElements": 1,
+  "totalPages": 1,
+  "last": true,
+  "number": 0,
+  "numberOfElements": 1,
+  "first": true,
+  "size": 1,
+  "sort": {
+    "sorted": false,
+    "unsorted": true,
+    "empty": true
+  },
+  "empty": false
+}

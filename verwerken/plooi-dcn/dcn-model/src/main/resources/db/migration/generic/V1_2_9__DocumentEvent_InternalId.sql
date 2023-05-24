@@ -1,0 +1,4 @@
+ALTER TABLE DocumentEvents
+ALTER COLUMN source_name DROP NOT NULL;
+ALTER TABLE DocumentEvents
+ALTER COLUMN internal_id DROP NOT NULL;

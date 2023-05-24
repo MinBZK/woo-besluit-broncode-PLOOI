@@ -1,0 +1,53 @@
+{{- $fullName := include "portal.fullname" . -}}
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ $fullName }}-service-ingress
+  labels:
+    {{- include "portal.labels" . | nindent 4 }}
+  annotations:
+    nginx.ingress.kubernetes.io/app-root: ''
+    nginx.ingress.kubernetes.io/proxy-body-size: "0"
+  {{- if .Values.ingress.whiteList }}
+    nginx.ingress.kubernetes.io/whitelist-source-range: {{ .Values.ingress.whiteList }}
+  {{- end }}
+spec:
+  ingressClassName: {{ .Values.ingress.ingressClassName }}
+  {{- if .Values.ingress.tlsEnabled }}
+  tls:
+  - hosts:
+    - {{ .Values.ingress.mainHostname }}
+    secretName: {{ .Values.ingress.tlsSecretMainHost }}
+  {{- end }}
+  rules:
+    - host: {{ .Values.ingress.mainHostname }}
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ include "portal.fullname" . }}-service
+                port:
+                  number: 8080
+          - path: /documenten
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ .Values.repositoryService }}
+                port:
+                  number: 8010
+          - path: /repository
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ .Values.repositoryService }}
+                port:
+                  number: 8010
+          - path: /api/v1/
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ .Values.searchService }}
+                port:
+                  number: 8030

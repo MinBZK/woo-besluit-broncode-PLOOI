@@ -1,0 +1,11 @@
+{
+  "documentrelaties" : [ {
+    "relation" : "ronl-b36dda59-1b79-4893-882e-45032b0b728a",
+    "role" : "https://identifier.overheid.nl/plooi/def/thes/documentrelatie/onderdeel",
+    "titel" : "Besluit"
+  }, {
+    "relation" : "ronl-48827b44-25bd-4b0e-ae57-0deb291089c4",
+    "role" : "https://identifier.overheid.nl/plooi/def/thes/documentrelatie/onderdeel",
+    "titel" : "Bijlage"
+  } ]
+}

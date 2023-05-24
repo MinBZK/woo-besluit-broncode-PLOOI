@@ -1,0 +1,58 @@
+[
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_1f37c612",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Arbeidsvoorwaarden",
+				"@language": "nl"
+			},
+			{
+				"@value": "Levensloop",
+				"@language": "nl"
+			},
+			{
+				"@value": "Ontslag",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_d363776f",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Bouwnijverheid",
+				"@language": "nl"
+			},
+			{
+				"@value": "Industrie",
+				"@language": "nl"
+			},
+			{
+				"@value": "Overige economische sectoren",
+				"@language": "nl"
+			},
+					{
+				"@value": "Scheepvaart",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/c_824ce7ff",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "burgerlijk recht",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/top/inconsistent",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "inconsistent recht",
+				"@language": "nl"
+			}
+		]
+	}
+]

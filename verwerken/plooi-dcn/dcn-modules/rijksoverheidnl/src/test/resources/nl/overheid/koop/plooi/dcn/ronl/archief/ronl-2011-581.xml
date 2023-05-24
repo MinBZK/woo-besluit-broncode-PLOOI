@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<work xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/"
+    xsi:noNamespaceSchemaLocation="../_manifest.xsd" label="plooicb-2011-581" gegenereerd="2019-06-13T10:18:41" _latestItem="1/pdf/evaluatie-wia.pdf">
+    <metadata>
+        <dcterms.available>2011-06-06</dcterms.available>
+        <dcterms.creator resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Ministerie_van_Sociale_Zaken_en_Werkgelegenheid">Ministerie van Sociale Zaken en Werkgelegenheid</dcterms.creator>
+        <dcterms.description>De leden van de vaste commissie voor Sociale Zaken en Werkgelegenheid van de Eerste Kamer hebben naar aanleiding van het kabinetsstandpunt over de evaluatie van de Wet WIA een aantal vragen gesteld ter verheldering betreffende
+            het onderdeel transparantie.</dcterms.description>
+        <dcterms.identifier>plooicb-2011-581</dcterms.identifier>
+        <dcterms.issued>2011-06-01</dcterms.issued>
+        <dcterms.language>nl-NL</dcterms.language>
+        <dcterms.publisher resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Ministerie_van_Algemene_Zaken">Ministerie van Algemene Zaken</dcterms.publisher>
+        <dcterms.source>https://archief06.archiefweb.eu/archives/archiefweb/20180422095750/https://www.rijksoverheid.nl/documenten/kamerstukken/2011/06/06/evaluatie-wia</dcterms.source>
+        <dcterms.title>Evaluatie WIA</dcterms.title>
+        <dcterms.type>kamerstuk</dcterms.type>
+        <overheid.authority resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Ministerie_van_Sociale_Zaken_en_Werkgelegenheid">Ministerie van Sociale Zaken en Werkgelegenheid</overheid.authority>
+    </metadata>
+    <expression label="1">
+        <metadata />
+        <manifestation label="pdf">
+            <metadata>
+                <size>50</size>
+                <pages>2</pages>
+            </metadata>
+            <item label="evaluatie-wia.pdf" _deleted="false" />
+        </manifestation>
+    </expression>
+</work>

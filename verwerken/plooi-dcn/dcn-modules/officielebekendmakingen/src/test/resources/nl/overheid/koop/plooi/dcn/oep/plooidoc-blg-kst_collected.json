@@ -1,0 +1,15 @@
+[ {
+  "id" : "blg-936562",
+  "gepubliceerd" : false,
+  "label" : "metadataowms",
+  "url" : "https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-936562/1/metadataowms/metadata_owms.xml",
+  "mime-type" : "application/xml",
+  "bestandsnaam" : "metadata_owms.xml"
+}, {
+  "id" : "blg-936562.pdf",
+  "gepubliceerd" : true,
+  "label" : "pdf",
+  "url" : "https://repository.overheid.nl/frbr/officielepublicaties/blg/onopgemaakt/blg-936562/1/pdf/blg-936562.pdf",
+  "mime-type" : "application/pdf",
+  "bestandsnaam" : "blg-936562.pdf"
+} ]

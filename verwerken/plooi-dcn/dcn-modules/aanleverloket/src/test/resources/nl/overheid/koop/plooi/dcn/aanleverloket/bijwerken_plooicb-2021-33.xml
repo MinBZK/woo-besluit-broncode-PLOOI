@@ -1,0 +1,25 @@
+<xpo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" versie="1" id="0f49f4a5-7a6d-4005-9970-376fdfe90937" subid="plooicb-2021-33" userid="SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS">
+  <bijwerkenexpression documentsoort="plooi-contentbeheer" publiceren_na="2021-02-16T16:24:48.9005051Z" publiceren_voor="2021-02-17T16:24:48.9005051Z" prioriteit="Normaal" embargo="false">
+    <verschijningsvormen>
+      <verschijningsvorm protocol="SMB" adres="document-1.pdf" bestandstype="pdf" verschijningsvormtype="pdf">
+        <metadata key="dcterms.available" doel="Work">2021-02-16</metadata>
+        <metadata key="dcterms.creator" doel="Work">Ministerie van Feesten en Partijen</metadata>
+        <metadata key="dcterms.description" doel="Work">Beschrijving bij een document met allerhande metadata enzo. enzo enzo</metadata>
+        <metadata key="dcterms.identifier" doel="Work">plooicb-2021-33</metadata>
+        <metadata key="dcterms.issued" doel="Work">2021-02-08</metadata>
+        <metadata key="dcterms.title" doel="Work">Loket - Diverse metadata!</metadata>
+        <metadata key="dcterms.type" doel="Work">Beleidsdocument</metadata>
+        <metadata key="dcterms.subject" doel="Work">cultuur</metadata>
+        <metadata key="dcterms.subject" doel="Work">Europese zaken</metadata>
+        <metadata key="dcterms.language" doel="Work">nl</metadata>
+        <metadata key="plooi.displayfield.betrokkenOrganisatie" doel="Work">Organisatie nummertje twee</metadata>
+        <metadata key="plooi.displayfield.beschikkingNummer" doel="Work">12345</metadata>
+        <metadata key="plooi.displayfield.beschikkingNummer" doel="Work">64897</metadata>
+        <metadata key="plooi.displayfield.datumBeschikking" doel="Work">9 februari 2021</metadata>
+      </verschijningsvorm>
+    </verschijningsvormen>
+    <stuurgegeven key="InternId" identity="true">plooicb-2021-33</stuurgegeven>
+    <stuurgegeven key="ExpressionLabel" identity="true">1</stuurgegeven>
+    <stuurgegeven key="Collectie" identity="true"></stuurgegeven>
+  </bijwerkenexpression>
+</xpo>

@@ -1,0 +1,31 @@
+image:
+  registry: localhost:32000/
+
+extraJvmArgs: "-javaagent:/app/libs/opentelemetry-javaagent-1.13.1.jar -Dotel.instrumentation.apache-camel.experimental-span-attributes=true"
+
+ingress:
+  ingressClassName: public
+  hostname: dcn.127.0.0.1.nip.io
+
+database:
+  url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+aanlo:
+  secret: ""
+  host: localhost
+  schedule: 0+0+0+21+12+?+2024/10
+
+metrics:
+  enabled: yes
+  serviceMonitor:
+    enabled: yes
+
+opentelemetry:
+  enabled: yes
+  traces:
+    exporter: jaeger
+  metrics:
+    exporter: none
+  exporter:
+    jaeger:
+      endpoint:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS

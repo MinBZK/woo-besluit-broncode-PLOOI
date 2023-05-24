@@ -1,0 +1,88 @@
+
+$black: #000 !default;
+$darkerBlue: #10345C !default;
+$darkBlue: #154273 !default;
+$primaryBlue: #007bc7 !default;
+$mediumBlue: #b2d7ee !default;
+$lightBlue: #e5f1f9 !default;
+$bgBlue: $lightBlue !default;
+$white: #fff !default;;
+$offWhite: #F8FBFD !default;
+
+$darkGrey: #333 !default;
+$darkerGrey: #555 !default;
+$mediumGrey: #b4b4b4 !default;
+$lighterGrey: #ccc !default;
+$lightGrey: #f3f3f3 !default;
+
+$green: #39870c !default;
+$darkGreen: #015F58 !default;
+$lightGreen: #E4F0EF !default;
+$yellow: #ffb612 !default;
+$darkYellow: #F9D358 !default;
+$lightYellow: #FFF8E1 !default;
+$orange: #e17000 !default;
+$lightOrange: #F5E4E0 !default;
+$red: #d52b1e !default;
+$lightRed: #F4C8C5 !default;
+$lighterRed: #F5E4E0 !default;
+
+$lightPurple: #F7F0FE !default;
+$blueGray: #A4B3C6 !default;
+
+$focus: #000;
+$focusSecondary: white;
+
+$textColor: $darkGrey !default;
+
+$buttonBackgroundColor: $white !default;
+$buttonBackgroundActiveColor: $mediumGrey !default;
+$buttonPrimaryBackgroundColor: $darkBlue !default;
+$buttonPrimaryBackgroundActiveColor: $darkBlue !default;
+$buttonBackgroundSecondaryColor: $orange !default;
+$buttonBackgroundSecondaryActiveColor: darken($orange, 10%) !default;
+$buttonTextColor: $textColor !default;
+$buttonBorderColor: $lighterGrey !default;
+
+$headerBackgroundColor: $primaryBlue !default;
+$headerBackgroundColorAcc: $green !default;
+$headerBackgroundColorTest: $darkGrey !default;
+$headerBackgroundColorDev: $orange !default;
+$headerBorderColor: $mediumBlue !default;
+$headerLinkColor: $white !default;
+$headerLinkCurrentColor: $darkBlue !default;
+$headerLinkBackgroundColor: transparent !default;
+
+$datepickerHeaderBackgroundColor: $darkBlue !default;
+$datepickerHeaderTextColor: $white !default;
+$datepickerContainerBorderColor: $lighterGrey !default;
+$datepickerTriggerBackgroundColor: $primaryBlue !default;
+$datepickerTriggerBackgroundColorActive: $darkBlue !default;
+
+$tooltipContainerBorderColor: $lighterGrey !default;
+
+$multiSelectOptionHoverBGColor: $lightBlue !default;
+$multiSelectOptionSelectedBGColor: $lightBlue !default;
+$multiSelectOptionSelectedCrossBGColor: $mediumBlue !default;
+$multiSelectOptionSelectedCrossTextColor: black !default;
+
+/* THEME Colours */
+$governance: #4a1eea;
+$culture: #42145f;
+$economy: #a90061;
+$finance: #d52b1e;
+$housing: #94710a;
+$international: #777c00;
+$agriculture: #bf360c;
+$migration: #673327;
+$nature: #39870c;
+$education: $culture;
+$security: #275937;
+$law: #ca005d;
+$infrastructure: #007bc7;
+$social: $migration;
+$traffic: $agriculture;
+$jobs: #a90061;
+$healthcare: $finance;
+
+$inputFocus: 0 0 5px rgba(0, 123, 199,0.5);

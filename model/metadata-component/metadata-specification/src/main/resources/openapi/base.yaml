@@ -1,0 +1,25 @@
+components:
+  schemas:
+
+    identifiedResource:
+      type: object
+      properties:
+        type:
+          description: |
+            Het type / de ontologie van de resource.
+          type: string
+        id:
+          type: string
+        label:
+          type: string
+          description: |
+            Label die optioneel naast het id meegegeven kan worden. Dit veld heeft geen functionele betekenis en dient ter verhoging
+            van het mens-leesbaar maken van de metadata.
+          minLength: 3
+        bronwaarde:
+          description: |
+            De oorspronkelijke aangeleverde waarde (waar deze gemapt is door PLOOI).
+          type: string
+      required:
+        - id
+      additionalProperties: false

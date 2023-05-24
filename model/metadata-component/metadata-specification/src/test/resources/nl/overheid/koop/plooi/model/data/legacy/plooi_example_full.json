@@ -1,0 +1,87 @@
+{
+  "document" : {
+    "pid" : "https://open.overheid.nl/documenten/test-8f03c902-1bb1-11ec-9621-0242ac130002",
+    "weblocatie" : "../pdf/Bijlage+1+bij+Organisatie-+en+Mandaatbesluit+Directoraat-Generaal+Belastingdienst.pdf",
+    "creatiedatum" : "2016-12-13",
+    "geldigheid" : {
+      "begindatum" : "1970-07-01",
+      "einddatum" : "2025-01-01"
+    },
+    "verantwoordelijke" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1090",
+      "label" : "ministerie van Financiën"
+    },
+    "publisher" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1010",
+      "label" : "ministerie van Algemene Zaken"
+    },
+    "opsteller" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1090",
+      "label" : "ministerie van Financiën"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "onderwerpen" : [ "onderwerp een", "onderwerp twee" ],
+    "omschrijvingen" : [ "Document omschrijving" ],
+    "titelcollectie" : {
+      "officieleTitel" : "Bijlage 1 Organisatie- en mandaatbesluit DG Belastingdienst"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_465163c9",
+        "label" : "besluit"
+      } ],
+      "themas" : [ {
+        "id" : "https://identifier.overheid.nl/dummy/thema1",
+        "label" : "Thema 1"
+      }, {
+        "id" : "https://identifier.overheid.nl/dummy/thema2",
+        "label" : "Thema 2"
+      } ]
+    },
+    "extraMetadata" : [ {
+      "prefix" : "plooi.displayfield",
+      "velden" : [ {
+        "key" : "one",
+        "values" : [ "One" ]
+      }, {
+        "key" : "two",
+        "values" : [ "Two" ]
+      } ]
+    } ]
+  },
+  "plooiIntern" : {
+    "dcnId" : "test-bc070d297305d6b68048ac7722820f95_1",
+    "aanbieder" : "Rijksoverheid.nl",
+    "extId" : [ "xyz-2010-1_1" ],
+    "sourceLabel" : "test"
+  },
+  "documentrelaties" : [ {
+    "relation" : "plooicb-2010-12269",
+    "role" : "https://identifier.overheid.nl/plooi/def/thes/documentrelatie/gerelateerd"
+  } ],
+  "body" : {
+    "tekst" : [ "Tekst" ]
+  },
+  "versies" : [ {
+    "nummer" : 1,
+    "oorzaak" : "aanlevering",
+    "bestanden" : [ {
+      "gepubliceerd" : true,
+      "label" : "PDF doc",
+      "bestandsnaam" : "6. RE  Questions_Redacted.pdf",
+      "titel" : "Titel 1",
+      "mutatiedatumtijd" : "2007-12-03T10:15:30Z"
+    }, {
+      "gepubliceerd" : false,
+      "label" : "XML doc",
+      "bestandsnaam" : "Document.xml",
+      "hash" : "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+    } ]
+  } ]
+}

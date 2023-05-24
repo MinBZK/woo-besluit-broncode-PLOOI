@@ -1,0 +1,48 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/ronl-archief-787f40d430d1b01df3c39ef0c0f441f75bbf0acc",
+    "creatiedatum" : "2011-02-24",
+    "geldigheid" : {
+      "begindatum" : "2011-02-24"
+    },
+    "verantwoordelijke" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1130",
+      "label" : "ministerie van Infrastructuur en Waterstaat"
+    },
+    "publisher" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1010",
+      "label" : "ministerie van Algemene Zaken"
+    },
+    "opsteller" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1130",
+      "label" : "ministerie van Infrastructuur en Waterstaat"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "titelcollectie" : {
+      "officieleTitel" : "201125843 bijlage 2.pdf"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "type" : "overheid:Informatietype",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_056a75e1",
+        "label" : "Kamerstuk"
+      } ],
+      "themas" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/id/thema_onbekend",
+        "label" : "Onbekend"
+      } ]
+    }
+  },
+  "plooiIntern" : {
+    "dcnId" : "ronl-archief-787f40d430d1b01df3c39ef0c0f441f75bbf0acc",
+    "aanbieder" : "Rijksoverheid.nl",
+    "extId" : [ "plooicb-2011-5649" ],
+    "sourceLabel" : "ronl-archief"
+  }
+}

@@ -1,0 +1,29 @@
+<div class="container" *ngIf="!errorMsg && route.children.length == 0">
+    <div class="columns">
+        <div><strong>Verwerkings- en mapping fouten per bron</strong>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <dcn-statistics></dcn-statistics>
+        </div>
+        <div class="column">
+            <dcn-search-filter></dcn-search-filter>
+        </div>
+    </div>
+    <div class="columns">
+        <div><strong>Recente Verwerkingen</strong>
+        </div>
+        <div><strong>Indexatie issues</strong>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <execution-statistics></execution-statistics>
+        </div>
+        <div class="column">
+            <dcn-publish-state></dcn-publish-state>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

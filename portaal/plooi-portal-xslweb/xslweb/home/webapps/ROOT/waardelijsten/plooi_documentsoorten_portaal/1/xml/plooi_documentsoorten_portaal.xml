@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<waardelijst xmlns:dcterms="http://purl.org/dc/terms/" xmlns:fn="http://www.w3.org/2005/xpath-functions#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:req="http://www.armatiek.com/xslweb/request"
+    xmlns:sesame="http://www.openrdf.org/schema/sesame#" xmlns:sh="http://www.w3.org/ns/shacl#"
+    xmlns:tooiont="https://identifier.overheid.nl/tooi/def/ont/"
+    xmlns:tooiwl="https://identifier.overheid.nl/tooi/def/wl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    name="plooi_documentsoorten_portaal">
+    <metadata>
+        <statement>
+            <key>http://purl.org/dc/terms/format</key>
+            <value>http://publications.europa.eu/resource/authority/file-type/XML</value>
+        </statement>
+        <statement>
+            <key>http://purl.org/dc/terms/identifier</key>
+            <value>https://identifier.overheid.nl/tooi/set/plooi_documentsoorten_portaal/13</value>
+        </statement>
+        <statement>
+            <key>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</key>
+            <value>https://identifier.overheid.nl/tooi/def/wl/CollectiegebaseerdeConceptwaardelijst</value>
+        </statement>
+        <statement>
+            <key>https://identifier.overheid.nl/tooi/def/wl/collectie</key>
+            <value>https://identifier.overheid.nl/tooi/def/thes/kern/skosCollection_475dff96</value>
+        </statement>
+        <statement>
+            <key>http://purl.org/pav/derivedFrom</key>
+            <value>https://identifier.overheid.nl/tooi/def/thes/kern</value>
+        </statement>
+        <statement>
+            <key>https://identifier.overheid.nl/tooi/def/ont/verantwoordelijke</key>
+            <value>https://identifier.overheid.nl/tooi/id/ministerie/mnre1034</value>
+        </statement>
+        <statement>
+            <key>https://identifier.overheid.nl/tooi/def/wl/afgeleidVanVersie</key>
+            <value />
+        </statement>
+        <statement>
+            <key>https://identifier.overheid.nl/tooi/def/wl/bronversie</key>
+            <value />
+        </statement>
+        <statement>
+            <key>http://purl.org/dc/terms/description</key>
+            <value>Waardelijst met documentsoorten t.b.v. het Plooi-portaal.</value>
+        </statement>
+        <statement>
+            <key>https://identifier.overheid.nl/tooi/def/ont/publicatiedatum</key>
+            <value>2021-09-30</value>
+        </statement>
+        <statement>
+            <key>https://identifier.overheid.nl/tooi/def/ont/titel</key>
+            <value>Documentsoorten Plooi-portaal</value>
+        </statement>
+        <statement>
+            <key>https://identifier.overheid.nl/tooi/def/wl/volgnummer</key>
+            <value>13</value>
+        </statement>
+        <statement>
+            <key>http://www.w3.org/2002/07/owl#versionInfo</key>
+            <value>Collectie publicatieblad toegevoegd met daaronder Staatsblad en Staatscourant.</value>
+        </statement>
+        <statement>
+            <key>http://www.w3.org/ns/prov#generatedAtTime</key>
+            <value>2021-09-30T15:36:02.754+02:00</value>
+        </statement>
+        <statement>
+            <key>https://identifier.overheid.nl/tooi/def/ont/zichtdatum</key>
+            <value>2021-09-30</value>
+        </statement>
+    </metadata>
+    <waarden>
+        <waarde>
+            <metadata />
+            <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_xxxxxxxx</code>
+            <omschrijving>publicatie</omschrijving>
+        </waarde>
+        <sectie>
+            <metadata />
+            <omschrijving>beleidsinformatie</omschrijving>
+            <waarden>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_d506b718</code>
+                    <omschrijving>advies</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_a40458df</code>
+                    <omschrijving>adviesaanvraag</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_0e425c23</code>
+                    <omschrijving>adviesvoorstel</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#definition</key>
+                            <value>Een rapport van de minister van Buitenlandse Zaken aan de minister voor
+                                Vreemdelingenzaken en Integratie, met informatie over de situatie in een land van
+                                herkomst van asielzoekers of over één individuele asielaanvraag, dat wordt gebruikt als
+                                informatiebron bij de beoordeling van asielverzoeken.</value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_8b92eab4</code>
+                    <omschrijving>ambtsbericht</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_dfa0ff1f</code>
+                    <omschrijving>begroting</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#altLabel</key>
+                            <value>memo</value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_9376c730</code>
+                    <omschrijving>beleidsnota</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_2977c34f</code>
+                    <omschrijving>beslisnota</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_a6f44748</code>
+                    <omschrijving>jaarplan</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_3d782f30</code>
+                    <omschrijving>jaarverslag</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#definition</key>
+                            <value>Volgens opdracht of krachtens functie uitgebracht schriftelijk verslag over een
+                                gebeurtenis of een beschrijving van een toestand.</value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_3300f29a</code>
+                    <omschrijving>rapport</omschrijving>
+                </waarde>
+            </waarden>
+        </sectie>
+        <sectie>
+            <metadata />
+            <omschrijving>communicatie</omschrijving>
+            <waarden>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_7652d853</code>
+                    <omschrijving>brief</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_97f44ea5</code>
+                    <omschrijving>brochure</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#altLabel</key>
+                            <value>rondschrijven</value>
+                        </statement>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#altLabel</key>
+                            <value>rondzendbrief</value>
+                        </statement>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#definition</key>
+                            <value>Een brief die aan verschillende personen of instellingen wordt rondgestuurd. Kan
+                                zowel toelichtend als regelgevend van karakter zijn.</value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_3eb5572a</code>
+                    <omschrijving>circulaire</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#definition</key>
+                            <value>Gegevens over hoe doelstellingen, werkwijze en interne structuur van een organisatie.</value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_9ecc0007</code>
+                    <omschrijving>organisatiegegevens</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_7eba29ad</code>
+                    <omschrijving>persbericht</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_2aedadff</code>
+                    <omschrijving>toespraak</omschrijving>
+                </waarde>
+            </waarden>
+        </sectie>
+        <sectie>
+            <metadata />
+            <omschrijving>formele besluitvorming</omschrijving>
+            <waarden>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#definition</key>
+                            <value>Een bij besluit vastgestelde algemene regel, niet zijnde een algemeen verbindend
+                                voorschrift, omtrent de afweging van belangen, de vaststelling van feiten of de uitleg
+                                van wettelijke voorschriften bij het gebruik van een bevoegdheid van een bestuursorgaan
+                                (art 1:3 lid 4 Awb).
+                            </value>
+                        </statement>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#definition</key>
+                            <value>jci1.3:c:BWBR0005537&amp;hoofdstuk=1&amp;titeldeel=1.1&amp;artikel=1:3&amp;lid=4
+                            </value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_fbaa7e4b</code>
+                    <omschrijving>beleidsregel</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_4f50ca9c</code>
+                    <omschrijving>beslissing op Wob-/Woo-verzoek</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#altLabel</key>
+                            <value>publiekrechtelijke rechtshandeling</value>
+                        </statement>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#definition</key>
+                            <value>Een besluit is in de Nederlandse wetgeving een schriftelijke beslissing van een
+                                bestuursorgaan, inhoudende een publiekrechtelijke rechtshandeling.</value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_465163c9</code>
+                    <omschrijving>besluit</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#altLabel</key>
+                            <value>beleidsovereenkomst</value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_386e74cb</code>
+                    <omschrijving>convenant</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_d2a6707c</code>
+                    <omschrijving>ministeriële regeling</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#definition</key>
+                            <value>Officiële toestemming van de overheid om een bepaalde activiteit uit te voeren, al
+                                dan niet onder bepaalde voorwaarden.</value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_002fc258</code>
+                    <omschrijving>vergunning</omschrijving>
+                </waarde>
+            </waarden>
+        </sectie>
+        <sectie>
+            <metadata>
+                <statement>
+                    <key>https://identifier.overheid.nl/tooi/def/ont/expandeert</key>
+                    <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_1986dbe5</value>
+                </statement>
+            </metadata>
+            <omschrijving>parlementair document</omschrijving>
+            <waarden>
+                <sectie>
+                    <metadata>
+                        <statement>
+                            <key>https://identifier.overheid.nl/tooi/def/ont/expandeert</key>
+                            <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_dc6ba2eb</value>
+                        </statement>
+                    </metadata>
+                    <omschrijving>Kamervraag</omschrijving>
+                    <waarden>
+                        <waarde>
+                            <metadata />
+                            <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_6d494ab6</code>
+                            <omschrijving>Kamervraag met antwoord</omschrijving>
+                        </waarde>
+                        <waarde>
+                            <metadata />
+                            <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_03c52ba0</code>
+                            <omschrijving>Kamervraag zonder antwoord</omschrijving>
+                        </waarde>
+                    </waarden>
+                </sectie>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_a17ef403</code>
+                    <omschrijving>Handelingen</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_056a75e1</code>
+                    <omschrijving>Kamerstuk</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_f1652921</code>
+                    <omschrijving>niet-dossierstuk</omschrijving>
+                </waarde>
+            </waarden>
+        </sectie>
+        <sectie>
+            <metadata />
+            <omschrijving>publicatieblad</omschrijving>
+            <waarden>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#altLabel</key>
+                            <value>Stb</value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_61e3099a</code>
+                    <omschrijving>Staatsblad</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#altLabel</key>
+                            <value>Stcrt</value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_0670bae1</code>
+                    <omschrijving>Staatscourant</omschrijving>
+                </waarde>
+            </waarden>
+        </sectie>
+        <sectie>
+            <metadata>
+                <statement>
+                    <key>https://identifier.overheid.nl/tooi/def/ont/expandeert</key>
+                    <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_7f9dffa7</value>
+                </statement>
+            </metadata>
+            <omschrijving>vergaderstuk</omschrijving>
+            <waarden>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#definition</key>
+                            <value>Een vergaderstuk dat een opsomming bevat van de op een vergadering te bespreken
+                                zaken, vaak met vermelding van stukken, tijdsplanning en deelnemers.
+                            </value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_f90465b3</code>
+                    <omschrijving>agenda</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#definition</key>
+                            <value>Een vergaderstuk afkomstig van een actor die niet tot het vergaderende gremium
+                                behoort, maar dat op diens verzoek, of op eigen initiatief van het vergaderende gremium
+                                op de vergaderagenda is geplaatst, over het algemeen alleen ter informatie.
+                            </value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_de27ae7a</code>
+                    <omschrijving>ingekomen stuk</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#definition</key>
+                            <value>Een vergaderstuk dat is geschreven met het oog op inhoudelijke behandeling
+                                (discussie, besluitvorming) in de desbetreffende vergadering, maar niet
+                                noodzakelijkerwijs door het gremium dat de verantwoordelijkheid draagt voor de
+                                vergadering.
+                            </value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_68c541a4</code>
+                    <omschrijving>vergaderdocument</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_42e406dd</code>
+                    <omschrijving>vergaderverslag</omschrijving>
+                </waarde>
+            </waarden>
+        </sectie>
+        <sectie>
+            <metadata>
+                <statement>
+                    <key>https://identifier.overheid.nl/tooi/def/ont/expandeert</key>
+                    <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_7ab92a02</value>
+                </statement>
+            </metadata>
+            <omschrijving>document van burger</omschrijving>
+            <waarden>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#altLabel</key>
+                            <value>aanvraag ex art. 3 Wob</value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_dd451365</code>
+                    <omschrijving>Wob-verzoek</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata/>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_8ec8e5e7</code>
+                    <omschrijving>aanvraag ex art. 4.1 Woo</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata/>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_06a67c95</code>
+                    <omschrijving>bezwaarschrift</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#altLabel</key>
+                            <value>klaagschrift</value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_ef935990</code>
+                    <omschrijving>klacht</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata/>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_d943ca24</code>
+                    <omschrijving>ontheffingsaanvraag</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata/>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_5824891d</code>
+                    <omschrijving>subsidieaanvraag</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata/>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_dad2a6ed</code>
+                    <omschrijving>vergunningaanvraag</omschrijving>
+                </waarde>
+                <waarde>
+                    <metadata>
+                        <statement>
+                            <key>http://www.w3.org/2004/02/skos/core#definition</key>
+                            <value>Reactie die een belanghebbende aan het bevoegd gezag kan sturen als reactie op een
+                                ontwerp-besluit.</value>
+                        </statement>
+                    </metadata>
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_df2cb56e</code>
+                    <omschrijving>zienswijze</omschrijving>
+                </waarde>
+            </waarden>
+        </sectie>
+        <sectie>
+            <omschrijving>Woo-procedure</omschrijving>
+            <waarden>
+                <waarde>
+                    <metadata />
+                    <code>https://identifier.overheid.nl/tooi/def/thes/kern/c_1cf18f83</code>
+                    <omschrijving>Wob-/Woo-verzoek</omschrijving>
+                </waarde>
+            </waarden>
+        </sectie>
+    </waarden>
+</waardelijst>

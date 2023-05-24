@@ -1,0 +1,37 @@
+{{- if .Values.backup.enabled }}
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: {{ include "conf.fullname" . }}-backup
+spec:
+  schedule: {{ .Values.backup.schedule }}
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            app.kubernetes.io/component: solr-backup
+            {{- include "conf.labels" . | nindent 12 }}
+            {{- include "conf.selectorLabels" . | nindent 12 }}
+            {{- if .Values.podLabels }}
+              {{- include "common.tplvalues.render" (dict "value" .Values.podLabels "context" $) | nindent 12 }}
+            {{- end }}
+        spec:
+          restartPolicy: Never
+          imagePullSecrets:
+            - name: harbor-puller
+          containers:
+          - name: {{ include "conf.fullname" . }}-backup
+            image: {{ .Values.image.registry }}plooi-solr-config:{{ .Values.image.tag }}
+            imagePullPolicy: {{ .Values.image.pullPolicy }}
+            command: [ "/var/configset/backup-job.sh" ]
+            env:
+            - name: SOLR_HOST
+              value: {{ .Values.solr | quote }}
+            - name: SOLR_COLLECTION
+              value: {{ .Values.collection | quote }}
+            resources:
+              requests:
+                cpu: 100m
+                memory: 0.5Gi
+{{- end }}

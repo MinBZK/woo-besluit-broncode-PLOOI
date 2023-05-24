@@ -1,0 +1,61 @@
+openapi: 3.0.3
+info:
+  title: Plooi Registeratie Service
+  description: Plooi Registeratie Service
+  version: 1.0.0
+servers:
+  - description: Lokale ontwikkelomgeving
+    url: http://localhost:8020
+  - description: Standaard Platform test omgeving
+    url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  - description: Standaard Platform productie omgeving
+    url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+paths:
+  /processen:
+    $ref: "proces.yaml#/paths/~1processen"
+  /processen/{id}:
+    $ref: "proces.yaml#/paths/~1processen~1%7Bid%7D"
+  /processen/{id}/verwerkingen:
+    $ref: "proces.yaml#/paths/~1processen~1%7Bid%7D~1verwerkingen"
+  /verwerkingen/{id}:
+    $ref: "verwerking.yaml#/paths/~1verwerkingen~1%7Bid%7D"
+  /verwerkingen:
+    $ref: "verwerking.yaml#/paths/~1verwerkingen"
+  /verwerkingen/status:
+    $ref: "verwerking.yaml#/paths/~1verwerkingen~1status"
+  /verwerkingen/bron/{bron}:
+    $ref: "verwerking.yaml#/paths/~1verwerkingen~1bron~1%7Bbron%7D"
+  /statistieken:
+    $ref: "statistieken.yaml#/paths/~1statistieken"
+  /statistieken/excepties:
+    $ref: "statistieken.yaml#/paths/~1statistieken~1excepties"
+  /statistieken/excepties/{bron}:
+    $ref: "statistieken.yaml#/paths/~1statistieken~1excepties~1%7Bbron%7D"
+  /statistieken/diagnoses:
+    $ref: "statistieken.yaml#/paths/~1statistieken~1diagnoses"
+  /statistieken/diagnoses/{bron}:
+    $ref: "statistieken.yaml#/paths/~1statistieken~1diagnoses~1%7Bbron%7D"
+
+components:
+  responses:
+    found:
+      description: successful operation
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Page'
+
+  schemas:
+    Page:
+      type: object
+    Diagnose:
+      $ref: 'diagnose.yaml#/components/schemas/Diagnose'
+    Exceptie:
+      $ref: 'exceptie.yaml#/components/schemas/Exceptie'
+    Proces:
+      $ref: 'proces.yaml#/components/schemas/Proces'
+    Verwerking:
+      $ref: 'verwerking.yaml#/components/schemas/Verwerking'
+    VerwerkingStatus:
+      $ref: 'verwerking.yaml#/components/schemas/VerwerkingStatus'

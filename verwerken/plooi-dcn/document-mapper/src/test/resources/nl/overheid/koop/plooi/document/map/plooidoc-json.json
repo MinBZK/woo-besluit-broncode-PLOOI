@@ -1,0 +1,62 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/plooi-api-121a4567-e29b-12d3-a716-446655440000",
+    "weblocatie" : "https://documenten.denhaag.nl/documenten/doc-123e4567-e89b-12d3-a456-426614174777",
+    "creatiedatum" : "2021-05-02",
+    "geldigheid" : {
+      "begindatum" : "2021-05-01"
+    },
+    "verantwoordelijke" : {
+      "label" : "gemeente Den Haag"
+    },
+    "publisher" : {
+      "label" : "gemeente Den Haag"
+    },
+    "opsteller" : {
+      "label" : "gemeente Den Haag"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "onderwerpen" : [ "natuur en milieu", "organisatie en bedrijfsvoering" ],
+    "titelcollectie" : {
+      "officieleTitel" : "'s Gravenhage Kapvergunning Hooigracht onder nummer 20219495, d.d. 20210719",
+      "verkorteTitels" : [ "Kapvergunning Hooigracht 2021" ],
+      "alternatieveTitels" : [ "20210719 - Kapvergunning Hooigracht Den Haag", "Een hele mooie titel over deze illustere vergunning om monumentale bomen aan de Hooigracht te kappen", "Of zo iets" ]
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_002fc258",
+        "label" : "vergunning"
+      } ],
+      "themas" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11",
+        "label" : "natuur en milieu"
+      }, {
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b",
+        "label" : "organisatie en bedrijfsvoering"
+      } ],
+      "trefwoorden" : [ "raak", "goal", "hit" ]
+    },
+    "aggregatiekenmerk" : "een dossier ofzo",
+    "extraMetadata" : [ {
+      "velden" : [ {
+        "key" : "meta1",
+        "values" : [ "natuur en milieu" ]
+      }, {
+        "key" : "meta2",
+        "values" : [ "organisatie en bedrijfsvoering" ]
+      } ]
+    } ]
+  },
+  "plooiIntern" : {
+    "dcnId" : "plooi-api-121a4567-e29b-12d3-a716-446655440000",
+    "aanbieder" : "plooi",
+    "extId" : [ "121a4567-e29b-12d3-a716-446655440000" ],
+    "sourceLabel" : "plooi-api"
+  },
+  "body" : {
+    "tekst" : [ "20210719 - Kapvergunning Hooigracht Den Haag", "Een hele mooie titel over deze illustere vergunning om monumentale bomen aan de Hooigracht te kappen", "Of zo iets" ]
+  }
+}

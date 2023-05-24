@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+      Generatie: versie XSLT 1.1 op 2020-12-16+01:00-->
+<owms-metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:overheidop="http://standaarden.overheid.nl/oep/meta/">
+   <owmskern>
+      <dcterms:identifier>stcrt-2021-100</dcterms:identifier>
+      <dcterms:title>Verkeersbesluit gereserveerde parkeerplaats voor opladen elektrische voertuigen Waldeck Pyrmontstraat</dcterms:title>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:type scheme="OVERHEIDop.Staatscourant">Verkeersbesluiten</dcterms:type>
+      <dcterms:creator scheme="OVERHEID.Gemeente">Haarlem</dcterms:creator>
+      <dcterms.modified>2021-01-07</dcterms.modified>
+      <dcterms:spatial>103151.5 488576.99</dcterms:spatial>
+   </owmskern>
+   <owmsmantel>
+      <dcterms:alternative>Gemeente Haarlem - Verkeersbesluit gereserveerde parkeerplaats voor opladen elektrische voertuigen - Waldeck Pyrmontstraat</dcterms:alternative>
+      <dcterms:available>2021-01-07</dcterms:available>
+      <dcterms:publisher>Ministerie van Binnenlandse Zaken en Koninkrijksrelaties</dcterms:publisher>
+   </owmsmantel>
+   <oep>
+      <overheid:organisationType>gemeente</overheid:organisationType>
+      <overheidop:publicationName>Staatscourant</overheidop:publicationName>
+      <overheid:authority>Haarlem</overheid:authority>
+      <overheidop:configuratie>https://repository.officiele-overheidspublicaties.nl/MasterConfiguraties/MC-DRP-VB-Web-CB/3.13/xml/MC-DRP-VB-Web-CB.xml</overheidop:configuratie>
+      <overheid:category scheme="OVERHEID.TaxonomieBeleidsagenda">Verkeer | Organisatie en beleid</overheid:category>
+      <overheidvb:typeVerkeersbesluit xmlns:overheidvb="http://technische-documentatie.oep.overheid.nl/this_uri_does_not_resolve_to_anything">plaatsing of verwijdering van verkeerstekens</overheidvb:typeVerkeersbesluit>
+      <overheidvb:vereisteVanBesluit xmlns:overheidvb="http://technische-documentatie.oep.overheid.nl/this_uri_does_not_resolve_to_anything">Het bepaalde in artikel 12 van het BABW</overheidvb:vereisteVanBesluit>
+      <overheidvb:wegcategorie xmlns:overheidvb="http://technische-documentatie.oep.overheid.nl/this_uri_does_not_resolve_to_anything">Erftoegangsweg binnen de bebouwde kom</overheidvb:wegcategorie>
+      <overheidvb:weggebruiker xmlns:overheidvb="http://technische-documentatie.oep.overheid.nl/this_uri_does_not_resolve_to_anything">bestuurders van een motorrijwiel, scooter, personenauto of bestelauto</overheidvb:weggebruiker>
+      <overheidvb:referentienummer xmlns:overheidvb="http://technische-documentatie.oep.overheid.nl/this_uri_does_not_resolve_to_anything">2020/1185251</overheidvb:referentienummer>
+      <overheidop:verkeersbordcode>E4</overheidop:verkeersbordcode>
+      <overheidop:postcodeHuisnummer>2013SB 1</overheidop:postcodeHuisnummer>
+      <overheidop:straatnaam>Waldeck Pyrmontstraat</overheidop:straatnaam>
+      <overheidop:woonplaats>Haarlem</overheidop:woonplaats>
+      <overheidop:jaargang>2021</overheidop:jaargang>
+      <overheidop:publicationIssue>100</overheidop:publicationIssue>
+   </oep>
+</owms-metadata>

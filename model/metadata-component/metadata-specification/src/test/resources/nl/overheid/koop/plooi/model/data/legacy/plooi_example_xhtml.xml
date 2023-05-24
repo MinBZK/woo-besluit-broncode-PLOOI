@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plooi:plooi xmlns:plooi="http://standaarden.overheid.nl/plooi/terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/">
+    <plooi:meta>
+        <plooi:owmskern>
+            <dcterms:identifier>kst-32761-184_1</dcterms:identifier>
+            <dcterms:title>Verwerking en bescherming persoonsgegevens; Motie; Motie van het lid Belhaj c.s. over duidelijke kaders voor toekomstige experimenteeromgevingen</dcterms:title>
+            <dcterms:language>Nederlands</dcterms:language>
+            <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+        </plooi:owmskern>
+        <plooi:owmsmantel>
+            <dcterms:available>
+                <start>2021-05-27</start>
+            </dcterms:available>
+            <dcterms:issued>2021-05-26</dcterms:issued>
+            <dcterms:relation resourceIdentifier="plooicb-kst-32761-184">plooicb-kst-32761-184</dcterms:relation>
+        </plooi:owmsmantel>
+        <plooi:othermeta>
+            <plooi:bronmeta/>
+        </plooi:othermeta>
+        <plooi:plooiipm>
+            <plooi:versie>1</plooi:versie>
+            <plooi:aanbieder>overheid.nl</plooi:aanbieder>
+        </plooi:plooiipm>
+    </plooi:meta>
+    <plooi:body>
+        <plooi:tekst xmlns="http://www.w3.org/1999/xhtml">
+            <h1 class="dossiertitel">
+                <a id="d17e46" name="d17e46"/>
+                <span class="dossiernummer">32 761</span>
+                 Verwerking en bescherming persoonsgegevens
+            </h1>
+            <div class="stuk">
+                <h1 class="stuktitel">
+                    <a id="d17e51" name="d17e51"/>
+                    <span class="stuknummer">Nr. 184</span>
+                     MOTIE VAN HET LID BELHAJ C.S.
+                </h1>
+                <p class="kamerstukdatum">
+                    Voorgesteld
+                    <span class="datum">26 mei 2021</span>
+                </p>
+                <div class="algemeen">
+                    <p>De Kamer,</p>
+                    <p>gehoord de beraadslaging,</p>
+                    <p>overwegende dat er bij het Land Information Manoeuvre Centre geen duidelijke grenzen waren tussen experiment en bijstand;</p>
+                    <p>overwegende dat het niet duidelijk is onder welke (kern)taken Defensie mag experimenteren;</p>
+                    <p>verzoekt de regering, duidelijke kaders op te stellen voor toekomstige experimenteeromgevingen zoals het LIMC, zodat te allen tijde gegarandeerd kan worden dat Defensie niet experimenteert met grondwettelijke taken of andere grondslagen of militair-juridische kaders,</p>
+                    <p>en gaat over tot de orde van de dag.</p>
+                    <div class="alineagroep">
+                        <p>Belhaj</p>
+                        <p>Stoffer</p>
+                        <p>Boswijk</p>
+                        <p>Kuzu</p>
+                    </div>
+                </div>
+            </div>
+        </plooi:tekst>
+    </plooi:body>
+</plooi:plooi>

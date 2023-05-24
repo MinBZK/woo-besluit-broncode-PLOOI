@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+      Generatie: versie XSLT 1.1 op 2022-01-04+01:00-->
+<owms-metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:overheidop="http://standaarden.overheid.nl/oep/meta/">
+   <owmskern>
+      <dcterms:identifier>blg-1007826</dcterms:identifier>
+      <dcterms:title>Beslisnota inzake aangenomen moties en reactie op vier zienswijzen 7e Actieprogramma Nitraatrichtlijn</dcterms:title>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:type scheme="OVERHEIDop.Parlementair">Bijlage</dcterms:type>
+      <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+      <dcterms.modified>2021-12-03</dcterms.modified>
+   </owmskern>
+   <owmsmantel>
+      <dcterms:available>2021-12-03</dcterms:available>
+   </owmsmantel>
+   <oep>
+      <overheidop:documentStatus>Onopgemaakt</overheidop:documentStatus>
+      <overheidop:dossiernummer>33037</overheidop:dossiernummer>
+      <overheidop:ondernummer>430</overheidop:ondernummer>
+      <overheidop:publicationName>Kamerstuk</overheidop:publicationName>
+      <overheidop:vergaderjaar>2021-2022</overheidop:vergaderjaar>
+      <overheid:organisationType>staten generaal</overheid:organisationType>
+      <overheidop:hoofddocument>kst-33037-430</overheidop:hoofddocument>
+   </oep>
+</owms-metadata>

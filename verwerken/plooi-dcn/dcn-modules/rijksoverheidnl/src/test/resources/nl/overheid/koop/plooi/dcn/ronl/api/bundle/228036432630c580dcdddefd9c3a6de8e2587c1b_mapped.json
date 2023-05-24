@@ -1,0 +1,46 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/ronl-228036432630c580dcdddefd9c3a6de8e2587c1b",
+    "creatiedatum" : "1985-08-05T09:52:00.000Z",
+    "geldigheid" : {
+      "begindatum" : "2019-12-17"
+    },
+    "verantwoordelijke" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1018",
+      "label" : "ministerie van Defensie"
+    },
+    "publisher" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/organisatie_onbekend",
+      "label" : "Onbekend"
+    },
+    "opsteller" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1010",
+      "label" : "ministerie van Algemene Zaken"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "titelcollectie" : {
+      "officieleTitel" : "Akte van aanstelling 001474"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/id/documentsoort_onbekend",
+        "label" : "Onbekend"
+      } ],
+      "themas" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/id/thema_onbekend",
+        "label" : "Onbekend"
+      } ]
+    }
+  },
+  "plooiIntern" : {
+    "dcnId" : "ronl-228036432630c580dcdddefd9c3a6de8e2587c1b",
+    "aanbieder" : "Rijksoverheid.nl",
+    "extId" : [ "0acb97b8-b3cf-4654-92c2-0fa4199c100c" ],
+    "sourceLabel" : "ronl"
+  }
+}

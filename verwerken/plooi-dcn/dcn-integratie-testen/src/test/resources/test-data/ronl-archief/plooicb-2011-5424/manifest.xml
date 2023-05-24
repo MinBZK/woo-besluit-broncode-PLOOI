@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<work xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xsi:noNamespaceSchemaLocation="../_manifest.xsd" label="plooicb-2011-5424" gegenereerd="2019-06-11T09:52:39" _latestItem="1/pdf/20110301-5687928a-draagmoederschap.pdf">
+	<metadata>
+		<dcterms.available>2011-03-01</dcterms.available>
+		<dcterms.creator resourceIdentifier="http://standaarden.overheid.nl/owms/terms/minjenv">Ministerie van Justitie en Veiligheid</dcterms.creator>
+		<dcterms.description>Het onderwerp draagmoederschap heeft door de toegenomen medische mogelijkheden, de opkomst van internet en de mondialisering een nadere oriëntatie nodig. De toenmalige minister van Justitie heeft met het oog daarop een onderzoek aangekondigd naar de aard en omvang van commercieel draagmoederschap en illegale opneming van een (buitenlands) kind. </dcterms.description>
+		<dcterms.identifier>plooicb-2011-5424</dcterms.identifier>
+		<dcterms.issued>2011-03-01</dcterms.issued>
+		<dcterms.language>nl-NL</dcterms.language>
+		<dcterms.publisher resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Ministerie_van_Algemene_Zaken">Ministerie van Algemene Zaken</dcterms.publisher>
+		<dcterms.relation>plooicb-2011-5423</dcterms.relation>
+		<dcterms.relation>plooicb-2011-5420</dcterms.relation>
+		<dcterms.source>https://archief06.archiefweb.eu/archives/archiefweb/20180422095750/https://www.rijksoverheid.nl/documenten/brieven/2011/03/01/draagmoederschap</dcterms.source>
+		<dcterms.subject>Complex onderwerp draagmoederschap vraagt om nadere oriëntatie</dcterms.subject>
+		<dcterms.subject>Draagmoederschap</dcterms.subject>
+		<dcterms.title>Brief Tweede Kamer: Draagmoederschap</dcterms.title>
+		<dcterms.type>brief</dcterms.type>
+		<overheid.authority resourceIdentifier="http://standaarden.overheid.nl/owms/terms/minjenv">Ministerie van Justitie en Veiligheid</overheid.authority>
+	</metadata>
+	<expression label="1">
+		<metadata/>
+		<manifestation label="pdf">
+			<metadata>
+				<size>27</size>
+			</metadata>
+			<item label="20110301-5687928a-draagmoederschap.pdf" _deleted="false"/>
+		</manifestation>
+	</expression>
+</work>

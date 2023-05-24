@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<work xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/"
+    xsi:noNamespaceSchemaLocation="../_manifest.xsd" label="plooicb-2011-5647" gegenereerd="2019-06-13T10:31:03" _latestItem="1/pdf/201125843.pdf">
+    <metadata>
+        <dcterms.available>2011-02-24</dcterms.available>
+        <dcterms.creator resourceIdentifier="http://standaarden.overheid.nl/owms/terms/minienw">Ministerie van Infrastructuur en Waterstaat</dcterms.creator>
+        <dcterms.identifier>plooicb-2011-5647</dcterms.identifier>
+        <dcterms.issued>2011-02-24</dcterms.issued>
+        <dcterms.language>nl-NL</dcterms.language>
+        <dcterms.publisher resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Ministerie_van_Algemene_Zaken">Ministerie van Algemene Zaken</dcterms.publisher>
+        <dcterms.relation>plooicb-2011-5648</dcterms.relation>
+        <dcterms.relation>plooicb-2011-5649</dcterms.relation>
+        <dcterms.source>https://archief06.archiefweb.eu/archives/archiefweb/20180422095750/https://www.rijksoverheid.nl/documenten/kamerstukken/2011/02/25/frauderapport-ov-chipkaart</dcterms.source>
+        <dcterms.title>Frauderapport OV-chipkaart</dcterms.title>
+        <dcterms.type>kamerstuk</dcterms.type>
+        <overheid.authority resourceIdentifier="http://standaarden.overheid.nl/owms/terms/minienw">Ministerie van Infrastructuur en Waterstaat</overheid.authority>
+    </metadata>
+    <expression label="1">
+        <metadata />
+        <manifestation label="pdf">
+            <metadata>
+                <size>118</size>
+                <pages>3</pages>
+            </metadata>
+            <item label="201125843.pdf" _deleted="false" />
+        </manifestation>
+    </expression>
+</work>

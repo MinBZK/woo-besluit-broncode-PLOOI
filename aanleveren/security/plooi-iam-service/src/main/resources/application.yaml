@@ -1,0 +1,46 @@
+spring:
+  security:
+    saml2:
+      relyingparty:
+        registration:
+          cam:
+            entity-id: Aanleveren-TST
+            acs:
+              location:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+            assertingparty:
+              metadata-uri: "classpath:metadata-cam-adfs-tst.xml"
+            decryption:
+              credentials:
+                - private-key-location:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+                  certificate-location:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+    oauth2:
+      resourceserver:
+        jwt:
+          public-key-location: "classpath:amp-pre-g1.pub"
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include: health, info
+  endpoint:
+    health:
+      probes:
+        enabled: true
+  health:
+    readinessstate:
+      enabled: true
+    livenessstate:
+      enabled: true
+
+plooi-iam-service:
+  key-store: plooi.jks
+  key-password: ${KEYSTORE_PASSPHRASE}
+  ca-key-location: "classpath:amp-pre-g1.pub"
+  allowed-redirect-uris:
+    - https:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+    - https:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+    - http://localhost:3000
+    - http://localhost:3000/

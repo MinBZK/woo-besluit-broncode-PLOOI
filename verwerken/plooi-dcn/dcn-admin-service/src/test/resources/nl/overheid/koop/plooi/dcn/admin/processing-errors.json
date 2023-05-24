@@ -1,0 +1,42 @@
+{
+  "content": [
+    {
+      "documentEvent": {
+        "executionId": "executionId1",
+        "sourceName": "testSource1",
+        "externalId": "extId1",
+        "internalId": "id-1234",
+        "stage": "INGRESS",
+        "severity": "OK",
+        "timeCreated": null
+      },
+      "processingError": {
+        "id": null,
+        "timeCreated": null,
+        "fromRoute": "/http/test",
+        "exceptionClass": "null pointer",
+        "exceptionMessage": "file not found",
+        "exceptionResponse": null,
+        "exceptionStacktrace": null,
+        "statusCode": null,
+        "statusText": null,
+        "messageBody": null,
+        "documentEventId": "documentEventId"
+      }
+    }
+  ],
+  "pageable": "INSTANCE",
+  "totalElements": 1,
+  "totalPages": 1,
+  "last": true,
+  "numberOfElements": 1,
+  "first": true,
+  "number": 0,
+  "sort": {
+    "sorted": false,
+    "unsorted": true,
+    "empty": true
+  },
+  "size": 1,
+  "empty": false
+}

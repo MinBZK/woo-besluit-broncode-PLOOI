@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+  xmlns:xslweb="http://www.armatiek.com/xslweb/webapp"
+  xmlns:saxon-config="http://saxon.sf.net/ns/configuration"
+  targetNamespace="http://www.armatiek.com/xslweb/webapp" 
+  elementFormDefault="qualified">
+
+  <xs:import schemaLocation="../fop/fop-configuration.xsd"/>
+
+  <xs:import namespace="http://saxon.sf.net/ns/configuration" schemaLocation="../saxon/config.xsd"/>
+
+  <xs:element name="webapp">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="title" type="xs:string"/>
+        <xs:element name="description" minOccurs="0" type="xs:string"/>
+        <xs:element name="active" type="xs:boolean" minOccurs="0" default="true"/>
+        <xs:element name="development-mode" type="xs:boolean" minOccurs="0" default="false"/>
+        <xs:element name="debug-mode" type="xs:boolean" minOccurs="0" default="false"/>
+        <xs:element name="max-upload-size" type="xs:integer" minOccurs="0" default="10"/>
+        <xs:element name="wait-for-jobs-at-close" type="xs:boolean" minOccurs="0" default="true"/>
+        <xs:element name="disable-cookie-management" type="xs:boolean" minOccurs="0" default="false"/>
+        <xs:element name="resources" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cache-buster-id" type="xs:string" minOccurs="0"/>
+              <xs:element name="resource" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="pattern" type="xs:string" use="required"/>
+                  <xs:attribute name="media-type" type="xs:string" use="required"/>
+                  <xs:attribute name="duration" type="xs:duration" use="optional"/>
+                  <xs:attribute name="extra-cache-control" type="xs:string" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="parameters" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="parameter">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="value" maxOccurs="unbounded" type="xs:string"/>
+                  </xs:sequence>
+                  <xs:attribute name="uri" type="xs:anyURI"/>
+                  <xs:attribute name="name" type="xs:string" use="required"/>
+                  <xs:attribute name="type" use="required">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value="xs:string"/>
+                        <xs:enumeration value="xs:boolean"/>
+                        <xs:enumeration value="xs:integer"/>
+                        <xs:enumeration value="xs:double"/>
+                        <xs:enumeration value="xs:float"/>
+                        <xs:enumeration value="xs:decimal"/>
+                        <xs:enumeration value="xs:dateTime"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="webdav" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="enabled" type="xs:boolean" minOccurs="0" default="false"/>
+              <xs:element name="index-file" type="xs:string" minOccurs="0"/>
+              <xs:element name="instead-of-404" type="xs:string" minOccurs="0"/>  
+              <xs:element name="no-contentlength-header" type="xs:integer" minOccurs="0"/>
+              <xs:element name="lazy-folder-creation-on-put" type="xs:boolean" minOccurs="0" default="false"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="security" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="shiro-ini" minOccurs="0" maxOccurs="1" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="jobs" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="job">
+                <xs:complexType>
+                  <xs:all>
+                    <xs:element name="name" type="xs:string"/>
+                    <xs:element name="uri" type="xs:string"/>
+                    <xs:element name="cron" type="xs:string"/>
+                    <xs:element name="concurrent" type="xs:boolean" minOccurs="0"/>
+                  </xs:all>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="datasources" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="datasource" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string"/>
+                    <xs:element name="driver-class" type="xs:string"/>
+                    <xs:element name="jdbc-url" type="xs:string"/>
+                    <xs:element name="username" type="xs:string" minOccurs="0"/>
+                    <xs:element name="password" type="xs:string" minOccurs="0"/>
+                    <xs:element name="property" minOccurs="0" maxOccurs="unbounded" type="xslweb:property-type"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="queues" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="queue" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string"/>
+                    <xs:element name="number-of-threads" type="xs:integer" minOccurs="0" default="3"/>
+                    <xs:element name="max-queue-size" type="xs:integer" minOccurs="0" default="10"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="saxon-config:configuration" minOccurs="0"/>
+        <xs:element name="fop-configs" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fop-config" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="fop"/>
+                  </xs:sequence>
+                  <xs:attribute name="name" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:complexType name="property-type">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="name" type="xs:string" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  
+</xs:schema>

@@ -1,0 +1,21 @@
+.DS_Store
+*.log
+target/
+
+### Ecipse/STS ###
+.classpath
+.project
+.settings
+.springBeans
+.sts4-cache
+.pydevproject
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode
+

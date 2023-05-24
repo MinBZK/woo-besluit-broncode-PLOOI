@@ -1,0 +1,55 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/roo-c39652728fcc00e89bb9095ba4a194f6597e433c",
+    "weblocatie" : "https://almanak.overheid.nl/39606/Gemeente_Valkenburg_aan_de_Geul",
+    "creatiedatum" : "2022-03-15",
+    "verantwoordelijke" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/gemeente/gm0994",
+      "label" : "Gemeente Valkenburg aan de Geul"
+    },
+    "publisher" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/gemeente/gm0994",
+      "label" : "Gemeente Valkenburg aan de Geul"
+    },
+    "opsteller" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/gemeente/gm0994",
+      "label" : "Gemeente Valkenburg aan de Geul"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "titelcollectie" : {
+      "officieleTitel" : "Gemeente Valkenburg aan de Geul - Organisatiegegevens"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_9ecc0007",
+        "label" : "Organisatiegegevens"
+      } ],
+      "themas" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f37fd49d",
+        "label" : "Organisatie en bedrijfsvoering"
+      } ]
+    },
+    "extraMetadata" : [ {
+      "prefix" : "plooi.displayfield",
+      "velden" : [ {
+        "key" : "identificatienummer",
+        "values" : [ "https://identifier.overheid.nl/tooi/id/gemeente/gm0994" ]
+      }, {
+        "key" : "bezoekadres",
+        "values" : [ "Geneindestraat 4, 6301 HC VALKENBURG LB" ]
+      }, {
+        "key" : "postadres",
+        "values" : [ "Postbus 998, 6300 AZ VALKENBURG LB" ]
+      } ]
+    } ]
+  },
+  "plooiIntern" : {
+    "dcnId" : "roo-c39652728fcc00e89bb9095ba4a194f6597e433c",
+    "aanbieder" : "Register van Overheidsorganisaties",
+    "extId" : [ "dummy" ],
+    "sourceLabel" : "roo"
+  }
+}

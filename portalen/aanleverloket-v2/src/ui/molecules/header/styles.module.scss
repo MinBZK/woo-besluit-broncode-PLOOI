@@ -1,0 +1,132 @@
+@import "../../colors.scss";
+@import "../../breakpoints.scss";
+@import "../../icons.scss";
+
+.header {
+  &__start {
+    padding: 0.75em 1em;
+
+    &__right {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      gap: 20px;
+
+      & p {
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        word-wrap: break-word;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        text-align: end;
+      }      
+    }
+
+    & p {
+      color: $darkBlue;
+      font-size: 0.8em;
+      margin: 0;
+
+      // @media (min-width: 51em) {
+      //   margin: -0.3em 0 0 0 !important;
+      // }
+    }
+
+    & button {
+      float: right;
+      position: relative;
+      // z-index: 1;
+      // margin-top: 0.25em;
+    }
+  }
+
+  &__nav {
+    background-color: $primaryBlue;
+    position: relative;
+    padding: 0 1em;
+    min-height: 49.5px;
+
+    &--menuOpened {
+      @media (max-width: $breakpointDesktop) {
+        padding: 0 0;
+      }
+    }
+
+    ul {
+      @media (min-width: $breakpointDesktop) {
+        display: flex;
+      }
+    }
+
+    a {
+      @media (max-width: $breakpointDesktop) {
+        width: 100%;
+      }
+
+      color: $white;
+      text-decoration: none;
+      padding: 0.625em 1em;
+      display: block;
+      // font-size: 1.125rem;
+      word-break: normal;
+
+      &:hover {
+        background-color: $mediumBlue;
+        color: $darkBlue;
+      }
+    }
+
+    button {
+      @media (max-width: $breakpointDesktop) {
+        width: 100%;
+      }
+
+      position: relative;
+      background-color: $white;
+      border: 0;
+      color: $darkBlue;
+      padding: 0.625em 2em 0.625em 1em;
+      background-image: $dartDownIcon;
+      background-repeat: no-repeat;
+      background-position: right 0.75em center;
+      font-size: 1.125rem;
+      text-align: left;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        height: 0.5em;
+        width: 100%;
+        background-color: $white;
+        z-index: -1;
+        opacity: 0;
+        transition: opacity 0.1s ease-in-out;
+      }
+
+      &:hover {
+        &::before {
+          opacity: 1;
+          z-index: 0;
+        }
+      }
+    }
+
+    &--submenuOpened {
+      button {
+        background-image: $dartUpIcon;
+
+        &::before {
+          opacity: 1;
+          z-index: 0;
+        }
+      }
+    }
+
+    .flex {
+      display: flex;
+    }
+  }
+}

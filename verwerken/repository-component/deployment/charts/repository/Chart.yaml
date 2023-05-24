@@ -1,0 +1,5 @@
+apiVersion: v2
+name: repository
+description: Kubernetes Helm chart for the PLOOI repository service
+type: application
+version: 1.0.1

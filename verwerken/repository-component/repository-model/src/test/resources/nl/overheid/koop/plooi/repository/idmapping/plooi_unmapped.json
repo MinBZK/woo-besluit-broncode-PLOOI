@@ -1,0 +1,58 @@
+{
+  "document" : {
+    "pid" : "https://open.overheid.nl/documenten/ronl-ff84267df2e76c945dd0c8644acd42d6",
+    "weblocatie" : "https://www.rijksoverheid.nl/documenten/brieven/2020/05/29/e-mail-verzoek-aan-landsadvocaat",
+    "creatiedatum" : "2020-05-28",
+    "verantwoordelijke" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1034",
+      "label" : "ministerie van Binnenlandse Zaken en Koninkrijksrelaties"
+    },
+    "opsteller" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1034",
+      "label" : "ministerie van Binnenlandse Zaken en Koninkrijksrelaties"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "omschrijvingen" : [ "E-mail juridisch adviseur aan landsadvocaat met verzoek om advies." ],
+    "titelcollectie" : {
+      "officieleTitel" : "E-mail verzoek aan landsadvocaat"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_7652d853",
+        "label" : "brief"
+      } ],
+      "themas" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f37fd49d",
+        "label" : "inrichting van de overheid"
+      } ]
+    }
+  },
+  "plooiIntern" : {
+    "dcnId" : "ronl-ff84267df2e76c945dd0c8644acd42d6",
+    "aanbieder" : "Rijksoverheid.nl",
+    "extId" : [ "355a076b-ca09-431f-81b0-38961ed6a594" ],
+    "sourceLabel" : "ronl"
+  },
+  "versies" : [ {
+    "nummer" : 1,
+    "oorzaak" : "aanlevering",
+    "bestanden" : [ {
+      "gepubliceerd" : false,
+      "label" : "xml",
+      "url" : "https://opendata.rijksoverheid.nl/v1/sources/rijksoverheid/documents/355a076b-ca09-431f-81b0-38961ed6a594",
+      "bestandsnaam" : "355a076b-ca09-431f-81b0-38961ed6a594.xml",
+      "titel" : "E-mail verzoek aan landsadvocaat",
+      "hash" : "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+    }, {
+      "gepubliceerd" : true,
+      "label" : "pdf",
+      "url" : "https://opendata.rijksoverheid.nl/binaries/rijksoverheid/documenten/brieven/2020/05/29/e-mail-verzoek-aan-landsadvocaat/e-mail-verzoek-aan-landsadvocaat.pdf",
+      "bestandsnaam" : "e-mail-verzoek-aan-landsadvocaat.pdf",
+      "hash" : "45e2cece514dbde1b9560be3d708261dfc2a094f"
+    } ]
+  } ]
+}

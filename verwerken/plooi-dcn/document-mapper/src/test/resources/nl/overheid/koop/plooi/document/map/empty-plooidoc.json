@@ -1,0 +1,12 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/tst-0f0264a8c6fdc4de85420e56cade9087a9a99885",
+    "titelcollectie" : { },
+    "classificatiecollectie" : { }
+  },
+  "plooiIntern" : {
+    "dcnId" : "tst-0f0264a8c6fdc4de85420e56cade9087a9a99885",
+    "extId" : [ "tst" ],
+    "sourceLabel" : "tst"
+  }
+}

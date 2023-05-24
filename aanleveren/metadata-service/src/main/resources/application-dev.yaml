@@ -1,0 +1,7 @@
+server:
+  port: 8282
+
+plooi:
+  security:
+    enabled: false
+    plooi-iam-service-url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS

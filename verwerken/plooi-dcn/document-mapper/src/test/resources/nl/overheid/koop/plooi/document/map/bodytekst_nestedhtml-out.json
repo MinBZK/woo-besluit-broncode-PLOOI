@@ -1,0 +1,15 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/tst-0f0264a8c6fdc4de85420e56cade9087a9a99885",
+    "titelcollectie" : { },
+    "classificatiecollectie" : { }
+  },
+  "plooiIntern" : {
+    "dcnId" : "tst-0f0264a8c6fdc4de85420e56cade9087a9a99885",
+    "extId" : [ "tst" ],
+    "sourceLabel" : "tst"
+  },
+  "body" : {
+    "tekst" : [ "<h2 xmlns=\"http://www.w3.org/1999/xhtml\">\n                Title\n            \n    <a href=\"#\">with link</a>\n            \n</h2>\n", "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n                \n    <p>\n                paragraph\n            </p>\n                \n    <p>\n                        \n        <b>tekst</b>\n                    \n    </p>\n            \n</div>\n" ]
+  }
+}

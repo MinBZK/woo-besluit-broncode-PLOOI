@@ -1,0 +1,24 @@
+{
+  "plooiIntern" : {
+    "dcnId" : "plooi-api-c782f16a708a2d7ac759076a84ba01b4b2ecf6c4",
+    "extId" : [ "9495beca-ff69-4005-bb29-222222222222" ],
+    "sourceLabel" : "plooi-api"
+  },
+  "versies" : [ {
+    "nummer" : 1,
+    "oorzaak" : "aanlevering",
+    "bestanden" : [ {
+      "gepubliceerd" : false,
+      "label" : "metadata",
+      "mime-type" : "application/json",
+      "bestandsnaam" : "meta.json",
+      "hash" : "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+    }, {
+      "gepubliceerd" : true,
+      "label" : "archief",
+      "mime-type" : "application/zip",
+      "bestandsnaam" : "document.zip",
+      "hash" : "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+    } ]
+  } ]
+}

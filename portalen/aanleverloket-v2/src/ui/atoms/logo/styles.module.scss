@@ -1,0 +1,22 @@
+.logo {
+    position: 'relative';
+    
+    &__icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    &__small {
+        width: 30px;
+        height: 30px;
+    }
+
+    &__medium {
+        width: 50px;
+        height: 50px;
+    }
+
+    &__large {
+        width: 180px;
+    }
+}

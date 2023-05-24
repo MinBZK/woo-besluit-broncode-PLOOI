@@ -1,0 +1,9 @@
+@import "../../colors.scss";
+@import "../../borders.scss";
+
+.footer
+{
+    background-color: $lightBlue;
+    border-top: $fatBorder solid $mediumBlue;
+    padding: 1.5em;
+}

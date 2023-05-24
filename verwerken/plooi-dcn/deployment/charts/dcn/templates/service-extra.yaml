@@ -1,0 +1,17 @@
+{{- if .Values.extraPort.enabled }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "dcn.fullname" . }}-{{ .Values.extraPort.label | default "extra" }}-service
+  labels:
+    {{- include "dcn.labels" . | nindent 4 }}
+spec:
+  type: ClusterIP
+  ports:
+    - name: dcn-{{ .Values.extraPort.label | default "extra" }}-port
+      port: {{ .Values.extraPort.port | default 8082 }}
+      targetPort: {{ .Values.extraPort.port | default 8082 }}
+      protocol: TCP
+  selector:
+    {{- include "dcn.selectorLabels" . | nindent 4 }}
+{{- end }}

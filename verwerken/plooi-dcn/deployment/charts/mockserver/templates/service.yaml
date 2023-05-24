@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "mockserver.fullname" . }}-service
+  labels:
+    {{- include "mockserver.labels" . | nindent 4 }}
+spec:
+  type: ClusterIP
+  ports:
+    - name: mockserver-port
+      port: 1080
+      targetPort: 1080
+      protocol: TCP
+  selector:
+    {{- include "mockserver.selectorLabels" . | nindent 4 }}

@@ -1,0 +1,60 @@
+openapi: '3.0.2'
+info:
+  title: Waardelijst ministeries compleet
+  description: |
+    Beschrijft alle ministeries die voor zover bekend op de zichtdatum bestaan hebben, bestaan of zullen bestaan
+  version: '1'
+  contact:
+    email: plooi@koop.overheid.nl
+  termsOfService: https://open.overheid.nl/terms
+  license:
+    name: MIT
+    url: https://open.overheid.nl/license
+components:
+  schemas:
+    Ministerie:
+      type: string
+      description: |-
+        * `https://identifier.overheid.nl/tooi/id/ministerie/hv_04793043` - ministerie van Justitie
+        * `https://identifier.overheid.nl/tooi/id/ministerie/hv_04795600` - ministerie van Veiligheid en Justitie
+        * `https://identifier.overheid.nl/tooi/id/ministerie/hv_05434137` - ministerie van Economische Zaken
+        * `https://identifier.overheid.nl/tooi/id/ministerie/hv_06784634` - ministerie van Infrastructuur en Milieu
+        * `https://identifier.overheid.nl/tooi/id/ministerie/hv_17252319` - ministerie van Economische Zaken, Landbouw en Innovatie
+        * `https://identifier.overheid.nl/tooi/id/ministerie/mnre0170` - ministerie van Verkeer en Waterstaat
+        * `https://identifier.overheid.nl/tooi/id/ministerie/mnre0180` - ministerie van Volkshuisvesting, Ruimtelijke Ordening en Milieubeheer
+        * `https://identifier.overheid.nl/tooi/id/ministerie/mnre1010` - ministerie van Algemene Zaken
+        * `https://identifier.overheid.nl/tooi/id/ministerie/mnre1013` - ministerie van Buitenlandse Zaken
+        * `https://identifier.overheid.nl/tooi/id/ministerie/mnre1018` - ministerie van Defensie
+        * `https://identifier.overheid.nl/tooi/id/ministerie/mnre1025` - ministerie van Volksgezondheid, Welzijn en Sport
+        * `https://identifier.overheid.nl/tooi/id/ministerie/mnre1034` - ministerie van Binnenlandse Zaken en Koninkrijksrelaties
+        * `https://identifier.overheid.nl/tooi/id/ministerie/mnre1040` - ministerie van Economische Zaken
+        * `https://identifier.overheid.nl/tooi/id/ministerie/mnre1045` - ministerie van Economische Zaken en Klimaat
+        * `https://identifier.overheid.nl/tooi/id/ministerie/mnre1058` - ministerie van Justitie en Veiligheid
+        * `https://identifier.overheid.nl/tooi/id/ministerie/mnre1073` - ministerie van Sociale Zaken en Werkgelegenheid
+        * `https://identifier.overheid.nl/tooi/id/ministerie/mnre1090` - ministerie van Financiën
+        * `https://identifier.overheid.nl/tooi/id/ministerie/mnre1109` - ministerie van Onderwijs, Cultuur en Wetenschap
+        * `https://identifier.overheid.nl/tooi/id/ministerie/mnre1130` - ministerie van Infrastructuur en Waterstaat
+        * `https://identifier.overheid.nl/tooi/id/ministerie/mnre1150` - ministerie van Landbouw, Natuur en Voedselkwaliteit
+        * `https://identifier.overheid.nl/tooi/id/ministerie/mnre1153` - ministerie van Landbouw, Natuur en Voedselkwaliteit
+      enum:
+        - https://identifier.overheid.nl/tooi/id/ministerie/hv_04793043
+        - https://identifier.overheid.nl/tooi/id/ministerie/hv_04795600
+        - https://identifier.overheid.nl/tooi/id/ministerie/hv_05434137
+        - https://identifier.overheid.nl/tooi/id/ministerie/hv_06784634
+        - https://identifier.overheid.nl/tooi/id/ministerie/hv_17252319
+        - https://identifier.overheid.nl/tooi/id/ministerie/mnre0170
+        - https://identifier.overheid.nl/tooi/id/ministerie/mnre0180
+        - https://identifier.overheid.nl/tooi/id/ministerie/mnre1010
+        - https://identifier.overheid.nl/tooi/id/ministerie/mnre1013
+        - https://identifier.overheid.nl/tooi/id/ministerie/mnre1018
+        - https://identifier.overheid.nl/tooi/id/ministerie/mnre1025
+        - https://identifier.overheid.nl/tooi/id/ministerie/mnre1034
+        - https://identifier.overheid.nl/tooi/id/ministerie/mnre1040
+        - https://identifier.overheid.nl/tooi/id/ministerie/mnre1045
+        - https://identifier.overheid.nl/tooi/id/ministerie/mnre1058
+        - https://identifier.overheid.nl/tooi/id/ministerie/mnre1073
+        - https://identifier.overheid.nl/tooi/id/ministerie/mnre1090
+        - https://identifier.overheid.nl/tooi/id/ministerie/mnre1109
+        - https://identifier.overheid.nl/tooi/id/ministerie/mnre1130
+        - https://identifier.overheid.nl/tooi/id/ministerie/mnre1150
+        - https://identifier.overheid.nl/tooi/id/ministerie/mnre1153

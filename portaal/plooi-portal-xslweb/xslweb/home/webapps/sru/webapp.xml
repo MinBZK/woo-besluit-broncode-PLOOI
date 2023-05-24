@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<webapp 
+  xmlns="http://www.armatiek.com/xslweb/webapp"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.armatiek.com/xslweb/webapp ../../config/xsd/xslweb/webapp.xsd">
+  
+  <title>SRU interface zoekservice</title>
+  <description>SRU interface zoekservice</description>
+  <development-mode>true</development-mode>
+  
+  <!-- Resources to serve straight away: -->
+  <resources>
+    <resource pattern="/robots.txt" media-type="text/plain"/>
+    <resource pattern=".+\.xsd$" media-type="text/xml"/>
+  </resources>
+  
+  <!-- Stylesheet parameters: -->
+  <parameters>
+    
+    <!-- Global parameters: -->
+    <parameter name="sru-uri" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://zoekservice-tst.overheid.nl/sru/Search</value>
+    </parameter>
+    <parameter name="sru-beta-uri" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>https://beta-zoekservice-lb-tst.overheid.nl</value>
+    </parameter>
+    
+    <!-- Parameters BWB Online: -->
+    <parameter name="bwb-solr-uri" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://zoekservice-tst.overheid.nl/zoekservice/bwbonline</value>
+    </parameter>
+    <parameter name="bwb-base-repos-url" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>https://repository-tst.officiele-overheidspublicaties.nl/bwb</value>
+    </parameter>    
+    <parameter name="bwb-max-records" uri="http://www.armatiek.com/xslweb/configuration" type="xs:integer">
+      <value>200000</value>
+    </parameter>
+    
+    <!-- Parameters BWBTT: -->
+    <parameter name="bwbtt-solr-uri" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://zoekservice-tst.overheid.nl/zoekservice/bwbtt</value>
+    </parameter>
+    <parameter name="bwbtt-base-repos-url" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>https://repository-tst.officiele-overheidspublicaties.nl/bwbtt</value>
+    </parameter>    
+    <parameter name="bwbtt-max-records" uri="http://www.armatiek.com/xslweb/configuration" type="xs:integer">
+      <value>200000</value>
+    </parameter>
+    
+    <!-- Parameters EU Implementatieverbanden: -->    
+    <parameter name="er-solr-uri" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://zoekservice-tst.overheid.nl/zoekservice/eu-richtlijnen</value>
+    </parameter>
+    <parameter name="er-base-repos-url" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>https://repository-tst.officiele-overheidspublicaties.nl/eur</value>
+    </parameter>
+    <parameter name="er-max-records" uri="http://www.armatiek.com/xslweb/configuration" type="xs:integer">
+      <value>200000</value>
+    </parameter> 
+    
+    <!-- Parameters Plooi/Open: -->    
+    <parameter name="plooi-solr-uri" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <!--   <value>http://127.0.0.1:8983/solr/plooi </value>-->
+      <value>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</value>
+<!-SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+    </parameter>
+    <parameter name="plooi-base-repos-url" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://localhost:9090/repository</value>
+    </parameter>
+    <parameter name="plooi-base-frontend-url" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+        <value>http:/localhost:9090</value>
+    </parameter>
+    <parameter name="plooi-max-records" uri="http://www.armatiek.com/xslweb/configuration" type="xs:integer">
+      <value>2147483647</value>
+    </parameter> 
+    
+    <!-- Parameters Wetgevingskalender: --> 
+    <parameter name="wk-solr-uri" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://zoekservice-tst.overheid.nl/zoekservice/wetgevingskalender</value>
+    </parameter>
+    <parameter name="wk-base-repos-url" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>https://repository-tst.officiele-overheidspublicaties.nl/wgk</value>
+    </parameter>
+    <parameter name="wk-max-records" uri="http://www.armatiek.com/xslweb/configuration" type="xs:integer">
+      <value>200000</value>
+    </parameter>
+    
+    <!-- Parameters PUC Open Data: --> 
+    <parameter name="pod-solr-uri" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://zoekservice-tst.overheid.nl/zoekservice/puc-opendata</value>
+    </parameter>
+    <parameter name="pod-base-repos-url" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>https://repository-tst.officiele-overheidspublicaties.nl/pod</value>
+    </parameter>
+    <parameter name="pod-max-records" uri="http://www.armatiek.com/xslweb/configuration" type="xs:integer">
+      <value>200000</value>
+    </parameter>
+    
+    <!-- Parameters CVDR: -->
+    <parameter name="cvdr-solr-uri" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://solrcloud-lb-tst.overheid.nl:8983/solr/cvdr</value>
+    </parameter>
+    <parameter name="cvdr-base-repos-url" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://decentrale.regelgeving.overheid.nl</value>
+    </parameter>
+    <parameter name="cvdr-max-records" uri="http://www.armatiek.com/xslweb/configuration" type="xs:integer">
+      <value>2147483647</value>
+    </parameter>
+    
+    <!-- Parameters CVDR2020: --> 
+    <parameter name="cvdr2020-solr-uri" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://zoekservice-tst.overheid.nl/zoekservice/cvdr2020</value>
+    </parameter>
+    <parameter name="cvdr2020-base-repos-url" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>https://repository-tst.officiele-overheidspublicaties.nl/CVDR/</value>
+    </parameter>
+    <parameter name="cvdr2020-max-records" uri="http://www.armatiek.com/xslweb/configuration" type="xs:integer">
+      <value>2147483647</value>
+    </parameter>
+    
+    <!-- Parameters OO: --> 
+    <parameter name="oo-solr-uri" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://solrcloud-lb-tst.overheid.nl:8983/solr/oo</value>
+    </parameter>
+    <parameter name="oo-base-url" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>https://almanak.overheid.nl</value>
+    </parameter>
+    <parameter name="oo-max-records" uri="http://www.armatiek.com/xslweb/configuration" type="xs:integer">
+      <value>2147483647</value>
+    </parameter>
+    
+    <!-- Parameters Repository: --> 
+    <parameter name="repos-solr-uri" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>http://zoekservice-tst.overheid.nl/zoekservice/repository</value>
+    </parameter>
+    <parameter name="repos-base-repos-url" uri="http://www.armatiek.com/xslweb/configuration" type="xs:string">
+      <value>https://repository-tst.officiele-overheidspublicaties.nl</value>
+    </parameter>
+    <parameter name="repos-max-records" uri="http://www.armatiek.com/xslweb/configuration" type="xs:integer">
+      <value>2147483647</value>
+    </parameter>
+    
+  </parameters>
+  
+</webapp>

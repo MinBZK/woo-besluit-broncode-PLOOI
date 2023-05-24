@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+                "sourceLabel": "ronl",
+                "triggerType": "INGRESS",
+                "trigger": "trigger1",
+                "timeCreated": null,
+                "procesCounts": {
+                    "documentCount": 1,
+                    "executionProErrorCount": 1,
+                    "docEventMappingErrCount": 2,
+                    "docEventProErrorCount": 0
+                }
+        },
+        {
+                "sourceLabel": "source2",
+                "triggerType": "INGRESS",
+                "trigger": "trigger2",
+                "timeCreated": null,
+                "procesCounts": {
+                    "documentCount": 1,
+                    "executionProErrorCount": 2,
+                    "docEventMappingErrCount": 3,
+                    "docEventProErrorCount": 0
+                }
+        },
+        {
+                "sourceLabel": "source3",
+                "triggerType": "INGRESS",
+                "trigger": "trigger3",
+                "timeCreated": null,
+                "procesCounts": {
+                    "documentCount": 1,
+                    "executionProErrorCount": 4,
+                    "docEventMappingErrCount": 4,
+                    "docEventProErrorCount": 0
+                }
+        },
+        {
+                "sourceLabel": "source4",
+                "triggerType": "INGRESS",
+                "trigger": "trigger4",
+                "timeCreated": null,
+                "procesCounts": {
+                    "documentCount": 1,
+                    "executionProErrorCount": 4,
+                    "docEventMappingErrCount": 4,
+                    "docEventProErrorCount": 0
+                }
+        }
+    ],
+    "pageable": "INSTANCE",
+    "totalElements": 4,
+    "totalPages": 1,
+    "last": true,
+    "sort": {
+        "sorted": false,
+        "empty": true,
+        "unsorted": true
+    },
+    "first": true,
+    "numberOfElements": 4,
+    "number": 0,
+    "size": 4,
+    "empty": false
+}

@@ -1,0 +1,18 @@
+{
+  "execution": {
+    "sourceName": "some-execution-id",
+    "triggerType": "INGRESS",
+    "trigger": "test",
+    "timeCreated": null
+  },
+  "executionDocumentSeverityStats": {
+    "totalCount": 10,
+    "documentCount": 8,
+    "okCount": 1,
+    "infoCount": 1,
+    "warningCount": 1,
+    "errorCount": 1,
+    "exceptionCount": 1
+  },
+  "processingErrorCount": 1
+}

@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Severity:
+      type: string
+      enum:
+        - OK
+        - INFO
+        - WARNING
+        - ERROR
+        - EXCEPTION

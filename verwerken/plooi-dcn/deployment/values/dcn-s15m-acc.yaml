@@ -1,0 +1,51 @@
+image:
+  registry:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+extraJvmArgs: "-Xms512m -Xmx4g -javaagent:/app/libs/opentelemetry-javaagent-1.13.1.jar -Dotel.instrumentation.apache-camel.experimental-span-attributes=true"
+
+podLabels:
+  tier: vertrouwd
+  group: plooi-test
+  pgo-cluster-policy: allow
+  ingress-controller-frontoffice-policy: allow
+  egress-frontoffice-policy: allow
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 6Gi
+  requests:
+    cpu: 250m
+    memory: 6Gi
+
+repositoryService: repository-acceptance-service
+registrationService: registration-acceptance-service
+
+database:
+  secret: plooi-postgres-pguser-dcn
+
+aanlo:
+  host: ftp.koop.overheid.nl
+  secret:SSSSSSSSSS
+  schedule: 0+0+0+21+12+?+2024/10 #Starts at 21 December 2024 - 00:00:00 runs at every 10 years
+
+ingress:
+  ingressClassName: nginx
+  hostname:SSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+metrics:
+  enabled: yes
+  serviceMonitor:
+    enabled: yes
+    namespace: "koop-plooi-acc"
+    interval: "10s"
+
+opentelemetry:
+  enabled: yes
+  traces:
+    exporter: jaeger
+  metrics:
+    exporter: none
+  exporter:
+    jaeger:
+      endpoint:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS

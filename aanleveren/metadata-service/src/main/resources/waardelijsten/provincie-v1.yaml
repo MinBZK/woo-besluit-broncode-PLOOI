@@ -1,0 +1,42 @@
+openapi: '3.0.2'
+info:
+  title: Waardelijst provincies compleet
+  description: |
+    Beschrijft alle provincies die voor zover bekend op de zichtdatum bestaan hebben, bestaan of zullen bestaan
+  version: '1'
+  contact:
+    email: plooi@koop.overheid.nl
+  termsOfService: https://open.overheid.nl/terms
+  license:
+    name: MIT
+    url: https://open.overheid.nl/license
+components:
+  schemas:
+    Provincie:
+      type: string
+      description: |-
+        * `https://identifier.overheid.nl/tooi/id/provincie/pv20` - provincie Groningen
+        * `https://identifier.overheid.nl/tooi/id/provincie/pv21` - provincie Fryslân
+        * `https://identifier.overheid.nl/tooi/id/provincie/pv22` - provincie Drenthe
+        * `https://identifier.overheid.nl/tooi/id/provincie/pv23` - provincie Overijssel
+        * `https://identifier.overheid.nl/tooi/id/provincie/pv24` - provincie Flevoland
+        * `https://identifier.overheid.nl/tooi/id/provincie/pv25` - provincie Gelderland
+        * `https://identifier.overheid.nl/tooi/id/provincie/pv26` - provincie Utrecht
+        * `https://identifier.overheid.nl/tooi/id/provincie/pv27` - provincie Noord-Holland
+        * `https://identifier.overheid.nl/tooi/id/provincie/pv28` - provincie Zuid-Holland
+        * `https://identifier.overheid.nl/tooi/id/provincie/pv29` - provincie Zeeland
+        * `https://identifier.overheid.nl/tooi/id/provincie/pv30` - provincie Noord-Brabant
+        * `https://identifier.overheid.nl/tooi/id/provincie/pv31` - provincie Limburg
+      enum:
+        - https://identifier.overheid.nl/tooi/id/provincie/pv20
+        - https://identifier.overheid.nl/tooi/id/provincie/pv21
+        - https://identifier.overheid.nl/tooi/id/provincie/pv22
+        - https://identifier.overheid.nl/tooi/id/provincie/pv23
+        - https://identifier.overheid.nl/tooi/id/provincie/pv24
+        - https://identifier.overheid.nl/tooi/id/provincie/pv25
+        - https://identifier.overheid.nl/tooi/id/provincie/pv26
+        - https://identifier.overheid.nl/tooi/id/provincie/pv27
+        - https://identifier.overheid.nl/tooi/id/provincie/pv28
+        - https://identifier.overheid.nl/tooi/id/provincie/pv29
+        - https://identifier.overheid.nl/tooi/id/provincie/pv30
+        - https://identifier.overheid.nl/tooi/id/provincie/pv31

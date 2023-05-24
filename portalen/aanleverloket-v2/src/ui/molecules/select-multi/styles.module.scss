@@ -1,0 +1,137 @@
+@import "../../colors.scss";
+@import "../../icons.scss";
+
+.container {
+  width: 100%;
+
+  .singleSelect{
+    margin: 0.31em 0.25em 0.31em 0em;
+    padding: 0.4em 2.5em 0.4em 0.5em;
+    display: inline-block;
+    font-style: italic;
+    font-size: 0.875rem;
+    position: relative;
+    cursor: auto;
+    color: black;
+    top: -1px;
+  }
+
+  .select {
+    background-color: white;
+    background: $iconArrowDown;
+    background-repeat: no-repeat;
+    background-position: right 0.5em center;
+    background-size: $iconSize;
+    border: 1px solid $darkBlue;
+    border-radius: 5px;
+
+    &--expand {
+      background: $iconArrowUpBlue;
+      background-repeat: no-repeat;
+      background-position: right 0.5em center;
+      background-size: $iconSize;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      position: relative;
+    }
+
+    &--alert {
+      border-color: $red;
+
+      &::placeholder {
+        color: $red;
+      }
+    }
+
+    .controls {
+      height: 100%;
+      max-height: 5.8em;
+      overflow-y: auto;
+      overflow: hidden;
+      box-sizing: border-box;
+      width: 100%;
+      cursor: text;
+      padding: 0.35em 2em 0.25em 0.5em;
+
+      & > div:not(:last-child)  {
+        margin: 0.125em 0.25em 0.125em 0em;
+      }
+
+      .nosearch{
+        margin: 0.125em 0.25em 0.125em 0em;
+        padding: 0.4em 2.5em 0.4em 0.5em;
+        // border-radius: 5px;
+        display: inline-block;
+        font-style: italic;
+        font-size: 0.875rem;
+        position: relative;
+        cursor: auto;
+        color: $mediumGrey;
+        top: -1px;
+        font-size: 1em;
+      }
+
+      input {
+        margin: 1px;
+        width: fit-content;
+
+        border: 0;
+        color: #999; //not in the color palette
+        padding: 0.5em 0.7em 0.5em 0.4em;
+        border-radius: 0;
+        display: inline;
+        height: 25.8px;
+
+        &:focus {
+          -webkit-box-shadow: 0 0 0 2px #000 !important;
+          box-shadow: 0 0 0 2px #000 !important;
+          outline: 1px solid #fff;
+          outline-offset: 2px;
+        }
+
+        // &::placeholder {
+        // color: $darkGrey;
+        //   font-style: italic;
+        // }
+      }
+
+      &--selected {
+        max-height: fit-content;
+
+        input {
+          width: auto;
+        }
+      }
+    }
+
+    .results {
+      display: none;
+
+      .sub {
+        ul .sub {
+          margin-left: 30px;
+        }
+      }
+
+      &--expand {
+        border: 1px solid $darkBlue;
+        background: #f2f8fc;
+        padding: 0.5em 0.5em;
+        position: absolute;
+        left: -1px;
+        right: -1px;
+        max-height: 30em;
+        -webkit-overflow-scrolling: touch;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        display: block;
+        overflow: auto;
+        z-index: 10;
+      }
+
+      &--alert {
+        border-color: $red;
+      }
+    }
+  }
+}

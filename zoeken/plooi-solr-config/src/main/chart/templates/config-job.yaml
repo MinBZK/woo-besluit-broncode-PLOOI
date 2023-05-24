@@ -1,0 +1,36 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{ include "conf.fullname" . }}-config
+  labels:
+    app.kubernetes.io/component: solr-config
+    {{- include "conf.labels" . | nindent 4 }}
+spec:
+  backoffLimit: {{ .Values.backoffLimit | default 4 }}
+  template:
+    metadata:
+      labels:
+        {{- include "conf.selectorLabels" . | nindent 8 }}
+        {{- if .Values.podLabels }}
+          {{- include "common.tplvalues.render" (dict "value" .Values.podLabels "context" $) | nindent 8 }}
+        {{- end }}
+        timestamp: "{{ now | unixEpoch }}"                              # Force deployment every time Helm is run
+    spec:
+      restartPolicy: OnFailure
+      imagePullSecrets:
+        - name: harbor-puller
+      containers:
+      - name: {{ include "conf.fullname" . }}-config
+        image: {{ .Values.image.registry }}plooi-solr-config:{{ .Values.image.tag | default .Chart.AppVersion }}
+        imagePullPolicy: {{ .Values.image.pullPolicy }}
+        env:
+        - name: ZK_HOST
+          value: {{ .Values.zookeeper | quote }}
+        - name: SOLR_HOST
+          value: {{ .Values.solr | quote }}
+        - name: SOLR_COLLECTION
+          value: {{ .Values.collection | quote }}
+        resources:
+          requests:
+            cpu: 100m
+            memory: 0.5Gi

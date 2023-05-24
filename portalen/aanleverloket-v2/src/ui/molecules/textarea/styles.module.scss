@@ -1,0 +1,11 @@
+.area
+{
+    display: flex;
+    flex-direction: column;
+
+    &__label
+    {
+        display: flex;
+        align-items: center;
+    }
+}

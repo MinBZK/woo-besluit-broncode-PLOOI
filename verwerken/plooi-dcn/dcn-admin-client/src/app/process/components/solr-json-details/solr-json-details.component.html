@@ -1,0 +1,30 @@
+<div class="modal__inner">
+<div class="modal__content">
+    <div mat-dialog-content>
+        <p>Er zijn <b>{{page.totalElements}}</b> duplicaten gevonden (document id = <b>{{data.dcnId}}</b>; identiteitsgroep id = <b>{{this.data.document[0].toId}}</b> )</p>
+        <table class="table table--condensed">
+            <thead>
+            <tr>
+                <th scope="col" class="u-columnwidth-30p">Titel</th>
+                <th scope="col" class="u-columnwidth-30p">DCN Identifier</th>
+                <th scope="col" class="u-columnwidth-20p">Creator</th>
+            </tr>
+            </thead>
+            <tbody *ngIf="page.totalElements">
+            <tr *ngFor="let document of page.content">
+                <td>{{document.title}}</td>
+                <td><a (click)="documentDetails(document.dcn_id)">{{document.dcn_id}}</a></td>
+                <td>{{document.creator && document.creator.length? (document.creator.join(' - ') | titlecase): ""}}</td>
+            </tr>
+            </tbody>
+        </table>
+        <dcn-no-result [page]="page"></dcn-no-result>
+        <dcn-custom-pagination [page]="page"
+                               (nextPageEvent)="getNextPage($event)"
+                               (itemsPerPageEvent)="updateItemsPerPage($event)"></dcn-custom-pagination>
+    </div>
+</div>
+<button type="button" data-handler="close-modal" class="modal__close" (click)="onNoClick()">
+    <span class="visually-hidden">sluiten</span>
+</button>
+</div>

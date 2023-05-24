@@ -1,0 +1,190 @@
+openapi: 3.0.2
+info:
+  title: Filetypes
+  description: |-
+    Waardelijst met een selectie van filetypes uit de EU Vocabulary Authority table voor filetypes 
+    (filetypes-skos-ap-act.rdf). Deze selectie wordt bepaald door de bestandsformaten die relevant 
+    zijn voor de publicatievoorzieningen van overheid.nl.
+  version: 1
+components:
+  schemas:
+    filetype:
+      type: string
+      description: |-
+        * ``http://publications.europa.eu/resource/authority/file-type/AZW`` - Amazon Kindle eBook
+        * ``http://publications.europa.eu/resource/authority/file-type/MAP_PRVW`` - ArcGIS Map Preview
+        * ``http://publications.europa.eu/resource/authority/file-type/MAP_SRVC`` - ArcGIS Map Service
+        * ``http://publications.europa.eu/resource/authority/file-type/ATOM`` - Atom Feed
+        * ``http://publications.europa.eu/resource/authority/file-type/BMP`` - Bitmap Image File
+        * ``http://publications.europa.eu/resource/authority/file-type/BWF`` - BWF
+        * ``http://publications.europa.eu/resource/authority/file-type/CSS`` - CSS
+        * ``http://publications.europa.eu/resource/authority/file-type/CSV`` - CSV
+        * ``http://publications.europa.eu/resource/authority/file-type/DBF`` - DBF
+        * ``http://publications.europa.eu/resource/authority/file-type/E00`` - E00
+        * ``http://publications.europa.eu/resource/authority/file-type/ECW`` - ECW
+        * ``http://publications.europa.eu/resource/authority/file-type/EPS`` - Encapsulated Postscript
+        * ``http://publications.europa.eu/resource/authority/file-type/EPUB`` - EPUB
+        * ``http://publications.europa.eu/resource/authority/file-type/GDB`` - Esri File Geodatabase
+        * ``http://publications.europa.eu/resource/authority/file-type/SHP`` - Esri Shape
+        * ``http://publications.europa.eu/resource/authority/file-type/XLS`` - Excel XLS
+        * ``http://publications.europa.eu/resource/authority/file-type/XLSX`` - Excel XLSX
+        * ``http://publications.europa.eu/resource/authority/file-type/FMX2`` - Formex 2
+        * ``http://publications.europa.eu/resource/authority/file-type/FMX3`` - Formex 3
+        * ``http://publications.europa.eu/resource/authority/file-type/FMX4`` - Formex 4
+        * ``http://publications.europa.eu/resource/authority/file-type/GIF`` - GIF
+        * ``http://publications.europa.eu/resource/authority/file-type/GML`` - GML
+        * ``http://publications.europa.eu/resource/authority/file-type/GZIP`` - GNU zip
+        * ``http://publications.europa.eu/resource/authority/file-type/HDF`` - HDF
+        * ``http://publications.europa.eu/resource/authority/file-type/HTML`` - HTML
+        * ``http://publications.europa.eu/resource/authority/file-type/INDD`` - INDD
+        * ``http://publications.europa.eu/resource/authority/file-type/JPEG`` - JPEG
+        * ``http://publications.europa.eu/resource/authority/file-type/JSON`` - JSON
+        * ``http://publications.europa.eu/resource/authority/file-type/JSON_LD`` - JSON-LD
+        * ``http://publications.europa.eu/resource/authority/file-type/KML`` - KML
+        * ``http://publications.europa.eu/resource/authority/file-type/KMZ`` - KMZ
+        * ``http://publications.europa.eu/resource/authority/file-type/MDB`` - MDB
+        * ``http://publications.europa.eu/resource/authority/file-type/METS_ZIP`` - METS package
+        * ``http://publications.europa.eu/resource/authority/file-type/METS`` - METS XML
+        * ``http://publications.europa.eu/resource/authority/file-type/MOBI`` - Mobipocket eBook
+        * ``http://publications.europa.eu/resource/authority/file-type/MOP`` - MOP
+        * ``http://publications.europa.eu/resource/authority/file-type/MPEG2`` - MPEG-2
+        * ``http://publications.europa.eu/resource/authority/file-type/MPEG4`` - MPEG-4
+        * ``http://publications.europa.eu/resource/authority/file-type/MXD`` - MXD
+        * ``https://identifier.overheid.nl/tooi/def/thes/xtrn/NetCDF`` - NetCDF
+        * ``http://publications.europa.eu/resource/authority/file-type/ODF`` - ODF
+        * ``http://publications.europa.eu/resource/authority/file-type/ODP`` - ODP
+        * ``http://publications.europa.eu/resource/authority/file-type/ODS`` - ODS
+        * ``http://publications.europa.eu/resource/authority/file-type/ODT`` - ODT
+        * ``http://publications.europa.eu/resource/authority/file-type/OWL`` - OWL
+        * ``http://publications.europa.eu/resource/authority/file-type/PDF`` - PDF
+        * ``http://publications.europa.eu/resource/authority/file-type/PDFA1A`` - PDF/A-1a
+        * ``http://publications.europa.eu/resource/authority/file-type/PDFA1B`` - PDF/A-1b
+        * ``http://publications.europa.eu/resource/authority/file-type/PDFX`` - PDF/X
+        * ``http://publications.europa.eu/resource/authority/file-type/TXT`` - Plain text
+        * ``http://publications.europa.eu/resource/authority/file-type/PNG`` - PNG
+        * ``http://publications.europa.eu/resource/authority/file-type/PPSX`` - PowerPoint PPSX
+        * ``http://publications.europa.eu/resource/authority/file-type/PPT`` - PowerPoint PPT
+        * ``http://publications.europa.eu/resource/authority/file-type/PPTX`` - PowerPoint PPTX
+        * ``http://publications.europa.eu/resource/authority/file-type/PPS`` - PowerPoint Slide Show
+        * ``http://publications.europa.eu/resource/authority/file-type/PS`` - PS
+        * ``http://publications.europa.eu/resource/authority/file-type/PSD`` - PSD
+        * ``http://publications.europa.eu/resource/authority/file-type/RAR`` - RAR
+        * ``http://publications.europa.eu/resource/authority/file-type/RDF_N_QUADS`` - RDF N-Quads
+        * ``http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES`` - RDF N-Triples
+        * ``http://publications.europa.eu/resource/authority/file-type/RDF_TRIG`` - RDF TriG
+        * ``http://publications.europa.eu/resource/authority/file-type/RDF_TRIX`` - RDF TriX
+        * ``http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE`` - RDF Turtle
+        * ``http://publications.europa.eu/resource/authority/file-type/RDF_XML`` - RDF XML
+        * ``http://publications.europa.eu/resource/authority/file-type/RDFA`` - RDFa
+        * ``http://publications.europa.eu/resource/authority/file-type/RSS`` - RSS feed
+        * ``http://publications.europa.eu/resource/authority/file-type/RTF`` - RTF
+        * ``http://publications.europa.eu/resource/authority/file-type/SGML`` - SGML
+        * ``http://publications.europa.eu/resource/authority/file-type/DTD_SGML`` - SGML DTD
+        * ``http://publications.europa.eu/resource/authority/file-type/SKOS_XML`` - SKOS
+        * ``http://publications.europa.eu/resource/authority/file-type/SPARQLQ`` - SPARQL
+        * ``http://publications.europa.eu/resource/authority/file-type/SPARQLQRES`` - SPARQL results
+        * ``http://publications.europa.eu/resource/authority/file-type/SVG`` - SVG
+        * ``http://publications.europa.eu/resource/authority/file-type/TAR`` - TAR
+        * ``http://publications.europa.eu/resource/authority/file-type/TAR_XZ`` - TAR XZ
+        * ``http://publications.europa.eu/resource/authority/file-type/TIFF`` - TIFF
+        * ``http://publications.europa.eu/resource/authority/file-type/TSV`` - TSV
+        * ``http://publications.europa.eu/resource/authority/file-type/WFS_SRVC`` - WFS
+        * ``http://publications.europa.eu/resource/authority/file-type/WMS_SRVC`` - WMS
+        * ``http://publications.europa.eu/resource/authority/file-type/DOC`` - Word DOC
+        * ``http://publications.europa.eu/resource/authority/file-type/DOCX`` - Word DOCX
+        * ``http://publications.europa.eu/resource/authority/file-type/XHTML`` - XHTML
+        * ``http://publications.europa.eu/resource/authority/file-type/XML`` - XML
+        * ``http://publications.europa.eu/resource/authority/file-type/DTD_XML`` - XML DTD
+        * ``http://publications.europa.eu/resource/authority/file-type/SCHEMA_XML`` - XML schema
+        * ``http://publications.europa.eu/resource/authority/file-type/XSLFO`` - XSL-FO
+        * ``http://publications.europa.eu/resource/authority/file-type/XSLT`` - XSLT
+        * ``http://publications.europa.eu/resource/authority/file-type/ZIP`` - ZIP
+      enum:
+        - http://publications.europa.eu/resource/authority/file-type/AZW
+        - http://publications.europa.eu/resource/authority/file-type/MAP_PRVW
+        - http://publications.europa.eu/resource/authority/file-type/MAP_SRVC
+        - http://publications.europa.eu/resource/authority/file-type/ATOM
+        - http://publications.europa.eu/resource/authority/file-type/BMP
+        - http://publications.europa.eu/resource/authority/file-type/BWF
+        - http://publications.europa.eu/resource/authority/file-type/CSS
+        - http://publications.europa.eu/resource/authority/file-type/CSV
+        - http://publications.europa.eu/resource/authority/file-type/DBF
+        - http://publications.europa.eu/resource/authority/file-type/E00
+        - http://publications.europa.eu/resource/authority/file-type/ECW
+        - http://publications.europa.eu/resource/authority/file-type/EPS
+        - http://publications.europa.eu/resource/authority/file-type/EPUB
+        - http://publications.europa.eu/resource/authority/file-type/GDB
+        - http://publications.europa.eu/resource/authority/file-type/SHP
+        - http://publications.europa.eu/resource/authority/file-type/XLS
+        - http://publications.europa.eu/resource/authority/file-type/XLSX
+        - http://publications.europa.eu/resource/authority/file-type/FMX2
+        - http://publications.europa.eu/resource/authority/file-type/FMX3
+        - http://publications.europa.eu/resource/authority/file-type/FMX4
+        - http://publications.europa.eu/resource/authority/file-type/GIF
+        - http://publications.europa.eu/resource/authority/file-type/GML
+        - http://publications.europa.eu/resource/authority/file-type/GZIP
+        - http://publications.europa.eu/resource/authority/file-type/HDF
+        - http://publications.europa.eu/resource/authority/file-type/HTML
+        - http://publications.europa.eu/resource/authority/file-type/INDD
+        - http://publications.europa.eu/resource/authority/file-type/JPEG
+        - http://publications.europa.eu/resource/authority/file-type/JSON
+        - http://publications.europa.eu/resource/authority/file-type/JSON_LD
+        - http://publications.europa.eu/resource/authority/file-type/KML
+        - http://publications.europa.eu/resource/authority/file-type/KMZ
+        - http://publications.europa.eu/resource/authority/file-type/MDB
+        - http://publications.europa.eu/resource/authority/file-type/METS_ZIP
+        - http://publications.europa.eu/resource/authority/file-type/METS
+        - http://publications.europa.eu/resource/authority/file-type/MOBI
+        - http://publications.europa.eu/resource/authority/file-type/MOP
+        - http://publications.europa.eu/resource/authority/file-type/MPEG2
+        - http://publications.europa.eu/resource/authority/file-type/MPEG4
+        - http://publications.europa.eu/resource/authority/file-type/MXD
+        - https://identifier.overheid.nl/tooi/def/thes/xtrn/NetCDF
+        - http://publications.europa.eu/resource/authority/file-type/ODF
+        - http://publications.europa.eu/resource/authority/file-type/ODP
+        - http://publications.europa.eu/resource/authority/file-type/ODS
+        - http://publications.europa.eu/resource/authority/file-type/ODT
+        - http://publications.europa.eu/resource/authority/file-type/OWL
+        - http://publications.europa.eu/resource/authority/file-type/PDF
+        - http://publications.europa.eu/resource/authority/file-type/PDFA1A
+        - http://publications.europa.eu/resource/authority/file-type/PDFA1B
+        - http://publications.europa.eu/resource/authority/file-type/PDFX
+        - http://publications.europa.eu/resource/authority/file-type/TXT
+        - http://publications.europa.eu/resource/authority/file-type/PNG
+        - http://publications.europa.eu/resource/authority/file-type/PPSX
+        - http://publications.europa.eu/resource/authority/file-type/PPT
+        - http://publications.europa.eu/resource/authority/file-type/PPTX
+        - http://publications.europa.eu/resource/authority/file-type/PPS
+        - http://publications.europa.eu/resource/authority/file-type/PS
+        - http://publications.europa.eu/resource/authority/file-type/PSD
+        - http://publications.europa.eu/resource/authority/file-type/RAR
+        - http://publications.europa.eu/resource/authority/file-type/RDF_N_QUADS
+        - http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES
+        - http://publications.europa.eu/resource/authority/file-type/RDF_TRIG
+        - http://publications.europa.eu/resource/authority/file-type/RDF_TRIX
+        - http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE
+        - http://publications.europa.eu/resource/authority/file-type/RDF_XML
+        - http://publications.europa.eu/resource/authority/file-type/RDFA
+        - http://publications.europa.eu/resource/authority/file-type/RSS
+        - http://publications.europa.eu/resource/authority/file-type/RTF
+        - http://publications.europa.eu/resource/authority/file-type/SGML
+        - http://publications.europa.eu/resource/authority/file-type/DTD_SGML
+        - http://publications.europa.eu/resource/authority/file-type/SKOS_XML
+        - http://publications.europa.eu/resource/authority/file-type/SPARQLQ
+        - http://publications.europa.eu/resource/authority/file-type/SPARQLQRES
+        - http://publications.europa.eu/resource/authority/file-type/SVG
+        - http://publications.europa.eu/resource/authority/file-type/TAR
+        - http://publications.europa.eu/resource/authority/file-type/TAR_XZ
+        - http://publications.europa.eu/resource/authority/file-type/TIFF
+        - http://publications.europa.eu/resource/authority/file-type/TSV
+        - http://publications.europa.eu/resource/authority/file-type/WFS_SRVC
+        - http://publications.europa.eu/resource/authority/file-type/WMS_SRVC
+        - http://publications.europa.eu/resource/authority/file-type/DOC
+        - http://publications.europa.eu/resource/authority/file-type/DOCX
+        - http://publications.europa.eu/resource/authority/file-type/XHTML
+        - http://publications.europa.eu/resource/authority/file-type/XML
+        - http://publications.europa.eu/resource/authority/file-type/DTD_XML
+        - http://publications.europa.eu/resource/authority/file-type/SCHEMA_XML
+        - http://publications.europa.eu/resource/authority/file-type/XSLFO
+        - http://publications.europa.eu/resource/authority/file-type/XSLT
+        - http://publications.europa.eu/resource/authority/file-type/ZIP

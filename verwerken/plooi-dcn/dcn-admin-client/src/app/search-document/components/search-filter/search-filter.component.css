@@ -1,0 +1,10 @@
+fieldset legend {
+    border-bottom: 1px
+    solid #154273;
+    color: #154273;
+    font-weight: 700;
+    margin: 0.5em 0;
+    padding: 0;
+    width: 100%;
+}
+

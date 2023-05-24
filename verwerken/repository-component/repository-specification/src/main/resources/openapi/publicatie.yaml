@@ -1,0 +1,269 @@
+paths:
+
+  publicatie_id:
+    get:
+      operationId: getLabels
+      description: |
+        Opvragen van alle labels en bijbehorende links voor dit PLOOI document
+      tags:
+        - Afgeschermd
+      parameters:
+        - name: id
+          description: |
+            De identifier van het gevraagde bestand. De service herkent zowel de PLOOI identifier (pId) als DCN identifier.
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: map met DCN identifier en labels en urls paden
+          content:
+            application/json:
+              schema:
+                type: object
+        400:
+          description: De gegeven identifier is niet correct
+        404:
+          description: De gegeven identifier bestaat niet
+        500:
+          description: Er is een interne fout opgetreden
+    delete:
+      operationId: delete
+      description: |
+        Intrekken van een document.
+      tags:
+        - Afgeschermd
+      parameters:
+        - name: id
+          description: |
+            De DCN identifier van het in te trekken document.
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: reden
+          description: |
+            De reden voor de intrekking.
+          in: query
+          required: false
+          schema:
+            type: string
+      responses:
+        default:
+          description: |
+            Document is ingetrokken
+          content: {}
+        400:
+          description: De gegeven identifier is niet correct
+        404:
+          description: De gegeven identifier bestaat niet
+    post:
+      operationId: restore
+      description: |
+        Herpubliceren van een document.
+      tags:
+        - Afgeschermd
+      parameters:
+        - name: id
+          description: |
+            De DCN identifier van het te herpubliceren document.
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: versieNummer
+          description: |
+            Het versienummer van het te herpubliceren bestand. Wanneer geen versienummer gegeven is, wordt
+            de meest recente versie geherpubliceerd.
+          in: query
+          required: false
+          schema:
+            type: integer
+        - name: reden
+          description: |
+            De reden voor de herpublicatie.
+          in: query
+          required: false
+          schema:
+            type: string
+      responses:
+        default:
+          description: |
+            Document is geherpubliceerd
+          content: {}
+        400:
+          description: De gegeven identifier is niet correct
+        404:
+          description: De gegeven identifier bestaat niet
+
+  publicatie_id_label:
+    get:
+      operationId: getMetaFile
+      description: |
+        Opvragen van een metadata bestand uit de repository.
+      tags:
+        - Afgeschermd
+      parameters:
+        - name: id
+          description: |
+            De identifier van het gevraagde bestand. De service herkent zowel de PLOOI identifier (pId) als
+            DCN identifier.
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: label
+          description: |
+            Het (interne) label van het gevraagde bestand.
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: types
+          description: |
+            Optionele parameter van toepassing wanneer label is "_relaties" (genegeerd in andere gevallen):
+            Een lijst van RelatieTypes om op te filteren.
+          in: query
+          schema:
+            type: array
+            items:
+              type: string
+      responses:
+        200:
+          description: De inhoud van het bestand
+          content:
+            application/json:
+              schema:
+                type: string
+                format: binary
+        400:
+          description: De gegeven identifier is niet correct
+        404:
+          description: De gegeven identifier bestaat niet
+        500:
+          description: Er is een interne fout opgetreden
+    post:
+      operationId: postMetaFile
+      description: |
+        Publiceer een PLOOI metadata bestand, dit kan een PLOOI metadata json zijn, of een PLOOI tekst bestand.
+        Alle andere interne labels resulteren in een invoerfout (400).
+      tags:
+        - Afgeschermd
+      parameters:
+        - name: id
+          description: |
+            De DCN identifier van het te publiceren bestand.
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: label
+          description: |
+            Het (interne) label van het op te slaan bestand.
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: |
+          PLOOI metadata bestand.
+        required: true
+        content:
+          application/json:
+            schema:
+              type: string
+              format: binary
+      responses:
+        default:
+          description: |
+            Metadata is correct en succesvol opgeslagen
+          content: {}
+        400:
+          description: De gegeven identifier of label is niet correct
+        404:
+          description: De gegeven identifier bestaat niet
+
+  publicatie_id_versieNummer_label:
+    get:
+      operationId: getVersionedFile
+      description: |
+        Opvragen van een specifiek bestand in een versie. Deze operatie geeft het bestand, ongeacht
+        intrekking en blokkades.
+      tags:
+        - Afgeschermd
+      parameters:
+        - name: id
+          description: |
+            De identifier van het gevraagde bestand. De service herkent zowel de PLOOI identifier (pId) als DCN identifier.
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: versieNummer
+          description: |
+            Het versienummer van het gevraagde bestand.
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: label
+          description: |
+            Het label van het gevraagde bestand.
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        default:
+          description: |
+            De inhoud van het bestand
+          content:
+            application/json:
+              schema:
+                type: string
+                format: binary
+        400:
+          description: De gegeven identifier is niet correct
+        404:
+          description: De gegeven identifier bestaat niet
+
+  publicatie_id_relaties_stage:
+    post:
+      operationId: postRelations
+      description: |
+        Publiceer relaties van een document.
+      tags:
+        - Afgeschermd
+      parameters:
+        - name: id
+          description: |
+            De DCN identifier van de te publiceren relaties.
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: stage
+          description: |
+            De stage van de relaties waarin ze vastgesteld zijn.
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: |
+          Lijst van document relaties.
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: 'plooi.yaml#/components/schemas/documentrelaties'
+      responses:
+        default:
+          description: |
+            Relaties zijn correct en succesvol opgeslagen
+          content: {}
+        400:
+          description: De gegeven identifier is niet correct
+        404:
+          description: De gegeven identifier bestaat niet

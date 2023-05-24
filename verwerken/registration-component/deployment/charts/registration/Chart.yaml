@@ -1,0 +1,5 @@
+apiVersion: v2
+name: registration
+description: Kubernetes Helm chart for the PLOOI registration service
+type: application
+version: 1.0.1

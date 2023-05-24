@@ -1,0 +1,42 @@
+{
+  "content": [
+    {
+      "documentEvent": {
+        "executionId": "123",
+        "sourceName": "ronl",
+        "externalId": "444",
+        "internalId": "12345",
+        "stage": "PROCESS",
+        "severity": "INFO",
+        "timeCreated": null
+      },
+      "processingError": {
+        "id": null,
+        "timeCreated": null,
+        "fromRoute": "test-route",
+        "exceptionClass": "NullPointerException",
+        "exceptionMessage": "test-message",
+        "exceptionResponse": null,
+        "exceptionStacktrace": "test-stacktrace",
+        "statusCode": null,
+        "statusText": null,
+        "messageBody": null,
+        "documentEventId": "documentEventId"
+      }
+    }
+  ],
+  "pageable": "INSTANCE",
+  "totalPages": 1,
+  "last": true,
+  "totalElements": 1,
+  "numberOfElements": 1,
+  "first": true,
+  "number": 0,
+  "size": 1,
+  "sort": {
+    "sorted": false,
+    "empty": true,
+    "unsorted": true
+  },
+  "empty": false
+}

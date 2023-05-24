@@ -1,0 +1,56 @@
+# Default values for dcn.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+nameOverride: ""
+fullnameOverride: ""
+
+scheduleActive: false
+repositoryService: repository-service
+registrationService: registration-service
+solr:
+  url:SSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  collection: plooi_2
+database:
+  url: ""
+  secret: ""
+mockserver:
+  url: ""
+logLevel: INFO
+extraJvmArgs: ""
+
+aanlo:
+  host: ftp.koop.overheid.nl
+  secret:SSSSSSSSSS
+  schedule: 0+0/5+*+?+*+*+*
+
+image:
+  registry: ""
+  pullPolicy: Always
+  # Overrides the image tag whose default is the chart appVersion:
+  tag: latest
+
+podLabels: {}
+
+extraPort:
+  enabled: no
+
+ingress:
+  ingressClassName: nginx
+  hostname: dcn.127.0.0.1.nip.io
+
+metrics:
+  enabled: false
+  serviceMonitor:
+    enabled: false
+    namespace: ""
+    interval: ""
+    scrapeTimeout: ""
+
+opentelemetry:
+  enabled: false
+  traces:
+    exporter: none
+  metrics:
+    exporter: none

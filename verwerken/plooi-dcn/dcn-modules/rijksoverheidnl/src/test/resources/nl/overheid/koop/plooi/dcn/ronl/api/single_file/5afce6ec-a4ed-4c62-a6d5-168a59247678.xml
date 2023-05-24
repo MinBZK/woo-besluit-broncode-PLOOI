@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <id>5afce6ec-a4ed-4c62-a6d5-168a59247678</id>
+    <type>rapport</type>
+    <typeid>90c1c378-ffcc-4d46-9a97-0aeaf9f6e693</typeid>
+    <subtype></subtype>
+    <canonical>https://www.rijksoverheid.nl/documenten/rapporten/1998/08/31/advies-nieuwe-media</canonical>
+    <dataurl>https://opendata.rijksoverheid.nl/v1/sources/rijksoverheid/documents/5afce6ec-a4ed-4c62-a6d5-168a59247678</dataurl>
+    <title>Advies nieuwe media</title>
+    <files>
+        <file>
+            <fileurl>https://opendata.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/1998/08/31/advies-nieuwe-media/02+advies+nieuwe+media.pdf</fileurl>
+            <mimetype>application/pdf</mimetype>
+            <filesize>4422973</filesize>
+            <filename>02 advies nieuwe media.pdf</filename>
+            <filetitle></filetitle>
+            <numberofpages>111</numberofpages>
+        </file>
+    </files>
+    <introduction><![CDATA[<p>Advies over auteursrecht, naburige rechten en de nieuwe media.</p>]]></introduction>
+    <content/>
+    <additionalcontent><![CDATA[]]>
+    </additionalcontent>
+    <authorities>
+        <department>Ministerie van Justitie en Veiligheid</department>
+    </authorities>
+    <creators>
+        <department>Ministerie van Algemene Zaken</department>
+    </creators>
+    <subjects/>
+    <subjectids/>
+    <themes/>
+    <organisationalunits>
+        <department>Ministerie van Justitie en Veiligheid</department>
+    </organisationalunits>
+    <organisationalunitids>
+        <id>d63cfbdd-01bf-49fe-ad0f-8ec9b69ae778</id>
+    </organisationalunitids>
+    <lastmodified>2021-07-13T09:59:08.758Z</lastmodified>
+    <issued>1998-08-30T23:00:00.000Z</issued>
+    <available>2021-07-13T09:33:00.000Z</available>
+    <frontenddate>1998-08-31T09:30:00.000Z</frontenddate>
+    <initialdate>2021-07-13T11:34:55.481+02:00</initialdate>
+    <license>CC0 1.0 Universal</license>
+    <rightsholders>
+        <department>Ministerie van Algemene Zaken</department>
+    </rightsholders>
+    <languages>
+        <language>nl-NL</language>
+    </languages>
+    <locations>
+        <location>Nederland</location>
+    </locations>
+</document>

@@ -1,0 +1,1220 @@
+openapi: '3.0.2'
+info:
+  title: Waardelijst gemeenten compleet
+  description: |
+    Beschrijft alle gemeenten die voor zover bekend op de zichtdatum bestaan hebben, bestaan of zullen bestaan
+  version: '2'
+  contact:
+    email: plooi@koop.overheid.nl
+  termsOfService: https://open.overheid.nl/terms
+  license:
+    name: MIT
+    url: https://open.overheid.nl/license
+components:
+  schemas:
+    Gemeente:
+      type: string
+      description: |-
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0003` - gemeente Appingedam
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0005` - gemeente Bedum
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0007` - gemeente Bellingwedde
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0009` - gemeente Ten Boer
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0010` - gemeente Delfzijl
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0014` - gemeente Groningen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0015` - gemeente Grootegast
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0017` - gemeente Haren
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0018` - gemeente Hoogezand-Sappemeer
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0022` - gemeente Leek
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0024` - gemeente Loppersum
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0025` - gemeente Marum
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0034` - gemeente Almere
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0037` - gemeente Stadskanaal
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0039` - gemeente Scheemda
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0040` - gemeente Slochteren
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0047` - gemeente Veendam
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0048` - gemeente Vlagtwedde
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0050` - gemeente Zeewolde
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0051` - gemeente Skarsterlân
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0052` - gemeente Winschoten
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0053` - gemeente Winsum
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0055` - gemeente Boarnsterhim
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0056` - gemeente Zuidhorn
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0058` - gemeente Dongeradeel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0059` - gemeente Achtkarspelen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0060` - gemeente Ameland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0063` - gemeente het Bildt
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0064` - gemeente Bolsward
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0065` - gemeente Dantumadeel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0070` - gemeente Franekeradeel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0072` - gemeente Harlingen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0074` - gemeente Heerenveen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0079` - gemeente Kollumerland en Nieuwkruisland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0080` - gemeente Leeuwarden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0081` - gemeente Leeuwarderadeel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0082` - gemeente Lemsterland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0083` - gemeente Menaldumadeel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0085` - gemeente Ooststellingwerf
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0086` - gemeente Opsterland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0088` - gemeente Schiermonnikoog
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0090` - gemeente Smallingerland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0091` - gemeente Sneek
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0093` - gemeente Terschelling
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0096` - gemeente Vlieland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0098` - gemeente Weststellingwerf
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0104` - gemeente Nijefurd
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0106` - gemeente Assen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0109` - gemeente Coevorden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0114` - gemeente Emmen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0118` - gemeente Hoogeveen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0119` - gemeente Meppel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0140` - gemeente Littenseradiel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0141` - gemeente Almelo
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0142` - gemeente Ambt Delden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0143` - gemeente Avereest
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0144` - gemeente Bathmen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0147` - gemeente Borne
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0148` - gemeente Dalfsen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0149` - gemeente Denekamp
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0150` - gemeente Deventer
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0151` - gemeente Diepenheim
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0153` - gemeente Enschede
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0154` - gemeente Genemuiden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0156` - gemeente Goor
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0157` - gemeente Gramsbergen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0158` - gemeente Haaksbergen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0159` - gemeente Den Ham
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0160` - gemeente Hardenberg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0161` - gemeente Hasselt
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0162` - gemeente Heino
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0163` - gemeente Hellendoorn
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0164` - gemeente Hengelo
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0165` - gemeente Holten
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0166` - gemeente Kampen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0168` - gemeente Losser
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0169` - gemeente Markelo
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0170` - gemeente Nieuwleusen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0171` - gemeente Noordoostpolder
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0173` - gemeente Oldenzaal
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0174` - gemeente Olst
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0175` - gemeente Ommen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0176` - gemeente Ootmarsum
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0177` - gemeente Raalte
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0178` - gemeente Rijssen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0179` - gemeente Stad Delden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0180` - gemeente Staphorst
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0181` - gemeente Steenwijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0183` - gemeente Tubbergen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0184` - gemeente Urk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0186` - gemeente Vriezenveen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0188` - gemeente Weerselo
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0189` - gemeente Wierden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0190` - gemeente Wijhe
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0191` - gemeente IJsselmuiden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0192` - gemeente Zwartsluis
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0193` - gemeente Zwolle
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0194` - gemeente Brederwiede
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0195` - gemeente IJsselham
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0196` - gemeente Rijnwaarden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0197` - gemeente Aalten
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0199` - gemeente Angerlo
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0200` - gemeente Apeldoorn
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0202` - gemeente Arnhem
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0203` - gemeente Barneveld
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0206` - gemeente Bemmel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0207` - gemeente Bergh
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0209` - gemeente Beuningen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0211` - gemeente Borculo
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0213` - gemeente Brummen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0214` - gemeente Buren
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0216` - gemeente Culemborg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0218` - gemeente Didam
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0219` - gemeente Dinxperlo
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0220` - gemeente Dodewaard
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0221` - gemeente Doesburg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0222` - gemeente Doetinchem
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0225` - gemeente Druten
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0226` - gemeente Duiven
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0227` - gemeente Echteld
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0228` - gemeente Ede
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0229` - gemeente Eibergen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0230` - gemeente Elburg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0231` - gemeente Elst
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0232` - gemeente Epe
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0233` - gemeente Ermelo
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0236` - gemeente Geldermalsen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0237` - gemeente Gendringen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0238` - gemeente Gendt
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0239` - gemeente Gorssel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0240` - gemeente Groenlo
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0241` - gemeente Groesbeek
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0243` - gemeente Harderwijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0244` - gemeente Hattem
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0246` - gemeente Heerde
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0251` - gemeente Heteren
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0252` - gemeente Heumen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0253` - gemeente Hoevelaken
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0255` - gemeente Huissen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0256` - gemeente Hummelo en Keppel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0258` - gemeente Kesteren
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0260` - gemeente Lichtenvoorde
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0262` - gemeente Lochem
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0263` - gemeente Maasdriel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0265` - gemeente Millingen aan de Rijn
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0266` - gemeente Neede
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0267` - gemeente Nijkerk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0268` - gemeente Nijmegen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0269` - gemeente Oldebroek
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0273` - gemeente Putten
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0274` - gemeente Renkum
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0275` - gemeente Rheden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0277` - gemeente Rozendaal
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0278` - gemeente Ruurlo
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0279` - gemeente Scherpenzeel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0280` - gemeente Steenderen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0281` - gemeente Tiel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0282` - gemeente Ubbergen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0283` - gemeente Valburg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0285` - gemeente Voorst
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0286` - gemeente Vorden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0289` - gemeente Wageningen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0291` - gemeente Warnsveld
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0292` - gemeente Wehl
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0293` - gemeente Westervoort
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0294` - gemeente Winterswijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0295` - gemeente Wisch
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0296` - gemeente Wijchen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0297` - gemeente Zaltbommel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0298` - gemeente Zelhem
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0299` - gemeente Zevenaar
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0301` - gemeente Zutphen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0302` - gemeente Nunspeet
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0303` - gemeente Dronten
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0304` - gemeente Neerijnen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0305` - gemeente Abcoude
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0306` - gemeente Amerongen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0307` - gemeente Amersfoort
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0308` - gemeente Baarn
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0310` - gemeente De Bilt
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0311` - gemeente Breukelen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0312` - gemeente Bunnik
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0313` - gemeente Bunschoten
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0315` - gemeente Doorn
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0316` - gemeente Driebergen-Rijsenburg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0317` - gemeente Eemnes
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0318` - gemeente Harmelen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0321` - gemeente Houten
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0326` - gemeente Leersum
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0327` - gemeente Leusden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0329` - gemeente Loenen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0330` - gemeente Loosdrecht
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0331` - gemeente Lopik
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0332` - gemeente Maarn
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0333` - gemeente Maarssen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0334` - gemeente Maartensdijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0335` - gemeente Montfoort
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0339` - gemeente Renswoude
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0340` - gemeente Rhenen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0342` - gemeente Soest
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0344` - gemeente Utrecht
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0345` - gemeente Veenendaal
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0347` - gemeente Vleuten-De Meern
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0351` - gemeente Woudenberg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0352` - gemeente Wijk bij Duurstede
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0353` - gemeente IJsselstein
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0355` - gemeente Zeist
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0356` - gemeente Nieuwegein
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0357` - gemeente Egmond
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0358` - gemeente Aalsmeer
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0360` - gemeente Akersloot
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0361` - gemeente Alkmaar
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0362` - gemeente Amstelveen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0363` - gemeente Amsterdam
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0364` - gemeente Andijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0365` - gemeente Graft-De Rijp
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0366` - gemeente Anna Paulowna
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0370` - gemeente Beemster
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0372` - gemeente Bennebroek
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0373` - gemeente Bergen (NH)
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0375` - gemeente Beverwijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0376` - gemeente Blaricum
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0377` - gemeente Bloemendaal
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0381` - gemeente Bussum
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0383` - gemeente Castricum
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0384` - gemeente Diemen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0385` - gemeente Edam-Volendam
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0388` - gemeente Enkhuizen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0390` - gemeente 's-Graveland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0392` - gemeente Haarlem
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0393` - gemeente Haarlemmerliede en Spaarnwoude
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0394` - gemeente Haarlemmermeer
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0395` - gemeente Harenkarspel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0396` - gemeente Heemskerk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0397` - gemeente Heemstede
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0398` - gemeente Heerhugowaard
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0399` - gemeente Heiloo
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0400` - gemeente Den Helder
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0402` - gemeente Hilversum
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0405` - gemeente Hoorn
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0406` - gemeente Huizen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0412` - gemeente Niedorp
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0415` - gemeente Landsmeer
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0416` - gemeente Langedijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0417` - gemeente Laren
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0418` - gemeente Limmen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0420` - gemeente Medemblik
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0424` - gemeente Muiden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0425` - gemeente Naarden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0426` - gemeente Nederhorst den Berg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0429` - gemeente Obdam
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0431` - gemeente Oostzaan
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0432` - gemeente Opmeer
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0437` - gemeente Ouder-Amstel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0439` - gemeente Purmerend
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0441` - gemeente Schagen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0444` - gemeente Schoorl
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0448` - gemeente Texel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0450` - gemeente Uitgeest
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0451` - gemeente Uithoorn
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0453` - gemeente Velsen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0454` - gemeente Venhuizen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0457` - gemeente Weesp
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0458` - gemeente Schermer
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0459` - gemeente Wervershoof
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0462` - gemeente Wieringen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0463` - gemeente Wieringermeer
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0466` - gemeente Wognum
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0473` - gemeente Zandvoort
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0476` - gemeente Zijpe
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0478` - gemeente Zeevang
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0479` - gemeente Zaanstad
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0480` - gemeente Ter Aar
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0482` - gemeente Alblasserdam
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0483` - gemeente Alkemade
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0484` - gemeente Alphen aan den Rijn
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0489` - gemeente Barendrecht
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0491` - gemeente Bergambacht
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0492` - gemeente Bergschenhoek
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0493` - gemeente Berkel en Rodenrijs
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0495` - gemeente Bleiswijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0497` - gemeente Bodegraven
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0498` - gemeente Drechterland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0499` - gemeente Boskoop
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0501` - gemeente Brielle
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0502` - gemeente Capelle aan den IJssel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0503` - gemeente Delft
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0504` - gemeente Dirksland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0505` - gemeente Dordrecht
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0511` - gemeente Goedereede
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0512` - gemeente Gorinchem
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0513` - gemeente Gouda
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0517` - gemeente 's-Gravendeel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0518` - gemeente Den Haag
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0519` - gemeente 's-Gravenzande
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0523` - gemeente Hardinxveld-Giessendam
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0526` - gemeente Heerjansdam
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0529` - gemeente Noorder-Koggenland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0530` - gemeente Hellevoetsluis
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0531` - gemeente Hendrik-Ido-Ambacht
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0532` - gemeente Stede Broec
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0534` - gemeente Hillegom
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0537` - gemeente Katwijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0542` - gemeente Krimpen aan den IJssel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0545` - gemeente Leerdam
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0546` - gemeente Leiden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0547` - gemeente Leiderdorp
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0548` - gemeente Leidschendam
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0552` - gemeente De Lier
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0553` - gemeente Lisse
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0555` - gemeente Maasland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0556` - gemeente Maassluis
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0558` - gemeente Wester-Koggenland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0559` - gemeente Middelharnis
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0562` - gemeente Monster
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0563` - gemeente Moordrecht
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0565` - gemeente Naaldwijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0567` - gemeente Nieuwerkerk aan den IJssel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0568` - gemeente Bernisse
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0569` - gemeente Nieuwkoop
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0571` - gemeente Nieuw-Lekkerland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0575` - gemeente Noordwijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0576` - gemeente Noordwijkerhout
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0577` - gemeente Nootdorp
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0579` - gemeente Oegstgeest
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0580` - gemeente Oostflakkee
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0584` - gemeente Oud-Beijerland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0585` - gemeente Binnenmaas
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0588` - gemeente Korendijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0589` - gemeente Oudewater
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0590` - gemeente Papendrecht
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0594` - gemeente Pijnacker
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0595` - gemeente Reeuwijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0597` - gemeente Ridderkerk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0599` - gemeente Rotterdam
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0600` - gemeente Rozenburg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0602` - gemeente Rijnsburg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0603` - gemeente Rijswijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0604` - gemeente Sassenheim
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0606` - gemeente Schiedam
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0607` - gemeente Schipluiden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0608` - gemeente Schoonhoven
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0610` - gemeente Sliedrecht
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0611` - gemeente Cromstrijen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0612` - gemeente Spijkenisse
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0613` - gemeente Albrandswaard
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0614` - gemeente Westvoorne
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0617` - gemeente Strijen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0619` - gemeente Valkenburg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0620` - gemeente Vianen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0622` - gemeente Vlaardingen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0623` - gemeente Vlist
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0624` - gemeente Voorburg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0625` - gemeente Voorhout
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0626` - gemeente Voorschoten
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0627` - gemeente Waddinxveen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0628` - gemeente Warmond
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0629` - gemeente Wassenaar
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0630` - gemeente Wateringen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0632` - gemeente Woerden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0637` - gemeente Zoetermeer
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0638` - gemeente Zoeterwoude
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0642` - gemeente Zwijndrecht
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0643` - gemeente Nederlek
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0644` - gemeente Ouderkerk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0645` - gemeente Jacobswoude
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0650` - gemeente Axel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0653` - gemeente Gaasterlân-Sleat
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0654` - gemeente Borsele
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0664` - gemeente Goes
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0668` - gemeente West Maas en Waal
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0675` - gemeente Hontenisse
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0677` - gemeente Hulst
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0678` - gemeente Kapelle
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0683` - gemeente Wymbritseradiel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0687` - gemeente Middelburg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0689` - gemeente Giessenlanden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0692` - gemeente Oostburg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0693` - gemeente Graafstroom
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0694` - gemeente Liesveld
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0703` - gemeente Reimerswaal
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0704` - gemeente Sas van Gent
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0707` - gemeente Zederik
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0710` - gemeente Wûnseradiel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0715` - gemeente Terneuzen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0716` - gemeente Tholen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0717` - gemeente Veere
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0718` - gemeente Vlissingen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0733` - gemeente Lingewaal
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0736` - gemeente De Ronde Venen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0737` - gemeente Tytsjerksteradiel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0738` - gemeente Aalburg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0743` - gemeente Asten
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0744` - gemeente Baarle-Nassau
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0748` - gemeente Bergen op Zoom
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0753` - gemeente Best
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0755` - gemeente Boekel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0756` - gemeente Boxmeer
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0757` - gemeente Boxtel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0758` - gemeente Breda
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0762` - gemeente Deurne
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0765` - gemeente Pekela
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0766` - gemeente Dongen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0770` - gemeente Eersel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0772` - gemeente Eindhoven
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0777` - gemeente Etten-Leur
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0779` - gemeente Geertruidenberg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0781` - gemeente Geldrop
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0784` - gemeente Gilze en Rijen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0785` - gemeente Goirle
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0786` - gemeente Grave
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0788` - gemeente Haaren
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0794` - gemeente Helmond
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0796` - gemeente 's-Hertogenbosch
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0797` - gemeente Heusden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0798` - gemeente Hilvarenbeek
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0808` - gemeente Lith
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0809` - gemeente Loon op Zand
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0814` - gemeente Mierlo
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0815` - gemeente Mill en Sint Hubert
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0820` - gemeente Nuenen, Gerwen en Nederwetten
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0823` - gemeente Oirschot
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0824` - gemeente Oisterwijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0826` - gemeente Oosterhout
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0828` - gemeente Oss
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0835` - gemeente Ravenstein
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0840` - gemeente Rucphen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0844` - gemeente Schijndel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0845` - gemeente Sint-Michielsgestel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0846` - gemeente Sint-Oedenrode
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0847` - gemeente Someren
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0848` - gemeente Son en Breugel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0851` - gemeente Steenbergen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0852` - gemeente Waterland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0855` - gemeente Tilburg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0856` - gemeente Uden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0858` - gemeente Valkenswaard
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0860` - gemeente Veghel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0861` - gemeente Veldhoven
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0865` - gemeente Vught
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0866` - gemeente Waalre
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0867` - gemeente Waalwijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0870` - gemeente Werkendam
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0873` - gemeente Woensdrecht
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0874` - gemeente Woudrichem
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0879` - gemeente Zundert
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0880` - gemeente Wormerland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0881` - gemeente Onderbanken
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0882` - gemeente Landgraaf
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0885` - gemeente Arcen en Velden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0888` - gemeente Beek
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0889` - gemeente Beesel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0890` - gemeente Belfeld
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0893` - gemeente Bergen (L)
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0897` - gemeente Born
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0898` - gemeente Broekhuizen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0899` - gemeente Brunssum
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0902` - gemeente Echt
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0905` - gemeente Eijsden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0906` - gemeente Geleen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0907` - gemeente Gennep
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0912` - gemeente Grubbenvorst
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0914` - gemeente Haelen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0917` - gemeente Heerlen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0918` - gemeente Helden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0920` - gemeente Heythuysen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0923` - gemeente Horst
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0925` - gemeente Hunsel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0928` - gemeente Kerkrade
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0929` - gemeente Kessel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0933` - gemeente Maasbracht
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0934` - gemeente Maasbree
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0935` - gemeente Maastricht
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0936` - gemeente Margraten
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0938` - gemeente Meerssen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0941` - gemeente Meijel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0944` - gemeente Mook en Middelaar
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0946` - gemeente Nederweert
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0951` - gemeente Nuth
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0957` - gemeente Roermond
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0962` - gemeente Schinnen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0964` - gemeente Sevenum
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0965` - gemeente Simpelveld
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0968` - gemeente Sittard
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0971` - gemeente Stein
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0974` - gemeente Susteren
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0975` - gemeente Swalmen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0976` - gemeente Tegelen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0977` - gemeente Thorn
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0981` - gemeente Vaals
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0983` - gemeente Venlo
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0984` - gemeente Venray
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0986` - gemeente Voerendaal
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0988` - gemeente Weert
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0993` - gemeente Meerlo-Wanssum
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0994` - gemeente Valkenburg aan de Geul
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm0995` - gemeente Lelystad
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1507` - gemeente Horst aan de Maas
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1509` - gemeente Oude IJsselstreek
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1525` - gemeente Teylingen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1581` - gemeente Utrechtse Heuvelrug
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1586` - gemeente Oost Gelre
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1598` - gemeente Koggenland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1621` - gemeente Lansingerland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1640` - gemeente Leudal
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1641` - gemeente Maasgouw
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1651` - gemeente Eemsmond
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1652` - gemeente Gemert-Bakel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1655` - gemeente Halderberge
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1658` - gemeente Heeze-Leende
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1659` - gemeente Laarbeek
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1661` - gemeente Reiderland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1663` - gemeente De Marne
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1666` - gemeente Zevenhuizen-Moerkapelle
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1667` - gemeente Reusel-De Mierden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1669` - gemeente Roerdalen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1670` - gemeente Roggel en Neer
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1671` - gemeente Maasdonk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1672` - gemeente Rijnwoude
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1673` - gemeente Liemeer
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1674` - gemeente Roosendaal
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1676` - gemeente Schouwen-Duiveland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1679` - gemeente Ambt Montfort
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1680` - gemeente Aa en Hunze
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1681` - gemeente Borger-Odoorn
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1684` - gemeente Cuijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1685` - gemeente Landerd
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1690` - gemeente De Wolden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1695` - gemeente Noord-Beveland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1696` - gemeente Wijdemeren
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1698` - gemeente Sluis-Aardenburg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1699` - gemeente Noordenveld
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1700` - gemeente Twenterand
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1701` - gemeente Westerveld
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1702` - gemeente Sint Anthonis
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1705` - gemeente Lingewaard
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1706` - gemeente Cranendonck
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1708` - gemeente Steenwijkerland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1709` - gemeente Moerdijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1711` - gemeente Echt-Susteren
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1714` - gemeente Sluis
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1719` - gemeente Drimmelen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1721` - gemeente Bernheze
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1722` - gemeente Ferwerderadiel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1723` - gemeente Alphen-Chaam
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1724` - gemeente Bergeijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1728` - gemeente Bladel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1729` - gemeente Gulpen-Wittem
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1730` - gemeente Tynaarlo
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1731` - gemeente Midden-Drenthe
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1734` - gemeente Overbetuwe
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1735` - gemeente Hof van Twente
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1740` - gemeente Neder-Betuwe
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1742` - gemeente Rijssen-Holten
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1771` - gemeente Geldrop-Mierlo
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1773` - gemeente Olst-Wijhe
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1774` - gemeente Dinkelland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1783` - gemeente Westland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1842` - gemeente Midden-Delfland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1859` - gemeente Berkelland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1876` - gemeente Bronckhorst
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1883` - gemeente Sittard-Geleen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1884` - gemeente Kaag en Braassem
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1891` - gemeente Dantumadiel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1892` - gemeente Zuidplas
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1894` - gemeente Peel en Maas
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1895` - gemeente Oldambt
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1896` - gemeente Zwartewaterland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1900` - gemeente Súdwest-Fryslân
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1901` - gemeente Bodegraven-Reeuwijk
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1903` - gemeente Eijsden-Margraten
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1904` - gemeente Stichtse Vecht
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1908` - gemeente Menameradiel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1911` - gemeente Hollands Kroon
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1916` - gemeente Leidschendam-Voorburg
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1921` - gemeente De Friese Meren
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1924` - gemeente Goeree-Overflakkee
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1926` - gemeente Pijnacker-Nootdorp
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1927` - gemeente Molenwaard
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1930` - gemeente Nissewaard
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1931` - gemeente Krimpenerwaard
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1937` - gemeente Heel
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1940` - gemeente De Fryske Marren
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1942` - gemeente Gooise Meren
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1945` - gemeente Berg en Dal
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1948` - gemeente Meierijstad
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1949` - gemeente Waadhoeke
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1950` - gemeente Westerwolde
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1952` - gemeente Midden-Groningen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1954` - gemeente Beekdaelen
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1955` - gemeente Montferland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1959` - gemeente Altena
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1960` - gemeente West Betuwe
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1961` - gemeente Vijfheerenlanden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1963` - gemeente Hoeksche Waard
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1966` - gemeente Het Hogeland
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1969` - gemeente Westerkwartier
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1970` - gemeente Noardeast-Fryslân
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1978` - gemeente Molenlanden
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1979` - gemeente Eemsdelta
+        * `https://identifier.overheid.nl/tooi/id/gemeente/gm1987` - gemeente Menterwolde
+      enum:
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0003
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0005
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0007
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0009
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0010
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0014
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0015
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0017
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0018
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0022
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0024
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0025
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0034
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0037
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0039
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0040
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0047
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0048
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0050
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0051
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0052
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0053
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0055
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0056
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0058
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0059
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0060
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0063
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0064
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0065
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0070
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0072
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0074
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0079
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0080
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0081
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0082
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0083
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0085
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0086
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0088
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0090
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0091
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0093
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0096
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0098
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0104
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0106
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0109
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0114
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0118
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0119
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0140
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0141
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0142
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0143
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0144
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0147
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0148
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0149
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0150
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0151
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0153
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0154
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0156
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0157
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0158
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0159
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0160
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0161
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0162
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0163
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0164
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0165
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0166
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0168
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0169
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0170
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0171
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0173
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0174
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0175
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0176
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0177
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0178
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0179
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0180
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0181
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0183
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0184
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0186
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0188
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0189
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0190
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0191
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0192
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0193
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0194
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0195
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0196
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0197
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0199
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0200
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0202
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0203
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0206
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0207
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0209
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0211
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0213
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0214
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0216
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0218
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0219
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0220
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0221
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0222
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0225
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0226
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0227
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0228
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0229
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0230
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0231
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0232
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0233
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0236
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0237
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0238
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0239
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0240
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0241
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0243
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0244
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0246
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0251
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0252
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0253
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0255
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0256
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0258
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0260
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0262
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0263
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0265
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0266
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0267
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0268
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0269
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0273
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0274
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0275
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0277
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0278
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0279
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0280
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0281
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0282
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0283
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0285
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0286
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0289
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0291
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0292
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0293
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0294
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0295
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0296
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0297
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0298
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0299
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0301
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0302
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0303
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0304
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0305
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0306
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0307
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0308
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0310
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0311
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0312
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0313
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0315
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0316
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0317
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0318
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0321
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0326
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0327
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0329
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0330
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0331
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0332
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0333
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0334
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0335
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0339
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0340
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0342
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0344
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0345
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0347
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0351
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0352
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0353
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0355
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0356
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0357
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0358
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0360
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0361
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0362
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0363
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0364
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0365
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0366
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0370
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0372
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0373
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0375
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0376
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0377
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0381
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0383
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0384
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0385
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0388
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0390
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0392
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0393
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0394
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0395
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0396
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0397
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0398
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0399
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0400
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0402
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0405
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0406
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0412
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0415
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0416
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0417
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0418
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0420
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0424
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0425
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0426
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0429
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0431
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0432
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0437
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0439
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0441
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0444
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0448
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0450
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0451
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0453
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0454
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0457
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0458
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0459
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0462
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0463
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0466
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0473
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0476
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0478
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0479
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0480
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0482
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0483
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0484
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0489
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0491
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0492
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0493
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0495
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0497
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0498
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0499
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0501
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0502
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0503
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0504
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0505
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0511
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0512
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0513
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0517
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0518
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0519
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0523
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0526
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0529
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0530
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0531
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0532
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0534
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0537
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0542
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0545
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0546
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0547
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0548
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0552
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0553
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0555
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0556
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0558
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0559
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0562
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0563
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0565
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0567
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0568
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0569
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0571
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0575
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0576
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0577
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0579
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0580
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0584
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0585
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0588
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0589
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0590
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0594
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0595
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0597
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0599
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0600
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0602
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0603
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0604
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0606
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0607
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0608
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0610
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0611
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0612
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0613
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0614
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0617
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0619
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0620
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0622
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0623
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0624
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0625
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0626
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0627
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0628
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0629
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0630
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0632
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0637
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0638
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0642
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0643
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0644
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0645
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0650
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0653
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0654
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0664
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0668
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0675
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0677
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0678
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0683
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0687
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0689
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0692
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0693
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0694
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0703
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0704
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0707
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0710
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0715
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0716
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0717
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0718
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0733
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0736
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0737
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0738
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0743
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0744
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0748
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0753
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0755
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0756
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0757
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0758
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0762
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0765
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0766
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0770
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0772
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0777
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0779
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0781
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0784
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0785
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0786
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0788
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0794
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0796
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0797
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0798
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0808
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0809
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0814
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0815
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0820
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0823
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0824
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0826
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0828
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0835
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0840
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0844
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0845
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0846
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0847
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0848
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0851
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0852
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0855
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0856
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0858
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0860
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0861
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0865
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0866
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0867
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0870
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0873
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0874
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0879
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0880
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0881
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0882
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0885
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0888
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0889
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0890
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0893
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0897
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0898
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0899
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0902
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0905
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0906
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0907
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0912
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0914
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0917
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0918
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0920
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0923
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0925
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0928
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0929
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0933
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0934
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0935
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0936
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0938
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0941
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0944
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0946
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0951
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0957
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0962
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0964
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0965
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0968
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0971
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0974
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0975
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0976
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0977
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0981
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0983
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0984
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0986
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0988
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0993
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0994
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm0995
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1507
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1509
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1525
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1581
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1586
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1598
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1621
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1640
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1641
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1651
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1652
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1655
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1658
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1659
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1661
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1663
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1666
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1667
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1669
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1670
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1671
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1672
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1673
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1674
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1676
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1679
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1680
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1681
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1684
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1685
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1690
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1695
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1696
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1698
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1699
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1700
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1701
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1702
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1705
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1706
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1708
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1709
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1711
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1714
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1719
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1721
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1722
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1723
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1724
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1728
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1729
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1730
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1731
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1734
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1735
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1740
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1742
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1771
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1773
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1774
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1783
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1842
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1859
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1876
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1883
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1884
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1891
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1892
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1894
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1895
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1896
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1900
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1901
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1903
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1904
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1908
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1911
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1916
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1921
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1924
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1926
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1927
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1930
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1931
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1937
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1940
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1942
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1945
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1948
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1949
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1950
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1952
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1954
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1955
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1959
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1960
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1961
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1963
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1966
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1969
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1970
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1978
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1979
+        - https://identifier.overheid.nl/tooi/id/gemeente/gm1987

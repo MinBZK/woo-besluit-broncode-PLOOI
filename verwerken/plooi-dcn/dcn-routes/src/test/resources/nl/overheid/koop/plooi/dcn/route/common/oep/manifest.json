@@ -1,0 +1,40 @@
+{
+  "plooiIntern" : {
+    "dcnId" : "oep-dbfa855782641bb694520a92b5ea90345244e67e",
+    "extId" : [ "kv-tk-2022Z18908" ],
+    "sourceLabel" : "oep"
+  },
+  "versies" : [ {
+    "nummer" : 1,
+    "oorzaak" : "aanlevering",
+    "bestanden" : [ {
+      "gepubliceerd" : false,
+      "label" : "metadataowms",
+      "url" : "https://repository.overheid.nl/frbr/officielepublicaties/kv-tk/2022/kv-tk-2022Z18908/1/metadataowms/metadata_owms.xml",
+      "mime-type" : "application/xml",
+      "bestandsnaam" : "metadata_owms.xml",
+      "hash" : "2a4c08dab7b4c834b1bd7ea6ed3552fd5fe2ee3a"
+    }, {
+      "gepubliceerd" : false,
+      "label" : "xml",
+      "url" : "https://repository.overheid.nl/frbr/officielepublicaties/kv-tk/2022/kv-tk-2022Z18908/1/xml/kv-tk-2022Z18908.xml",
+      "mime-type" : "application/xml",
+      "bestandsnaam" : "kv-tk-2022Z18908.xml",
+      "hash" : "52b45c4fcf35385d1d57ba9f922f65ff6e5b512b"
+    }, {
+      "gepubliceerd" : false,
+      "label" : "html",
+      "url" : "https://repository.overheid.nl/frbr/officielepublicaties/kv-tk/2022/kv-tk-2022Z18908/1/html/kv-tk-2022Z18908.html",
+      "mime-type" : "text/html",
+      "bestandsnaam" : "kv-tk-2022Z18908.html",
+      "hash" : "c3374c0cc22f65685d77d1008d3f8f22ed3fa586"
+    }, {
+      "gepubliceerd" : true,
+      "label" : "pdf",
+      "url" : "https://repository.overheid.nl/frbr/officielepublicaties/kv-tk/2022/kv-tk-2022Z18908/1/pdf/kv-tk-2022Z18908.pdf",
+      "mime-type" : "application/pdf",
+      "bestandsnaam" : "kv-tk-2022Z18908.pdf",
+      "hash" : "00ab13ffe1500432635e285801de5d2372dbe998"
+    } ]
+  } ]
+}

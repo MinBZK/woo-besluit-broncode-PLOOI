@@ -1,0 +1,21 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ include "search.fullname" . }}-actuator-ingress
+  labels:
+    {{- include "search.labels" . | nindent 4 }}
+  annotations:
+    nginx.ingress.kubernetes.io/app-root: /actuator
+spec:
+  ingressClassName: {{ .Values.ingress.ingressClassName }}
+  rules:
+    - host: {{ include "search.fullname" . }}-actuator.{{ .Values.ingress.hostname }}
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ include "search.fullname" . }}-actuator
+                port:
+                  number: 8031

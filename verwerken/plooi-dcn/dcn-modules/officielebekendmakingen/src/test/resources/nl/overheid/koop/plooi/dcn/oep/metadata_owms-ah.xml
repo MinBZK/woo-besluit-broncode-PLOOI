@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+      Generatie: versie XSLT 1.1 op 2020-06-12+02:00-->
+<owms-metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:overheidop="http://standaarden.overheid.nl/oep/meta/">
+   <owmskern>
+      <dcterms:identifier>ah-ek-20192020-10</dcterms:identifier>
+      <dcterms:title>Vragen van het lid Van Rooijen (50PLUS) op 29 april 2020 medegedeeld aan de Minister van Sociale Zaken en Werkgelegenheid inzake de juridische houdbaarheid van het nieuwe pensioenstelsel.</dcterms:title>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:type scheme="OVERHEIDop.AanhangselTypen">Antwoord</dcterms:type>
+      <dcterms:type scheme="OVERHEIDop.Parlementair">Aanhangsel van de Handelingen</dcterms:type>
+      <dcterms:creator scheme="OVERHEID.StatenGeneraal">Eerste Kamer der Staten-Generaal</dcterms:creator>
+      <dcterms.modified>2020-06-10</dcterms.modified>
+   </owmskern>
+   <owmsmantel>
+      <dcterms:available>2020-06-10</dcterms:available>
+      <dcterms:issued>2020-06-10</dcterms:issued>
+   </owmsmantel>
+   <oep>
+      <overheidop:documentStatus>Opgemaakt na onopgemaakt</overheidop:documentStatus>
+      <overheidop:aanhangselNummer>10</overheidop:aanhangselNummer>
+      <overheidop:indiener>Van Rooijen</overheidop:indiener>
+      <overheidop:publicationName>Kamervragen (Aanhangsel)</overheidop:publicationName>
+      <overheidop:vergaderjaar>2019-2020</overheidop:vergaderjaar>
+      <overheidop:vraagnummer>219200007</overheidop:vraagnummer>
+      <overheidop:datumOntvangst>2020-06-10</overheidop:datumOntvangst>
+      <overheid:organisationType>staten generaal</overheid:organisationType>
+      <overheid:category scheme="OVERHEID.TaxonomieBeleidsagenda">Sociale zekerheid | Organisatie en beleid</overheid:category>
+      <overheid:category scheme="OVERHEID.TaxonomieBeleidsagenda">Sociale zekerheid | Ouderen</overheid:category>
+   </oep>
+</owms-metadata>

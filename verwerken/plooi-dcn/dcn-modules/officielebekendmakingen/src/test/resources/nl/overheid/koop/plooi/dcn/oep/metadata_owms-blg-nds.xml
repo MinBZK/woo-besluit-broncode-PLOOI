@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generatie: versie XSLT 1.1 op 2014-07-04+02:00-->
+<owms-metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:overheidop="http://standaarden.overheid.nl/oep/meta/">
+   <owmskern>
+      <dcterms:identifier>nds-wwi0800141-b1</dcterms:identifier>
+      <dcterms:title>Heffing ten behoeve van bijzondere projectsteun</dcterms:title>
+      <dcterms:type scheme="OVERHEIDop.Parlementair">Bijlage</dcterms:type>
+      <dcterms:creator scheme="OVERHEID.StatenGeneraal">Tweede Kamer der Staten-Generaal</dcterms:creator>
+      <dcterms.modified>2008-06-24</dcterms.modified>
+   </owmskern>
+   <owmsmantel>
+      <dcterms:available>2008-06-24</dcterms:available>
+   </owmsmantel>
+   <oep>
+      <overheid:organisationType>staten generaal</overheid:organisationType>
+      <overheidop:documentStatus>Opgemaakt</overheidop:documentStatus>
+      <overheidop:publicationIssue>wwi0800141</overheidop:publicationIssue>
+      <overheidop:publicationName>Niet-dossierstuk</overheidop:publicationName>
+      <overheidop:vergaderjaar>2007-2008</overheidop:vergaderjaar>
+   </oep>
+</owms-metadata>

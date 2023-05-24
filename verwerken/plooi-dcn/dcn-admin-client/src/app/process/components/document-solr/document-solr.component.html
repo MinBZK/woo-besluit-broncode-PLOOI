@@ -1,0 +1,63 @@
+<div class="container" *ngIf="!errorMsg && solrDocument">
+    <strong>Samenvatting Solr gegevens</strong>
+    <table class="table table--condensed table--striped" style="margin-bottom: 15px">
+        <thead>
+            <tr>
+                <th scope="col" class="u-columnwidth-20p">Veld</th>
+                <th scope="col" class="u-columnwidth-50p">Waarde</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class=""><strong>documenttype</strong></td>
+                <td>{{solrDocument.type}}</td>
+            </tr>
+            <tr>
+                <td class=""><strong>topthema</strong></td>
+                <td>{{solrDocument.topthema && solrDocument.topthema.length ? solrDocument.topthema.join(' - ') : ""}}</td>
+            </tr>
+            <tr>
+                <td class=""><strong>document titel</strong></td>
+                <td>{{solrDocument.title}}</td>
+            </tr>
+            <tr>
+                <td class=""><strong>creator</strong></td>
+                <td>{{solrDocument.creator && solrDocument.creator.length ? (solrDocument.creator.join(' - ') | titlecase ) : ""}}</td>
+            </tr>
+            <tr>
+                <td class=""><strong>available_start</strong></td>
+                <td>{{solrDocument.available_start | date : 'mediumDate'}}</td>
+            </tr>
+            <tr>
+                <td class=""><strong>issued</strong></td>
+                <td>{{solrDocument.issued | date : 'mediumDate'}}</td>
+            </tr>
+            <tr>
+                <td class=""><strong>verantwoordelijke</strong></td>
+                <td>{{solrDocument.verantwoordelijke}}</td>
+            </tr>
+            <tr>
+                <td class=""><strong>timestamp</strong></td>
+                <td>{{solrDocument.timestamp | date:'medium'}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="columns">
+        <div  class="column column-d-2">
+        </div>
+        <div class="column column-d-10 align-right">
+            <button type="button" class="button button--slim" (click)="openSolr()">Toon Solr JSON</button>
+            <button type="button" class="button button--slim" (click)="openPortal()">Toon in Portaal</button>
+            <button *ngIf="duplicateList?.length" type="button" class="button button--slim" (click)="openDuplication()">Toon duplicaten</button>
+        </div>
+    </div>
+
+</div>
+
+<div class="align-center" *ngIf="!solrDocument">
+    <p class="align-center">Geen document gevonden in Solr</p>
+</div>
+<div class="align-center" *ngIf="!solrDocument">
+    <button *ngIf="duplicateList?.length" type="button" class="button button--slim" (click)="openDuplication()">Toon duplicaten</button>
+</div>
+<connection-error *ngIf="errorMsg" [message]="errorMsg"></connection-error>

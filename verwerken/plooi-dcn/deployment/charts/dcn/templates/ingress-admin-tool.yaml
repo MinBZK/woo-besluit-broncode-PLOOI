@@ -1,0 +1,71 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ include "dcn.fullname" . }}-admin-ingress
+  labels:
+    {{- include "dcn.labels" . | nindent 4 }}
+  annotations:
+    nginx.ingress.kubernetes.io/app-root: /home
+    nginx.ingress.kubernetes.io/proxy-body-size: "0"
+spec:
+  ingressClassName: {{ .Values.ingress.ingressClassName }}
+  rules:
+    - host: {{ include "dcn.fullname" . }}-admin.{{ .Values.ingress.hostname }}
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ include "dcn.fullname" . }}-admin-service
+                port:
+                  number: 8080
+          - path: /processen
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ .Values.registrationService }}
+                port:
+                  number: 8020
+          - path: /verwerkingen
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ .Values.registrationService }}
+                port:
+                  number: 8020
+          - path: /statistieken
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ .Values.registrationService }}
+                port:
+                  number: 8020
+          - path: /aanleveren
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ .Values.repositoryService }}
+                port:
+                  number: 8010
+          - path: /archief
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ .Values.repositoryService }}
+                port:
+                  number: 8010
+          - path: /publicatie
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ .Values.repositoryService }}
+                port:
+                  number: 8010
+          - path: /documenten
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ .Values.repositoryService }}
+                port:
+                  number: 8010

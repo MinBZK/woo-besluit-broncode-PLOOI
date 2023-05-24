@@ -1,0 +1,28 @@
+[
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_03c52ba0",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Kamervragen zonder antwoord",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_6d494ab6",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "Kamervragen met antwoord",
+				"@language": "nl"
+			},
+			{
+				"@value": "Kamervragen (Aanhangsel)",
+				"@language": "nl"
+			},
+			{
+				"@value": "Aanhangsel van de Handelingen",
+				"@language": "nl"
+			}
+		]
+	}
+]

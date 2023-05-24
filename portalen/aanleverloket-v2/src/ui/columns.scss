@@ -1,0 +1,6 @@
+.columns {
+    >*:first-child,
+    >*:only-child {
+        margin-left: 0;
+    }   
+}

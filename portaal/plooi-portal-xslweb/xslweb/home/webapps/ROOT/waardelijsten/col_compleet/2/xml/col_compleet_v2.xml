@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<waardelijst name="col_compleet">
+   <metadata>
+      <statement>
+         <key>http://purl.org/dc/terms/identifier</key>
+         <value>https://identifier.overheid.nl/tooi/set/col_compleet/v2.xml</value>
+      </statement>
+      <statement>
+         <key>http://www.w3.org/ns/prov#generatedAtTime</key>
+         <value>2020-09-09T09:45:08.621+02:00</value>
+      </statement>
+      <statement>
+         <key>https://identifier.overheid.nl/tooi/def/ont/verantwoordelijke</key>
+         <value>https://identifier.overheid.nl/tooi/id/ministerie/mnre1034</value>
+      </statement>
+      <statement>
+         <key>https://identifier.overheid.nl/tooi/def/wl/volgnummer</key>
+         <value>2</value>
+      </statement>
+      <statement>
+         <key>http://purl.org/pav/derivedFrom</key>
+         <value>https://identifier.overheid.nl/tooi/id/caribischopenbaarlichaam</value>
+      </statement>
+      <statement>
+         <key>https://identifier.overheid.nl/tooi/def/ont/zichtdatum</key>
+         <value>2020-09-09T00:00:00</value>
+      </statement>
+      <statement>
+         <key>http://purl.org/dc/terms/format</key>
+         <value>http://publications.europa.eu/resource/authority/file-type/XML</value>
+      </statement>
+      <statement>
+         <key>http://purl.org/dc/terms/description</key>
+         <value>Beschrijft alle Caribische openbare lichamen die voor zover bekend op de zichtdatum bestaan hebben, bestaan of zullen bestaan</value>
+      </statement>
+      <statement>
+         <key>https://identifier.overheid.nl/tooi/def/ont/titel</key>
+         <value>Waardelijst Caribische openbare lichamen compleet</value>
+      </statement>
+      <statement>
+         <key>https://identifier.overheid.nl/tooi/def/ont/publicatiedatum</key>
+         <value>2020-09-09T00:00:00</value>
+      </statement>
+   </metadata>
+   <waarden>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/col/col02</code>
+         <omschrijving>openbaar lichaam Sint Eustatius</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>openbaar lichaam Sint Eustatius</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>openbaar lichaam Sint Eustatius</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Sint Eustatius</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Sint Eustatius</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_b4470cdd</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>openbaar lichaam Sint Eustatius</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/colcode</key>
+               <value>02</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>col02</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Sint Eustatius</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Sint_Eustatius</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Sint Eustatius</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/col/col01</code>
+         <omschrijving>openbaar lichaam Bonaire</omschrijving>
+         <metadata>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>openbaar lichaam Bonaire</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Bonaire</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_b4470cdd</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/colcode</key>
+               <value>01</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Bonaire</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>openbaar lichaam Bonaire</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>col01</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Bonaire</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Bonaire</value>
+            </statement>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>openbaar lichaam Bonaire</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Bonaire</value>
+            </statement>
+         </metadata>
+      </waarde>
+      <waarde>
+         <code>https://identifier.overheid.nl/tooi/id/col/col03</code>
+         <omschrijving>openbaar lichaam Saba</omschrijving>
+         <metadata>
+            <statement>
+               <key>http://www.w3.org/2000/01/rdf-schema#label</key>
+               <value>openbaar lichaam Saba</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort</key>
+               <value>Saba</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</key>
+               <value>col03</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</key>
+               <value>openbaar lichaam Saba</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/colcode</key>
+               <value>03</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/organisatiesoort</key>
+               <value>https://identifier.overheid.nl/tooi/def/thes/kern/c_b4470cdd</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort</key>
+               <value>openbaar lichaam Saba</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer</key>
+               <value>Saba</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/owmsId</key>
+               <value>http://standaarden.overheid.nl/owms/terms/Saba</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer</key>
+               <value>Saba</value>
+            </statement>
+            <statement>
+               <key>https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort</key>
+               <value>Saba</value>
+            </statement>
+         </metadata>
+      </waarde>
+   </waarden>
+</waardelijst>

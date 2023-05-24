@@ -1,0 +1,27 @@
+{
+  "content": [
+    {
+      "executionId": "executionId1",
+      "sourceName": "oep",
+      "externalId": "extId1",
+      "internalId": "id-1234",
+      "stage": "INGRESS",
+      "severity": "OK",
+      "timeCreated": null
+    }
+  ],
+  "pageable": "INSTANCE",
+  "totalElements": 1,
+  "totalPages": 1,
+  "last": true,
+  "sort": {
+    "unsorted": true,
+    "sorted": false,
+    "empty": true
+  },
+  "numberOfElements": 1,
+  "first": true,
+  "number": 0,
+  "size": 1,
+  "empty": false
+}

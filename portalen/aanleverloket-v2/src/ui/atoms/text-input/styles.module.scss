@@ -1,0 +1,173 @@
+@import "../../colors.scss";
+@import "../../icons.scss";
+@import "../../breakpoints.scss";
+
+.input {
+  &--text {
+    display: block;
+    width: calc(100% - 1.7em);
+    height: 35px;
+    border: 1px solid $darkBlue;
+    color: $darkBlue;
+    background-color: $white;
+    border-radius: 0.25em;
+    padding: 0.6em 0.8em;
+    font-size: 1em;
+    margin: 0;
+
+    &::-ms-clear {
+      display: none;
+    }
+
+    &::placeholder{
+      font-style: italic;
+      color: $mediumGrey;
+    }
+
+    &:disabled{
+      color: $black;
+      background-color: $lightGrey;
+      // border-color: $mediumGrey;
+
+      &::placeholder{
+        color: $mediumGrey;
+      }
+    }
+  }
+
+  &--alert {
+    color: $red;
+    border-color: $red;
+
+    &::placeholder {
+      color: $red;
+    }
+  }
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+  background-image: $calendarIconBlue;
+  background-size: $iconSize;
+
+  // filter: invert(100%) brightness(4%) sepia(100%) saturate(10000%) hue-rotate(190deg); calendarIconBlue
+}
+
+
+.ui-datepicker:not(:empty) {
+  background: white;
+  padding: 1em;
+  border: 1px solid $datepickerContainerBorderColor;
+  border-radius: 5px;
+}
+
+.ui-datepicker {
+
+  max-width: 18em;
+
+  &-summary {
+    background: $datepickerHeaderBackgroundColor;
+    color: $datepickerHeaderTextColor;
+    padding: .5em 1em 1em;
+    margin: -1em -1em 1em -1em;
+    line-height: 2em;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+    &__date {
+      font-size: 2rem;
+    }
+  }
+
+  &-header {
+    position: relative;
+  }
+
+  &-next,
+  &-prev {
+    background-image: $datepickerButtonNext;
+    background-repeat: no-repeat;
+    background-size: .5em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    right: 0;
+    top: .4em;
+
+    // span {
+    //   @extend .visually-hidden;
+    // }
+  }
+
+  &-prev {
+    background-image: $datepickerButtonPrev;
+    right: auto;
+    left: 0;
+  }
+
+  &-title {
+    text-align: center;
+
+    .ui-datepicker-month {
+      margin-left: 1em;
+    }
+  }
+}
+
+.table.ui-datepicker-calendar {
+  border: 0;
+  margin: 0.5em 0 0 0;
+
+  thead tr th {
+    border: 0;
+    text-align: center;
+    padding: 0.125em 0.333em;
+    font-weight: normal;
+  }
+
+  tbody tr td {
+    border: 0;
+    text-align: center;
+    padding: 0.125em 0.333em;
+  }
+
+  //needed to reset default table behaviour
+  @media ( max-width: $breakpointDesktop ) {
+    thead {
+      display: table-header-group;
+      width: 100%;
+    }
+
+    tr {
+      display: table-row;
+      border: 2px solid $lighterGrey;
+      width: 100%;
+      margin: 0;
+    }
+
+    tr th {
+      position: relative;
+      left: auto;
+      display: table-cell;
+    }
+
+    td {
+      width: auto;
+      left: auto;
+      position: relative;
+      display: table-cell;
+
+      &:nth-child(odd) {
+        background: transparent !important;
+
+        &::before {
+          background: transparent !important;
+        }
+      }
+
+      &:before {
+        display: none;
+      }
+    }
+  }
+}

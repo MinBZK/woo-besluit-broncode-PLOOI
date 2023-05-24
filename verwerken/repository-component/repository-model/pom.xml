@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>nl.overheid.koop.plooi</groupId>
+        <artifactId>repository-component-parent</artifactId>
+        <version>1.0.2-SNAPSHOT</version>
+    </parent>
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>repository-model</artifactId>
+    <name>PLOOI Repository data access logic</name>
+
+	<properties>
+		<springboot.version>2.7.7</springboot.version>
+		<h2.version>2.1.214</h2.version>
+		<jsr305.version>3.0.2</jsr305.version>
+		<postgresql-version>42.5.0</postgresql-version>
+		<flyway-core-version>9.4.0</flyway-core-version>
+		<common-codec-version>1.15</common-codec-version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>nl.overheid.koop.plooi</groupId>
+			<artifactId>repository-specification</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<version>${springboot.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.findbugs</groupId>
+			<artifactId>jsr305</artifactId>
+			<version>${jsr305.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commons-lang3.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>${postgresql-version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+			<version>${flyway-core-version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>${common-codec-version}</version>
+		</dependency>
+
+		<!-- Testing -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>test</scope>
+			<version>${h2.version}</version>
+		</dependency>
+        <dependency>
+            <groupId>nl.overheid.koop.plooi</groupId>
+            <artifactId>test-utils</artifactId>
+            <version>1.0.0</version>
+            <scope>test</scope>
+        </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+			<version>${springboot.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.junit.vintage</groupId>
+					<artifactId>junit-vintage-engine</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+	</dependencies>
+</project>

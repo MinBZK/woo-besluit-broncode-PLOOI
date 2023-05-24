@@ -1,0 +1,33 @@
+@import "../../breakpoints.scss";
+@import "../../colors.scss";
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: 0px !important;
+
+  .popup_inner {
+    position: relative;
+    margin: auto;
+    background: white;
+    top: 25%;
+    width: 400px;
+    background-color: $lightBlue;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+    .spinner{
+      height: 65px;
+      height: 65px;
+    }
+
+  }
+}

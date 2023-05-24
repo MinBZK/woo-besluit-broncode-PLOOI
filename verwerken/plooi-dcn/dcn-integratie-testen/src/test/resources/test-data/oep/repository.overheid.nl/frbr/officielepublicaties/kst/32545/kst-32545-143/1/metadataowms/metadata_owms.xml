@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+      Generatie: versie XSLT 1.1 op 2021-07-09+02:00-->
+<owms-metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:overheidop="http://standaarden.overheid.nl/oep/meta/">
+   <owmskern>
+      <dcterms:identifier>kst-32545-143</dcterms:identifier>
+      <dcterms:title>Wet- en regelgeving financiële markten; Motie; Motie van de leden Inge van Dijk en Grinwis over het definiëren van een grensspaarsaldo voor negatieve spaarrente</dcterms:title>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:type scheme="OVERHEIDop.KamerstukTypen">Motie</dcterms:type>
+      <dcterms:type scheme="OVERHEIDop.Parlementair">Kamerstuk</dcterms:type>
+      <dcterms:creator scheme="OVERHEID.StatenGeneraal">overige</dcterms:creator>
+      <dcterms.modified>2021-07-07</dcterms.modified>
+   </owmskern>
+   <owmsmantel>
+      <dcterms:available>2021-07-07</dcterms:available>
+      <dcterms:issued>2021-07-06</dcterms:issued>
+   </owmsmantel>
+   <oep>
+      <overheidop:documentStatus>Opgemaakt na onopgemaakt</overheidop:documentStatus>
+      <overheidop:documenttitel>Motie van de leden Inge van Dijk en Grinwis over het definiëren van een grensspaarsaldo voor negatieve spaarrente</overheidop:documenttitel>
+      <overheidop:dossiernummer>32545</overheidop:dossiernummer>
+      <overheidop:dossiertitel>Wet- en regelgeving financiële markten</overheidop:dossiertitel>
+      <overheidop:indiener>I. (Inge) van Dijk</overheidop:indiener>
+      <overheidop:indiener>P.A. Grinwis</overheidop:indiener>
+      <overheidop:ondernummer>143</overheidop:ondernummer>
+      <overheidop:publicationName>Kamerstuk</overheidop:publicationName>
+      <overheidop:vergaderjaar>2020-2021</overheidop:vergaderjaar>
+      <overheid:organisationType>staten generaal</overheid:organisationType>
+      <overheid:category scheme="OVERHEID.TaxonomieBeleidsagenda">Economie | Overige economische sectoren</overheid:category>
+      <overheid:category scheme="OVERHEID.TaxonomieBeleidsagenda">Financiën | Financieel toezicht</overheid:category>
+   </oep>
+</owms-metadata>

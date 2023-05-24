@@ -1,0 +1,316 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>nl.overheid.koop.plooi</groupId>
+		<artifactId>search-component-parent</artifactId>
+		<version>1.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>search-integration-tests</artifactId>
+	<name>PLOOI Search integration testing</name>
+	<description>Contains BDD Cucumber tests for Search Service</description>
+
+	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<!--
+             https://spring.io/projects/spring-boot
+             NB DON'T FORGET TO ALSO UPDATE THE VERSION IN THE PARENT ABOVE!
+             Also sync the Spring and Jackson versions to search-specification:
+         -->
+		<springboot.version>2.7.7</springboot.version>
+		<!-- https://github.com/logfellow/logstash-logback-encoder -->
+		<logstash-logback-encoder.version>7.2</logstash-logback-encoder.version>
+
+
+		<!-- plugin versions -->
+		<maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
+		<maven-failsafe-plugin.version>3.0.0-M7</maven-failsafe-plugin.version>
+		<maven-jacoco-plugin.version>0.8.8</maven-jacoco-plugin.version>
+
+		<solr.version>9.0.0</solr.version>
+
+		<!-- cucumber integration -->
+		<cucumber.version>7.1.0</cucumber.version>
+		<cucumber-reporting.version>5.6.1</cucumber-reporting.version>
+
+		<jakarta.json>2.0.1</jakarta.json>
+		<test-utils.version>1.0.2-SNAPSHOT</test-utils.version>
+		
+		<!-- cuke env parameters passed to maven -->
+        <solr-core-url>http://localhost:18983/solr/plooi</solr-core-url>
+		<search-service-base-url>http://localhost:18030</search-service-base-url>
+		<search-actuator-base-url>http://localhost:18031</search-actuator-base-url>
+	</properties>
+
+	<distributionManagement>
+		<repository>
+			<id>koop-plooi-releases</id>
+			<url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+		</repository>
+		<snapshotRepository>
+			<id>koop-plooi-snapshots</id>
+			<url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<repositories>
+		<repository>
+			<id>koop-plooi-releases</id>
+			<url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>koop-plooi-snapshots</id>
+			<url>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<!-- Search API Client -->
+		<dependency>
+			<groupId>nl.overheid.koop.plooi</groupId>
+			<artifactId>search-client</artifactId>
+			<version>${project.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Solr -->
+		<dependency>
+			<groupId>org.apache.solr</groupId>
+			<artifactId>solr-solrj</artifactId>
+			<version>${solr.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Jakarta JSON Library and Implementation -->
+		<dependency>
+			<groupId>jakarta.json</groupId>
+			<artifactId>jakarta.json-api</artifactId>
+			<version>${jakarta.json}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.glassfish</groupId>
+			<artifactId>jakarta.json</artifactId>
+			<version>${jakarta.json}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- json libraries -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.jayway.jsonpath</groupId>
+			<artifactId>json-path</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- test utils -->
+		<dependency>
+			<groupId>nl.overheid.koop.plooi</groupId>
+			<artifactId>test-utils</artifactId>
+			<version>${test-utils.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- logging -->
+		<dependency>
+			<groupId>net.logstash.logback</groupId>
+			<artifactId>logstash-logback-encoder</artifactId>
+			<version>${logstash-logback-encoder.version}</version>
+		</dependency>
+		
+		<!-- cucumber dependencies -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit-platform-engine</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.masterthought</groupId>
+			<artifactId>cucumber-reporting</artifactId>
+			<version>${cucumber-reporting.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-suite</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- spring context integration with cucumber -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-spring</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Using this dependency to configure spring-context configuration
+			 so that we won't need SpringBoot heavy dependencies -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+		</dependency>
+	</dependencies>
+
+	<profiles>
+		<profile>
+			<id>integration-tests</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-failsafe-plugin</artifactId>
+						<executions>
+							<execution>
+								<goals>
+									<goal>integration-test</goal>
+								</goals>
+							</execution>
+						</executions>
+						<configuration>
+							<skipTests>false</skipTests>
+							<failIfNoTests>false</failIfNoTests>
+							<testSourceDirectory>${project.basedir}/src/test/java</testSourceDirectory>
+							<environmentVariables>
+								<SOLR_CORE_URL>${solr-core-url}</SOLR_CORE_URL>
+								<SEARCH_SERVICE_BASE_URL>${search-service-base-url}</SEARCH_SERVICE_BASE_URL>
+								<SEARCH_ACTUATOR_BASE_URL>${search-actuator-base-url}</SEARCH_ACTUATOR_BASE_URL>
+							</environmentVariables>
+						</configuration>
+					</plugin>
+					<plugin>
+						<groupId>org.jacoco</groupId>
+						<artifactId>jacoco-maven-plugin</artifactId>
+						<version>${maven-jacoco-plugin.version}</version>
+						<executions>
+							<execution>
+								<id>default-prepare-agent</id>
+								<configuration>
+									<skip>true</skip>
+								</configuration>
+							</execution>
+							<execution>
+								<id>default-dump</id>
+								<goals>
+									<goal>dump</goal>
+								</goals>
+								<phase>post-integration-test</phase>
+								<configuration>
+									<!-- TOOD: unable to make jacoco work locally -->
+									<skip>true</skip>
+									<destFile>${project.build.directory}/jacoco-it.exec</destFile>
+								</configuration>
+							</execution>
+							<execution>
+								<id>default-report</id>
+								<configuration>
+									<skip>true</skip>
+								</configuration>
+							</execution>
+							<execution>
+								<id>default-report-aggregate</id>
+								<goals>
+									<goal>report-aggregate</goal>
+								</goals>
+								<phase>verify</phase>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>integration-tests-compose</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>exec-maven-plugin</artifactId>
+						<version>3.0.0</version>
+						<executions>
+							<execution>
+								<id>docker-compose-up</id>
+								<phase>pre-integration-test</phase>
+								<goals>
+									<goal>exec</goal>
+								</goals>
+								<configuration>
+									<executable>docker</executable>
+									<arguments>
+										<argument>compose</argument>
+										<argument>--file</argument>
+										<argument>${basedir}/src/main/resources/docker-compose.yml</argument>
+										<argument>--project-name</argument>
+										<argument>${project.artifactId}</argument>
+										<argument>up</argument>
+										<argument>--detach</argument>
+									</arguments>
+								</configuration>
+							</execution>
+
+							<execution>
+								<id>docker-compose-down</id>
+								<phase>post-integration-test</phase>
+								<goals>
+									<goal>exec</goal>
+								</goals>
+								<configuration>
+									<executable>docker</executable>
+									<arguments>
+										<argument>compose</argument>
+										<argument>--file</argument>
+										<argument>${basedir}/src/main/resources/docker-compose.yml</argument>
+										<argument>--project-name</argument>
+										<argument>${project.artifactId}</argument>
+										<argument>down</argument>
+									</arguments>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+</project>

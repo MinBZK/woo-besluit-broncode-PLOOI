@@ -1,0 +1,54 @@
+<div class="container" *ngIf="document">
+    <strong>Aangeleverde document gegevens (laatste status)</strong>
+    <table class="table table--condensed table--striped">
+        <thead>
+        <tr>
+            <th scope="col" class="u-columnwidth-20p">Veld</th>
+            <th scope="col" class="u-columnwidth-50p">Waarde</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngIf="document.sourceLabel">
+            <td class=""><strong>bron</strong></td>
+            <td>{{document.sourceLabel}}</td>
+        </tr>
+        <tr *ngIf="document.extId">
+            <td class=""><strong>externe identifier</strong></td>
+            <td>{{document.extId}}</td>
+        </tr>
+        <tr *ngIf="document.dcnId">
+            <td class=""><strong>dcn identifier</strong></td>
+            <td>{{document.dcnId}}</td>
+        </tr>
+        <tr *ngIf="document.timeCreated">
+            <td class=""><strong>tijd created</strong></td>
+            <td>{{document.timeCreated | date : 'medium'}}</td>
+        </tr>
+        <tr *ngIf="document.timeUpdated">
+            <td class=""><strong>tijd updated</strong></td>
+            <td>{{document.timeUpdated | date : 'medium'}}</td>
+        </tr>
+        <tr *ngIf="document.lastSeverity">
+            <td class=""><strong>laatste severity</strong></td>
+            <td [style]="getSeverityColor(document.lastSeverity)">{{document.lastSeverity}}</td>
+        </tr>
+        <tr *ngIf="document.lastStage">
+            <td class=""><strong>laatste stage</strong></td>
+            <td>{{document.lastStage}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<ng-template [ngIf]="isLoading" [ngIfElse]="loaded">
+    <div class="loader-container">
+    <div class="loader">
+        <span>Een moment alstublieft</span>
+    </div>
+    </div>
+</ng-template>
+<ng-template #loaded>
+    <div class="align-center" *ngIf="!document">
+        <p class="align-center">Geen document gevonden</p>
+    </div>
+</ng-template>

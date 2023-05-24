@@ -1,0 +1,136 @@
+openapi: 3.0.3
+info:
+  title: Search service
+  description: Plooi zoek service
+  version: 1.0
+servers:
+  - description: Lokale ontwikkelomgeving
+    url: http://localhost:8030/v1
+  - description: Standaard Platform test omgeving
+    url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  - description: Standaard Platform acc omgeving
+    url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  - description: Standaard Platform productie omgeving
+    url:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+paths:
+  /_zoek:
+    post:
+      operationId: search
+      tags:
+        - zoek
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SearchRequest'
+      responses:
+        200:
+          description: Zoekresultaten
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchResponse'
+        400:
+          description: aangeleverd search request is niet geldig
+
+components:
+  schemas:
+    SearchRequest:
+      type: object
+      properties:
+        zoektekst:
+          description: zoek string
+          type: string
+        sorteer:
+          description: sorteer type
+          type: string
+        toonNietGepubliceerd:
+          description: toon gepubliceerd
+          type: boolean
+        start:
+          description: start van resultaten
+          type: integer
+          format: int64
+        aantal:
+          description: aantal resultaten
+          type: integer
+          format: int64
+        filters:
+          description: search filters
+          $ref: '#/components/schemas/SearchFilter'
+    SearchFilter:
+      type: object
+      properties:
+        verantwoordelijke:
+          type: array
+          items:
+            type: string
+        publisher:
+          type: array
+          items:
+            type: string
+        classificatiecollectie:
+          type: object
+          properties:
+            documentsoorten:
+              type: array
+              items:
+                type: string
+            themas:
+              type: array
+              items:
+                type: string
+            onderwerpRijksoverheid.nl:
+              type: array
+              items:
+                type: string
+        mutatiedatumtijd:
+          type: object
+          properties:
+            van:
+              type: string
+              format: date-time
+            tot:
+              type: string
+              format: date-time
+        openbaarmakingsdatum:
+          type: object
+          properties:
+            van:
+              type: string
+              format: date
+            tot:
+              type: string
+              format: date
+        id:
+          type: string
+        plooiIntern:
+          type: object
+          properties:
+            sourceLabel:
+              type: string
+            aanbieder:
+              type: string
+            extId:
+              type: string
+    SearchResponse:
+      type: object
+      properties:
+        totaal:
+          description: totaal van resultaten
+          type: integer
+          format: int64
+        start:
+          description: start van resultaten
+          type: integer
+          format: int64
+        aantal:
+          description: aantal resultaten
+          type: integer
+          format: int64
+        resultaten:
+          type: array
+          items:
+            $ref: 'plooi.yaml#/components/schemas/plooi' 

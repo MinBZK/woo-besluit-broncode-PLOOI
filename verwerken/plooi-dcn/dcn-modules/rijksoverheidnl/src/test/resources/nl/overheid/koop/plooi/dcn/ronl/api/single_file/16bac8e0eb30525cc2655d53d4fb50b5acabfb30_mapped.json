@@ -1,0 +1,48 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/ronl-16bac8e0eb30525cc2655d53d4fb50b5acabfb30",
+    "creatiedatum" : "1998-08-30T23:00:00.000Z",
+    "geldigheid" : {
+      "begindatum" : "2021-07-13"
+    },
+    "verantwoordelijke" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1058",
+      "label" : "ministerie van Justitie en Veiligheid"
+    },
+    "publisher" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/organisatie_onbekend",
+      "label" : "Onbekend"
+    },
+    "opsteller" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1010",
+      "label" : "ministerie van Algemene Zaken"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "omschrijvingen" : [ "Advies over auteursrecht, naburige rechten en de nieuwe media." ],
+    "titelcollectie" : {
+      "officieleTitel" : "Advies nieuwe media"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "type" : "overheid:Informatietype",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_3300f29a",
+        "label" : "rapport"
+      } ],
+      "themas" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/id/thema_onbekend",
+        "label" : "Onbekend"
+      } ]
+    }
+  },
+  "plooiIntern" : {
+    "dcnId" : "ronl-16bac8e0eb30525cc2655d53d4fb50b5acabfb30",
+    "aanbieder" : "Rijksoverheid.nl",
+    "extId" : [ "5afce6ec-a4ed-4c62-a6d5-168a59247678" ],
+    "sourceLabel" : "ronl"
+  }
+}

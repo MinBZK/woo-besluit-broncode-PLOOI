@@ -1,0 +1,66 @@
+{
+  "document" : {
+    "pid" : "https://test.open.overheid.nl/documenten/oep-8b3d7d3bb9df556ae725c0467c7edc9f5ed1f848",
+    "weblocatie" : "https://zoek.officielebekendmakingen.nl/h-ek-20202021-1-1.html",
+    "creatiedatum" : "2020-09-22",
+    "geldigheid" : {
+      "begindatum" : "2020-10-02"
+    },
+    "identifiers" : [ "h-ek-20202021-1-1" ],
+    "verantwoordelijke" : {
+      "type" : "overheid:AndereOrganisatie",
+      "id" : "https://identifier.overheid.nl/tooi/id/oorg/oorg10001",
+      "label" : "Eerste Kamer",
+      "bronwaarde" : "Eerste Kamer der Staten-Generaal"
+    },
+    "publisher" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/organisatie_onbekend",
+      "label" : "Onbekend"
+    },
+    "opsteller" : {
+      "type" : "overheid:AndereOrganisatie",
+      "id" : "https://identifier.overheid.nl/tooi/id/oorg/oorg10001",
+      "label" : "Eerste Kamer",
+      "bronwaarde" : "Eerste Kamer der Staten-Generaal"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "titelcollectie" : {
+      "officieleTitel" : "Presentie en opening"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "type" : "overheid:Informatietype",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_a17ef403",
+        "label" : "Handelingen"
+      } ],
+      "themas" : [ {
+        "type" : "plooi:Topthema",
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b",
+        "label" : "organisatie en bedrijfsvoering",
+        "bronwaarde" : "Parlement"
+      } ]
+    },
+    "extraMetadata" : [ {
+      "prefix" : "plooi.displayfield",
+      "velden" : [ {
+        "key" : "vergaderdatum",
+        "values" : [ "2020-09-22" ]
+      }, {
+        "key" : "vergaderjaar",
+        "values" : [ "2020-2021" ]
+      }, {
+        "key" : "documentsubsoort",
+        "values" : [ "Opening" ]
+      } ]
+    } ]
+  },
+  "plooiIntern" : {
+    "dcnId" : "oep-8b3d7d3bb9df556ae725c0467c7edc9f5ed1f848",
+    "aanbieder" : "officielebekendmakingen.nl",
+    "extId" : [ "dummy" ],
+    "sourceLabel" : "oep"
+  }
+}

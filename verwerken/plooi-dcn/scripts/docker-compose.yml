@@ -1,0 +1,50 @@
+version: '3'
+services:
+  postgres-service:
+    image: postgres:latest
+    container_name: postgres_service_container
+    networks:
+      - backend
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: dcn
+      POSTGRES_USERNAME: postgres
+      POSTGRES_PASSWORD:SSSSSSSS
+
+  solr-service:
+    image: solr:8.11.1
+    container_name: solr_service_container
+    networks:
+      - backend
+    restart: always
+    ports:
+      - "8983:8983"
+    command: "docker-entrypoint.sh solr-foreground -c"
+    
+  solr-config-batch:
+    image:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+    container_name: solr_config_batch_container
+    networks:
+      - backend
+    restart: "no"   #one time batch job for configuring solr
+    depends_on:
+      - solr-service
+    environment:
+      SOLR_HOST: solr-service:8983
+      ZK_HOST: solr-service:9983
+
+  mockserver:
+    image: mockserver/mockserver
+    container_name: mockserver_container
+    networks:
+      - backend
+    restart: always
+    ports:
+      - "80:1080"
+  
+networks:
+  backend:
+    driver: bridge
+    external: true

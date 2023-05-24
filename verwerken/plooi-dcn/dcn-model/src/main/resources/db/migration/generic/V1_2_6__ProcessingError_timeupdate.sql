@@ -1,0 +1,1 @@
+ALTER TABLE processingerrors DROP COLUMN time_updated;

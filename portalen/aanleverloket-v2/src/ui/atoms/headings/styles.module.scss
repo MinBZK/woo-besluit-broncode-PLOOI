@@ -1,0 +1,47 @@
+@import "../../colors.scss";
+@import "../../breakpoints.scss";
+@import "../../functions.scss";
+
+.heading {
+    color: $darkBlue;
+    margin: 0;
+
+    &__h1 {
+        font-size: em(24);
+        line-height: 1.1em !important;
+
+        @media (min-width: $breakpointDesktop) {
+            font-size: em(43);
+            line-height: 1em !important;
+
+        }
+    }
+
+    &__h2 {
+        font-size: em(20);
+        line-height: 1em !important;
+
+        @media (min-width: $breakpointDesktop) {
+            font-size: em(29);
+            line-height: em(20) !important;
+        }
+    }
+
+    &__h3 {
+        font-size: em(18);
+        line-height: 1em !important;
+        @media (min-width: $breakpointDesktop) {
+            font-size: em(22);
+        }
+    }
+
+    &__h4 {
+        font-size: 1em;
+        font-style: normal;
+    }
+
+    &__preview {
+        font-size: 1.25rem;
+        font-style: italic;
+    }
+}

@@ -1,0 +1,28 @@
+# Default values for plooi-solr-config.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+nameOverride: ""
+fullnameOverride: "plooi-portal-xslweb"
+
+image:
+  registry:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  image: plooi-portal-xslweb
+  pullPolicy: Always
+  # Overrides the image tag whose default is the chart appVersion:
+  tag: latest
+
+replicaCount: 1
+
+podLabels:
+
+deployment:
+  readinessDelay: 10
+  livelinessDelay: 10
+
+repositoryService: repository-service
+searchService: search-service
+
+ingress:
+  tlsEnabled: false
+  ingressClassName: nginx

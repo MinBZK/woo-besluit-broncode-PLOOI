@@ -1,0 +1,33 @@
+<div class="row--spacer"></div>
+<div  *ngIf="!errorMsg && (page.content && page.content.length)">
+    <h4>
+        Zie hieronder de gerelateerde Processing Errors voor de hierboven geselecteerde verwerkingsfase van dit document
+    </h4>
+    <table class="table table--condensed table--striped">
+        <thead>
+        <tr>
+            <th scope="col">Tijdstip</th>
+            <th scope="col">From route</th>
+            <th scope="col">Exception class</th>
+            <th scope="col">Exception message</th>
+            <th scope="col">Exception stacktrace</th>
+        </tr>
+        </thead>
+        <tbody *ngIf="page.totalElements">
+        <tr *ngFor="let document of page.content" (click)="openErrorDetail(document)">
+            <td>{{document.timeCreated}}</td>
+            <td>{{document.fromRoute}}</td>
+            <td>{{document.exceptionClass}}</td>
+            <td>{{document.exceptionMessage}}</td>
+            <td>{{document.exceptionStacktrace}}</td>
+        </tr>
+        </tbody>
+    </table>
+    <dcn-no-result [page]="page"></dcn-no-result>
+    <dcn-custom-pagination [page]="page"
+                           (nextPageEvent)="getNextPage($event)"
+                           (itemsPerPageEvent)="updateItemsPerPage($event)">
+    </dcn-custom-pagination>
+</div>
+
+<connection-error *ngIf="errorMsg" [message]="errorMsg"></connection-error>

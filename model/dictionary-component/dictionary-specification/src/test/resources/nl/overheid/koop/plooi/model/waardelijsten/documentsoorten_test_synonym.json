@@ -1,0 +1,9 @@
+[
+{
+  "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_0670bae1",
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Straatskoerantski"
+  } ]
+}
+]

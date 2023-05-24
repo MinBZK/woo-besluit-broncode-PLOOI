@@ -1,0 +1,39 @@
+image:
+  registry:SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+scheduleActive: false
+reposBackup: false
+logLevel: DEBUG
+extraJvmArgs: "-javaagent:/app/libs/org.jacoco.agent-0.8.8-runtime.jar=output=tcpserver,address=*,port=8082"
+
+extraPort:
+  enabled: yes
+  label: jacoco
+  port: 8082
+
+podLabels:
+  tier: vertrouwd
+  group: cucumber
+  ingress-controller-frontoffice-policy: allow
+  egress-frontoffice-policy: allow
+
+persistence:
+  enabled: no
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 5Gi
+  requests:
+    cpu: 250m
+    memory: 1Gi
+
+ingress:
+  ingressClassName: nginx
+  hostname:SSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+metrics:
+  enabled: false
+
+opentelemetry:
+  enabled: false

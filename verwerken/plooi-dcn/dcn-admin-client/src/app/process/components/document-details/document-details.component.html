@@ -1,0 +1,134 @@
+<router-outlet></router-outlet>
+<div class="container" *ngIf="!errorMsg && route.children.length == 0">
+    <div>
+        <div class="columns">
+            <dcn-document-data-base [plooiId]="plooiId"
+                                    (deletedFile)="updateDocumentStatus($event)">
+            </dcn-document-data-base>
+            <dcn-document-solr [internalId]="plooiId"></dcn-document-solr>
+        </div>
+        <div class="row--spacer"></div>
+        <div class="columns">
+            <div class="column">
+                <div class="columns">
+                    <div class="container">
+                        <div class="columns">
+                            <div  class="column column-d-9">
+                                <strong>Aangeleverde document bestanden</strong>
+                            </div>
+                        </div>
+                        <table class="table table&#45;&#45;condensed table&#45;&#45;striped table&#45;&#45;hover" style="margin-top: 5px">
+                            <tr *ngFor="let file of files">
+                                <td>
+                                    <div class="columns">
+                                        <div class="column-d-2">
+                                            <b>Versie: </b> {{file.nummer}}<br>
+                                        </div>
+                                        <div class="column-d-4">
+                                            <b>Oorzaak:</b> {{file.oorzaak}}
+                                        </div>
+                                        <div class="column-d-6 align-right">
+                                            <b>Datum:</b> {{file.mutatiedatumtijd | date: 'medium' }}<br>
+                                        </div>
+                                    </div>
+
+
+                                    <table class="table table&#45;&#45;condensed table&#45;&#45;striped table&#45;&#45;hover">
+                                        <tr>
+                                            <th scope="col" class="u-columnwidth-70p">Bestandsnaam</th>
+                                            <th scope="col" class="u-columnwidth-10p">Type</th>
+                                            <th scope="col" class="u-columnwidth-20p">Grootte</th>
+                                        </tr>
+                                        <tr *ngFor="let versie of file.bestanden">
+                                            <td>
+                                                <a (click)="getFile(versie.label, file.nummer)">{{versie.bestandsnaam}} </a>
+                                            </td>
+                                            <td>{{versie.label}}</td>
+                                            <td>{{versie.grootte | number}}</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="columns" style="margin-top: -30px">
+                            <div  class="column column-d-2">
+                            </div>
+                            <div class="column column-d-10 align-right">
+                                <button (click)="exportZipFile()" class="button button&#45;&#45;slim" type="button"><span class="divider">Zip downloaden</span>
+                                </button>
+                            </div>
+                        </div>
+                        <connection-error *ngIf="errorMsg" [message]="errorMsg"></connection-error>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="columns">
+                    <div class="container">
+                        <strong>Aangeleverde standaard bestanden</strong>
+                        <table class="table table&#45;&#45;condensed table&#45;&#45;striped">
+                            <thead>
+                            <tr>
+                                <th scope="col" class="u-columnwidth-20p">Type</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr *ngFor="let file of plooiFiles | keyvalue">
+                                <td *ngIf="file.key.startsWith('_')"><a (click)=openStandardFile(file)>{{file.key.toString() | slice:1}}</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <connection-error *ngIf="errorMsg" [message]="errorMsg"></connection-error>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row--spacer"></div>
+        <div class="container" *ngIf="page?.totalElements" id="events">
+            <h4>Klik op een severity om per event de gerelateerde Diagnostics en/of Processing errors te zien (beschikbaar als severity <> OK)</h4>
+            <table class="table table--condensed">
+                <thead>
+                <tr>
+                    <th scope="col">verwerkingsfase</th>
+                    <th scope="col">tijdstip</th>
+                    <th scope="col">execution_id</th>
+                    <th scope="col">severity</th>
+                </tr>
+                </thead>
+                <tbody *ngFor="let documentEvent of page?.content">
+                <tr>
+                    <td>{{documentEvent.stage}}</td>
+                    <td>{{documentEvent.timeCreated | date : 'medium' }}</td>
+                    <td><a [routerLink]="['/home/execution-details']" [queryParams]="{executionId: documentEvent.procesId}">{{documentEvent.procesId}}</a></td>
+                    <td *ngIf="documentEvent.severity != 'OK'" [style]="getSeverityColor(documentEvent.severity)"><a
+                            [style]="getSeverityFontColor(documentEvent.severity)" (click)="getException(documentEvent.id, documentEvent.severity)">
+                        {{documentEvent.severity}}</a></td>
+                    <td *ngIf="documentEvent.severity === 'OK'">{{documentEvent.severity}}</td>
+                </tr>
+                <tr *ngIf="documentEvent.severity === 'EXCEPTION'" [id]="documentEvent.id" style="display: none">
+                    <td colspan="6">
+                        <dcn-processing-error-row [id]="documentEvent.id"></dcn-processing-error-row>
+                    </td>
+                </tr>
+                <tr *ngIf="documentEvent.severity != 'EXCEPTION' || documentEvent.severity != 'OK'" [id]="documentEvent.id" style="display: none">
+                    <td colspan="6">
+                        <dcn-diagnostics-list [id]="documentEvent.id" [showPaging]="false"></dcn-diagnostics-list>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <dcn-no-result [page]="page"></dcn-no-result>
+            <dcn-custom-pagination [page]="page"
+                                   (nextPageEvent)="getNextPage($event)"
+                                   (itemsPerPageEvent)="updateItemsPerPage($event)">
+            </dcn-custom-pagination>
+            <dcn-diagnostics-list [documentEventId]="documentEventId"></dcn-diagnostics-list>
+            <dcn-processing-errors-list [documentEventId]="documentEventId" [excepties]="page.content[0].excepties"></dcn-processing-errors-list>
+        </div>
+        <div style="margin-top: 20px">
+            <dcn-document-actions [internalId]="plooiId" [showActions]="showActions" [isDeleted]="deleteDocument"
+                                  (refresh)="refresh($event)"></dcn-document-actions>
+        </div>
+    </div>
+</div>
+<connection-error *ngIf="errorMsg" [message]="errorMsg"></connection-error>

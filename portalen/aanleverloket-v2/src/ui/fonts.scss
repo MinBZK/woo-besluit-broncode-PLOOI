@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Font-Regular';
+    src: local('Font-Regular'), url(../../public/assets/fonts/ROsanswebtextregular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Font-Bold';
+    src: local('Font-Bold'), url(../../public/assets/fonts/ROsanswebtextbold.ttf) format('truetype');
+}
+
+$FONT_FAMILY_REGULAR: "Font-Regular";
+$FONT_FAMILY_BOLD: "Font-Bold";

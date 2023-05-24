@@ -1,0 +1,73 @@
+[
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_fbaa7e4b",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "richtlijn",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_d2a6707c",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "regeling",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_3300f29a",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "kaart",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_68c541a4",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "vergaderstuk",
+				"@language": "nl"
+			},
+			{
+				"@value": "parliamentarydocument",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_4f50ca9c",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "wob-verzoek",
+				"@language": "nl"
+			},
+            {
+                "@value": "woo-besluit",
+                "@language": "nl"
+            }
+        ]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_7eba29ad",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "mediatekst",
+				"@language": "nl"
+			}
+		]
+	},
+	{
+		"@id": "https://identifier.overheid.nl/tooi/def/thes/kern/c_d506b718",
+		"http://www.w3.org/2004/02/skos/core#altLabel": [
+			{
+				"@value": "adviesdocument",
+				"@language": "nl"
+			}
+		]
+	}
+]

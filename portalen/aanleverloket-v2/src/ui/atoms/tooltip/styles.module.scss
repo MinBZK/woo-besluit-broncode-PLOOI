@@ -1,0 +1,27 @@
+.tooltip {
+    position: relative;
+    width: fit-content;
+
+    & button {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 14px;
+        background-color: transparent;
+        border: 0;
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        margin: 0;
+        cursor: default;
+
+        &:hover
+        {
+            border: 0;
+            box-shadow: none;
+        }       
+
+        &:focus{
+            background-color: transparent;
+        }
+    }
+}

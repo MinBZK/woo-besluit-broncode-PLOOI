@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "mockserver.fullname" . }}
+  labels:
+    app.kubernetes.io/component: mockserver
+    {{- include "mockserver.labels" . | nindent 4 }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      {{- include "mockserver.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      labels:
+        {{- include "mockserver.labels" . | nindent 8 }}
+        {{- include "mockserver.selectorLabels" . | nindent 8 }}
+        {{- if .Values.podLabels }}
+          {{- include "common.tplvalues.render" (dict "value" .Values.podLabels "context" $) | nindent 8 }}
+        {{- end }}
+        timestamp: "{{ now | unixEpoch }}"
+    spec:
+      imagePullSecrets:
+        - name: harbor-puller
+      containers:
+        - name: {{ .Chart.Name }}
+          image: {{ .Values.image.registry }}mockserver/mockserver:{{ .Values.image.tag | default .Chart.AppVersion }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - name: mockserver-port
+              containerPort: 1080
+              protocol: TCP
+          livenessProbe:
+            tcpSocket:
+              port: mockserver-port
+            initialDelaySeconds: 200
+            timeoutSeconds: 5
+          readinessProbe:
+            tcpSocket:
+              port: mockserver-port
+            initialDelaySeconds: 200
+            timeoutSeconds: 5
+          {{- if .Values.resources }}
+          resources: {{- toYaml .Values.resources | nindent 12 }}
+          {{- end }}

@@ -1,0 +1,108 @@
+paths:
+
+  documenten_id:
+    get:
+      operationId: getLabels
+      description: |
+        Opvragen van alle labels en bijbehorende links voor dit PLOOI document
+      tags:
+        - Publiek
+      parameters:
+        - name: id
+          description: |
+            De identifier van het gevraagde bestand. De service herkent zowel de PLOOI identifier (pId) als DCN identifier.
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: map van labels en urls paden
+          content:
+            application/json:
+              schema:
+                type: object
+        400:
+          description: De gegeven identifier is niet correct
+        404:
+          description: De gegeven identifier bestaat niet
+        410:
+          description: Het document is ingetrokken en is niet opvraagbaar
+        500:
+          description: Er is een interne fout opgetreden
+
+  documenten_id_label:
+    get:
+      operationId: getFile
+      description: |
+        Opvragen van een bestand uit de repository.
+      tags:
+        - Publiek
+      parameters:
+        - name: id
+          description: |
+            De identifier van het gevraagde bestand. De service herkent zowel de PLOOI identifier (pId) als DCN identifier.
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: label
+          description: |
+            Het label van het gevraagde bestand. Dit kan een intern label zijn, of een aangeleverd label.
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: De inhoud van het bestand
+          content:
+            application/json:
+              schema:
+                type: string
+                format: binary
+        400:
+          description: De gegeven identifier is niet correct
+        404:
+          description: De gegeven identifier bestaat niet
+        410:
+          description: Het document is ingetrokken en is niet opvraagbaar
+        500:
+          description: Er is een interne fout opgetreden
+
+  repository_id_versieNummer_label_bestandsnaam:
+    get:
+      operationId: legacyFile
+      deprecated: true
+      description: |
+        Legacy operatie voor het opvragen van een specifiek bestand (in de laatste versie).
+        Deze redirect naar de operatie hierboven waarbij de 'versieNummer' en 'bestandsnaam' parameters genegeerd worden.
+      tags:
+        - Publiek
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: versieNummer
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: label
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: bestandsnaam
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        default:
+          content:
+            application/json:
+              schema:
+                type: string

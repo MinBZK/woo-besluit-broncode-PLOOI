@@ -1,0 +1,11 @@
+version: '3.0'
+services:
+  xslweb:
+    image: "koop-plooi/plooi-portal-xslweb:latest"
+    container_name: "xslweb"
+    ports:
+      - "9090:8080"
+    volumes:
+      - ${DCN_FRBR_REPOS_DIR}:/usr/local/repos:Z
+# Uncomment this and set $LOCAL_XSLWEB_DIR to point to ../xslweb/home
+#      - ${LOCAL_XSLWEB_DIR}:/usr/local/xslweb/home

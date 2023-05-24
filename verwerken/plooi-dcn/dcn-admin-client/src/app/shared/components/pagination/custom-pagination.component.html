@@ -1,0 +1,37 @@
+ <div class="row" *ngIf="page.totalElements > 0">
+    <div>
+        <div class="columns paging-row">
+            <div class="column sort_padding">
+                <span class="vet">Aantal:</span>
+                <ul class="sort__options  ">
+                    <li *ngFor="let item of items" (click)="updateItemsPerPage(item)">
+                        <a [ngClass]=" page.size == item ? 'is-active' : ''">
+                            <span class="visually-hidden">Toon </span>{{item}}
+                            <span class="visually-hidden"> resultaten per pagina</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column" *ngIf="page.totalPages > 1">
+                <div class="d-pull-right">
+                <div class="pagination">
+                    <div class="pagination__index">
+                        <ul>
+                            <li *ngIf="!page.first"><a (click)="previousPage()"><span class="">&laquo;</span></a></li>
+                            <li *ngIf="longNumbers && (currentPage > range)" (click)="clickPage(1)"><a>1</a></li>
+                            <li *ngIf="longNumbers && (currentPage > range + 1)" (click)="clickPage(currentPage - range)"><a>...</a></li>
+                            <li  *ngFor="let item of pageNumbers" [ngClass]="{'active': currentPage == item }">
+                                <a *ngIf="currentPage != item"  (click)="clickPage(item)">{{item}}</a>
+                                <span *ngIf="currentPage == item ">{{item}}</span>
+                            </li>
+                            <li (click)="clickPage(currentPage + range)" *ngIf="longNumbers && showDots"><a>...</a></li>
+                            <li *ngIf="(totalPages != currentPage) && (totalPages - currentPage > range) && this.longNumbers" (click)="clickPage(totalPages)"><a>{{totalPages}}</a></li>
+                            <li *ngIf="!page.last"><a (click)="nextPage()"><span class="">&raquo;</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>

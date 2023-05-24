@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plooi:plooi xmlns:plooi="http://standaarden.overheid.nl/plooi/terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <plooi:meta>
+        <plooi:owmskern>
+            <dcterms:identifier>tst-cdcd57e8e33bdbb43c5a0840e1a0975b336f2140</dcterms:identifier>
+            <dcterms:language>nl</dcterms:language>
+            <dcterms:type scheme="overheid:Informatietype" resourceIdentifier="https://identifier.overheid.nl/tooi/def/thes/kern/c_056a75e1">Kamerstuk</dcterms:type>
+            <dcterms:creator scheme="overheid:AndereOrganisatie" resourceIdentifier="https://identifier.overheid.nl/tooi/id/oorg/oorg10002">Tweede Kamer</dcterms:creator>
+            <dcterms:modified>2021-05-26</dcterms:modified>
+            <overheid:authority scheme="overheid:AndereOrganisatie" resourceIdentifier="https://identifier.overheid.nl/tooi/id/organisatie_onbekend">Onbekend</overheid:authority>
+        </plooi:owmskern>
+        <plooi:owmsmantel>
+            <dcterms:source resourceIdentifier="https://zoek.officielebekendmakingen.nl/kst-35842-4.html">https://zoek.officielebekendmakingen.nl/kst-35842-4.html</dcterms:source>
+            <dcterms:available>
+                <start>2021-05-26</start>
+                <end>2022-05-26</end>
+            </dcterms:available>
+            <dcterms:description xml:lang="nl">Wijziging van het voorstel van wet tot samenvoeging van de gemeenten Boxmeer, Cuijk, Mill en Sint Hubert en Sint Anthonis; Nader rapport; Advies Afdeling advisering Raad van State en Nader rapport</dcterms:description>
+            <dcterms:issued>2021-05-25</dcterms:issued>
+            <dcterms:subject>test</dcterms:subject>
+        </plooi:owmsmantel>
+        <plooi:othermeta>
+            <plooi:bronmeta>
+                <plooi:source-label>tst</plooi:source-label>
+                <dcterms:identifier>kst-35842-4</dcterms:identifier>
+                <plooi:creator resourceIdentifier="https://identifier.overheid.nl/tooi/id/oorg/oorg10002">Tweede Kamer</plooi:creator>
+                <plooi:authority resourceIdentifier="https://identifier.overheid.nl/tooi/id/organisatie_onbekend">Onbekend</plooi:authority>
+                <plooi:subject>test</plooi:subject>
+                <plooi:type resourceIdentifier="https://identifier.overheid.nl/tooi/def/thes/kern/c_056a75e1">Kamerstuk</plooi:type>
+            </plooi:bronmeta>
+        </plooi:othermeta>
+        <plooi:plooiipm>
+            <plooi:versie>1</plooi:versie>
+            <dcterms:identifier>tst-cdcd57e8e33bdbb43c5a0840e1a0975b336f2140</dcterms:identifier>
+            <plooi:informatiecategorie resourceIdentifier="https://identifier.overheid.nl/tooi/def/thes/kern/c_056a75e1">Kamerstuk</plooi:informatiecategorie>
+            <plooi:verantwoordelijke>Tweede Kamer</plooi:verantwoordelijke>
+            <plooi:topthema resourceIdentifier="https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b">organisatie en bedrijfsvoering</plooi:topthema>
+            <plooi:aanbieder>plooi</plooi:aanbieder>
+            <plooi:extrametadata name="plooi.displayfield.identificatienummer">kst-35842-4</plooi:extrametadata>
+            <plooi:extrametadata name="temp.test.literal">data1</plooi:extrametadata>
+            <plooi:extrametadata name="temp.test.dynamic">data2</plooi:extrametadata>
+        </plooi:plooiipm>
+    </plooi:meta>
+    <plooi:body>
+        <tekst xmlns="http://standaarden.overheid.nl/plooi/terms/">
+            <div xmlns="http://www.w3.org/1999/xhtml">Document tekst</div>
+            <div xmlns="http://www.w3.org/1999/xhtml">more tekst</div>
+        </tekst>
+    </plooi:body>
+</plooi:plooi>

@@ -1,0 +1,135 @@
+paths:
+
+  archief_export:
+    get:
+      operationId: exportZip
+      description: |
+        Exports the repository in ZIP format.
+
+        Example call, passing the location of a server side export file:
+
+            http://localhost:8080/dcn/repository/export?location=file:/some_dir/dcn_export.zip
+
+      tags:
+        - Afgeschermd
+      parameters:
+        - name: location
+          description: |
+            Optional URL referring to the export location.
+          in: query
+          required: false
+          schema:
+            type: string
+            format: url
+        - name: dcnId
+          description: |
+            Optional DCN identifier. When passed, only files for that identifier are exported.
+          in: query
+          required: false
+          schema:
+            type: string
+            example: ronl-0a00fdbd5add2e921acfd3e2c5d3c2d84e0fbc2c
+        - name: sample
+          description: |
+            Optional sample rate. For example, when passing sample=20, about 5% of the documents in the
+            repository is exported. When a dcnId is passed this parameter is ignored.
+          in: query
+          required: false
+          schema:
+            type: integer
+            default: 1
+      responses:
+        default:
+          description: |
+            Zipped export of the repository
+          content:
+            application/zip:
+              schema:
+                type: string
+                format: binary
+
+  archief_import:
+    post:
+      operationId: importZip
+      tags:
+        - Afgeschermd
+      description: |
+        Imports a posted repository export in ZIP format.
+
+        Example call, using CURL to post a local export file to the import service:
+
+            curl --data-binary @dcn_export-050222-131423.zip localhost:8080/dcn/repository/import
+
+      requestBody:
+        content:
+          application/zip:
+            description: |
+              The Zip file to import
+            schema:
+              type: string
+              format: binary
+      responses:
+        default:
+          description: |
+            Zip file is successfully imported
+          content:
+            application/json:
+              schema:
+                type: string
+    get:
+      operationId: importFromLocation
+      tags:
+        - Afgeschermd
+      description: |
+        Imports a referred repository export in ZIP format.
+
+        Example call, passing the location of a server side export file:
+
+            http://localhost:8080/dcn/repository/import?location=file:/some_dir/dcn_export-130522-182805.zip
+
+        Passing the location of the export end-point on another repository service. For example to load a sub-set of the
+        production data into a test/development environment:
+
+            http://test-dcn/dcn/repository/import?location=http://prod-dcn/dcn/repository/export?sample=20
+
+      parameters:
+        - name: location
+          description: |
+            URL referring to the export location.
+          in: query
+          required: true
+          schema:
+            type: string
+            format: url
+      responses:
+        default:
+          description: |
+            Zip file import is started and will continue in the background
+          content:
+            application/json:
+              schema:
+                type: string
+
+  archief_verwerken:
+    post:
+      operationId: process
+      description: |
+        Voer de gegeven verwerkingsactie uit op alle documenten.
+      tags:
+        - Afgeschermd
+      parameters:
+        - name: actie
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: procesId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        default:
+          description: |
+            De verwerking is gestart
+          content: {}

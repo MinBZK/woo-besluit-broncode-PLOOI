@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<officiele-publicatie xsi:noNamespaceSchemaLocation="http://technische-documentatie.oep.overheid.nl/repository/schemas/op-consolidated/op-consolidated_2014-05-15/xsd/op-xsd-2014-05-15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata>
+    <meta name="OVERHEIDop.externMetadataRecord" scheme="" content="https://zoek.officielebekendmakingen.nl/ah-tk-20202021-3235/metadata.xml"/>
+  </metadata>
+  <kamervragen>
+    <kamervraagkop>
+      <tekstregel inhoud="vergaderjaar">Vergaderjaar 2020-2021</tekstregel>
+      <tekstregel inhoud="kameraanduiding">Tweede Kamer der Staten-Generaal</tekstregel>
+      <tekstregel inhoud="kamernummer">2</tekstregel>
+      <tekstregel inhoud="documenttype">
+								Aanhangsel van de Handelingen
+							</tekstregel>
+      <tekstregel inhoud="overig">
+										Vragen gesteld door de leden der Kamer, met de daarop door
+										de regering gegeven antwoorden
+									</tekstregel>
+    </kamervraagkop>
+    <kamervraagnummer>3235</kamervraagnummer>
+    <kamervraagomschrijving type="vraag">Vragen van de leden <naam><achternaam>Van Weyenberg</achternaam></naam>, <naam><voornaam>Romke de </voornaam><achternaam>Jong</achternaam></naam> en <naam><achternaam>Kat</achternaam></naam> (allen D66) aan de Minister van Sociale Zaken en Werkgelegenheid over <kamervraagonderwerp>de TOZO</kamervraagonderwerp> (ingezonden <datum isodatum="2021-06-03">3 juni 2021</datum>).</kamervraagomschrijving>
+    <kamervraagomschrijving type="antwoord">Antwoord van Minister <naam><achternaam>Koolmees</achternaam></naam> (<organisatie afkorting="SZW">Sociale Zaken en Werkgelegenheid</organisatie>) (ontvangen <datum isodatum="2021-06-21">21 juni 2021</datum>).</kamervraagomschrijving>
+    <vraag>
+      <nr status="officieel">Vraag 1</nr>
+      <al>Klopt het dat de Tijdelijke overbruggingsregeling zelfstandig ondernemers (TOZO) en het Besluit bijstandverlening zelfstandigen (BBZ)-krediet beide voor zelfstandige ondernemers bedoeld zijn, beide een lening zijn uitgevoerd door gemeenten, maar beide wel een ander rentepercentage kennen?</al>
+    </vraag>
+    <antwoord>
+      <nr status="officieel">Antwoord 1</nr>
+      <al>Ja. Volledigheidshalve merk ik op dat beide vormen van kredietverstrekking, behalve overeenkomsten, ook belangrijke verschillen kennen. Zo kent de Tozo-lening bijvoorbeeld een beperkter doel van de lening en een beperktere doelgroep, een beperktere omvang van de maximale lening en een beperktere looptijd dan de lening op grond van het Besluit bijstandverlening zelfstandigen 2004 (Bbz).</al>
+    </antwoord>
+    <vraag>
+      <nr status="officieel">Vraag 2</nr>
+      <al>Kunt u toelichten waarom het rentepercentage voor de TOZO-lening op 2% is gesteld?</al>
+    </vraag>
+    <antwoord>
+      <nr status="officieel">Antwoord 2</nr>
+      <al>Bij de invoering van de Tozo is toegelicht waarom de hoogte van de rente is bepaald op 2% (<extref doc="stb-2020-118" soort="document" status="actief">Staatsblad 2020, 118</extref>). Bij de keuze voor de rente van 2% in het kader van geldleningen op grond van de Tozo is aangesloten bij het rentepercentage dat Qredits Microfinanciering Nederland (Qredits) hanteert voor het Corona Overbruggingskrediet in het kader van de tijdelijke noodmaatregelen. Qredits ondersteunt – gesubsidieerd vanuit het Rijk – in aanmerking komende ondernemingen via het Corona Overbruggingskrediet, waarbij de rente het eerste jaar 2% is en daarna 5,75%.</al>
+    </antwoord>
+    <vraag>
+      <nr status="officieel">Vraag 3</nr>
+      <al>Kunt u toelichten waarom het rentepercentage voor BBZ-krediet op 8% is gesteld?</al>
+    </vraag>
+    <antwoord>
+      <nr status="officieel">Antwoord 3</nr>
+      <al>Bij de hoogte van de rente in het Bbz geldt als uitgangspunt dat deze rente marktconform is en het niveau van de bankrente voor zakelijke kredieten volgt. De bijstand is aanvullend op voorliggende voorzieningen. Voor de zelfstandig ondernemer betekent dit dat een beroep op bijstand in de vorm van een lening voor bedrijfskapitaal niet mogelijk is indien via andere regelingen of instellingen, waaronder banken en Qredits, leningen kunnen worden aangetrokken. Het Bbz geldt als laatste vangnet. Het gaat hierbij om hoge risico’s en er zijn veelal geen mogelijkheden tot het stellen van zekerheden dat wordt terugbetaald. In artikel 15 van het Bbz is de hoogte van de rente marktconform vastgesteld op 8 procent. Het in het Bbz voorgeschreven rentepercentage is ongeveer gelijk aan het rentepercentage dat Qredits hanteert bij leningen voor bedrijfskapitaal.</al>
+    </antwoord>
+    <vraag>
+      <nr status="officieel">Vraag 4</nr>
+      <al>In hoeverre bent u van mening dat het verschil tussen die twee rentepercentages moeilijk uit te leggen is aan een ondernemer?</al>
+    </vraag>
+    <antwoord>
+      <nr status="officieel">Antwoord 4</nr>
+      <al>Zie de antwoorden op de vragen 2 en 3 voor een toelichting op het verschil. Het Bbz is een structurele regeling voor zelfstandigen die door specifieke omstandigheden omtrent hun bedrijf geen krediet bij banken kunnen krijgen. Een lagere rente hanteren in het Bbz zou leiden tot bezwaren inzake staatssteun en concurrentievervalsing. De Tozo is een tijdelijke noodregeling voor zelfstandigen die als gevolg van de coronacrisis worden geconfronteerd met een liquiditeitsprobleem. De Tozo dient ter overbrugging van de coronacrisis die niet als normaal ondernemersrisico kan worden aangemerkt. Ik acht het daarom goed uitlegbaar dat alleen in de Tozo een lagere, niet marktconforme rente wordt gehanteerd.</al>
+    </antwoord>
+    <vraag>
+      <nr status="officieel">Vraag 5</nr>
+      <al>In hoeverre bent u van mening dat een rentepercentage van 8% disproportioneel is in een markt waarin rentepercentages onder de 0 duiken?</al>
+    </vraag>
+    <antwoord>
+      <nr status="officieel">Antwoord 5</nr>
+      <al>Negatieve rentepercentages komen op de markt van zakelijke bedrijfskredieten met hoge risico’s zonder zekerheden niet voor. Een marktconforme rente van 8% acht ik niet disproportioneel.</al>
+    </antwoord>
+    <vraag>
+      <nr status="officieel">Vraag 6</nr>
+      <al>In hoeverre bent u van mening dat het voor ondernemers die een BBZ-krediet hebben enorm wrang is om te constateren dat zij met een TOZO-lening slechts 2% hadden kunnen betalen?</al>
+    </vraag>
+    <antwoord>
+      <nr status="officieel">Antwoord 6</nr>
+      <al>Bbz-gerechtigden kunnen, indien zij als gevolg van de coronacrisis worden geconfronteerd met een liquiditeitsprobleem, net als andere zelfstandig ondernemers in aanmerking komen voor een lening voor bedrijfskapitaal op grond van de Tozo met een rente van 2%.</al>
+    </antwoord>
+    <vraag>
+      <nr status="officieel">Vraag 7</nr>
+      <al>Bent u bekend met het feit dat BBZ-kredieten vaak door gemeenten als gift worden toegekend en om die reden een percentage van 8% nog minder verdedigbaar is?</al>
+    </vraag>
+    <antwoord>
+      <nr status="officieel">Antwoord 7</nr>
+      <al>Het in de vraagstelling geschetste beeld dat gemeenten «vaak» Bbz-kredieten verstrekken als gift herken ik niet. In de regel gaat het bij Bbz-kredieten om rentedragende leningen, waarbij de hoogte van de rente wettelijk is vastgesteld op 8 procent. Verstrekking van een Bbz-krediet in de vorm van bedrag om niet, ofwel een gift, kan slechts plaatsvinden in de situatie zoals beschreven in artikel 22 van het Bbz 2004. Het gaat daarbij om een relatief klein Bbz-krediet, namelijk tot maximaal 10.271 euro, dat uitsluitend kan worden verstrekt aan een gevestigde zelfstandige van wie het inkomen duurzaam lager is dan het toepasselijke sociaal minimum en van wie het vermogen minder bedraagt dan 197.687 euro.</al>
+    </antwoord>
+    <vraag>
+      <nr status="officieel">Vraag 8</nr>
+      <al>Klopt het dat gemeenten verplicht zijn om 8% rente in rekening te brengen bij het verstrekken van BBZ-krediet?</al>
+    </vraag>
+    <antwoord>
+      <nr status="officieel">Antwoord 8</nr>
+      <al>Ja. De hoogte van de rente op rentedragende leningen op grond van het Bbz bedraagt in alle gevallen 8%.</al>
+    </antwoord>
+    <vraag>
+      <nr status="officieel">Vraag 9</nr>
+      <al>Bent u bereid het rentepercentage van het BBZ-krediet te verlagen naar het percentage van de TOZO-lening van 2%?</al>
+    </vraag>
+    <antwoord>
+      <nr status="officieel">Antwoord 9</nr>
+      <al>Ik hecht eraan dat er in het kader van het reguliere Bbz een marktconforme rente wordt gehanteerd voor rentedragende leningen. Het structureel hanteren van een lagere, niet marktconforme rente dient te worden aangemerkt als staatssteun en kan leiden tot concurrentievervalsing.</al>
+      <al>Bovendien kent het Bbz, anders dan de Tozo, reeds de mogelijkheid om in beperkt aantal situaties over te gaan tot de verlening van bijstand in de behoefte aan bedrijfskapitaal als renteloze lening of als bijstand om niet.</al>
+    </antwoord>
+  </kamervragen>
+</officiele-publicatie>

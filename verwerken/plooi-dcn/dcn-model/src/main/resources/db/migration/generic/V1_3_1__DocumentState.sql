@@ -1,0 +1,12 @@
+ALTER TABLE DocumentState
+ADD COLUMN source_name VARCHAR(16);
+ALTER TABLE DocumentState
+ADD COLUMN external_id VARCHAR(1024);
+ALTER TABLE DocumentState
+ADD COLUMN time_created TIMESTAMP WITH TIME ZONE;
+ALTER TABLE DocumentState
+ADD COLUMN time_updated TIMESTAMP WITH TIME ZONE;
+ALTER TABLE DocumentState
+ADD COLUMN last_severity VARCHAR(32);
+ALTER TABLE DocumentState
+ADD COLUMN last_stage VARCHAR(32);

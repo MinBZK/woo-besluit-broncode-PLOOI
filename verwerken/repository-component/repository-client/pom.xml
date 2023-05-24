@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>nl.overheid.koop.plooi</groupId>
+        <artifactId>repository-component-parent</artifactId>
+        <version>1.0.2-SNAPSHOT</version>
+    </parent>
+    <artifactId>repository-client</artifactId>
+    <name>PLOOI Repository client</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>nl.overheid.koop.plooi</groupId>
+            <artifactId>repository-specification</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+         <dependency>
+            <groupId>nl.overheid.koop.plooi</groupId>
+            <artifactId>test-utils</artifactId>
+            <version>1.0.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>

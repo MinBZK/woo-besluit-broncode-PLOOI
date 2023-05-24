@@ -1,0 +1,525 @@
+[ {
+  "@id" : "https://identifier.overheid.nl/tooi/id/provincie/pv20",
+  "@type" : [ "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "provincie Groningen"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/afkorting" : [ {
+    "@value" : "GR"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort" : [ {
+    "@value" : "Groningen"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort" : [ {
+    "@value" : "provincie Groningen"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer" : [ {
+    "@value" : "groningen"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiecode" : [ {
+    "@value" : "pv20"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_358e6463"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/owmsId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://standaarden.overheid.nl/owms/terms/Groningen_(provincie)"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/provinciecode" : [ {
+    "@value" : "20"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort" : [ {
+    "@value" : "Groningen"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort" : [ {
+    "@value" : "provincie Groningen"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer" : [ {
+    "@value" : "groningen"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/id/provincie/pv21",
+  "@type" : [ "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "provincie Fryslân"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/afkorting" : [ {
+    "@value" : "FR"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort" : [ {
+    "@value" : "Fryslân"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort" : [ {
+    "@value" : "provincie Fryslân"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer" : [ {
+    "@value" : "fryslân"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiecode" : [ {
+    "@value" : "pv21"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_358e6463"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/owmsId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://standaarden.overheid.nl/owms/terms/Fryslan"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/provinciecode" : [ {
+    "@value" : "21"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort" : [ {
+    "@value" : "Fryslân"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort" : [ {
+    "@value" : "provincie Fryslân"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer" : [ {
+    "@value" : "fryslân"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/id/provincie/pv22",
+  "@type" : [ "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "provincie Drenthe"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/afkorting" : [ {
+    "@value" : "DR"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort" : [ {
+    "@value" : "Drenthe"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort" : [ {
+    "@value" : "provincie Drenthe"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer" : [ {
+    "@value" : "drenthe"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiecode" : [ {
+    "@value" : "pv22"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_358e6463"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/owmsId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://standaarden.overheid.nl/owms/terms/Drenthe"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/provinciecode" : [ {
+    "@value" : "22"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort" : [ {
+    "@value" : "Drenthe"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort" : [ {
+    "@value" : "provincie Drenthe"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer" : [ {
+    "@value" : "drenthe"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/id/provincie/pv23",
+  "@type" : [ "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "provincie Overijssel"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/afkorting" : [ {
+    "@value" : "OV"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort" : [ {
+    "@value" : "Overijssel"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort" : [ {
+    "@value" : "provincie Overijssel"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer" : [ {
+    "@value" : "overijssel"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiecode" : [ {
+    "@value" : "pv23"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_358e6463"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/owmsId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://standaarden.overheid.nl/owms/terms/Overijssel"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/provinciecode" : [ {
+    "@value" : "23"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort" : [ {
+    "@value" : "Overijssel"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort" : [ {
+    "@value" : "provincie Overijssel"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer" : [ {
+    "@value" : "overijssel"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/id/provincie/pv24",
+  "@type" : [ "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "provincie Flevoland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/afkorting" : [ {
+    "@value" : "FL"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort" : [ {
+    "@value" : "Flevoland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort" : [ {
+    "@value" : "provincie Flevoland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer" : [ {
+    "@value" : "flevoland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiecode" : [ {
+    "@value" : "pv24"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_358e6463"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/owmsId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://standaarden.overheid.nl/owms/terms/Flevoland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/provinciecode" : [ {
+    "@value" : "24"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort" : [ {
+    "@value" : "Flevoland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort" : [ {
+    "@value" : "provincie Flevoland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer" : [ {
+    "@value" : "flevoland"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/id/provincie/pv25",
+  "@type" : [ "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "provincie Gelderland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/afkorting" : [ {
+    "@value" : "GLD"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort" : [ {
+    "@value" : "Gelderland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort" : [ {
+    "@value" : "provincie Gelderland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer" : [ {
+    "@value" : "gelderland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiecode" : [ {
+    "@value" : "pv25"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_358e6463"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/owmsId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://standaarden.overheid.nl/owms/terms/Gelderland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/provinciecode" : [ {
+    "@value" : "25"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort" : [ {
+    "@value" : "Gelderland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort" : [ {
+    "@value" : "provincie Gelderland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer" : [ {
+    "@value" : "gelderland"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/id/provincie/pv26",
+  "@type" : [ "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "provincie Utrecht"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/afkorting" : [ {
+    "@value" : "UT"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort" : [ {
+    "@value" : "Utrecht"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort" : [ {
+    "@value" : "provincie Utrecht"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer" : [ {
+    "@value" : "utrecht"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiecode" : [ {
+    "@value" : "pv26"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_358e6463"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/owmsId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://standaarden.overheid.nl/owms/terms/Utrecht_(provincie)"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/provinciecode" : [ {
+    "@value" : "26"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort" : [ {
+    "@value" : "Utrecht"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort" : [ {
+    "@value" : "provincie Utrecht"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer" : [ {
+    "@value" : "utrecht"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/id/provincie/pv27",
+  "@type" : [ "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "provincie Noord-Holland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/afkorting" : [ {
+    "@value" : "NH"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort" : [ {
+    "@value" : "Noord-Holland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort" : [ {
+    "@value" : "provincie Noord-Holland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer" : [ {
+    "@value" : "noord-holland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiecode" : [ {
+    "@value" : "pv27"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_358e6463"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/owmsId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://standaarden.overheid.nl/owms/terms/Noord-Holland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/provinciecode" : [ {
+    "@value" : "27"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort" : [ {
+    "@value" : "Noord-Holland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort" : [ {
+    "@value" : "provincie Noord-Holland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer" : [ {
+    "@value" : "noord-holland"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/id/provincie/pv28",
+  "@type" : [ "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "provincie Zuid-Holland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/afkorting" : [ {
+    "@value" : "ZH"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort" : [ {
+    "@value" : "Zuid-Holland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort" : [ {
+    "@value" : "provincie Zuid-Holland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer" : [ {
+    "@value" : "zuid-holland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiecode" : [ {
+    "@value" : "pv28"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_358e6463"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/owmsId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://standaarden.overheid.nl/owms/terms/Zuid-Holland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/provinciecode" : [ {
+    "@value" : "28"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort" : [ {
+    "@value" : "Zuid-Holland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort" : [ {
+    "@value" : "provincie Zuid-Holland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer" : [ {
+    "@value" : "zuid-holland"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/id/provincie/pv29",
+  "@type" : [ "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "provincie Zeeland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/afkorting" : [ {
+    "@value" : "ZL"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort" : [ {
+    "@value" : "Zeeland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort" : [ {
+    "@value" : "provincie Zeeland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer" : [ {
+    "@value" : "zeeland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiecode" : [ {
+    "@value" : "pv29"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_358e6463"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/owmsId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://standaarden.overheid.nl/owms/terms/Zeeland_(provincie)"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/provinciecode" : [ {
+    "@value" : "29"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort" : [ {
+    "@value" : "Zeeland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort" : [ {
+    "@value" : "provincie Zeeland"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer" : [ {
+    "@value" : "zeeland"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/id/provincie/pv30",
+  "@type" : [ "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "provincie Noord-Brabant"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/afkorting" : [ {
+    "@value" : "NB"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort" : [ {
+    "@value" : "Noord-Brabant"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort" : [ {
+    "@value" : "provincie Noord-Brabant"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer" : [ {
+    "@value" : "noord-brabant"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiecode" : [ {
+    "@value" : "pv30"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_358e6463"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/owmsId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://standaarden.overheid.nl/owms/terms/Noord-Brabant"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/provinciecode" : [ {
+    "@value" : "30"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort" : [ {
+    "@value" : "Noord-Brabant"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort" : [ {
+    "@value" : "provincie Noord-Brabant"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer" : [ {
+    "@value" : "noord-brabant"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/id/provincie/pv31",
+  "@type" : [ "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "provincie Limburg"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/afkorting" : [ {
+    "@value" : "LB"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamExclSoort" : [ {
+    "@value" : "Limburg"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort" : [ {
+    "@value" : "provincie Limburg"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/officieleNaamSorteer" : [ {
+    "@value" : "limburg"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiecode" : [ {
+    "@value" : "pv31"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/organisatiesoort" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern/c_358e6463"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/owmsId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://standaarden.overheid.nl/owms/terms/Limburg"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/provinciecode" : [ {
+    "@value" : "31"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamExclSoort" : [ {
+    "@value" : "Limburg"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamInclSoort" : [ {
+    "@value" : "provincie Limburg"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/voorkeursnaamSorteer" : [ {
+    "@value" : "limburg"
+  } ]
+}, {
+  "@id" : "https://identifier.overheid.nl/tooi/set/rwc_provincies_compleet/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "https://identifier.overheid.nl/tooi/def/wl/RegisterwaardelijstCompleet" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Waardelijst met alle provincies die voor zover bekend op de zichtdatum bestaan hebben, bestaan of zullen bestaan."
+  } ],
+  "http://purl.org/pav/derivedFrom" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/id/provincie"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/def/thes/kern"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/ont"
+  }, {
+    "@id" : "https://identifier.overheid.nl/tooi/def/wl"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov"
+  }, {
+    "@id" : "http://purl.org/pav"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "Eerste versie waardelijst Register provincies compleet op zichtdatum 15-11-2021."
+  } ],
+  "http://www.w3.org/ns/prov#generatedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2021-11-15T17:20:45.278+01:00"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/publicatiedatum" : [ {
+    "@value" : "2021-11-15"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/titel" : [ {
+    "@value" : "Register provincies compleet"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/verantwoordelijke" : [ {
+    "@id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1034"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/ont/zichtdatum" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-11-15"
+  } ],
+  "https://identifier.overheid.nl/tooi/def/wl/volgnummer" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+} ]

@@ -1,0 +1,188 @@
+paths:
+
+  /statistieken:
+    description: |
+      Geeft een lijst van bronnen terug met voor elke bron bevat het aantal excepties, verwerkingenfouten en errors terug.
+      Deze operatie wordt gebruikt op de home pagina in Admin Tool. Totalen worden in de Admin Tool client side bepaald.
+    get:
+      tags:
+        - statistieken
+      operationId: getVerwerkingStatistieken
+      responses:
+        200:
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/VerwerkingStatistieken'
+
+  /statistieken/excepties:
+    description:
+      Geef een pagineerbare lijst van excepties voor een specifieke source, waarbij eventueel gefilterd kan worden op exceptie
+      class name. Deze operatie wordt gebruikt wanneer je op de home pagina in Admin Tool op een verwerkingsfouten telling klikt.
+    get:
+      tags:
+        - statistieken
+      operationId: getVerwerkingExcepties
+      parameters:
+        - name: sourceName
+          in: query
+          schema:
+            type: string
+        - name: exception
+          in: query
+          schema:
+            type: string
+        - $ref: "base.yaml#/components/parameters/pageNumber"
+        - $ref: "base.yaml#/components/parameters/pageSize"
+      responses:
+        200:
+          $ref: './registratieApi.yaml#/components/responses/found'
+
+  /statistieken/excepties/{bron}:
+    get:
+      description: |
+        Geeft een exceptie class names opsomming voor een specifieke bron.
+        Deze wordt gebruikt om op het verwerkingsfouten per bron overzicht in Admin Tool (getVerwerkingExcepties)
+        de exceptie class selectielijst te vullen.
+      tags:
+        - statistieken
+      operationId: getExceptiesByBron
+      parameters:
+        - name: bron
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: |
+            per pagina (pagina nummer, size, content), lijst van excepties class names voorkomend bij de bron
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+
+  /statistieken/diagnoses:
+    get:
+      description: |
+        Geeft tellingen terug van diagnoses voor een specifieke source en severity, per pagina (pagina nummer, size, content).
+        Deze operatie wordt gebruikt wanneer je op de home pagina in Admin Tool op een mappingwaarschuwing of -fout klikt.
+      tags:
+        - statistieken
+      operationId: getLaatsteVerwerkingDiagnoses
+      parameters:
+        - name: sourceLabel
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: severity
+          in: query
+          required: true
+          schema:
+            $ref: "severity.yaml#/components/schemas/Severity"
+        - $ref: "base.yaml#/components/parameters/pageNumber"
+        - $ref: "base.yaml#/components/parameters/pageSize"
+      responses:
+        200:
+          $ref: './registratieApi.yaml#/components/responses/found'
+
+  /statistieken/diagnoses/{bron}:
+    get:
+      description: |
+        Geef een pagineerbare lijst van documenten (dcnIds) met een specifieke mappingfout voor een specifieke source.
+        Deze operatie wordt gebruikt wanneer je op diagnose overzicht voor een specifieke source en severity (getLaatsteVerwerkingDiagnoses)
+        op een mappingwaarschuwing telling klikt.
+      tags:
+        - statistieken
+      operationId: getVerwerkingenWithDiagnoses
+      parameters:
+        - name: sourceName
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: target
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: sourceLabel
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: severity
+          in: query
+          required: true
+          schema:
+            $ref: "severity.yaml#/components/schemas/Severity"
+        - $ref: "base.yaml#/components/parameters/pageNumber"
+        - $ref: "base.yaml#/components/parameters/pageSize"
+      responses:
+        200:
+          $ref: './registratieApi.yaml#/components/responses/found'
+    post:
+      description: |
+        Voer een verwerking actie uit op een specifieke mappingfout voor een specifieke source.
+        Deze actie kan je uitvoeren wanneer je op de home pagina in Admin Tool op een mappingwaarschuwing of -fout klikt daarna klikt op opnieuw verwerking.
+      tags:
+        - statistieken
+      operationId: procesVerwekingActie
+      parameters:
+        - name: sourceName
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: target
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: sourceLabel
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: severity
+          in: query
+          required: true
+          schema:
+            $ref: "severity.yaml#/components/schemas/Severity"
+        - name: procesId
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: actie
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: actie op verwerkingen is gestart
+
+components:
+  schemas:
+
+    VerwerkingStatistieken:
+      type: object
+      properties:
+        sourceName:
+          type: string
+        processingErrorCount:
+          type: integer
+          format: int64
+        mappingErrorCount:
+          type: integer
+          format: int64
+        mappingWarningCount:
+          type: integer
+          format: int64

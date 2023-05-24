@@ -1,0 +1,61 @@
+{
+  "document" : {
+    "pid" : "https://open.overheid.nl/documenten/ronl-33904d06-99e2-48e7-9817-93f7134c407b",
+    "weblocatie" : "https://www.rijksoverheid.nl/documenten/wob-verzoeken/2021/10/05/besluit-wob-verzoek-over-circulaire-lobbyverbod-bewindspersonen",
+    "creatiedatum" : "2021-10-05",
+    "verantwoordelijke" : {
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1034",
+      "label" : "ministerie van Binnenlandse Zaken en Koninkrijksrelaties"
+    },
+    "opsteller" : {
+      "type" : "overheid:Ministerie",
+      "id" : "https://identifier.overheid.nl/tooi/id/ministerie/mnre1010",
+      "label" : "ministerie van Algemene Zaken"
+    },
+    "language" : {
+      "id" : "http://publications.europa.eu/resource/authority/language/NLD",
+      "label" : "Nederlands"
+    },
+    "omschrijvingen" : [ "De minister van Binnenlandse Zaken en Koninkrijksrelaties heeft op 5 oktober 2021 een besluit genomen op een verzoek in het kader van de Wet openbaarheid van bestuur. Het verzoek heeft betrekking op de circulaire `lobbyverbod bewindspersonen` voor het tijdvak 2019 tot en met heden. Het gaat om een verzoek op basis van de Wet openbaarheid van bestuur (Wob)." ],
+    "titelcollectie" : {
+      "officieleTitel" : "Besluit op Wob-verzoek over de circulaire `lobbyverbod bewindspersonen'"
+    },
+    "classificatiecollectie" : {
+      "documentsoorten" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/id/documentsoort_onbekend",
+        "label" : "Onbekend"
+      } ],
+      "themas" : [ {
+        "id" : "https://identifier.overheid.nl/tooi/def/thes/top/c_f37fd49d",
+        "label" : "inrichting van de overheid"
+      } ]
+    }
+  },
+  "plooiIntern" : {
+    "dcnId" : "ronl-7df9a9fa76304625a341568d1e20ebe61730b87c",
+    "aanbieder" : "Rijksoverheid.nl",
+    "extId" : [ "1de62e7a-6cb3-4872-bb25-54534424de58" ],
+    "sourceLabel" : "ronl"
+  },
+  "documentrelaties" : [ {
+    "relation" : "https://open.overheid.nl/documenten/ronl-b32d5baf-e55e-453d-bf9f-4af7a13d0b19",
+    "role" : "https://identifier.overheid.nl/plooi/def/thes/documentrelatie/onderdeel",
+    "titel" : "Besluit"
+  }, {
+    "relation" : "https://open.overheid.nl/documenten/ronl-d6359e30-a8cc-464f-bda2-756ca1e83aea",
+    "role" : "https://identifier.overheid.nl/plooi/def/thes/documentrelatie/onderdeel",
+    "titel" : "Bijlage"
+  } ],
+  "versies" : [ {
+    "nummer" : 1,
+    "oorzaak" : "aanlevering",
+    "bestanden" : [ {
+      "gepubliceerd" : false,
+      "label" : "xml",
+      "url" : "https://opendata.rijksoverheid.nl/v1/sources/rijksoverheid/documents/1de62e7a-6cb3-4872-bb25-54534424de58",
+      "bestandsnaam" : "1de62e7a-6cb3-4872-bb25-54534424de58.xml",
+      "titel" : "Besluit op Wob-verzoek over de circulaire `lobbyverbod bewindspersonen'",
+      "hash" : "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+    } ]
+  } ]
+}
