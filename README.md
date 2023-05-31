@@ -1,4 +1,4 @@
-# Broncode PLOOI appplicatie
+# Broncode PLOOI applicatie
 
 Het ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK) heeft een besluit genomen op een Woo-verzoek over de broncode van de PLOOI applicatie. Dit besluit is voor iedereen openbaar en is op www.rijksoverheid.nl gepubliceerd. 
 
